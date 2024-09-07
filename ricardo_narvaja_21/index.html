@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Ricardo Narvaja: Exámen 21 (Ejecutar la calculadora, con base de datos:ConsoleApplication4.pdb) | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/ricardo_narvaja_21/">
+      <span>Ricardo Narvaja: Exámen 21 (Ejecutar la calculadora, con base de datos:ConsoleApplication4.pdb)</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@cracking/">Cracking</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ricardo/">Ricardo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@narvaja/">Narvaja</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@examen/">Examen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@calculadora/">Calculadora</a></li>
+  
+</ul>
+
+<div class="content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">__thiscall</span> <span class="nf">sub_401050</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="n">this</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a3</span><span class="p">,</span> <span class="kt">int</span> <span class="o">*</span><span class="n">a4</span><span class="p">,</span> <span class="kt">int</span> <span class="o">*</span><span class="n">a5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">v6</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span> <span class="c1">// [esp+0h] [ebp-404h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">_DWORD</span> <span class="o">*</span><span class="n">v7</span><span class="p">;</span> <span class="c1">// [esp+400h] [ebp-4h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">v7</span> <span class="o">=</span> <span class="n">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401010</span><span class="p">(</span><span class="n">this</span><span class="p">,</span> <span class="n">a2</span><span class="p">,</span> <span class="n">a3</span><span class="p">,</span> <span class="n">a4</span><span class="p">,</span> <span class="n">a5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="n">v7</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">off_41A348</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">a2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">a3</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">a4</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">a2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">a5</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">a3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v7</span> <span class="o">+</span> <span class="mi">1024</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v7</span> <span class="o">+</span> <span class="mi">1025</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v7</span> <span class="o">+</span> <span class="mi">1026</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401010</span><span class="p">(</span><span class="n">v6</span><span class="p">,</span> <span class="n">a2</span><span class="p">,</span> <span class="n">a3</span><span class="p">,</span> <span class="n">a4</span><span class="p">,</span> <span class="n">a5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">v7</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">_DWORD</span> <span class="o">*</span><span class="n">__thiscall</span> <span class="nf">sub_401010</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="n">this</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a3</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a4</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="n">this</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">off_41A33C</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">a2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">a3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="n">a5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="n">a4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">LPVOID</span> <span class="kr">__cdecl</span> <span class="nf">sub_40C2D8</span><span class="p">(</span><span class="n">SIZE_T</span> <span class="n">dwBytes</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">SIZE_T</span> <span class="n">v1</span><span class="p">;</span> <span class="c1">// esi
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">LPVOID</span> <span class="n">result</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">v1</span> <span class="o">=</span> <span class="n">dwBytes</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">dwBytes</span> <span class="o">&gt;</span> <span class="mh">0xFFFFFFE0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nl">LABEL_8</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="nf">sub_40CBC6</span><span class="p">()</span> <span class="o">=</span> <span class="mi">12</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">dwBytes</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v1</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span> <span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">result</span> <span class="o">=</span> <span class="nf">HeapAlloc</span><span class="p">(</span><span class="n">hHeap</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">v1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span> <span class="n">result</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="nf">sub_40BC66</span><span class="p">()</span> <span class="o">||</span> <span class="o">!</span><span class="nf">sub_40AEC7</span><span class="p">(</span><span class="n">v1</span><span class="p">)</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">goto</span> <span class="n">LABEL_8</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">_BYTE</span> <span class="o">*</span><span class="kr">__cdecl</span> <span class="nf">sub_40ADB0</span><span class="p">(</span><span class="n">_BYTE</span> <span class="o">*</span><span class="n">a1</span><span class="p">,</span> <span class="n">_BYTE</span> <span class="o">*</span><span class="n">a2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">_BYTE</span> <span class="o">*</span><span class="n">v2</span><span class="p">;</span> <span class="c1">// edi
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">_BYTE</span> <span class="o">*</span><span class="n">v3</span><span class="p">;</span> <span class="c1">// ecx
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// edx
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v5</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">_BYTE</span> <span class="o">*</span><span class="n">result</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">v2</span> <span class="o">=</span> <span class="n">a1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v3</span> <span class="o">=</span> <span class="n">a2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="p">((</span><span class="kt">unsigned</span> <span class="kr">__int8</span><span class="p">)</span><span class="n">a2</span> <span class="o">&amp;</span> <span class="mi">3</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span> <span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nl">LABEL_6</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v5</span> <span class="o">=</span> <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v3</span> <span class="o">+</span> <span class="mi">2130640639</span><span class="p">)</span> <span class="o">^</span> <span class="o">~*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v4</span> <span class="o">=</span> <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v3</span> <span class="o">+=</span> <span class="mi">4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span> <span class="p">(</span><span class="n">v5</span> <span class="o">&amp;</span> <span class="mh">0x81010100</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="p">(</span><span class="n">_BYTE</span><span class="p">)</span><span class="n">v4</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="k">goto</span> <span class="n">LABEL_14</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="nf">BYTE1</span><span class="p">(</span><span class="n">v4</span><span class="p">)</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="o">*</span><span class="p">(</span><span class="n">_WORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v2</span> <span class="o">=</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="kr">__int8</span><span class="p">)</span><span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="k">return</span> <span class="n">a1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span> <span class="p">(</span><span class="n">v4</span> <span class="o">&amp;</span> <span class="mh">0xFF0000</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="o">*</span><span class="p">(</span><span class="n">_WORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v2</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="n">result</span> <span class="o">=</span> <span class="n">a1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="n">v2</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span> <span class="p">(</span><span class="n">v4</span> <span class="o">&amp;</span> <span class="mh">0xFF000000</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v2</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="k">return</span> <span class="n">a1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v2</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v2</span> <span class="o">+=</span> <span class="mi">4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span> <span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">LOBYTE</span><span class="p">(</span><span class="n">v4</span><span class="p">)</span> <span class="o">=</span> <span class="o">*</span><span class="n">v3</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="p">(</span><span class="n">_BYTE</span><span class="p">)</span><span class="n">v4</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="n">v2</span><span class="o">++</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="p">((</span><span class="kt">unsigned</span> <span class="kr">__int8</span><span class="p">)</span><span class="n">v3</span> <span class="o">&amp;</span> <span class="mi">3</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="k">goto</span> <span class="n">LABEL_6</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nl">LABEL_14</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="n">v2</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">a1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">sub_404E0C</span><span class="p">(</span><span class="kt">int</span> <span class="n">a1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nf">sub_404CCB</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span> <span class="n">a2</span><span class="p">,</span> <span class="n">a3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">_DWORD</span> <span class="o">*</span><span class="n">__thiscall</span> <span class="nf">sub_401010</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="n">this</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a3</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a4</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="n">this</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">off_41A33C</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">a2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">a3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="n">a5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="n">a4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v6</span><span class="p">[</span><span class="mi">500</span><span class="p">];</span> <span class="c1">// [esp+0h] [ebp-238h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v7</span><span class="p">;</span> <span class="c1">// [esp+1F4h] [ebp-44h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v8</span><span class="p">;</span> <span class="c1">// [esp+1F8h] [ebp-40h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v9</span><span class="p">;</span> <span class="c1">// [esp+1FCh] [ebp-3Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v10</span><span class="p">;</span> <span class="c1">// [esp+200h] [ebp-38h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v11</span><span class="p">;</span> <span class="c1">// [esp+204h] [ebp-34h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v12</span><span class="p">;</span> <span class="c1">// [esp+208h] [ebp-30h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v13</span><span class="p">;</span> <span class="c1">// [esp+20Ch] [ebp-2Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v14</span><span class="p">;</span> <span class="c1">// [esp+210h] [ebp-28h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v15</span><span class="p">;</span> <span class="c1">// [esp+214h] [ebp-24h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v16</span><span class="p">;</span> <span class="c1">// [esp+218h] [ebp-20h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v17</span><span class="p">;</span> <span class="c1">// [esp+21Ch] [ebp-1Ch] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v18</span><span class="p">;</span> <span class="c1">// [esp+220h] [ebp-18h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v19</span><span class="p">;</span> <span class="c1">// [esp+224h] [ebp-14h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v20</span><span class="p">;</span> <span class="c1">// [esp+228h] [ebp-10h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v21</span><span class="p">;</span> <span class="c1">// [esp+234h] [ebp-4h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">v17</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v15</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v16</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">off_421000</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">MessageBoxA</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s">&#34;A ejecutar la calculadora..</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;Vamosss&#34;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v14</span> <span class="o">=</span> <span class="nf">heapalloc</span><span class="p">(</span><span class="mi">1228</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v21</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">v14</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v13</span> <span class="o">=</span> <span class="nf">sub_401050</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v17</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v15</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v13</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v9</span> <span class="o">=</span> <span class="n">v13</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v21</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v18</span> <span class="o">=</span> <span class="n">v13</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_40ADB0</span><span class="p">(</span><span class="n">v13</span> <span class="o">+</span> <span class="mi">24</span><span class="p">,</span> <span class="s">&#34;San_Mastil&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_40ADB0</span><span class="p">(</span><span class="n">v18</span> <span class="o">+</span> <span class="mi">1027</span><span class="p">,</span> <span class="s">&#34;San_Mastil_Capital&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v18</span> <span class="o">+</span> <span class="mi">224</span><span class="p">)</span> <span class="o">=</span> <span class="s">&#34;Liga_trastornada&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Equipo de la B es %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="p">(</span><span class="n">v18</span> <span class="o">+</span> <span class="mi">24</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v12</span> <span class="o">=</span> <span class="nf">heapalloc</span><span class="p">(</span><span class="mi">1024</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v21</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">v12</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v11</span> <span class="o">=</span> <span class="nf">sub_401010</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v15</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v17</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v11</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v8</span> <span class="o">=</span> <span class="n">v11</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v21</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v19</span> <span class="o">=</span> <span class="n">v11</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_40ADB0</span><span class="p">(</span><span class="n">v11</span> <span class="o">+</span> <span class="mi">24</span><span class="p">,</span> <span class="s">&#34;Mal_Boys&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v19</span> <span class="o">+</span> <span class="mi">224</span><span class="p">)</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">v17</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Equipo de la A es %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="p">(</span><span class="n">v19</span> <span class="o">+</span> <span class="mi">24</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">**</span><span class="n">v19</span><span class="p">)(</span><span class="n">v19</span><span class="p">,</span> <span class="mi">2000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">**</span><span class="n">v18</span><span class="p">)(</span><span class="n">v18</span><span class="p">,</span> <span class="mi">1000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v18</span> <span class="o">+</span> <span class="mi">1026</span><span class="p">)</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Equipo de la A Descendio borrarlo de equipos de la A </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v7</span> <span class="o">=</span> <span class="n">v19</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401562</span><span class="p">(</span><span class="n">v19</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Ingrese largo de nombre de nuevo equipo ascendido a la A</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4014F0</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v16</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v20</span> <span class="o">=</span> <span class="nf">sub_404F69</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span> <span class="n">v20</span> <span class="o">!=</span> <span class="mi">10</span> <span class="o">&amp;&amp;</span> <span class="n">v20</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v10</span> <span class="o">=</span> <span class="nf">sub_40AEA8</span><span class="p">(</span><span class="n">v16</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Escriba nombre de nuevo equipo ascendido</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v3</span> <span class="o">=</span> <span class="nf">sub_404C47</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_404E0C</span><span class="p">(</span><span class="n">v10</span><span class="p">,</span> <span class="n">v16</span><span class="p">,</span> <span class="n">v3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v20</span> <span class="o">=</span> <span class="nf">sub_404F69</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span> <span class="n">v20</span> <span class="o">!=</span> <span class="mi">10</span> <span class="o">&amp;&amp;</span> <span class="n">v20</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Escriba nombre de la liga de equipo ascendido</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v4</span> <span class="o">=</span> <span class="nf">sub_404C47</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_404E0C</span><span class="p">(</span><span class="n">v6</span><span class="p">,</span> <span class="mi">500</span><span class="p">,</span> <span class="n">v4</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v20</span> <span class="o">=</span> <span class="nf">sub_404F69</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span> <span class="n">v20</span> <span class="o">!=</span> <span class="mi">10</span> <span class="o">&amp;&amp;</span> <span class="n">v20</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">**</span><span class="p">(</span><span class="n">v19</span> <span class="o">+</span> <span class="mi">20</span><span class="p">)</span> <span class="o">=</span> <span class="n">v15</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4021E0</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">v19</span> <span class="o">+</span> <span class="mi">224</span><span class="p">),</span> <span class="n">v6</span><span class="p">,</span> <span class="mi">200</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Nombre de nuevo equipo ascendido</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">off_421000</span><span class="p">(</span><span class="n">v10</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Nombre de la liga de equipo ascendido</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">off_421000</span><span class="p">(</span><span class="n">v6</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v6</span><span class="p">[</span><span class="mi">500</span><span class="p">];</span> <span class="c1">// [esp+0h] [ebp-238h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v7</span><span class="p">;</span> <span class="c1">// [esp+1F4h] [ebp-44h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v8</span><span class="p">;</span> <span class="c1">// [esp+1F8h] [ebp-40h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v9</span><span class="p">;</span> <span class="c1">// [esp+1FCh] [ebp-3Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v10</span><span class="p">;</span> <span class="c1">// [esp+200h] [ebp-38h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v11</span><span class="p">;</span> <span class="c1">// [esp+204h] [ebp-34h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v12</span><span class="p">;</span> <span class="c1">// [esp+208h] [ebp-30h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v13</span><span class="p">;</span> <span class="c1">// [esp+20Ch] [ebp-2Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v14</span><span class="p">;</span> <span class="c1">// [esp+210h] [ebp-28h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v15</span><span class="p">;</span> <span class="c1">// [esp+214h] [ebp-24h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v16</span><span class="p">;</span> <span class="c1">// [esp+218h] [ebp-20h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v17</span><span class="p">;</span> <span class="c1">// [esp+21Ch] [ebp-1Ch] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v18</span><span class="p">;</span> <span class="c1">// [esp+220h] [ebp-18h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v19</span><span class="p">;</span> <span class="c1">// [esp+224h] [ebp-14h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v20</span><span class="p">;</span> <span class="c1">// [esp+228h] [ebp-10h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v21</span><span class="p">;</span> <span class="c1">// [esp+234h] [ebp-4h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">v17</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v15</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v16</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">off_421000</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">MessageBoxA</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s">&#34;A ejecutar la calculadora..</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;Vamosss&#34;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v14</span> <span class="o">=</span> <span class="nf">heapalloc</span><span class="p">(</span><span class="mi">1228</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v21</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">v14</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v13</span> <span class="o">=</span> <span class="nf">sub_401050</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v17</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v15</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v13</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v9</span> <span class="o">=</span> <span class="n">v13</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v21</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v18</span> <span class="o">=</span> <span class="n">v13</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_40ADB0</span><span class="p">(</span><span class="n">v13</span> <span class="o">+</span> <span class="mi">24</span><span class="p">,</span> <span class="s">&#34;San_Mastil&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_40ADB0</span><span class="p">(</span><span class="n">v18</span> <span class="o">+</span> <span class="mi">1027</span><span class="p">,</span> <span class="s">&#34;San_Mastil_Capital&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v18</span> <span class="o">+</span> <span class="mi">224</span><span class="p">)</span> <span class="o">=</span> <span class="s">&#34;Liga_trastornada&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Equipo de la B es %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="p">(</span><span class="n">v18</span> <span class="o">+</span> <span class="mi">24</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v12</span> <span class="o">=</span> <span class="nf">heapalloc</span><span class="p">(</span><span class="mi">1024</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v21</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">v12</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v11</span> <span class="o">=</span> <span class="nf">sub_401010</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v15</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v17</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v11</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v8</span> <span class="o">=</span> <span class="n">v11</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v21</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v19</span> <span class="o">=</span> <span class="n">v11</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_40ADB0</span><span class="p">(</span><span class="n">v11</span> <span class="o">+</span> <span class="mi">24</span><span class="p">,</span> <span class="s">&#34;Mal_Boys&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v19</span> <span class="o">+</span> <span class="mi">224</span><span class="p">)</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">v17</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Equipo de la A es %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="p">(</span><span class="n">v19</span> <span class="o">+</span> <span class="mi">24</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">**</span><span class="n">v19</span><span class="p">)(</span><span class="n">v19</span><span class="p">,</span> <span class="mi">2000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">**</span><span class="n">v18</span><span class="p">)(</span><span class="n">v18</span><span class="p">,</span> <span class="mi">1000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v18</span> <span class="o">+</span> <span class="mi">1026</span><span class="p">)</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Equipo de la A Descendio borrarlo de equipos de la A </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v7</span> <span class="o">=</span> <span class="n">v19</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401562</span><span class="p">(</span><span class="n">v19</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Ingrese largo de nombre de nuevo equipo ascendido a la A</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4014F0</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v16</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v20</span> <span class="o">=</span> <span class="nf">sub_404F69</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span> <span class="n">v20</span> <span class="o">!=</span> <span class="mi">10</span> <span class="o">&amp;&amp;</span> <span class="n">v20</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v10</span> <span class="o">=</span> <span class="nf">sub_40AEA8</span><span class="p">(</span><span class="n">v16</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Escriba nombre de nuevo equipo ascendido</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v3</span> <span class="o">=</span> <span class="nf">sub_404C47</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_404E0C</span><span class="p">(</span><span class="n">v10</span><span class="p">,</span> <span class="n">v16</span><span class="p">,</span> <span class="n">v3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v20</span> <span class="o">=</span> <span class="nf">sub_404F69</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span> <span class="n">v20</span> <span class="o">!=</span> <span class="mi">10</span> <span class="o">&amp;&amp;</span> <span class="n">v20</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Escriba nombre de la liga de equipo ascendido</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v4</span> <span class="o">=</span> <span class="nf">sub_404C47</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_404E0C</span><span class="p">(</span><span class="n">v6</span><span class="p">,</span> <span class="mi">500</span><span class="p">,</span> <span class="n">v4</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v20</span> <span class="o">=</span> <span class="nf">sub_404F69</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span> <span class="n">v20</span> <span class="o">!=</span> <span class="mi">10</span> <span class="o">&amp;&amp;</span> <span class="n">v20</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">**</span><span class="p">(</span><span class="n">v19</span> <span class="o">+</span> <span class="mi">20</span><span class="p">)</span> <span class="o">=</span> <span class="n">v15</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4021E0</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">v19</span> <span class="o">+</span> <span class="mi">224</span><span class="p">),</span> <span class="n">v6</span><span class="p">,</span> <span class="mi">200</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Nombre de nuevo equipo ascendido</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">off_421000</span><span class="p">(</span><span class="n">v10</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Nombre de la liga de equipo ascendido</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">off_421000</span><span class="p">(</span><span class="n">v6</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

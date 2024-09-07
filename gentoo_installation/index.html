@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Gentoo basic installation | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/gentoo_installation/">
+      <span>Gentoo basic installation</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@gentoo/">Gentoo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@install/">Install</a></li>
+  
+</ul>
+
+<div class="content"><p>Tiene que ser más grande que 5 gb la partición root
+Crea una particion de efi de por lo menos 300 megas, otra de swap de 4gb, y el espacio que sobra para ext4</p>
+<p>Si no lo quieren hacer con cfdisk lo pueden hacer con fdisk de la siguiente manera:</p>
+<h3 id="particionamiento">Particionamiento</h3>
+<h3 id="bios-legacy">bios legacy</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">o (gpt disk label)
+</span></span></span><span class="line"><span class="cl"><span class="go">n
+</span></span></span><span class="line"><span class="cl"><span class="go">p
+</span></span></span><span class="line"><span class="cl"><span class="go">1 (partition number [1/128])
+</span></span></span><span class="line"><span class="cl"><span class="go">2048 first sector
+</span></span></span><span class="line"><span class="cl"><span class="go">+1G last sector (boot sector size)
+</span></span></span><span class="line"><span class="cl"><span class="go">t
+</span></span></span><span class="line"><span class="cl"><span class="go">swap (EFI System)
+</span></span></span><span class="line"><span class="cl"><span class="go">n
+</span></span></span><span class="line"><span class="cl"><span class="go">p
+</span></span></span><span class="line"><span class="cl"><span class="go">2
+</span></span></span><span class="line"><span class="cl"><span class="go">default (fill up partition)
+</span></span></span><span class="line"><span class="cl"><span class="go">default (fill up partition)
+</span></span></span><span class="line"><span class="cl"><span class="go">w (write)
+</span></span></span></code></pre></div><h4 id="uefi-gpt">uefi (gpt)</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">g <span class="o">(</span>gpt disk label<span class="o">)</span>
+</span></span><span class="line"><span class="cl">n
+</span></span><span class="line"><span class="cl"><span class="m">1</span> <span class="o">(</span>partition number <span class="o">[</span>1/128<span class="o">])</span>
+</span></span><span class="line"><span class="cl"><span class="m">2048</span> first sector
+</span></span><span class="line"><span class="cl">+300M last sector <span class="o">(</span>boot sector size<span class="o">)</span>
+</span></span><span class="line"><span class="cl">t
+</span></span><span class="line"><span class="cl"><span class="m">1</span> <span class="o">(</span>EFI System<span class="o">)</span>
+</span></span><span class="line"><span class="cl">n
+</span></span><span class="line"><span class="cl">p
+</span></span><span class="line"><span class="cl"><span class="m">2</span>
+</span></span><span class="line"><span class="cl">default
+</span></span><span class="line"><span class="cl">+4G
+</span></span><span class="line"><span class="cl">t
+</span></span><span class="line"><span class="cl"><span class="m">2</span>
+</span></span><span class="line"><span class="cl">swap
+</span></span><span class="line"><span class="cl">n
+</span></span><span class="line"><span class="cl">p
+</span></span><span class="line"><span class="cl"><span class="m">3</span>
+</span></span><span class="line"><span class="cl">default <span class="o">(</span>fill up partition<span class="o">)</span>
+</span></span><span class="line"><span class="cl">default <span class="o">(</span>fill up partition<span class="o">)</span>
+</span></span><span class="line"><span class="cl">w <span class="o">(</span>write<span class="o">)</span>
+</span></span></code></pre></div><h3 id="instalación">Instalación</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">mkfs.ext4 /dev/sda3 (root partition)
+</span></span></span><span class="line"><span class="cl"><span class="go">mkswap /dev/sda2 (swap partition)
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">mount /dev/sda3 /mnt/gentoo (no lo montes en /mnt o se romperá todo tu sistema)
+</span></span></span><span class="line"><span class="cl"><span class="go">swapon /dev/sda2 (swap_partition)
+</span></span></span><span class="line"><span class="cl"><span class="go">cd /mnt/gentoo
+</span></span></span><span class="line"><span class="cl"><span class="go">links gentoo.org/downloads/mirrors/
+</span></span></span><span class="line"><span class="cl"><span class="go">Public Mirrors -&gt; releases -&gt; amd64 -&gt; autobuils -&gt; stage3-amd64-musl.tar.xz -&gt; download and save
+</span></span></span><span class="line"><span class="cl"><span class="go">exit links
+</span></span></span><span class="line"><span class="cl"><span class="go">tar xvf stage3-amd64-musl.tar.xz
+</span></span></span><span class="line"><span class="cl"><span class="go">mount -t proc none proc
+</span></span></span><span class="line"><span class="cl"><span class="go">mount --rbind /dev dev
+</span></span></span><span class="line"><span class="cl"><span class="go">mount --rbind /sys sys
+</span></span></span><span class="line"><span class="cl"><span class="go">mount --rbind /run run
+</span></span></span><span class="line"><span class="cl"><span class="go">cp -L /etc/resolv.conf etc/
+</span></span></span><span class="line"><span class="cl"><span class="go">chroot . /bin/bash -l
+</span></span></span><span class="line"><span class="cl"><span class="go">nano /etc/portage/make.conf
+</span></span></span><span class="line"><span class="cl"><span class="go">MAKEOPTS=&#34;-j8&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">emerge-webrsync
+</span></span></span><span class="line"><span class="cl"><span class="go">emerge gentoo-kernel-bin grub neofetch
+</span></span></span><span class="line"><span class="cl"><span class="go">grub-install /dev/sda
+</span></span></span><span class="line"><span class="cl"><span class="go">grub-mkconfig -o /boot/grub/grub.cfg
+</span></span></span><span class="line"><span class="cl"><span class="go">passwd
+</span></span></span><span class="line"><span class="cl"><span class="go">exit
+</span></span></span><span class="line"><span class="cl"><span class="go">reboot
+</span></span></span></code></pre></div><p>Done</p>
+<h4 id="instalacion-de-gentoo-de-denshivideo">Instalacion de Gentoo de DenshiVideo</h4>
+<p><a href="https://m.youtube.com/watch?v=J7W9MItUSGw">https://m.youtube.com/watch?v=J7W9MItUSGw</a></p>
+<p>cfdisk /dev/sda</p>
+<p>Ya expliqué  la diferencia entre gpt o dos en el tutorial de archlinux.</p>
+<p>Creá 3 particiones 100M, la mitad de tu RAM para el swap, y la otra partición con lo que sobra.</p>
+<p>Verificá que se hizo bien con: lsblk</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mkfs.fat -F 32 /dev/sda1
+</span></span><span class="line"><span class="cl">mkswap /dev/sda2
+</span></span><span class="line"><span class="cl">mkdir /mnt/gentoo
+</span></span><span class="line"><span class="cl">mount /dev/sda3 /mnt/gentoo
+</span></span><span class="line"><span class="cl">cd /mnt/gentoo
+</span></span></code></pre></div><p><a href="https://www.gentoo.org/downloads/">https://www.gentoo.org/downloads/</a></p>
+<p>Elegí stage3 (openrc o systemd)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">distfiles</span><span class="o">.</span><span class="n">gentoo</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">releases</span><span class="o">/</span><span class="n">amd64</span><span class="o">/</span><span class="n">autobuilds</span><span class="o">/</span><span class="mi">20240811</span><span class="n">T170405Z</span><span class="o">/</span><span class="n">stage3</span><span class="o">-</span><span class="n">amd64</span><span class="o">-</span><span class="n">openrc</span><span class="o">-</span><span class="mi">20240811</span><span class="n">T170405Z</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">xz</span>
+</span></span><span class="line"><span class="cl"><span class="n">tar</span> <span class="n">xpvf</span> <span class="n">stage3</span><span class="o">*.</span><span class="n">tar</span><span class="o">.</span><span class="n">xz</span> <span class="o">--</span><span class="n">xattrs</span><span class="o">-</span><span class="n">include</span><span class="o">=</span><span class="s1">&#39;*.*&#39;</span> <span class="o">--</span><span class="n">numeric</span><span class="o">-</span><span class="n">owner</span> 
+</span></span><span class="line"><span class="cl"><span class="n">vim</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">gentoo</span><span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">portage</span><span class="o">/</span><span class="n">make</span><span class="o">.</span><span class="n">conf</span>
+</span></span><span class="line"><span class="cl"><span class="n">MAKEOPTS</span><span class="o">=</span><span class="s2">&#34;-j5&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">## Busca los mirrors en Downloads(gentoo)</span>
+</span></span><span class="line"><span class="cl"><span class="n">GENTOO_MIRRORS</span><span class="o">=</span><span class="s2">&#34;https://ftp.linux.org.tr/gentoo/&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">cp</span> <span class="o">--</span><span class="n">dereference</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">resolv</span><span class="o">.</span><span class="n">conf</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">gentoo</span><span class="o">/</span><span class="n">etc</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl"><span class="n">mount</span> <span class="o">--</span><span class="n">types</span> <span class="n">proc</span> <span class="o">/</span><span class="n">proc</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">gentoo</span><span class="o">/</span><span class="n">proc</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl"><span class="n">mount</span> <span class="o">--</span><span class="n">rbind</span> <span class="o">/</span><span class="n">sys</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">gentoo</span><span class="o">/</span><span class="n">sys</span>
+</span></span><span class="line"><span class="cl"><span class="n">mount</span> <span class="o">--</span><span class="n">make</span><span class="o">-</span><span class="n">rslave</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">gentoo</span><span class="o">/</span><span class="n">sys</span>
+</span></span><span class="line"><span class="cl"><span class="n">mount</span> <span class="o">--</span><span class="n">rbind</span> <span class="o">/</span><span class="n">dev</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">gentoo</span><span class="o">/</span><span class="n">dev</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl"><span class="n">mount</span> <span class="o">--</span><span class="n">make</span><span class="o">-</span><span class="n">rslave</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">gentoo</span><span class="o">/</span><span class="n">dev</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl"><span class="c1">### Cuando usas un medio de instalación que no es Gentoo:</span>
+</span></span><span class="line"><span class="cl"><span class="n">test</span> <span class="o">-</span><span class="n">L</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">shm</span> <span class="o">&amp;&amp;</span> <span class="n">rm</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">shm</span> <span class="o">&amp;&amp;</span> <span class="n">mkdir</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">shm</span>
+</span></span><span class="line"><span class="cl"><span class="n">mount</span> <span class="o">--</span><span class="n">types</span> <span class="n">tmpfs</span> <span class="o">--</span><span class="n">options</span> <span class="n">nosuid</span><span class="p">,</span><span class="n">nodev</span><span class="p">,</span><span class="n">noexec</span> <span class="n">shm</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">shm</span>
+</span></span><span class="line"><span class="cl"><span class="n">chmod</span> <span class="mi">1777</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">shm</span>
+</span></span><span class="line"><span class="cl"><span class="n">ls</span> <span class="o">-</span><span class="n">l</span> <span class="o">/</span><span class="n">run</span><span class="o">/</span><span class="n">shm</span>
+</span></span><span class="line"><span class="cl"><span class="n">chroot</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">gentoo</span> <span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">bash</span>
+</span></span><span class="line"><span class="cl"><span class="n">source</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">profile</span>
+</span></span><span class="line"><span class="cl"><span class="k">export</span> <span class="n">PS1</span><span class="o">=</span><span class="s2">&#34;(chroot) ${PS1}&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">emerge</span><span class="o">-</span><span class="n">webrsync</span> 
+</span></span><span class="line"><span class="cl"><span class="n">eselect</span> <span class="n">news</span> <span class="n">list</span>
+</span></span><span class="line"><span class="cl"><span class="n">eselect</span> <span class="n">news</span> <span class="n">read</span> <span class="mi">10</span> <span class="o">|</span> <span class="n">less</span>
+</span></span><span class="line"><span class="cl"><span class="n">eselect</span> <span class="n">profile</span> <span class="n">list</span>
+</span></span><span class="line"><span class="cl"><span class="n">eselect</span> <span class="n">profile</span> <span class="n">set</span> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl"><span class="n">emerge</span> <span class="o">--</span><span class="n">info</span>
+</span></span><span class="line"><span class="cl"><span class="c1">### Flags/banderas.</span>
+</span></span><span class="line"><span class="cl"><span class="n">emerge</span> <span class="o">--</span><span class="n">info</span> <span class="o">|</span> <span class="n">grep</span> <span class="o">^</span><span class="n">USE</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">portage</span><span class="o">/</span><span class="n">make</span><span class="o">.</span><span class="n">conf</span>
+</span></span><span class="line"><span class="cl"><span class="c1">## La unica forma de sacarte alguna bandera es agregando un - en frente de la palabra.</span>
+</span></span><span class="line"><span class="cl"><span class="n">En</span> <span class="n">este</span> <span class="n">caso</span> <span class="n">dejaremos</span> <span class="n">las</span> <span class="n">flags</span> <span class="n">por</span> <span class="n">defecto</span>
+</span></span><span class="line"><span class="cl"><span class="n">USE</span><span class="o">=</span><span class="s2">&#34;&#34;</span> <span class="n">en</span> <span class="n">el</span> <span class="n">make</span><span class="o">.</span><span class="n">conf</span>
+</span></span><span class="line"><span class="cl"><span class="c1">### Actualizar todos los paquetes</span>
+</span></span><span class="line"><span class="cl"><span class="n">emerge</span> <span class="o">--</span><span class="n">ask</span> <span class="o">--</span><span class="n">verbose</span> <span class="o">--</span><span class="n">update</span> <span class="o">--</span><span class="n">deep</span> <span class="o">--</span><span class="n">newuse</span> <span class="err">@</span><span class="n">world</span>
+</span></span><span class="line"><span class="cl"><span class="n">ACCEPT_LICENSE</span><span class="o">=</span><span class="s2">&#34;*&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">echo</span> <span class="s2">&#34;America/Buenos_Aires&#34;</span> <span class="o">&gt;</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">timezone</span>
+</span></span><span class="line"><span class="cl"><span class="n">emerge</span> <span class="o">--</span><span class="n">config</span> <span class="n">sys</span><span class="o">-</span><span class="n">libs</span><span class="o">/</span><span class="n">timezone</span><span class="o">-</span><span class="n">data</span>
+</span></span><span class="line"><span class="cl"><span class="n">vim</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">locale</span><span class="o">.</span><span class="n">gen</span>
+</span></span><span class="line"><span class="cl"><span class="c1">### Agregá y guardá</span>
+</span></span><span class="line"><span class="cl"><span class="n">es_ES</span><span class="o">.</span><span class="n">UTF</span><span class="o">-</span><span class="mi">8</span> <span class="n">UTF</span><span class="o">-</span><span class="mi">8</span>
+</span></span><span class="line"><span class="cl"><span class="c1">### Ejecutá</span>
+</span></span><span class="line"><span class="cl"><span class="n">locale</span><span class="o">-</span><span class="n">gen</span>
+</span></span><span class="line"><span class="cl"><span class="n">eselect</span> <span class="n">locale</span> <span class="n">list</span>
+</span></span><span class="line"><span class="cl"><span class="n">eselect</span> <span class="n">locale</span> <span class="n">set</span> <span class="mi">4</span>
+</span></span><span class="line"><span class="cl"><span class="n">ln</span> <span class="o">-</span><span class="n">sf</span> <span class="o">../</span><span class="n">usr</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">zoneinfo</span><span class="o">/</span><span class="n">America</span><span class="o">/</span><span class="n">Buenos_Aires</span>
+</span></span><span class="line"><span class="cl"><span class="n">env</span><span class="o">-</span><span class="n">update</span> <span class="o">&amp;&amp;</span> <span class="n">source</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">profile</span> <span class="o">&amp;&amp;</span> <span class="k">export</span> <span class="n">PS1</span><span class="o">=</span><span class="s2">&#34;(chroot) ${PS1}&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">### Ahora configuramos el kernel.</span>
+</span></span><span class="line"><span class="cl"><span class="n">emerge</span> <span class="o">--</span><span class="n">ask</span> <span class="n">sys</span><span class="o">-</span><span class="n">kernel</span><span class="o">/</span><span class="n">gentoo</span><span class="o">-</span><span class="n">sources</span>
+</span></span><span class="line"><span class="cl"><span class="n">cd</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">linux</span><span class="o">-</span><span class="mf">6.10</span><span class="o">..</span>
+</span></span><span class="line"><span class="cl"><span class="n">make</span> <span class="n">menuconfig</span>
+</span></span><span class="line"><span class="cl"><span class="c1">### Otra opción es instalar el binario del kernel.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Podés</span> <span class="n">elegir</span> <span class="n">uno</span> <span class="n">que</span> <span class="n">tenga</span> <span class="err">`</span><span class="n">systemd</span><span class="err">`</span> <span class="n">o</span> <span class="n">si</span> <span class="n">te</span> <span class="n">bajaste</span> <span class="n">openrc</span> <span class="n">tenés</span> <span class="n">que</span> <span class="n">usar</span> <span class="n">la</span> <span class="mi">2</span><span class="n">da</span> <span class="n">opoción</span> <span class="n">que</span> <span class="n">sirve</span> <span class="n">para</span> <span class="n">cualquiera</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">emerge</span> <span class="o">--</span><span class="n">ask</span> <span class="n">sys</span><span class="o">-</span><span class="n">kernel</span><span class="o">/</span><span class="n">installkernel</span><span class="o">-</span><span class="n">systemd</span><span class="o">-</span><span class="n">boot</span>    
+</span></span><span class="line"><span class="cl"><span class="n">emerge</span> <span class="o">--</span><span class="n">ask</span> <span class="n">sys</span><span class="o">-</span><span class="n">kernel</span><span class="o">/</span><span class="n">installkernel</span><span class="o">-</span><span class="n">gentoo</span>
+</span></span><span class="line"><span class="cl"><span class="n">emerge</span> <span class="o">--</span><span class="n">sys</span><span class="o">-</span><span class="n">kernel</span><span class="o">/</span><span class="n">gentoo</span><span class="o">-</span><span class="n">kernel</span><span class="o">-</span><span class="n">bin</span>
+</span></span></code></pre></div><p>Ahora abrí otra terminal ejecutá:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo -s
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> 
+</span></span><span class="line"><span class="cl">chmod +x genfstab
+</span></span><span class="line"><span class="cl">./genfstab /mnt/gentoo
+</span></span><span class="line"><span class="cl">./genfstab /mnt/gentoo &gt; /mnt/gentoo/etc/fstab
+</span></span></code></pre></div><p>Luego seguí de la consola en donde tenías el chroot</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">vim /etc/fstab
+</span></span><span class="line"><span class="cl">Borrá todo menos /dev/sda1 /dev/sda2 /dev/sda3 y guardá
+</span></span><span class="line"><span class="cl">vim /etc/conf.d/hostname
+</span></span><span class="line"><span class="cl"><span class="nv">hostname</span><span class="o">=</span><span class="s2">&#34;Jentu&#34;</span>
+</span></span><span class="line"><span class="cl">vim /etc/hosts
+</span></span><span class="line"><span class="cl">Agregá tu hostname ahí
+</span></span><span class="line"><span class="cl">127.0.0.1 Jentu
+</span></span><span class="line"><span class="cl">passwd
+</span></span><span class="line"><span class="cl">vim /etc/conf.d/keymaps
+</span></span><span class="line"><span class="cl">es
+</span></span><span class="line"><span class="cl">vim /etc/conf.d/hwclock
+</span></span><span class="line"><span class="cl">emerge dhcpcd sudo screenfetch grub efibootmgr
+</span></span><span class="line"><span class="cl"><span class="c1">### Cualquiera de estas dos formas funcionan, pero algunas computadoras tenés que agregar --removable al final.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#grub-install /dev/sda</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#sudo grub-install --target=x86_64-efi --efi-directory=/boot --removable</span>
+</span></span><span class="line"><span class="cl">grub-mkconfig -o /boot/grub/grub.cfg
+</span></span><span class="line"><span class="cl">vim /etc/sudoers
+</span></span><span class="line"><span class="cl">Descomentá la linea %wheel <span class="nv">ALL</span><span class="o">=(</span>ALL<span class="o">)</span> ALL
+</span></span><span class="line"><span class="cl">useradd -m -g users -G video,audio,wheel nombre_usuario
+</span></span><span class="line"><span class="cl">useradd -m -G users,video,audio,wheel -s /bin/bash nombre_usuario
+</span></span><span class="line"><span class="cl">passwd nombre_usuario
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /
+</span></span><span class="line"><span class="cl">rm -rf stage3....tar.xz
+</span></span><span class="line"><span class="cl"><span class="nb">exit</span>
+</span></span><span class="line"><span class="cl"><span class="nb">exit</span>
+</span></span><span class="line"><span class="cl"><span class="c1">### Desmontar todo</span>
+</span></span><span class="line"><span class="cl">sudo umount -a
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

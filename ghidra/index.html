@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Reversing CrackMe simple con el decompilador de Ghidra | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/ghidra/">
+      <span>Reversing CrackMe simple con el decompilador de Ghidra</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ghidra/">Ghidra</a></li>
+  
+</ul>
+
+<div class="content"><p>Instalá ghidra: <code>sudo apt install -y ghidra</code>
+O lo podés descargar e instalar desde acá: <a href="https://github.com/NationalSecurityAgency/ghidra">https://github.com/NationalSecurityAgency/ghidra</a></p>
+<p>Descargá el archivo del desafío <code>unlock_me1</code>, acá: <a href="https://secur3.us/GhidraFiles/unlock_me1">https://secur3.us/GhidraFiles/unlock_me1</a></p>
+<p>Los pasos básicos para afrontar un desafío como este son:</p>
+<ol>
+<li>Crea un proyecto Ghidra e importa el programa de desafío.</li>
+<li>Abrí <code>unlock_me1</code> en CodeBrowser e inicia el análisis automático.</li>
+<li>Busca la función principal (primer argumento de <code>__libc_start_main()</code></li>
+<li>Renombra el nombre de las variables y funciones hasta que comprendas la lógica.</li>
+<li>Reconstruí la lógica utilizada para verificar los códigos de entrada.</li>
+<li>Genere y pruebe un código de entrada válido.</li>
+</ol>
+<h3 id="encontrando-el-main">Encontrando el main</h3>
+<p>Después de importar y analizar <code>unlock_me1</code>, necesitarás ubicar el punto de entrada para la función. Para una aplicación libc como ésta, <code>__libc_start_main()</code> se utiliza para cargar <code>main()</code> dentro de un entorno apropiado. Puedes encontrar esto en el binario usando el método abreviado de teclado &lsquo;G&rsquo; desde la vista de listado de Ghidra para <code>unlock_me1</code> y saltando a <code>__libc_start_main()</code> que se encontrará como una función Thunked como se muestra aquí:</p>
+<p><img src="/img/ghidra/goto.webp" alt="goto"></p>
+<p><img src="/img/ghidra/libc_start_main.webp" alt="libc start main">    <br>
+Thunked-Function tiene un XREF de <code>FUN_00101080</code></p>
+<p>Al abrir el XREF de llamada desde <code>FUN_00101080:001010a4</code> se muestra lo siguiente:<br>
+<img src="/img/ghidra/libc_start_main_decompile.webp" alt="">
+Entrada descompilada en main()</p>
+<p>Según la <a href="https://refspecs.linuxbase.org/LSB_3.1.0/LSB-generic/LSB-generic/baselib---libc-start-main-.html">documentación</a>, el primer argumento de <code>__libc_start_main()</code> es la función main(). Puede hacer doble clic en <code>FUN_00101165</code> para acceder a la vista descompilada de esta función y actualizar la firma para que coincida con la convención estándar:</p>
+<p><img src="/img/ghidra/decompile_fun.webp" alt=""></p>
+<p><img src="/img/ghidra/edit_function.png" alt=""></p>
+<p>Ahora podemos mirar el resultado descompilado y comenzar a buscar variables para cambiar el nombre dentro de la función. Para empezar Ghidra nos muestra el siguiente código:</p>
+<p><img src="/imgi/ghidra/decompile_main.webp" alt=""></p>
+<p>Comenzando desde arriba, vemos que la entrada del usuario se recopila mediante scanf en la línea 13 y se almacena en <code>local_38</code> y la longitud de la cadena se coloca en sVar2. A estas variables se les puede cambiar el nombre de <code>input</code> y <code>input_len</code> respectivamente, generando el resultado descompilado como se muestra aquí:</p>
+<p><img src="/img/ghidra/decompile_main2.webp" alt=""></p>
+<p>Ahora está claro que la línea 15 está verificando la longitud de la entrada y rechazará cualquier entrada a menos que tenga una longitud exacta de 0x14 (20 en decimal). Podemos ver que <code>local_1c</code> y <code>local_20</code> se inicializan a 0 antes de ingresar a un ciclo while. Dentro del bucle podemos ver que <code>local_20</code> se utiliza como índice en la entrada en la línea 22 y luego <code>local_20</code> se incrementa en la línea 23. También en la línea 22 vemos que los caracteres de la cadena de entrada se suman en <code>local_1c</code>, lo que nos da la lógica nombres <code>input_sum</code> e <code>index</code> para <code>local_1c</code> y <code>local_20</code> respectivamente, como se muestra en la descompilación actualizada:</p>
+<p><img src="decompile_main3.webp" alt=""></p>
+<p>Al leer el código ahora, debería quedar claro que la entrada debe satisfacer dos propiedades para llegar al mensaje &lsquo;Unlock!&rsquo; en la línea 26. Por línea 15, la entrada debe tener exactamente 20 bytes de longitud. Según la línea 25, la suma de los bytes en la entrada debe ser un múltiplo de 7.</p>
+<h2 id="solución">Solución</h2>
+<p>A partir de este punto, el desafío crackme se ha transformado en un problema matemático básico. Debería ser posible sumar 20 caracteres imprimibles y luego usar el módulo para determinar cuántos bytes sumar o restar para producir un múltiplo de 7.</p>
+<p>Por ejemplo, podemos calcular la suma de 20 caracteres &ldquo;0&rdquo; y encontrar que es uno de un múltiplo de 7.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="nb">ord</span><span class="p">(</span><span class="s2">&#34;0&#34;</span><span class="p">)</span><span class="o">*</span><span class="mi">20</span> <span class="o">%</span> <span class="mi">7</span>
+</span></span><span class="line"><span class="cl"><span class="mi">1</span>
+</span></span></code></pre></div><p>Esto significa que sólo necesitamos agregar 6 bytes a la suma total. Esto se hace fácilmente cambiando un &lsquo;0&rsquo; (0x30) por &lsquo;6&rsquo; (0x36) dándonos la siguiente solución:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="err">$</span> <span class="o">./</span><span class="n">unlock_me1</span>
+</span></span><span class="line"><span class="cl"><span class="n">Enter</span> <span class="n">the</span> <span class="n">unlock</span> <span class="n">key</span><span class="p">:</span> <span class="mi">00000000000000000006</span>
+</span></span><span class="line"><span class="cl"><span class="n">Unlocked</span><span class="err">!</span>
+</span></span></code></pre></div><h3 id="tarea">Tarea</h3>
+<p>El ejemplo de tarea para esta publicación sigue la misma idea básica, pero tiene algunas comprobaciones adicionales que necesitarás realizar para producir una entrada válida. La función principal descompilada en este ejemplo se muestra a continuación:</p>
+<p><img src="/img/ghidra/decompile_main_homework.png" alt=""></p>
+<p><a href="https://secur3.us/GhidraFiles/unlock_me2">Descargá el 2do reto acá</a></p>
+<p>Fuente: <a href="https://medium.com/@cy1337/reversing-a-simple-crackme-with-ghidra-decompiler-5dd1b1c3c0ba">https://medium.com/@cy1337/reversing-a-simple-crackme-with-ghidra-decompiler-5dd1b1c3c0ba</a></p>
+<h4 id="querés-aprender-más-de-reversing">Querés aprender más de reversing?</h4>
+<p><a href="https://youtube.com/channel/UCPNPSP20z4FGfgMJ71VOJjw/playlists">https://youtube.com/channel/UCPNPSP20z4FGfgMJ71VOJjw/playlists</a></p>
+<p>O miralo en alguna instanacia de invidious: <a href="https://redirect.invidious.io/channel/UCPNPSP20z4FGfgMJ71VOJjw/playlists">https://redirect.invidious.io/channel/UCPNPSP20z4FGfgMJ71VOJjw/playlists</a></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Modificar el layout del teclado en GNU/linux a español | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/keyboard_configuration_linux/">
+      <span>Modificar el layout del teclado en GNU/linux a español</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@layout/">Layout</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@linux/">Linux</a></li>
+  
+</ul>
+
+<div class="content"><p>Generalmente yo uso el idioma del sistema operativo en ingles, así es más fácil googlear los errores y mi distribución de teclado español de españa.
+En <code>/etc/X11/xorg.conf.d/00-keyboard.conf</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">#</span> dpkg-reconfigure keyboard-configuration
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> localectl --no-convert set-x11-keymap es pc104
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> service keyboard-setup restart
+</span></span></code></pre></div><p>O editalo manualmente modificando el archivo /etc/X11/xorg.conf.d/00-keyboard.conf</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">#</span> Read and parsed by systemd-localed. It<span class="err">&#39;</span>s probably wise not to edit this file
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> manually too freely.
+</span></span><span class="line"><span class="cl"><span class="go">Section &#34;InputClass&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">        Identifier &#34;system-keyboard&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">        MatchIsKeyboard &#34;on&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">        Option &#34;XkbLayout&#34; &#34;es&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">        Option &#34;XkbModel&#34; &#34;pc105&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">EndSection
+</span></span></span></code></pre></div><p>O podés ejecutar el siguiente comando: <code>localectl --no-convert set-x11-keymap es pc104</code></p>
+<p>Si eso no funcinoa podes cambiar el archivo <code>/etc/default/keyboard</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">Manual configuration of keyboard
+</span></span></span><span class="line"><span class="cl"><span class="go">You can edit /etc/default/keyboard manually instead of running dpkg-reconfigure keyboard-configuration.
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">Here&#39;s an example:
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="gp">#</span> KEYBOARD CONFIGURATION FILE
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> Consult the keyboard<span class="o">(</span>5<span class="o">)</span> and xkeyboard-config<span class="o">(</span>7<span class="o">)</span> manual page.
+</span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">XKBMODEL=&#34;pc105&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">XKBLAYOUT=&#34;us,de,fr,ua,ru&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">XKBVARIANT=&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">XKBOPTIONS=&#34;grp:alt_shift_toggle&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">BACKSPACE=&#34;guess&#34;
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt-get purge locales<span class="p">;</span>sudo apt-get install locales<span class="p">;</span><span class="nb">export</span> <span class="nv">LANGUAGE</span><span class="o">=</span>es_ES.UTF-8<span class="p">;</span><span class="nb">export</span> <span class="nv">LANG</span><span class="o">=</span>es_ES.UTF-8<span class="p">;</span>sudo locale-gen es_ES.UTF-8<span class="p">;</span>sudo localectl set-locale es_ES.UTF-8
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo dpkg-reconfigure keyboard-configuration
+</span></span><span class="line"><span class="cl">$ setupcon
+</span></span><span class="line"><span class="cl">$ sudo update-initramfs -u
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">dpkg-reconfigure locales
+</span></span></code></pre></div><p><a href="https://superuser.com/questions/646425/permanently-change-default-language-and-keyboard-settings-what-am-i-missing">https://superuser.com/questions/646425/permanently-change-default-language-and-keyboard-settings-what-am-i-missing</a>
+<a href="https://unix.stackexchange.com/questions/621053/xkb-keyboard-configuration-on-debian-system">https://unix.stackexchange.com/questions/621053/xkb-keyboard-configuration-on-debian-system</a></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

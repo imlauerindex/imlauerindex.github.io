@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Leer correos desde la terminal: Neomutt y mutt-wizard | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/neomutt/">
+      <span>Leer correos desde la terminal: Neomutt y mutt-wizard</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@neomutt/">Neomutt</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@correo/">Correo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@terminal/">Terminal</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@mutt-wizard/">Mutt-Wizard</a></li>
+  
+</ul>
+
+<div class="content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install -y neomutt
+</span></span><span class="line"><span class="cl">sudo apt install -y lynx notmuch abook urlview cronie curl isync msmtp pass ca-certificates gettext libpam0g-dev mpop
+</span></span><span class="line"><span class="cl">git clone https://github.com/cruegge/pam-gnupg
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> pam-gnupg
+</span></span><span class="line"><span class="cl">mkdir m4
+</span></span><span class="line"><span class="cl">aclocal <span class="o">&amp;&amp;</span> autoheader <span class="o">&amp;&amp;</span> autoconf <span class="o">&amp;&amp;</span> automake --add-missing
+</span></span><span class="line"><span class="cl">autoreconf --install --force
+</span></span><span class="line"><span class="cl">./autogen.sh
+</span></span><span class="line"><span class="cl">./configure
+</span></span><span class="line"><span class="cl">make
+</span></span><span class="line"><span class="cl">make install
+</span></span><span class="line"><span class="cl">git clone https://github.com/LukeSmithxyz/mutt-wizard
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> mutt-wizard
+</span></span><span class="line"><span class="cl">sudo make install
+</span></span><span class="line"><span class="cl">gpg --full-generate-key
+</span></span><span class="line"><span class="cl">mw -a imlauerandres@gmail.com
+</span></span></code></pre></div><p>Ahora vas a tener que habilitar doble factor de autenticación en tu cuenta de Google, entrá a tu gmail apretá el avatar de tu cuenta, gestionar tu cuenta y entrá a Seguridad y luego de habilitar doble factor de autenticacion, apretá esa opción y agregá una contraseña de aplicación para neomutt copiar y pegar el código.
+Y cuando ejecutás
+mw -a <a href="mailto:tucorreo@asdf.com">tucorreo@asdf.com</a>
+tenés que ingresar la contraseña de aplicación que generaste en el paso anterior no tu contraseña real.
+Ejecutá mbsync -a para bajar los correos o
+la tecla: o</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">/usr/local/share/mutt-wizard/mutt-wizard.muttrc:12: Option smtp_authenticators: gssapi is not a valid authenticator
+</span></span><span class="line"><span class="cl">/home/esotericwarfare/.config/mutt/muttrc:2: source: file /usr/local/share/mutt-wizard/mutt-wizard.muttrc could not be sour
+</span></span><span class="line"><span class="cl">ced
+</span></span><span class="line"><span class="cl">source: errors in /home/esotericwarfare/.config/mutt/muttrc
+</span></span></code></pre></div><p>Se soluciona reemplazando</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">set</span> <span class="nv">smtp_authenticators</span> <span class="o">=</span> <span class="s1">&#39;gssapi:login&#39;</span>
+</span></span></code></pre></div><p>por</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">set</span> <span class="nv">smtp_authenticators</span> <span class="o">=</span> <span class="s1">&#39;login&#39;</span>
+</span></span></code></pre></div><p>en <code>/usr/local/share/mutt-wizard/mutt-wizawrd.muttrc Si tenés varios correos los alternas usando i1 i2 o si querés cambiar el atajo de teclaod los podés editarlos en </code>.config/mutt/muttrc``</p>
+<p>Luego cambiá en mbsyncrc Master por Far y Slave por Near.</p>
+<p>Y ejecutá <code>mbsync -a</code> para bajar tus correos.</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

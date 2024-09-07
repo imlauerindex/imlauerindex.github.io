@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Básico: Crear un thumbnail en GIMP | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/gimp_basic_tutorial/">
+      <span>Básico: Crear un thumbnail en GIMP</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@gimp/">Gimp</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@thumbnail/">Thumbnail</a></li>
+  
+</ul>
+
+<div class="content"><p>Cuando abrís GIMP las barras de estado están en diferentes ventanas, si querés tenerlas todas en una ventana, abrís GIMP y en el menú principal buscá Windows -&gt; Single Window Mode
+Si accidentalmente cerraste alguna de estas barras podés recuperarlas yendo a Windows -&gt; Recently closed docks, o andá a dockable dialogs y buscá la que habías cerrado.</p>
+<p><code>Ctrl + n</code> para crear un nuevo archivo/imagen</p>
+<p>Si querés crear un thumbnail para youtube dejalo en 1920x1080p
+z para hacer zoom y + - para acercarse o click izquierdo y control click izquierod para alejarse</p>
+<p>Por defecto el fondo va a ser el color secundario de GIMP, podés cambiar el fondo secundario y al crear un nuevo archivo ese será el nuevo color de fondo.</p>
+<p><code>B o shift b</code> te selecciona automáticamente la herramienta del balde, y ahora en el menú izquierdo inferior llamada tool options podés seleccionar Foreground(FG) o Background(BG).
+Foreground : principal , background: secundario, son los colores que tenés seteados más arriba.
+O podés seleccionar pattern fill (patrón relleno)</p>
+<p><code>ctrl alt o</code> para abrir una nueva imagen en una nueva capa
+<code>control o</code> abre una nueva imagen como un nuevo archivo</p>
+<p>si apretás <code>m</code> podés mover la imágen importada como capa
+para agregar texto apretá <code>t</code> introducí el texto</p>
+<p>ahora para agregarle sombra, podes seleccionar la layer
+en donde tenés el texto dale botón derecho y alpha to selection y sólo seleccionará el área de esa capa en donde haya algo que tiene algo que no sea transparente.
+ahora creá una nueva capa dándo botón derecho en el menú de capaz y dale a new layer
+Ahora andá al top menu a la opción select  y dale a grow
+ahora apretá shift b o B para seleccionar la herramienta del balde y pintá de negro la selección, luego mové la capa que creaste abajo de la capa del texto eso creará un efecto de resaltado.</p>
+<p><code>t</code> para acceder al modo texto</p>
+<p><code>ctrl z</code> y <code>ctrl y</code> (undo y redo)
+podés cambiar el color de letra seleccionando el texto</p>
+<p>ctrl a para seleccionar todo (no es recomendable copiar y pegar imágenes porque quedan como una capa flotante, mejor guarda la imagen y abrila con <code>ctrl alt o</code> )</p>
+<p>si estás usando el balde y vez que no agrega el color fijate en el menú de opciones en donde dice &ldquo;area afectada o affected area &quot; tiene que estar seleccionado fill whole selection</p>
+<p>formato al texto:
+dale botón derecho a la capa en donde tenés el texto y dale a alpha to selection o en este caso para agergar drop shadow no es necesario, sólo con tener la capa selecionada es suficiente.</p>
+<p>filters -&gt; light and shadow drop shadow y aumenta el opacity
+<code>ctrl f</code> para repetir el comando anterior</p>
+<h3 id="resize-image-gimp">resize image gimp</h3>
+<p>seleccioná la imágen, andá al menú layer dale a scale layer y cambiá el ancho
+o podés usar shift s al seleccionar la imágen</p>
+<h4 id="cuando-copiás-y-pegas-una-imagen-passa-esto">cuando copiás y pegas una imagen passa esto:</h4>
+<p>Cuando pegas algo en GIMP, se convierte en una selección flotante. Es una especie de pseudocapa temporal que contiene el contenido pegado y le permite moverlo (y editarlo de otras maneras) antes de fusionarlo en la imagen de destino. Sin embargo, tener una selección flotante activa también le impide realizar ediciones en cualquier cosa que no sea la selección flotante.</p>
+<p>Para ver si tiene una selección flotante, eche un vistazo al cuadro de diálogo Capas, donde aparece como una capa especial. Además, cuando el puntero del mouse está fuera de la selección flotante (pero dentro de la ventana de la imagen), se muestra un símbolo de ancla junto a él.</p>
+<p>Hay dos formas principales de deshacerse de una selección flotante:</p>
+<p>Puede anclarlo a la capa actual con el comando Capa → Anclar capa (Ctrl+H), o haciendo clic en el icono de ancla en el cuadro de diálogo Capas, o simplemente haciendo clic en cualquier lugar de la imagen fuera de la selección flotante. Esto fusiona la selección flotante en la capa actual, sobrescribiendo cualquier otra cosa que pueda haber debajo de la selección.</p>
+<p>Alternativamente, puede convertir la selección flotante en una nueva capa usando el comando Capa → Nueva capa (Ctrl+Shift+N), o el botón Nueva capa en el cuadro de diálogo Capas, mientras la selección flotante está activa. Esto convierte la selección flotante en una capa real que puedes editar cuando quieras.</p>
+<h3 id="remove-background">Remove background</h3>
+<p>Abrí la imágen<br>
+Desde el menú -&gt; Layer -&gt; New Layer<br>
+Fill with: Transparency<br>
+Image-&gt; Merge Visible Layer -&gt; Merge<br>
+Bucket Fill (Shift b)<br>
+En Tool Options Bucket Fiil mode -&gt; Erase y abajo de Affected Area poné Fill similar colors en vez de fill whole selection
+Edit -&gt; Copy<br>
+Edit -&gt; Paste As -&gt; New Layer</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

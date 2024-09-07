@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>How to add dwm to xsessions | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/how_to_add_dwm_to_xsessions/">
+      <span>How to add dwm to xsessions</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@linux/">Linux</a></li>
+  
+</ul>
+
+<div class="content"><p>Crea un bash script llamado startdwm:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-mysql" data-lang="mysql"><span class="line"><span class="cl"><span class="err">$</span><span class="w"> </span><span class="n">cat</span><span class="w"> </span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">startdwm</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">while</span><span class="w"> </span><span class="no">true</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="n">do</span><span class="w"> </span><span class="n">xsetroot</span><span class="w"> </span><span class="o">-</span><span class="n">name</span><span class="w"> </span><span class="s2">&#34;$(cat /sys/class/thermal/thermal_zone4/temp) | `date`&#34;</span><span class="p">;</span><span class="w"> </span><span class="n">sleep</span><span class="w"> </span><span class="mi">2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">done</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">keynav</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">brightnessctl</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="mi">30</span><span class="o">%</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">mbsync</span><span class="w"> </span><span class="o">-</span><span class="n">a</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">st</span><span class="w"> </span><span class="o">-</span><span class="n">e</span><span class="w"> </span><span class="n">neomutt</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">exec</span><span class="w"> </span><span class="n">dwm</span><span class="w">
+</span></span></span></code></pre></div><p>Guardalo en <code>/usr/bin</code>
+Ahora andá a <code>/usr/share/xsessions/</code>, copiá una existente y pone Exec=startdwm o podés usar esta:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ cat /usr/share/xsessions/dwm.desktop
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Desktop Entry<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">Version</span><span class="o">=</span>1.0
+</span></span><span class="line"><span class="cl"><span class="nv">Name</span><span class="o">=</span>DWM
+</span></span><span class="line"><span class="cl"><span class="nv">Comment</span><span class="o">=</span>Use this session to run DWM as your desktop environment
+</span></span><span class="line"><span class="cl"><span class="nv">Exec</span><span class="o">=</span>startdwm
+</span></span><span class="line"><span class="cl"><span class="nv">Icon</span><span class="o">=</span>
+</span></span><span class="line"><span class="cl"><span class="nv">Type</span><span class="o">=</span>Application
+</span></span></code></pre></div><p>Esto es todo</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

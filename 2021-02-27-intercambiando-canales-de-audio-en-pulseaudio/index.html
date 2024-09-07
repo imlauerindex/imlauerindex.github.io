@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Intercambiando canales de audio en PulseAudio | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/2021-02-27-intercambiando-canales-de-audio-en-pulseaudio/">
+      <span>Intercambiando canales de audio en PulseAudio</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@canales-de-audio/">Canales De Audio</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@pulseaudio/">Pulseaudio</a></li>
+  
+</ul>
+
+<div class="content"><p>Editar el archivo: <code>/usr/share/pulseaudio/alsa-mixer/profile-sets/default.conf</code></p>
+<p>y en la línea:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>Mapping analog-stereo<span class="o">]</span>
+</span></span><span class="line"><span class="cl">device-strings <span class="o">=</span> front:%f hw:%f
+</span></span><span class="line"><span class="cl">channel-map <span class="o">=</span> left,right
+</span></span></code></pre></div><p>Cambiar channel-map a right,left.</p>
+<p>Luego basta con reiniciar pulseaudio, con <code>pulseaudio -k</code></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

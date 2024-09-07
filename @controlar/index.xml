@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Controlar on Index</title>
+    <link>https://adityatelange.github.io/@controlar/</link>
+    <description>Recent content in Controlar on Index</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Apr 2023 23:01:04 -0300</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/@controlar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Controlar android desde terminal usando ADB</title>
+      <link>https://adityatelange.github.io/controlar_android_desde_terminal/</link>
+      <pubDate>Thu, 20 Apr 2023 23:01:04 -0300</pubDate>
+      <guid>https://adityatelange.github.io/controlar_android_desde_terminal/</guid>
+      <description>Primero tienen que conectar Android a la computadora a traves de un USB y activar el modo debugger en Android. Para hacer esto deben apretar 7 veces en Numero de compilacion que esta a lo ultimo en Ajustes-&amp;gt;Acerca del Telefono, despues regresan al menu anterior y les aparecera un menu de opciones de programador entran ahi y activan el USB Debugging. Luego desconectan el USB. Ahora instalan adb en Linux es simple</description>
+    </item>
+  </channel>
+</rss>

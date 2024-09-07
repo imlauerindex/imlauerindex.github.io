@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Ricardo Narvaja: Exámen 19 (Servidor, WCMZIP32.DLL) | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/ricardo_narvaja_19/">
+      <span>Ricardo Narvaja: Exámen 19 (Servidor, WCMZIP32.DLL)</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@cracking/">Cracking</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ricardo/">Ricardo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@narvaja/">Narvaja</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@examen/">Examen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@calculadora/">Calculadora</a></li>
+  
+</ul>
+
+<div class="content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="n">_DWORD</span> <span class="o">*</span><span class="n">__thiscall</span> <span class="nf">sub_401020</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="n">this</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4010C0</span><span class="p">(</span><span class="n">this</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="n">this</span> <span class="o">=</span> <span class="n">off_403348</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">113</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">114</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">((</span><span class="n">_BYTE</span> <span class="o">*</span><span class="p">)</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4756</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">115</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mh">0xC8u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">165</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mh">0x1000u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">((</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4757</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mh">0xC8u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">_DWORD</span> <span class="o">*</span><span class="n">__thiscall</span> <span class="nf">sub_401650</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="n">this</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">_DWORD</span> <span class="o">*</span><span class="n">result</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">result</span> <span class="o">=</span> <span class="n">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">a2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">__thiscall</span> <span class="nf">sub_4010E0</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">this</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">char</span> <span class="n">v1</span><span class="p">;</span> <span class="c1">// al
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v2</span><span class="p">;</span> <span class="c1">// al
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">size_t</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4014D0</span><span class="p">(</span><span class="n">this</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">((</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">this</span> <span class="o">+</span> <span class="mi">104</span><span class="p">)</span> <span class="o">=</span> <span class="nf">WS2_32_1</span><span class="p">(</span><span class="o">*</span><span class="p">((</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">this</span> <span class="o">+</span> <span class="mi">103</span><span class="p">),</span> <span class="n">this</span> <span class="o">+</span> <span class="mi">436</span><span class="p">,</span> <span class="n">this</span> <span class="o">+</span> <span class="mi">452</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">*</span><span class="p">((</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">this</span> <span class="o">+</span> <span class="mi">104</span><span class="p">)</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v1</span> <span class="o">=</span> <span class="nf">WS2_32_111</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">sub_4017F0</span><span class="p">(</span><span class="s">&#34;accept failed with error code : %d&#34;</span><span class="p">,</span> <span class="n">v1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">puts</span><span class="p">(</span><span class="s">&#34;Connection accepted</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4757</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mh">0xC8u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4017F0</span><span class="p">(</span><span class="s">&#34;number= %d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="o">*</span><span class="p">((</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">this</span> <span class="o">+</span> <span class="mi">2</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v2</span> <span class="o">=</span> <span class="nf">sub_401490</span><span class="p">(</span><span class="mi">8888</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401830</span><span class="p">(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4757</span><span class="p">,</span> <span class="s">&#34;Nuevo Port is = %d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">WS2_32_19</span><span class="p">(</span><span class="o">*</span><span class="p">((</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">this</span> <span class="o">+</span> <span class="mi">104</span><span class="p">),</span> <span class="n">this</span> <span class="o">+</span> <span class="mi">4757</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v3</span> <span class="o">=</span> <span class="nf">strlen</span><span class="p">(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4757</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">WS2_32_16</span><span class="p">(</span><span class="o">*</span><span class="p">((</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">this</span> <span class="o">+</span> <span class="mi">104</span><span class="p">),</span> <span class="n">Src</span><span class="p">,</span> <span class="n">v3</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">Src</span> <span class="o">==</span> <span class="mi">1094861636</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">WS2_32_3</span><span class="p">(</span><span class="o">*</span><span class="p">((</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">this</span> <span class="o">+</span> <span class="mi">103</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">puts</span><span class="p">(</span><span class="s">&#34;Bye Bye love</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">__thiscall</span> <span class="nf">sub_401240</span><span class="p">(</span><span class="kt">int</span> <span class="n">this</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">char</span> <span class="n">v1</span><span class="p">;</span> <span class="c1">// al
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// [esp+0h] [ebp-Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// [esp+0h] [ebp-Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">signed</span> <span class="kt">int</span> <span class="n">i</span><span class="p">;</span> <span class="c1">// [esp+4h] [ebp-8h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4014D0</span><span class="p">(</span><span class="n">this</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">416</span><span class="p">)</span> <span class="o">=</span> <span class="nf">WS2_32_1</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">412</span><span class="p">),</span> <span class="n">this</span> <span class="o">+</span> <span class="mi">436</span><span class="p">,</span> <span class="n">this</span> <span class="o">+</span> <span class="mi">452</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">416</span><span class="p">)</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v1</span> <span class="o">=</span> <span class="nf">WS2_32_111</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">sub_4017F0</span><span class="p">(</span><span class="s">&#34;accept failed with error code : %d&#34;</span><span class="p">,</span> <span class="n">v1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">puts</span><span class="p">(</span><span class="s">&#34;Connection accepted</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">((</span><span class="kt">void</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4757</span><span class="p">),</span> <span class="mi">0</span><span class="p">,</span> <span class="mh">0xC8u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4017F0</span><span class="p">(</span><span class="s">&#34;number= %d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">8</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401830</span><span class="p">((</span><span class="kt">char</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4757</span><span class="p">),</span> <span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">460</span><span class="p">),</span> <span class="n">dword_404080</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4017F0</span><span class="p">((</span><span class="kt">char</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4757</span><span class="p">),</span> <span class="n">v3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">WS2_32_19</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">416</span><span class="p">),</span> <span class="n">this</span> <span class="o">+</span> <span class="mi">4757</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">456</span><span class="p">)</span> <span class="o">=</span> <span class="n">dword_404084</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">WS2_32_16</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">416</span><span class="p">),</span> <span class="n">Src</span><span class="p">,</span> <span class="mi">12288</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v4</span> <span class="o">=</span> <span class="o">*</span><span class="p">((</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">Src</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">Src</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4017F0</span><span class="p">(</span><span class="s">&#34;%x</span><span class="se">\n\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v4</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">v4</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Size</span> <span class="o">=</span> <span class="o">*</span><span class="p">((</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">Src</span> <span class="o">+</span> <span class="mi">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">dword_404078</span> <span class="o">=</span> <span class="o">*</span><span class="p">((</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">Src</span> <span class="o">+</span> <span class="mi">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memcpy</span><span class="p">((</span><span class="kt">void</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">660</span><span class="p">),</span> <span class="n">Src</span><span class="p">,</span> <span class="n">Size</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="p">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">Size</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="p">(</span><span class="n">_BYTE</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4756</span><span class="p">)</span> <span class="o">=</span> <span class="o">*</span><span class="p">(</span><span class="n">_BYTE</span> <span class="o">*</span><span class="p">)(</span><span class="n">i</span> <span class="o">+</span> <span class="n">this</span> <span class="o">+</span> <span class="mi">660</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="o">*</span><span class="p">(</span><span class="n">_BYTE</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4756</span><span class="p">)</span> <span class="o">==</span> <span class="mi">4</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="o">*</span><span class="p">(</span><span class="n">_BYTE</span> <span class="o">*</span><span class="p">)(</span><span class="n">this</span> <span class="o">+</span> <span class="mi">4756</span><span class="p">)</span> <span class="o">==</span> <span class="mi">65</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">dword_404078</span> <span class="o">!=</span> <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">dword_404080</span> <span class="o">^</span> <span class="mh">0x89765432</span><span class="p">)</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">puts</span><span class="p">(</span><span class="s">&#34;Bye Bye</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="n">__noreturn</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v4</span><span class="p">[</span><span class="mi">4960</span><span class="p">];</span> <span class="c1">// [esp+0h] [ebp-26C0h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v5</span><span class="p">[</span><span class="mi">4960</span><span class="p">];</span> <span class="c1">// [esp+1360h] [ebp-1360h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">LoadLibraryA</span><span class="p">(</span><span class="s">&#34;WCMZIP32.DLL&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401020</span><span class="p">(</span><span class="n">v5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401650</span><span class="p">(</span><span class="mi">8888</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="nf">sub_4010E0</span><span class="p">(</span><span class="n">v5</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">sub_401020</span><span class="p">(</span><span class="n">v4</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v3</span> <span class="o">=</span> <span class="nf">sub_401490</span><span class="p">(</span><span class="mi">8888</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">sub_401650</span><span class="p">(</span><span class="n">v3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">sub_401240</span><span class="p">(</span><span class="n">v4</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

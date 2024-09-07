@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Crear Stream de audio, radio digital usando icecast darkice | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/stream_de_audio_radio_digital_icecast_darkice/">
+      <span>Crear Stream de audio, radio digital usando icecast darkice</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@radio/">Radio</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@digital/">Digital</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@stream/">Stream</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@audio/">Audio</a></li>
+  
+</ul>
+
+<div class="content"><p>No necesitan usar SoundWire ni pagar la version premium</p>
+<h3 id="instalar-icecast-y-darkice">Instalar icecast y darkice</h3>
+<p>Resumidamente IceCast crea el servidor y darkice transmite el audio a ese servidor.
+En este caso veremos como podemos transmitir el audio interno de tu computadora a la red LAN (se puede hacer a traves de internet tambien)</p>
+<p>Primero, se instalará un servidor de streaming.</p>
+<p>Instalar icecast2 (<code>sudo apt install icecast2</code>).
+Editar el fichero <code>/etc/icecast2/icecast.xml</code> para escuchar en todas las IP del PC, descomentando y poniendo:</p>
+<h4 id="configurar-icecast">Configurar icecast</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">&lt;bind-adress&gt;0.0.0.0&lt;/bind-adress&gt;
+</span></span></code></pre></div><p>Asi me quedo esa parte a mi:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">&lt;hostname&gt;192.168.0.201&lt;/hostname&gt;
+</span></span><span class="line"><span class="cl">&lt;!-- You may have multiple &lt;listen-socket&gt; elements --&gt;
+</span></span><span class="line"><span class="cl">&lt;listen-socket&gt;
+</span></span><span class="line"><span class="cl">&lt;port&gt;5553&lt;/port&gt;
+</span></span><span class="line"><span class="cl">&lt;bind-address&gt;0.0.0.0&lt;/bind-address&gt;
+</span></span><span class="line"><span class="cl">&lt;shoutcast-mount&gt;/stream&lt;/shoutcast-mount&gt;
+</span></span><span class="line"><span class="cl">&lt;/listen-socket&gt;
+</span></span></code></pre></div><p>Yo cambie el puerto a 5553 y en el hostname puse mi IP local</p>
+<p>Arrancar icecast2 con:
+<code>sudo /etc/init.d/icecast2 restart</code>
+O si usan systemd:
+<code>sudo systemctl restart icecast2.service</code></p>
+<p>A continuación, instalamos un módulo para servir el audio local (pulse) como si fuese un mp3.</p>
+<h4 id="instalar-darkice">Instalar darkice</h4>
+<p><code>sudo apt install darkice</code>
+Crear el fichero ~/darkice.cfg con el siguiente contenido:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>general<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">duration</span> <span class="o">=</span> <span class="m">0</span> <span class="c1"># duration in s, 0 forever</span>
+</span></span><span class="line"><span class="cl"><span class="nv">bufferSecs</span> <span class="o">=</span> <span class="m">1</span> <span class="c1"># buffer, in seconds</span>
+</span></span><span class="line"><span class="cl"><span class="nv">reconnect</span> <span class="o">=</span> yes <span class="c1"># reconnect if disconnected</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>input<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">device</span> <span class="o">=</span> pulse <span class="c1"># for Pulseaudio</span>
+</span></span><span class="line"><span class="cl"><span class="nv">sampleRate</span> <span class="o">=</span> <span class="m">44100</span> <span class="c1"># sample rate 11025, 22050 or 44100</span>
+</span></span><span class="line"><span class="cl"><span class="nv">bitsPerSample</span> <span class="o">=</span> <span class="m">16</span> <span class="c1"># bits</span>
+</span></span><span class="line"><span class="cl"><span class="nv">channel</span> <span class="o">=</span> <span class="m">2</span> <span class="c1"># 2 = stereo</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>icecast2-0<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">bitrateMode</span> <span class="o">=</span> vbr <span class="c1"># variable bit rate (cbr for constant)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">quality</span> <span class="o">=</span> 1.0 <span class="c1"># 1.0 is best quality</span>
+</span></span><span class="line"><span class="cl"><span class="nv">format</span> <span class="o">=</span> mp3 <span class="c1"># format</span>
+</span></span><span class="line"><span class="cl"><span class="nv">bitrate</span> <span class="o">=</span> <span class="m">256</span> <span class="c1"># bitrate</span>
+</span></span><span class="line"><span class="cl"><span class="nv">server</span> <span class="o">=</span> localhost <span class="c1"># or IP</span>
+</span></span><span class="line"><span class="cl"><span class="nv">port</span> <span class="o">=</span> <span class="m">5553</span> <span class="c1"># port for IceCast2 access</span>
+</span></span><span class="line"><span class="cl"><span class="nv">password</span> <span class="o">=</span> hackme <span class="c1"># source password to the IceCast2 server</span>
+</span></span><span class="line"><span class="cl"><span class="nv">mountPoint</span> <span class="o">=</span> mystream.mp3 <span class="c1"># mount point on the IceCast2 server or any name</span>
+</span></span><span class="line"><span class="cl"><span class="nv">name</span> <span class="o">=</span> mystream
+</span></span></code></pre></div><p>Arrancar el módulo darkice con:
+<code>darkice -c ~/darkice.cfg</code> (sin root)</p>
+<p>Podemos comprobar que el servidor icecast2 y el módulo funcionan, dirigiendo el navegador a http://192.168.0.201:5553 y ver que hay montado un stream llamado mystream.mp3 (a través de darkice) si no aparece es porque fallo darkice.</p>
+<p><strong>OJO</strong>: Yo tuve un problema con pulseaudio lo solucione moviendo la carpeta $HOME/.config/pulse a $HOME/.config/pulse.old con el comando mv.
+Luego ejecute</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemctl --user status pulseaudio.service
+</span></span><span class="line"><span class="cl">pulseaudio --start
+</span></span><span class="line"><span class="cl">pulseaudio --check
+</span></span></code></pre></div><h4 id="reproducimos-musica">Reproducimos musica</h4>
+<p>Ponemos podes escuchar musica desde el navegador o desde mpv. Por último, configuramos el audio en pulse audio. Ejecutamos en una consola <code>pavucontrol</code>. Nos aseguramos de que:</p>
+<p>Recording (Grabación): Deberíamos ver la aplicación &ldquo;darkice&rdquo; si no se ve nada hubo un problema con darkice no esta ejecutando porque hubo un problema de configuracion.
+Input Devices (Dispositivos de entrada): Miramos que aparezca el que seleccionamos para darkice pidiendo que muestre todos los dispositivos y nos aseguramos que no esté en mute.
+Por último, desde tu Android baja mpv o VLC accede al ip del servidor de stream de audio en mi caso http://192.168.0.201:5553 y apreta en donde dice M3U y lo abris con MPV luego pones Play in background que esta en el menu de engranaje.</p>
+<p>Basado en  : <a href="https://www.sing-group.org/~lipido/blog/2012/01/10/hacer-streaming-de-spotify-en-ubuntu-1104-con-icecast2-darkice-y-pulseaudio/">https://www.sing-group.org/~lipido/blog/2012/01/10/hacer-streaming-de-spotify-en-ubuntu-1104-con-icecast2-darkice-y-pulseaudio/</a></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

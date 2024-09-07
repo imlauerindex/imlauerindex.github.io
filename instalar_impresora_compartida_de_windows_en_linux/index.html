@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Instalar impresora compartida de Windows en GNU/Linux | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/instalar_impresora_compartida_de_windows_en_linux/">
+      <span>Instalar impresora compartida de Windows en GNU/Linux</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@impresora/">Impresora</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@linux/">Linux</a></li>
+  
+</ul>
+
+<div class="content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">smbclient <span class="s2">&#34;//192.168.0.203/HP PSC 1400 series&#34;</span>
+</span></span><span class="line"><span class="cl">sudo apt install -y cups
+</span></span><span class="line"><span class="cl">sudo apt install -y hplip hplip-gui printer-driver-hpcups
+</span></span><span class="line"><span class="cl">chattr +i /etc/cups/printers.conf
+</span></span><span class="line"><span class="cl">sudo vim /etc/cups/printers.conf
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">smbclient <span class="s2">&#34;//LIVING/HPPSC1400series&#34;</span> -U <span class="s2">&#34;WORKGROUP\Usuario&#34;</span> -c <span class="s2">&#34;print hola&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sudo cups
+</span></span><span class="line"><span class="cl">netstat -plnt
+</span></span><span class="line"><span class="cl">http://127.0.0.1:631/printers/?
+</span></span><span class="line"><span class="cl">https://github.com/kentio/hp-ppd
+</span></span></code></pre></div><p>Si no tiene contraseña tenes que cambiar en Windows en el regedit BlankPassswords un registro así que ya no recuerdo</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

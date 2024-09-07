@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Jugar Counter Strike 1.6 en GNU/Linux | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/como_jugar_counter_strike16_linux/">
+      <span>Jugar Counter Strike 1.6 en GNU/Linux</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@counter/">Counter</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@cs/">Cs</a></li>
+  
+</ul>
+
+<div class="content"><p>Esta publicación quedó vieja si querés saber como jugar tenés que bajar el appimage desde acá: <a href="https://de.linuxgame.cn/%E5%8F%8D%E6%81%90%E7%B2%BE%E8%8B%B1/cstrike_1.6_i386.appimage">https://de.linuxgame.cn/%E5%8F%8D%E6%81%90%E7%B2%BE%E8%8B%B1/cstrike_1.6_i386.appimage</a> o <a href="https://t.me/appimage_hub/37">https://t.me/appimage_hub/37</a>
+Si te tira el siguiente error:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ ./cstrike_1.6_i386.appimage
+</span></span><span class="line"><span class="cl">Error:libGL.so.1: wrong ELF class: ELFCLASS64
+</span></span><span class="line"><span class="cl">Could not load hw.so.
+</span></span><span class="line"><span class="cl">Please try again at a later time.done
+</span></span></code></pre></div><p>Tenés que agregar la arquitectura i386 para poder bajar la librería faltante que es libgl pero de 32 bits así:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dpkg --add-architecture i386
+</span></span><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install libgl1:i386
+</span></span></code></pre></div><p>Bajen cualquier instalador , ejecutenlo con wine y luego abran una terminal muevanse a la ubicacion <code>~/.wine/drive_c/Program Files (x86)/CounterStrike.16/</code> que es la ubicacion por defecto en donde instala el programa</p>
+<h3 id="solucionar-el-problema-de-pantalla-negra-en-counter-strike-16-linux">Solucionar el problema de pantalla negra en Counter Strike 1.6 Linux</h3>
+<p>En lugar de abrirlo con OpenGL intenta usar Software como renderizado y abrilo en modo ventana con el siguiente comando</p>
+<h4 id="opcion-mas-recomendable-rendenrizado-usando-software">Opcion mas RECOMENDABLE (Rendenrizado usando Software):</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">wine hl.exe -game cstrike -windowed -soft -32bpp -nofbo -nomsaa -gl_vsync 0
+</span></span></code></pre></div><h5 id="funciona-pero-no-es-recomendable-renderizado-usando-d3d">FUNCIONA PERO NO ES RECOMENDABLE (Renderizado usando D3D):</h5>
+<p>Tambien podes intentar ejecutarlo con la opcion de d3d (direct3d) pero funciona demasiado lento.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wine hl.exe -game cstrike -d3d -32bpp -nofbo -nomsaa -gl_vsync <span class="m">0</span>
+</span></span></code></pre></div><p>Para recuperar la resolucion que tenian antes de iniciar el juego pueden ejecutar (solo si iniciaron el juego en pantalla completa, si la iniciaron en ventana no necesitan ejecutar esto)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">xrandr -q <span class="p">|</span> grep current <span class="o">(</span>para obtener su resolucion actual<span class="o">)</span>
+</span></span><span class="line"><span class="cl">xrandr -s 1366x768 <span class="o">(</span>para cambiar la resolucion<span class="o">)</span>
+</span></span></code></pre></div><p>Parámetros que podes probar para correr el juego:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">-w &lt;width&gt; - Forces the engine to start with resolution <span class="nb">set</span> to &lt;width&gt;.  
+</span></span><span class="line"><span class="cl">-h &lt;height&gt; - Forces the engine to start with resolution <span class="nb">set</span> to &lt;height&gt;. This launch option does not need to be <span class="nb">set</span> in the presence of -w. The width value will determine the height automatically.  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">standard height size is determined by the screen mode -norm or -widescreem  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Here are more <span class="s2">&#34;set launch options&#34;</span> commands that can be used <span class="k">for</span> video.  
+</span></span><span class="line"><span class="cl">-fullscreen : no framed window  
+</span></span><span class="line"><span class="cl">-windowed or -sw or -startwindowed : game will be in a framed window  
+</span></span><span class="line"><span class="cl">-noboarder : in windowed mode this removes the frame around it.  
+</span></span><span class="line"><span class="cl">-gl : open_gl graphics rendering  
+</span></span><span class="line"><span class="cl">-software : CPU graphic rendering  
+</span></span><span class="line"><span class="cl">-normal : monitor size 4:3 ratio  
+</span></span><span class="line"><span class="cl">-wide : monitor size 16:9or10 ratio  
+</span></span><span class="line"><span class="cl">+gl_vsync <span class="m">0</span> : turns off verical Synch in open_gl rendering <span class="o">(</span>can improve FPS<span class="o">)</span>  
+</span></span><span class="line"><span class="cl">-nofbo : this turns off some advance rendering in open_gl <span class="o">(</span>can improve FPS<span class="o">)</span>  
+</span></span><span class="line"><span class="cl">-nomsaa : turns off AA <span class="p">;</span>Anti-Aliasing <span class="o">(</span>can improve FPS<span class="o">)</span>  
+</span></span><span class="line"><span class="cl">+gl_aniso <span class="m">0</span> : Removes anisotrophic filtering <span class="o">(</span>can improve FPS<span class="o">)</span>  
+</span></span><span class="line"><span class="cl">-w <span class="m">800</span> : width screen resolution size <span class="o">(</span>other sizes can be used<span class="o">)</span>  
+</span></span><span class="line"><span class="cl">-h <span class="m">600</span> : height screen resolution size <span class="o">(</span>other sizes can be used<span class="o">)</span>  
+</span></span></code></pre></div><hr>
+<h4 id="otras-opciones">Otras opciones</h4>
+<p>When running open_gl rendering mode<br>
+These commands can be left in the command-line &ldquo;set launch options&rdquo; if they help increase your in game FPS.<br>
++gl_vsync 0<br>
+-nofbo<br>
+-nomsaa<br>
+-gl_aniso 0<br>
+or use all at once &quot; +gl_vsync 0 -nofbo -gl_aniso 0&quot; no quote marks</p>
+<p>Mouse</p>
+<p>-noforcemaccel &gt; reverts to desktop mouse acceleration settings (more)<br>
+-noforcemparms &gt; reverts to desktop mouse button settings (more)<br>
+-noforcemspd &gt; uses desktop mouse speed settings (more)</p>
+<p>Monitor</p>
+<p>-w 640 -h 480 &gt; forces the resolution to 640x480<br>
+-w 800 -h 600 &gt; forces the resolution to 800x600<br>
+-w 1024 -h 768 &gt; forces the resolution to 1024x768<br>
+-full &gt; forces fullscreen mode<br>
+-windowed &gt; forces window mode<br>
+-freq x &gt; forces the monitor to use x hertz</p>
+<p>Video</p>
+<p>-gl &gt; run in OpenGL<br>
+-d3d &gt; run in Direct3d<br>
+-soft &gt; run in software mode</p>
+<p>DirectX</p>
+<p>-dxlevel 90 &gt; DirectX 9<br>
+-dxlevel 81 &gt; DirectX 8.1<br>
+-dxlevel 80 &gt; DirectX 8<br>
+-dxlevel 70 &gt; DirectX 7<br>
+-dxlevel 60 &gt; DirectX 6</p>
+<p>Other</p>
+<p>-16bpp &gt; forces the colors to 16bit<br>
+-32bpp &gt; forces the colors to 32bit<br>
+-heapsize x &gt; specify the number (x) of memory to use<br>
+-zone x &gt; allocates x amount of KiloBytes of memory for use with the console system<br>
+-noip &gt; disables the use of UDP, which is part of the TCP/IP protocol<br>
+-noipx &gt; disables the use of the IPX/SPX protocol<br>
+-nojoy &gt; disables joystick support (shaves a little bit off the memory footprint)<br>
+-wavonly &gt; disables the use of direct sound (only use if you are having sound problems)<br>
+-noaafonts &gt; disables Anti-Aliasing of screen fonts<br>
+-autoconfig &gt; restores video and performance settings to default<br>
+-condebug &gt; logs all console output into the console.log text file<br>
+-novid &gt; disables intro video</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">try adding -nofbo -nomsaa -gl\_vsync 0 to launch option settings, worked for me  
+</span></span></code></pre></div><p><a href="https://steamcommunity.com/app/70/discussions/0/371918937276006731/">https://steamcommunity.com/app/70/discussions/0/371918937276006731/</a>
+<a href="https://steamcommunity.com/discussions/forum/1/864959809848706037/?l=spanish">https://steamcommunity.com/discussions/forum/1/864959809848706037/?l=spanish</a></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

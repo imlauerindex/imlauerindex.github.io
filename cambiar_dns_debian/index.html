@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Cambiar DNS de forma permanente en Debian | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/cambiar_dns_debian/">
+      <span>Cambiar DNS de forma permanente en Debian</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@dns/">Dns</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@cambiar-dns/">Cambiar Dns</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@debian/">Debian</a></li>
+  
+</ul>
+
+<div class="content"><h3 id="una-forma-que-networkmanager-deje-de-agregar-servidores-dns-automaticamente">Una forma que NetworkManager deje de agregar servidores DNS automaticamente</h3>
+<p>Una forma de detener que Network Manager agregue servidores DNS al archivo <code>/etc/resolv.conf</code> es hacer lo siguiente:</p>
+<p>Primero abra el archivo de configuración de nm <code>/etc/NetworkManager/NetworkManager.conf</code>:</p>
+<p><code>sudo vim /etc/NetworkManager/NetworkManager.conf</code>
+Luego, agregue lo siguiente a la sección [main]:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">dns</span><span class="o">=</span>none
+</span></span><span class="line"><span class="cl">rc-manager<span class="o">=</span>unmanaged
+</span></span><span class="line"><span class="cl">Guarde y salga.
+</span></span></code></pre></div><h3 id="una-forma-de-cambiar-los-dns-de-forma-permanente">Una forma de cambiar los DNS de forma permanente</h3>
+<p><code>/etc/resolv.conf</code> es un enlace simbólico a <code>/run/resolvconf/resolv.conf</code>.
+NetworkManager no actualiza directamente <code>/etc/resolv.conf</code> (solo actualiza <code>/run/resolvconf/resolv.conf</code>).
+Entonces:</p>
+<ul>
+<li>elimina el enlace simbólico (<code>rm /etc/resolv.conf</code>)</li>
+<li>escribí tu propia versión de <code>/etc/resolv.conf</code></li>
+</ul>
+<h3 id="usando-resolvconf-para-agregar-dns-en-etcresolvconf">Usando resolvconf para agregar DNS en <code>/etc/resolv.conf</code></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install resolvconf
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo vim /etc/resolvconf/resolv.conf.d/head
+</span></span></code></pre></div><p>Agrega las DNS de Google por ejemplo</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nameserver 8.8.8.8 
+</span></span><span class="line"><span class="cl">nameserver 8.8.4.4
+</span></span></code></pre></div><p>Si usas systemd:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl restart resolvconf.service
+</span></span><span class="line"><span class="cl">sudo systemctl restart systemd-resolved.service
+</span></span></code></pre></div><p>Y por ultimo</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo resolvconf -u
+</span></span></code></pre></div><p>Eso es todo.</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

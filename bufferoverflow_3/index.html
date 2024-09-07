@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Explotando buffer overflow provocado por copiar un buffer de 300 a uno de 200 | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/bufferoverflow_3/">
+      <span>Explotando buffer overflow provocado por copiar un buffer de 300 a uno de 200</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ida/">Ida</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ricardo/">Ricardo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@narvaja/">Narvaja</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@examen/">Examen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@3/">3</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@buffer/">Buffer</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@overflow/">Overflow</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@cracking/">Cracking</a></li>
+  
+</ul>
+
+<div class="content"><p>Lo único que hacemos es pisar la variable que está abajo del buffer de 200 porque copia el contenido del buffer de 200 a un buffer de 300. Le ponemos de valor 0 a la variable que está debajo del buffer de 200 porque hace esta comparación <code>cmp ptr [eax+0C8h],0</code> para ganar el reto. En donde <code>0C8h</code> es un offset que hace referencia a una variable que está dentro de estructura en donde está también declarado el buffer.  <br>
+Algo así sería en C:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="k">struct</span> <span class="n">MyStruct</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span> <span class="n">buffer</span><span class="p">[</span><span class="mi">200</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">int</span> <span class="n">flag</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p><strong>Este tutorial tiene mucho blabla de como usar el IDA pero existen muchos métodos algunos hasta automáticos.</strong></p>
+<p>Si miramos la representación estática del stack podemos ver que hay un buffer e identificar su tamaño automáticamente haciendo un click derecho Array. <br>
+Tip: Es recomendable darle un nombre al buffer que haga referencia a su tamaño, por ejemplo: <code>buffer_200</code></p>
+<p><code>push 12Ch ; Size</code> # Hace referencia al tamaño del buffer, que detectó automáticamente en el paso anterior.</p>
+<p>Lee un archivo si es correcto, EAX será distinto de 0.
+Podemos desbordar el buffer de 200 y pisar la variable que está abajo.</p>
+<p>Renombramos <code>sub_4010B0</code> a <code>check</code> e identificamos que el argumento es el puntero a <code>Buffer_200</code>. Damos doble click a <code>sub_4010B0</code> luego rename a <code>arg_0</code> en donde dice: <code>enter stack variable name</code> asignamos un nombre por ejemplo <code>puntero_buffer_200</code></p>
+<p>Luego click derecho en check <code>set type</code> para propagar el nombre de la función ya que asignamos como argumento a <code>buffer_200</code></p>
+<p>Lo mueve a eax y le suma <code>C8</code> entonces lo que está haciendo acá es checkear la variable flag porque a continuación del buffer de 200 está la variable flag.</p>
+<p>Ejemplo: <code>cmp ptr [eax+0C8h],0</code></p>
+<h3 id="ese-es-el-típico-caso-de-una-estructura-cuando-vos-accedes-a-una-variable-de-una-función-anterior-a-través-de-un-puntero-más-un-offset-en-este-caso-0c8h">Ese es el típico caso de una estructura cuando vos accedes a una variable de una función anterior a través de un puntero más un offset, en este caso 0C8h.</h3>
+<p>Estamos hablando de que es un campo de una estructura, <strong>porque sino no se podría acceder a la estructura a través de sumarle un offset a un puntero</strong></p>
+<p>Entonces podemos volver al código entrar al <code>buffer_200</code> en la representación estática y definir <code>buffer_200</code> y la variable de abajo como una estructura, selecciona click derecho <code>create struct from selection</code>, si querés podés renombrar la estructura a <code>MyStruct</code>.</p>
+<p>Entonces nos damos cuenta que lo que está haciendo es pasar el puntero de la estructura a la función <code>check</code></p>
+<p>Entonces vamos a cambiar los nombres de <code>buffer_200</code> a MyStruct y de <code>puntero_buffer_200</code> a <code>puntero_MyStruct</code></p>
+<p>Si ahora accedemos a check y apretamos en la linea <code>cmp ptr [eax+0C8h],0</code> y luego <code>p</code> nos damos cuenta que apunta al campo <code>flag</code>.</p>
+<p>Compara si esa variable es 0, si es 0 sale, pero si mirás las referencias a esa variable se inicializa en 1.</p>
+<p>Luego creamos el example.txt con 200 A y 4 bytes de 0s y con eso pasaríamos pero eso no es todo!
+<img src="/img/cracking/3.png" alt=""></p>
+<p>Luego tenemos otro <code>call sub_401010</code> que es otro check porque verifica si vas o no por buen camino, así que lo renombraremos <code>check2</code>, el argumento de la función check es un puntero a la estructura. Entonces ingresamos a check2 y al <code>arg_0</code> no renombramos como <code>p_MyStruct</code> y el de arriba <code>Str1</code> si apretás boton derecho y le das array automaticamente te reconoce el tamaño.</p>
+<p>Vamos a reconocer todos los printf: todas las <code>call sub_401270</code> como <code>_printf</code>, pero después nos encontramos con otra función que es sprintf esa función escribe en un archivo, el primer argumento es un buffer y el segundo es el formato.</p>
+<p>Luego compara ese string con N.</p>
+<p>9:00</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Buffer Overflow Examen 6 (Ricardo Narvaja Reversing) | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/buffer_overflow_6/">
+      <span>Buffer Overflow Examen 6 (Ricardo Narvaja Reversing)</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@ricardo/">Ricardo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@narvaja/">Narvaja</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@examen/">Examen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ida/">Ida</a></li>
+  
+</ul>
+
+<div class="content"><p>El IDA me lo decompila a :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="o">*</span><span class="nf">check</span><span class="p">(</span><span class="kt">void</span> <span class="o">*</span><span class="n">this</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">102</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">104</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#34;Aprobaste level 6&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">105</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#34;A practicar y repasar mas ...&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">check3</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Destination</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Concatenación.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">strcat</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">105</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="nf">strlen</span><span class="p">(</span><span class="n">Destination</span><span class="p">)</span> <span class="o">==</span> <span class="mi">229</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="mh">0x49</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="n">Destination</span><span class="p">[</span><span class="mi">50</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">!=</span> <span class="mh">0x50</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="n">Destination</span><span class="p">[</span><span class="mi">50</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">check2</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Destination</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">check3</span><span class="p">(</span><span class="n">Destination</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">50</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">104</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">105</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">char</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">200</span><span class="p">];</span> <span class="c1">// [esp+0h] [ebp-1A8h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v5</span><span class="p">;</span> <span class="c1">// [esp+C8h] [ebp-E0h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">Stream</span><span class="p">;</span> <span class="c1">// [esp+CCh] [ebp-DCh]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">Buffer</span><span class="p">[</span><span class="mi">200</span><span class="p">];</span> <span class="c1">// [esp+D0h] [ebp-D8h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="o">*</span><span class="n">puntero_a_v5</span><span class="p">;</span> <span class="c1">// [esp+19Ch] [ebp-Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">check</span><span class="p">(</span><span class="n">Destination</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v5</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">puntero_a_v5</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">v5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">200</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">char</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">Destination</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Stream</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="s">&#34;example.txt&#34;</span><span class="p">,</span> <span class="s">&#34;rb&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">Stream</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;No se puede leer el archivo bye bye </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fread</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">200</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">char</span><span class="p">),</span> <span class="mi">1u</span><span class="p">,</span> <span class="n">Stream</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">strcpy</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="n">Buffer</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">check2</span><span class="p">(</span><span class="n">Destination</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Tenés que hacer que Destination[4] (el 5to caracter porque empieza desde 0) tiene el valor de 0x49 que representa la letra <strong>I</strong> y si ese vale I entonces Destination[50] valdrá 1 y el 6to caracter tiene que ser cualquier cosa diferente de P (0x50) porque sino Destination[50] se hace 0 y si Destination[50] es 1 <strong>aprobamos el examen!</strong> porque muestra el texto Destination[104] que contiene el string de aprobamos el examen.</p>
+<h3 id="exploit">exploit</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="n">AAAAIPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</span>
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

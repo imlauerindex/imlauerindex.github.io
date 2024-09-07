@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Kimkelen: sistema de gestion escolar GRATUITO | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/kimkelen_sistema_de_gestion_escolar/">
+      <span>Kimkelen: sistema de gestion escolar GRATUITO</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@kimkelen/">Kimkelen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@sistema/">Sistema</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@escolar/">Escolar</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@gratis/">Gratis</a></li>
+  
+</ul>
+
+<div class="content"><p>Si estás buscando un sistema de gestión escolar gratis Argentino. Esta es una de las mejores opciones.</p>
+<p><a href="https://github.com/desarrollo-cespi/kimkelen">https://github.com/desarrollo-cespi/kimkelen</a></p>
+<p>Existen otros sitemas como RosarioSIS, pero aún no la he probado profesionalmente, Kimkelen sí aunque tiene algunos problemas funciona bastante bien.</p>
+<p>Funcionalidades que faltan implementar:
+· Equivalencias.</p>
+<hr>
+<h3 id="como-instalarlo-y-configurarlo">Como instalarlo y configurarlo:</h3>
+<p>Instalá docker, agregá tu usuario como parte de ese grupo y deslogueate y volvé a ingresar:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -S docker docker-compose
+</span></span><span class="line"><span class="cl">sudo systemctl start docker.service
+</span></span><span class="line"><span class="cl">sudo usermod -aG docker <span class="nv">$USER</span>
+</span></span></code></pre></div><p>Seguí este readme: <a href="https://github.com/desarrollo-cespi/kimkelen">https://github.com/desarrollo-cespi/kimkelen</a></p>
+<h4 id="el-docker-composeyml-que-está-en-su-readme-está-mal-escrito">el docker-compose.yml que está en su readme está mal escrito</h4>
+<p>Es ideal quitar el puerto 80 acá por cuestiones de seguridad.
+Acá <strong>monté un volumen llamado cloudflare</strong>. Los volumenes son directorios(carpetas) compartidas entre docker y el host(tu PC), en este caso lo usé para compartir los archivos de configuración del ssl.</p>
+<h3 id="usá-este">Usá este.</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">version: <span class="s1">&#39;2&#39;</span>
+</span></span><span class="line"><span class="cl">volumes:
+</span></span><span class="line"><span class="cl">  db:
+</span></span><span class="line"><span class="cl">  disciplinary-sanction-documents:
+</span></span><span class="line"><span class="cl">  justification-documents:
+</span></span><span class="line"><span class="cl">  persons-photos:
+</span></span><span class="line"><span class="cl">services:
+</span></span><span class="line"><span class="cl">  app:
+</span></span><span class="line"><span class="cl">    restart: always
+</span></span><span class="line"><span class="cl">    image: registry.gitlab.com/kimkelen/kimkelen:latest
+</span></span><span class="line"><span class="cl">    <span class="c1">#image: my-web-app</span>
+</span></span><span class="line"><span class="cl">    environment:
+</span></span><span class="line"><span class="cl">      DB_HOST: db
+</span></span><span class="line"><span class="cl">      DB_NAME: kimkelen
+</span></span><span class="line"><span class="cl">      DB_USERNAME: root
+</span></span><span class="line"><span class="cl">      DB_ENCODING: utf8
+</span></span><span class="line"><span class="cl">      DB_PASSWORD: root
+</span></span><span class="line"><span class="cl">      DB_PORT: <span class="m">3306</span>
+</span></span><span class="line"><span class="cl">      DEBUG: <span class="s1">&#39;false&#39;</span>
+</span></span><span class="line"><span class="cl">      FLAVOR: elflavordetuescuela
+</span></span><span class="line"><span class="cl">      MEMCACHE_HOST: memcache
+</span></span><span class="line"><span class="cl">      MEMCACHE_PORT: <span class="s1">&#39;11211&#39;</span>
+</span></span><span class="line"><span class="cl">      TESTING: <span class="s1">&#39;false&#39;</span>
+</span></span><span class="line"><span class="cl">      MAIL_PORT: <span class="m">25</span>
+</span></span><span class="line"><span class="cl">      MAIL_HOST: localhost
+</span></span><span class="line"><span class="cl">      FACEBOOK_ID: <span class="s1">&#39;demo&#39;</span>
+</span></span><span class="line"><span class="cl">      FACEBOOK_SECRET: <span class="s1">&#39;demo&#39;</span>
+</span></span><span class="line"><span class="cl">    ports:
+</span></span><span class="line"><span class="cl">    - 80:80
+</span></span><span class="line"><span class="cl">    - 443:443
+</span></span><span class="line"><span class="cl">    volumes:
+</span></span><span class="line"><span class="cl">    - disciplinary-sanction-documents:/app/data/disciplinary-sanction-documents
+</span></span><span class="line"><span class="cl">    - justification-documents:/app/data/justification-documents
+</span></span><span class="line"><span class="cl">    - persons-photos:/app/data/persons-photos
+</span></span><span class="line"><span class="cl">    - ./cloudflare:/etc/cloudflare/
+</span></span><span class="line"><span class="cl">  memcache:
+</span></span><span class="line"><span class="cl">    restart: always
+</span></span><span class="line"><span class="cl">    image: memcached:1.4
+</span></span><span class="line"><span class="cl">    command:
+</span></span><span class="line"><span class="cl">    - -m
+</span></span><span class="line"><span class="cl">    - <span class="s1">&#39;256&#39;</span>
+</span></span><span class="line"><span class="cl">  db:
+</span></span><span class="line"><span class="cl">    restart: always
+</span></span><span class="line"><span class="cl">    image: hsheth2/mysql-low-memory:5.6
+</span></span><span class="line"><span class="cl">    environment:
+</span></span><span class="line"><span class="cl">      MYSQL_DATABASE: kimkelen
+</span></span><span class="line"><span class="cl">      MYSQL_ROOT_PASSWORD: root
+</span></span><span class="line"><span class="cl">    volumes:
+</span></span><span class="line"><span class="cl">    - db:/var/lib/mysql
+</span></span></code></pre></div><p>Lo levantás con <code>docker-compose up</code> o <code>docker compose up</code></p>
+<h4 id="para-poder-reconstruir-la-imágen-cada-vez-que-hacemos-un-cambio-del-repositorio-kimkelen-tenemos-que-cambiar-el-from-del-dockerdockerfile-porque-está-mal">Para poder reconstruir la imágen cada vez que hacemos un cambio del repositorio kimkelen tenemos que cambiar el FROM del <code>docker/Dockerfile</code> porque está mal:</h4>
+<p>Cambia el from por:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">FROM registry.gitlab.com/kimkelen/kimkelen:base-latest
+</span></span></code></pre></div><hr>
+<h4 id="creá-un-flavorsabor-copiando-el-flavor-de-otra-carpeta-y-cambiando-los-logos-esto-esta-explicado-mejor-en-un-archivo-que-tengo-aparte">Creá un flavor(sabor) copiando el flavor de otra carpeta y cambiando los logos, esto esta explicado mejor en un archivo que tengo aparte.</h4>
+<p><strong>Como crear un nuevo sabor:</strong></p>
+<p>Tenes que copiar algun otro sabor ya existente y ingresar a la carpeta del sabor lib y ahi cambiar todos los nombres del antiguo sabor al nuevo.</p>
+<p>Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cp -R agropecuaria nombredemiescuela  
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> nombredemiescuela/lib/behavior
+</span></span></code></pre></div><p>Ahora si te copiaste el flavor de Anexa los archivos se llamaran por ejemplo <code>AnexaEvaluatorBehaviour.class.php</code>. Tenes que reemplazar Anexa por el nuevo nombre del sabor por ejemplo <code>nombredemiescuela</code>, esto se hace con el siguiente comando:
+Reemplazar el nombre de los archivos:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">for i in *; do mv &#34;$i&#34; &#34;`echo $i | sed &#34;s/Agropecuaria/Nombredemiescuela/&#34;`&#34;; done
+</span></span></code></pre></div><p><strong>Movete a los subdirectorios y ejecutá ese mismo comando</strong>: Es decir</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd factory
+</span></span><span class="line"><span class="cl">for i in *; do mv &#34;$i&#34; &#34;`echo $i | sed &#34;s/Agropecuaria/Nombredemiescuela/&#34;`&#34;; done
+</span></span><span class="line"><span class="cl">cd ..
+</span></span><span class="line"><span class="cl">cd filter
+</span></span><span class="line"><span class="cl">for i in *; do mv &#34;$i&#34; &#34;`echo $i | sed &#34;s/Agropecuaria/Nombredemiescuela/&#34;`&#34;; done
+</span></span><span class="line"><span class="cl">etc
+</span></span></code></pre></div><p>Se puede usar <code>find</code> para que recorra todos los subdirectorios en vez de moverte.<br>
+Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">for i in $(find . -type f -print); do mv &#34;$i&#34; &#34;`echo $i | sed &#34;s/Agropecuaria/Nombredemiescuela/&#34;`&#34;;  done
+</span></span></code></pre></div><p><strong>(No lo probé)</strong></p>
+<hr>
+<p>Luego tenes que reemplazar el nombre de la clase adentro de cada archivo , con el siguiente comando, dentro de la misma carpeta:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">find ./ -type f -exec sed -i -e &#39;s/Agropecuaria/Nombredemiescuela/g&#39; {} \;
+</span></span></code></pre></div><p>Y listo, ahora podemos cambiar cosas como el logo del boletin etc.</p>
+<p>Para cambiar el logo podemos ir a <code>flavors/nombredemiescuela/web/images/</code> y buscar y reemplazar por cada logo de otra escuela por el nuestro.</p>
+<p>Cambiá todas las ocurrencias del nombre de la escuela vieja, usando <code>grep</code> situado en flavors en que archivos aparece y reemplazalos: <code>grep -i agropecuaria -r *</code></p>
+<p>Por ejemplo acá hay un archivo: <code>flavors/nombredemiescuela/modules/examination_subject/templates/printStudentsSuccess.php</code> que tiene un nombre de colegio.</p>
+<p>Otro: <code>flavors/nombredemiescuela/lib/behaviour/NombredemiescuelaSchoolBehaviour.class.php</code></p>
+<hr>
+<h3 id="creá-un-archivo-de-configuración-extra-hice-esto-porque-no-te-deja-pisar-la-configuración-de-apache-hay-una-forma-pero-yo-lo-hice-así">Creá un archivo de configuración extra, hice esto porque no te deja pisar la configuración de apache hay una forma pero yo lo hice así:</h3>
+<p><code>cp config/extra.conf /etc/apache2/conf.d/extra.conf</code> (esto lo puse en el entrypoint para que copie cada vez que recompilo la imágen que no era necesario porque lo agregué también al Dockerfile)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">ServerName</span> <span class="n">miescuelanombre</span><span class="o">.</span><span class="n">edu</span><span class="o">.</span><span class="n">ar</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">LocationMatch</span> <span class="o">/</span><span class="n">uploads</span><span class="o">/.*&gt;</span>
+</span></span><span class="line"><span class="cl">     <span class="n">php_flag</span> <span class="n">engine</span> <span class="n">off</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;/</span><span class="n">LocationMatch</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="ne">Directory</span> <span class="o">/</span><span class="n">app</span><span class="o">/</span><span class="n">web</span> <span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="n">RewriteEngine</span> <span class="n">On</span>
+</span></span><span class="line"><span class="cl">      <span class="c1"># uncomment the following line, if you are having trouble</span>
+</span></span><span class="line"><span class="cl">      <span class="c1"># getting no_script_name to work</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">#RewriteBase /</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="c1"># we skip all files with .something</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">#RewriteCond %{REQUEST_URI} \..+$</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">#RewriteCond %{REQUEST_URI} !\.html$</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">#RewriteRule .* - [L]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="c1"># we check if the .html version is here (caching)</span>
+</span></span><span class="line"><span class="cl">      <span class="n">RewriteRule</span> <span class="o">^$</span> <span class="n">index</span><span class="o">.</span><span class="n">html</span> <span class="p">[</span><span class="n">QSA</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">      <span class="n">RewriteRule</span> <span class="o">^</span><span class="p">([</span><span class="o">^.</span><span class="p">]</span><span class="o">+</span><span class="p">)</span><span class="o">$</span> <span class="o">$</span><span class="mf">1.</span><span class="n">html</span> <span class="p">[</span><span class="n">QSA</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">      <span class="n">RewriteCond</span> <span class="o">%</span><span class="p">{</span><span class="n">REQUEST_FILENAME</span><span class="p">}</span> <span class="o">!-</span><span class="n">f</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="c1"># no, so we redirect to our front web controller</span>
+</span></span><span class="line"><span class="cl">      <span class="n">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.*</span><span class="p">)</span><span class="o">$</span> <span class="n">index</span><span class="o">.</span><span class="n">php</span> <span class="p">[</span><span class="n">QSA</span><span class="p">,</span><span class="n">L</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;/</span><span class="ne">Directory</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">VirtualHost</span> <span class="o">*</span><span class="p">:</span><span class="mi">80</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">DocumentRoot</span> <span class="s2">&#34;/app/web/&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">ServerAdmin</span> <span class="n">admin</span><span class="err">@</span><span class="n">miescuelanombre</span><span class="o">.</span><span class="n">edu</span><span class="o">.</span><span class="n">ar</span>
+</span></span><span class="line"><span class="cl">  <span class="o">&lt;</span><span class="ne">Directory</span> <span class="s2">&#34;/app/web&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="n">Options</span> <span class="o">-</span><span class="n">Indexes</span> <span class="o">+</span><span class="n">FollowSymLinks</span> <span class="o">-</span><span class="n">MultiViews</span>
+</span></span><span class="line"><span class="cl">      <span class="n">AllowOverride</span> <span class="n">None</span>
+</span></span><span class="line"><span class="cl">      <span class="n">Order</span> <span class="n">allow</span><span class="p">,</span><span class="n">deny</span>
+</span></span><span class="line"><span class="cl">      <span class="n">allow</span> <span class="n">from</span> <span class="n">all</span>
+</span></span><span class="line"><span class="cl">  <span class="o">&lt;/</span><span class="ne">Directory</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">#Redirect permanent / https://miescuelanombre.edu.ar</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;/</span><span class="n">VirtualHost</span><span class="o">&gt;</span>
+</span></span></code></pre></div><p>Es recomendable redirigir todo el trafico del puerto 80 a https(443) para comentá todo dentro VirtualHost menos la directiva Redirect.</p>
+<h4 id="borrá-webhtaccess">Borrá web/.htaccess</h4>
+<h5 id="dockerentrypoint">docker/entrypoint</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/sh
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span> <span class="nb">set</span> -eo pipefail
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">source</span> /usr/local/bin/setenvdefaults
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> -e <span class="s2">&#34;expose_php = Off\n&#34;</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>	<span class="s2">&#34;date.timezone = </span><span class="nv">$TIMEZONE</span><span class="s2">\n&#34;</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>        <span class="s2">&#34;memory_limit = </span><span class="nv">$MEMORY_LIMIT</span><span class="s2">\n&#34;</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>        <span class="s2">&#34;max_execution_time = </span><span class="nv">$MAX_EXECUTION_TIME</span><span class="s2">\n&#34;</span> &gt; /usr/local/etc/php/conf.d/php.ini
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">envsubst <span class="s1">&#39;${DB_NAME} ${DB_HOST} ${DB_USERNAME} ${DB_PASSWORD}&#39;</span> &lt; /app/config/propel.ini.docker &gt; /app/config/propel.ini
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cp config/extra.conf /etc/apache2/conf.d/extra.conf
+</span></span><span class="line"><span class="cl"><span class="c1">#cp config/ssl.conf /etc/apache2/conf.d/ssl.conf</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#cp config/apache2-foreground /usr/local/bin/apache2-foreground</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;SetEnvIf Request_URI &#34;^/robots.txt$&#34; dontlog&#39;</span> &gt; /etc/apache2/conf.d/docker.conf
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;CustomLog logs/access.log combined env=!dontlog&#39;</span> &gt;&gt; /etc/apache2/conf.d/docker.conf 
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;ServerTokens Prod&#39;</span> &gt;&gt; /etc/apache2/conf.d/docker.conf 
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;ServerSignature Off&#39;</span> &gt;&gt; /etc/apache2/conf.d/docker.conf 
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;TraceEnable Off&#39;</span> &gt;&gt; /etc/apache2/conf.d/docker.conf 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">CMD</span><span class="o">=</span><span class="s1">&#39;cd /app &amp;&amp; rm -fr cache/* &amp;&amp; ./symfony propel:build-all --classes-only &amp;&amp; ./symfony plugin:publish &amp;&amp; ./symfony fix-perms &amp;&amp; ./symfony kimkelen:flavor $FLAVOR&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> -z <span class="s2">&#34;</span><span class="nv">$APACHE_RUN_USER</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">  sh -c <span class="s2">&#34;</span><span class="nv">$CMD</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span>
+</span></span><span class="line"><span class="cl">  su <span class="nv">$APACHE_RUN_USER</span> -c <span class="s2">&#34;</span><span class="nv">$CMD</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">exec</span> /usr/local/bin/original-docker-php-entrypoint <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span>
+</span></span></code></pre></div><hr>
+<h4 id="importante">Importante</h4>
+<p><strong>Tenés que arreglar los permisos a apache a las carpetas, esto lo hice modificando el <code>Dockerfile</code>, y tenés que instalar <code>apache2-ssl</code> para que funcione el ssl.</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">FROM registry.gitlab.com/kimkelen/kimkelen:base-latest
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">RUN mv /usr/local/bin/docker-php-entrypoint /usr/local/bin/original-docker-php-entrypoint
+</span></span><span class="line"><span class="cl">ADD docker/entrypoint /usr/local/bin/docker-php-entrypoint
+</span></span><span class="line"><span class="cl">ADD docker/setenvdefaults /usr/local/bin/setenvdefaults
+</span></span><span class="line"><span class="cl">ADD . /app
+</span></span><span class="line"><span class="cl">RUN rm /app/web/*_dev.php
+</span></span><span class="line"><span class="cl">ENV <span class="nv">APACHE_DOCUMENT_ROOT</span><span class="o">=</span>/app/web/ <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    <span class="nv">DB_ENCODING</span><span class="o">=</span>utf8
+</span></span><span class="line"><span class="cl">ARG REVISION
+</span></span><span class="line"><span class="cl">ENV <span class="nv">VERSION</span><span class="o">=</span><span class="nv">$REVISION</span>
+</span></span><span class="line"><span class="cl">WORKDIR /app
+</span></span><span class="line"><span class="cl">RUN chown -R apache /app/data
+</span></span><span class="line"><span class="cl">COPY config/extra.conf /etc/apache2/conf.d/extra.conf
+</span></span><span class="line"><span class="cl">RUN apk add -U --no-cache apache2-ssl
+</span></span><span class="line"><span class="cl">COPY config/ssl.conf /etc/apache2/conf.d/ssl.conf
+</span></span></code></pre></div><h4 id="configsslconf">config/ssl.conf</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># This is the Apache server configuration file providing SSL support.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># It contains the configuration directives to instruct the server how to</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># serve pages over an https connection. For detailed information about these </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># directives see &lt;URL:http://httpd.apache.org/docs/2.4/mod/mod_ssl.html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Do NOT simply read the instructions in here without understanding</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># what they do.  They&#39;re here only as hints or reminders.  If you are unsure</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># consult the online docs. You have been warned.  </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Required modules: mod_log_config, mod_setenvif, mod_ssl,</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#          socache_shmcb_module (for default value of SSLSessionCache)</span>
+</span></span><span class="line"><span class="cl">LoadModule ssl_module modules/mod_ssl.so
+</span></span><span class="line"><span class="cl">LoadModule socache_shmcb_module modules/mod_socache_shmcb.so
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Pseudo Random Number Generator (PRNG):</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Configure one or more sources to seed the PRNG of the SSL library.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># The seed data should be of good random quality.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># WARNING! On some platforms /dev/random blocks if not enough entropy</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># is available. This means you then cannot use the /dev/random device</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># because it would lead to very long connection times (as long as</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># it requires to make more entropy available). But usually those</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># platforms additionally provide a /dev/urandom device which doesn&#39;t</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># block. So, if available, use this one instead. Read the mod_ssl User</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Manual for more details.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLRandomSeed startup file:/dev/random  512</span>
+</span></span><span class="line"><span class="cl">SSLRandomSeed startup file:/dev/urandom <span class="m">512</span>
+</span></span><span class="line"><span class="cl">SSLRandomSeed connect <span class="nb">builtin</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLRandomSeed connect file:/dev/random  512</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLRandomSeed connect file:/dev/urandom 512</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># When we also provide SSL we have to listen to the </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># standard HTTP port (see above) and to the HTTPS port</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl">Listen <span class="m">443</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">##</span>
+</span></span><span class="line"><span class="cl"><span class="c1">##  SSL Global Context</span>
+</span></span><span class="line"><span class="cl"><span class="c1">##</span>
+</span></span><span class="line"><span class="cl"><span class="c1">##  All SSL configuration in this context applies both to</span>
+</span></span><span class="line"><span class="cl"><span class="c1">##  the main server and all SSL-enabled virtual hosts.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">##</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   SSL Cipher Suite:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   List the ciphers that the client is permitted to negotiate,</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   and that httpd will negotiate as the client of a proxied server.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   See the OpenSSL documentation for a complete list of ciphers, and</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   ensure these follow appropriate best practices for this deployment.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   httpd 2.2.30, 2.4.13 and later force-disable aNULL, eNULL and EXP ciphers,</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   while OpenSSL disabled these by default in 0.9.8zf/1.0.0r/1.0.1m/1.0.2a.</span>
+</span></span><span class="line"><span class="cl">SSLCipherSuite HIGH:MEDIUM:!MD5:!RC4:!3DES:!ADH
+</span></span><span class="line"><span class="cl">SSLProxyCipherSuite HIGH:MEDIUM:!MD5:!RC4:!3DES:!ADH
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  By the end of 2016, only TLSv1.2 ciphers should remain in use.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#  Older ciphers should be disallowed as soon as possible, while the</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#  kRSA ciphers do not offer forward secrecy.  These changes inhibit</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#  older clients (such as IE6 SP2 or IE8 on Windows XP, or other legacy</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#  non-browser tooling) from successfully connecting.  </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#  To restrict mod_ssl to use only TLSv1.2 ciphers, and disable</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#  those protocols which do not support forward secrecy, replace</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#  the SSLCipherSuite and SSLProxyCipherSuite directives above with</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#  the following two directives, as soon as practical.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># SSLCipherSuite HIGH:MEDIUM:!SSLv3:!kRSA</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># SSLProxyCipherSuite HIGH:MEDIUM:!SSLv3:!kRSA</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   User agents such as web browsers are not configured for the user&#39;s</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   own preference of either security or performance, therefore this</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   must be the prerogative of the web server administrator who manages</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   cpu load versus confidentiality, so enforce the server&#39;s cipher order.</span>
+</span></span><span class="line"><span class="cl">SSLHonorCipherOrder on 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   SSL Protocol support:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   List the protocol versions which clients are allowed to connect with.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Disable SSLv3 by default (cf. RFC 7525 3.1.1).  TLSv1 (1.0) should be</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   disabled as quickly as practical.  By the end of 2016, only the TLSv1.2</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   protocol or later should remain in use.</span>
+</span></span><span class="line"><span class="cl">SSLProtocol all -SSLv3
+</span></span><span class="line"><span class="cl">SSLProxyProtocol all -SSLv3
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Pass Phrase Dialog:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Configure the pass phrase gathering process.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   The filtering dialog program (`builtin&#39; is an internal</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   terminal dialog) has to provide the pass phrase on stdout.</span>
+</span></span><span class="line"><span class="cl">SSLPassPhraseDialog  <span class="nb">builtin</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Inter-Process Session Cache:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Configure the SSL Session Cache: First the mechanism </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   to use and second the expiring timeout (in seconds).</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLSessionCache         &#34;dbm:/run/apache2/ssl_scache&#34;</span>
+</span></span><span class="line"><span class="cl">SSLSessionCache        <span class="s2">&#34;shmcb:/var/cache/mod_ssl/scache(512000)&#34;</span>
+</span></span><span class="line"><span class="cl">SSLSessionCacheTimeout  <span class="m">300</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   OCSP Stapling (requires OpenSSL 0.9.8h or later)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   This feature is disabled by default and requires at least</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   the two directives SSLUseStapling and SSLStaplingCache.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Refer to the documentation on OCSP Stapling in the SSL/TLS</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   How-To for more information.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Enable stapling for all SSL-enabled servers:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLUseStapling On</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Define a relatively small cache for OCSP Stapling using</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   the same mechanism that is used for the SSL session cache</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   above.  If stapling is used with more than a few certificates,</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   the size may need to be increased.  (AH01929 will be logged.)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLStaplingCache &#34;shmcb:/run/apache2/ssl_stapling(32768)&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Seconds before valid OCSP responses are expired from the cache</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLStaplingStandardCacheTimeout 3600</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Seconds before invalid OCSP responses are expired from the cache</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLStaplingErrorCacheTimeout 600</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">##</span>
+</span></span><span class="line"><span class="cl"><span class="c1">## SSL Virtual Host Context</span>
+</span></span><span class="line"><span class="cl"><span class="c1">##</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;VirtualHost _default_:443&gt;
+</span></span><span class="line"><span class="cl">DocumentRoot <span class="s2">&#34;/app/web/&#34;</span>
+</span></span><span class="line"><span class="cl">ServerAdmin admin@miescuelanombre.edu.ar
+</span></span><span class="line"><span class="cl">ServerAlias www.miescuelanombre.edu.ar:443
+</span></span><span class="line"><span class="cl">&lt;Directory <span class="s2">&#34;/app/web&#34;</span>&gt;
+</span></span><span class="line"><span class="cl">    Options -Indexes +FollowSymLinks -MultiViews
+</span></span><span class="line"><span class="cl">    AllowOverride None
+</span></span><span class="line"><span class="cl">    Order allow,deny
+</span></span><span class="line"><span class="cl">    allow from all
+</span></span><span class="line"><span class="cl">&lt;/Directory&gt;
+</span></span><span class="line"><span class="cl"><span class="c1">#DocumentRoot &#34;/var/www/localhost/htdocs&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#ServerName www.example.com:443</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#ServerAlias www.miescuelanombre.edu.ar:443</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#ServerAdmin you@example.com</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#ErrorLog logs/ssl_error.log</span>
+</span></span><span class="line"><span class="cl">ErrorLog logs/error.log
+</span></span><span class="line"><span class="cl">TransferLog logs/access.log
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   SSL Engine Switch:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Enable/Disable SSL for this virtual host.</span>
+</span></span><span class="line"><span class="cl">SSLEngine on
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Server Certificate:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Point SSLCertificateFile at a PEM encoded certificate.  If</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   the certificate is encrypted, then you will be prompted for a</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   pass phrase.  Note that a kill -HUP will prompt again.  Keep</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   in mind that if you have both an RSA and a DSA certificate you</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   can configure both in parallel (to also allow the use of DSA</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   ciphers, etc.)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Some ECC cipher suites (http://www.ietf.org/rfc/rfc4492.txt)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   require an ECC certificate which can also be configured in</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   parallel.</span>
+</span></span><span class="line"><span class="cl">SSLCertificateFile /etc/cloudflare/server.pem
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLCertificateFile /etc/ssl/apache2/server-dsa.pem</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLCertificateFile /etc/ssl/apache2/server-ecc.pem</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Server Private Key:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   If the key is not combined with the certificate, use this</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   directive to point at the key file.  Keep in mind that if</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   you&#39;ve both a RSA and a DSA private key you can configure</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   both in parallel (to also allow the use of DSA ciphers, etc.)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   ECC keys, when in use, can also be configured in parallel</span>
+</span></span><span class="line"><span class="cl">SSLCertificateKeyFile /etc/cloudflare/server.key
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLCertificateKeyFile /etc/ssl/apache2/server-dsa.key</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLCertificateKeyFile /etc/ssl/apache2/server-ecc.key</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Server Certificate Chain:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Point SSLCertificateChainFile at a file containing the</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   concatenation of PEM encoded CA certificates which form the</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   certificate chain for the server certificate. Alternatively</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   the referenced file can be the same as SSLCertificateFile</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   when the CA certificates are directly appended to the server</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   certificate for convenience.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLCertificateChainFile /etc/ssl/apache2/server-ca.pem</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Certificate Authority (CA):</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Set the CA certificate verification path where to find CA</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   certificates for client authentication or alternatively one</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   huge file containing all of them (file must be PEM encoded)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Note: Inside SSLCACertificatePath you need hash symlinks</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         to point to the certificate files. Use the provided</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         Makefile to update the hash symlinks after changes.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLCACertificatePath /etc/ssl/apache2/ssl.crt</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLCACertificateFile /etc/ssl/apache2/ssl.crt/ca-bundle.pem</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Certificate Revocation Lists (CRL):</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Set the CA revocation path where to find CA CRLs for client</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   authentication or alternatively one huge file containing all</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   of them (file must be PEM encoded).</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   The CRL checking mode needs to be configured explicitly</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   through SSLCARevocationCheck (defaults to &#34;none&#34; otherwise).</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Note: Inside SSLCARevocationPath you need hash symlinks</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         to point to the certificate files. Use the provided</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         Makefile to update the hash symlinks after changes.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLCARevocationPath /etc/ssl/apache2/ssl.crl</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLCARevocationFile /etc/ssl/apache2/ssl.crl/ca-bundle.crl</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLCARevocationCheck chain</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Client Authentication (Type):</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Client certificate verification type and depth.  Types are</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   none, optional, require and optional_no_ca.  Depth is a</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   number which specifies how deeply to verify the certificate</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   issuer chain before deciding the certificate is not valid.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLVerifyClient require</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLVerifyDepth  10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   TLS-SRP mutual authentication:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Enable TLS-SRP and set the path to the OpenSSL SRP verifier</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   file (containing login information for SRP user accounts). </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Requires OpenSSL 1.0.1 or newer. See the mod_ssl FAQ for</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   detailed instructions on creating this file. Example:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   &#34;openssl srp -srpvfile /etc/apache2/passwd.srpv -add username&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLSRPVerifierFile &#34;/etc/apache2/passwd.srpv&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Access Control:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   With SSLRequire you can do per-directory access control based</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   on arbitrary complex boolean expressions containing server</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   variable checks and other lookup directives.  The syntax is a</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   mixture between C and Perl.  See the mod_ssl documentation</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   for more details.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&lt;Location /&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLRequire (    %{SSL_CIPHER} !~ m/^(EXP|NULL)/ \</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#            and %{SSL_CLIENT_S_DN_O} eq &#34;Snake Oil, Ltd.&#34; \</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#            and %{SSL_CLIENT_S_DN_OU} in {&#34;Staff&#34;, &#34;CA&#34;, &#34;Dev&#34;} \</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#            and %{TIME_WDAY} &gt;= 1 and %{TIME_WDAY} &lt;= 5 \</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#            and %{TIME_HOUR} &gt;= 8 and %{TIME_HOUR} &lt;= 20       ) \</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#           or %{REMOTE_ADDR} =~ m/^192\.76\.162\.[0-9]+$/</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&lt;/Location&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   SSL Engine Options:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Set various options for the SSL engine.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   o FakeBasicAuth:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     Translate the client X.509 into a Basic Authorisation.  This means that</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     the standard Auth/DBMAuth methods can be used for access control.  The</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     user name is the `one line&#39; version of the client&#39;s X.509 certificate.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     Note that no password is obtained from the user. Every entry in the user</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     file needs this password: `xxj31ZMTZzkVA&#39;.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   o ExportCertData:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     This exports two additional environment variables: SSL_CLIENT_CERT and</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     SSL_SERVER_CERT. These contain the PEM-encoded certificates of the</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     server (always existing) and the client (only existing when client</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     authentication is used). This can be used to import the certificates</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     into CGI scripts.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   o StdEnvVars:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     This exports the standard SSL/TLS related `SSL_*&#39; environment variables.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     Per default this exportation is switched off for performance reasons,</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     because the extraction step is an expensive operation and is usually</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     useless for serving static content. So one usually enables the</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     exportation for CGI and SSI requests only.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   o StrictRequire:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     This denies access when &#34;SSLRequireSSL&#34; or &#34;SSLRequire&#34; applied even</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     under a &#34;Satisfy any&#34; situation, i.e. when it applies access is denied</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     and no other module can change it.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   o OptRenegotiate:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     This enables optimized SSL connection renegotiation handling when SSL</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     directives are used in per-directory context. </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#SSLOptions +FakeBasicAuth +ExportCertData +StrictRequire</span>
+</span></span><span class="line"><span class="cl">&lt;FilesMatch <span class="s2">&#34;\.(cgi|shtml|phtml|php)</span>$<span class="s2">&#34;</span>&gt;
+</span></span><span class="line"><span class="cl">    SSLOptions +StdEnvVars
+</span></span><span class="line"><span class="cl">&lt;/FilesMatch&gt;
+</span></span><span class="line"><span class="cl"><span class="c1">#&lt;Directory &#34;/var/www/localhost/cgi-bin&#34;&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#    SSLOptions +StdEnvVars</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&lt;/Directory&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   SSL Protocol Adjustments:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   The safe and default but still SSL/TLS standard compliant shutdown</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   approach is that mod_ssl sends the close notify alert but doesn&#39;t wait for</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   the close notify alert from client. When you need a different shutdown</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   approach you can use one of the following variables:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   o ssl-unclean-shutdown:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     This forces an unclean shutdown when the connection is closed, i.e. no</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     SSL close notify alert is sent or allowed to be received.  This violates</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     the SSL/TLS standard but is needed for some brain-dead browsers. Use</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     this when you receive I/O errors because of the standard approach where</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     mod_ssl sends the close notify alert.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   o ssl-accurate-shutdown:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     This forces an accurate shutdown when the connection is closed, i.e. a</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     SSL close notify alert is send and mod_ssl waits for the close notify</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     alert of the client. This is 100% SSL/TLS standard compliant, but in</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     practice often causes hanging connections with brain-dead browsers. Use</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     this only for browsers where you know that their SSL implementation</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#     works correctly. </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Notice: Most problems of broken clients are also related to the HTTP</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   keep-alive facility, so you usually additionally want to disable</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   keep-alive for those clients, too. Use variable &#34;nokeepalive&#34; for this.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   Similarly, one has to force some clients to use HTTP/1.0 to workaround</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   their broken HTTP/1.1 implementation. Use variables &#34;downgrade-1.0&#34; and</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   &#34;force-response-1.0&#34; for this.</span>
+</span></span><span class="line"><span class="cl">BrowserMatch <span class="s2">&#34;MSIE [2-5]&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>         nokeepalive ssl-unclean-shutdown <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>         downgrade-1.0 force-response-1.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   Per-Server Logging:</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   The home of a custom SSL log file. Use this when you want a</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#   compact non-error SSL logfile on a virtual host basis.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#CustomLog logs/ssl_request.log \</span>
+</span></span><span class="line"><span class="cl">CustomLog logs/access.log <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>          <span class="s2">&#34;%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \&#34;%r\&#34; %b&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;/VirtualHost&gt;                                  
+</span></span></code></pre></div><p>Todos los archivos por defecto toman la configuración de los archivos que están en /lib/ salvo que estén presentes en el flavor si el mismo nombre de archivo está presente en el flavor pisa el archivo por defecto que está en /lib/.</p>
+<p>Podés cambiar por ejemplo:
+<code>flavors/miescuelanombre/lib/behavior/MiescuelanombreEvaluatorBehaviour.class.php</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">    self::DECEMBER =&gt; &#39;Diciembre&#39;,
+</span></span><span class="line"><span class="cl">    self::FEBRUARY =&gt; &#39;Febrero&#39;,
+</span></span></code></pre></div><p>Lo cambiamos por</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">    self::DECEMBER =&gt; &#39;PEEE-dic&#39;,
+</span></span><span class="line"><span class="cl">    self::FEBRUARY =&gt; &#39;PEEE-feb&#39;,
+</span></span></code></pre></div><p>Después tenés que cambiar los mensajes en por ejemplo <code>flavors/miescuelanombre/i18n/messages.es.xml</code>
+<code>La Plata</code> cambialo por la ciudad de tu colegio.</p>
+<p><code>flavors/miescuelanombre/config/view.yml</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">title:         Liceo Víctor Mercante - UNLP
+</span></span><span class="line"><span class="cl">description:   Liceo Víctor Mercante - UNLP
+</span></span><span class="line"><span class="cl">keywords:      liceo, victor, mercante, unlp
+</span></span></code></pre></div><p><strong>Cambiala por el nombre de tu colegio.</strong></p>
+<p>Cambiá también el nombre de la otra escuela en todos los documentos: <code>flavors/minombreescuela/modules/student/templates/_analytical_header_text.php</code> y <code>flavors/minombreescuela/modules/student/templates/_certificate_regular_text.php</code> <code>flavors/minombreescuela/modules/student/templates/_analytical_footer_signatures.php</code> y en todas las demás ocurrencias buscalas con <code>grep -i agropecuaria -r *</code> y editá los nombres del director del colegio y de la vice. Cambiá todos los logos.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">flavors/miescuelanombre/modules/student/templates/_analytical_header.php
+</span></span></code></pre></div><hr>
+<h1 id="algunos-problemas-en-el-código">Algunos problemas en el código</h1>
+<h4 id="hay-que-aplicar-parches-para-que-los-preceptores-puedan-imprimir-el-boletín">Hay que aplicar parches para que los preceptores puedan imprimir el boletín.</h4>
+<p>El nombre del parche no recuerdo pero si te ubicás en <code>patch</code> y ejecutás <code>grep &quot;preceptores&quot; -r *</code>.</p>
+<h4 id="que-se-puedan-agregar-notas-con-decimal-libformcoursesubjectmarksformclassphp">Que se puedan agregar notas con decimal: <code>lib/form/CourseSubjectMarksForm.class.php</code>:</h4>
+<p>Cambiá <code>sfValidatorInteger</code> por <code>sfValidatorNumber</code></p>
+<h4 id="cierre-de-ciclo-tenés-que-hacerlo-cada-año-o-poner-una-variable">Cierre de ciclo (tenés que hacerlo cada año o poner una variable):</h4>
+<p>Tenés que cambiar esta variable en <code>lib/model/SchoolYear.php</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">    <span class="nv">$lastYear</span> <span class="o">=</span> <span class="p">(</span><span class="nx">int</span><span class="p">)</span><span class="mi">2023</span><span class="p">;</span>
+</span></span></code></pre></div><p>Por</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">    <span class="nv">$lastYear</span> <span class="o">=</span> <span class="p">(</span><span class="nx">int</span><span class="p">)(</span><span class="nx">date</span><span class="p">(</span><span class="s1">&#39;Y&#39;</span><span class="p">))</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span></code></pre></div><p>Cambia en <code>lib/model/SchoolYear.php</code> y <code>lib/school_behaviour/base/BaseAnalyticalBehaviour.class.php</code> busca con <code>grep 2021 -r *</code> diferentes años y cambia <code>lastYear</code> y un array.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">count</span><span class="p">(</span><span class="nx">ExaminationPeer</span><span class="o">::</span><span class="na">retrieveForSchoolYearAndExaminationNumber</span><span class="p">(</span><span class="nv">$this</span><span class="p">,</span> <span class="nx">SchoolBehaviourFactory</span><span class="o">::</span><span class="na">getEvaluatorInstance</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">getFebruaryExaminationNumber</span><span class="p">()))</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">year</span> <span class="o">!=</span> <span class="mi">2022</span><span class="p">)</span>
+</span></span></code></pre></div><p>Por</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">    <span class="nv">$lastYear</span> <span class="o">=</span> <span class="p">(</span><span class="nx">int</span><span class="p">)(</span><span class="nx">date</span><span class="p">(</span><span class="s1">&#39;Y&#39;</span><span class="p">))</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">count</span><span class="p">(</span><span class="nx">ExaminationPeer</span><span class="o">::</span><span class="na">retrieveForSchoolYearAndExaminationNumber</span><span class="p">(</span><span class="nv">$this</span><span class="p">,</span> <span class="nx">SchoolBehaviourFactory</span><span class="o">::</span><span class="na">getEvaluatorInstance</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">getFebruaryExaminationNumber</span><span class="p">()))</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">year</span> <span class="o">!=</span> <span class="nv">$lastYear</span><span class="p">)</span>
+</span></span></code></pre></div><p>Tenés que ir agregando los años en <code>$years  = array(2023,2024,2025,...);</code></p>
+<hr>
+<h4 id="agregar-observaciones-al-boletín">Agregar observaciones al boletín</h4>
+<p>Se hace modificando el archivo <code>flavors/miescuelanombre/modules/report_card/templates/_footer.php</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;&lt;?</span><span class="nx">php</span> <span class="k">echo</span> <span class="nv">$student</span><span class="o">-&gt;</span><span class="na">getPerson</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">getObservations</span><span class="p">();</span> <span class="cp">?&gt;</span><span class="err"> &lt;/p&gt;
+</span></span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

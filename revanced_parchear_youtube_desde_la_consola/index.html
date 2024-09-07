@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>YouTube Revanced: Parchear youtube desde la consola | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/revanced_parchear_youtube_desde_la_consola/">
+      <span>YouTube Revanced: Parchear youtube desde la consola</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@youtube/">Youtube</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@revanced/">Revanced</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@patch/">Patch</a></li>
+  
+</ul>
+
+<div class="content"><p>Anteriormente explique como parchear youtube usando revanced-manager desde android directamente, el problema es que para dispositivos con armv7 no esta bien soportado, entonces podés parchearlo desde la computadora con la siguiente guía:</p>
+<h4 id="ojo-este-generador-ya-no-se-usa-mas-porque-todos-los-parches-son-aplicados-automaticamente">OJO: ESTE GENERADOR YA NO SE USA MAS PORQUE TODOS LOS PARCHES SON APLICADOS AUTOMATICAMENTE</h4>
+<p>Guía:
+<a href="https://thismoon.github.io/revanced-helper/">https://thismoon.github.io/revanced-helper/</a></p>
+<p>Necesitás java jdk 17.
+Necesitás entrar al github de revanced y bajar el jar de revanced cli, el jar de revanced patches, el apk de revanced integrations y el apk de youtube desde apkmirror, tenés que ver que versión es compatible generalmente están en los releases de revanced patches (no tiene que ser -dev). Tenés que tener microG instalado en tu celular lo podés bajar desde la página oficial o desde el github de vanced microg.</p>
+<p>El comando que te genera la página mencionada anteriormente tiene algunos parámetros viejos todos los parches son automaticamente aplicados asi que no necesitas listarlos uno por uno, este fue el comando que usé para generar el patch :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">java -jar revanced-cli-4.0.2-all.jar patch  --patch-bundle revanced-patches-2.193.0.jar  --out patched-app.apk -m revanced-integrations.apk youtube.apk
+</span></span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Vulnerabilidades en el router TP Link WR841N | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/vulnerabilidades_tp_wr841n/">
+      <span>Vulnerabilidades en el router TP Link WR841N</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@vulnerabilidades/">Vulnerabilidades</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@tp/">Tp</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@link/">Link</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@hacking/">Hacking</a></li>
+  
+</ul>
+
+<div class="content"><p>Se puede acceder a toda la configuración y ejecutar cualquier comando remotamente.</p>
+<p><a href="https://www.exploit-db.com/exploits/45064">https://www.exploit-db.com/exploits/45064</a>
+<a href="https://www.exploit-db.com/exploits/45168">https://www.exploit-db.com/exploits/45168</a>
+<a href="https://www.exploit-db.com/exploits/45203">https://www.exploit-db.com/exploits/45203</a>
+<a href="https://www.exploit-db.com/exploits/46882">https://www.exploit-db.com/exploits/46882</a></p>
+<p>Usando burp-suite podés repetir la consulta agregandole <code>'Referer: http://192.168.0.1/mainFrame.htm'</code></p>
+<h4 id="authentication-bypass">Authentication Bypass:</h4>
+<p><a href="https://www.exploit-db.com/exploits/44781">https://www.exploit-db.com/exploits/44781</a></p>
+<h4 id="emulador-tl-wr841n">Emulador TL-WR841N</h4>
+<p><a href="https://emulator.tp-link.com/TL-WR841ND_V8/Index.htm">https://emulator.tp-link.com/TL-WR841ND_V8/Index.htm</a></p>
+<h4 id="listar-virtual-servers">Listar Virtual Servers:</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">curl &#39;https://emulator.tp-link.com/TL-WR841ND_V8/userRpm/VirtualServerRpm.htm&#39; \
+</span></span><span class="line"><span class="cl">  -H &#39;Referer: https://emulator.tp-link.com/TL-WR841ND_V8/userRpm/MenuRpm.htm&#39; \
+</span></span><span class="line"><span class="cl">  -H &#39;Upgrade-Insecure-Requests: 1&#39; \
+</span></span><span class="line"><span class="cl">  -H &#39;User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36&#39; \
+</span></span><span class="line"><span class="cl">  -H &#39;sec-ch-ua: &#34;Not/A)Brand&#34;;v=&#34;8&#34;, &#34;Chromium&#34;;v=&#34;126&#34;&#39; \
+</span></span><span class="line"><span class="cl">  -H &#39;sec-ch-ua-mobile: ?0&#39; \
+</span></span><span class="line"><span class="cl">  -H &#39;sec-ch-ua-platform: &#34;Linux&#34;&#39;
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

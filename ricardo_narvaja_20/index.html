@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Ricardo Narvaja: Exámen 20 (Servidor, libiconv-2.dll, iconv.dll, intl.dll) | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/ricardo_narvaja_20/">
+      <span>Ricardo Narvaja: Exámen 20 (Servidor, libiconv-2.dll, iconv.dll, intl.dll)</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@cracking/">Cracking</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ricardo/">Ricardo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@narvaja/">Narvaja</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@examen/">Examen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@calculadora/">Calculadora</a></li>
+  
+</ul>
+
+<div class="content"><h4 id="hay-3-exámenes">Hay 3 exámenes</h4>
+<h2 id="examen-a">Examen a</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="n">_BYTE</span> <span class="o">*</span><span class="kr">__cdecl</span> <span class="nf">sub_40ADB0</span><span class="p">(</span><span class="n">_BYTE</span> <span class="o">*</span><span class="n">a1</span><span class="p">,</span> <span class="n">_BYTE</span> <span class="o">*</span><span class="n">a2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">_BYTE</span> <span class="o">*</span><span class="n">v2</span><span class="p">;</span> <span class="c1">// edi
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">_BYTE</span> <span class="o">*</span><span class="n">v3</span><span class="p">;</span> <span class="c1">// ecx
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// edx
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v5</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">_BYTE</span> <span class="o">*</span><span class="n">result</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">v2</span> <span class="o">=</span> <span class="n">a1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v3</span> <span class="o">=</span> <span class="n">a2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="p">((</span><span class="kt">unsigned</span> <span class="kr">__int8</span><span class="p">)</span><span class="n">a2</span> <span class="o">&amp;</span> <span class="mi">3</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span> <span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nl">LABEL_6</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v5</span> <span class="o">=</span> <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v3</span> <span class="o">+</span> <span class="mi">2130640639</span><span class="p">)</span> <span class="o">^</span> <span class="o">~*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v4</span> <span class="o">=</span> <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v3</span> <span class="o">+=</span> <span class="mi">4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span> <span class="p">(</span><span class="n">v5</span> <span class="o">&amp;</span> <span class="mh">0x81010100</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="p">(</span><span class="n">_BYTE</span><span class="p">)</span><span class="n">v4</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="k">goto</span> <span class="n">LABEL_14</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="nf">BYTE1</span><span class="p">(</span><span class="n">v4</span><span class="p">)</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="o">*</span><span class="p">(</span><span class="n">_WORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v2</span> <span class="o">=</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="kr">__int8</span><span class="p">)</span><span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="k">return</span> <span class="n">a1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span> <span class="p">(</span><span class="n">v4</span> <span class="o">&amp;</span> <span class="mh">0xFF0000</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="o">*</span><span class="p">(</span><span class="n">_WORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v2</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="n">result</span> <span class="o">=</span> <span class="n">a1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="n">v2</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span> <span class="p">(</span><span class="n">v4</span> <span class="o">&amp;</span> <span class="mh">0xFF000000</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v2</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="k">return</span> <span class="n">a1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v2</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v2</span> <span class="o">+=</span> <span class="mi">4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span> <span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">LOBYTE</span><span class="p">(</span><span class="n">v4</span><span class="p">)</span> <span class="o">=</span> <span class="o">*</span><span class="n">v3</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="p">(</span><span class="n">_BYTE</span><span class="p">)</span><span class="n">v4</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="n">v2</span><span class="o">++</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="p">((</span><span class="kt">unsigned</span> <span class="kr">__int8</span><span class="p">)</span><span class="n">v3</span> <span class="o">&amp;</span> <span class="mi">3</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="k">goto</span> <span class="n">LABEL_6</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nl">LABEL_14</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="n">v2</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">a1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">char</span> <span class="o">*</span><span class="n">v3</span><span class="p">;</span> <span class="c1">// ebx
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">void</span> <span class="p">(</span><span class="n">__thiscall</span> <span class="o">**</span><span class="n">v4</span><span class="p">)(</span><span class="kt">char</span> <span class="o">*</span><span class="p">,</span> <span class="kt">int</span><span class="p">);</span> <span class="c1">// edx
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">void</span> <span class="p">(</span><span class="n">__thiscall</span> <span class="o">**</span><span class="n">v5</span><span class="p">)(</span><span class="kt">void</span> <span class="o">*</span><span class="p">,</span> <span class="kt">int</span><span class="p">);</span> <span class="c1">// edx
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">v6</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">v7</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v8</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="o">*</span><span class="n">v9</span><span class="p">;</span> <span class="c1">// esi
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">v10</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v11</span><span class="p">;</span> <span class="c1">// si
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v13</span><span class="p">;</span> <span class="c1">// [esp+0h] [ebp-14h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v14</span><span class="p">;</span> <span class="c1">// [esp+0h] [ebp-14h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v15</span><span class="p">;</span> <span class="c1">// [esp+0h] [ebp-14h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">void</span> <span class="o">*</span><span class="n">Block</span><span class="p">;</span> <span class="c1">// [esp+Ch] [ebp-8h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">size_t</span> <span class="n">Size</span><span class="p">;</span> <span class="c1">// [esp+10h] [ebp-4h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">Size</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">LoadLibraryA</span><span class="p">(</span><span class="s">&#34;iconv.dll&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">LoadLibraryA</span><span class="p">(</span><span class="s">&#34;intl.dll&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v3</span> <span class="o">=</span> <span class="nf">malloc</span><span class="p">(</span><span class="mi">416u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="n">v3</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">off_40327C</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v3</span> <span class="o">+</span> <span class="mi">52</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v4</span> <span class="o">=</span> <span class="o">*</span><span class="n">v3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v3</span> <span class="o">+</span> <span class="mi">53</span><span class="p">)</span> <span class="o">=</span> <span class="mi">2010</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">v3</span> <span class="o">+</span> <span class="mi">52</span><span class="p">)</span> <span class="o">=</span> <span class="mi">35</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">*</span><span class="n">v4</span><span class="p">)(</span><span class="n">v3</span><span class="p">,</span> <span class="mi">2000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">strncpy</span><span class="p">(</span><span class="n">v3</span> <span class="o">+</span> <span class="mi">216</span><span class="p">,</span> <span class="s">&#34;pepe&#34;</span><span class="p">,</span> <span class="mh">0xC8u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="o">*</span><span class="n">v3</span> <span class="o">+</span> <span class="mi">8</span><span class="p">))(</span><span class="n">v3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Block</span> <span class="o">=</span> <span class="nf">malloc</span><span class="p">(</span><span class="mh">0x1A0u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="n">Block</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">off_40327C</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">Block</span> <span class="o">+</span> <span class="mi">52</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v5</span> <span class="o">=</span> <span class="o">*</span><span class="n">Block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">Block</span> <span class="o">+</span> <span class="mi">53</span><span class="p">)</span> <span class="o">=</span> <span class="mi">2011</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">Block</span> <span class="o">+</span> <span class="mi">52</span><span class="p">)</span> <span class="o">=</span> <span class="mi">39</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">*</span><span class="n">v5</span><span class="p">)(</span><span class="n">Block</span><span class="p">,</span> <span class="mi">3000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">strncpy</span><span class="p">(</span><span class="n">Block</span> <span class="o">+</span> <span class="mi">216</span><span class="p">,</span> <span class="s">&#34;jose&#34;</span><span class="p">,</span> <span class="mh">0xC8u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="o">*</span><span class="n">Block</span> <span class="o">+</span> <span class="mi">8</span><span class="p">))(</span><span class="n">Block</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Ingrese Curriculum Empleados</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v13</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v6</span> <span class="o">=</span> <span class="nf">_acrt_iob_func</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fgets</span><span class="p">(</span><span class="n">v3</span> <span class="o">+</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="n">v6</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v7</span> <span class="o">=</span> <span class="nf">_acrt_iob_func</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fgets</span><span class="p">(</span><span class="n">Block</span> <span class="o">+</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="n">v7</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="nf">strlen</span><span class="p">(</span><span class="n">v3</span> <span class="o">+</span> <span class="mi">8</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mh">0x14</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="nf">strlen</span><span class="p">(</span><span class="n">Block</span> <span class="o">+</span> <span class="mi">8</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mh">0x14</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="k">goto</span> <span class="n">LABEL_9</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Despedir empleado curriculum insuficiente</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v14</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="n">Block</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">off_40327C</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">sub_401318</span><span class="p">(</span><span class="n">Block</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Despedir empleado curriculum insuficiente</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v14</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="n">v3</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">off_40327C</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">sub_401318</span><span class="p">(</span><span class="n">v3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Ingrese largo de curriculum de nuevo empleado</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v15</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">Size</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v8</span> <span class="o">=</span> <span class="nf">getchar</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span> <span class="n">v8</span> <span class="o">!=</span> <span class="mi">10</span> <span class="o">&amp;&amp;</span> <span class="n">v8</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v9</span> <span class="o">=</span> <span class="nf">malloc</span><span class="p">(</span><span class="n">Size</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v10</span> <span class="o">=</span> <span class="nf">_acrt_iob_func</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fgets</span><span class="p">(</span><span class="n">v9</span><span class="p">,</span> <span class="n">Size</span><span class="p">,</span> <span class="n">v10</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nl">LABEL_9</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Calcular ahorro en sueldos</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v14</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v11</span> <span class="o">=</span> <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="o">*</span><span class="n">v3</span> <span class="o">+</span> <span class="mi">4</span><span class="p">))(</span><span class="n">v3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="o">*</span><span class="n">Block</span> <span class="o">+</span> <span class="mi">4</span><span class="p">))(</span><span class="n">Block</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;gasto actual% d&#34;</span><span class="p">,</span> <span class="n">v11</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Samba server en Linux | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/samba_server_linux/">
+      <span>Samba server en Linux</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@samba/">Samba</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@server/">Server</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@linux/">Linux</a></li>
+  
+</ul>
+
+<div class="content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt install samba -y
+</span></span><span class="line"><span class="cl">sudo systemctl stop smbd
+</span></span><span class="line"><span class="cl">mkdir linuxshare
+</span></span><span class="line"><span class="cl">vim /etc/samba/smb.conf
+</span></span></code></pre></div><p>Agregá lo siguiente:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[global]
+</span></span><span class="line"><span class="cl">  server role = standalone server
+</span></span><span class="line"><span class="cl">  map to guest = bad user
+</span></span><span class="line"><span class="cl">  usershare allow guests = yes
+</span></span><span class="line"><span class="cl">  hosts allow = 192.168.0.0/16
+</span></span><span class="line"><span class="cl">  hosts deny = 0.0.0.0/0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[linuxsharename]
+</span></span><span class="line"><span class="cl">  comment = Open Linux Share
+</span></span><span class="line"><span class="cl">  path = /home/imlauer/linuxshare
+</span></span><span class="line"><span class="cl">  read only = no
+</span></span><span class="line"><span class="cl">  guest ok = yes
+</span></span><span class="line"><span class="cl">  force user = imlauer
+</span></span><span class="line"><span class="cl">  force group = imlauer
+</span></span></code></pre></div><p>Ejecutá: <code>testparm</code> para probar la configuración.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo systemctl enable smbd
+</span></span><span class="line"><span class="cl">sudo systemctl start smbd
+</span></span></code></pre></div><p>Permití a samba a través del firewall: <br>
+RHEL/Centos/Fedora
+<code>sudo firewall-cmd --add-service=samba</code></p>
+<p>Debian/Ubuntu/Mint
+<code>sudo ufw allow Samba</code></p>
+<p>Ahora en Windows habilitá la funcionalidad (feature): &ldquo;SMB 1.0&rdquo; .</p>
+<hr>
+<h4 id="si-no-te-funcionó-de-esa-forma-inténtalo-con-esto">Si no te funcionó de esa forma inténtalo con esto:</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt install samba
+</span></span><span class="line"><span class="cl">mkdir /home/esotericwarfare/sambashare/
+</span></span><span class="line"><span class="cl">vim /etc/samba/smb.conf
+</span></span></code></pre></div><p>Agregá al final:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[sambashare]
+</span></span><span class="line"><span class="cl">	comment = Samba on Kali
+</span></span><span class="line"><span class="cl">	path = /home/esotericwarfare/sambashare/
+</span></span><span class="line"><span class="cl">	read only = no
+</span></span><span class="line"><span class="cl">	browsable = yes
+</span></span></code></pre></div><p>Reiniciá samba: <code>sudo service smbd restart</code> <br>
+Permití el tráfico de samba a través del firewall: <code>sudo ufw allow samba</code> <br>
+Creá una contraseña para samba:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo smbpasswd -a esotericwarfare
+</span></span></code></pre></div><hr>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

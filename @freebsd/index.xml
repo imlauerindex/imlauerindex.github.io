@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freebsd on Index</title>
+    <link>https://adityatelange.github.io/@freebsd/</link>
+    <description>Recent content in Freebsd on Index</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Nov 2023 00:15:38 -0300</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/@freebsd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo ser parte de FreeBSD</title>
+      <link>https://adityatelange.github.io/be_a_part_of_freebsd/</link>
+      <pubDate>Tue, 21 Nov 2023 00:15:38 -0300</pubDate>
+      <guid>https://adityatelange.github.io/be_a_part_of_freebsd/</guid>
+      <description>Me encanta lo fácil que es ser parte de FreeBSD: Create una cuenta en https://bugs.freebsd.org/bugzilla/&#xA;Entrá a https://portscout.freebsd.org/ y buscá algún port desactualizado (o port sin mantenedor ( ports@freebsd.org ))&#xA;Actualice el puerto (makefile), abra un informe de error, agregue su diferencia y listo&amp;hellip; o solicite asumir el mantenimiento adicional de ese puerto.&#xA;https://docs.freebsd.org/en/books/porters-handbook/</description>
+    </item>
+    <item>
+      <title>Algunos comentarios sobre FreeBSD vs Linux</title>
+      <link>https://adityatelange.github.io/freebsd_vs_linux/</link>
+      <pubDate>Fri, 10 Nov 2023 06:14:21 -0300</pubDate>
+      <guid>https://adityatelange.github.io/freebsd_vs_linux/</guid>
+      <description>La razón principal por la que uso FreeBSD en algunas configuraciones son las herramientas e interfaces más concisas del usuario. Y por supuesto, muy buena documentación. Incluso si no conoces FreeBSD, es realmente fácil aprender a utilizarlo.&#xA;Mis ventajas son ZFS, jails (iocage) y bhyve (vm-bhyve). Y un rendimiento extremadamente bueno. Puede ejecutar todo su Linux, Windows o cualquier servidor en máquinas virtuales. Puedes aislar tareas específicas en cárceles (samba, dlna o lo que sea).</description>
+    </item>
+    <item>
+      <title>Instalación y configuración inicial de FreeBSD</title>
+      <link>https://adityatelange.github.io/freebsd_instalation/</link>
+      <pubDate>Fri, 10 Nov 2023 04:52:12 -0300</pubDate>
+      <guid>https://adityatelange.github.io/freebsd_instalation/</guid>
+      <description>Instalar freebsd, configuración inicial, instalar xfce https://youtube.com/watch?v=Jg4YW-8Xr_g&#xA;https://youtube.com/watch?v=SQxReyTmtiE&#xA;https://youtube.com/watch?v=ObQTHyvcdQ0&#xA;instalar wifi, powerd El driver nativo de rtw88 de freebsd no me funcionó bien, el wifi se desconectaba después de unos minutos. La solución fue instalar WiFiBox https://forums.ghostbsd.org/viewtopic.php?f=64&amp;amp;t=2578&amp;amp;sid=8d568e99cbd80762de39a23c6436ce62&#xA;Y deshabilité la opción de background_dhclient en el /etc/rc.conf&#xA;Administración de la energía en FreeBSD https://forums.freebsd.org/threads/freebsd-13-0-and-cpu-power-management.82096/&#xA;powerd_enable=&amp;#34;YES&amp;#34; Después de agregar esto a mi /etc/rc.conf aumentó muchísimo el rendimiento de mi laptop pero levantaba mucha temperatura cuando compilaba algo llegaba hasta 75º que lo solucioné con el siguiente parámentro en rc.</description>
+    </item>
+    <item>
+      <title>El estado actual de soporte de hardware en FreeBSD</title>
+      <link>https://adityatelange.github.io/2022-10-03-el-estado-actual-de-soporte-de-hardware-en-freebsd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/2022-10-03-el-estado-actual-de-soporte-de-hardware-en-freebsd/</guid>
+      <description>Como mi placa de red no esta soportada en FreeBSD, me sugieren instalar una máquina virtual Linux y usarla como router para poder tener WiFi en FreeBSD.</description>
+    </item>
+  </channel>
+</rss>

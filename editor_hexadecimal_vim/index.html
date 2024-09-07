@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Como usar VIM como editor hexadecimal | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/editor_hexadecimal_vim/">
+      <span>Como usar VIM como editor hexadecimal</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@vim/">Vim</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@editor/">Editor</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@hexadecimal/">Hexadecimal</a></li>
+  
+</ul>
+
+<div class="content"><p>Para editar hexadecimal en vim renombrá el archivo a example.bin y agregá a tu <code>.vimrc</code> la siguiente configuración:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&#34; vim -b : edit binary using xxd-format!
+</span></span><span class="line"><span class="cl">augroup Binary
+</span></span><span class="line"><span class="cl">  au!
+</span></span><span class="line"><span class="cl">  au BufReadPre  *.bin let &amp;bin=1
+</span></span><span class="line"><span class="cl">  au BufReadPost *.bin if &amp;bin | %!xxd
+</span></span><span class="line"><span class="cl">  au BufReadPost *.bin set ft=xxd | endif
+</span></span><span class="line"><span class="cl">  au BufWritePre *.bin if &amp;bin | %!xxd -r
+</span></span><span class="line"><span class="cl">  au BufWritePre *.bin endif
+</span></span><span class="line"><span class="cl">  au BufWritePost *.bin if &amp;bin | %!xxd
+</span></span><span class="line"><span class="cl">  au BufWritePost *.bin set nomod | endif
+</span></span><span class="line"><span class="cl">augroup END
+</span></span></code></pre></div><p>Primero creá tu archivo <code>.txt</code> luego pasalo a <code>.bin</code></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

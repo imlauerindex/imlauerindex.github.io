@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Dos comandos de vim alucinantes | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/comando_de_vim_alucinante/">
+      <span>Dos comandos de vim alucinantes</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@vim/">Vim</a></li>
+  
+</ul>
+
+<div class="content"><p><strong>Alguna vez quisiste usar las keybindings de VIM al escribir un comando después de presionar Escape y los dos puntos (:) ?</strong></p>
+<p>Bueno, hay una forma de hacerlo y es usando Control-F luego de escribir los dos puntos, ahí escribís el comando usando las keybindings y le das enter para ejecutarlo.</p>
+<hr>
+<p>Seleccionar todas las líneas que empiecen con una palabra y agregar algo al final y al comienzo de esas líneas seleccionadas</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Shift+v <span class="o">(</span>seleccioná las líneas<span class="o">)</span> con j y k te movés.
+</span></span><span class="line"><span class="cl">:g/^pacman/norm!Iescribí acá el texto que se agregará al comienzo
+</span></span><span class="line"><span class="cl">:g/^pacman/norm!Aescribí acá el texto que se agregará al final
+</span></span></code></pre></div><p>O si lo querés hacer globalmente en todo el texto:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">:g/^12138/norm!Asomething_at_the_end
+</span></span></code></pre></div><p><img src="/files/mindblown.gif" alt="Mind Blown"></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

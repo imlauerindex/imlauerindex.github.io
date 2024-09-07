@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Subir capturas con una esp32 webcam a google drive | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/esp32_webcam_google_drive/">
+      <span>Subir capturas con una esp32 webcam a google drive</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@esp32/">Esp32</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@capturas/">Capturas</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@webcam/">Webcam</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@google/">Google</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@drive/">Drive</a></li>
+  
+</ul>
+
+<div class="content"><p>Me compré una cámara ESP32 CAM de MercadoLibre y seguí esta guía para subir las fotos a google drive. <a href="https://web.archive.org/web/20230608061848/https://www.gsampallo.com/2019/10/13/esp32-cam-subir-fotos-a-google-drive/">https://web.archive.org/web/20230608061848/https://www.gsampallo.com/2019/10/13/esp32-cam-subir-fotos-a-google-drive/</a>. Backup: <a href="https://archive.is/ABArm">https://archive.is/ABArm</a></p>
+<p>Se usa google script. Hice un pequeño cambio en el código agregué sensores para que la cámara tenga una mejor calidad cuando hay mucha luz o poca luz y forcé el http en lugar del https porque no funcionaba con el siguiente parámetro: <code>client.setInsecure()</code>;</p>
+<h3 id="google-script">Google Script</h3>
+<p>Accedé a Google Script: <a href="https://script.google.com/">https://script.google.com/</a>  &gt; New Project
+Ahí pegá este código:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">function</span> <span class="n">doPost</span><span class="p">(</span><span class="n">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">var</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Utilities</span><span class="o">.</span><span class="n">base64Decode</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">parameters</span><span class="o">.</span><span class="n">data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">var</span> <span class="n">nombreArchivo</span> <span class="o">=</span> <span class="n">Utilities</span><span class="o">.</span><span class="n">formatDate</span><span class="p">(</span><span class="n">new</span> <span class="n">Date</span><span class="p">(),</span> <span class="s2">&#34;GMT-3&#34;</span><span class="p">,</span> <span class="s2">&#34;yyyyMMdd_HHmmss&#34;</span><span class="p">)</span><span class="o">+</span><span class="s2">&#34;.jpg&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">var</span> <span class="n">blob</span> <span class="o">=</span> <span class="n">Utilities</span><span class="o">.</span><span class="n">newBlob</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">e</span><span class="o">.</span><span class="n">parameters</span><span class="o">.</span><span class="n">mimetype</span><span class="p">,</span> <span class="n">nombreArchivo</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">   <span class="o">//</span> <span class="n">Save</span> <span class="n">the</span> <span class="n">photo</span> <span class="n">to</span> <span class="n">Google</span> <span class="n">Drive</span>
+</span></span><span class="line"><span class="cl">  <span class="k">var</span> <span class="n">folder</span><span class="p">,</span> <span class="n">folders</span> <span class="o">=</span> <span class="n">DriveApp</span><span class="o">.</span><span class="n">getFoldersByName</span><span class="p">(</span><span class="s2">&#34;ESP32-CAM&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">folders</span><span class="o">.</span><span class="n">hasNext</span><span class="p">())</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">folder</span> <span class="o">=</span> <span class="n">folders</span><span class="o">.</span><span class="n">next</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">folder</span> <span class="o">=</span> <span class="n">DriveApp</span><span class="o">.</span><span class="n">createFolder</span><span class="p">(</span><span class="s2">&#34;ESP32-CAM&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">var</span> <span class="n">file</span> <span class="o">=</span> <span class="n">folder</span><span class="o">.</span><span class="n">createFile</span><span class="p">(</span><span class="n">blob</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">ContentService</span><span class="o">.</span><span class="n">createTextOutput</span><span class="p">(</span><span class="s1">&#39;Completo&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>El paso siguiente es guardar el script y publicarlo como aplicación web, esto ultimo lo hacemos desde
+Publicar(Deploy) &gt; Implementar como aplicación web</p>
+<p>Debemos elegir que se ejecute como nuestro usuario y que cualquier persona incluso los anónimos tengan acceso a la aplicación; luego confirmamos las opciones que se nos presenta.</p>
+<p>En la ultima opción Google nos mostrar una url donde estará publicada nuestra aplicación; debemos copiar esta url, la utilizaremos en el programa del ESP32-CAM.</p>
+<p>La url provista tendrá el siguiente formato:</p>
+<p><code>https://script.google.com/macros/s/XXXXXXXXXXXXXX/exec</code>
+Donde las XXXXXXXXXXXXXX serán reemplazadas por una secuencia alfanumérica que identifica a la aplicación.</p>
+<h5 id="para-subir-el-código-al-esp32-arduino">Para subir el código al ESP32 Arduino</h5>
+<p>Tenés que puentear GND(ground) con GPIO0 para poder programarlo. Explicado en este video: <a href="https://m.youtube.com/watch?v=oCA7XZl8ztk&amp;feature=youtu.be">https://m.youtube.com/watch?v=oCA7XZl8ztk&amp;feature=youtu.be</a></p>
+<p>Primero instalá arduino con en distros basadas en debian: <code>sudo apt install arduino</code> o en arch: <code>pacman -S arduino</code> si no funciona así podés instalar el paquete de la AUR <code>yay -S arduino-ide-bin</code></p>
+<p>Luego<br>
+Archivo &gt; preferencias (ctrl + ,) y agregá esta URL:</p>
+<p><a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json</a>
+dale ok &gt; ok</p>
+<p>Ahora andate a<br>
+herramientas &gt; placas &gt; gestor de tarjetas, ahí descargará todos los controladores de las diferentes tarjetas ahí buscá <code>esp32</code> y lo instalamos.</p>
+<p>Tenés que usar la configuración de placa:</p>
+<p>tools &gt; board &gt; esp32 &gt; ESP32 Wrover Module<br>
+tools &gt; partition scheme lo ponés a Huge APP</p>
+<p>Luego para configurar la velocidad:
+Tools &gt; Upload Speed &gt; 115200</p>
+<p>Para solucionar el error: <code>ModuleNotFoundError: No module named 'serial'</code> ejecutamos <code>pip install pyserial</code> o <code>sudo pacman -S python-pyserial</code> en arch</p>
+<p>Luego ubicate en donde guardaste el sketch y bajá la biblioteca <code>Base64.c</code> y <code>Base64.cpp</code> con el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">curl -O https://raw.githubusercontent.com/gsampallo/esp32cam-gdrive/master/Base64.cpp
+</span></span></span><span class="line"><span class="cl"><span class="go">curl -O https://raw.githubusercontent.com/gsampallo/esp32cam-gdrive/master/Base64.h
+</span></span></span></code></pre></div><hr>
+<p>Backup de estas bibliotecas por si las dudas las borran:</p>
+<p>Base64.h <a href="https://archive.is/wjM0B">https://archive.is/wjM0B</a><br>
+Base64.cpp <a href="https://archive.is/I8sdh">https://archive.is/I8sdh</a></p>
+<hr>
+<p>Para compilar <code>Ctrl+R</code>, para compilar y subir el programa <code>Ctrl+U</code></p>
+<p>A veces cuando intentás cargar falla la carga un truco que me funcionaba era cambiar la velocidad de serie compilar sin subir y cambiarlo de nuevo a la que estaba antes y ahí sí compilar y subirlo</p>
+<p>Así me quedó el código (tenés que descargar las bibliotecas base64.cpp y base64.h y ponerlas en la misma carpeta como se mencionó anteriormente sino no compilará):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;WiFi.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;WiFiClientSecure.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&#34;soc/soc.h&#34;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&#34;soc/rtc_cntl_reg.h&#34;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&#34;Base64.h&#34;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&#34;esp_camera.h&#34;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">ssid</span>     <span class="o">=</span> <span class="s">&#34;tured_wifi&#34;</span><span class="p">;</span>   <span class="c1">//your network SSID
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">password</span> <span class="o">=</span> <span class="s">&#34;tuclave_wifi&#34;</span><span class="p">;</span>   <span class="c1">//your network password
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">myDomain</span> <span class="o">=</span> <span class="s">&#34;script.google.com&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">String</span> <span class="n">myScript</span> <span class="o">=</span> <span class="s">&#34;/macros/s/xxxxxxxxxxxxxx&#34;</span><span class="p">;</span>    <span class="c1">//Replace with your own url
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">String</span> <span class="n">myFilename</span> <span class="o">=</span> <span class="s">&#34;filename=ESP32-CAM.jpg&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">String</span> <span class="n">mimeType</span> <span class="o">=</span> <span class="s">&#34;&amp;mimetype=image/jpeg&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">String</span> <span class="n">myImage</span> <span class="o">=</span> <span class="s">&#34;&amp;data=&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">waitingTime</span> <span class="o">=</span> <span class="mi">360000</span><span class="p">;</span> <span class="c1">//Wait 6 minutes to google response.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="cp">#define CAMERA_MODEL_AI_THINKER </span><span class="c1">// Has PSRAM
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="cp">#define PWDN_GPIO_NUM     32
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define RESET_GPIO_NUM    -1
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define XCLK_GPIO_NUM      0
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define SIOD_GPIO_NUM     26
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define SIOC_GPIO_NUM     27
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="cp">#define Y9_GPIO_NUM       35
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define Y8_GPIO_NUM       34
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define Y7_GPIO_NUM       39
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define Y6_GPIO_NUM       36
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define Y5_GPIO_NUM       21
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define Y4_GPIO_NUM       19
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define Y3_GPIO_NUM       18
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define Y2_GPIO_NUM        5
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define VSYNC_GPIO_NUM    25
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define HREF_GPIO_NUM     23
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define PCLK_GPIO_NUM     22
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">WRITE_PERI_REG</span><span class="p">(</span><span class="n">RTC_CNTL_BROWN_OUT_REG</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">115200</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">WiFi</span><span class="p">.</span><span class="nf">mode</span><span class="p">(</span><span class="n">WIFI_STA</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&#34;Connecting to &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">ssid</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">WiFi</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="n">ssid</span><span class="p">,</span> <span class="n">password</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="p">(</span><span class="n">WiFi</span><span class="p">.</span><span class="nf">status</span><span class="p">()</span> <span class="o">!=</span> <span class="n">WL_CONNECTED</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&#34;.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;STAIP address: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">WiFi</span><span class="p">.</span><span class="nf">localIP</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kt">camera_config_t</span> <span class="n">config</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">ledc_channel</span> <span class="o">=</span> <span class="n">LEDC_CHANNEL_0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">ledc_timer</span> <span class="o">=</span> <span class="n">LEDC_TIMER_0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_d0</span> <span class="o">=</span> <span class="n">Y2_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_d1</span> <span class="o">=</span> <span class="n">Y3_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_d2</span> <span class="o">=</span> <span class="n">Y4_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_d3</span> <span class="o">=</span> <span class="n">Y5_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_d4</span> <span class="o">=</span> <span class="n">Y6_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_d5</span> <span class="o">=</span> <span class="n">Y7_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_d6</span> <span class="o">=</span> <span class="n">Y8_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_d7</span> <span class="o">=</span> <span class="n">Y9_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_xclk</span> <span class="o">=</span> <span class="n">XCLK_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_pclk</span> <span class="o">=</span> <span class="n">PCLK_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_vsync</span> <span class="o">=</span> <span class="n">VSYNC_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_href</span> <span class="o">=</span> <span class="n">HREF_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_sscb_sda</span> <span class="o">=</span> <span class="n">SIOD_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_sscb_scl</span> <span class="o">=</span> <span class="n">SIOC_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_pwdn</span> <span class="o">=</span> <span class="n">PWDN_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pin_reset</span> <span class="o">=</span> <span class="n">RESET_GPIO_NUM</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//config.xclk_freq_hz = 20000000;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">config</span><span class="p">.</span><span class="n">xclk_freq_hz</span> <span class="o">=</span> <span class="mi">5000000</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">pixel_format</span> <span class="o">=</span> <span class="n">PIXFORMAT_JPEG</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">frame_size</span> <span class="o">=</span> <span class="n">FRAMESIZE_VGA</span><span class="p">;</span>  <span class="c1">// UXGA|SXGA|XGA|SVGA|VGA|CIF|QVGA|HQVGA|QQVGA
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">config</span><span class="p">.</span><span class="n">jpeg_quality</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">config</span><span class="p">.</span><span class="n">fb_count</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kt">esp_err_t</span> <span class="n">err</span> <span class="o">=</span> <span class="nf">esp_camera_init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">config</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">err</span> <span class="o">!=</span> <span class="n">ESP_OK</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Serial</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Camera init failed with error 0x%x&#34;</span><span class="p">,</span> <span class="n">err</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ESP</span><span class="p">.</span><span class="nf">restart</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1">// Estos son los sensores que agregué
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">sensor_t</span> <span class="o">*</span> <span class="n">s</span> <span class="o">=</span> <span class="nf">esp_camera_sensor_get</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_brightness</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>     <span class="c1">// -2 to 2
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_contrast</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>       <span class="c1">// -2 to 2
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_saturation</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>     <span class="c1">// -2 to 2
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_special_effect</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span> <span class="c1">// 0 to 6 (0 - No Effect, 1 - Negative, 2 - Grayscale, 3 - Red Tint, 4 - Green Tint, 5 - Blue Tint, 6 - Sepia)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_whitebal</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>       <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_awb_gain</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>       <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_wb_mode</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>        <span class="c1">// 0 to 4 - if awb_gain enabled (0 - Auto, 1 - Sunny, 2 - Cloudy, 3 - Office, 4 - Home)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_exposure_ctrl</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>  <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_aec2</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>           <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_ae_level</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>       <span class="c1">// -2 to 2
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_aec_value</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">300</span><span class="p">);</span>    <span class="c1">// 0 to 1200
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_gain_ctrl</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>      <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_agc_gain</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>       <span class="c1">// 0 to 30
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">//s-&gt;set_gainceiling(s, (gainceiling_t)0);  // 0 to 6
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_gainceiling</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="p">(</span><span class="kt">gainceiling_t</span><span class="p">)</span><span class="mi">2</span><span class="p">);</span>  <span class="c1">// 0 to 6
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_bpc</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>            <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_wpc</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>            <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_raw_gma</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>        <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_lenc</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>           <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_hmirror</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>        <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_vflip</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>          <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_dcw</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>            <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">s</span><span class="o">-&gt;</span><span class="nf">set_colorbar</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>       <span class="c1">// 0 = disable , 1 = enable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">boolean</span> <span class="n">enviar</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//if(enviar) {
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nf">saveCapturedImage</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="n">enviar</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">delay</span><span class="p">(</span><span class="mi">300000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//}
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">saveCapturedImage</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;Connect to &#34;</span> <span class="o">+</span> <span class="nf">String</span><span class="p">(</span><span class="n">myDomain</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="n">WiFiClientSecure</span> <span class="n">client</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">client</span><span class="p">.</span><span class="nf">setInsecure</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">client</span><span class="p">.</span><span class="nf">connect</span><span class="p">(</span><span class="n">myDomain</span><span class="p">,</span> <span class="mi">443</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;Connection successful&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">camera_fb_t</span> <span class="o">*</span> <span class="n">fb</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fb</span> <span class="o">=</span> <span class="nf">esp_camera_fb_get</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="n">fb</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;Camera capture failed&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="n">ESP</span><span class="p">.</span><span class="nf">restart</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">char</span> <span class="o">*</span><span class="n">input</span> <span class="o">=</span> <span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="n">fb</span><span class="o">-&gt;</span><span class="n">buf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">char</span> <span class="n">output</span><span class="p">[</span><span class="nf">base64_enc_len</span><span class="p">(</span><span class="mi">3</span><span class="p">)];</span>
+</span></span><span class="line"><span class="cl">    <span class="n">String</span> <span class="n">imageFile</span> <span class="o">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">fb</span><span class="o">-&gt;</span><span class="n">len</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">base64_encode</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="p">(</span><span class="n">input</span><span class="o">++</span><span class="p">),</span> <span class="mi">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span><span class="n">i</span><span class="o">%</span><span class="mi">3</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span> <span class="n">imageFile</span> <span class="o">+=</span> <span class="nf">urlencode</span><span class="p">(</span><span class="nf">String</span><span class="p">(</span><span class="n">output</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="n">String</span> <span class="n">Data</span> <span class="o">=</span> <span class="n">myFilename</span><span class="o">+</span><span class="n">mimeType</span><span class="o">+</span><span class="n">myImage</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nf">esp_camera_fb_return</span><span class="p">(</span><span class="n">fb</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;Send a captured image to Google Drive.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">client</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;POST &#34;</span> <span class="o">+</span> <span class="n">myScript</span> <span class="o">+</span> <span class="s">&#34; HTTP/1.1&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">client</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;Host: &#34;</span> <span class="o">+</span> <span class="nf">String</span><span class="p">(</span><span class="n">myDomain</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="n">client</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;Content-Length: &#34;</span> <span class="o">+</span> <span class="nf">String</span><span class="p">(</span><span class="n">Data</span><span class="p">.</span><span class="nf">length</span><span class="p">()</span><span class="o">+</span><span class="n">imageFile</span><span class="p">.</span><span class="nf">length</span><span class="p">()));</span>
+</span></span><span class="line"><span class="cl">    <span class="n">client</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;Content-Type: application/x-www-form-urlencoded&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">client</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">client</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">Data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">Index</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="n">Index</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">Index</span> <span class="o">&lt;</span> <span class="n">imageFile</span><span class="p">.</span><span class="nf">length</span><span class="p">();</span> <span class="n">Index</span> <span class="o">=</span> <span class="n">Index</span><span class="o">+</span><span class="mi">1000</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">client</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">imageFile</span><span class="p">.</span><span class="nf">substring</span><span class="p">(</span><span class="n">Index</span><span class="p">,</span> <span class="n">Index</span><span class="o">+</span><span class="mi">1000</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;Waiting for response.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">long</span> <span class="kt">int</span> <span class="n">StartTime</span><span class="o">=</span><span class="nf">millis</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">client</span><span class="p">.</span><span class="nf">available</span><span class="p">())</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&#34;.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">((</span><span class="n">StartTime</span><span class="o">+</span><span class="n">waitingTime</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nf">millis</span><span class="p">())</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;No response.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">//If you have no response, maybe need a greater value of waitingTime
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">client</span><span class="p">.</span><span class="nf">available</span><span class="p">())</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="kt">char</span><span class="p">(</span><span class="n">client</span><span class="p">.</span><span class="nf">read</span><span class="p">()));</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&#34;Connected to &#34;</span> <span class="o">+</span> <span class="nf">String</span><span class="p">(</span><span class="n">myDomain</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#34; failed.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="n">client</span><span class="p">.</span><span class="nf">stop</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//https://github.com/zenmanenergy/ESP8266-Arduino-Examples/
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">String</span> <span class="nf">urlencode</span><span class="p">(</span><span class="n">String</span> <span class="n">str</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">String</span> <span class="n">encodedString</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">char</span> <span class="n">c</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">char</span> <span class="n">code0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">char</span> <span class="n">code1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">char</span> <span class="n">code2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">str</span><span class="p">.</span><span class="nf">length</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">      <span class="n">c</span><span class="o">=</span><span class="n">str</span><span class="p">.</span><span class="nf">charAt</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">&#39; &#39;</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="n">encodedString</span><span class="o">+=</span> <span class="sc">&#39;+&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nf">isalnum</span><span class="p">(</span><span class="n">c</span><span class="p">)){</span>
+</span></span><span class="line"><span class="cl">        <span class="n">encodedString</span><span class="o">+=</span><span class="n">c</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span> <span class="k">else</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">code1</span><span class="o">=</span><span class="p">(</span><span class="n">c</span> <span class="o">&amp;</span> <span class="mh">0xf</span><span class="p">)</span><span class="o">+</span><span class="sc">&#39;0&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">((</span><span class="n">c</span> <span class="o">&amp;</span> <span class="mh">0xf</span><span class="p">)</span> <span class="o">&gt;</span><span class="mi">9</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">            <span class="n">code1</span><span class="o">=</span><span class="p">(</span><span class="n">c</span> <span class="o">&amp;</span> <span class="mh">0xf</span><span class="p">)</span> <span class="o">-</span> <span class="mi">10</span> <span class="o">+</span> <span class="sc">&#39;A&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="n">c</span><span class="o">=</span><span class="p">(</span><span class="n">c</span><span class="o">&gt;&gt;</span><span class="mi">4</span><span class="p">)</span><span class="o">&amp;</span><span class="mh">0xf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">code0</span><span class="o">=</span><span class="n">c</span><span class="o">+</span><span class="sc">&#39;0&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">            <span class="n">code0</span><span class="o">=</span><span class="n">c</span> <span class="o">-</span> <span class="mi">10</span> <span class="o">+</span> <span class="sc">&#39;A&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="n">code2</span><span class="o">=</span><span class="sc">&#39;\0&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">encodedString</span><span class="o">+=</span><span class="sc">&#39;%&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">encodedString</span><span class="o">+=</span><span class="n">code0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">encodedString</span><span class="o">+=</span><span class="n">code1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">//encodedString+=code2;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">yield</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">encodedString</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Para grabar el programa en la ESP32 usé el programa arduino y para configurar el arduino seguí este video: <a href="https://youtube.com/watch?v=gN8MamCE4qE">https://m.youtube.com/watch?v=oCA7XZl8ztk&amp;feature=youtu.be</a> a veces me puteaba diciendo que compiló mal le cambiaba la velocidad de la comunicación serial y volvía a poner la que estaba y funcionaba</p>
+<p><a href="https://youtube.com/watch?v=XqT1rLHl3DE">https://youtube.com/watch?v=XqT1rLHl3DE</a></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

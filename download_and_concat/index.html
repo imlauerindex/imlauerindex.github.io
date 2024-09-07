@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Como descargar una playlist entera de YouTube y unirla en un solo archivo | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/download_and_concat/">
+      <span>Como descargar una playlist entera de YouTube y unirla en un solo archivo</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@descargar/">Descargar</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@youtube/">Youtube</a></li>
+  
+</ul>
+
+<div class="content"><h3 id="descargar-toda-la-playlist-y-guardarlos-en-archivos-sin-espacio-para-facilitar-el-trabajo-usando-ffmpeg">Descargar toda la playlist y guardarlos en archivos sin espacio para facilitar el trabajo usando ffmpeg</h3>
+<p>En este caso vamos a bajar el audio solamente (esto se hace con -f 140), si queremos el video podemos usar la opcion -f 18 o -f 22 entre otras opciones. Si ponen -F en vez de -f les tira una lista de calidades disponibles.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yt-dlp -f <span class="m">140</span> <span class="s1">&#39;https://youtu.be/playlist?list=PLff7Jl9WJY9tkiCxOEwAS67pFUBGQMtkE&#39;</span>  -o <span class="s1">&#39;%(autonumber)s%(id)s.%(ext)s&#39;</span>
+</span></span></code></pre></div><h3 id="guardar-todo-en-un-archivo-mylisttxt-para-que-ffmpeg-pueda-juntar-los-archivos">Guardar todo en un archivo mylist.txt para que ffmpeg pueda juntar los archivos</h3>
+<p>pueden usar este comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">touch mylist.txt <span class="o">&amp;&amp;</span> <span class="k">for</span> file in *.m4a <span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="s2">&#34;file &#39;</span><span class="nv">$file</span><span class="s2">&#39;&#34;</span> &gt;&gt; mylist.txt <span class="p">;</span> <span class="k">done</span>
+</span></span></code></pre></div><p>OJO! Va m4a si descargaron archivos de audios pero si descargaron videos tienen que poner la extensión del video que bajaron, por ejemplo usando mp4 seria:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">touch mylist.txt <span class="o">&amp;&amp;</span> <span class="k">for</span> file in *.mp4 <span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="s2">&#34;file &#39;</span><span class="nv">$file</span><span class="s2">&#39;&#34;</span> &gt;&gt; mylist.txt <span class="p">;</span> <span class="k">done</span>
+</span></span></code></pre></div><p>asi te tiene que quedar mylist.txt despues de agregar file &rsquo; al principio del nombre del archivo y la comilla al final del nombre del archivo</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">file <span class="s1">&#39;file1.m4a&#39;</span>
+</span></span><span class="line"><span class="cl">file <span class="s1">&#39;file2.m4a&#39;</span>
+</span></span><span class="line"><span class="cl">file <span class="s1">&#39;file3.m4a&#39;</span>
+</span></span></code></pre></div><p>Lo juntamos con:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ffmpeg -f concat -safe <span class="m">0</span> -i mylist.txt -c copy output.m4a
+</span></span></code></pre></div><p>OJO: Aca deberian poner m4a si bajaron archivos de audios como mencione anteriormente, sino ponen la extension del archivo de video que bajaron como por ejemplo mp4.</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

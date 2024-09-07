@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Explotando el típico buffer overflow copia un buffer mas grande a uno más chico. | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/bufferoverflow_strcpy/">
+      <span>Explotando el típico buffer overflow copia un buffer mas grande a uno más chico.</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@buffer/">Buffer</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@overflow/">Overflow</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@examen/">Examen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@2/">2</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@bufferoverflow/">Bufferoverflow</a></li>
+  
+</ul>
+
+<div class="content"><p>Lee 210 de un archivo en el 1er buffer, pero en el 2do buffer está el overflow porque <code>Dst</code>(Destination) es un buffer de 200 bytes. Le pasa un puntero, o sea la dirección del buffer Dst a la función <code>check</code>.</p>
+<p>Si en una función se pasa un puntero y a partir de esa dirección se le suma un offset y se encuentran valores para comparar o distintos campos, sabemos que ahí hay una estructura, podría haber una estructura que abarque todas las variables de la primera función.</p>
+<p>Sabemos que desde el inicio de <code>Dst</code> hasta C8(200) pertenecen a la estructura.
+Entonces cuando llama a check está pasando la dirección de la estructura,</p>
+<p>De <code>cmp dword ptr [eax+0C8h],0</code> pasamos a <code>cmp [eax+struct_0.const_uno],0</code> definiendolo como estructura en el ida.</p>
+<p>Chequea si es 0 la variable <code>constante_uno</code> que está dentro de la estructura.
+Podemos hacer que esa variable sea 0 overflodeando <strong>cuando hacemos el strcpy overfloademos el buffer Dst</strong>.</p>
+<p>El siguiente byte o dword a partir de 200 será la <code>constante_uno</code></p>
+<h4 id="solucion">Solucion</h4>
+<p>creamos un archivo llamado example.txt lo llenamos de cualquier letra por ejemplo: un montón de As (200 As) y luego 0(ceros), porque necesitamos pisar el valor de <code>constante_uno</code> para que la comparación de la <code>constante_uno</code> con 0 nos de verdadera.</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

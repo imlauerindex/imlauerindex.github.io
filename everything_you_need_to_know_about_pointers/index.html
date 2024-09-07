@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Everything you need to know about pointers | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/everything_you_need_to_know_about_pointers/">
+      <span>Everything you need to know about pointers</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@punteros/">Punteros</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@c/">C</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@programacion/">Programacion</a></li>
+  
+</ul>
+
+<div class="content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">struct</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">int</span> <span class="n">ancho</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">int</span> <span class="n">alto</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="k">typedef</span> <span class="n">Rectangulo</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">struct</span> <span class="n">queseyo</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span> <span class="n">nombre</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span> <span class="n">apellido</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span> <span class="n">fecha_nacimiento</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">int</span> <span class="n">dni</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cm">/*	Esto define una estructura Rectangulo
+</span></span></span><span class="line"><span class="cl"><span class="cm">**	struct {
+</span></span></span><span class="line"><span class="cl"><span class="cm">**		int ancho;
+</span></span></span><span class="line"><span class="cl"><span class="cm">**		int alto;
+</span></span></span><span class="line"><span class="cl"><span class="cm">**	} Rectangulo;
+</span></span></span><span class="line"><span class="cl"><span class="cm">**
+</span></span></span><span class="line"><span class="cl"><span class="cm">*/</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="k">struct</span> <span class="n">queseyo</span> <span class="n">agenda</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">Rectangulo</span> <span class="n">abc</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="n">Rectangulo</span> <span class="n">prueba1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">prueba1</span><span class="p">.</span><span class="n">ancho</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">prueba1</span><span class="p">.</span><span class="n">alto</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;ancho: %d, alto: %d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">prueba1</span><span class="p">.</span><span class="n">ancho</span><span class="p">,</span><span class="n">prueba1</span><span class="p">.</span><span class="n">alto</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span> <span class="o">*</span> <span class="n">pointer_to_readonly_memory_string</span> <span class="o">=</span> <span class="s">&#34;asdf&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">//char pointer_to_memory_on_the_stack = malloc(sizeof(char)*5);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kt">char</span> <span class="n">pointer_to_memory_on_the_stack</span><span class="p">[]</span> <span class="o">=</span> <span class="s">&#34;asdf&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">// pointer_to_readonly_memory_string[0] = &#39;b&#39;; // segmentation fault
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="n">pointer_to_memory_on_the_stack</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="sc">&#39;b&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="nf">printf</span><span class="p">(</span><span class="s">&#34; pointer_to_readonly_memory_string: %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">pointer_to_readonly_memory_string</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">printf</span><span class="p">(</span><span class="s">&#34; pointer_to_memory_on_the_stack: %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">pointer_to_memory_on_the_stack</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">// *pointer = *(pointer+0) = pointer[0]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// Equivalentes
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kt">int</span> <span class="o">*</span><span class="n">pointer</span> <span class="o">=</span> <span class="nf">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="o">*</span><span class="mi">4</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// int *pointer1 = malloc(sizeof(*pointer1)*4);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="c1">// int pointer2[4];
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">	<span class="o">*</span><span class="n">pointer</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">*</span><span class="p">(</span><span class="n">pointer</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">pointer</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">*</span><span class="p">(</span><span class="n">pointer</span><span class="o">+</span><span class="mi">3</span><span class="p">)</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">*</span><span class="p">(</span><span class="n">pointer</span><span class="o">+</span><span class="mi">4</span><span class="p">)</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">4</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">		<span class="n">pointer</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">// malloc te crea en la memoria un espacio de 5 caracteres 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="c1">//char *hola = malloc(sizeof(char)*5);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kt">char</span> <span class="o">*</span><span class="n">hola</span> <span class="o">=</span> <span class="nf">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="o">*</span><span class="n">hola</span><span class="p">)</span><span class="o">*</span><span class="mi">5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">// Todas estas expresiones son equivalentes
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="o">*</span><span class="n">hola</span> <span class="o">=</span> <span class="sc">&#39;h&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">hola</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="sc">&#39;h&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">*</span><span class="p">(</span><span class="n">hola</span><span class="o">+</span><span class="mi">0</span><span class="p">)</span> <span class="o">=</span> <span class="sc">&#39;h&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="o">*</span><span class="p">(</span><span class="n">hola</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">=</span> <span class="sc">&#39;o&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">*</span><span class="p">(</span><span class="n">hola</span><span class="o">+</span><span class="mi">2</span><span class="p">)</span> <span class="o">=</span> <span class="sc">&#39;l&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">*</span><span class="p">(</span><span class="n">hola</span><span class="o">+</span><span class="mi">3</span><span class="p">)</span> <span class="o">=</span> <span class="sc">&#39;a&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">*</span><span class="p">(</span><span class="n">hola</span><span class="o">+</span><span class="mi">4</span><span class="p">)</span> <span class="o">=</span> <span class="sc">&#39;\0&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">sprintf</span><span class="p">(</span><span class="n">hola</span><span class="p">,</span><span class="s">&#34;%s&#34;</span><span class="p">,</span><span class="s">&#34;chau&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">4</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">		<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;pointer: %d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">pointer</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;pointer: %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">hola</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">free</span><span class="p">(</span><span class="n">pointer</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">free</span><span class="p">(</span><span class="n">hola</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="invertir-una-lista-enlazada">Invertir una lista enlazada</h3>
+<h3 id="httpswwwgeeksforgeeksorgreverse-a-linked-listhttpswwwgeeksforgeeksorgreverse-a-linked-list"><a href="https://www.geeksforgeeks.org/reverse-a-linked-list/">https://www.geeksforgeeks.org/reverse-a-linked-list/</a></h3>
+<h3 id="invertir-un-árbol-binario">Invertir un árbol binario</h3>
+<h3 id="httpswwwgeeksforgeeksorgflip-binary-treehttpswwwgeeksforgeeksorgflip-binary-tree"><a href="https://www.geeksforgeeks.org/flip-binary-tree/">https://www.geeksforgeeks.org/flip-binary-tree/</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">reverse</span><span class="p">(</span><span class="k">struct</span> <span class="n">node</span><span class="o">**</span> <span class="n">head_ref</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="n">node</span><span class="o">*</span> <span class="n">prev</span>  <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="n">node</span><span class="o">*</span> <span class="n">current</span> <span class="o">=</span> <span class="o">*</span><span class="n">head_ref</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="n">node</span><span class="o">*</span> <span class="n">next</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">current</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">next</span>  <span class="o">=</span> <span class="n">current</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>  
+</span></span><span class="line"><span class="cl">        <span class="n">current</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">prev</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">        <span class="n">prev</span> <span class="o">=</span> <span class="n">current</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">current</span> <span class="o">=</span> <span class="n">next</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="n">head_ref</span> <span class="o">=</span> <span class="n">prev</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h4 id="ejercicios-resueltos-sobre-estructura-de-datos-en-cfilespointersestrategias7z"><a href="/files/pointers/estrategias.7z">Ejercicios resueltos sobre Estructura de Datos en C</a></h4>
+<h4 id="más-ejercicios-resueltosfilespointerspracticaresueltaedyazip"><a href="/files/pointers/PracticaresueltaEDyA.zip">Más ejercicios resueltos</a></h4>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

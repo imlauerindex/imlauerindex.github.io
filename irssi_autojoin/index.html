@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Conectarse automáticamente a una red y a un canal de IRC usando Irssi | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/irssi_autojoin/">
+      <span>Conectarse automáticamente a una red y a un canal de IRC usando Irssi</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@irssi/">Irssi</a></li>
+  
+</ul>
+
+<div class="content"><h3 id="habilite-la-conexión-automática-en-un-servidor">Habilite la conexión automática en un servidor:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">/SERVER MODIFY -auto irc.libera.chat
+</span></span></code></pre></div><p>Para desactivarlo nuevamente, use <code>-noauto</code>.</p>
+<h4 id="unirse-automáticamente-a-canales">Unirse automáticamente a canales</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">/CHANNEL ADD -auto #channelname NetworkName
+</span></span></code></pre></div><p>(Ver tus redes configuradas con: /NETWORK)</p>
+<p>Agregue todos los canales actualmente abiertos como canales de unión automática</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">/ADDALLCHANS
+</span></span></code></pre></div><p>(Este es un alias predeterminado que ejecuta un script Perl para ejecutar en masa comandos /CHANNEL ADD)</p>
+<h3 id="inicio-de-sesión-automático-en-nickserv">Inicio de sesión automático en NickServ</h3>
+<p>Muchas redes admiten el inicio de sesión SASL (consulte el sitio web de la red o el canal de ayuda para obtener más detalles). En tal caso, utilícelo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">/NETWORK ADD -sasl_username yourname -sasl_password yourpassword -sasl_mechanism PLAIN liberachat
+</span></span></code></pre></div><p>Se aplican algunos casos especiales. Para la red OFTC, puede utilizar este script: <a href="https://unit193.net/dump/holdjoin.pl">https://unit193.net/dump/holdjoin.pl</a> en combinación con CertFP.</p>
+<p>Otra posibilidad es usar el comando WAIT dentro de autosendcmd para agregar un retraso después de que se envió el comando de identificación y antes de unir canales automáticamente (pero tenga en cuenta que esto no es confiable).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">/NETWORK MODIFY -autosendcmd &#34;^msg NickServ identify YOURPASSWORD YOURNICK;wait -OFTC 2000&#34; OFTC
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

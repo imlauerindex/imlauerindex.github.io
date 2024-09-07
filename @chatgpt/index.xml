@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chatgpt on Index</title>
+    <link>https://adityatelange.github.io/@chatgpt/</link>
+    <description>Recent content in Chatgpt on Index</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Dec 2023 23:19:35 -0300</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/@chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT</title>
+      <link>https://adityatelange.github.io/chatgpt/</link>
+      <pubDate>Sat, 02 Dec 2023 23:19:35 -0300</pubDate>
+      <guid>https://adityatelange.github.io/chatgpt/</guid>
+      <description>https://youtube.com/watch?v=q2A-MkGjvmI&#xA;https://youtube.com/watch?v=vUwQLsWjA-g</description>
+    </item>
+    <item>
+      <title>Advanced Markdown</title>
+      <link>https://adityatelange.github.io/new-post-3/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/new-post-3/</guid>
+      <description>In this post, we&amp;rsquo;ll dive into some advanced Markdown features.&#xA;Task Lists You can create task lists with checkboxes. Here&amp;rsquo;s an example:&#xA;Task 1 Task 2 Task 3 Footnotes Markdown supports footnotes. Here&amp;rsquo;s an example:&#xA;Here is some text with a footnote1.&#xA;Horizontal Rule You can insert a horizontal rule to separate sections. Here&amp;rsquo;s an example:&#xA;That&amp;rsquo;s all for now. I hope you find these advanced Markdown features helpful!&#xA;This is the footnote content.</description>
+    </item>
+    <item>
+      <title>Markdown Formatting</title>
+      <link>https://adityatelange.github.io/new-post-2/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/new-post-2/</guid>
+      <description>In this post, we&amp;rsquo;ll explore various formatting options available in Markdown.&#xA;Emphasis You can emphasize text using italic or bold styles.&#xA;Quotes Markdown allows you to include block quotes. Here&amp;rsquo;s an example:&#xA;&amp;ldquo;The only way to do great work is to love what you do.&amp;rdquo; - Steve Jobs&#xA;Images/Figures You can include images as figure in your posts. Here&amp;rsquo;s an example:&#xA;Emergence of Mandakini river from kedar peak&#xA;Tables Markdown supports tables.</description>
+    </item>
+    <item>
+      <title>Markdown?</title>
+      <link>https://adityatelange.github.io/new-post-1/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/new-post-1/</guid>
+      <description>Introduction Welcome to my first post! In this post, I will discuss various Markdown features and show you how to use them effectively.&#xA;Headings You can use headings to structure your content. Here&amp;rsquo;s an example:&#xA;Subheading Lists Markdown supports both ordered and unordered lists. Here are examples of both:&#xA;Item 1 Item 2 Item 3 Unordered item 1 Unordered item 2 Unordered item 3 Links You can create links to external websites or internal pages.</description>
+    </item>
+    <item>
+      <title>Como Usar Chatgpt y DALL-E en la Terminal</title>
+      <link>https://adityatelange.github.io/como-usar-chatgpt-consola/</link>
+      <pubDate>Thu, 23 Mar 2023 00:09:11 -0300</pubDate>
+      <guid>https://adityatelange.github.io/como-usar-chatgpt-consola/</guid>
+      <description>Instalación de chatGPT shelll client Primero instalan esto: https://github.com/0xacx/chatGPT-shell-cli Con el siguiente comando:&#xA;curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/install.sh | sudo -E bash Un script de shell simple y liviano para usar chatGPT y DALL-E de OpenAI desde la terminal sin instalar python o node.js. El script usa el modelo oficial de ChatGPT gpt-3.5-turbo con el punto de conexión /chat/completions de la API de OpenAI. También puede utilizar el nuevo modelo gpt-4, si tiene acceso.</description>
+    </item>
+    <item>
+      <title>ChatGPT en Neovim</title>
+      <link>https://adityatelange.github.io/chatgpt-en-neovim/</link>
+      <pubDate>Thu, 09 Mar 2023 21:05:11 -0300</pubDate>
+      <guid>https://adityatelange.github.io/chatgpt-en-neovim/</guid>
+      <description>Instala este plugin https://github.com/dpayne/CodeGPT.nvim&#xA;Instalando el plugin usando packer en init.lua agregar&#xA;use(&amp;#34;nvim-lua/plenary.nvim&amp;#34;) use(&amp;#34;MunifTanjim/nui.nvim&amp;#34;) use(&amp;#34;dpayne/CodeGPT.nvim&amp;#34;) Lista de comandos https://github.com/dpayne/CodeGPT.nvim#commands</description>
+    </item>
+  </channel>
+</rss>

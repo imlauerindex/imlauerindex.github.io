@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Comandos para obtener informacion acerca de tu hardware | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/comandos_para_obtener_informacion_acerca_de_tu_hardware/">
+      <span>Comandos para obtener informacion acerca de tu hardware</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@hardware/">Hardware</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@obtener/">Obtener</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@informacion/">Informacion</a></li>
+  
+</ul>
+
+<div class="content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">wmic
+</span></span></span><span class="line"><span class="cl"><span class="go">cpu get name
+</span></span></span><span class="line"><span class="cl"><span class="go">os get Caption, OSArchitecture
+</span></span></span><span class="line"><span class="cl"><span class="go">diskdrive get model, size
+</span></span></span><span class="line"><span class="cl"><span class="go">logicaldisk get name, Size
+</span></span></span><span class="line"><span class="cl"><span class="go">sounddev get Caption
+</span></span></span><span class="line"><span class="cl"><span class="go">product get name
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">Guardalos en un archivo:
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="gp">#</span><span class="c1">###</span>
+</span></span><span class="line"><span class="cl"><span class="go">wmic cpu get name &gt;&gt; cpuinfo.txt
+</span></span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Recuperar grub en debian desde usb live | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/recuperar_grub_debian_usb_live/">
+      <span>Recuperar grub en debian desde usb live</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@grub/">Grub</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@debian/">Debian</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@usb/">Usb</a></li>
+  
+</ul>
+
+<div class="content"><p>¿UEFI o BIOS? La forma más sencilla de saber si el sistema se ha iniciado en modo UEFI o BIOS es buscar una carpeta /sys/firmware/efi. La carpeta estará presente si su sistema utiliza UEFI.</p>
+<p>Mejor mirá como instalé el GRUB en ArchLinux bajo UEFI y agregá la opción <code>--removable</code> si cuando booteás te lleva a la EFI shell, y en caso de archlinux no hace falta hacer <code>mount --bind</code> sino que sólo con montar la particion de root y de efi y ejecutar <code>arch-chroot /mnt</code> basta.</p>
+<p>UEFI bootea desde un usb live y ejecutá:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo mount /dev/sda3 <span class="o">(</span>root<span class="o">)</span> /mnt
+</span></span><span class="line"><span class="cl">sudo mount /dev/sda1 <span class="o">(</span>efi<span class="o">)</span> /mnt/boot
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">arch-chroot /mnt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">### Si estás desde otra distro</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># for i in /dev /dev/pts /proc /sys /run; do sudo mount -B $i /mnt$i; done  </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># sudo chroot /mnt  </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># bios legacy</span>
+</span></span><span class="line"><span class="cl">pacman -S efibootmgr dosfstools mtools
+</span></span><span class="line"><span class="cl">grub-install /dev/sda --removable
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># uefi</span>
+</span></span><span class="line"><span class="cl">grub-install --target<span class="o">=</span>x86_64-efi --bootloader-id<span class="o">=</span>grub_uefi --efi-directory<span class="o">=</span>/boot --recheck
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># En el caso de otras distros</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># update-grub</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">grub-mkconfig -o /boot/grub/grub.cfg
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">exit</span>  
+</span></span><span class="line"><span class="cl">reboot
+</span></span></code></pre></div><p>Si falla <code>grub-install</code> ejecutá: <code>mount -t efivarfs none /sys/firmware/efi/efivars</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo umount /dev/sdXX
+</span></span><span class="line"><span class="cl">sudo umount /dev/sdXY
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">sudo grub-install /dev/sdX --removable
+</span></span></span><span class="line"><span class="cl"><span class="go">fdisk -l ó lsblk
+</span></span></span><span class="line"><span class="cl"><span class="go">for i in /dev /dev/pts /proc /sys /run; do mount -B $i /mnt$i; done
+</span></span></span><span class="line"><span class="cl"><span class="go">sudo chroot /mnt
+</span></span></span><span class="line"><span class="cl"><span class="go">sudo grub-install /dev/sda
+</span></span></span><span class="line"><span class="cl"><span class="go">sudo update-grub
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="gp">$</span> mount /dev/sdaY /mnt
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> mount --bind /dev /mnt/dev
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> mount --bind /dev/pts /mnt/dev/pts
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> mount --bind /proc /mnt/proc
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> mount --bind /sys /mnt/sys
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> chroot /mnt
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> grub-install /dev/sdX
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> O podés intentar con la opción removable
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> BIOS
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> grub-install /dev/sdX --removable
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> update-grub
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">exit</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> umount /mnt/dev/pts
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> umount /mnt/dev
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> umount /mnt/proc
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> umount /mnt/sys
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> umount /mnt
+</span></span></code></pre></div><h3 id="otra-forma">Otra forma</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> sudo mount /dev/sdXY /mnt
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> sudo mount /dev/sda1 /mnt/boot/efi <span class="c1">#use only if /boot is on a different partition</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> <span class="k">for</span> i in /dev /dev/pts /proc /sys /run<span class="p">;</span> <span class="k">do</span> sudo mount -B <span class="nv">$i</span> /mnt<span class="nv">$i</span><span class="p">;</span> <span class="k">done</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> sudo chroot /mnt
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> BIOS
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> sudo grub-install /dev/sda --removable
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> UEFI
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> sudo grub-install --target<span class="o">=</span>x86_64-efi --efi-directory<span class="o">=</span>/boot --removable
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> update-grub
+</span></span></code></pre></div><h4 id="otra-forma-1">Otra forma</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo mount /dev/sda1 /mnt
+</span></span><span class="line"><span class="cl">sudo grub-install --boot-directory<span class="o">=</span>/mnt/boot /dev/sda1 <span class="o">(</span>efi partition<span class="o">)</span> --removable
+</span></span><span class="line"><span class="cl">sudo mount /dev/sda1 /mnt
+</span></span></code></pre></div><h3 id="otra-forma-2">Otra forma</h3>
+<p>Precaución cambiá el nombre de las particiones.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mount /dev/sda5 /mnt/
+</span></span><span class="line"><span class="cl">mount /dev/sda1 /mnt/boot
+</span></span><span class="line"><span class="cl">mount --bind /dev /mnt/dev/
+</span></span><span class="line"><span class="cl">mount --bind /proc /mnt/proc/
+</span></span><span class="line"><span class="cl">chroot /mnt
+</span></span><span class="line"><span class="cl"><span class="c1"># grub-install --recheck /dev/sda</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># exit</span>
+</span></span></code></pre></div><p>Luego de reiniciar el sistema ejecutá:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo update-grub
+</span></span></code></pre></div><h3 id="otra-forma-3">Otra forma</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mount /dev/sda1 /mnt
+</span></span><span class="line"><span class="cl">mount --bind /sys /mnt/sys
+</span></span><span class="line"><span class="cl">mount --bind /proc /mnt/proc
+</span></span><span class="line"><span class="cl">mount --bind /run /mnt/run
+</span></span><span class="line"><span class="cl">mount --bind /dev /mnt/dev
+</span></span><span class="line"><span class="cl">chroot /mnt /bin/sh -i
+</span></span><span class="line"><span class="cl">/sbin/grub-install --target<span class="o">=</span>i386-pc /dev/sda
+</span></span><span class="line"><span class="cl">/sbin/grub-mkconfig &gt; /boot/grub/grub.cfg
+</span></span></code></pre></div><p>Control D para salir del chroot o exit
+Luego ejecutá reboot</p>
+<h5 id="fedora">Fedora</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo mount /dev/sda3 /mnt
+</span></span><span class="line"><span class="cl">sudo mount --bind /sys /mnt/root/sys
+</span></span><span class="line"><span class="cl">sudo mount --bind /proc /mnt/root/proc
+</span></span><span class="line"><span class="cl">sudo mount --bind /run /mnt/root/run
+</span></span><span class="line"><span class="cl">sudo mount --bind /dev /mnt/root/dev
+</span></span><span class="line"><span class="cl">sudo chroot /mnt/root bash
+</span></span><span class="line"><span class="cl">mount /dev/sd3 /
+</span></span><span class="line"><span class="cl">mount /dev/sda2 /boot
+</span></span><span class="line"><span class="cl">rm -f /etc/grub.d/*
+</span></span><span class="line"><span class="cl">rm -f /etc/sysconfig/grub
+</span></span><span class="line"><span class="cl">grub2-mkconfig -o /boot/grub2/grub.cfg
+</span></span><span class="line"><span class="cl">grub2-install --target<span class="o">=</span>i386-pc /dev/sda
+</span></span></code></pre></div><p><a href="https://www.maketecheasier.com/restore-grub-2-as-the-main-bootloader/">https://www.maketecheasier.com/restore-grub-2-as-the-main-bootloader/</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo mount /dev/sdb8 /mnt 
+</span></span><span class="line"><span class="cl">sudo mount /dev/sdb6 /mnt/boot 
+</span></span><span class="line"><span class="cl">sudo mount /dev/sdb2 /mnt/boot/efi
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sudo mount --bind /dev /mnt/dev <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">sudo mount --bind /dev/pts /mnt/dev/pts <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">sudo mount --bind /proc /mnt/proc <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">sudo mount --bind /sys /mnt/sys
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sudo chroot /mnt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">grub-install --target<span class="o">=</span>x86_64-efi /dev/sdb
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">grub-install --recheck /dev/sdb
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">exit</span> <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">sudo umount /mnt/sys <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">sudo umount /mnt/proc <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">sudo umount /mnt/dev/pts <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">sudo umount /mnt/dev <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">sudo umount /mnt
+</span></span></code></pre></div><p><a href="https://askubuntu.com/questions/831216/how-can-i-reinstall-grub-to-the-efi-partition">https://askubuntu.com/questions/831216/how-can-i-reinstall-grub-to-the-efi-partition</a></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

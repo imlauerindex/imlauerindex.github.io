@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Explotando un buffer overflow provocado al querer restringir/comparar el tamaño del buffer sin considerar el signo. | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/buffer_overflow_curso1/">
+      <span>Explotando un buffer overflow provocado al querer restringir/comparar el tamaño del buffer sin considerar el signo.</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@cracking/">Cracking</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@examen/">Examen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@1/">1</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@bufferoverflow/">Bufferoverflow</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ida/">Ida</a></li>
+  
+</ul>
+
+<div class="content"><p>Archivo del examen: <code>EXAMEN_LEVEL_1b.7z</code>
+<a href="/CRACKING.7z">EXAMENES LA CONTRASEÑA es A</a></p>
+<p>O descargalo desde acá: <a href="http://ricardonarvaja.info/WEB/IDA%20DESDE%20CERO/EXAMENES/EXAMENES%20Password=a.7z">http://ricardonarvaja.info/WEB/IDA%20DESDE%20CERO/EXAMENES/EXAMENES%20Password=a.7z</a></p>
+<p>La comparación se realizó con <code>jl</code>.
+Luego pisamos la variable <code>numero_random</code> con <code>44434241</code> que luego se xorea con la variable <code>numero_2</code> que es 0, y eso hará que pasemos el nivel.</p>
+<h5 id="inicio">Inicio</h5>
+<p>Concepto fundamental: Qué es un offset?</p>
+<blockquote>
+<p>En informática, un offset dentro de un array u otra estructura de datos es un entero que indica la distancia (desplazamiento) desde el inicio del objeto hasta un punto o elemento dado, presumiblemente dentro del mismo objeto. El concepto de distancia es solamente válido si todos los elementos del objeto son del mismo tamaño (típicamente dados en bytes o palabras).</p>
+</blockquote>
+<p>View -&gt; Open subviews -&gt; Strings</p>
+<p>Las strings son clickeables y apretando la x podemos ver adonde la utilizan.<br>
+Podemos pintarla de algún color en la parte izquierda de la ventana.   <br>
+Cuando no tenés símbolos NO son registradas, tenés que identificar las llamadas por ejemplo: <code>call sub_4011C0</code> es <code>printf</code> si le das click al nombre y otra vez al nombre, verás una llamada a <code>_studio_common_vfprintf</code>. Por lo tanto podemos renombrarla boton derecho en la palabra <code>sub_4011C0</code> y Rename o apretando <code>N</code> como <code>_printf</code><br>
+Podemos renombrar todo tipo de variables para facilitar la lectura. Como por ejemplo renombrar la <code>var_10</code> como <code>numero_random</code>. <br>
+Memset es para inicializar un buffer, generalmente se lo pone a 0 todo el buffer para iniciarlo, y el puntero es la variable Destination (<code>Dst</code>), por lo tanto ese es el inicio del buffer.
+Si hacemos doble click en <code>Dst</code> vamos a la representación estática y haciendo click derecho a <code>Dst</code> luego Array, le ponemos como Size(Tamaño) que hayamos visto con el que inicializó (0xC8).
+Una vez que inicializó el buffer, lee un archivo con el nombre <code>example.txt</code> lo llenamos de <code>AAAAABBBB</code>
+Colorea las dos ventanas de abajo, si no es 0, izquierda roja, derecha verde.<br>
+Identifica el fread y luego llama a atoi, el count es 1 o sea que lee 1 elemento de tamaño 4 bytes, y lo guarda en Destination buffer(DstBuf), me da a entender que ese buffer es un array de enteros(o dwords) no de bytes.</p>
+<blockquote>
+<p>dword:en inglés double word, doble palabra, es una unidad de datos que es dos veces el tamaño de una palabra. En las plataformas x86, que tienen una longitud de palabra de 16 bits, una unidad dword tiene una longitud de 32 bits.</p>
+</blockquote>
+<p>Entonces podemos cambiarlo nuevamente apretando Dst -&gt; dd (hasta que cambia a dd) -&gt; Botón derecho en Dst -&gt; Array -&gt; y ahora nos detecta el size porque habíamos inicializado el buffer en este caso con 50 bytes decimal, puesto que son <code>50 x 4 dword</code> serían 200 porque se maneja todo en decimal.  <br>
+Ahí iría el primer entero <code>fread</code> que lee las A que puse en el archivo.<br>
+Imprime lo que leyó el archivo, el contenido.<br>
+Luego llega a la función atoi
+atoi: convierte string en un número.<br>
+y lo coloca en ElementSize.</p>
+<p>Le puso elementsize porque en un fread anterior luego de comparar con el size máximovamos a poner que elementsize es numero porque hay un mensaje que dice <code>numero:</code></p>
+<p>O sea que lee un primer número que luego lo comparará con un máximo y lee otro número con fread. El primer número lo compara con C8 si es menor. Si ese número es más grande que C8 y el buffer que teníamos era de C8 tenemos que tratar de desbordarlo.</p>
+<p><code>jl</code> toma en cuenta el signo, por lo tanto si ese número es negativo se toma como si fuera menor y podés desbordar el buffer.</p>
+<p>Luego en el fread los argumentos de fread son todos con signed o sea que no se considera el signo, ese <code>-1</code> o ese <code>ffffff</code> lo tomará como valor positivo y podemos leer la cantidad de bytes que queramos porque es la cantidad de bytes leídos que es el count por el elementSize que en este caso es un valor negativo.
+Por lo tanto podemos cambiar el número.</p>
+<p>Al hacer el archivo tenemos que tener en cuenta de que atoi lee una string. Tenemos que armar una string por ejemplo usando un editor hexadecimal:   <br>
+31 para ponerle el menos adelante.<br>
+<code>20 20 20 20 31 42 42 42</code></p>
+<p><img src="/img/cracking/curso1_hxd.png" alt=""></p>
+<p>Entonces ya sabemos que el número será negativo interpretado y pasado a dword. Pasará esa comparación porque el número es grande pero negativo y tratará de hacer un <code>fread</code> y escribir en el <code>Dst</code>.</p>
+<p>Como <code>Dst</code>(Destination) está arriba de todo podemos pisar, las demás variables.</p>
+<p>Para tomar la decisión de si aprobaste el nivel uno, toma el número random y lo xorea con la variable: <code>numero_2</code> y lo guarda en <code>resultado</code>, ese resultado lo compara con <code>41424344h</code>.
+Esto quiere decir que si nosotros podemos pisar el número random con lo que nosotros queremos, porque si ese número random es verdadero no sabemos con que xorearlo para que nos dé un valor constante, pero si pisamos ese número random que esta justo debajo del buffer lo podemos transformar en constante y al hacer xor con el <code>numero2</code> podemos lograr que sea <code>41424344h</code> ahora cuanto tenemos que pisar para llegar hasta número random desde <code>Dst</code> a <code>resultado</code> si marcamos vemos que en realidad serían 51 dword: <code>51*4=204 bytes</code> y a continuación vendría el número random.<br>
+Y ahora insertamos esa cantidad de bytes en el archivo <code>example.txt</code> y a continuación de esos bytes tenemos que pisar <code>numero_random</code> podemos poner que sea <code>41424344h</code> en realidad tiene que estar al revés por <code>little indian</code>.</p>
+<p>Y el otro valor <code>numero_random</code> ya es 0 y se xorea con el <code>numero_2</code>
+El <code>numero_2</code> es el 2do valor que lo pasa como atoi, lo podemos poner en 0 también pero como es una string tenemos que ponerlo como <code>20</code> en el editor hexadecimal.
+Y ese valor lo xorea con <code>414243</code>.</p>
+<p><img src="/img/cracking/resultado.png" alt="">
+Ahí tenemos el -1 del primer valor y el 0 del segundo.
+Y eso lo xorea con <code>414243</code> al revés y si hicimos bien la cuenta nos daría que está todo bien.</p>
+<p>Esa fue la forma de reversearlo.</p>
+<p>Pisamos el numero random con <code>44434241</code> y se xoree con la variable <code>numero_2</code> que es 0, y eso hará que pasemos el nivel</p>
+<p>Podemos apretar el número a la izquierda de la linea y apretar F2 para arrancar el debugger desde el menú luego debugger -&gt; start process.
+Vemos que el primer número fue tomado bien como -1 y el segundo 0 y luego el número random <code>41424344</code> y la comparación es <code>41424344</code> con <code>41424344</code></p>
+<p>Miralo en YouTube: <a href="https://youtube.com/watch?v=viv-bdTpOpI">https://youtube.com/watch?v=viv-bdTpOpI</a></p>
+<p>O en una instancia de invidious: <a href="https://redirect.invidious.io/watch?v=viv-bdTpOpI">https://redirect.invidious.io/watch?v=viv-bdTpOpI</a></p>
+<h3 id="más-tutoriales">Más tutoriales</h3>
+<p><a href="https://revteam.re/forum/forums/tutorial-documents.13/">https://revteam.re/forum/forums/tutorial-documents.13/</a><br>
+<a href="https://forum.tuts4you.com/topic/44152-revteam-reverse-engineering-collection/">https://forum.tuts4you.com/topic/44152-revteam-reverse-engineering-collection/</a></p>
+<h4 id="otra-herramienta-que-ví-que-se-usa-además-de-ida-y-ghidra">Otra herramienta que ví que se usa además de ida y ghidra.</h4>
+<p><a href="https://binary.ninja/">https://binary.ninja/</a></p>
+<h5 id="página-para-pedir-algún-crack-de-algún-programa">Página para pedir algún crack de algún programa</h5>
+<p><a href="https://revteam.re/forum/forums/crack-request.5/">https://revteam.re/forum/forums/crack-request.5/</a></p>
+<h4 id="explotando-un-buffer-overflow-básico">Explotando un buffer overflow básico</h4>
+<p><a href="https://gist.github.com/apolloclark/6cffb33f179cc9162d0a">https://gist.github.com/apolloclark/6cffb33f179cc9162d0a</a></p>
+<hr>
+<h4 id="aprobé-sin-necesidad-de-leer-el-asm-sólo-usando-el-decomipilador-con-f5">Aprobé sin necesidad de leer el ASM sólo usando el decomipilador con F5:</h4>
+<p><img src="/img/cracking/EXAMEN_LEVEL_1b/aprobe.png" alt=""></p>
+<h4 id="sólo-puse-un--200-la-comienzo-del-exampletxt-y-funcionó-pero-en-realidad-sólo-tenía-que-poner-un--1-sin-necesidad-de-agregar-el-0-para-el-xor-así-me-quedó-exampletxt">Sólo puse un -200 la comienzo del example.txt y funcionó pero en realidad sólo tenía que poner un -1 sin necesidad de agregar el 0 para el xor, así me quedó example.txt:</h4>
+<p><img src="/img/cracking/EXAMEN_LEVEL_1b/aprobe1.png" alt=""></p>
+<h4 id="este-es-el-código-que-decompila-el-ida">Este es el código que decompila el IDA.</h4>
+<p>Sólo hay que hacer un par de renombres: <code>sub_401200(0)</code>: time(0) printf: <code>sub_4011C0</code> y 1094861636 significa &ldquo;ABCD&rdquo; o <code>0x41424344</code>, cuando hacés el exploit tenés que ponerlo al revés por little indian.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">Buffer</span><span class="p">[</span><span class="mi">200</span><span class="p">];</span> <span class="c1">// [esp+0h] [ebp-DCh] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v6</span><span class="p">;</span> <span class="c1">// [esp+C8h] [ebp-14h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v7</span><span class="p">[</span><span class="mi">4</span><span class="p">];</span> <span class="c1">// [esp+CCh] [ebp-10h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v8</span><span class="p">[</span><span class="mi">4</span><span class="p">];</span> <span class="c1">// [esp+D0h] [ebp-Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">size_t</span> <span class="n">ElementSize</span><span class="p">;</span> <span class="c1">// [esp+D4h] [ebp-8h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">Stream</span><span class="p">;</span> <span class="c1">// [esp+D8h] [ebp-4h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">ElementSize</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v8</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v3</span> <span class="o">=</span> <span class="nf">sub_401200</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">srand</span><span class="p">(</span><span class="n">v3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v7</span> <span class="o">=</span> <span class="nf">rand</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">Buffer</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Stream</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="s">&#34;example.txt&#34;</span><span class="p">,</span> <span class="s">&#34;rb&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">Stream</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">sub_4011C0</span><span class="p">(</span><span class="s">&#34;No se puede leer el archivo bye bye </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">Buffer</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fread</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">4u</span><span class="p">,</span> <span class="mi">1u</span><span class="p">,</span> <span class="n">Stream</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4011C0</span><span class="p">(</span><span class="s">&#34;contenido %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="p">(</span><span class="kt">char</span><span class="p">)</span><span class="n">Buffer</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">ElementSize</span> <span class="o">=</span> <span class="nf">atoi</span><span class="p">(</span><span class="n">Buffer</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fread</span><span class="p">(</span><span class="o">&amp;</span><span class="n">Buffer</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="mi">4u</span><span class="p">,</span> <span class="mi">1u</span><span class="p">,</span> <span class="n">Stream</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v8</span> <span class="o">=</span> <span class="nf">atoi</span><span class="p">(</span><span class="o">&amp;</span><span class="n">Buffer</span><span class="p">[</span><span class="mi">4</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4011C0</span><span class="p">(</span><span class="s">&#34;numero %x</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">ElementSize</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4011C0</span><span class="p">(</span><span class="s">&#34;numero2 %x</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v8</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">ElementSize</span> <span class="o">&gt;=</span> <span class="mi">200</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fread</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="n">ElementSize</span><span class="p">,</span> <span class="mi">1u</span><span class="p">,</span> <span class="n">Stream</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_4011C0</span><span class="p">(</span><span class="s">&#34;numero random %x</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v7</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v6</span> <span class="o">=</span> <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v8</span> <span class="o">^</span> <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v7</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v8</span> <span class="o">^</span> <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v7</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1094861636</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">sub_4011C0</span><span class="p">(</span><span class="s">&#34;Aprobaste level 1&#34;</span><span class="p">,</span> <span class="n">Buffer</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="o">*</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="p">)</span><span class="n">v7</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

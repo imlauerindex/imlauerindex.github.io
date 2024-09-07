@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Configurar la hora y la fecha desde Internet en Arch | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/como_configuro_la_hora_y_la_fecha_desde_internet/">
+      <span>Configurar la hora y la fecha desde Internet en Arch</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@configurar/">Configurar</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@hora/">Hora</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@fecha/">Fecha</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@arch/">Arch</a></li>
+  
+</ul>
+
+<div class="content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo pacman -S ntp
+</span></span><span class="line"><span class="cl">timedatectl set-ntp true
+</span></span><span class="line"><span class="cl">sudo vim /etc/ntp.conf
+</span></span><span class="line"><span class="cl">server pool.ntp.org
+</span></span><span class="line"><span class="cl">sudo ntpdate pool.ntp.org
+</span></span><span class="line"><span class="cl">sudo systemctl enable ntpd
+</span></span><span class="line"><span class="cl">sudo systemctl start ntpd
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo ntpd -qg; sudo hwclock -w
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

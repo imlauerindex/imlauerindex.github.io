@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Parchear DWM | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/how_to_patch_dwm/">
+      <span>Parchear DWM</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@dwm/">Dwm</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@patch/">Patch</a></li>
+  
+</ul>
+
+<div class="content"><p><a href="https://suckless.org/hacking/">https://suckless.org/hacking/</a></p>
+<h4 id="hacking">Hacking</h4>
+<h2 id="copialicencia">Copia/licencia</h2>
+<p>Solo aceptamos contribuciones de individuos, no de entidades corporativas. Vea el archivo de LICENCIA del proyecto al que está contribuyendo.</p>
+<h3 id="debugging">Debugging</h3>
+<p>Si encuentra algún fallo, envíe un seguimiento completo a la lista de correo dedicada. Puedes crear rastros de retroceso con gdb:</p>
+<p>Antes de iniciar un programa, es posible que deba permitir la creación de archivos principales. Te recomendamos que pongas esto en tu perfil:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">ulimit</span> -c unlimited
+</span></span></code></pre></div><p>Luego inicie el programa como de costumbre.</p>
+<p>Después de que el programa falle, haga lo siguiente:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> gdb -q <span class="sb">`</span>which program<span class="sb">`</span> /path/to/core
+</span></span><span class="line"><span class="cl"><span class="go">gdb&gt; bt full
+</span></span></span></code></pre></div><p>Si encuentra congelaciones (sin ningún bloqueo) del programa, puede depurarlo de la siguiente manera:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ gdb -q <span class="sb">`</span>which program<span class="sb">`</span> --attach <span class="sb">`</span>pgrep -o programa<span class="sb">`</span>
+</span></span><span class="line"><span class="cl">gdb&gt; bt full
+</span></span></code></pre></div><p>Envíe el resultado de ese comando a la lista de correo junto con el resultado del programa -v! ¡Gracias!</p>
+<h3 id="parches">Parches</h3>
+<p>Hay dos tipos de parches: los que se ajustan a tu gusto personal y los que crees que deberían incluirse en la línea principal.</p>
+<p>Para parches que se ajusten a sus gustos personales y desee compartir con la comunidad, siga las instrucciones en la página wiki sobre cómo editar las páginas que ve aquí.</p>
+<p>Para los parches que deberían incluirse en la línea principal, consulte la página de la comunidad y la lista de correo hackers@. Tenga en cuenta que solo los parches que se incluirán en los repositorios principales deben enviarse a esta lista, ¡los parches de personalización deben enviarse a la wiki!</p>
+<p>Proporcione un &ldquo;mensaje de confirmación&rdquo; claro y conciso para sus parches.</p>
+<p>Las siguientes instrucciones son una guía general sobre cómo generar y aplicar parches publicados en esta wiki:</p>
+<p>formato de nombre de archivo de parche
+El formato esperado para los parches es:</p>
+<h5 id="para-revisiones-de-git">Para revisiones de git:</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">toolname-patchname-YYYYMMDD-SHORTHASH.diff
+</span></span><span class="line"><span class="cl">dwm-allyourbase-20160617-3465bed.diff
+</span></span></code></pre></div><p>La fecha AAAAMMDD debe corresponder a la última vez que se modificó el parche. El SHORTHASH aquí son los siete caracteres del hash corto de git commit correspondientes a la última confirmación de la herramienta en la que se puede aplicar correctamente el parche y con la que se está trabajando. Puedes obtenerlo tomando los primeros siete caracteres del hash completo o por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git rev-parse --short &lt;commit-id&gt; <span class="o">(</span>with commit-id: HEAD, commit hash, etc.<span class="o">)</span>
+</span></span></code></pre></div><p>Para versiones de lanzamiento:</p>
+<p>toolname-patchname-RELEASE.diff
+dwm-allyourbase-6.1.diff</p>
+<p>La VERSIÓN debe corresponder a la versión de lanzamiento de la herramienta, es decir, 6.1 para dwm-6.1.</p>
+<h4 id="generación-de-diferencias">generación de diferencias</h4>
+<p>Para usuarios de git:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> program-directory
+</span></span><span class="line"><span class="cl">git add filechanges...
+</span></span><span class="line"><span class="cl">git commit <span class="o">(</span>write a clear patch description<span class="o">)</span>
+</span></span><span class="line"><span class="cl">git format-patch --stdout HEAD^ &gt; toolname-patchname-YYYYMMDD-SHORTHASH.diff
+</span></span></code></pre></div><p>Para archivos comprimidos:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> modified-program-directory/..
+</span></span><span class="line"><span class="cl">diff -up original-program-directory modified-program-directory &gt; <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>           toolname-patchname-RELEASE.diff
+</span></span></code></pre></div><p>No envíe múltiples conjuntos de parches de confirmación. Un único parche debería aplicar todos los cambios usando el parche -p1.</p>
+<h4 id="programa-de-parche">programa de parche</h4>
+<p>Para usuarios de git, use -3 para solucionar el conflicto fácilmente:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> program-directory
+</span></span><span class="line"><span class="cl">git apply path/to/patch.diff
+</span></span></code></pre></div><p>Para parches formateados con git format-patch:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> program-directory
+</span></span><span class="line"><span class="cl">git am path/to/patch.diff
+</span></span></code></pre></div><p>Para archivos comprimidos:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> program-directory
+</span></span><span class="line"><span class="cl">patch -p1 &lt; path/to/patch.diff
+</span></span></code></pre></div><h4 id="sacar-el-patch-si-no-funcionó">Sacar el patch si no funcionó</h4>
+<p>patch -Rp1 &lt; patch.diff</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

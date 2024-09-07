@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apunte on Index</title>
+    <link>https://adityatelange.github.io/@apunte/</link>
+    <description>Recent content in Apunte on Index</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Aug 2024 12:34:35 -0300</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/@apunte/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 8) - Lavarropas. Relay. Triac. Presostato. Solenoide. Jaula ardilla. Motores universales.</title>
+      <link>https://adityatelange.github.io/8va_clase_electro/</link>
+      <pubDate>Fri, 23 Aug 2024 12:34:35 -0300</pubDate>
+      <guid>https://adityatelange.github.io/8va_clase_electro/</guid>
+      <description>Audio de la clase: https://youtu.be/HOFVsSnZ_a4&#xA;O escuchala en invidious: https://redirect.invidious.io/watch?v=HOFVsSnZ_a4&#xA;Se cortó una parte en donde hablaba de como probar una electrobomba: tiene bobinado todos los motores son iguales.&#xA;Solenoide de carga. El relay es un solenoide.&#xA;Presostato: sólo es un switch de contacto. El presostato no tiene ningún campo magnético.&#xA;Primero el lavarropas testea todo.&#xA;Jaula de ardilla: estan en diagonales.&#xA;El trazo grueso es hierro al silicio y el trazo fino es aluminio.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 7) - Diagrama horno eléctrico. Termostato. Selector de velas.</title>
+      <link>https://adityatelange.github.io/7ma_clase_reparacion_electromesticos/</link>
+      <pubDate>Fri, 16 Aug 2024 21:48:55 -0300</pubDate>
+      <guid>https://adityatelange.github.io/7ma_clase_reparacion_electromesticos/</guid>
+      <description>Audio de la clase https://youtu.be/5RjcuVO6T3I&#xA;O escuchala en invidiuos https://redirect.invidious.io/watch?v=5RjcuVO6T3I&#xA;Primero comienza explicando el funcionamiento de un aire acondicionado.&#xA;A los caños le ponen aluminio y no conviene arreglar porque si hay un poquito de humedad le come al caño. NO conviene arreglar caño de heladera, conviene tomar la medida y el fondo y comprar un evaporador como para freezer.&#xA;Te vas con esa medida y decís yo quiero un evaporador de esta medida.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 6) - Relay. Triac. Contactora. Varistor. Termistor. Fuentes. Puente Rectificador. Mosfet. Soldador no funcionó.</title>
+      <link>https://adityatelange.github.io/taller_reparacion_electrodomesticos6/</link>
+      <pubDate>Thu, 08 Aug 2024 20:45:09 -0300</pubDate>
+      <guid>https://adityatelange.github.io/taller_reparacion_electrodomesticos6/</guid>
+      <description>Audio de la clase https://youtu.be/4LCbuu2Wa_4&#xA;O miralo en una instancia de invidious: https://redirect.invidious.io/watch?v=4LCbuu2Wa_4&#xA;Problemas comunes. Placa electrónica de un televisor: tal circuito integrado no está aguantando, por problemas de temperatura muchas veces se repiten.&#xA;Consumo es la potencia.&#xA;Para la fuente tengo que tener dos conductores: fase y neutro.&#xA;Si yo tengo algo que no anda lo primero que tengo que medir es continuidad&#xA;Puedo tener un switch, un pulsador, si es algo que está en paralelo a no ser que esté en corto NO ME VA A QUITAR la continuidad.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion de electrodometicos (Clase 5) - Lavarropas y Termotanque. Triac. Mosfet. Osciladores.</title>
+      <link>https://adityatelange.github.io/5ta_clase_reparacion_electrodomesticos/</link>
+      <pubDate>Fri, 02 Aug 2024 07:46:16 -0300</pubDate>
+      <guid>https://adityatelange.github.io/5ta_clase_reparacion_electrodomesticos/</guid>
+      <description>Audio de la clase https://youtu.be/LWxML1Yv3IY&#xA;O miralo en invidious (es más ligero y sin publicidad) https://redirect.invidious.io/watch?v=LWxML1Yv3IY&#xA;Lavarropas: auto-balance, por eso es malo lavar zapatillas en el lavarropas.&#xA;Hicismos un cambio de amortiguadores&#xA;Apuntes Cuando estudiamos vamos a encontrar la placa y el periférico. El periférico son todos los otros componentes que tiene el lavarropas.&#xA;En esos tipos de placas de lavarropas todos los componentes que están ahí menos los sensores, trabajan con 220.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion de electrodometicos (Clase 4) - Capacitores, Transformadores - Fuente lineal, switching o conmutada, y capacitiva. Rectificador onda completa. Núcleo ferrita, núcleo hierro.</title>
+      <link>https://adityatelange.github.io/4ta_clase_reparacion_electrodomesticos/</link>
+      <pubDate>Fri, 26 Jul 2024 04:31:20 -0300</pubDate>
+      <guid>https://adityatelange.github.io/4ta_clase_reparacion_electrodomesticos/</guid>
+      <description>Audio de la clase: https://youtu.be/OSlqnhmQsMQ&#xA;O miralo desde una instancia de invidious https://redirect.invidious.io/watch?v=OSlqnhmQsMQ&#xA;Para que sirve el siguiente elemento: Al no tener osciloscopio creo ese elemento y medir los pulsos de la fuente switching es difícil porque es muy alta, tampoco se puede medir con tester porque te quemará el tester y es necesario saber si está funcionando la fuente o no. Si está funcionando hasta antes del transformador el oscilor, si le pongo eso, como eso es un foco de neon entonces sí titila, NO puedo contar la frecuencia, pero por lo menos me da un acercamiento de que está funcionando hasta ahí, entonces ahí si yo puedo decir, el transformador es el que está mal.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 3) - Dictado. Definciones. Unidad interior, exterior. Refrigeración. Razones de congelamiento de caños. Foto Examen.</title>
+      <link>https://adityatelange.github.io/3era_clase_instalacion_aire/</link>
+      <pubDate>Sun, 21 Jul 2024 20:27:50 -0300</pubDate>
+      <guid>https://adityatelange.github.io/3era_clase_instalacion_aire/</guid>
+      <description>Audio de la clase: https://youtu.be/V2zTPFIDFn8&#xA;O miralo desde una instancia de invidious https://redirect.invidious.io/watch?v=V2zTPFIDFn8&#xA;Hay dos exámenes.&#xA;Cada examen es independiente del otro. El que no sabe la práctica no sabe la teoría. El que no sabe la práctica no sabe la teoría.&#xA;Hay un curso que inicia el mes que viene y termina dos meses después esa es la manera de recuperar el examen. O sea inicia cada mes. Cuando nos dicen que tal día termina el curso ese, tenés que venir 1 semana antes para rendir el práctico.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion de electrodometicos (Clase 3) - Ducha Eléctrica</title>
+      <link>https://adityatelange.github.io/3era_clase_reparacion_reparaciones_electrodometicos/</link>
+      <pubDate>Fri, 19 Jul 2024 03:29:15 -0300</pubDate>
+      <guid>https://adityatelange.github.io/3era_clase_reparacion_reparaciones_electrodometicos/</guid>
+      <description>Audio de la clase: https://www.youtube.com/watch?v=FEQ6iXWc2FQ&amp;amp;feature=youtu.be&#xA;O miralo desde una instancia de invidious https://redirect.invidious.io/watch?v=FEQ6iXWc2FQ&#xA;Hablando de la corriente alterna también existe la corriente continua pura y la corriente continua punzante.&#xA;Tenemos que comenzar a arreglar algo de placas.&#xA;Ya no hay más lavarropas que funcionen con timer mecánico ya vienen todos con placas. Y dentro de esas placas hay cosas que es posible arreglar sin un estudio de electrónica.&#xA;O sea necesitamos saber que es lo que está fallando si es en la parte mecánica o si es en la parte electrónica.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 2) - Funcionamiento de un aire. Unidad interior, exterior. Gráfico de partes del AC.</title>
+      <link>https://adityatelange.github.io/2da_clase_reparacion_aires_acondicionados/</link>
+      <pubDate>Sat, 13 Jul 2024 17:57:17 -0300</pubDate>
+      <guid>https://adityatelange.github.io/2da_clase_reparacion_aires_acondicionados/</guid>
+      <description>Audio de la clase https://www.youtube.com/watch?v=JMAuPRqMgcA&#xA;O miralo desde una instancia de invidious https://redirect.invidious.io/watch?v=JMAuPRqMgcA&#xA;Profesor: Enzo Lleva 4 años enseñando. Queda para nosotros para reconocer otros equipos antes del inverter. Hay muchisima tecnología antes del inverter. Tenemos por ejemplo los piso techo. 4000/5000/6000 frigorias Centralizados vienen de menos frigoria pero centralizado el sistema frigorifico es el mismo para todos los sistemas de aire acondicionado si yo voy a un auto, también actua un sistema de motocompresión pero por medio de correa.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 2) - Armado de una serie. Monofásica, Trifásica, Bobinado</title>
+      <link>https://adityatelange.github.io/taller_reparacion_electrodomesticos2/</link>
+      <pubDate>Sat, 13 Jul 2024 07:36:36 -0300</pubDate>
+      <guid>https://adityatelange.github.io/taller_reparacion_electrodomesticos2/</guid>
+      <description>Audio de la clase: https://www.youtube.com/watch?v=3nJnAqAZQpY&#xA;O miralo desde una instancia de invidious https://redirect.invidious.io/watch?v=3nJnAqAZQpY&#xA;Monofasica trabaja con trifasica En las máquinas que yo voy a tener (&amp;hellip;) el frigorifico voy a tener un motor trifásico. En un slit grande que tenga voy a tener motor trifásico, entonces tengo que ir midiendo cada una de las fases para que más o menos quede lo más equilibrado posible. En las vivienda voy a tener monofasico, porque es 1 de esos 3 más el neutro.</description>
+    </item>
+    <item>
+      <title>[APUNTE] Taller reparacion electrodomesticos (Clase 1) - Introducción corriente alterna, continua, bobinas: fuera de ciclo, batería auto, núcleos.</title>
+      <link>https://adityatelange.github.io/taller_reparacion_electrodomesticos/</link>
+      <pubDate>Mon, 08 Jul 2024 09:49:21 -0300</pubDate>
+      <guid>https://adityatelange.github.io/taller_reparacion_electrodomesticos/</guid>
+      <description>Profesor: Marcelo&#xA;Watts=Potencia Potencia = vatio Voltios=Energía Tension = voltaje Amper=Intensidad Tensión en amperage&#xA;Fuente&amp;ndash;Carga&#xA;Las placas de un transformador son un montón de letras E y una recta: E I 3 entre las dos &amp;ldquo;E&amp;rdquo; va una bobina.&#xA;El amper son partículas: eléctrones Voltaje es campo de energía&#xA;Toda la materia tiene átomo: Más electrones libres mejor conductor&#xA;Vac - Fase neutro&#xA;Vdc - + y -&#xA;En corriente alterna no hay positivo: en un medio ciclo positivo en otro negativo:</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 1) - Refrigeración. Amoníaco. Problemas comunes. Foto apunte Amoníaco.</title>
+      <link>https://adityatelange.github.io/1era_clase_reparacion_aires_acondicionados/</link>
+      <pubDate>Mon, 08 Jul 2024 09:31:48 -0300</pubDate>
+      <guid>https://adityatelange.github.io/1era_clase_reparacion_aires_acondicionados/</guid>
+      <description>Audio de la clase https://www.youtube.com/watch?v=Sam73a2KcrQ&#xA;O miralo en una instancia de invidious: https://redirect.invidious.io/watch?v=Sam73a2KcrQ&#xA;1er clase de reparación e instalación&#xA;Es un curso práctico&#xA;Quemamos la placa compresor errores comunes&#xA;Daniel Marcos clases de aire acondicionado&#xA;Van a ver clases que no serán ahí&#xA;Formameros un grupo&#xA;En ese grupo pondrán donde aremos la reparación&#xA;Hay clases donde ponemos un compresor&#xA;Hay clases de trabajo&#xA;Agarraremos la.mejor parte&#xA;La semana que viene la clase será a las 9</description>
+    </item>
+  </channel>
+</rss>

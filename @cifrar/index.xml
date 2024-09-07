@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cifrar on Index</title>
+    <link>https://adityatelange.github.io/@cifrar/</link>
+    <description>Recent content in Cifrar on Index</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://adityatelange.github.io/@cifrar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cifrando archivos en GNU/Linux</title>
+      <link>https://adityatelange.github.io/cifrando-archivos-en-gnu-linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/cifrando-archivos-en-gnu-linux/</guid>
+      <description>Para cifrar:&#xA;gpg -c archivo_privado cat privado Luego de cifrar borrá el archvio original&#xA;Para descifrar:&#xA;gpg archivo_privado.gpg </description>
+    </item>
+  </channel>
+</rss>

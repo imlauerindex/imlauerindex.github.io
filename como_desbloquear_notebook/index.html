@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Como quitar sistema anti-theft de Intel de las netbook | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/como_desbloquear_notebook/">
+      <span>Como quitar sistema anti-theft de Intel de las netbook</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@desbloqueo/">Desbloqueo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@netbook/">Netbook</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@binarios/">Binarios</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ch341a/">Ch341a</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@pinza-programadora/">Pinza Programadora</a></li>
+  
+</ul>
+
+<div class="content"><h3 id="como-desarmarla">Como desarmarla</h3>
+<p>En algunas computadoras tenés que sacar el teclado y sacar los tornillos que están debajo para desarmar la tapa de atrás.
+En otras tenés que sacar dos gomas que están en la tapa cerca de la pantalla y debajo de cada una tienen dos tornillos.
+En las más viejas tenés que desarmar todo desde arriba, sacar la placa madre y darle vuelta para encontrar la BIOS.</p>
+<h5 id="requisitos">Requisitos</h5>
+<p>Vas a necesitar los binarios y la pinza programadora CH341A (lo compré en ML y te trae una pinza con el programador CH341A).
+La pinza te viene desarmada hay varios videos que explican como armarla.</p>
+<h4 id="bajar-binarios-y-programador">BAJAR BINARIOS Y PROGRAMADOR</h4>
+<p>Tenés que bajar e instalar el programador CH341A programm v1.34.rar: (<a href="https://drive.google.com/file/d/1W4p-2VgvZbA93FWIWJ7SWmHCuCgd58_f/view">https://drive.google.com/file/d/1W4p-2VgvZbA93FWIWJ7SWmHCuCgd58_f/view</a> ) , si está caído ese link lo encontrás googleando &ldquo;CH341A programm v1.34&rdquo;</p>
+<p>Acá están los binarios de las diferentes generaciones de netbooks: <a href="https://drive.google.com/file/d/1KKZFmejxhf8V5m7NlPW7DUnX0mIVopFm/view?usp=sharing">https://drive.google.com/file/d/1KKZFmejxhf8V5m7NlPW7DUnX0mIVopFm/view?usp=sharing</a></p>
+<p>Y acá hay un backup por si las dudas esos links caen: <a href="https://drive.google.com/file/d/1nxGWSd1SZyQSRJh0pkndBBtWskywZCCH/view?usp=sharing">https://drive.google.com/file/d/1nxGWSd1SZyQSRJh0pkndBBtWskywZCCH/view?usp=sharing</a></p>
+<h4 id="conectar-la-pinza-al-programador">Conectar la pinza al programador</h4>
+<ol>
+<li>
+<p>Para conectar la pinza al programador, levantá la palanca del programador y ubicá la raya del medio que separa a los dos conectores, yo siempre usé el set de contactos izquierdo.
+Esta es la raya que separa los conectores:
+<img src="/files/desbloqueo/separacion_conectores.png" alt="Raya que separa a los conectores del programador"></p>
+</li>
+<li>
+<p>Ubicá el cable del color rojo (hace referencia al pin 1) del conector de la pinza.</p>
+</li>
+<li>
+<p>Conectalo de forma de que el cable de color rojo quede del lado de la línea de separación del programador del lado izquierdo.
+De la siguiente manera:
+<img src="/files/desbloqueo/conectar_pinza_programador.png" alt="Conectar Pinza al Programador"></p>
+</li>
+<li>
+<p>Una vez colocada bajá la palanca.
+De la siguiente manera:
+<img src="/files/desbloqueo/baja_palanca.png" alt="Bajar Palanca de Programador con el cable de pinza conectado"></p>
+</li>
+</ol>
+<h4 id="luego-de-desarmarla">Luego de desarmarla:</h4>
+<ol start="5">
+<li>Tenés que desconectar la batería y la pila de la BIOS.
+<strong>OJO: Fijate bien como está ubicado/conectado el cable negro y el rojo sacale una foto porque si los conectás al revés se puede quemar la pila de la BIOS.</strong></li>
+<li>Tenés que sacar la cinta de la memoria RAM y sacar la memoria RAM, debajo está la VERSION de la plata madre. Esto es información que se necesita para saber cual binario hay que flashear en el chip BIOS.
+<strong>OJO: Si tenés una netbook de generación antigua no hace falta hacer esto porque solo hay una versión del binario de esa placa madre.</strong></li>
+<li>Si sacaste la memoria RAM, volvela a colocar.</li>
+<li>Con una cinta aislante tapa la patita 8 de la BIOS. La patita 1 está indicada con un circulito en el chip BIOS. La patita de enfrente de la pata 1 es la pata 8.</li>
+</ol>
+<p><strong>Observación: Yo flashee una notebook de generación 5 en donde no tuve que tapar la patita 8 y me funcionó igual.</strong></p>
+<ol start="9">
+<li>Volvemos a la placa madre de la netbook ubicamos el chip bios, este chip tiene un punto en una de sus esquinas eso indica el pin 1.</li>
+</ol>
+<h4 id="diferentes-ubicaciones-de-bios-en-diferentes-modelos">Diferentes ubicaciones de BIOS en diferentes modelos:</h4>
+<ol start="10">
+<li>La pinza tiene un cable rojo que hace referencia al 1er pin(1era patita), el cable rojo tiene que hacer contacto con el pin 1 del CHIP de la BIOS.
+Tomamos la pinza y ubicamos el cable rojo, el cable rojo tiene que ir conectado a la pata en donde el chip BIOS tiene un puntito(el puntito indica que es el pin 1), es decir, el cable rojo de la pinza tiene que ir ubicado en la patita 1 del chip de la BIOS.
+<img src="/files/desbloqueo/chip_bios.png" alt="Ubicamos CHIP Bios">
+<strong>OJO!!!!!: EN ALGUNAS TENÉS QUE TAPAR LA PATITA 8 CON CINTA AISLANTE</strong></li>
+<li>Así tendría que quedar la pinza:
+<img src="/files/desbloqueo/conectar_pinza_bios.png" alt="Conectar Pinza al CHIP BIOS"></li>
+<li>Conectamos el programador a la PC.</li>
+<li>Abrimos el programa &ldquo;CH341A programm&rdquo; instalado anteriormente.</li>
+<li>Apretamos el botón detectar y debería salirnos la información del CHIP bios, si tapas la patita 8 quizás pueda darte &ldquo;unknown&rdquo;.</li>
+<li>Luego le damos a &ldquo;Read&rdquo;</li>
+<li>Cuando termina, guardamos el binario.</li>
+<li>Una vez finalizado, dale al botón Erase/Borrar (esto borrará la bios).</li>
+<li>Luego dale al botón Blank/Chequear en blanco para asegurarse que está todo en blanco.</li>
+<li>Luego dale a Abrir/Open y ubicá el archivo binario que descargaste anteriormente de la generación que sea tu netbook y dale a aceptar. Algunos tienen una carpeta en donde dicen con o sin logo, yo siempre elijo sin logo.</li>
+<li>Ahora dale a programar/write.</li>
+<li>Al final desconectamos el programador y sacamos la pinza.</li>
+<li>Le damos la vuelta a la computadora con cuidado y procedemos a encenderla.
+Si ya no aparece la advertencia del bloqueo o si ya no aparece el logo de conectar igualdad significa que salió bien.</li>
+<li>Ahora tenés que conectar la batería y la pila de la BIOS (CUIDADO!! fijate bien el órden de los cables)</li>
+</ol>
+<p>Listo!</p>
+<h4 id="opcional-recuperar-grub-huayra">Opcional: Recuperar grub huayra</h4>
+<p>Luego de hacer todo esto, en algunas computadoras perdés el grub huayra y bootea directamente a Windows. Esto es fácil de solucionar.
+Primero podés apretar F7 o F11 (el menu de boot) y acceder a la EFI shell y desde ahí escribí.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">blk0: <span class="o">(</span>suponiendo que esa es la particion efi<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> EFI
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> huayra
+</span></span><span class="line"><span class="cl">grubx64.efi
+</span></span></code></pre></div><p>Y listo botea a el grub de huayra.
+<strong>Si querés que el grub de huayra inicie automáticamente hacé</strong></p>
+<ol>
+<li>Instalá EasyUEFI en Windows</li>
+<li>Agregá una entrada de arranque y ubicá la partición de EFI de Huayra el archivo grubx64.efi algo así era.</li>
+<li>Ubicala bien arriba.</li>
+<li>Reiniciá la máquina accedé a la BIOS con el botón suprimir.</li>
+<li>Cambiá la selección de OS a Linux.</li>
+</ol>
+<p>Referencias: <a href="https://youtube.com/watch?v=R1FkJnQwl0g">https://youtube.com/watch?v=R1FkJnQwl0g</a></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

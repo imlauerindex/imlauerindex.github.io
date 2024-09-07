@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Como recuperar archivos de audio corruptos | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/como_recuperar_archivos_de_audio_corruptos/">
+      <span>Como recuperar archivos de audio corruptos</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@audio/">Audio</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@recuperar/">Recuperar</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@corruptos/">Corruptos</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@archivos/">Archivos</a></li>
+  
+</ul>
+
+<div class="content"><h3 id="si-tenés-algún-archivo-de-audio-corrupto-no-lo-borrés">Si tenés algún archivo de audio corrupto ¡NO LO BORRÉS!</h3>
+<p>Descargá faad, faac, un editor de hexadecimal o podés usar VIM.</p>
+<h3 id="gnulinux">GNU/Linux:</h3>
+<p><code>sudo apt install -y faad faac hexedit</code></p>
+<h3 id="windows">Windows:</h3>
+<p>En Windows tendrás que bajar manualmente cada programa y ponerlos todo en la misma carpeta junto con los archivos de audio a recuperar.
+Descargá faad y faac acá:
+<a href="https://rarewares.org/aac-decoders.php">https://rarewares.org/aac-decoders.php</a>
+Descargá un editor hexadecimal para Windows:
+<a href="http://download.cnet.com/HxD-Hex-Editor/3000-2352_4-10891068.html">http://download.cnet.com/HxD-Hex-Editor/3000-2352_4-10891068.html</a> o <a href="http://mh-nexus.de/en/downloads.php?product=HxD">http://mh-nexus.de/en/downloads.php?product=HxD</a>
+Extraelo y ejecutá setup.exe y para instalarlo.</p>
+<p>Abrí el audio con VIM o con tu editor hexadecimal (yo lo hice con VIM) buscá la palabra mdat y borrá todo lo que está detrás de esa palabra incluyendo la palabra. En VIM lo podemos hacer con <code>/mdat</code> seleccioná todo con situá el cursor en la t de mdat apretá v-gg-x guardá el archivo con Escape:wq
+<img src="/img/find_mdat.png" alt="/img/find_mdat.png"></p>
+<h4 id="decodificamos-usando-faad">Decodificamos usando faad</h4>
+<p>Ahora ejecutá <code>faad nombre_del_audio_corrupto.m4a</code> te generará un archivo wav fijate si ya podés escucharlo.</p>
+<h4 id="codificamos-usando-faac-y-recuperamos-el-archivo-m4a">Codificamos usando faac, y recuperamos el archivo m4a.</h4>
+<p><code>faac.exe -b 160 -o repaired.m4a &quot;nombre_del_audio_corrupto.wav&quot;</code></p>
+<h5 id="para-unir-dos-archivos-de-audio">Para unir dos archivos de audio:</h5>
+<p>Lee el final de esta publicación: <a href="https://imlauera.github.io/post/download_and_concat/">https://imlauera.github.io/post/download_and_concat/</a></p>
+<p>Listo :)</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

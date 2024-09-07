@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Impresora on Index</title>
+    <link>https://adityatelange.github.io/@impresora/</link>
+    <description>Recent content in Impresora on Index</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jul 2024 07:01:37 -0300</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/@impresora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalar impresora compartida de Windows en GNU/Linux</title>
+      <link>https://adityatelange.github.io/instalar_impresora_compartida_de_windows_en_linux/</link>
+      <pubDate>Mon, 08 Jul 2024 07:01:37 -0300</pubDate>
+      <guid>https://adityatelange.github.io/instalar_impresora_compartida_de_windows_en_linux/</guid>
+      <description>smbclient &amp;#34;//192.168.0.203/HP PSC 1400 series&amp;#34; sudo apt install -y cups sudo apt install -y hplip hplip-gui printer-driver-hpcups chattr +i /etc/cups/printers.conf sudo vim /etc/cups/printers.conf smbclient &amp;#34;//LIVING/HPPSC1400series&amp;#34; -U &amp;#34;WORKGROUP\Usuario&amp;#34; -c &amp;#34;print hola&amp;#34; sudo cups netstat -plnt http://127.0.0.1:631/printers/? https://github.com/kentio/hp-ppd Si no tiene contraseña tenes que cambiar en Windows en el regedit BlankPassswords un registro así que ya no recuerdo</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Usando Markdown, Beamer y Pandoc para hacer presentaciones como PowerPoint | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/2020-12-31-usando-markdown-y-pandoc-para-hacer-presentaciones-como-powerpoint/">
+      <span>Usando Markdown, Beamer y Pandoc para hacer presentaciones como PowerPoint</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@markdown/">Markdown</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@beamer/">Beamer</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@pandoc/">Pandoc</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@presentaciones/">Presentaciones</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@powerpoint/">Powerpoint</a></li>
+  
+</ul>
+
+<div class="content"><p>Primero de todo tenés que tener el paquete LaTeX instalado. Si usás debian te recomiendo instalar el paquete
+texlive-full.<br>
+<strong>Pandoc</strong> es un conversor de documentos libre y de código abierto, mayormente usado como una herramienta de escritura (especialmente por académicos).</p>
+<p><strong>Markdown</strong> es un lenguaje de marcado cuya funcionalidad es darle estilo a un texto.</p>
+<p>Abrimos un archivo llamado: hello.md y escribimos</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="gh"># Hello World.
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl">Esto es una prueba.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">*</span> Esto es un ítem.
+</span></span><span class="line"><span class="cl"><span class="k">*</span> De una lista.
+</span></span><span class="line"><span class="cl"><span class="k">*</span> Prueba
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gu">## Este es un título más pequeño
+</span></span></span></code></pre></div><p>Más información: <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Markdown Cheat Sheet</a><br>
+También se puede usar etiquetas HTML en Markdown.</p>
+<p>Ahora generamos la presentación:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pandoc hello.md -t beamer -o hello.pdf
+</span></span></code></pre></div><p><span style="color: red; font-weight:bold;">Observación</span>: Para crear la presentación estamos usando <strong>Beamer</strong>.</p>
+<blockquote>
+<p>Beamer es una clase de LaTeX para la creación de presentaciones. Al estar basado en LaTeX, Beamer es especialmente útil para preparar presentaciones en las que es necesario mostrar gran cantidad de expresiones matemáticas, el fuerte de dicho sistema de maquetación.</p>
+</blockquote>
+<h4 id="cambiando-diseño-agregando-título-autor-en-la-presentación-usando-metadata">Cambiando diseño, agregando título, autor en la presentación usando metadata:</h4>
+<p>En el archivo hello.md agregamos al comienzo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title:
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Hola Mundo.
+</span></span><span class="line"><span class="cl">author:
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Andrés Imlauer
+</span></span><span class="line"><span class="cl">theme:
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Copenhagen
+</span></span><span class="line"><span class="cl">---
+</span></span></code></pre></div><p>Se puede también usar otros beamer themes, agregando en la sección de metadata mostrada arriba, lo siguiente:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">colortheme:
+</span></span><span class="line"><span class="cl"><span class="k">-</span> albatross
+</span></span></code></pre></div><p>Podés usar y bajar otros buscando por beamer themes.</p>
+<p>Cada vez que modificás el documento markdown tenés que volver a generarlo usando pandoc.</p>
+<p>Fuentes: <a href="https://www.youtube.com/watch?v=dum7q6UXiCE">The Easiest Way to Make Presentations! (Pandoc + Markdown)</a>, <a href="https://en.wikipedia.org/wiki/Pandoc">Pandoc</a>, <a href="https://en.wikipedia.org/wiki/Beamer_(LaTeX)">Beamer</a>.</p>
+<p><a href="https://youtube.com/watch?v=y6x-zToySP4">https://youtube.com/watch?v=y6x-zToySP4</a></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Cómo jugar league of legends en ArchLinux | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/league_of_legends/">
+      <span>Cómo jugar league of legends en ArchLinux</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@league/">League</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@of/">Of</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@legends/">Legends</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@linux/">Linux</a></li>
+  
+</ul>
+
+<div class="content"><p>Primero de todo no lo recomiendo es una basura de juego y el instalador sólo me levantó a 80 grados la temperatura del procesador.</p>
+<p>Se lo instalá con los siguientes comandos:
+Primero instalá yay:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -Syu
+</span></span><span class="line"><span class="cl">sudo pacman -S --needed base-devel git
+</span></span><span class="line"><span class="cl">git clone https://aur.archlinux.org/yay.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> yay
+</span></span><span class="line"><span class="cl">makepkg -si
+</span></span><span class="line"><span class="cl"><span class="c1">### Comprobar si se instaló correctamente</span>
+</span></span><span class="line"><span class="cl">yay --version
+</span></span></code></pre></div><p>Ahora instalá el juego:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay -S wine-lol-bin
+</span></span><span class="line"><span class="cl">yay -S leagueoflegends-git
+</span></span></code></pre></div><p>Primero instalá wine-lol-bin porque si instalás leagueoflegends-git sólo te va a compilar wine-lol cuando te podés bajar el binario directamente.</p>
+<p>Eso es todo.</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

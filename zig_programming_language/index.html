@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Instalacion y Hola Mundo en Zig | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/zig_programming_language/">
+      <span>Instalacion y Hola Mundo en Zig</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@zig/">Zig</a></li>
+  
+</ul>
+
+<div class="content"><h2 id="instalación">Instalación</h2>
+<p>Lo descargan desde <a href="https://ziglang.org/download/">https://ziglang.org/download/</a>
+Descomprimen el tar.xz con</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ tar -xvf nombre_del_archivo.tar.xz
+</span></span></code></pre></div><p>En este caso descargaremos e instalaremos la ultima version que es la 0.11.0 puede ser que al momento que usted este leyendo esta publicacion exista una nueva version.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">cd</span> ~
+</span></span><span class="line"><span class="cl">$ wget https://ziglang.org/builds/zig-linux-x86_64-0.11.0-dev.11+0d192ee9e.tar.xz  -O zig.tar.xz <span class="o">&amp;&amp;</span> tar -xvf zig.tar.xz
+</span></span></code></pre></div><p>Luego solo basta con linkearlo desde /usr/bin para agregarlo al PATH usando ln</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">cd</span> /usr/bin
+</span></span><span class="line"><span class="cl">$ sudo ln -s ~/zig-linux-x86_64-0.11.0-dev.11+0d192ee9e/zig zig
+</span></span></code></pre></div><p>O si usan un distro como Arch o derivada de Arch</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ pacman -S zig
+</span></span></code></pre></div><h2 id="hola-mundo">Hola Mundo</h2>
+<p>Abren un archivo con VIM/Emacs/Nano o el editor de su preferencia y escriban</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="k">const</span><span class="w"> </span><span class="n">std</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">@</span><span class="n">import</span><span class="p">(</span><span class="s">&#34;std&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="n">anyerror</span><span class="o">!</span><span class="n">void</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">std</span><span class="p">.</span><span class="n">debug</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;Hello, World!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="w"> </span><span class="p">.{});</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>lo guardan como hello-world.zig</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ zig run hello-world.zig
+</span></span><span class="line"><span class="cl">Hello, World!
+</span></span><span class="line"><span class="cl">To compile this Zig program, use zig build-exe.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ zig build-exe hello-world.zig
+</span></span><span class="line"><span class="cl">$ ./hello-world
+</span></span><span class="line"><span class="cl">Hello, World!
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

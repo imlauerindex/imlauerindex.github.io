@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reparacion on Index</title>
+    <link>https://adityatelange.github.io/@reparacion/</link>
+    <description>Recent content in Reparacion on Index</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Aug 2024 12:43:32 -0300</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/@reparacion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 7) - Manómetro. Definiciones.</title>
+      <link>https://adityatelange.github.io/7ma_clase_aire/</link>
+      <pubDate>Sat, 24 Aug 2024 12:43:32 -0300</pubDate>
+      <guid>https://adityatelange.github.io/7ma_clase_aire/</guid>
+      <description>Audio de la clase https://youtu.be/IdGYfIYYQ_E&#xA;Invidious https://redirect.invidious.io/watch?v=IdGYfIYYQ_E&#xA;Continua el Dictado&amp;hellip; Todos los manómetros de presión tienen un elemento que cambia alguna propiedad cuando son sometidos a la presión. Este cambio se manifiesta en una escala o pantalla equilibrada directamente en los unidades de presión correspondiente.&#xA;La aguja nos mide la presión en el interior del circuito, los manómetros suelen tener 2 escalas, una que marca por ejemplo bares, y otro los PSI (libra-fuerza/pulgada cuadrada).</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 8) - Lavarropas. Relay. Triac. Presostato. Solenoide. Jaula ardilla. Motores universales.</title>
+      <link>https://adityatelange.github.io/8va_clase_electro/</link>
+      <pubDate>Fri, 23 Aug 2024 12:34:35 -0300</pubDate>
+      <guid>https://adityatelange.github.io/8va_clase_electro/</guid>
+      <description>Audio de la clase: https://youtu.be/HOFVsSnZ_a4&#xA;O escuchala en invidious: https://redirect.invidious.io/watch?v=HOFVsSnZ_a4&#xA;Se cortó una parte en donde hablaba de como probar una electrobomba: tiene bobinado todos los motores son iguales.&#xA;Solenoide de carga. El relay es un solenoide.&#xA;Presostato: sólo es un switch de contacto. El presostato no tiene ningún campo magnético.&#xA;Primero el lavarropas testea todo.&#xA;Jaula de ardilla: estan en diagonales.&#xA;El trazo grueso es hierro al silicio y el trazo fino es aluminio.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 7) - Diagrama horno eléctrico. Termostato. Selector de velas.</title>
+      <link>https://adityatelange.github.io/7ma_clase_reparacion_electromesticos/</link>
+      <pubDate>Fri, 16 Aug 2024 21:48:55 -0300</pubDate>
+      <guid>https://adityatelange.github.io/7ma_clase_reparacion_electromesticos/</guid>
+      <description>Audio de la clase https://youtu.be/5RjcuVO6T3I&#xA;O escuchala en invidiuos https://redirect.invidious.io/watch?v=5RjcuVO6T3I&#xA;Primero comienza explicando el funcionamiento de un aire acondicionado.&#xA;A los caños le ponen aluminio y no conviene arreglar porque si hay un poquito de humedad le come al caño. NO conviene arreglar caño de heladera, conviene tomar la medida y el fondo y comprar un evaporador como para freezer.&#xA;Te vas con esa medida y decís yo quiero un evaporador de esta medida.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 6) - Presión. Manómetro. PCI. Pascal.</title>
+      <link>https://adityatelange.github.io/6ta_instalacion_aires/</link>
+      <pubDate>Sat, 10 Aug 2024 18:13:02 -0300</pubDate>
+      <guid>https://adityatelange.github.io/6ta_instalacion_aires/</guid>
+      <description>Audio de la clase https://youtu.be/tfCzHKKO6IQ&#xA;O miralo en una instancia de invidious (lo mismo pero más ligero y sin publicidad) https://redirect.invidious.io/watch?v=tfCzHKKO6IQ&#xA;Manómetro es un instrumento de medida de presión en fluidos líquidos y gaseosos en un circuito cerrado. Mide la diferencia entre presión real o absoluta y la presión atmosférica, llamándose a este valor presión manométrica. A este tipo de manómetro se lo conoce como manómetro de presión. Lo que hace es comparar la presión atmosférica (la de afuera de la atmósfera) con la de adentro del circuito por donde circula el fluido.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 6) - Relay. Triac. Contactora. Varistor. Termistor. Fuentes. Puente Rectificador. Mosfet. Soldador no funcionó.</title>
+      <link>https://adityatelange.github.io/taller_reparacion_electrodomesticos6/</link>
+      <pubDate>Thu, 08 Aug 2024 20:45:09 -0300</pubDate>
+      <guid>https://adityatelange.github.io/taller_reparacion_electrodomesticos6/</guid>
+      <description>Audio de la clase https://youtu.be/4LCbuu2Wa_4&#xA;O miralo en una instancia de invidious: https://redirect.invidious.io/watch?v=4LCbuu2Wa_4&#xA;Problemas comunes. Placa electrónica de un televisor: tal circuito integrado no está aguantando, por problemas de temperatura muchas veces se repiten.&#xA;Consumo es la potencia.&#xA;Para la fuente tengo que tener dos conductores: fase y neutro.&#xA;Si yo tengo algo que no anda lo primero que tengo que medir es continuidad&#xA;Puedo tener un switch, un pulsador, si es algo que está en paralelo a no ser que esté en corto NO ME VA A QUITAR la continuidad.</description>
+    </item>
+    <item>
+      <title>Preguntas de examen de instalación reparación aires acondicionados</title>
+      <link>https://adityatelange.github.io/examenes_aires_acondicionados/</link>
+      <pubDate>Sun, 04 Aug 2024 05:56:39 -0300</pubDate>
+      <guid>https://adityatelange.github.io/examenes_aires_acondicionados/</guid>
+      <description>Examen teoría 0. Ciclo de la refrigeración. Indicar cual es el correcto y cual es el falso. Y explicar por qué es el correcto.&#xA;1. En un ambiente de 5 metros por 4 metros por metro de alto donde va a haber 15 personas como máximo, ¿cuántas frigorías necesita para llegar a la temperatura deseada? Ellos no sabían como colocar, no es un error. Le dimos a elección para que ellos coloquen la altura que ellos querían y en base a eso corregíamos si hacían bien.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 5) - Cálculo de Balance Térmico. Presión manométrica. Preguntas de exámen. Fotos aire armado/desarmado.</title>
+      <link>https://adityatelange.github.io/5ta_clase_instalacion_aires/</link>
+      <pubDate>Sat, 03 Aug 2024 13:18:29 -0300</pubDate>
+      <guid>https://adityatelange.github.io/5ta_clase_instalacion_aires/</guid>
+      <description>Audio de la clase https://youtu.be/N1QM4t30mqw&#xA;O miralo en alguna instancia de invidious. https://redirect.invidious.io/watch?v=N1QM4t30mqw&#xA;El examen práctico consiste en cablear este aire: Aire desarmado:&#xA;Aire armado: Aire ventana: Aire: Audio de la clase trascripto: Algunos lo dejan muy bien armado, o agregan cosas. Al finalizar el curso se les da el pdf.&#xA;Balance Térmico La clase pasada hablamos del balance térmico. Hablamos de dos posibles formas: una aplicación (buscar balance térmico en google play store) y la otra forma teniendo la experiencia del técnico, lado x lado x constante de 200 y eso nos da la constante de frigorías.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion de electrodometicos (Clase 5) - Lavarropas y Termotanque. Triac. Mosfet. Osciladores.</title>
+      <link>https://adityatelange.github.io/5ta_clase_reparacion_electrodomesticos/</link>
+      <pubDate>Fri, 02 Aug 2024 07:46:16 -0300</pubDate>
+      <guid>https://adityatelange.github.io/5ta_clase_reparacion_electrodomesticos/</guid>
+      <description>Audio de la clase https://youtu.be/LWxML1Yv3IY&#xA;O miralo en invidious (es más ligero y sin publicidad) https://redirect.invidious.io/watch?v=LWxML1Yv3IY&#xA;Lavarropas: auto-balance, por eso es malo lavar zapatillas en el lavarropas.&#xA;Hicismos un cambio de amortiguadores&#xA;Apuntes Cuando estudiamos vamos a encontrar la placa y el periférico. El periférico son todos los otros componentes que tiene el lavarropas.&#xA;En esos tipos de placas de lavarropas todos los componentes que están ahí menos los sensores, trabajan con 220.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller de Instalación y Reparación de aires acondicionados (Clase 4) - Dictado. Definiciones. Watts/BTU/Frigorías. </title>
+      <link>https://adityatelange.github.io/4ta_clase_instalacion_aire/</link>
+      <pubDate>Mon, 29 Jul 2024 05:23:44 -0300</pubDate>
+      <guid>https://adityatelange.github.io/4ta_clase_instalacion_aire/</guid>
+      <description>Audio de la clase: https://youtu.be/LoXVq-A2ozs&#xA;O miralo desde una instancia de invidious https://redirect.invidious.io/watch?v=LoXVq-A2ozs&#xA;En equipos más grandes ese tramo de caño que tenés hasta el evaporador también actúa como condensador por lo tanto es más caliente.&#xA;Presión de la refrigeración La presión se genera por los refrigerantes por el medio de los conductos. Vamos a utilizar un instrumento de medición que es el manovacuometro. Para calibrar la rueda de un vehículo vamos a utilizar un manómetro, pero cuando hacemos una refrigeración necesitamos un manovacuometro, son dos instrumentos fusionados en 1 sólo.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion de electrodometicos (Clase 4) - Capacitores, Transformadores - Fuente lineal, switching o conmutada, y capacitiva. Rectificador onda completa. Núcleo ferrita, núcleo hierro.</title>
+      <link>https://adityatelange.github.io/4ta_clase_reparacion_electrodomesticos/</link>
+      <pubDate>Fri, 26 Jul 2024 04:31:20 -0300</pubDate>
+      <guid>https://adityatelange.github.io/4ta_clase_reparacion_electrodomesticos/</guid>
+      <description>Audio de la clase: https://youtu.be/OSlqnhmQsMQ&#xA;O miralo desde una instancia de invidious https://redirect.invidious.io/watch?v=OSlqnhmQsMQ&#xA;Para que sirve el siguiente elemento: Al no tener osciloscopio creo ese elemento y medir los pulsos de la fuente switching es difícil porque es muy alta, tampoco se puede medir con tester porque te quemará el tester y es necesario saber si está funcionando la fuente o no. Si está funcionando hasta antes del transformador el oscilor, si le pongo eso, como eso es un foco de neon entonces sí titila, NO puedo contar la frecuencia, pero por lo menos me da un acercamiento de que está funcionando hasta ahí, entonces ahí si yo puedo decir, el transformador es el que está mal.</description>
+    </item>
+  </channel>
+</rss>

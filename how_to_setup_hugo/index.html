@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Como configurar tu proyecto HUGO en una nueva PC | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/how_to_setup_hugo/">
+      <span>Como configurar tu proyecto HUGO en una nueva PC</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@hugo/">Hugo</a></li>
+  
+</ul>
+
+<div class="content"><p>Clono el repositorio usando SSH.<br>
+Clono usando <code>recursive submodules -j8</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone --recurse-submodules -j8 git@github.com:imlauera/blog.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> blog
+</span></span></code></pre></div><p><code>-j8</code> es para optimizar el rendimiento.</p>
+<p>O si ya lo había clonado ejecuto</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git submodule init update --init --recursive
+</span></span></code></pre></div><p>Luego ejecuto</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> blog
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl">hugo serve
+</span></span></code></pre></div><p>Y ya estoy listo para empezar a escribir mi nuevo artículo en cualquier computadora.</p>
+<h5 id="ojo">Ojo</h5>
+<p>Hay un problema si empezaste a hacer el proyecto en Linux y te pasás a Windows. Ambos sistemas operativos tienen diferentes caracteres para representar el fin de línea.
+Windows y Linux utilizan diferentes caracteres para marcar el final de una línea o carácter de fin de línea (EOL):
+Windows: utiliza el modelo CR/LF, que consta de dos caracteres, \r\n, donde \r representa un retorno de carro y \n representa una nueva línea.
+Linux: utiliza el modelo \n, que es un solo carácter.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git checkout master
+</span></span><span class="line"><span class="cl">git push
+</span></span></code></pre></div><p>O <code>git pull</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config pull.rebase <span class="nb">false</span> <span class="c1"># merge</span>
+</span></span><span class="line"><span class="cl">git config pull.rebase <span class="nb">true</span> <span class="c1"># rebase</span>
+</span></span><span class="line"><span class="cl">git config pull.ff only <span class="c1"># fast-forward only</span>
+</span></span></code></pre></div><h4 id="instalando-un-nuevo-theme-a-tu-sitio">Instalando un nuevo theme a tu sitio.</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo new site
+</span></span><span class="line"><span class="cl">cd newsite
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
+</span></span></code></pre></div><p>Ahora tenés que copiar los archivos de exampleSite al directorio base del proyecto. <code>cp -r themes/beautifulhugo/exampleSite/* . -iv</code></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

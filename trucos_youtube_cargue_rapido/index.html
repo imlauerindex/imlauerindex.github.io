@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>El diseño de YouTube es demasiado lento. Tips para que cargue más rapido | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/trucos_youtube_cargue_rapido/">
+      <span>El diseño de YouTube es demasiado lento. Tips para que cargue más rapido</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@offtopic/">Offtopic</a></li>
+  
+</ul>
+
+<div class="content"><p>Podés usar alguna instancia de invidious: <a href="https://redirect.invidious.io">https://redirect.invidious.io</a> es lo mismo que youtube pero un diseño más ligero y respetuoso con el usuario o <a href="https://piped.video">https://piped.video</a> (que no siempre funciona bien)</p>
+<h4 id="otra-opción">Otra opción:</h4>
+<p>Bajate una extensión <a href="https://chromewebstore.google.com/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg">User-Agent Switcher</a> permití la extensión en modo privado y en las opciones de la extensión en Custom Mode agregá:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{
+</span></span><span class="line"><span class="cl">&#34;youtube.com&#34;: &#34;Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.154 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)&#34;,
+</span></span><span class="line"><span class="cl">&#34;twitch.tv&#34;:&#34;Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.154 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)&#34;,
+</span></span><span class="line"><span class="cl">&#34;twitch.com&#34;:&#34;Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.154 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)&#34;
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><p>Guardalo, ahora YouTube y Twitch creerá que visitás la página desde un Android.</p>
+<p>Ahora instalá yt-dlp y mpv y cuando quieras ver un video, no lo veas en la página miralo desde mpv.</p>
+<p><a href="https://imlauera.github.io/post/2022-07-12-usando-mpv-para-mirar-videos-en-pc-s-de-bajos-recursos/">Ya escribí un artículo de esto</a> pero hay una pequeña modificación en la configuración.</p>
+<p>/etc/mpv/mpv.conf:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">--ytdl-raw-options<span class="o">=</span><span class="s2">&#34;format=bestvideo[height&lt;=?360]+bestaudio/best[height&lt;=?360]/bestvideo[height&lt;=?480]+bestaudio/best[height&lt;=?480],write-auto-sub=,sub-lang=[en,ru],write-sub=&#34;</span>
+</span></span></code></pre></div><p>Con j activás los subtitulos.</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Agregando LaTeX a HUGO | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/agregando_latex_a_hugo/">
+      <span>Agregando LaTeX a HUGO</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@latex/">Latex</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@hugo/">Hugo</a></li>
+  
+</ul>
+
+<div class="content"><p>Podés tener $$\LaTeX$$ en tu blog con HUGO simplemente agregando el siguiente scripts al template de la página: <code>layouts/partials/footer.html</code></p>
+<p><a href="https://www.mathjax.org/#gettingstarted">https://www.mathjax.org/#gettingstarted</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="p">{{</span> <span class="nx">$script</span> <span class="o">:=</span> <span class="p">.</span><span class="nx">Site</span><span class="p">.</span><span class="nx">Data</span><span class="p">.</span><span class="nx">webpack_assets</span><span class="p">.</span><span class="nx">app</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="kd">with</span> <span class="nx">$script</span><span class="p">.</span><span class="nx">js</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">     <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;{{ relURL (printf &#34;</span><span class="o">%</span><span class="nx">s</span><span class="o">%</span><span class="nx">s</span><span class="s2">&#34; &#34;</span><span class="nx">dist</span><span class="o">/</span><span class="s2">&#34; .) }}&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="nx">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/x-mathjax-config&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">MathJax</span><span class="p">.</span><span class="nx">Hub</span><span class="p">.</span><span class="nx">Config</span><span class="p">({</span> <span class="nx">tex2jax</span><span class="o">:</span> <span class="p">{</span><span class="nx">inlineMath</span><span class="o">:</span> <span class="p">[[</span><span class="s2">&#34;$$&#34;</span><span class="p">,</span><span class="s2">&#34;$$&#34;</span><span class="p">],[</span><span class="s2">&#34;\\(&#34;</span><span class="p">,</span><span class="s2">&#34;\\)&#34;</span><span class="p">]]}</span> <span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></span></code></pre></div><h4 id="prueba-latex">Prueba LaTeX</h4>
+<p>$$ e^{i\pi}+1= 0 $$</p>
+<p>\begin{aligned}
+KL(\hat{y} || y) &amp;= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \
+JS(\hat{y} || y) &amp;= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
+\end{aligned}</p>
+<p>Para insertar \(\LaTeX\) tenés que usar lo que dice luego de inlineMath:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">$$</span> <span class="nx">$$</span> 
+</span></span><span class="line"><span class="cl"><span class="err">\\</span><span class="p">(</span> <span class="err">\\</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="esto-es-todo">Esto es todo.</h4>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on Index</title>
+    <link>https://adityatelange.github.io/@mysql/</link>
+    <description>Recent content in Mysql on Index</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Sep 2023 07:13:42 -0300</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/@mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo hacer un backup de mysql y restaurarlo usando un volumen de docker</title>
+      <link>https://adityatelange.github.io/how_to_backup_and_restore_docker_volume/</link>
+      <pubDate>Tue, 26 Sep 2023 07:13:42 -0300</pubDate>
+      <guid>https://adityatelange.github.io/how_to_backup_and_restore_docker_volume/</guid>
+      <description>Ejecutá esto desde la máquina host:&#xA;docker exec CONTAINER /usr/bin/mysqldump -u root --password=root DATABASE &amp;gt; backup.sql Para recuperarlo:&#xA;cat backup.sql | docker exec -i CONTAINER /usr/bin/mysql -u root --password=root DATABASE </description>
+    </item>
+  </channel>
+</rss>

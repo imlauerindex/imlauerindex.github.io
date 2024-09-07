@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pihole on Index</title>
+    <link>https://adityatelange.github.io/@pihole/</link>
+    <description>Recent content in Pihole on Index</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jul 2024 06:56:12 -0300</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/@pihole/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bloquear publicidad y malware a través de la red usando Pihole</title>
+      <link>https://adityatelange.github.io/pihole/</link>
+      <pubDate>Sun, 28 Jul 2024 06:56:12 -0300</pubDate>
+      <guid>https://adityatelange.github.io/pihole/</guid>
+      <description>Podés instalar esto en una raspberry pi y bloquear toda la publicidad, si tenés un smart-TV que no tiene android.&#xA;https://pi-hole.net/</description>
+    </item>
+  </channel>
+</rss>

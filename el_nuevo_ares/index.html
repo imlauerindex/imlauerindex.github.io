@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>El nuevo Ares: qBittorrent y Jackett | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/el_nuevo_ares/">
+      <span>El nuevo Ares: qBittorrent y Jackett</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@ares/">Ares</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@qbittorrent/">Qbittorrent</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@jackett/">Jackett</a></li>
+  
+</ul>
+
+<div class="content"><p>Instalá qBittorent: <code>sudo apt install -y qbittorrent</code>
+Abrí qbittorrent, view -&gt; search engine.
+Ahora movete a la pestaña Search y abajo a la derecha dale a search plugins -&gt; install a new one -&gt; web link y pegá: <a href="https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/jackett.py">https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/jackett.py</a></p>
+<p>Luego andá a <code>~/.local/share/qBittorrent/nova3/engines/</code> o seguí este tutorial: <a href="https://github.com/qbittorrent/search-plugins/wiki/How-to-configure-Jackett-plugin">https://github.com/qbittorrent/search-plugins/wiki/How-to-configure-Jackett-plugin</a></p>
+<h4 id="creá-un-archivo-llamado-jackettjson">creá un archivo llamado jackett.json</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;api_key&#34;</span>: <span class="s2">&#34;YOUR_API_KEY_HERE&#34;</span>,
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;url&#34;</span>: <span class="s2">&#34;http://127.0.0.1:9117&#34;</span>,
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;tracker_first&#34;</span>: false,
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;thread_count&#34;</span>: <span class="m">20</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><p>La API key lo copias de https://localhost:9117</p>
+<p>Abrí Jackett y agregá todos los indexers publicos seleccionando uno por uno el checkbox de la izquierda.</p>
+<p>Finalmente abrí qbittorrent andate a Search y buscá el torrent que quieras.</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

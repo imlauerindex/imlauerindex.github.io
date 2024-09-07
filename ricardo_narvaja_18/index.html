@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Ricardo Narvaja: Exámen 18 (Servidor, libw32pth-0.dll) | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/ricardo_narvaja_18/">
+      <span>Ricardo Narvaja: Exámen 18 (Servidor, libw32pth-0.dll)</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@cracking/">Cracking</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@ricardo/">Ricardo</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@narvaja/">Narvaja</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@examen/">Examen</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@calculadora/">Calculadora</a></li>
+  
+</ul>
+
+<div class="content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">sub_4014E0</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Buffer</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">Format</span><span class="p">,</span> <span class="p">...)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">va_list</span> <span class="n">va</span><span class="p">;</span> <span class="c1">// [esp+18h] [ebp+10h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">va_start</span><span class="p">(</span><span class="n">va</span><span class="p">,</span> <span class="n">Format</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401010</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nf">sub_401450</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="n">Format</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">va</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">sub_401020</span><span class="p">(</span><span class="kt">int</span> <span class="n">a1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">char</span> <span class="n">v1</span><span class="p">;</span> <span class="c1">// al
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// al
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// al
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v5</span><span class="p">;</span> <span class="c1">// al
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">size_t</span> <span class="n">v6</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v7</span><span class="p">;</span> <span class="c1">// [esp+0h] [ebp-12DCh]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v8</span><span class="p">;</span> <span class="c1">// [esp+0h] [ebp-12DCh]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v9</span><span class="p">;</span> <span class="c1">// [esp+0h] [ebp-12DCh]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v10</span><span class="p">;</span> <span class="c1">// [esp+0h] [ebp-12DCh]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v11</span><span class="p">[</span><span class="mi">4096</span><span class="p">];</span> <span class="c1">// [esp+8h] [ebp-12D4h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v12</span><span class="p">[</span><span class="mi">400</span><span class="p">];</span> <span class="c1">// [esp+1008h] [ebp-2D4h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">Format</span><span class="p">[</span><span class="mi">64</span><span class="p">];</span> <span class="c1">// [esp+1198h] [ebp-144h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">Str</span><span class="p">[</span><span class="mi">200</span><span class="p">];</span> <span class="c1">// [esp+11D8h] [ebp-104h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v15</span><span class="p">[</span><span class="mi">16</span><span class="p">];</span> <span class="c1">// [esp+12A0h] [ebp-3Ch] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kr">__int16</span> <span class="n">v16</span><span class="p">[</span><span class="mi">2</span><span class="p">];</span> <span class="c1">// [esp+12B0h] [ebp-2Ch] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v17</span><span class="p">;</span> <span class="c1">// [esp+12B4h] [ebp-28h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v18</span><span class="p">;</span> <span class="c1">// [esp+12C0h] [ebp-1Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v19</span><span class="p">;</span> <span class="c1">// [esp+12C4h] [ebp-18h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v20</span><span class="p">[</span><span class="mi">4</span><span class="p">];</span> <span class="c1">// [esp+12C8h] [ebp-14h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">i</span><span class="p">;</span> <span class="c1">// [esp+12CCh] [ebp-10h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v22</span><span class="p">;</span> <span class="c1">// [esp+12D0h] [ebp-Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v23</span><span class="p">;</span> <span class="c1">// [esp+12D4h] [ebp-8h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">char</span> <span class="n">v24</span><span class="p">;</span> <span class="c1">// [esp+12DBh] [ebp-1h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">strcpy</span><span class="p">(</span><span class="n">Format</span><span class="p">,</span> <span class="s">&#34;Hello Client , I have received your connection your key is %d.</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="n">dword_404038</span> <span class="o">=</span> <span class="nf">GetTickCount</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Src</span> <span class="o">=</span> <span class="nf">malloc</span><span class="p">(</span><span class="mh">0x2000u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">LoadLibraryA</span><span class="p">(</span><span class="s">&#34;libw32pth-0.dll&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">Initialising Winsock...&#34;</span><span class="p">,</span> <span class="n">v7</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="nf">WS2_32_115</span><span class="p">(</span><span class="mi">514</span><span class="p">,</span> <span class="n">v12</span><span class="p">)</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v1</span> <span class="o">=</span> <span class="nf">WS2_32_111</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Failed. Error Code : %d&#34;</span><span class="p">,</span> <span class="n">v1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Initialised.</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v8</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v23</span> <span class="o">=</span> <span class="nf">WS2_32_23</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">v23</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v3</span> <span class="o">=</span> <span class="nf">WS2_32_111</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Could not create socket : %d&#34;</span><span class="p">,</span> <span class="n">v3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Socket created.</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v9</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v16</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v17</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v16</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="nf">WS2_32_9</span><span class="p">(</span><span class="n">a1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="nf">WS2_32_2</span><span class="p">(</span><span class="n">v23</span><span class="p">,</span> <span class="n">v16</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v4</span> <span class="o">=</span> <span class="nf">WS2_32_111</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Bind failed with error code : %d&#34;</span><span class="p">,</span> <span class="n">v4</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">puts</span><span class="p">(</span><span class="s">&#34;Bind done&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">WS2_32_13</span><span class="p">(</span><span class="n">v23</span><span class="p">,</span> <span class="mi">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">puts</span><span class="p">(</span><span class="s">&#34;Waiting for incoming connections...</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v19</span> <span class="o">=</span> <span class="mi">16</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v22</span> <span class="o">=</span> <span class="nf">WS2_32_1</span><span class="p">(</span><span class="n">v23</span><span class="p">,</span> <span class="n">v15</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">v19</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">v22</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v5</span> <span class="o">=</span> <span class="nf">WS2_32_111</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;accept failed with error code : %d&#34;</span><span class="p">,</span> <span class="n">v5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">puts</span><span class="p">(</span><span class="s">&#34;Connection accepted</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">memset</span><span class="p">(</span><span class="n">Str</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">Str</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">a1</span> <span class="o">==</span> <span class="mi">8888</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">sub_4014E0</span><span class="p">(</span><span class="n">Str</span><span class="p">,</span> <span class="s">&#34;Port is = %d&#34;</span><span class="p">,</span> <span class="mi">252</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">WS2_32_19</span><span class="p">(</span><span class="n">v22</span><span class="p">,</span> <span class="n">Str</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v6</span> <span class="o">=</span> <span class="nf">strlen</span><span class="p">(</span><span class="n">Str</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">WS2_32_16</span><span class="p">(</span><span class="n">v22</span><span class="p">,</span> <span class="n">Src</span><span class="p">,</span> <span class="n">v6</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span> <span class="o">*</span><span class="n">Src</span> <span class="o">!=</span> <span class="mi">1094861636</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nf">puts</span><span class="p">(</span><span class="s">&#34;Bye Bye</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">WS2_32_3</span><span class="p">(</span><span class="n">v23</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">sub_4014E0</span><span class="p">(</span><span class="n">Str</span><span class="p">,</span> <span class="n">Format</span><span class="p">,</span> <span class="n">dword_404038</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">printf</span><span class="p">(</span><span class="n">Str</span><span class="p">,</span> <span class="n">v10</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">WS2_32_19</span><span class="p">(</span><span class="n">v22</span><span class="p">,</span> <span class="n">Str</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="n">v18</span> <span class="o">=</span> <span class="n">dword_40403C</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">WS2_32_16</span><span class="p">(</span><span class="n">v22</span><span class="p">,</span> <span class="n">Src</span><span class="p">,</span> <span class="mh">0x2000</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="o">*</span><span class="n">v20</span> <span class="o">=</span> <span class="o">*</span><span class="p">(</span><span class="n">Src</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="o">*</span><span class="n">Src</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%x</span><span class="se">\n\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v20</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span> <span class="o">*</span><span class="n">v20</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Size</span> <span class="o">=</span> <span class="o">*</span><span class="p">(</span><span class="n">Src</span> <span class="o">+</span> <span class="mi">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dword_404030</span> <span class="o">=</span> <span class="o">*</span><span class="p">(</span><span class="n">Src</span> <span class="o">+</span> <span class="mi">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">memcpy</span><span class="p">(</span><span class="n">v11</span><span class="p">,</span> <span class="n">Src</span><span class="p">,</span> <span class="n">Size</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="k">for</span> <span class="p">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">Size</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">v24</span> <span class="o">=</span> <span class="n">v11</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span> <span class="n">v24</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span> <span class="n">dword_404030</span> <span class="o">!=</span> <span class="p">(</span><span class="o">*</span><span class="n">dword_404038</span> <span class="o">^</span> <span class="mh">0x89765432</span><span class="p">)</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nf">puts</span><span class="p">(</span><span class="s">&#34;Bye Bye</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401020</span><span class="p">(</span><span class="mi">8888</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401020</span><span class="p">(</span><span class="mi">7676</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>ESP32 con Arduino Cli How To | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://adityatelange.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://adityatelange.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://adityatelange.github.io/">
+      <img src="https://adityatelange.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://adityatelange.github.io/arduino-cli-how-to/">
+      <span>ESP32 con Arduino Cli How To</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://adityatelange.github.io/@esp32/">Esp32</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@arduino/">Arduino</a></li>
+  
+  <li><a href="https://adityatelange.github.io/@cli/">Cli</a></li>
+  
+</ul>
+
+<div class="content"><h4 id="instalacion">Instalacion</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/arduino/arduino-cli    
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> arduino-cli
+</span></span><span class="line"><span class="cl">bash install.sh  
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> bin/  
+</span></span><span class="line"><span class="cl">sudo mv arduino-cli /usr/bin  
+</span></span></code></pre></div><p><strong>Agregar y descargar un indice adicional</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arduino-cli core update-index --additional-urls https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+</span></span></code></pre></div><p><strong>Iniciar la configuracion:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arduino-cli config init
+</span></span><span class="line"><span class="cl">arduino-cli config dump --verbose 
+</span></span></code></pre></div><p>Cuando inicias la configuracion te crea un archivo en <code>~/.arduino/arduino-cli.yaml</code> podes editar ese archivo y agregar la URL del indice en ese archivo en vez de usar &ndash;additional-urls como se demostro en el paso 1.</p>
+<h4 id="configurando-arduino-cli-para-usarlo-con-esp32">Configurando arduino-cli para usarlo con ESP32</h4>
+<p><strong>Buscar core</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arduino-cli core search esp32
+</span></span></code></pre></div><p><strong>Instala el ESP32 Core</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arduino-cli core install esp32:esp32
+</span></span></code></pre></div><p>Podes buscar el FQBN (necesario para compilar) usando el comando</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arduino-cli board search esp32
+</span></span><span class="line"><span class="cl">arduino-cli board details -b &lt;Tu FQBN&gt;
+</span></span></code></pre></div><p><strong>Crea un nuevo sketch</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">arduino-cli sketch new ejemplo
+</span></span><span class="line"><span class="cl">cd ejemplo
+</span></span></code></pre></div><p>No hace falta si ya tenes un archivo ino. Directamente pasa al siguiente paso.</p>
+<p><strong>Para compilar el sketch</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arduino-cli compile --fqbn esp32:esp32:esp32 .
+</span></span></code></pre></div><p><strong>Para subirlo al esp32</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arduino-cli upload -p /dev/ttyUSB0 --fqbn esp32:esp32:esp32 .
+</span></span></code></pre></div><p><strong>Para monitorearlo</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">screen /dev/ttyUSB0 <span class="m">115200</span>
+</span></span></code></pre></div><p><strong>Buscar librerias</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arduino-cli lib search DH11
+</span></span></code></pre></div><p><strong>Instalando librerias</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arduino-cli lib install <span class="s2">&#34;DHT sensor library&#34;</span>
+</span></span></code></pre></div><p><strong>Para compilar y subir</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arduino-cli compile --fqbn esp32:esp32:esp32 -u -p /dev/ttyUSB0
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>
