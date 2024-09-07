@@ -6,8 +6,92 @@
     <description>Recent content on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 27 Aug 2024 14:54:47 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 07 Sep 2024 03:08:00 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>X86 opcode</title>
+      <link>https://imlauerindex.github.io/x86_opcode/</link>
+      <pubDate>Sat, 07 Sep 2024 03:08:00 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/x86_opcode/</guid>
+      <description>&amp;lsquo;%&amp;rsquo; significa &amp;ldquo;and EAX&amp;rdquo;&#xA;&amp;lsquo;-&amp;rsquo; significa &amp;ldquo;sub EAX&amp;rdquo;&#xA;&amp;lsquo;P&amp;rsquo; significa &amp;ldquo;push EAX&amp;rdquo;&#xA;&amp;lsquo;X&amp;rsquo; significa &amp;ldquo;pop EAX&amp;rdquo;&#xA;&amp;lsquo;T&amp;rsquo; significa &amp;ldquo;push ESP&amp;rdquo;&#xA;&amp;lsquo;&#39; significa &amp;ldquo;pop ESP&amp;rdquo;&#xA;https://stackoverflow.com/questions/14349735/why-register-eax-esp-and-instructions-sub-push-and-pop-assemble-into-ascii-cha&#xA;http://ref.x86asm.net/coder32.html</description>
+    </item>
+    <item>
+      <title>Ida PRO Free</title>
+      <link>https://imlauerindex.github.io/idapro_free/</link>
+      <pubDate>Fri, 06 Sep 2024 05:37:11 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/idapro_free/</guid>
+      <description>magnet:?xt=urn:btih:6903c417f24b595fc8831933fa454e42e53bd132&amp;amp;dn=IDA%20Pro%209.0%20Beta&amp;amp;tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet Para instalarlo, abrí la carpeta en donde se descargó.&#xA;Ubicate en la carpeta de installers original Ahora ejecutá&#xA;chmod +x idapro_90_x64linux.run ./idapro_90_x64linux.run Se instalará en ~/idapro-9.0&#xA;Ahora ubicate en la carpeta crack copiá crack_ida90_beta.py a donde se instaló el IDAPro: ~/idapro-9.0 ejecutalo con python crack_ida90_beta.py esto generará los archivos libida.so.patched y libida64.so.patched ahora renombralos a libida.so y libida64.so con el siguiente comando:&#xA;mv libida.so.patched libida.so mv libida64.so.patched libida64.so Listo ya debería funcionar, podés agregarlo al path ejecutando</description>
+    </item>
+    <item>
+      <title>Algebra 2 - PM</title>
+      <link>https://imlauerindex.github.io/algebra2/</link>
+      <pubDate>Fri, 06 Sep 2024 05:21:51 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/algebra2/</guid>
+      <description>Esta es mi carpeta de Álgebra 2.&#xA;https://archive.org/details/algebra2_202409</description>
+    </item>
+    <item>
+      <title>Como ver el historial de cambios de un archivo usando Git</title>
+      <link>https://imlauerindex.github.io/como_mirar_historial_de_un_archivo_git/</link>
+      <pubDate>Fri, 06 Sep 2024 04:28:33 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/como_mirar_historial_de_un_archivo_git/</guid>
+      <description>Así de simple:&#xA;sudo apt install gitk gitk nombre_del_archivo O git log -p -- nombre_de_tu_archivo</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparación electrodomésticos (Clase 10) - Trampa de Aceite aire. Como desoldar. Motor Universal. Motor lavarropa timer mecánico. Estator, rotor. Jaula de Ardilla. Como girar motores para ambos lados. Teoría del bobinado: posición de las espiras para invertir motor, en las bobinas hay un principio y un final. Como comprar buje: llevar rotor y buje. Delgas. Probar motor.</title>
+      <link>https://imlauerindex.github.io/taller_reparacion_electrodomesticos10/</link>
+      <pubDate>Fri, 06 Sep 2024 02:24:46 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/taller_reparacion_electrodomesticos10/</guid>
+      <description>Audio de la clase en YouTube https://youtu.be/jzlRd4U2xI4&#xA;O mirala en invidious https://redirect.invidious.io/watch?v=jzlRd4U2xI4&#xA;Antes de estas fotos hablamos de la trampa de aceite del aire acondicionado que estaba dibujado en el pizarrón.&#xA;Controlador a placa. Refleja para todos lados.&#xA;Lo de abajo es una jaula de ardilla representada en forma de &amp;ldquo;cinta&amp;rdquo;, con norte y sur. El motor se controla por señales de pulso o por ancho de banda (onda cuadrada)</description>
+    </item>
+    <item>
+      <title>C y reversing</title>
+      <link>https://imlauerindex.github.io/c_y_reversing1/</link>
+      <pubDate>Tue, 03 Sep 2024 20:02:06 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/c_y_reversing1/</guid>
+      <description>Reverseamos un hola mundo.&#xA;#include &amp;lt;stdio.h&amp;gt; int main(){ printf(&amp;#34;Hola Mundo\n&amp;#34;); return 0; } Aquí vemos que el compilador modifico nuestro main haciéndolo una función de tres argumentos que no son nuestros, sino del compilador, y tiene una variable. var_4 que creo el compilador la cual si hacemos las cuentas devolverá siempre 10 y la utilizara el compilador al cerrar el programa, por supuesto nada de esto es código propio, vayamos a nuestro código, propiamente dicho.</description>
+    </item>
+    <item>
+      <title>Geometría Métrica</title>
+      <link>https://imlauerindex.github.io/geometria_metrica/</link>
+      <pubDate>Mon, 02 Sep 2024 09:39:07 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/geometria_metrica/</guid>
+      <description>Ejercicios resueltos de geometría métrica. UNAM - Profesorado Matemáticas -&#xA;https://archive.org/details/699299095-geometria-metrica-ejercicios-resueltos</description>
+    </item>
+    <item>
+      <title>Fisicoquimica 2024</title>
+      <link>https://imlauerindex.github.io/fisicoquimica/</link>
+      <pubDate>Mon, 02 Sep 2024 05:47:13 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/fisicoquimica/</guid>
+      <description>Acá tienen el pdf de mi carpeta de fisicoquimica profesorado matemáticas 2023. Pesa 2gb lo más recomendable es bajárselo por torrent.&#xA;https://archive.org/details/fisicoquimica_202409</description>
+    </item>
+    <item>
+      <title>Generar pdf a partir de imagenes con LaTeX</title>
+      <link>https://imlauerindex.github.io/generar_pdf_a_partir_de_imagenes/</link>
+      <pubDate>Mon, 02 Sep 2024 03:48:42 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/generar_pdf_a_partir_de_imagenes/</guid>
+      <description>Generá un archivo llamado misimagenes.tex y guardá lo siguiente:&#xA;\documentclass{article} \usepackage{graphicx} \begin{document} \title{Conversión de Imágenes a PDF} \author{Tu Nombre} \date{\today} \maketitle \section{Imágenes Incluidas} Aquí hay una imagen incluida en el documento: \includegraphics[width=\textwidth]{nombre_de_la_imagen.jpg} \end{document} En la línea de comandos ejecutá ls -v *.jpg &amp;gt; mis_imagenes Copiá y pegá en tu LaTeX todas las imágenes ahora y en VIM seleccionando todas las líneas de los nombres de las imágenes y ejecutando :norm I \includegraphics[width=\textwidth]{ y :norm A}</description>
+    </item>
+    <item>
+      <title>Configurar tu Android para que automáticamente prenda al conectarlo al cargador</title>
+      <link>https://imlauerindex.github.io/como_encender_android_sin_boton/</link>
+      <pubDate>Sun, 01 Sep 2024 23:25:34 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/como_encender_android_sin_boton/</guid>
+      <description>Tenés que encenderlo aprentando el botón de la placa una vez que lograste encenderlo, habilitá developer options: abrí settings andá a la última opción: acerca del teléfono y apretá build number varias veces hasta habilitar modo desarrollo.&#xA;Ahora en opciones del programador (developer options) habilitá usb-debugging, oem unlock, stay awake instalá platform-tools adb y fastboot, ejecutá adb devices conectá el celular a la PC con USB, te saldrá un mensaje que te pedirá autorización en tu celular, a veces no sale tenés que habilitar y deshabilitar usb debugging hasta que funcione.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 8) - Instalación de un aire acondicionado.</title>
+      <link>https://imlauerindex.github.io/8va_clase_aire/</link>
+      <pubDate>Sun, 01 Sep 2024 21:11:43 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/8va_clase_aire/</guid>
+      <description>Audio de la clase https://youtu.be/id4C-zot2uQ&#xA;Mirarlo en una instancia de invidious https://redirect.invidious.io/watch?v=id4C-zot2uQ&#xA;Instalación de equipo de aire acondicionado split Para la instalación de un split debemos seguir los siguientes pasos:&#xA;Convenir con el cliente el precio de la instalación del equipo del aire acondicionado, es conveniente pasar la mano de obra por un lado y la de los materiales por el otro, dejando en claro que el mismo no incluye instalación eléctrica para la alimentación al equipo.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 9) - Tipos de fuentes. Fuente standBy. Rectificador. Tipos de relay y como medirlos. Regulador de voltaje. Reparación ventilador. Cargador de celular con fuente lineal.</title>
+      <link>https://imlauerindex.github.io/9na_clase_electro/</link>
+      <pubDate>Fri, 30 Aug 2024 21:13:12 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/9na_clase_electro/</guid>
+      <description>Audio de la clase: https://youtu.be/xniJUxh04qI&#xA;O mirala en invidious https://redirect.invidious.io/watch?v=xniJUxh04qI&#xA;Temas tocados en esta clase: Tipos de fuentes, transformadores, procesadores, fuente standby en aires acondicionados, placas con más de 1 fuente.&#xA;Transformadores función: bajar la tensión.&#xA;En el transformador del microondas el bobinado tiene más vueltas en la segunda bobina. Todo conductor tiene impedancia.&#xA;Cable más largo: mayor impedancia.&#xA;¿Cómo haces para identificar cual es el primario y el secundario? El primario tiene menos resistencia.</description>
+    </item>
     <item>
       <title>Ricardo Narvaja (Exámen 22)</title>
       <link>https://imlauerindex.github.io/ricardo_narvaja_22/</link>
@@ -90,14 +174,14 @@
       <link>https://imlauerindex.github.io/ricardo_narvaja_12/</link>
       <pubDate>Tue, 27 Aug 2024 14:54:22 -0300</pubDate>
       <guid>https://imlauerindex.github.io/ricardo_narvaja_12/</guid>
-      <description>Lo que me decompila el IDA:&#xA;_DWORD *__thiscall this_50(_DWORD *this) { this[50] = &amp;#34;A ejecutar la calculadora de nuevo...\n&amp;#34;; return this; } int buffer_read(int a1, void *Buffer, ...) { FILE *Stream; // [esp+0h] [ebp-4h] va_list va; // [esp+14h] [ebp+10h] BYREF va_start(va, Buffer); Stream = fopen(va, &amp;#34;rb&amp;#34;); fread(Buffer, 0x7D0u, 1u, Stream); printf(&amp;#34;Salida %s\n&amp;#34;, Buffer); return 0; } int __cdecl main(int argc, const char **argv, const char **envp) { char v4[412]; // [esp-19Ch] [ebp-40Ch] BYREF char v5; // [esp+0h] [ebp-270h] char Buffer[200]; // [esp+8h] [ebp-268h] BYREF char Destination[412]; // [esp+D0h] [ebp-1A0h] BYREF char v8[4]; // [esp+26Ch] [ebp-4h] if ( argc &amp;lt; 2 ) { printf(&amp;#34;bye: \n&amp;#34;, v5); exit(1); } this_50(Destination); *&amp;amp;Destination[408] = system; memset(Destination, 0, 0xC8u); memset(&amp;amp;Destination[204], 0, 0xC8u); memset(Buffer, 0, sizeof(Buffer)); strcpy(Destination, argv[1]); *&amp;amp;Destination[404] = fopen(Destination, &amp;#34;r&amp;#34;); if ( !</description>
+      <description>Este tiene bufferoverflow en el nombre del archivo. Tenés que crear un archivo con un nombre muy largo y desborda y pisa el EIP. Ejemplo:&#xA;└─$ wine ConsoleApplication11.exe AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAA wine: Unhandled page fault on read access to 41414141 at address 7B3630C6 (thread 00 24), starting debugger... Unhandled exception: page fault on read access to 0x41414141 in wow64 32-bit code (0 x7b3630c6). 0114:err:dbghelp_msc:pe_load_debug_directory Got a page fault while loading symbols winedbg: Internal crash at 7AC68CF4 Lo que me decompila el IDA:</description>
     </item>
     <item>
       <title>Reversing: Exámen 11 (Ricardo Narvaja)</title>
       <link>https://imlauerindex.github.io/ricardo_narvaja_11/</link>
       <pubDate>Tue, 27 Aug 2024 01:56:28 -0300</pubDate>
       <guid>https://imlauerindex.github.io/ricardo_narvaja_11/</guid>
-      <description>int __cdecl check(int a1, int a2) { int i; // [esp+8h] [ebp-328h] char *Destination[200]; // [esp+Ch] [ebp-324h] BYREF // Inicializa el buffer. memset(Destination, 0, sizeof(Destination)); for ( i = 0; i &amp;lt; a1; ++i ) { Destination[i] = malloc(224*sizeof(char)); *(Destination[i] + 54) = check; // La dirección de memoria de Destination[i]+55 lo apunta a system. // &amp;#39;a&amp;#39;+55 = 61+55 = 116 = system *(Destination[i] + 55) = system; strcpy(Destination[i], *(a2 + 4 * i)); // Acá pisa el valor de system con un llamado a printf.</description>
+      <description>Los retos los hice usando vim con la siguiente configuracion:&#xA;&amp;#34; vim -b : edit binary using xxd-format! augroup Binary au! au BufReadPre *.bin let &amp;amp;bin=1 au BufReadPost *.bin if &amp;amp;bin | %!xxd au BufReadPost *.bin set ft=xxd | endif au BufWritePre *.bin if &amp;amp;bin | %!xxd -r au BufWritePre *.bin endif au BufWritePost *.bin if &amp;amp;bin | %!xxd au BufWritePost *.bin set nomod | endif augroup END autocmd BufWritePost *.</description>
     </item>
     <item>
       <title>Ricardo Narvaja: Examen 10 (Ejecutar calculadora no es un bufferoverflow)</title>
@@ -566,7 +650,7 @@
       <link>https://imlauerindex.github.io/how_to_setup_hugo/</link>
       <pubDate>Sat, 06 Jul 2024 11:17:21 -0300</pubDate>
       <guid>https://imlauerindex.github.io/how_to_setup_hugo/</guid>
-      <description>Clono el repositorio usando SSH.&#xA;Clono usando recursive submodules -j8&#xA;git clone --recurse-submodules -j8 git@github.com:imlauera/blog.git cd blog -j8 es para optimizar el rendimiento.&#xA;O si ya lo había clonado ejecuto&#xA;git submodule init update --init --recursive Luego ejecuto&#xA;cd blog hugo hugo serve Y ya estoy listo para empezar a escribir mi nuevo artículo en cualquier computadora.&#xA;Ojo Hay un problema si empezaste a hacer el proyecto en Linux y te pasás a Windows.</description>
+      <description>Es recomendable tener 3 repositorios.&#xA;1 fork del hugo theme que vayas a usar, 1 repositorio para la pagina (tunombre.github.io) que lo vas a alojar en la carpeta public y otro repositorio base que debería ser privado en mi opinión.&#xA;Clono el repositorio usando SSH.&#xA;Clono usando recursive submodules -j8&#xA;git clone --recurse-submodules -j8 git@github.com:imlauera/blog.git cd blog -j8 es para optimizar el rendimiento.&#xA;O si ya lo había clonado ejecuto</description>
     </item>
     <item>
       <title>Sistema de gestión escolar GRATUITO: RosarioSIS. Instalacion y configuración.</title>
@@ -720,7 +804,7 @@
       <link>https://imlauerindex.github.io/binarios_netbook_gobierno/</link>
       <pubDate>Tue, 14 Nov 2023 23:50:56 -0300</pubDate>
       <guid>https://imlauerindex.github.io/binarios_netbook_gobierno/</guid>
-      <description>Binarios y CH341A programador: https://drive.google.com/drive/folders/1Ps1OzNOGPYFCNRZjHnWoU-hdQ8O-Yknc&#xA;Backup: Binarios: https://drive.google.com/file/d/1KKZFmejxhf8V5m7NlPW7DUnX0mIVopFm/view?usp=sharing&#xA;CH341A programador: https://drive.google.com/file/d/1W4p-2VgvZbA93FWIWJ7SWmHCuCgd58_f/view?usp=sharing&#xA;Videos sobre como desarmar la netbook y como usar la pinza. https://youtube.com/watch?v=R1FkJnQwl0g&#xA;https://youtube.com/watch?v=Qx2h6_UifKM&#xA;https://youtube.com/watch?v=Dj77cCAqtoc&#xA;https://youtube.com/watch?v=QmXHXhGWpcM&#xA;https://web.archive.org/web/20221005114316/https://www.fontana.com.ar/2016/08/19/reprogramando-la-bios-netbook/</description>
+      <description>Binarios y CH341A programador: https://archive.org/details/binarios-completos&#xA;https://drive.google.com/drive/folders/1Ps1OzNOGPYFCNRZjHnWoU-hdQ8O-Yknc&#xA;Backup: Binarios: https://drive.google.com/file/d/1KKZFmejxhf8V5m7NlPW7DUnX0mIVopFm/view?usp=sharing&#xA;CH341A programador: https://drive.google.com/file/d/1W4p-2VgvZbA93FWIWJ7SWmHCuCgd58_f/view?usp=sharing&#xA;Videos sobre como desarmar la netbook y como usar la pinza. https://youtube.com/watch?v=R1FkJnQwl0g&#xA;https://youtube.com/watch?v=Qx2h6_UifKM&#xA;https://youtube.com/watch?v=Dj77cCAqtoc&#xA;https://youtube.com/watch?v=QmXHXhGWpcM&#xA;https://web.archive.org/web/20221005114316/https://www.fontana.com.ar/2016/08/19/reprogramando-la-bios-netbook/</description>
     </item>
     <item>
       <title>Gif to mp4</title>

@@ -6,8 +6,22 @@
     <description>Recent content in Reversing on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 27 Aug 2024 14:54:47 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 05:37:11 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@reversing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ida PRO Free</title>
+      <link>https://imlauerindex.github.io/idapro_free/</link>
+      <pubDate>Fri, 06 Sep 2024 05:37:11 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/idapro_free/</guid>
+      <description>magnet:?xt=urn:btih:6903c417f24b595fc8831933fa454e42e53bd132&amp;amp;dn=IDA%20Pro%209.0%20Beta&amp;amp;tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet Para instalarlo, abrí la carpeta en donde se descargó.&#xA;Ubicate en la carpeta de installers original Ahora ejecutá&#xA;chmod +x idapro_90_x64linux.run ./idapro_90_x64linux.run Se instalará en ~/idapro-9.0&#xA;Ahora ubicate en la carpeta crack copiá crack_ida90_beta.py a donde se instaló el IDAPro: ~/idapro-9.0 ejecutalo con python crack_ida90_beta.py esto generará los archivos libida.so.patched y libida64.so.patched ahora renombralos a libida.so y libida64.so con el siguiente comando:&#xA;mv libida.so.patched libida.so mv libida64.so.patched libida64.so Listo ya debería funcionar, podés agregarlo al path ejecutando</description>
+    </item>
+    <item>
+      <title>C y reversing</title>
+      <link>https://imlauerindex.github.io/c_y_reversing1/</link>
+      <pubDate>Tue, 03 Sep 2024 20:02:06 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/c_y_reversing1/</guid>
+      <description>Reverseamos un hola mundo.&#xA;#include &amp;lt;stdio.h&amp;gt; int main(){ printf(&amp;#34;Hola Mundo\n&amp;#34;); return 0; } Aquí vemos que el compilador modifico nuestro main haciéndolo una función de tres argumentos que no son nuestros, sino del compilador, y tiene una variable. var_4 que creo el compilador la cual si hacemos las cuentas devolverá siempre 10 y la utilizara el compilador al cerrar el programa, por supuesto nada de esto es código propio, vayamos a nuestro código, propiamente dicho.</description>
+    </item>
     <item>
       <title>Ricardo Narvaja (Exámen 22)</title>
       <link>https://imlauerindex.github.io/ricardo_narvaja_22/</link>
@@ -90,14 +104,14 @@
       <link>https://imlauerindex.github.io/ricardo_narvaja_12/</link>
       <pubDate>Tue, 27 Aug 2024 14:54:22 -0300</pubDate>
       <guid>https://imlauerindex.github.io/ricardo_narvaja_12/</guid>
-      <description>Lo que me decompila el IDA:&#xA;_DWORD *__thiscall this_50(_DWORD *this) { this[50] = &amp;#34;A ejecutar la calculadora de nuevo...\n&amp;#34;; return this; } int buffer_read(int a1, void *Buffer, ...) { FILE *Stream; // [esp+0h] [ebp-4h] va_list va; // [esp+14h] [ebp+10h] BYREF va_start(va, Buffer); Stream = fopen(va, &amp;#34;rb&amp;#34;); fread(Buffer, 0x7D0u, 1u, Stream); printf(&amp;#34;Salida %s\n&amp;#34;, Buffer); return 0; } int __cdecl main(int argc, const char **argv, const char **envp) { char v4[412]; // [esp-19Ch] [ebp-40Ch] BYREF char v5; // [esp+0h] [ebp-270h] char Buffer[200]; // [esp+8h] [ebp-268h] BYREF char Destination[412]; // [esp+D0h] [ebp-1A0h] BYREF char v8[4]; // [esp+26Ch] [ebp-4h] if ( argc &amp;lt; 2 ) { printf(&amp;#34;bye: \n&amp;#34;, v5); exit(1); } this_50(Destination); *&amp;amp;Destination[408] = system; memset(Destination, 0, 0xC8u); memset(&amp;amp;Destination[204], 0, 0xC8u); memset(Buffer, 0, sizeof(Buffer)); strcpy(Destination, argv[1]); *&amp;amp;Destination[404] = fopen(Destination, &amp;#34;r&amp;#34;); if ( !</description>
+      <description>Este tiene bufferoverflow en el nombre del archivo. Tenés que crear un archivo con un nombre muy largo y desborda y pisa el EIP. Ejemplo:&#xA;└─$ wine ConsoleApplication11.exe AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAA wine: Unhandled page fault on read access to 41414141 at address 7B3630C6 (thread 00 24), starting debugger... Unhandled exception: page fault on read access to 0x41414141 in wow64 32-bit code (0 x7b3630c6). 0114:err:dbghelp_msc:pe_load_debug_directory Got a page fault while loading symbols winedbg: Internal crash at 7AC68CF4 Lo que me decompila el IDA:</description>
     </item>
     <item>
       <title>Reversing: Exámen 11 (Ricardo Narvaja)</title>
       <link>https://imlauerindex.github.io/ricardo_narvaja_11/</link>
       <pubDate>Tue, 27 Aug 2024 01:56:28 -0300</pubDate>
       <guid>https://imlauerindex.github.io/ricardo_narvaja_11/</guid>
-      <description>int __cdecl check(int a1, int a2) { int i; // [esp+8h] [ebp-328h] char *Destination[200]; // [esp+Ch] [ebp-324h] BYREF // Inicializa el buffer. memset(Destination, 0, sizeof(Destination)); for ( i = 0; i &amp;lt; a1; ++i ) { Destination[i] = malloc(224*sizeof(char)); *(Destination[i] + 54) = check; // La dirección de memoria de Destination[i]+55 lo apunta a system. // &amp;#39;a&amp;#39;+55 = 61+55 = 116 = system *(Destination[i] + 55) = system; strcpy(Destination[i], *(a2 + 4 * i)); // Acá pisa el valor de system con un llamado a printf.</description>
+      <description>Los retos los hice usando vim con la siguiente configuracion:&#xA;&amp;#34; vim -b : edit binary using xxd-format! augroup Binary au! au BufReadPre *.bin let &amp;amp;bin=1 au BufReadPost *.bin if &amp;amp;bin | %!xxd au BufReadPost *.bin set ft=xxd | endif au BufWritePre *.bin if &amp;amp;bin | %!xxd -r au BufWritePre *.bin endif au BufWritePost *.bin if &amp;amp;bin | %!xxd au BufWritePost *.bin set nomod | endif augroup END autocmd BufWritePost *.</description>
     </item>
     <item>
       <title>Ricardo Narvaja: Examen 10 (Ejecutar calculadora no es un bufferoverflow)</title>

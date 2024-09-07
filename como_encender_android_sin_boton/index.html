@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Configurar tu Android para que automáticamente prenda al conectarlo al cargador | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://imlauerindex.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://imlauerindex.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://imlauerindex.github.io/">
+      <img src="https://imlauerindex.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://imlauerindex.github.io/como_encender_android_sin_boton/">
+      <span>Configurar tu Android para que automáticamente prenda al conectarlo al cargador</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+</ul>
+
+<div class="content"><p>Tenés que encenderlo aprentando el botón de la placa una vez que lograste encenderlo, habilitá developer options: abrí settings andá a la última opción: <code>acerca del teléfono</code> y apretá <code>build number</code> varias veces hasta habilitar modo desarrollo.</p>
+<p>Ahora en opciones del programador (developer options) habilitá <code>usb-debugging, oem unlock, stay awake</code> instalá platform-tools adb y fastboot, ejecutá adb devices conectá el celular a la PC con USB, te saldrá un mensaje que te pedirá autorización en tu celular, a veces no sale tenés que habilitar y deshabilitar usb debugging hasta que funcione. Ahora ejecutá adb devices y deberías poder ver el celular luego <code>adb reboot bootloader</code> ahora <code>fastboot devices</code> deberías poder ver el celular si no lo ves desconectá el cable rapido y volvelo a conectar hasta que aparezca, ahora ejecutá:
+<code>fastboot oem off-mode-charge 0</code> listo , el celular se debería encender al conectar el USB.</p>
+<p><a href="https://m.youtube.com/watch?v=Zp9G6A6EFlA">https://m.youtube.com/watch?v=Zp9G6A6EFlA</a>
+<a href="https://android.stackexchange.com/questions/20021/automatically-power-on-android-when-the-charger-is-connected">https://android.stackexchange.com/questions/20021/automatically-power-on-android-when-the-charger-is-connected</a></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

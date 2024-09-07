@@ -38,7 +38,9 @@
   
 </ul>
 
-<div class="content"><p>Clono el repositorio usando SSH.<br>
+<div class="content"><p>Es recomendable tener 3 repositorios.</p>
+<p>1 fork del hugo theme que vayas a usar, 1 repositorio para la pagina (tunombre.github.io) que lo vas a alojar en la carpeta <code>public</code> y otro repositorio base que debería ser privado en mi opinión.</p>
+<p>Clono el repositorio usando SSH.<br>
 Clono usando <code>recursive submodules -j8</code></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone --recurse-submodules -j8 git@github.com:imlauera/blog.git
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> blog
@@ -67,6 +69,10 @@ Linux: utiliza el modelo \n, que es un solo carácter.</p>
 </span></span><span class="line"><span class="cl">cd newsite
 </span></span><span class="line"><span class="cl">git submodule add https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
 </span></span></code></pre></div><p>Ahora tenés que copiar los archivos de exampleSite al directorio base del proyecto. <code>cp -r themes/beautifulhugo/exampleSite/* . -iv</code></p>
+<h4 id="otra-cosa-importantísima">Otra cosa importantísima:</h4>
+<p>la carpeta <code>public</code> siempre tiene que estar apuntado a tu repositorio <code>tunombre.github.io</code> para hacer esto podés clonar tu repo en la carpeta <code>public</code> así:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone git@github.com:imlauerindex/imlauerindex.github.io.git public
+</span></span></code></pre></div><p>Es decir el repositorio base tiene que apuntar a un repositorio privado(o publico) y el public al repositorio con el nombre de la pagina de github <code>tunombre.github.io</code></p>
 </div></div><footer>
     <hr>
     <div class="footer-text">

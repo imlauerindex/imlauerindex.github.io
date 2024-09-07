@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>C y reversing | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://imlauerindex.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://imlauerindex.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://imlauerindex.github.io/">
+      <img src="https://imlauerindex.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://imlauerindex.github.io/c_y_reversing1/">
+      <span>C y reversing</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://imlauerindex.github.io/@reversing/">Reversing</a></li>
+  
+  <li><a href="https://imlauerindex.github.io/@ricardo/">Ricardo</a></li>
+  
+  <li><a href="https://imlauerindex.github.io/@narvaja/">Narvaja</a></li>
+  
+</ul>
+
+<div class="content"><p>Reverseamos un hola mundo.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Hola Mundo</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p><img src="/img/cracking/curso/ida_hello_world.png" alt=""></p>
+<p>Aquí vemos que el compilador modifico nuestro main haciéndolo una función de tres argumentos que no son nuestros, sino del compilador,  y tiene una variable. <code>var_4</code>  que creo el compilador la cual si hacemos las cuentas devolverá siempre 10 y la utilizara el compilador al cerrar el programa,  por supuesto nada de esto es código propio, vayamos a nuestro código, propiamente dicho.</p>
+<p><strong>.text:004012BA mov     dword ptr [esp], offset aHola ; &ldquo;hola&rdquo;</strong>
+<strong>.text:004012C1 call    printf</strong></p>
+<p>Allí vemos que pone en el stack un puntero a la string hola que esta en la sección rdata, si hacemos click en aHola, nos muestra que esta exactamente en 403000 y que es el argumento de la funcion printf.</p>
+<p><img src="/img/cracking/curso/hola.png" alt="Dirección de memoria del hola"></p>
+<p>Si vamos a DEBUGGER y elegimos por ejemplo el debugger local de win32</p>
+<p><img src="/img/cracking/curso/select_debugger.png" alt="Seleccionar debugger"></p>
+<p>y ponemos breakpoint alli.</p>
+<p><img src="/img/cracking/curso/breakpoint.png" alt="breakpoint"></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

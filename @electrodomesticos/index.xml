@@ -6,8 +6,22 @@
     <description>Recent content in Electrodomesticos on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 23 Aug 2024 12:34:35 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 02:24:46 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@electrodomesticos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparación electrodomésticos (Clase 10) - Trampa de Aceite aire. Como desoldar. Motor Universal. Motor lavarropa timer mecánico. Estator, rotor. Jaula de Ardilla. Como girar motores para ambos lados. Teoría del bobinado: posición de las espiras para invertir motor, en las bobinas hay un principio y un final. Como comprar buje: llevar rotor y buje. Delgas. Probar motor.</title>
+      <link>https://imlauerindex.github.io/taller_reparacion_electrodomesticos10/</link>
+      <pubDate>Fri, 06 Sep 2024 02:24:46 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/taller_reparacion_electrodomesticos10/</guid>
+      <description>Audio de la clase en YouTube https://youtu.be/jzlRd4U2xI4&#xA;O mirala en invidious https://redirect.invidious.io/watch?v=jzlRd4U2xI4&#xA;Antes de estas fotos hablamos de la trampa de aceite del aire acondicionado que estaba dibujado en el pizarrón.&#xA;Controlador a placa. Refleja para todos lados.&#xA;Lo de abajo es una jaula de ardilla representada en forma de &amp;ldquo;cinta&amp;rdquo;, con norte y sur. El motor se controla por señales de pulso o por ancho de banda (onda cuadrada)</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 9) - Tipos de fuentes. Fuente standBy. Rectificador. Tipos de relay y como medirlos. Regulador de voltaje. Reparación ventilador. Cargador de celular con fuente lineal.</title>
+      <link>https://imlauerindex.github.io/9na_clase_electro/</link>
+      <pubDate>Fri, 30 Aug 2024 21:13:12 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/9na_clase_electro/</guid>
+      <description>Audio de la clase: https://youtu.be/xniJUxh04qI&#xA;O mirala en invidious https://redirect.invidious.io/watch?v=xniJUxh04qI&#xA;Temas tocados en esta clase: Tipos de fuentes, transformadores, procesadores, fuente standby en aires acondicionados, placas con más de 1 fuente.&#xA;Transformadores función: bajar la tensión.&#xA;En el transformador del microondas el bobinado tiene más vueltas en la segunda bobina. Todo conductor tiene impedancia.&#xA;Cable más largo: mayor impedancia.&#xA;¿Cómo haces para identificar cual es el primario y el secundario? El primario tiene menos resistencia.</description>
+    </item>
     <item>
       <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 8) - Lavarropas. Relay. Triac. Presostato. Solenoide. Jaula ardilla. Motores universales.</title>
       <link>https://imlauerindex.github.io/8va_clase_electro/</link>

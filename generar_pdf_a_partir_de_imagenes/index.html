@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Generar pdf a partir de imagenes con LaTeX | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://imlauerindex.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://imlauerindex.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://imlauerindex.github.io/">
+      <img src="https://imlauerindex.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://imlauerindex.github.io/generar_pdf_a_partir_de_imagenes/">
+      <span>Generar pdf a partir de imagenes con LaTeX</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+</ul>
+
+<div class="content"><p>Generá un archivo llamado misimagenes.tex y guardá lo siguiente:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="nb">{</span>graphicx<span class="nb">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">\title</span><span class="nb">{</span>Conversión de Imágenes a PDF<span class="nb">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">\author</span><span class="nb">{</span>Tu Nombre<span class="nb">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">\date</span><span class="nb">{</span><span class="k">\today</span><span class="nb">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">\maketitle</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">\section</span><span class="nb">{</span>Imágenes Incluidas<span class="nb">}</span>
+</span></span><span class="line"><span class="cl">Aquí hay una imagen incluida en el documento:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">\includegraphics</span><span class="na">[width=\textwidth]</span><span class="nb">{</span>nombre<span class="nb">_</span>de<span class="nb">_</span>la<span class="nb">_</span>imagen.jpg<span class="nb">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span></code></pre></div><p>En la línea de comandos ejecutá <code>ls -v *.jpg &gt; mis_imagenes</code>
+Copiá y pegá en tu LaTeX todas las imágenes ahora y en VIM seleccionando todas las líneas de los nombres de las imágenes y ejecutando <code>:norm I \includegraphics[width=\textwidth]{</code> y <code>:norm A}</code></p>
+<p>Luego <code>pdflatex misimagenes.tex</code></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

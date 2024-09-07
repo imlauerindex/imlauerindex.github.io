@@ -48,21 +48,34 @@
   
 </ul>
 
-<div class="content"><p>Lo que me decompila el IDA:</p>
+<div class="content"><p>Este tiene bufferoverflow en el nombre del archivo. Tenés que crear un archivo con un nombre muy largo y desborda y pisa el EIP.
+Ejemplo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="err">└─</span><span class="o">$</span> <span class="n">wine</span> <span class="n">ConsoleApplication11</span><span class="o">.</span><span class="n">exe</span> <span class="n">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</span>
+</span></span><span class="line"><span class="cl"><span class="n">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</span>
+</span></span><span class="line"><span class="cl"><span class="n">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</span>
+</span></span><span class="line"><span class="cl"><span class="n">AAAAAAAAAAAAAAAAAAA</span>
+</span></span><span class="line"><span class="cl"><span class="n">wine</span><span class="p">:</span> <span class="n">Unhandled</span> <span class="n">page</span> <span class="n">fault</span> <span class="n">on</span> <span class="n">read</span> <span class="n">access</span> <span class="n">to</span> <span class="mi">41414141</span> <span class="n">at</span> <span class="n">address</span> <span class="mi">7</span><span class="n">B3630C6</span> <span class="p">(</span><span class="n">thread</span> <span class="mi">00</span>
+</span></span><span class="line"><span class="cl"><span class="mi">24</span><span class="p">),</span> <span class="n">starting</span> <span class="n">debugger</span><span class="o">...</span>
+</span></span><span class="line"><span class="cl"><span class="n">Unhandled</span> <span class="n">exception</span><span class="p">:</span> <span class="n">page</span> <span class="n">fault</span> <span class="n">on</span> <span class="n">read</span> <span class="n">access</span> <span class="n">to</span> <span class="mh">0x41414141</span> <span class="ow">in</span> <span class="n">wow64</span> <span class="mi">32</span><span class="o">-</span><span class="n">bit</span> <span class="n">code</span> <span class="p">(</span><span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="n">x7b3630c6</span><span class="p">)</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="mi">0114</span><span class="p">:</span><span class="n">err</span><span class="p">:</span><span class="n">dbghelp_msc</span><span class="p">:</span><span class="n">pe_load_debug_directory</span> <span class="n">Got</span> <span class="n">a</span> <span class="n">page</span> <span class="n">fault</span> <span class="k">while</span> <span class="n">loading</span> <span class="n">symbols</span>
+</span></span><span class="line"><span class="cl"><span class="n">winedbg</span><span class="p">:</span> <span class="n">Internal</span> <span class="n">crash</span> <span class="n">at</span> <span class="mi">7</span><span class="n">AC68CF4</span>
+</span></span></code></pre></div><p>Lo que me decompila el IDA:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="n">_DWORD</span> <span class="o">*</span><span class="n">__thiscall</span> <span class="nf">this_50</span><span class="p">(</span><span class="n">_DWORD</span> <span class="o">*</span><span class="n">this</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="n">this</span><span class="p">[</span><span class="mi">50</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#34;A ejecutar la calculadora de nuevo...</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">this</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">buffer_read</span><span class="p">(</span><span class="kt">int</span> <span class="n">a1</span><span class="p">,</span> <span class="kt">void</span> <span class="o">*</span><span class="n">Buffer</span><span class="p">,</span> <span class="p">...)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">leer_buffer</span><span class="p">(</span><span class="kt">int</span> <span class="n">a1</span><span class="p">,</span> <span class="kt">void</span> <span class="o">*</span><span class="n">Buffer</span><span class="p">,</span> <span class="p">...)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="n">FILE</span> <span class="o">*</span><span class="n">Stream</span><span class="p">;</span> <span class="c1">// [esp+0h] [ebp-4h]
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">va_list</span> <span class="n">va</span><span class="p">;</span> <span class="c1">// [esp+14h] [ebp+10h] BYREF
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>
 </span></span><span class="line"><span class="cl">  <span class="nf">va_start</span><span class="p">(</span><span class="n">va</span><span class="p">,</span> <span class="n">Buffer</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="n">Stream</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="n">va</span><span class="p">,</span> <span class="s">&#34;rb&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">fread</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mh">0x7D0u</span><span class="p">,</span> <span class="mi">1u</span><span class="p">,</span> <span class="n">Stream</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fread</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">2000u</span><span class="p">,</span> <span class="mi">1u</span><span class="p">,</span> <span class="n">Stream</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Salida %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">Buffer</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
@@ -81,26 +94,105 @@
 </span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl">  <span class="nf">this_50</span><span class="p">(</span><span class="n">Destination</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="o">*&amp;</span><span class="n">Destination</span><span class="p">[</span><span class="mi">408</span><span class="p">]</span> <span class="o">=</span> <span class="n">system</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mh">0xC8u</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="o">&amp;</span><span class="n">Destination</span><span class="p">[</span><span class="mi">204</span><span class="p">],</span> <span class="mi">0</span><span class="p">,</span> <span class="mh">0xC8u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">Destination</span><span class="p">[</span><span class="mi">408</span><span class="p">]</span> <span class="o">=</span> <span class="n">system</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">200u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="o">&amp;</span><span class="n">Destination</span><span class="p">[</span><span class="mi">204</span><span class="p">],</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">200u</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">Buffer</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="nf">strcpy</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">  <span class="o">*&amp;</span><span class="n">Destination</span><span class="p">[</span><span class="mi">404</span><span class="p">]</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="s">&#34;r&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">!*&amp;</span><span class="n">Destination</span><span class="p">[</span><span class="mi">404</span><span class="p">]</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">Destination</span><span class="p">[</span><span class="mi">404</span><span class="p">]</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="n">Destination</span><span class="p">,</span> <span class="s">&#34;r&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">Destination</span><span class="p">[</span><span class="mi">404</span><span class="p">]</span> <span class="p">)</span>
 </span></span><span class="line"><span class="cl">  <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;No se puede leer el archivo bye bye </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v5</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">200</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">fread</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mh">0xC8u</span><span class="p">,</span> <span class="mi">1u</span><span class="p">,</span> <span class="o">*&amp;</span><span class="n">Destination</span><span class="p">[</span><span class="mi">404</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fread</span><span class="p">(</span><span class="n">Buffer</span><span class="p">,</span> <span class="mi">200u</span><span class="p">,</span> <span class="mi">1u</span><span class="p">,</span> <span class="n">Destination</span><span class="p">[</span><span class="mi">404</span><span class="p">]);</span>
 </span></span><span class="line"><span class="cl">  <span class="o">*</span><span class="n">v8</span> <span class="o">=</span> <span class="nf">strlen</span><span class="p">(</span><span class="n">Buffer</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Largo =%d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v8</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">fclose</span><span class="p">(</span><span class="o">*&amp;</span><span class="n">Destination</span><span class="p">[</span><span class="mi">404</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">*</span><span class="n">v8</span> <span class="o">&gt;=</span> <span class="mi">200</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fclose</span><span class="p">(</span><span class="n">Destination</span><span class="p">[</span><span class="mi">404</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//if ( *v8 &gt;= 200 )
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">if</span> <span class="p">(</span> <span class="n">v8</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">200</span> <span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="nf">qmemcpy</span><span class="p">(</span><span class="n">v4</span><span class="p">,</span> <span class="n">Destination</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">v4</span><span class="p">));</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">buffer_read</span><span class="p">(</span><span class="o">*</span><span class="n">v8</span><span class="p">,</span> <span class="n">Buffer</span><span class="p">,</span> <span class="n">v4</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">leer_buffer</span><span class="p">(</span><span class="o">*</span><span class="n">v8</span><span class="p">,</span> <span class="n">Buffer</span><span class="p">,</span> <span class="n">v4</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h4 id="con-ghidra">Con ghidra</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">undefined4</span> <span class="kr">__cdecl</span> <span class="nf">leer_buffer</span><span class="p">(</span><span class="n">undefined4</span> <span class="n">param_1</span><span class="p">,</span><span class="kt">void</span> <span class="o">*</span><span class="n">param_2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">FILE</span> <span class="o">*</span><span class="n">_File</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="n">_File</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="o">&amp;</span><span class="n">stack0x0000000c</span><span class="p">,</span><span class="s">&#34;rb&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fread</span><span class="p">(</span><span class="n">param_2</span><span class="p">,</span><span class="mi">2000</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">_File</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Salida %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,(</span><span class="kt">char</span><span class="p">)</span><span class="n">param_2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span><span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">iVar1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined4</span> <span class="o">*</span><span class="n">puVar2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined1</span> <span class="n">unaff_DI</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined4</span> <span class="o">*</span><span class="n">puVar3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined4</span> <span class="n">auStack_410</span> <span class="p">[</span><span class="mi">98</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined4</span> <span class="n">uStack_288</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">char</span> <span class="n">local_26c</span> <span class="p">[</span><span class="mi">200</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined4</span> <span class="n">local_1a4</span> <span class="p">[</span><span class="mi">50</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined</span> <span class="n">local_dc</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined</span> <span class="n">local_d8</span> <span class="p">[</span><span class="mi">200</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">  <span class="n">FILE</span> <span class="o">*</span><span class="n">local_10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">code</span> <span class="o">*</span><span class="n">local_c</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">size_t</span> <span class="n">local_8</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;bye: </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">unaff_DI</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                    <span class="cm">/* WARNING: Subroutine does not return */</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">this_50</span><span class="p">((</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="n">local_1a4</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">local_c</span> <span class="o">=</span> <span class="n">system_exref</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">local_1a4</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">200</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">local_d8</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">200</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">memset</span><span class="p">(</span><span class="n">local_26c</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">200</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nf">strcpy</span><span class="p">((</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="n">local_1a4</span><span class="p">,</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">local_10</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">((</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="n">local_1a4</span><span class="p">,</span><span class="s">&#34;r&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">local_10</span> <span class="o">==</span> <span class="p">(</span><span class="n">FILE</span> <span class="o">*</span><span class="p">)</span><span class="mh">0x0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;No se puede leer el archivo bye bye </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">unaff_DI</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                    <span class="cm">/* WARNING: Subroutine does not return */</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="o">&amp;</span><span class="n">DAT_00402154</span><span class="p">,</span><span class="n">local_dc</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">uStack_288</span> <span class="o">=</span> <span class="mh">0x4011b8</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fread</span><span class="p">(</span><span class="n">local_26c</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">local_10</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">local_8</span> <span class="o">=</span> <span class="nf">strlen</span><span class="p">(</span><span class="n">local_26c</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Largo =%d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,(</span><span class="kt">char</span><span class="p">)</span><span class="n">local_8</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">fclose</span><span class="p">(</span><span class="n">local_10</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="mi">199</span> <span class="o">&lt;</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">local_8</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="cm">/* WARNING: Subroutine does not return */</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="n">puVar2</span> <span class="o">=</span> <span class="n">local_1a4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">puVar3</span> <span class="o">=</span> <span class="n">auStack_410</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="p">(</span><span class="n">iVar1</span> <span class="o">=</span> <span class="mh">0x67</span><span class="p">;</span> <span class="n">iVar1</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">iVar1</span> <span class="o">=</span> <span class="n">iVar1</span> <span class="o">+</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*</span><span class="n">puVar3</span> <span class="o">=</span> <span class="o">*</span><span class="n">puVar2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">puVar2</span> <span class="o">=</span> <span class="n">puVar2</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">puVar3</span> <span class="o">=</span> <span class="n">puVar3</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">leer_buffer</span><span class="p">(</span><span class="n">local_8</span><span class="p">,</span><span class="n">local_26c</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div></div></div><footer>
