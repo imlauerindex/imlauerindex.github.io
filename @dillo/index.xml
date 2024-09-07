@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dillo on Index</title>
-    <link>https://adityatelange.github.io/@dillo/</link>
+    <link>https://imlauerindex.github.io/@dillo/</link>
     <description>Recent content in Dillo on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Sat, 07 Oct 2023 20:38:32 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@dillo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@dillo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dillo: un navegador extremadamente rapido sin soporte de JS</title>
-      <link>https://adityatelange.github.io/dillo_navegador_extremadamente_rapido_sin_js/</link>
+      <link>https://imlauerindex.github.io/dillo_navegador_extremadamente_rapido_sin_js/</link>
       <pubDate>Sat, 07 Oct 2023 20:38:32 -0300</pubDate>
-      <guid>https://adityatelange.github.io/dillo_navegador_extremadamente_rapido_sin_js/</guid>
+      <guid>https://imlauerindex.github.io/dillo_navegador_extremadamente_rapido_sin_js/</guid>
       <description>https://dillo.org/&#xA;¿Qué es Dillo?&#xA;Dillo es un navegador web gráfico multiplataforma conocido por su velocidad y su tamaño reducido. Dillo está escrito en C y C++. Dillo se basa en FLTK, Fast Light Toolkit (¡vinculado estáticamente de forma predeterminada!). Dillo es un software gratuito disponible según los términos de la Licencia Pública General GNU (GPLv3). Dillo se esfuerza por ser amigable tanto con los usuarios como con los desarrolladores. Dillo ayuda a los autores web a cumplir con los estándares web mediante el uso del medidor de errores.</description>
     </item>
   </channel>

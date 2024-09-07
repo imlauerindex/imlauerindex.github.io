@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Server on Index</title>
-    <link>https://adityatelange.github.io/@server/</link>
+    <link>https://imlauerindex.github.io/@server/</link>
     <description>Recent content in Server on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Thu, 15 Aug 2024 19:55:28 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@server/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Samba server en Linux</title>
-      <link>https://adityatelange.github.io/samba_server_linux/</link>
+      <link>https://imlauerindex.github.io/samba_server_linux/</link>
       <pubDate>Thu, 15 Aug 2024 19:55:28 -0300</pubDate>
-      <guid>https://adityatelange.github.io/samba_server_linux/</guid>
+      <guid>https://imlauerindex.github.io/samba_server_linux/</guid>
       <description>sudo apt install samba -y sudo systemctl stop smbd mkdir linuxshare vim /etc/samba/smb.conf Agregá lo siguiente:&#xA;[global] server role = standalone server map to guest = bad user usershare allow guests = yes hosts allow = 192.168.0.0/16 hosts deny = 0.0.0.0/0 [linuxsharename] comment = Open Linux Share path = /home/imlauer/linuxshare read only = no guest ok = yes force user = imlauer force group = imlauer Ejecutá: testparm para probar la configuración.</description>
     </item>
   </channel>

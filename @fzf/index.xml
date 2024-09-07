@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fzf on Index</title>
-    <link>https://adityatelange.github.io/@fzf/</link>
+    <link>https://imlauerindex.github.io/@fzf/</link>
     <description>Recent content in Fzf on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Wed, 26 Apr 2023 01:51:01 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@fzf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@fzf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fzf</title>
-      <link>https://adityatelange.github.io/fzf/</link>
+      <link>https://imlauerindex.github.io/fzf/</link>
       <pubDate>Wed, 26 Apr 2023 01:51:01 -0300</pubDate>
-      <guid>https://adityatelange.github.io/fzf/</guid>
+      <guid>https://imlauerindex.github.io/fzf/</guid>
       <description>Fzf es un buscador de línea de comandos escrito en Go. https://github.com/junegunn/fzf</description>
     </item>
   </channel>

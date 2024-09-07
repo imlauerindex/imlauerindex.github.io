@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arch on Index</title>
-    <link>https://adityatelange.github.io/@arch/</link>
+    <link>https://imlauerindex.github.io/@arch/</link>
     <description>Recent content in Arch on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Sun, 11 Aug 2024 18:15:20 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@arch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@arch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configurar la hora y la fecha desde Internet en Arch</title>
-      <link>https://adityatelange.github.io/como_configuro_la_hora_y_la_fecha_desde_internet/</link>
+      <link>https://imlauerindex.github.io/como_configuro_la_hora_y_la_fecha_desde_internet/</link>
       <pubDate>Sun, 11 Aug 2024 18:15:20 -0300</pubDate>
-      <guid>https://adityatelange.github.io/como_configuro_la_hora_y_la_fecha_desde_internet/</guid>
+      <guid>https://imlauerindex.github.io/como_configuro_la_hora_y_la_fecha_desde_internet/</guid>
       <description>sudo pacman -S ntp timedatectl set-ntp true sudo vim /etc/ntp.conf server pool.ntp.org sudo ntpdate pool.ntp.org sudo systemctl enable ntpd sudo systemctl start ntpd sudo ntpd -qg; sudo hwclock -w </description>
     </item>
   </channel>

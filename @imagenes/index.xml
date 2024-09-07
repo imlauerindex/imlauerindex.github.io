@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Imagenes on Index</title>
-    <link>https://adityatelange.github.io/@imagenes/</link>
+    <link>https://imlauerindex.github.io/@imagenes/</link>
     <description>Recent content in Imagenes on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Thu, 01 Aug 2024 04:18:23 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@imagenes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@imagenes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generacion de imágenes con meta ai y copilot de Bing</title>
-      <link>https://adityatelange.github.io/generacion_de_imagenes_con_metaai_bing/</link>
+      <link>https://imlauerindex.github.io/generacion_de_imagenes_con_metaai_bing/</link>
       <pubDate>Thu, 01 Aug 2024 04:18:23 -0300</pubDate>
-      <guid>https://adityatelange.github.io/generacion_de_imagenes_con_metaai_bing/</guid>
+      <guid>https://imlauerindex.github.io/generacion_de_imagenes_con_metaai_bing/</guid>
       <description>https://www.bing.com/chat&#xA;https://meta.ai/</description>
     </item>
   </channel>

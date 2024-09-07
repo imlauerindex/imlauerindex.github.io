@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Descargar on Index</title>
-    <link>https://adityatelange.github.io/@descargar/</link>
+    <link>https://imlauerindex.github.io/@descargar/</link>
     <description>Recent content in Descargar on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Sun, 04 Aug 2024 04:05:14 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@descargar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@descargar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como descargar cualquier video de cualquier pagina</title>
-      <link>https://adityatelange.github.io/como_descargar_cualquier_video_de_cualquier_pagina/</link>
+      <link>https://imlauerindex.github.io/como_descargar_cualquier_video_de_cualquier_pagina/</link>
       <pubDate>Sun, 04 Aug 2024 04:05:14 -0300</pubDate>
-      <guid>https://adityatelange.github.io/como_descargar_cualquier_video_de_cualquier_pagina/</guid>
+      <guid>https://imlauerindex.github.io/como_descargar_cualquier_video_de_cualquier_pagina/</guid>
       <description>JDownloader MacOS, Windows, Linux: https://jdownloader.org/download/index&#xA;yt-dlp https://github.com/yt-dlp/yt-dlp</description>
     </item>
     <item>
       <title>Como descargar una playlist entera de YouTube y unirla en un solo archivo</title>
-      <link>https://adityatelange.github.io/download_and_concat/</link>
+      <link>https://imlauerindex.github.io/download_and_concat/</link>
       <pubDate>Sun, 19 Mar 2023 03:20:11 -0300</pubDate>
-      <guid>https://adityatelange.github.io/download_and_concat/</guid>
+      <guid>https://imlauerindex.github.io/download_and_concat/</guid>
       <description>Descargar toda la playlist y guardarlos en archivos sin espacio para facilitar el trabajo usando ffmpeg En este caso vamos a bajar el audio solamente (esto se hace con -f 140), si queremos el video podemos usar la opcion -f 18 o -f 22 entre otras opciones. Si ponen -F en vez de -f les tira una lista de calidades disponibles.&#xA;yt-dlp -f 140 &amp;#39;https://youtu.be/playlist?list=PLff7Jl9WJY9tkiCxOEwAS67pFUBGQMtkE&amp;#39; -o &amp;#39;%(autonumber)s%(id)s.%(ext)s&amp;#39; Guardar todo en un archivo mylist.</description>
     </item>
   </channel>

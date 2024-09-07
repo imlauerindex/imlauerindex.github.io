@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webcam on Index</title>
-    <link>https://adityatelange.github.io/@webcam/</link>
+    <link>https://imlauerindex.github.io/@webcam/</link>
     <description>Recent content in Webcam on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Fri, 10 Nov 2023 04:51:54 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@webcam/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@webcam/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Subir capturas con una esp32 webcam a google drive</title>
-      <link>https://adityatelange.github.io/esp32_webcam_google_drive/</link>
+      <link>https://imlauerindex.github.io/esp32_webcam_google_drive/</link>
       <pubDate>Fri, 10 Nov 2023 04:51:54 -0300</pubDate>
-      <guid>https://adityatelange.github.io/esp32_webcam_google_drive/</guid>
+      <guid>https://imlauerindex.github.io/esp32_webcam_google_drive/</guid>
       <description>Me compré una cámara ESP32 CAM de MercadoLibre y seguí esta guía para subir las fotos a google drive. https://web.archive.org/web/20230608061848/https://www.gsampallo.com/2019/10/13/esp32-cam-subir-fotos-a-google-drive/. Backup: https://archive.is/ABArm&#xA;Se usa google script. Hice un pequeño cambio en el código agregué sensores para que la cámara tenga una mejor calidad cuando hay mucha luz o poca luz y forcé el http en lugar del https porque no funcionaba con el siguiente parámetro: client.setInsecure();&#xA;Google Script Accedé a Google Script: https://script.</description>
     </item>
   </channel>

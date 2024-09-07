@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video on Index</title>
-    <link>https://adityatelange.github.io/@video/</link>
+    <link>https://imlauerindex.github.io/@video/</link>
     <description>Recent content in Video on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Sun, 04 Aug 2024 04:05:14 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@video/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@video/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como descargar cualquier video de cualquier pagina</title>
-      <link>https://adityatelange.github.io/como_descargar_cualquier_video_de_cualquier_pagina/</link>
+      <link>https://imlauerindex.github.io/como_descargar_cualquier_video_de_cualquier_pagina/</link>
       <pubDate>Sun, 04 Aug 2024 04:05:14 -0300</pubDate>
-      <guid>https://adityatelange.github.io/como_descargar_cualquier_video_de_cualquier_pagina/</guid>
+      <guid>https://imlauerindex.github.io/como_descargar_cualquier_video_de_cualquier_pagina/</guid>
       <description>JDownloader MacOS, Windows, Linux: https://jdownloader.org/download/index&#xA;yt-dlp https://github.com/yt-dlp/yt-dlp</description>
     </item>
   </channel>

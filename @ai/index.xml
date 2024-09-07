@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on Index</title>
-    <link>https://adityatelange.github.io/@ai/</link>
+    <link>https://imlauerindex.github.io/@ai/</link>
     <description>Recent content in Ai on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Thu, 01 Aug 2024 04:18:23 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generacion de imágenes con meta ai y copilot de Bing</title>
-      <link>https://adityatelange.github.io/generacion_de_imagenes_con_metaai_bing/</link>
+      <link>https://imlauerindex.github.io/generacion_de_imagenes_con_metaai_bing/</link>
       <pubDate>Thu, 01 Aug 2024 04:18:23 -0300</pubDate>
-      <guid>https://adityatelange.github.io/generacion_de_imagenes_con_metaai_bing/</guid>
+      <guid>https://imlauerindex.github.io/generacion_de_imagenes_con_metaai_bing/</guid>
       <description>https://www.bing.com/chat&#xA;https://meta.ai/</description>
     </item>
     <item>
       <title>Alternativa a GitHub Copilot, y otro chatai</title>
-      <link>https://adityatelange.github.io/alternativa_github_copilot_otro_chatai/</link>
+      <link>https://imlauerindex.github.io/alternativa_github_copilot_otro_chatai/</link>
       <pubDate>Wed, 26 Apr 2023 01:39:13 -0300</pubDate>
-      <guid>https://adityatelange.github.io/alternativa_github_copilot_otro_chatai/</guid>
+      <guid>https://imlauerindex.github.io/alternativa_github_copilot_otro_chatai/</guid>
       <description>Otro Chat AI https://huggingface.co/chat/&#xA;Alternativa a GitHub Copilot Codeium es una alternativa a GitHub Copilot. https://github.com/Exafunction/codeium.vim</description>
     </item>
   </channel>

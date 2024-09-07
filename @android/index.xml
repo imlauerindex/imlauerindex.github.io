@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on Index</title>
-    <link>https://adityatelange.github.io/@android/</link>
+    <link>https://imlauerindex.github.io/@android/</link>
     <description>Recent content in Android on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Thu, 05 Oct 2023 17:56:46 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@android/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Construi una aplicación de Android y generá el APK sin Android Studio y desde la linea de comandos</title>
-      <link>https://adityatelange.github.io/build_android_app_without_android_studio/</link>
+      <link>https://imlauerindex.github.io/build_android_app_without_android_studio/</link>
       <pubDate>Thu, 05 Oct 2023 17:56:46 -0300</pubDate>
-      <guid>https://adityatelange.github.io/build_android_app_without_android_studio/</guid>
+      <guid>https://imlauerindex.github.io/build_android_app_without_android_studio/</guid>
       <description></description>
     </item>
     <item>
       <title>Las actualizaciones de seguridad de Android son un meme</title>
-      <link>https://adityatelange.github.io/las_actualizaciones_de_seguridad_son_un_meme/</link>
+      <link>https://imlauerindex.github.io/las_actualizaciones_de_seguridad_son_un_meme/</link>
       <pubDate>Sat, 08 Jul 2023 16:19:17 -0300</pubDate>
-      <guid>https://adityatelange.github.io/las_actualizaciones_de_seguridad_son_un_meme/</guid>
+      <guid>https://imlauerindex.github.io/las_actualizaciones_de_seguridad_son_un_meme/</guid>
       <description>Las actualizaciones de seguridad son un meme y solo una forma de agregar más funcionalidades y código basura. No descargues APK de fuentes desconocidas, usa un AdBlocker y eso es el 99% de todos los vectores de ataque cerrados. Elimine todos los permisos que no tienen sentido. Su calendario no necesita acceso a su micrófono o incluso contactos. Apague todas las configuraciones que incluso sugieran la telemetría, incluidas las ubicaciones.</description>
     </item>
     <item>
       <title>Controlar android desde terminal usando ADB</title>
-      <link>https://adityatelange.github.io/controlar_android_desde_terminal/</link>
+      <link>https://imlauerindex.github.io/controlar_android_desde_terminal/</link>
       <pubDate>Thu, 20 Apr 2023 23:01:04 -0300</pubDate>
-      <guid>https://adityatelange.github.io/controlar_android_desde_terminal/</guid>
+      <guid>https://imlauerindex.github.io/controlar_android_desde_terminal/</guid>
       <description>Primero tienen que conectar Android a la computadora a traves de un USB y activar el modo debugger en Android. Para hacer esto deben apretar 7 veces en Numero de compilacion que esta a lo ultimo en Ajustes-&amp;gt;Acerca del Telefono, despues regresan al menu anterior y les aparecera un menu de opciones de programador entran ahi y activan el USB Debugging. Luego desconectan el USB. Ahora instalan adb en Linux es simple</description>
     </item>
     <item>
       <title>Como mirar YouTube en Android sin publicidad</title>
-      <link>https://adityatelange.github.io/youtube_mobile_alternatives/</link>
+      <link>https://imlauerindex.github.io/youtube_mobile_alternatives/</link>
       <pubDate>Thu, 20 Apr 2023 07:18:28 -0300</pubDate>
-      <guid>https://adityatelange.github.io/youtube_mobile_alternatives/</guid>
+      <guid>https://imlauerindex.github.io/youtube_mobile_alternatives/</guid>
       <description>Alternativas a YouTube sin publicidad. Desde la F-droid pueden bajarse:&#xA;LibreTube (si el video carga lento intenta cambiando de instancias en el menu de ajustes) NewPipe Observación: Estos dos clientes no tienen el algoritmo de recomendacion de videos, pero funcionan bien. La siguiente aplicacion no se puede bajar desde la f-droid, es la mas completa y tiene el algoritmo de recomendacion de videos YouTube Revanced&#xA;La forma oficial de instalar ReVanced Bajando el apk de https://github.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Electronica on Index</title>
-    <link>https://adityatelange.github.io/@electronica/</link>
+    <link>https://imlauerindex.github.io/@electronica/</link>
     <description>Recent content in Electronica on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Wed, 12 Jun 2024 21:14:40 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@electronica/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@electronica/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tableros Eléctricos</title>
-      <link>https://adityatelange.github.io/tableros_electricos/</link>
+      <link>https://imlauerindex.github.io/tableros_electricos/</link>
       <pubDate>Wed, 12 Jun 2024 21:14:40 -0300</pubDate>
-      <guid>https://adityatelange.github.io/tableros_electricos/</guid>
+      <guid>https://imlauerindex.github.io/tableros_electricos/</guid>
       <description>Tenemos un circuito 3 líneas trifasicas y además un circuito como son los circuitos industriales. Dentro de este circuito encontraremos&#xA;Interruptor termomagnético tmb conocido como diyuntor, combina dos tipos de proteccion termica y magnetica. Llave diferencial: dispositivo de seguridad electrica que detecta si existe una fuga de corriente y proteger de descargas electricas. Transformador: puede elevar o reducir el voltaje, es un dispositivo escencial para la distribucion de la energia electrica, te permite adaptar el voltaje y reduce las perdidas de energia en larga distancia.</description>
     </item>
   </channel>

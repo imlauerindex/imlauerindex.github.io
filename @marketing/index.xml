@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marketing on Index</title>
-    <link>https://adityatelange.github.io/@marketing/</link>
+    <link>https://imlauerindex.github.io/@marketing/</link>
     <description>Recent content in Marketing on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Fri, 26 Jul 2024 01:41:44 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@marketing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@marketing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Por qué Linux todavía no compite contra MacOS y Windows en el desktop</title>
-      <link>https://adityatelange.github.io/marketing_reflexion/</link>
+      <link>https://imlauerindex.github.io/marketing_reflexion/</link>
       <pubDate>Fri, 26 Jul 2024 01:41:44 -0300</pubDate>
-      <guid>https://adityatelange.github.io/marketing_reflexion/</guid>
+      <guid>https://imlauerindex.github.io/marketing_reflexion/</guid>
       <description>Contribuir código para Linux es altamente exigente, sólo las mentes más prodigiosas llegan a hacerlo, Linux es complementa gratis y está mucho mejor programado que Windows y que MacOS. Sin embargo Linux no es el &amp;ldquo;sistema operativo&amp;rdquo;[1] más usado.&#xA;¿Por qué Linux es menos usado que Windows y de MacOS? Aunque el número de usuarios de Linux ha ido incrementando todavía estamos lejos de competir contra Windows en el escritorio.</description>
     </item>
   </channel>

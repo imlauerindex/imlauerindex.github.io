@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Irssi on Index</title>
-    <link>https://adityatelange.github.io/@irssi/</link>
+    <link>https://imlauerindex.github.io/@irssi/</link>
     <description>Recent content in Irssi on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Fri, 08 Sep 2023 20:00:49 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@irssi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@irssi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conectarse automáticamente a una red y a un canal de IRC usando Irssi</title>
-      <link>https://adityatelange.github.io/irssi_autojoin/</link>
+      <link>https://imlauerindex.github.io/irssi_autojoin/</link>
       <pubDate>Fri, 08 Sep 2023 20:00:49 -0300</pubDate>
-      <guid>https://adityatelange.github.io/irssi_autojoin/</guid>
+      <guid>https://imlauerindex.github.io/irssi_autojoin/</guid>
       <description>Habilite la conexión automática en un servidor: /SERVER MODIFY -auto irc.libera.chat Para desactivarlo nuevamente, use -noauto.&#xA;Unirse automáticamente a canales /CHANNEL ADD -auto #channelname NetworkName (Ver tus redes configuradas con: /NETWORK)&#xA;Agregue todos los canales actualmente abiertos como canales de unión automática&#xA;/ADDALLCHANS (Este es un alias predeterminado que ejecuta un script Perl para ejecutar en masa comandos /CHANNEL ADD)&#xA;Inicio de sesión automático en NickServ Muchas redes admiten el inicio de sesión SASL (consulte el sitio web de la red o el canal de ayuda para obtener más detalles).</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neomutt on Index</title>
-    <link>https://adityatelange.github.io/@neomutt/</link>
+    <link>https://imlauerindex.github.io/@neomutt/</link>
     <description>Recent content in Neomutt on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Wed, 10 Jul 2024 03:12:27 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@neomutt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@neomutt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leer correos desde la terminal: Neomutt y mutt-wizard</title>
-      <link>https://adityatelange.github.io/neomutt/</link>
+      <link>https://imlauerindex.github.io/neomutt/</link>
       <pubDate>Wed, 10 Jul 2024 03:12:27 -0300</pubDate>
-      <guid>https://adityatelange.github.io/neomutt/</guid>
+      <guid>https://imlauerindex.github.io/neomutt/</guid>
       <description>sudo apt install -y neomutt sudo apt install -y lynx notmuch abook urlview cronie curl isync msmtp pass ca-certificates gettext libpam0g-dev mpop git clone https://github.com/cruegge/pam-gnupg cd pam-gnupg mkdir m4 aclocal &amp;amp;&amp;amp; autoheader &amp;amp;&amp;amp; autoconf &amp;amp;&amp;amp; automake --add-missing autoreconf --install --force ./autogen.sh ./configure make make install git clone https://github.com/LukeSmithxyz/mutt-wizard cd mutt-wizard sudo make install gpg --full-generate-key mw -a imlauerandres@gmail.com Ahora vas a tener que habilitar doble factor de autenticación en tu cuenta de Google, entrá a tu gmail apretá el avatar de tu cuenta, gestionar tu cuenta y entrá a Seguridad y luego de habilitar doble factor de autenticacion, apretá esa opción y agregá una contraseña de aplicación para neomutt copiar y pegar el código.</description>
     </item>
   </channel>

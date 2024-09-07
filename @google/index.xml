@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google on Index</title>
-    <link>https://adityatelange.github.io/@google/</link>
+    <link>https://imlauerindex.github.io/@google/</link>
     <description>Recent content in Google on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Wed, 21 Aug 2024 14:27:53 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@google/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@google/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Profesorado matematicas: Exámenes y carpetas</title>
-      <link>https://adityatelange.github.io/profesorado_matematicas/</link>
+      <link>https://imlauerindex.github.io/profesorado_matematicas/</link>
       <pubDate>Wed, 21 Aug 2024 14:27:53 -0300</pubDate>
-      <guid>https://adityatelange.github.io/profesorado_matematicas/</guid>
+      <guid>https://imlauerindex.github.io/profesorado_matematicas/</guid>
       <description>Recompilación de exámenes viejos y prácticas de diferentes materias: https://github.com/imlauera/pm&#xA;Examenes viejos: https://drive.google.com/drive/folders/1JSr335fKkQigckJFQ60P-P7EW4_uAb4o</description>
     </item>
     <item>
       <title>Subir capturas con una esp32 webcam a google drive</title>
-      <link>https://adityatelange.github.io/esp32_webcam_google_drive/</link>
+      <link>https://imlauerindex.github.io/esp32_webcam_google_drive/</link>
       <pubDate>Fri, 10 Nov 2023 04:51:54 -0300</pubDate>
-      <guid>https://adityatelange.github.io/esp32_webcam_google_drive/</guid>
+      <guid>https://imlauerindex.github.io/esp32_webcam_google_drive/</guid>
       <description>Me compré una cámara ESP32 CAM de MercadoLibre y seguí esta guía para subir las fotos a google drive. https://web.archive.org/web/20230608061848/https://www.gsampallo.com/2019/10/13/esp32-cam-subir-fotos-a-google-drive/. Backup: https://archive.is/ABArm&#xA;Se usa google script. Hice un pequeño cambio en el código agregué sensores para que la cámara tenga una mejor calidad cuando hay mucha luz o poca luz y forcé el http en lugar del https porque no funcionaba con el siguiente parámetro: client.setInsecure();&#xA;Google Script Accedé a Google Script: https://script.</description>
     </item>
     <item>
       <title>Posibles riesgos con los nuevos dominios de google: zip y mov</title>
-      <link>https://adityatelange.github.io/nuevos_dominios_de_google_zip_provocar_ataques_de_phishing/</link>
+      <link>https://imlauerindex.github.io/nuevos_dominios_de_google_zip_provocar_ataques_de_phishing/</link>
       <pubDate>Sat, 27 May 2023 04:51:28 -0300</pubDate>
-      <guid>https://adityatelange.github.io/nuevos_dominios_de_google_zip_provocar_ataques_de_phishing/</guid>
+      <guid>https://imlauerindex.github.io/nuevos_dominios_de_google_zip_provocar_ataques_de_phishing/</guid>
       <description>Google anuncio nuevos dominios que hacen referencia a extensiones de archivos .zip y .mov son los nuevos dominios de Google. La preocupación, es que las URL que se parecen a nombres de archivo darán aún más posibilidades a estafas digitales como el https://es.wikipedia.org/wiki/Phishing, que engañan a los internautas para que hagan clic en enlaces maliciosos que se hacen pasar por algo legítimo. Y los dos dominios también podrían agravar el problema de los programas que reconocen erróneamente nombres de archivo como URL y les añaden automáticamente enlaces.</description>
     </item>
   </channel>

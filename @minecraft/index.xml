@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Minecraft on Index</title>
-    <link>https://adityatelange.github.io/@minecraft/</link>
+    <link>https://imlauerindex.github.io/@minecraft/</link>
     <description>Recent content in Minecraft on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Mon, 11 Dec 2023 01:03:19 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@minecraft/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@minecraft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minecraft en gnu linux</title>
-      <link>https://adityatelange.github.io/minecraft_en_linux/</link>
+      <link>https://imlauerindex.github.io/minecraft_en_linux/</link>
       <pubDate>Mon, 11 Dec 2023 01:03:19 -0300</pubDate>
-      <guid>https://adityatelange.github.io/minecraft_en_linux/</guid>
+      <guid>https://imlauerindex.github.io/minecraft_en_linux/</guid>
       <description>NO USES TLauncher es spyware Instalá Prism Launcher ó ultimMC es un excelente launcher basado en instancias. Utilizá Ely.by como skin source y el mod de cargador de skin personalizado en fabric para acceder a los skins. Tendrás una experiencia casi 100% similar a la de tlauncher, tal vez incluso mejor.</description>
     </item>
   </channel>

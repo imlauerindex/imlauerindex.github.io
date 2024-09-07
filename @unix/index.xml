@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unix on Index</title>
-    <link>https://adityatelange.github.io/@unix/</link>
+    <link>https://imlauerindex.github.io/@unix/</link>
     <description>Recent content in Unix on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Thu, 19 Oct 2023 05:51:22 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@unix/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@unix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sistemas operativos originales diferentes basados en Unix</title>
-      <link>https://adityatelange.github.io/sistemas_operativos_originales_diferentes_unix/</link>
+      <link>https://imlauerindex.github.io/sistemas_operativos_originales_diferentes_unix/</link>
       <pubDate>Thu, 19 Oct 2023 05:51:22 -0300</pubDate>
-      <guid>https://adityatelange.github.io/sistemas_operativos_originales_diferentes_unix/</guid>
+      <guid>https://imlauerindex.github.io/sistemas_operativos_originales_diferentes_unix/</guid>
       <description>CollapseOS TempleOS SerenityOS Haiku ArcaOS Redox Plan9 KolibriOS Genera Fuente: https://www.genbeta.com/a-fondo/9-sistemas-operativos-originales-diferentes-plan9-a-collapseos</description>
     </item>
   </channel>

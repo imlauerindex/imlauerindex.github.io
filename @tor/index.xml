@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tor on Index</title>
-    <link>https://adityatelange.github.io/@tor/</link>
+    <link>https://imlauerindex.github.io/@tor/</link>
     <description>Recent content in Tor on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Tue, 09 Jul 2024 14:25:43 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@tor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@tor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>No necesitas usar el navegador Tor</title>
-      <link>https://adityatelange.github.io/no_necesitas_usar_el_navegador_tor/</link>
+      <link>https://imlauerindex.github.io/no_necesitas_usar_el_navegador_tor/</link>
       <pubDate>Tue, 09 Jul 2024 14:25:43 -0300</pubDate>
-      <guid>https://adityatelange.github.io/no_necesitas_usar_el_navegador_tor/</guid>
+      <guid>https://imlauerindex.github.io/no_necesitas_usar_el_navegador_tor/</guid>
       <description>sudo apt install -y tor tor chromium --proxy-server=&amp;#34;socks://127.0.0.1:9050&amp;#34; </description>
     </item>
   </channel>

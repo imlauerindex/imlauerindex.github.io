@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resolucion on Index</title>
-    <link>https://adityatelange.github.io/@resolucion/</link>
+    <link>https://imlauerindex.github.io/@resolucion/</link>
     <description>Recent content in Resolucion on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://adityatelange.github.io/@resolucion/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-ar</language>
+    <atom:link href="https://imlauerindex.github.io/@resolucion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cambiando la resolución de TTY</title>
-      <link>https://adityatelange.github.io/2021-01-08-cambiando-la-resoluci%C3%B3n-de-tty/</link>
+      <link>https://imlauerindex.github.io/2021-01-08-cambiando-la-resoluci%C3%B3n-de-tty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://adityatelange.github.io/2021-01-08-cambiando-la-resoluci%C3%B3n-de-tty/</guid>
+      <guid>https://imlauerindex.github.io/2021-01-08-cambiando-la-resoluci%C3%B3n-de-tty/</guid>
       <description>Sólo podés usar modos que tu tarjeta gráfica soporta vía VBE; podés verlos ejecutando el comando vbeinfo en el grub o también podés detectar las resoluciones usando el comando:&#xA;sudo hwinfo --framebuffer Luego el resultado lo usé en &amp;quot;gfxpayload=&amp;quot; en /etc/default/grub demostrado más abajo, en mi caso la máxima resolución admitida era 1920x1080.&#xA;Editando /etc/default/grub En muchos sitios decían de usar la opción vga en la variable GRUB_CMDLINE_LINUX pero no funcionó para mi, está obsoleta.</description>
     </item>
   </channel>

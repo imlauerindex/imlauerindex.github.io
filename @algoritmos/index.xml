@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algoritmos on Index</title>
-    <link>https://adityatelange.github.io/@algoritmos/</link>
+    <link>https://imlauerindex.github.io/@algoritmos/</link>
     <description>Recent content in Algoritmos on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-ar</language>
     <lastBuildDate>Mon, 15 Jul 2024 23:37:47 -0300</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/@algoritmos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@algoritmos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algoritmos y estructura de datos en C</title>
-      <link>https://adityatelange.github.io/algoritmos_y_estructura_de_datos_en_c/</link>
+      <link>https://imlauerindex.github.io/algoritmos_y_estructura_de_datos_en_c/</link>
       <pubDate>Mon, 15 Jul 2024 23:37:47 -0300</pubDate>
-      <guid>https://adityatelange.github.io/algoritmos_y_estructura_de_datos_en_c/</guid>
+      <guid>https://imlauerindex.github.io/algoritmos_y_estructura_de_datos_en_c/</guid>
       <description>/EDyA.zip</description>
     </item>
   </channel>

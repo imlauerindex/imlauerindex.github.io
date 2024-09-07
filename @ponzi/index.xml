@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ponzi on Index</title>
-    <link>https://adityatelange.github.io/@ponzi/</link>
+    <link>https://imlauerindex.github.io/@ponzi/</link>
     <description>Recent content in Ponzi on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://adityatelange.github.io/@ponzi/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-ar</language>
+    <atom:link href="https://imlauerindex.github.io/@ponzi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como crear una estafa Ponzi (con fines educativos)</title>
-      <link>https://adityatelange.github.io/nuevos/</link>
+      <link>https://imlauerindex.github.io/nuevos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://adityatelange.github.io/nuevos/</guid>
+      <guid>https://imlauerindex.github.io/nuevos/</guid>
       <description>https://callmenish.com/how-to-run-a-tech-ponzi-scheme/</description>
     </item>
   </channel>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mpv on Index</title>
-    <link>https://adityatelange.github.io/@mpv/</link>
+    <link>https://imlauerindex.github.io/@mpv/</link>
     <description>Recent content in Mpv on Index</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://adityatelange.github.io/@mpv/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-ar</language>
+    <atom:link href="https://imlauerindex.github.io/@mpv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Usando MPV para mirar videos en PC&#39;s de bajos recursos</title>
-      <link>https://adityatelange.github.io/2022-07-12-usando-mpv-para-mirar-videos-en-pc-s-de-bajos-recursos/</link>
+      <link>https://imlauerindex.github.io/2022-07-12-usando-mpv-para-mirar-videos-en-pc-s-de-bajos-recursos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://adityatelange.github.io/2022-07-12-usando-mpv-para-mirar-videos-en-pc-s-de-bajos-recursos/</guid>
+      <guid>https://imlauerindex.github.io/2022-07-12-usando-mpv-para-mirar-videos-en-pc-s-de-bajos-recursos/</guid>
       <description>Baja resolución no implica menor consumo de ancho de banda pero si menor consumo de recursos. En vez de mirar el video en 360p si tenés una computadora lenta podés usar 480p AV1 o 480p VP9, el consumo de ancho de banda depende del codec usado.&#xA;No uses YouTube.com es muy pesado para computadoras viejas. Lo mejor hoy en dia es usar yt-dlp (fork de youtube-dl). YouTube-dl quedo obsoleto porque Google intenta hacer lo imposible para arruinarlo.</description>
     </item>
   </channel>
