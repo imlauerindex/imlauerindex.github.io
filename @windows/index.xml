@@ -6,21 +6,14 @@
     <description>Recent content in Windows on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Sun, 04 Aug 2024 01:25:22 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 19:58:34 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Como habilitar recursos compartidos de Windows</title>
-      <link>https://imlauerindex.github.io/windows_sharing_folder/</link>
-      <pubDate>Sun, 04 Aug 2024 01:25:22 -0300</pubDate>
-      <guid>https://imlauerindex.github.io/windows_sharing_folder/</guid>
-      <description>Botón derecho en el icono de Internet -&amp;gt; Recursos compartidos -&amp;gt; Cambiar avanzadas opciones de compartir -&amp;gt; Seleccioná la primer opción en todos los perfiles, y Todas las redes en la última opción seleccioná deshabilitar protección por contraseña.</description>
-    </item>
-    <item>
-      <title>Debloat and basic windows setup (activate windows)</title>
-      <link>https://imlauerindex.github.io/debloat_and_basic_windows_setup/</link>
-      <pubDate>Sun, 26 Nov 2023 21:57:39 -0300</pubDate>
-      <guid>https://imlauerindex.github.io/debloat_and_basic_windows_setup/</guid>
-      <description>OpenShell&#xA;Ninite - Instalá o actualizá varias aplicaciones de una sóla vez.&#xA;Instalá LibreOffice, Firefox, SumatraPDF, VLC, K-lite codecs, OpenSHELL (si no lo instalaste anteriormente), 7-zip&#xA;Bajá uBlock, SponsorBlock, Bypass Paywals y, Return of YouTube Dislikes.&#xA;Para bloquear las advertencias de cookies en la configuración de ublock (el engranage al apretar el icono de la extensión) te vas a la pestaña de filter lists, o litra de filtros y buscá annoyances, ahi activá adguard, y uBlock filters luego dale update now.</description>
+      <title>Configure_Windows_Server_2019_VPN_Routing</title>
+      <link>https://imlauerindex.github.io/configure_windows_server_2019_vpn_routing/</link>
+      <pubDate>Mon, 16 Sep 2024 19:58:34 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/configure_windows_server_2019_vpn_routing/</guid>
+      <description>Necesito una configuración de VPN y enrutamiento en mi Windows Server 2019. El objetivo principal es enrutar mi Internet a través del servidor fuera de mi red de área local.&#xA;Requisitos clave:&#xA;Configure una VPN que permita conectar de 1 a 5 dispositivos simultáneamente. Necesito asesoramiento profesional sobre si se debe configurar el túnel dividido. Habilidades ideales:&#xA;Amplio conocimiento de Windows Server 2019. Experiencia comprobada en configuración de VPN y Enrutamiento.</description>
     </item>
   </channel>
 </rss>
