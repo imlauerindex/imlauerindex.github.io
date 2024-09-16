@@ -6,14 +6,14 @@
     <description>Recent content in Server on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 15 Aug 2024 19:55:28 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 18:43:59 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@server/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Samba server en Linux</title>
-      <link>https://imlauerindex.github.io/samba_server_linux/</link>
-      <pubDate>Thu, 15 Aug 2024 19:55:28 -0300</pubDate>
-      <guid>https://imlauerindex.github.io/samba_server_linux/</guid>
-      <description>sudo apt install samba -y sudo systemctl stop smbd mkdir linuxshare vim /etc/samba/smb.conf Agregá lo siguiente:&#xA;[global] server role = standalone server map to guest = bad user usershare allow guests = yes hosts allow = 192.168.0.0/16 hosts deny = 0.0.0.0/0 [linuxsharename] comment = Open Linux Share path = /home/imlauer/linuxshare read only = no guest ok = yes force user = imlauer force group = imlauer Ejecutá: testparm para probar la configuración.</description>
+      <title>Dedicated server setup config</title>
+      <link>https://imlauerindex.github.io/dedicated_server_setup_config/</link>
+      <pubDate>Mon, 16 Sep 2024 18:43:59 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/dedicated_server_setup_config/</guid>
+      <description>https://www.freelancer.com/projects/linux/Dedicated-Server-Setup-Configuration/details&#xA;primera parte del proyecto camino rocoso linux 9.4 se ha instalado en el servidor dedicado | Servidores bare metal |servidor ovh Necesito ayuda con mi servidor dedicado. Las tareas incluyen:&#xA;Investigar el problema del usuario root y crear uno si es necesario. Instalando cPanel (ya tengo licencia para esta IP). Instalación de WordPress en el servidor. Instalar un certificado SSL (que proporcionaré) para mi dominio. El servidor ejecuta un sistema operativo Linux, específicamente la distribución Rocky Road.</description>
     </item>
   </channel>
 </rss>
