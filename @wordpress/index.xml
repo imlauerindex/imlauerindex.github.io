@@ -6,14 +6,14 @@
     <description>Recent content in Wordpress on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 13 Sep 2024 17:17:52 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 15:28:36 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Wordpress: HowTo</title>
-      <link>https://imlauerindex.github.io/wordpress_howto/</link>
-      <pubDate>Fri, 13 Sep 2024 17:17:52 -0300</pubDate>
-      <guid>https://imlauerindex.github.io/wordpress_howto/</guid>
-      <description>Primero instalamos mariadb (alternativa open-source a mysql) la configuramos y creamos una base de datos y tabla prueba.&#xA;sudo apt update sudo apt install -y mariadb-server sudo systemctl start mariadb sudo systemctl enable mariadb sudo systemctl status mariadb // sudo mysql_secure_installation (comando deprecado) sudo mariadb-install-db sudo mysql grant all on *.* to &amp;#39;admin&amp;#39;@&amp;#39;%&amp;#39; identified by &amp;#39;myawesomepass&amp;#39; with grant option; // O en vez de &amp;#39;%&amp;#39; podés usar &amp;#39;localhost&amp;#39; grant all on *.</description>
+      <title>Fix 502 wordpress site</title>
+      <link>https://imlauerindex.github.io/fix_502_wordpress_site/</link>
+      <pubDate>Mon, 16 Sep 2024 15:28:36 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/fix_502_wordpress_site/</guid>
+      <description>Trabajo: Mi sitio de WordPress alojado en Google Cloud actualmente no funciona con un error 502. Intenté varios pasos para solucionar el problema sin éxito.&#xA;Antes del error, no se realizaron cambios recientes en el sitio web. No he modificado ninguna configuración en mi alojamiento de Google Cloud. Reinicié Apache y desactivé todos los complementos y el tema en un esfuerzo por identificar el problema. Agradecería la ayuda de un profesional independiente con experiencia en la resolución de errores del servidor, particularmente en un entorno de WordPress/Google Cloud.</description>
     </item>
   </channel>
 </rss>
