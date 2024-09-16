@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Index</title>
-    <link>https://imlauerindex.github.io/</link>
-    <description>Recent content on Index</description>
+    <title>Jekyll on Index</title>
+    <link>https://imlauerindex.github.io/@jekyll/</link>
+    <description>Recent content in Jekyll on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
     <lastBuildDate>Mon, 16 Sep 2024 16:10:37 -0300</lastBuildDate>
-    <atom:link href="https://imlauerindex.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imlauerindex.github.io/@jekyll/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modern_ecommerse_site_development_jekyll</title>
       <link>https://imlauerindex.github.io/modern_ecommerse_site_development_jekyll/</link>
       <pubDate>Mon, 16 Sep 2024 16:10:37 -0300</pubDate>
       <guid>https://imlauerindex.github.io/modern_ecommerse_site_development_jekyll/</guid>
       <description>https://www.freelancer.com/projects/html/Modern-commerce-Site-Development-with/details&#xA;Trabajo: Contrato a largo plazo&#xA;Nuestro socio integrador federal líder está buscando un desarrollador Jekyll de nivel medio para respaldar su contrato gubernamental activo. Como desarrollador Jekyll de nivel medio, será responsable de desarrollar, mantener y mejorar sitios web estáticos utilizando Jekyll. Trabajará en estrecha colaboración con nuestros equipos de diseño y contenido para crear páginas web visualmente atractivas y altamente funcionales. Su función implicará convertir diseños en HTML/CSS responsivo, optimizar el rendimiento del sitio y garantizar una experiencia de usuario perfecta.</description>
-    </item>
-    <item>
-      <title>Fix 502 wordpress site</title>
-      <link>https://imlauerindex.github.io/fix_502_wordpress_site/</link>
-      <pubDate>Mon, 16 Sep 2024 15:28:36 -0300</pubDate>
-      <guid>https://imlauerindex.github.io/fix_502_wordpress_site/</guid>
-      <description>https://www.freelancer.com/projects/linux/Dedicated-Server-Setup-Configuration/details&#xA;Mi sitio de WordPress alojado en Google Cloud actualmente no funciona con un error 502. Intenté varios pasos para solucionar el problema sin éxito.&#xA;Antes del error, no se realizaron cambios recientes en el sitio web. No he modificado ninguna configuración en mi alojamiento de Google Cloud. Reinicié Apache y desactivé todos los complementos y el tema en un esfuerzo por identificar el problema. Agradecería la ayuda de un profesional independiente con experiencia en la resolución de errores del servidor, particularmente en un entorno de WordPress/Google Cloud.</description>
     </item>
   </channel>
 </rss>
