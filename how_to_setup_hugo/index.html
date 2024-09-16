@@ -73,6 +73,8 @@ Linux: utiliza el modelo \n, que es un solo carácter.</p>
 <p>la carpeta <code>public</code> siempre tiene que estar apuntado a tu repositorio <code>tunombre.github.io</code> para hacer esto podés clonar tu repo en la carpeta <code>public</code> así:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone git@github.com:imlauerindex/imlauerindex.github.io.git public
 </span></span></code></pre></div><p>Es decir el repositorio base tiene que apuntar a un repositorio privado(o publico) y el public al repositorio con el nombre de la pagina de github <code>tunombre.github.io</code></p>
+<h3 id="a-veces-instalar-un-nuevo-theme-a-tu-sitio-no-funciona">A veces instalar un nuevo theme a tu sitio no funciona.</h3>
+<p>No sé por qué carajo, pero mi solucion es directamente clonar el theme y montarlo desde ahí, una vez me pasó que tenía un archivo llamado hugo.toml y ese archivo me probocaba el fallo y no podía compilar el sitio, es decir si lo clonaste lo pusiste en una carpeta de themes/ y no te funcionó intentá clonarlo y tomar el theme como si fuera todo un sitio completo, no como un theme, eso me funcionó.</p>
 </div></div><footer>
     <hr>
     <div class="footer-text">

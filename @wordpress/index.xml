@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Index</title>
+    <link>https://imlauerindex.github.io/@wordpress/</link>
+    <description>Recent content in Wordpress on Index</description>
+    <generator>Hugo</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Fri, 13 Sep 2024 17:17:52 -0300</lastBuildDate>
+    <atom:link href="https://imlauerindex.github.io/@wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wordpress: HowTo</title>
+      <link>https://imlauerindex.github.io/wordpress_howto/</link>
+      <pubDate>Fri, 13 Sep 2024 17:17:52 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/wordpress_howto/</guid>
+      <description>Primero instalamos mariadb (alternativa open-source a mysql) la configuramos y creamos una base de datos y tabla prueba.&#xA;sudo apt update sudo apt install -y mariadb-server sudo systemctl start mariadb sudo systemctl enable mariadb sudo systemctl status mariadb // sudo mysql_secure_installation (comando deprecado) sudo mariadb-install-db sudo mysql grant all on *.* to &amp;#39;admin&amp;#39;@&amp;#39;%&amp;#39; identified by &amp;#39;myawesomepass&amp;#39; with grant option; // O en vez de &amp;#39;%&amp;#39; podés usar &amp;#39;localhost&amp;#39; grant all on *.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>WINNER.zip | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://imlauerindex.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://imlauerindex.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://imlauerindex.github.io/">
+      <img src="https://imlauerindex.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://imlauerindex.github.io/winner.zip/">
+      <span>WINNER.zip</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+</ul>
+
+<div class="content"><p><a href="https://drive.google.com/file/d/1QRIk3zBGGXH54nSZorX3jnuNmURCHw6K/view?pli=1">https://drive.google.com/file/d/1QRIk3zBGGXH54nSZorX3jnuNmURCHw6K/view?pli=1</a></p>
+<p>Para iniciar el programa tenés que darle un número negativo como entrada.</p>
+<p>IDA</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;windows.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;defs.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdarg.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//-------------------------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Function declarations
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">sub_401020</span><span class="p">(</span><span class="n">FILE</span> <span class="o">*</span><span class="n">Stream</span><span class="p">,</span> <span class="kt">wchar_t</span> <span class="o">*</span><span class="n">Format</span><span class="p">,</span> <span class="p">...);</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">vfwprintf</span><span class="p">(</span><span class="kt">wchar_t</span> <span class="o">*</span><span class="n">Format</span><span class="p">,</span> <span class="p">...);</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">printf</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Format</span><span class="p">,</span> <span class="p">...);</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">scanf</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Format</span><span class="p">,</span> <span class="p">...);</span>
+</span></span><span class="line"><span class="cl"><span class="n">DWORD</span> <span class="kr">__stdcall</span> <span class="nf">StartAddress</span><span class="p">(</span><span class="n">FILE</span> <span class="o">*</span><span class="k">const</span> <span class="n">lpThreadParameter</span><span class="p">,</span> <span class="k">const</span> <span class="kt">wchar_t</span> <span class="o">*</span><span class="k">const</span> <span class="n">Format</span><span class="p">,</span> <span class="n">va_list</span> <span class="n">ArgList</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">vfwprintf</span><span class="p">(</span><span class="n">FILE</span> <span class="o">*</span><span class="k">const</span> <span class="n">Stream</span><span class="p">,</span> <span class="k">const</span> <span class="kt">wchar_t</span> <span class="o">*</span><span class="k">const</span> <span class="n">Format</span><span class="p">,</span> <span class="n">va_list</span> <span class="n">ArgList</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">sub_40142F</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">sub_401437</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">UserMathErrorFunction</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">sub_4019E2</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">sub_4019EC</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">char</span> <span class="nf">sub_4019F8</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// int __scrt_initialize_default_local_stdio_options(void); weak
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">BOOL</span> <span class="nf">sub_401A3C</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="o">*</span><span class="nf">sub_401A48</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="o">*</span><span class="nf">sub_401A4E</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">LPTOP_LEVEL_EXCEPTION_FILTER</span> <span class="nf">sub_401BB6</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// LONG __stdcall __scrt_unhandled_exception_filter(struct _EXCEPTION_POINTERS *ExceptionInfo); idb
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="nf">sub_401C18</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">sub_401C20</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="kr">__cdecl</span> <span class="nf">sub_401C4C</span><span class="p">();</span> <span class="c1">// idb
+</span></span></span><span class="line"><span class="cl"><span class="c1">// int __cdecl set_new_mode(int NewMode);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">//-------------------------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Data declarations
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// extern BOOL (__stdcall *TlsSetValue)(DWORD dwTlsIndex, LPVOID lpTlsValue);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern DWORD (__stdcall *WaitForSingleObject)(HANDLE hHandle, DWORD dwMilliseconds);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern DWORD (__stdcall *GetCurrentThreadId)();
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern void (__stdcall *Sleep)(DWORD dwMilliseconds);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern DWORD (__stdcall *GetLastError)();
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern DWORD (__stdcall *TlsAlloc)();
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern HANDLE (__stdcall *CreateThread)(LPSECURITY_ATTRIBUTES lpThreadAttributes, SIZE_T dwStackSize, LPTHREAD_START_ROUTINE lpStartAddress, LPVOID lpParameter, DWORD dwCreationFlags, LPDWORD lpThreadId);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern HLOCAL (__stdcall *LocalFree)(HLOCAL hMem);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern void (__stdcall __noreturn *ExitProcess)(UINT uExitCode);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern LPVOID (__stdcall *TlsGetValue)(DWORD dwTlsIndex);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern BOOL (__stdcall *TlsFree)(DWORD dwTlsIndex);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern void (__stdcall *InitializeSListHead)(PSLIST_HEADER ListHead);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern LPTOP_LEVEL_EXCEPTION_FILTER (__stdcall *SetUnhandledExceptionFilter)(LPTOP_LEVEL_EXCEPTION_FILTER lpTopLevelExceptionFilter);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern void (__cdecl __noreturn *exit)(int Code);
+</span></span></span><span class="line"><span class="cl"><span class="c1">// extern FILE *(__cdecl *_acrt_iob_func)(unsigned int Ix);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="n">dword_40500C</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// weak
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">union</span> <span class="n">_SLIST_HEADER</span> <span class="n">ListHead</span><span class="p">;</span> <span class="c1">// idb
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="n">dword_405360</span><span class="p">;</span> <span class="c1">// weak
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">DWORD</span> <span class="n">dwTlsIndex</span><span class="p">;</span> <span class="c1">// idb
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="n">dword_405374</span><span class="p">;</span> <span class="c1">// weak
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">LPVOID</span> <span class="n">lpTlsValue</span><span class="p">;</span> <span class="c1">// idb
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="n">dword_40537C</span><span class="p">;</span> <span class="c1">// weak
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="n">ingresado_numero</span><span class="p">;</span> <span class="c1">// weak
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">_UNKNOWN</span> <span class="n">unk_405384</span><span class="p">;</span> <span class="c1">// weak
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">_UNKNOWN</span> <span class="n">unk_405398</span><span class="p">;</span> <span class="c1">// weak
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">_UNKNOWN</span> <span class="n">unk_40539C</span><span class="p">;</span> <span class="c1">// weak
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401000) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="o">*</span><span class="nf">sub_401000</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="o">&amp;</span><span class="n">unk_405390</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401010) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="o">*</span><span class="nf">sub_401010</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="o">&amp;</span><span class="n">unk_405388</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401020) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">sub_401020</span><span class="p">(</span><span class="n">FILE</span> <span class="o">*</span><span class="n">Stream</span><span class="p">,</span> <span class="kt">wchar_t</span> <span class="o">*</span><span class="n">Format</span><span class="p">,</span> <span class="p">...)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">unsigned</span> <span class="kr">__int64</span> <span class="o">*</span><span class="n">v2</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">va_list</span> <span class="n">va</span><span class="p">;</span> <span class="c1">// [esp+10h] [ebp+10h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">va_start</span><span class="p">(</span><span class="n">va</span><span class="p">,</span> <span class="n">Format</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v2</span> <span class="o">=</span> <span class="nf">sub_401000</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nf">_stdio_common_vfwprintf_s</span><span class="p">(</span><span class="o">*</span><span class="n">v2</span><span class="p">,</span> <span class="n">Stream</span><span class="p">,</span> <span class="n">Format</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">va</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401050) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">sub_401050</span><span class="p">(</span><span class="kt">wchar_t</span> <span class="o">*</span><span class="n">Format</span><span class="p">,</span> <span class="p">...)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">unsigned</span> <span class="kr">__int64</span> <span class="o">*</span><span class="n">v1</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">v3</span><span class="p">;</span> <span class="c1">// [esp-10h] [ebp-14h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">va_list</span> <span class="n">va</span><span class="p">;</span> <span class="c1">// [esp+10h] [ebp+Ch] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">va_start</span><span class="p">(</span><span class="n">va</span><span class="p">,</span> <span class="n">Format</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v3</span> <span class="o">=</span> <span class="nf">_acrt_iob_func</span><span class="p">(</span><span class="mi">1u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v1</span> <span class="o">=</span> <span class="nf">sub_401000</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nf">_stdio_common_vfwprintf</span><span class="p">(</span><span class="o">*</span><span class="n">v1</span><span class="p">,</span> <span class="n">v3</span><span class="p">,</span> <span class="n">Format</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">va</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 401000: using guessed type int sub_401000(void);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401080) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">printf</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Format</span><span class="p">,</span> <span class="p">...)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">unsigned</span> <span class="kr">__int64</span> <span class="o">*</span><span class="n">v1</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">v3</span><span class="p">;</span> <span class="c1">// [esp-10h] [ebp-14h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">va_list</span> <span class="n">va</span><span class="p">;</span> <span class="c1">// [esp+10h] [ebp+Ch] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">va_start</span><span class="p">(</span><span class="n">va</span><span class="p">,</span> <span class="n">Format</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v3</span> <span class="o">=</span> <span class="nf">_acrt_iob_func</span><span class="p">(</span><span class="mi">1u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v1</span> <span class="o">=</span> <span class="nf">sub_401000</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nf">_stdio_common_vfprintf</span><span class="p">(</span><span class="o">*</span><span class="n">v1</span><span class="p">,</span> <span class="n">v3</span><span class="p">,</span> <span class="n">Format</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">va</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (004010B0) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">scanf</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">Format</span><span class="p">,</span> <span class="p">...)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">_DWORD</span> <span class="o">*</span><span class="n">v1</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">unsigned</span> <span class="kr">__int64</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// [esp-18h] [ebp-1Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">v4</span><span class="p">;</span> <span class="c1">// [esp-10h] [ebp-14h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">va_list</span> <span class="n">va</span><span class="p">;</span> <span class="c1">// [esp+10h] [ebp+Ch] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">va_start</span><span class="p">(</span><span class="n">va</span><span class="p">,</span> <span class="n">Format</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v4</span> <span class="o">=</span> <span class="nf">_acrt_iob_func</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v1</span> <span class="o">=</span> <span class="nf">sub_401010</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">HIDWORD</span><span class="p">(</span><span class="n">v3</span><span class="p">)</span> <span class="o">=</span> <span class="n">v1</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">LODWORD</span><span class="p">(</span><span class="n">v3</span><span class="p">)</span> <span class="o">=</span> <span class="o">*</span><span class="n">v1</span> <span class="o">|</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nf">_stdio_common_vfscanf</span><span class="p">(</span><span class="n">v3</span><span class="p">,</span> <span class="n">v4</span><span class="p">,</span> <span class="n">Format</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">va</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (004010F0) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">DWORD</span> <span class="kr">__stdcall</span> <span class="nf">StartAddress</span><span class="p">(</span><span class="n">FILE</span> <span class="o">*</span><span class="k">const</span> <span class="n">lpThreadParameter</span><span class="p">,</span> <span class="k">const</span> <span class="kt">wchar_t</span> <span class="o">*</span><span class="k">const</span> <span class="n">Format</span><span class="p">,</span> <span class="n">va_list</span> <span class="n">ArgList</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">DWORD</span> <span class="n">CurrentThreadId</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">LPVOID</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">void</span> <span class="o">*</span><span class="n">Value</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">DWORD</span> <span class="n">v6</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">void</span> <span class="o">*</span><span class="n">v7</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">void</span> <span class="o">*</span><span class="n">v9</span><span class="p">;</span> <span class="c1">// [esp-4h] [ebp-4h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">lpTlsValue</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">dword_405374</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">dword_405374</span> <span class="o">=</span> <span class="n">ingresado_numero</span> <span class="o">^</span> <span class="p">(</span><span class="n">dword_405374</span> <span class="o">+</span> <span class="mi">5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">dword_40537C</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">unk_405384</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">CurrentThreadId</span> <span class="o">=</span> <span class="nf">GetCurrentThreadId</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">vfwprintf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;Creation: Current thread Id is % d : Its data pointer, lpvData = % lx</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">CurrentThreadId</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">dword_405374</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="nf">TlsSetValue</span><span class="p">(</span><span class="n">dwTlsIndex</span><span class="p">,</span> <span class="n">lpTlsValue</span><span class="p">)</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">vfwprintf</span><span class="p">(</span><span class="n">lpThreadParameter</span><span class="p">,</span> <span class="n">Format</span><span class="p">,</span> <span class="n">ArgList</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v4</span> <span class="o">=</span> <span class="n">dword_40537C</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">dword_405374</span> <span class="o">&gt;</span> <span class="mi">48</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v4</span> <span class="o">=</span> <span class="n">lpTlsValue</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">dword_40537C</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Value</span> <span class="o">=</span> <span class="nf">TlsGetValue</span><span class="p">(</span><span class="n">dwTlsIndex</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">lpTlsValue</span> <span class="o">=</span> <span class="n">Value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">Value</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="nf">GetLastError</span><span class="p">()</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">vfwprintf</span><span class="p">(</span><span class="n">lpThreadParameter</span><span class="p">,</span> <span class="n">Format</span><span class="p">,</span> <span class="n">ArgList</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Value</span> <span class="o">=</span> <span class="n">lpTlsValue</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v9</span> <span class="o">=</span> <span class="n">Value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v6</span> <span class="o">=</span> <span class="nf">GetCurrentThreadId</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">vfwprintf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;common: Current thread Id is % d : Its data pointer, lpvData = % lx</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v6</span><span class="p">,</span> <span class="n">v9</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">Sleep</span><span class="p">(</span><span class="mh">0x1388u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v7</span> <span class="o">=</span> <span class="nf">TlsGetValue</span><span class="p">(</span><span class="n">dwTlsIndex</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">lpTlsValue</span> <span class="o">=</span> <span class="n">v7</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">v7</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">LocalFree</span><span class="p">(</span><span class="n">v7</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">vfwprintf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;lpvData already freed!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 405374: using guessed type int dword_405374;
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 40537C: using guessed type int dword_40537C;
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 405380: using guessed type int ingresado_numero;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (004011F0) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">i</span><span class="p">;</span> <span class="c1">// esi
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">HANDLE</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">j</span><span class="p">;</span> <span class="c1">// esi
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">DWORD</span> <span class="n">v6</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">wchar_t</span> <span class="o">*</span><span class="n">v7</span><span class="p">;</span> <span class="c1">// ecx
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">v9</span><span class="p">;</span> <span class="c1">// [esp-8h] [ebp-4Ch]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">const</span> <span class="kt">wchar_t</span> <span class="o">*</span><span class="n">v10</span><span class="p">;</span> <span class="c1">// [esp-4h] [ebp-48h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">HANDLE</span> <span class="n">hHandle</span><span class="p">[</span><span class="mi">15</span><span class="p">];</span> <span class="c1">// [esp+0h] [ebp-44h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">DWORD</span> <span class="n">ThreadId</span><span class="p">;</span> <span class="c1">// [esp+3Ch] [ebp-8h] BYREF
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;ENTER A NUMBER </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">ingresado_numero</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">dword_405374</span> <span class="o">+=</span> <span class="n">ingresado_numero</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;ENTER ANOTHER NUMBER </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">ingresado_numero</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">ingresado_numero</span> <span class="o">&lt;</span> <span class="mi">5</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">dwTlsIndex</span> <span class="o">=</span> <span class="nf">TlsAlloc</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">dwTlsIndex</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">vfwprintf</span><span class="p">(</span><span class="n">hHandle</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">hHandle</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">hHandle</span><span class="p">[</span><span class="mi">2</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">vfwprintf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;TlsAlloc() is OK!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="p">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">15</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v4</span> <span class="o">=</span> <span class="nf">CreateThread</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">StartAddress</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">ThreadId</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">hHandle</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">v4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">v4</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">vfwprintf</span><span class="p">(</span><span class="n">v9</span><span class="p">,</span> <span class="n">v10</span><span class="p">,</span> <span class="n">hHandle</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">vfwprintf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;CreateThread() # % u is OK.Thread ID is % u</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">ThreadId</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="p">(</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="mi">15</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v6</span> <span class="o">=</span> <span class="nf">WaitForSingleObject</span><span class="p">(</span><span class="n">hHandle</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="mh">0xFFFFFFFF</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">vfwprintf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;The WaitForSingleObject() return value is 0X % .8x</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v6</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="nf">TlsFree</span><span class="p">(</span><span class="n">dwTlsIndex</span><span class="p">)</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">vfwprintf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;The TLS index, dwTlsIndex was released!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v7</span> <span class="o">=</span> <span class="sa">L</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">Total genious!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span> <span class="n">dword_405374</span> <span class="o">!=</span> <span class="o">*</span><span class="n">dword_40537C</span> <span class="o">+</span> <span class="mi">67</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">v7</span> <span class="o">=</span> <span class="sa">L</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">Nopo :-( </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">vfwprintf</span><span class="p">(</span><span class="n">v7</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 401336: variable &#39;v9&#39; is possibly undefined
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 401336: variable &#39;v10&#39; is possibly undefined
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 403494: using guessed type wchar_t aTotalGenious[17];
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 405374: using guessed type int dword_405374;
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 40537C: using guessed type int dword_40537C;
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 405380: using guessed type int ingresado_numero;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401350) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="n">__noreturn</span> <span class="nf">vfwprintf</span><span class="p">(</span><span class="n">FILE</span> <span class="o">*</span><span class="k">const</span> <span class="n">Stream</span><span class="p">,</span> <span class="k">const</span> <span class="kt">wchar_t</span> <span class="o">*</span><span class="k">const</span> <span class="n">Format</span><span class="p">,</span> <span class="n">va_list</span> <span class="n">ArgList</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// ecx
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">FILE</span> <span class="o">*</span><span class="n">v4</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v5</span><span class="p">;</span> <span class="c1">// [esp-4h] [ebp-4h]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="n">v5</span> <span class="o">=</span> <span class="n">v3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v4</span> <span class="o">=</span> <span class="nf">_acrt_iob_func</span><span class="p">(</span><span class="mi">2u</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401020</span><span class="p">(</span><span class="n">v4</span><span class="p">,</span> <span class="sa">L</span><span class="s">&#34; % s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">v5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">ExitProcess</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 401350: variable &#39;v3&#39; is possibly undefined
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (0040142F) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">sub_40142F</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">__scrt_initialize_default_local_stdio_options</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 401A1F: using guessed type int __scrt_initialize_default_local_stdio_options(void);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401437) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">sub_401437</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">v0</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sub_401BB6</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="n">v0</span> <span class="o">=</span> <span class="nf">UserMathErrorFunction</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nf">set_new_mode</span><span class="p">(</span><span class="n">v0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (004019DF) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="kr">__cdecl</span> <span class="nf">UserMathErrorFunction</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (004019E2) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">sub_4019E2</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (004019EC) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="nf">sub_4019EC</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">InitializeSListHead</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ListHead</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (004019F8) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">char</span> <span class="nf">sub_4019F8</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401A3C) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">BOOL</span> <span class="nf">sub_401A3C</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">dword_40500C</span> <span class="o">==</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 40500C: using guessed type int dword_40500C;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401A48) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="o">*</span><span class="nf">sub_401A48</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="o">&amp;</span><span class="n">unk_40539C</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401A4E) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="o">*</span><span class="nf">sub_401A4E</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="o">&amp;</span><span class="n">unk_405398</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401BB6) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">LPTOP_LEVEL_EXCEPTION_FILTER</span> <span class="nf">sub_401BB6</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nf">SetUnhandledExceptionFilter</span><span class="p">(</span><span class="n">__scrt_unhandled_exception_filter</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401C18) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="nf">sub_401C18</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">dword_405360</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 405360: using guessed type int dword_405360;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401C20) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="nf">sub_401C20</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 401C20: could not find valid save-restore pair for edi
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">//----- (00401C4C) --------------------------------------------------------
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="kr">__cdecl</span> <span class="nf">sub_401C4C</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 401C4C: could not find valid save-restore pair for edi
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// nfuncs=81 queued=22 decompiled=22 lumina nreq=0 worse=0 better=0
+</span></span></span><span class="line"><span class="cl"><span class="c1">// ALL OK, 22 function(s) have been successfully decompiled
+</span></span></span></code></pre></div><h2 id="ghidra">Ghidra</h2>
+<p>hay un if que ida no me muestra.
+<code>if (0xe &lt; iVar6) {</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">FUN_004011f0</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">code</span> <span class="o">*</span><span class="n">pcVar1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">HANDLE</span> <span class="n">pvVar2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">DWORD</span> <span class="n">DVar3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">BOOL</span> <span class="n">BVar4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">wchar_t</span> <span class="o">*</span><span class="n">pwVar5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">iVar6</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined1</span> <span class="n">unaff_DI</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined</span> <span class="n">uVar7</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">undefined</span> <span class="n">in_stack_ffffffb8</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">DWORD</span> <span class="n">local_c</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">uint</span> <span class="n">local_8</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="n">local_8</span> <span class="o">=</span> <span class="n">DAT_00405004</span> <span class="o">^</span> <span class="p">(</span><span class="n">uint</span><span class="p">)</span><span class="o">&amp;</span><span class="n">stack0xfffffffc</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;ENTER A NUMBER </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">in_stack_ffffffb8</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">uVar7</span> <span class="o">=</span> <span class="mh">0xe4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,(</span><span class="kt">int</span> <span class="o">*</span><span class="p">)</span><span class="o">&amp;</span><span class="n">numero_ingresado</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">DAT_00405374</span> <span class="o">=</span> <span class="n">DAT_00405374</span> <span class="o">+</span> <span class="n">numero_ingresado</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;ENTER ANOTHER NUMBER </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">uVar7</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,(</span><span class="kt">int</span> <span class="o">*</span><span class="p">)</span><span class="o">&amp;</span><span class="n">numero_ingresado</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">numero_ingresado</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="cm">/* WARNING: Subroutine does not return */</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="n">DAT_00405370</span> <span class="o">=</span> <span class="nf">TlsAlloc</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">DAT_00405370</span> <span class="o">!=</span> <span class="mh">0xffffffff</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;TlsAlloc() is OK!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">unaff_DI</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">iVar6</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span><span class="p">(</span> <span class="nb">true</span> <span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">pvVar2</span> <span class="o">=</span> <span class="nf">CreateThread</span><span class="p">((</span><span class="n">LPSECURITY_ATTRIBUTES</span><span class="p">)</span><span class="mh">0x0</span><span class="p">,</span><span class="mi">0</span><span class="p">,(</span><span class="n">LPTHREAD_START_ROUTINE</span><span class="p">)</span><span class="o">&amp;</span><span class="n">LAB_004010f0</span><span class="p">,</span> <span class="p">(</span><span class="n">LPVOID</span><span class="p">)</span><span class="mh">0x0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="o">&amp;</span><span class="n">local_c</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="o">*</span><span class="p">(</span><span class="n">HANDLE</span> <span class="o">*</span><span class="p">)(</span><span class="o">&amp;</span><span class="n">stack0xffffffb8</span> <span class="o">+</span> <span class="n">iVar6</span> <span class="o">*</span> <span class="mi">4</span><span class="p">)</span> <span class="o">=</span> <span class="n">pvVar2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span><span class="n">pvVar2</span> <span class="o">==</span> <span class="p">(</span><span class="n">HANDLE</span><span class="p">)</span><span class="mh">0x0</span><span class="p">)</span> <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="nf">printf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;CreateThread() # % u is OK.Thread ID is % u</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,(</span><span class="kt">char</span><span class="p">)</span><span class="n">iVar6</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="n">iVar6</span> <span class="o">=</span> <span class="n">iVar6</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span><span class="mh">0xe</span> <span class="o">&lt;</span> <span class="n">iVar6</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">iVar6</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">do</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="n">DVar3</span> <span class="o">=</span> <span class="nf">WaitForSingleObject</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">HANDLE</span> <span class="o">*</span><span class="p">)(</span><span class="o">&amp;</span><span class="n">stack0xffffffb8</span> <span class="o">+</span> <span class="n">iVar6</span> <span class="o">*</span> <span class="mi">4</span><span class="p">),</span><span class="mh">0xffffffff</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">          <span class="nf">printf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;The WaitForSingleObject() return value is 0X % .8x</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,(</span><span class="kt">char</span><span class="p">)</span><span class="n">DVar3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">          <span class="n">iVar6</span> <span class="o">=</span> <span class="n">iVar6</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="n">iVar6</span> <span class="o">&lt;</span> <span class="mh">0xf</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">BVar4</span> <span class="o">=</span> <span class="nf">TlsFree</span><span class="p">(</span><span class="n">DAT_00405370</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">BVar4</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="nf">printf</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;The TLS index, dwTlsIndex was released!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">in_stack_ffffffb8</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="n">pwVar5</span> <span class="o">=</span> <span class="sa">L</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">Total genious!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">DAT_00405374</span> <span class="o">!=</span> <span class="o">*</span><span class="n">DAT_0040537c</span> <span class="o">+</span> <span class="mh">0x43</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="n">pwVar5</span> <span class="o">=</span> <span class="sa">L</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">Nopo :-( </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="nf">printf</span><span class="p">(</span><span class="n">pwVar5</span><span class="p">,</span><span class="n">in_stack_ffffffb8</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="err">@</span><span class="n">__security_check_cookie</span><span class="err">@</span><span class="mi">4</span><span class="p">(</span><span class="n">local_8</span> <span class="o">^</span> <span class="p">(</span><span class="n">uint</span><span class="p">)</span><span class="o">&amp;</span><span class="n">stack0xfffffffc</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">FUN_00401350</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;CreateThread() error</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">FUN_00401350</span><span class="p">(</span><span class="sa">L</span><span class="s">&#34;TlsAlloc() failed&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">pcVar1</span> <span class="o">=</span> <span class="p">(</span><span class="n">code</span> <span class="o">*</span><span class="p">)</span><span class="nf">swi</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">*</span><span class="n">pcVar1</span><span class="p">)();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -6,8 +6,134 @@
     <description>Recent content on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Sat, 07 Sep 2024 03:08:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 08:12:49 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enviar una simple consulta HTTP usando curl en C</title>
+      <link>https://imlauerindex.github.io/send_http_request_using_curl/</link>
+      <pubDate>Mon, 16 Sep 2024 08:12:49 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/send_http_request_using_curl/</guid>
+      <description>// Compile: gcc curlcurl.c -o curlcurl -lcurl #include &amp;lt;curl/curl.h&amp;gt; CURL *curl = curl_easy_init(); curl_easy_setopt(curl, CURLOPT_URL, &amp;#34;https://imlauera.github.io/index.xml&amp;#34;); curl_easy_perform(curl); https://curl.se/libcurl/c/example.html https://curl.se/libcurl/c/simple.html</description>
+    </item>
+    <item>
+      <title>Como descargar hilo entero de un Foro vBulletin</title>
+      <link>https://imlauerindex.github.io/como_descargar_foro_vbulletin/</link>
+      <pubDate>Sun, 15 Sep 2024 13:27:47 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/como_descargar_foro_vbulletin/</guid>
+      <description>for id in {1..772}; do wget -E --follow-tags=a --reject &amp;#39;*.js,*.css,*.ico,*.txt,*.gif,*.jpg,*.jpeg,*.png,*.mp3,*.pdf,*.tgz,*.flv,*.avi,*.mpeg,*.iso&amp;#39; --header=&amp;#34;Accept: text/html&amp;#34; &amp;#34;https://mipagina.com.ar/threads/3934819-mi-hilo/page$id&amp;#34; done </description>
+    </item>
+    <item>
+      <title>Openbsd install</title>
+      <link>https://imlauerindex.github.io/openbsd_install/</link>
+      <pubDate>Sat, 14 Sep 2024 18:41:20 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/openbsd_install/</guid>
+      <description>https://redirect.invidious.io/playlist?list=PLbET-7keUM8qiNs0D7ya2cnu-n2y1JRwC&#xA;https://redirect.invidious.io/watch?v=DQrXvjV9lyQ&#xA;https://redirect.invidious.io/watch?v=c5WnhxFx6P8&#xA;Primero descargamos install-number.iso de la arquitectura de pc que estemos usando.&#xA;https://www.openbsd.org/faq/faq4.html#Download&#xA;Luego de bootear OpenBSD: Welcome to the OpenBSD/amd64 7.1 installation program. (I)nstall, (U)pgrade, (A)utoinstall, (S)hell? S Para saber como se llama tu disco duro:&#xA;# dmesg | grep &amp;#34;sd&amp;#34; # cd /dev &amp;amp;&amp;amp; sh MAKEDEV sd0 # fdisk -gy -b 960 sd0 (gpt) # disklabel -E sd0 sd0 &amp;gt; p g sd0 &amp;gt; d a sd0 &amp;gt; ?</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 10) - Soldadura.</title>
+      <link>https://imlauerindex.github.io/clase10_aires/</link>
+      <pubDate>Sat, 14 Sep 2024 17:20:57 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/clase10_aires/</guid>
+      <description>Audio de la clase en YouTube. https://youtu.be/hOCHmhjBIPA&#xA;Audio de la clase en Invidious. https://redirect.invidious.io/watch?v=hOCHmhjBIPA&#xA;Audio de la clase en Vocaroo. https://vocaroo.com/12XstpkMxjga&#xA;Videos: https://youtu.be/c49zdlYBdjw (O miralo en invidious) https://redirect.invidious.io/watch?v=c49zdlYBdjw&#xA;https://youtu.be/7ySbJCSdwwk (O miralo en invidious) https://redirect.invidious.io/watch?v=7ySbJCSdwwk&#xA;https://youtube.com/shorts/7838DTYbNx8&#xA;(O miralo en invidious) https://redirect.invidious.io/watch?v=7838DTYbNx8</description>
+    </item>
+    <item>
+      <title>Wordpress: HowTo</title>
+      <link>https://imlauerindex.github.io/wordpress_howto/</link>
+      <pubDate>Fri, 13 Sep 2024 17:17:52 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/wordpress_howto/</guid>
+      <description>Primero instalamos mariadb (alternativa open-source a mysql) la configuramos y creamos una base de datos y tabla prueba.&#xA;sudo apt update sudo apt install -y mariadb-server sudo systemctl start mariadb sudo systemctl enable mariadb sudo systemctl status mariadb // sudo mysql_secure_installation (comando deprecado) sudo mariadb-install-db sudo mysql grant all on *.* to &amp;#39;admin&amp;#39;@&amp;#39;%&amp;#39; identified by &amp;#39;myawesomepass&amp;#39; with grant option; // O en vez de &amp;#39;%&amp;#39; podés usar &amp;#39;localhost&amp;#39; grant all on *.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 11) - Microondas.</title>
+      <link>https://imlauerindex.github.io/clase11_electro/</link>
+      <pubDate>Thu, 12 Sep 2024 19:29:21 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/clase11_electro/</guid>
+      <description>Audio en YouTube https://www.youtube.com/watch?v=VBKQeiF5XVM&#xA;Audio en Invidious https://redirect.invidious.io/watch?v=VBKQeiF5XVM&#xA;Audio en Vocaroo https://vocaroo.com/187G3giPOmoV&#xA;El problema de este microondas fue el fusible y el capacitor.&#xA;https://elrincondesolucionestv.blogspot.com/2014/03/el-sistema-de-alto-voltaje-en-hornos-de.html</description>
+    </item>
+    <item>
+      <title>Compartir impresora en Windows</title>
+      <link>https://imlauerindex.github.io/compartir_impresora/</link>
+      <pubDate>Wed, 11 Sep 2024 11:07:44 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/compartir_impresora/</guid>
+      <description>YouTube https://www.youtube.com/watch?v=2HyhMo4Qtw8&#xA;Invidious https://redirect.invidious.us/watch?v=2HyhMo4Qtw8&#xA;Inicio &amp;gt; impresoras y escaners Seleccioná impresora a compartir y dale a propiedades de impresora &amp;gt; compartir(pestaña) &amp;gt; compartir esta impresora Seguridad (pestaña) &amp;gt; Agregar &amp;gt; Escriba los nombres de objeto que desea seleccionar &amp;gt; impresora(usuario creado) &amp;gt; Comprobar nombres &amp;gt; Aceptar &amp;gt; Ahora dale todos los permisos al usuario &amp;gt; Imprimir, Administrar esta impresora, Administrar documentos. Lo que me funcionó (no necesité crear el usuario como en el paso anterior sólo agregar una contraseña) Primero tenés que compartir la impresora como fue mencionado anteriormente.</description>
+    </item>
+    <item>
+      <title>Sgtaller</title>
+      <link>https://imlauerindex.github.io/sgtaller/</link>
+      <pubDate>Tue, 10 Sep 2024 16:53:02 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/sgtaller/</guid>
+      <description>Hay un torrent dando vueltas si usas jackket y qbittorrent lo vas a encontrar. Acá tienen un dump de binario con IDA:&#xA;https://ia904602.us.archive.org/17/items/Service.exe/Service.exe.c</description>
+    </item>
+    <item>
+      <title>Como descargar musica videos YouTube</title>
+      <link>https://imlauerindex.github.io/como_descargar_musica_videos_youtube/</link>
+      <pubDate>Tue, 10 Sep 2024 16:20:40 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/como_descargar_musica_videos_youtube/</guid>
+      <description>https://redirect.invidious.io&#xA;En la parte izquierda de la página aparece descargar como y podés seleccionar &amp;ldquo;audio&amp;rdquo;&#xA;O usando yt-dlp -f140 140 es para audio. 134 es para 360p. Podés unirlos así: yt-dlp -f140+134</description>
+    </item>
+    <item>
+      <title>Agregar Rawhtml en HUGO</title>
+      <link>https://imlauerindex.github.io/rawhtml_hugo/</link>
+      <pubDate>Tue, 10 Sep 2024 16:17:04 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/rawhtml_hugo/</guid>
+      <description>Para hacer esto previamente es recomendable tener clonado el repo del theme o forkeado y comitear los cambios.&#xA;Agregá en /layouts/shortcodes/rawhtml.html&#xA;&amp;lt;!-- raw html --&amp;gt; {{.Inner}} </description>
+    </item>
+    <item>
+      <title>Openbsd kvm/virtmanager</title>
+      <link>https://imlauerindex.github.io/openbsd_kvm_virtmanager/</link>
+      <pubDate>Tue, 10 Sep 2024 06:23:41 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/openbsd_kvm_virtmanager/</guid>
+      <description>Para instalar OpenBSD usando Qemu-kvm-virtmanager tenés que deshabilitar la opción Enable I/O APIC que se encuentra en opciones &amp;gt; sistema.&#xA;Otra posible solución You need to change the VM from dynamically allocated to fixed size on the physical HDD.&#xA;Otra posible solución Utilizo virt-manager para administrar máquinas virtuales. Estos son los pasos para hacerlo al crear la VM:&#xA;Creá la VM y en el último paso elegí &amp;ldquo;Personalizar la configuración antes de la instalación&amp;rdquo; (Customize configuration before install) Hacé clic en la pestaña &amp;ldquo;IDE CDROM 1&amp;rdquo; y cambie &amp;ldquo;Bus de disco&amp;rdquo;(Disk bus) a SATA Luego hacé clic en Aplicar y luego en Iniciar instalación en la parte superior izquierda.</description>
+    </item>
+    <item>
+      <title>WINNER.zip</title>
+      <link>https://imlauerindex.github.io/winner.zip/</link>
+      <pubDate>Mon, 09 Sep 2024 17:37:00 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/winner.zip/</guid>
+      <description>https://drive.google.com/file/d/1QRIk3zBGGXH54nSZorX3jnuNmURCHw6K/view?pli=1&#xA;Para iniciar el programa tenés que darle un número negativo como entrada.&#xA;IDA&#xA;#include &amp;lt;windows.h&amp;gt; #include &amp;lt;defs.h&amp;gt; #include &amp;lt;stdarg.h&amp;gt; //------------------------------------------------------------------------- // Function declarations int sub_401020(FILE *Stream, wchar_t *Format, ...); int vfwprintf(wchar_t *Format, ...); int printf(char *Format, ...); int scanf(char *Format, ...); DWORD __stdcall StartAddress(FILE *const lpThreadParameter, const wchar_t *const Format, va_list ArgList); int __cdecl main(int argc, const char **argv, const char **envp); int __cdecl vfwprintf(FILE *const Stream, const wchar_t *const Format, va_list ArgList); int sub_40142F(); int sub_401437(); int __cdecl UserMathErrorFunction(); int sub_4019E2(); void sub_4019EC(); char sub_4019F8(); // int __scrt_initialize_default_local_stdio_options(void); weak BOOL sub_401A3C(); void *sub_401A48(); void *sub_401A4E(); LPTOP_LEVEL_EXCEPTION_FILTER sub_401BB6(); // LONG __stdcall __scrt_unhandled_exception_filter(struct _EXCEPTION_POINTERS *ExceptionInfo); idb void sub_401C18(); void sub_401C20(); void __cdecl sub_401C4C(); // idb // int __cdecl set_new_mode(int NewMode); //------------------------------------------------------------------------- // Data declarations // extern BOOL (__stdcall *TlsSetValue)(DWORD dwTlsIndex, LPVOID lpTlsValue); // extern DWORD (__stdcall *WaitForSingleObject)(HANDLE hHandle, DWORD dwMilliseconds); // extern DWORD (__stdcall *GetCurrentThreadId)(); // extern void (__stdcall *Sleep)(DWORD dwMilliseconds); // extern DWORD (__stdcall *GetLastError)(); // extern DWORD (__stdcall *TlsAlloc)(); // extern HANDLE (__stdcall *CreateThread)(LPSECURITY_ATTRIBUTES lpThreadAttributes, SIZE_T dwStackSize, LPTHREAD_START_ROUTINE lpStartAddress, LPVOID lpParameter, DWORD dwCreationFlags, LPDWORD lpThreadId); // extern HLOCAL (__stdcall *LocalFree)(HLOCAL hMem); // extern void (__stdcall __noreturn *ExitProcess)(UINT uExitCode); // extern LPVOID (__stdcall *TlsGetValue)(DWORD dwTlsIndex); // extern BOOL (__stdcall *TlsFree)(DWORD dwTlsIndex); // extern void (__stdcall *InitializeSListHead)(PSLIST_HEADER ListHead); // extern LPTOP_LEVEL_EXCEPTION_FILTER (__stdcall *SetUnhandledExceptionFilter)(LPTOP_LEVEL_EXCEPTION_FILTER lpTopLevelExceptionFilter); // extern void (__cdecl __noreturn *exit)(int Code); // extern FILE *(__cdecl *_acrt_iob_func)(unsigned int Ix); int dword_40500C = 1; // weak union _SLIST_HEADER ListHead; // idb int dword_405360; // weak DWORD dwTlsIndex; // idb int dword_405374; // weak LPVOID lpTlsValue; // idb int dword_40537C; // weak int ingresado_numero; // weak _UNKNOWN unk_405384; // weak _UNKNOWN unk_405398; // weak _UNKNOWN unk_40539C; // weak //----- (00401000) -------------------------------------------------------- void *sub_401000() { return &amp;amp;unk_405390; } //----- (00401010) -------------------------------------------------------- void *sub_401010() { return &amp;amp;unk_405388; } //----- (00401020) -------------------------------------------------------- int sub_401020(FILE *Stream, wchar_t *Format, .</description>
+    </item>
+    <item>
+      <title>Descomprimir zip: unsupported compression method 99</title>
+      <link>https://imlauerindex.github.io/descomprimir_zip/</link>
+      <pubDate>Mon, 09 Sep 2024 08:12:35 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/descomprimir_zip/</guid>
+      <description>Con unzip no lo pude descomprimir porque tenía cifrado AES pero con 7za sí, una cosa de locos&#xA;7za x -p&amp;lt;PASSWORD&amp;gt; file.zip&#xA;https://hackmd.io/@jw-sharing/Hkks015fs</description>
+    </item>
+    <item>
+      <title>Como grabar audio linux</title>
+      <link>https://imlauerindex.github.io/como_grabar_audio_linux/</link>
+      <pubDate>Mon, 09 Sep 2024 08:07:12 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/como_grabar_audio_linux/</guid>
+      <description>arecord --format=cd file.wav </description>
+    </item>
+    <item>
+      <title>Keygen si puedes</title>
+      <link>https://imlauerindex.github.io/keygen/</link>
+      <pubDate>Mon, 09 Sep 2024 06:41:05 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/keygen/</guid>
+      <description>El keygen se encuentra en: https://drive.google.com/file/d/1QRIk3zBGGXH54nSZorX3jnuNmURCHw6K/view?pli=1&#xA;El código que me generó el ida es:&#xA;#include &amp;lt;windows.h&amp;gt; #include &amp;lt;defs.h&amp;gt; #include &amp;lt;stdarg.h&amp;gt; //------------------------------------------------------------------------- // Function declarations void __fastcall _mingw_invalidParameterHandler(const wchar_t *expression, const wchar_t *function, const wchar_t *file, unsigned int line, uintptr_t pReserved); int __cdecl pre_c_init(); void __cdecl pre_cpp_init(); // int __cdecl _tmainCRTStartup(); // int __cdecl WinMainCRTStartup(); int __cdecl mainCRTStartup(); char *__fastcall generaLetras(int a1, char *a2); __int64 __fastcall generaNumero(char *a1); // idb int __fastcall generaSerial(char *a1, char *a2); int __fastcall checkSerial(char *a1, char *a2); INT_PTR __fastcall DialogProc(HWND a1, int a2, unsigned __int16 a3); int __stdcall WinMain(HINSTANCE hInst, HINSTANCE hPreInst, LPSTR lpszCmdLine, int nCmdShow); void *__fastcall decode_pointer(void *codedptr); void *__fastcall encode_pointer(void *ptr); int __cdecl setargv(); void __fastcall _mingw_raise_matherr(int typ, const char *name, double a3, double a1, double rslt); void __fastcall _mingw_setusermatherr(int (*f)(_exception *)); int __fastcall matherr(_exception *pexcept); void _report_error(const char *msg, .</description>
+    </item>
+    <item>
+      <title>Cortar audio</title>
+      <link>https://imlauerindex.github.io/cortar_audio/</link>
+      <pubDate>Sun, 08 Sep 2024 03:01:20 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/cortar_audio/</guid>
+      <description>ffmpeg -ss 17:00 -i input.m4a output.m4a Donde 17 son minutos.</description>
+    </item>
+    <item>
+      <title>[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 9) - Cortamos caños y lo pestañamos</title>
+      <link>https://imlauerindex.github.io/9na_clase_aires/</link>
+      <pubDate>Sat, 07 Sep 2024 16:40:31 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/9na_clase_aires/</guid>
+      <description>Video de la clase https://m.youtube.com/watch?v=I5w-wKKC-mk&#xA;O mirala en invidious https://redirect.invidious.io/watch?v=I5w-wKKC-mk&#xA;Audio de la clase https://youtu.be/Hm1F3omTxk8&#xA;O escuchalo en invidious https://redirect.invidious.io/watch?v=Hm1F3omTxk8&#xA;O escuchá el audio en vocaroo https://vocaroo.com/14eenFdJ8YLd&#xA;Doble pestaña (está en el primer video) pero con audio Acá usamos a nuestro favor la &amp;ldquo;rebarba&amp;rdquo;, tiene que quedar el doble de espesor.&#xA;https://m.youtube.com/watch?v=-cT-RptpPQk&#xA;Vamos a usar una amordaza, un puente, un expansor, corta caños. El cobre es un material que se adhiere, el bronce con el cobre peor, por eso nada que trabaje con gas refrigerante tiene teflón.</description>
+    </item>
+    <item>
+      <title>Como convertir videos de alta calidad a baja</title>
+      <link>https://imlauerindex.github.io/como_convertir_video_de_alta_calidad_a_baja/</link>
+      <pubDate>Sat, 07 Sep 2024 15:03:20 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/como_convertir_video_de_alta_calidad_a_baja/</guid>
+      <description>Subilos todos a YouTube y bajate la versión de baja calidad con yt-dlp -f 140+136</description>
+    </item>
     <item>
       <title>X86 opcode</title>
       <link>https://imlauerindex.github.io/x86_opcode/</link>
@@ -41,7 +167,7 @@
       <link>https://imlauerindex.github.io/taller_reparacion_electrodomesticos10/</link>
       <pubDate>Fri, 06 Sep 2024 02:24:46 -0300</pubDate>
       <guid>https://imlauerindex.github.io/taller_reparacion_electrodomesticos10/</guid>
-      <description>Audio de la clase en YouTube https://youtu.be/jzlRd4U2xI4&#xA;O mirala en invidious https://redirect.invidious.io/watch?v=jzlRd4U2xI4&#xA;Antes de estas fotos hablamos de la trampa de aceite del aire acondicionado que estaba dibujado en el pizarrón.&#xA;Controlador a placa. Refleja para todos lados.&#xA;Lo de abajo es una jaula de ardilla representada en forma de &amp;ldquo;cinta&amp;rdquo;, con norte y sur. El motor se controla por señales de pulso o por ancho de banda (onda cuadrada)</description>
+      <description>Audio de la clase en YouTube https://youtu.be/jzlRd4U2xI4&#xA;O mirala en invidious https://redirect.invidious.io/watch?v=jzlRd4U2xI4&#xA;O en vocaroo https://vocaroo.com/1fHCcV3fQwNZ&#xA;Antes de estas fotos hablamos de la trampa de aceite del aire acondicionado que estaba dibujado en el pizarrón.&#xA;Controlador a placa. Refleja para todos lados.&#xA;Lo de abajo es una jaula de ardilla representada en forma de &amp;ldquo;cinta&amp;rdquo;, con norte y sur. El motor se controla por señales de pulso o por ancho de banda (onda cuadrada)</description>
     </item>
     <item>
       <title>C y reversing</title>
@@ -534,6 +660,13 @@
       <description>Todavía puedes piratear la televisión por satélite, los métodos han cambiado a lo largo de los años. Hoy en día, se extrae directamente de la banda C, pero requiere una configuración bastante robusta para decodificar la señal en un canal. Hace unos años hubo un artículo vinculado en este subreddit a una publicación de La-Tecnologia, pero parece que no puedo encontrarlo. Banda C - 4GHz Banda K - 11GHz Los HD necesitan más ancho de banda.</description>
     </item>
     <item>
+      <title>Saber que aplicación corre en X puerto</title>
+      <link>https://imlauerindex.github.io/saber_que_aplicacion_corre_en_el_puerto_80/</link>
+      <pubDate>Mon, 22 Jul 2024 15:46:57 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/saber_que_aplicacion_corre_en_el_puerto_80/</guid>
+      <description>Cualquiera de los siguientes comandos funciona:&#xA;# ss -tanp | grep 6379&#xA;sudo netstat -nlp&#xA;lsof -i tcp:8080&#xA;netstat -ano | find &amp;quot;1234&amp;quot; | find &amp;quot;LISTEN&amp;quot;</description>
+    </item>
+    <item>
       <title>Descarga Wikipedia y StackOverflow</title>
       <link>https://imlauerindex.github.io/descarga_wikipedia_y_stackoverflow/</link>
       <pubDate>Mon, 22 Jul 2024 02:54:51 -0300</pubDate>
@@ -825,7 +958,7 @@
       <link>https://imlauerindex.github.io/freebsd_instalation/</link>
       <pubDate>Fri, 10 Nov 2023 04:52:12 -0300</pubDate>
       <guid>https://imlauerindex.github.io/freebsd_instalation/</guid>
-      <description>Instalar freebsd, configuración inicial, instalar xfce https://youtube.com/watch?v=Jg4YW-8Xr_g&#xA;https://youtube.com/watch?v=SQxReyTmtiE&#xA;https://youtube.com/watch?v=ObQTHyvcdQ0&#xA;instalar wifi, powerd El driver nativo de rtw88 de freebsd no me funcionó bien, el wifi se desconectaba después de unos minutos. La solución fue instalar WiFiBox https://forums.ghostbsd.org/viewtopic.php?f=64&amp;amp;t=2578&amp;amp;sid=8d568e99cbd80762de39a23c6436ce62&#xA;Y deshabilité la opción de background_dhclient en el /etc/rc.conf&#xA;Administración de la energía en FreeBSD https://forums.freebsd.org/threads/freebsd-13-0-and-cpu-power-management.82096/&#xA;powerd_enable=&amp;#34;YES&amp;#34; Después de agregar esto a mi /etc/rc.conf aumentó muchísimo el rendimiento de mi laptop pero levantaba mucha temperatura cuando compilaba algo llegaba hasta 75º que lo solucioné con el siguiente parámentro en rc.</description>
+      <description>Instalar freebsd, configuración inicial, instalar xfce https://youtube.com/watch?v=Jg4YW-8Xr_g&#xA;https://youtube.com/watch?v=SQxReyTmtiE&#xA;https://youtube.com/watch?v=ObQTHyvcdQ0&#xA;su pkg update pkg install xorg pkg install xfce xfce4-goodies pkg install slim (no es necesario es la pantalla de login) pkg install dbus Editá /etc/rc.conf&#xA;dbus_enable=&amp;#34;YES&amp;#34; #slim_enable=&amp;#34;YES&amp;#34; Editá .xinitrc&#xA;exec xfce4-session Ahora ejecutá startx&#xA;service dbus start service slim start pkg install openbox obconf kickshaw Editá .xinitrc&#xA;exec openbox kickshaw-gtk2 Agregar wifi ifconfig para ver cual es tu interfaz&#xA;dmesg | more (para buscar tu interfaz wifi) ifconfig wlan0 create wlandev bwn0 ifconfig (para comprobar) Ahora editamos /etc/rc.</description>
     </item>
     <item>
       <title>CISCO ios port forwarding y dynamic dns(DDNS)</title>

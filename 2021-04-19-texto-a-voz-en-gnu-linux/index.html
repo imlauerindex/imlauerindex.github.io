@@ -89,10 +89,12 @@ y se lo instala con:</p>
 Más información ejecutá <code>man xsel</code> en la consola.<br>
 Si seleccionás algún tipo de texto en cualquier aplicación
 y ejecutás el siguiente comando, te lo va a leer.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">xsel <span class="p">|</span> iconv -c -f utf-8 -t iso-8859-1 <span class="p">|</span> festival --language
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">xsel <span class="p">|</span> iconv -c -f utf-8 -t iso-8859-1 <span class="p">|</span> festival --tts
 </span></span></code></pre></div><p>Si querés guardar el audio generado podés usar <strong>text2wave</strong> (un script de Festival)
 de la siguiente manera</p>
-<p>Y esto es todo.
+<p>Generá un archivo wav a partir de texto seleccionado:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">xsel | iconv -c -f utf-8 -t iso-8859-1 | text2wave -o salida.wav -eval &#39;(voice_el_diphone)&#39;
+</span></span></code></pre></div><p>Y esto es todo.
 Más información: <a href="https://wiki.archlinux.org/index.php/Festival" target="_blank">Festival (Arch Wiki)</a></p>
 </div></div><footer>
     <hr>

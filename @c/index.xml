@@ -6,8 +6,15 @@
     <description>Recent content in C on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 15 Jul 2024 23:37:47 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 08:12:49 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enviar una simple consulta HTTP usando curl en C</title>
+      <link>https://imlauerindex.github.io/send_http_request_using_curl/</link>
+      <pubDate>Mon, 16 Sep 2024 08:12:49 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/send_http_request_using_curl/</guid>
+      <description>// Compile: gcc curlcurl.c -o curlcurl -lcurl #include &amp;lt;curl/curl.h&amp;gt; CURL *curl = curl_easy_init(); curl_easy_setopt(curl, CURLOPT_URL, &amp;#34;https://imlauera.github.io/index.xml&amp;#34;); curl_easy_perform(curl); https://curl.se/libcurl/c/example.html https://curl.se/libcurl/c/simple.html</description>
+    </item>
     <item>
       <title>Algoritmos y estructura de datos en C</title>
       <link>https://imlauerindex.github.io/algoritmos_y_estructura_de_datos_en_c/</link>

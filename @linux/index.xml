@@ -6,8 +6,22 @@
     <description>Recent content in Linux on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 15 Aug 2024 19:55:28 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2024 08:12:35 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Descomprimir zip: unsupported compression method 99</title>
+      <link>https://imlauerindex.github.io/descomprimir_zip/</link>
+      <pubDate>Mon, 09 Sep 2024 08:12:35 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/descomprimir_zip/</guid>
+      <description>Con unzip no lo pude descomprimir porque tenía cifrado AES pero con 7za sí, una cosa de locos&#xA;7za x -p&amp;lt;PASSWORD&amp;gt; file.zip&#xA;https://hackmd.io/@jw-sharing/Hkks015fs</description>
+    </item>
+    <item>
+      <title>Como grabar audio linux</title>
+      <link>https://imlauerindex.github.io/como_grabar_audio_linux/</link>
+      <pubDate>Mon, 09 Sep 2024 08:07:12 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/como_grabar_audio_linux/</guid>
+      <description>arecord --format=cd file.wav </description>
+    </item>
     <item>
       <title>Samba server en Linux</title>
       <link>https://imlauerindex.github.io/samba_server_linux/</link>

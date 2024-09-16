@@ -46,7 +46,38 @@
 <p><a href="https://youtube.com/watch?v=Jg4YW-8Xr_g">https://youtube.com/watch?v=Jg4YW-8Xr_g</a><br>
 <a href="https://youtube.com/watch?v=SQxReyTmtiE">https://youtube.com/watch?v=SQxReyTmtiE</a><br>
 <a href="https://youtube.com/watch?v=ObQTHyvcdQ0">https://youtube.com/watch?v=ObQTHyvcdQ0</a></p>
-<h3 id="instalar-wifi-powerd">instalar wifi, powerd</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">su
+</span></span><span class="line"><span class="cl">pkg update
+</span></span><span class="line"><span class="cl">pkg install xorg
+</span></span><span class="line"><span class="cl">pkg install xfce xfce4-goodies
+</span></span><span class="line"><span class="cl">pkg install slim (no es necesario es la pantalla de login)
+</span></span><span class="line"><span class="cl">pkg install dbus
+</span></span></code></pre></div><p>Editá /etc/rc.conf</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">dbus_enable=&#34;YES&#34;
+</span></span><span class="line"><span class="cl">#slim_enable=&#34;YES&#34;
+</span></span></code></pre></div><p>Editá .xinitrc</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">exec xfce4-session
+</span></span></code></pre></div><p>Ahora ejecutá <code>startx</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">service dbus start
+</span></span><span class="line"><span class="cl">service slim start
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pkg install openbox obconf kickshaw
+</span></span></code></pre></div><p>Editá .xinitrc</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">exec openbox
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">kickshaw-gtk2
+</span></span></code></pre></div><h3 id="agregar-wifi">Agregar wifi</h3>
+<p><code>ifconfig</code> para ver cual es tu interfaz</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">dmesg | more (para buscar tu interfaz wifi)
+</span></span><span class="line"><span class="cl">ifconfig wlan0 create wlandev bwn0
+</span></span><span class="line"><span class="cl">ifconfig (para comprobar)
+</span></span></code></pre></div><p>Ahora editamos <code>/etc/rc.conf</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ifconfig_bge0=&#34;inet 10.148.86.14 netmask 255.255.248.0&#34;
+</span></span><span class="line"><span class="cl">defaultrouter=&#34;10.148.86.1&#34;
+</span></span><span class="line"><span class="cl">wlans_bwn0=&#34;wlan0&#34;
+</span></span><span class="line"><span class="cl">ifconfig_wlan=&#34;WPA DHCP&#34;
+</span></span></code></pre></div><p>Ejecutamos <code>wpa_passphrase tucontraseña_de_wifi &gt;&gt; /etc/wpa_supplicant.conf</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">service netif restart (me acuerdo cuando ejecutaba este comando y me daba un panic)
+</span></span><span class="line"><span class="cl">ifconfig
+</span></span></code></pre></div><h3 id="instalar-wifi-powerd">instalar wifi, powerd</h3>
 <p>El driver nativo de rtw88 de freebsd no me funcionó bien, el wifi se desconectaba después de unos minutos. La solución fue instalar WiFiBox <a href="https://forums.ghostbsd.org/viewtopic.php?f=64&amp;t=2578&amp;sid=8d568e99cbd80762de39a23c6436ce62">https://forums.ghostbsd.org/viewtopic.php?f=64&amp;t=2578&amp;sid=8d568e99cbd80762de39a23c6436ce62</a></p>
 <p>Y deshabilité la opción de background_dhclient en el /etc/rc.conf</p>
 <h4 id="administración-de-la-energía-en-freebsd">Administración de la energía en FreeBSD</h4>

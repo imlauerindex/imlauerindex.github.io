@@ -6,8 +6,15 @@
     <description>Recent content in Git on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Sat, 06 Jul 2024 11:18:47 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 04:28:33 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como ver el historial de cambios de un archivo usando Git</title>
+      <link>https://imlauerindex.github.io/como_mirar_historial_de_un_archivo_git/</link>
+      <pubDate>Fri, 06 Sep 2024 04:28:33 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/como_mirar_historial_de_un_archivo_git/</guid>
+      <description>Así de simple:&#xA;sudo apt install gitk gitk nombre_del_archivo O git log -p -- nombre_de_tu_archivo</description>
+    </item>
     <item>
       <title>Comandos git</title>
       <link>https://imlauerindex.github.io/comandos_git/</link>

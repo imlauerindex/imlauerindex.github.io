@@ -6,8 +6,29 @@
     <description>Recent content in Reversing on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 06 Sep 2024 05:37:11 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2024 16:53:02 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@reversing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sgtaller</title>
+      <link>https://imlauerindex.github.io/sgtaller/</link>
+      <pubDate>Tue, 10 Sep 2024 16:53:02 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/sgtaller/</guid>
+      <description>Hay un torrent dando vueltas si usas jackket y qbittorrent lo vas a encontrar. Acá tienen un dump de binario con IDA:&#xA;https://ia904602.us.archive.org/17/items/Service.exe/Service.exe.c</description>
+    </item>
+    <item>
+      <title>Keygen si puedes</title>
+      <link>https://imlauerindex.github.io/keygen/</link>
+      <pubDate>Mon, 09 Sep 2024 06:41:05 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/keygen/</guid>
+      <description>El keygen se encuentra en: https://drive.google.com/file/d/1QRIk3zBGGXH54nSZorX3jnuNmURCHw6K/view?pli=1&#xA;El código que me generó el ida es:&#xA;#include &amp;lt;windows.h&amp;gt; #include &amp;lt;defs.h&amp;gt; #include &amp;lt;stdarg.h&amp;gt; //------------------------------------------------------------------------- // Function declarations void __fastcall _mingw_invalidParameterHandler(const wchar_t *expression, const wchar_t *function, const wchar_t *file, unsigned int line, uintptr_t pReserved); int __cdecl pre_c_init(); void __cdecl pre_cpp_init(); // int __cdecl _tmainCRTStartup(); // int __cdecl WinMainCRTStartup(); int __cdecl mainCRTStartup(); char *__fastcall generaLetras(int a1, char *a2); __int64 __fastcall generaNumero(char *a1); // idb int __fastcall generaSerial(char *a1, char *a2); int __fastcall checkSerial(char *a1, char *a2); INT_PTR __fastcall DialogProc(HWND a1, int a2, unsigned __int16 a3); int __stdcall WinMain(HINSTANCE hInst, HINSTANCE hPreInst, LPSTR lpszCmdLine, int nCmdShow); void *__fastcall decode_pointer(void *codedptr); void *__fastcall encode_pointer(void *ptr); int __cdecl setargv(); void __fastcall _mingw_raise_matherr(int typ, const char *name, double a3, double a1, double rslt); void __fastcall _mingw_setusermatherr(int (*f)(_exception *)); int __fastcall matherr(_exception *pexcept); void _report_error(const char *msg, .</description>
+    </item>
+    <item>
+      <title>X86 opcode</title>
+      <link>https://imlauerindex.github.io/x86_opcode/</link>
+      <pubDate>Sat, 07 Sep 2024 03:08:00 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/x86_opcode/</guid>
+      <description>&amp;lsquo;%&amp;rsquo; significa &amp;ldquo;and EAX&amp;rdquo;&#xA;&amp;lsquo;-&amp;rsquo; significa &amp;ldquo;sub EAX&amp;rdquo;&#xA;&amp;lsquo;P&amp;rsquo; significa &amp;ldquo;push EAX&amp;rdquo;&#xA;&amp;lsquo;X&amp;rsquo; significa &amp;ldquo;pop EAX&amp;rdquo;&#xA;&amp;lsquo;T&amp;rsquo; significa &amp;ldquo;push ESP&amp;rdquo;&#xA;&amp;lsquo;&#39; significa &amp;ldquo;pop ESP&amp;rdquo;&#xA;https://stackoverflow.com/questions/14349735/why-register-eax-esp-and-instructions-sub-push-and-pop-assemble-into-ascii-cha&#xA;http://ref.x86asm.net/coder32.html</description>
+    </item>
     <item>
       <title>Ida PRO Free</title>
       <link>https://imlauerindex.github.io/idapro_free/</link>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Compartir impresora en Windows | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://imlauerindex.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://imlauerindex.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://imlauerindex.github.io/">
+      <img src="https://imlauerindex.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://imlauerindex.github.io/compartir_impresora/">
+      <span>Compartir impresora en Windows</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://imlauerindex.github.io/@impresora/">Impresora</a></li>
+  
+</ul>
+
+<div class="content"><h4 id="youtube">YouTube</h4>
+<p><a href="https://www.youtube.com/watch?v=2HyhMo4Qtw8">https://www.youtube.com/watch?v=2HyhMo4Qtw8</a></p>
+<h4 id="invidious">Invidious</h4>
+<p><a href="https://redirect.invidious.us/watch?v=2HyhMo4Qtw8">https://redirect.invidious.us/watch?v=2HyhMo4Qtw8</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Inicio &gt; impresoras y escaners
+</span></span><span class="line"><span class="cl">Seleccioná impresora a compartir y dale a propiedades de impresora &gt; compartir(pestaña) &gt; compartir esta impresora
+</span></span><span class="line"><span class="cl">Seguridad (pestaña) &gt; Agregar &gt; Escriba los nombres de objeto que desea seleccionar &gt; impresora(usuario creado) &gt; Comprobar nombres &gt; Aceptar &gt; Ahora dale todos los permisos al usuario &gt; Imprimir, Administrar esta impresora, Administrar documentos.
+</span></span></code></pre></div><h3 id="lo-que-me-funcionó-no-necesité-crear-el-usuario-como-en-el-paso-anterior-sólo-agregar-una-contraseña">Lo que me funcionó (no necesité crear el usuario como en el paso anterior sólo agregar una contraseña)</h3>
+<p>Primero tenés que compartir la impresora como fue mencionado anteriormente.</p>
+<p>Luego ingresá a recursos compartidos de windows &gt; cambiar configuración de uso avanzado &gt; ahí bajo las opciones de privada, publica, todas las redes seleccioná la primera, en la última seleccioná compartir por contraseña.</p>
+<p>En la computadora servidor que tiene la impresora conectada:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">Inicio</span> <span class="o">&gt;</span> <span class="ne">Panel</span> <span class="n">de</span> <span class="n">control</span> <span class="o">&gt;</span> <span class="n">buscá</span><span class="p">:</span> <span class="n">centro</span> <span class="n">de</span> <span class="n">redes</span> <span class="o">&gt;</span> <span class="n">cambiar</span> <span class="n">configuración</span> <span class="n">de</span> <span class="n">uso</span> <span class="n">avanzado</span> <span class="o">&gt;</span> <span class="n">todas</span> <span class="n">las</span> <span class="n">redes</span> <span class="o">&gt;</span> <span class="n">activar</span> <span class="n">el</span> <span class="n">uso</span> <span class="n">compartido</span> <span class="n">por</span> <span class="n">protección</span> <span class="n">por</span> <span class="n">contraseña</span> <span class="n">y</span> <span class="n">en</span> <span class="n">las</span> <span class="n">demás</span> <span class="n">secciones</span> <span class="p">(</span><span class="n">privada</span> <span class="n">pública</span><span class="p">)</span> <span class="n">debe</span> <span class="n">estar</span> <span class="n">seleccionada</span> <span class="n">las</span> <span class="n">primeras</span> <span class="n">opciones</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Inicio</span> <span class="o">&gt;</span> <span class="ne">Panel</span> <span class="n">de</span> <span class="n">control</span> <span class="o">&gt;</span> <span class="n">cuentas</span> <span class="n">de</span> <span class="n">usuario</span> <span class="o">&gt;</span> <span class="n">cambiar</span> <span class="n">el</span> <span class="n">tipo</span> <span class="n">de</span> <span class="n">cuenta</span> <span class="o">&gt;</span> <span class="n">crear</span> <span class="n">contraseña</span> <span class="o">&gt;</span> 
+</span></span></code></pre></div><p>Ahora en la computadora cliente debés hacer exactamente los mismos pasos.</p>
+<p>Este paso sólo en el equipo cliente, le damos las credenciales de la computadora a la que nos queremos conectar:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Inicio &gt; administrador de credenciales &gt; credenciales de windows &gt; abajo: agregar credenciales de windows &gt; ingresá los datos del equipo que hace de servidor (IP) nombre de usuario y contraseña.
+</span></span></code></pre></div><p>Ahora desde la máquina cliente ingresá <code>\\IP_COMPUTADORA_SERVIDORA</code> e instalá la impresora compartida dándole doble click.</p>
+<p>Si no funciona así tenés que descargar el driver, pero es raro en la mayoría de los casos funciona así y vas a tener que agregar la impresora manualmente.</p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

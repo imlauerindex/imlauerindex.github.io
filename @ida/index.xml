@@ -6,8 +6,15 @@
     <description>Recent content in Ida on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 26 Aug 2024 15:52:16 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2024 06:41:05 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@ida/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keygen si puedes</title>
+      <link>https://imlauerindex.github.io/keygen/</link>
+      <pubDate>Mon, 09 Sep 2024 06:41:05 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/keygen/</guid>
+      <description>El keygen se encuentra en: https://drive.google.com/file/d/1QRIk3zBGGXH54nSZorX3jnuNmURCHw6K/view?pli=1&#xA;El código que me generó el ida es:&#xA;#include &amp;lt;windows.h&amp;gt; #include &amp;lt;defs.h&amp;gt; #include &amp;lt;stdarg.h&amp;gt; //------------------------------------------------------------------------- // Function declarations void __fastcall _mingw_invalidParameterHandler(const wchar_t *expression, const wchar_t *function, const wchar_t *file, unsigned int line, uintptr_t pReserved); int __cdecl pre_c_init(); void __cdecl pre_cpp_init(); // int __cdecl _tmainCRTStartup(); // int __cdecl WinMainCRTStartup(); int __cdecl mainCRTStartup(); char *__fastcall generaLetras(int a1, char *a2); __int64 __fastcall generaNumero(char *a1); // idb int __fastcall generaSerial(char *a1, char *a2); int __fastcall checkSerial(char *a1, char *a2); INT_PTR __fastcall DialogProc(HWND a1, int a2, unsigned __int16 a3); int __stdcall WinMain(HINSTANCE hInst, HINSTANCE hPreInst, LPSTR lpszCmdLine, int nCmdShow); void *__fastcall decode_pointer(void *codedptr); void *__fastcall encode_pointer(void *ptr); int __cdecl setargv(); void __fastcall _mingw_raise_matherr(int typ, const char *name, double a3, double a1, double rslt); void __fastcall _mingw_setusermatherr(int (*f)(_exception *)); int __fastcall matherr(_exception *pexcept); void _report_error(const char *msg, .</description>
+    </item>
     <item>
       <title>Ricardo Narvaja: Examen 10 (Ejecutar calculadora no es un bufferoverflow)</title>
       <link>https://imlauerindex.github.io/buffer_overflow_10/</link>

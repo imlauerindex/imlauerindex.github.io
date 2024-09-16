@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Openbsd install | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://imlauerindex.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://imlauerindex.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://imlauerindex.github.io/">
+      <img src="https://imlauerindex.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://imlauerindex.github.io/openbsd_install/">
+      <span>Openbsd install</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+</ul>
+
+<div class="content"><p><a href="https://redirect.invidious.io/playlist?list=PLbET-7keUM8qiNs0D7ya2cnu-n2y1JRwC">https://redirect.invidious.io/playlist?list=PLbET-7keUM8qiNs0D7ya2cnu-n2y1JRwC</a></p>
+<p><a href="https://redirect.invidious.io/watch?v=DQrXvjV9lyQ">https://redirect.invidious.io/watch?v=DQrXvjV9lyQ</a></p>
+<p><a href="https://redirect.invidious.io/watch?v=c5WnhxFx6P8">https://redirect.invidious.io/watch?v=c5WnhxFx6P8</a></p>
+<p>Primero descargamos install-number.iso de la arquitectura de pc que estemos usando.</p>
+<p><a href="https://www.openbsd.org/faq/faq4.html#Download">https://www.openbsd.org/faq/faq4.html#Download</a></p>
+<h4 id="luego-de-bootear-openbsd">Luego de bootear OpenBSD:</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Welcome to the OpenBSD/amd64 7.1 installation program.
+</span></span><span class="line"><span class="cl">(I)nstall, (U)pgrade, (A)utoinstall, (S)hell? S
+</span></span></code></pre></div><p>Para saber como se llama tu disco duro:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># dmesg | grep &#34;sd&#34;
+</span></span><span class="line"><span class="cl"># cd /dev &amp;&amp; sh MAKEDEV sd0
+</span></span><span class="line"><span class="cl"># fdisk -gy -b 960 sd0 (gpt)
+</span></span><span class="line"><span class="cl"># disklabel -E sd0
+</span></span><span class="line"><span class="cl">sd0 &gt; p g
+</span></span><span class="line"><span class="cl">sd0 &gt; d a
+</span></span><span class="line"><span class="cl">sd0 &gt; ?
+</span></span><span class="line"><span class="cl">sd0 &gt; a a
+</span></span><span class="line"><span class="cl">offset: [1024]
+</span></span><span class="line"><span class="cl">size: [...] *
+</span></span><span class="line"><span class="cl">FS Type: [4.2BSD] RAID
+</span></span><span class="line"><span class="cl">sd0 &gt; w
+</span></span><span class="line"><span class="cl">sd0 &gt; q
+</span></span><span class="line"><span class="cl"># bioctl -c C -l sd0a softraid0
+</span></span><span class="line"><span class="cl">Creará un &#34;crypto volume&#34; como sd3
+</span></span><span class="line"><span class="cl"># dmesg | grep &#34;sd&#34;
+</span></span><span class="line"><span class="cl"># cd /dev &amp;&amp; sh MAKEDEV sd3
+</span></span><span class="line"><span class="cl"># dd if=/dev/zero of=/dev/rsd3c bs=1m count=1
+</span></span><span class="line"><span class="cl"># exit
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Welcome to the OpenBSD/amd64 7.1 installation program.
+</span></span><span class="line"><span class="cl">1. (I)nstall, (U)pgrade, (A)utoinstall, (S)hell? I
+</span></span><span class="line"><span class="cl">2. Keyboard layout: es
+</span></span><span class="line"><span class="cl">3. System hostname: obsdlaptop
+</span></span><span class="line"><span class="cl">4. Which network interface do you wish to configure? done
+</span></span><span class="line"><span class="cl">Es facil de crear una interfaz de red luego de la instalación así que no te preocupes.
+</span></span><span class="line"><span class="cl">5. DNS domain name? Enter
+</span></span><span class="line"><span class="cl">6. DNS nameservers? Usá por defecto luego lo cambiamos. (Enter)
+</span></span><span class="line"><span class="cl">7. Password for root?
+</span></span><span class="line"><span class="cl">8. Do you want the X window system to be started by xenodm(1)? 
+</span></span><span class="line"><span class="cl">* no (si querés usar startx)
+</span></span><span class="line"><span class="cl">* yes (si querés una pantalla de login)
+</span></span><span class="line"><span class="cl">9. Setup a user? esotericwarfare
+</span></span><span class="line"><span class="cl">10. Allow root ssh login? no
+</span></span><span class="line"><span class="cl">11. Which disk is the root disk? sd3 (el volumen crypto que creamos)
+</span></span><span class="line"><span class="cl">12. gpt (ya expliqué en la publicación de instalacion de gentoo la diferencia entre gpt y msdos)
+</span></span><span class="line"><span class="cl">13. E(edit) 
+</span></span><span class="line"><span class="cl">14. ?
+</span></span><span class="line"><span class="cl">15. p g (print gigabytes)
+</span></span><span class="line"><span class="cl">16. R l (resize)
+</span></span><span class="line"><span class="cl">-2G
+</span></span><span class="line"><span class="cl">17. p g
+</span></span><span class="line"><span class="cl">18. R h
+</span></span><span class="line"><span class="cl">+2G
+</span></span><span class="line"><span class="cl">19. p g
+</span></span><span class="line"><span class="cl">20. w
+</span></span><span class="line"><span class="cl">21. q
+</span></span><span class="line"><span class="cl">22. done
+</span></span><span class="line"><span class="cl">23. disk (si usaste install-number.img, miniroot-number.img requiere internet)
+</span></span><span class="line"><span class="cl">24. Is the disk partition already mounted? no
+</span></span><span class="line"><span class="cl">25. Which disk contains the install media? Acá seleccioná tu pendrive (sd1 o sd2 tenés que haberlo mirado con dmesg)
+</span></span><span class="line"><span class="cl">26. Which partition has the install sets? [a] a
+</span></span><span class="line"><span class="cl">27. Pathname to the sets? [7.1/amd64] (Enter)
+</span></span><span class="line"><span class="cl">28. -x* (eliminará todo lo relacionado con el servidor Xorg) NO lo hagas si estás instalando openbsd para desktop otro ejemplo: -game*
+</span></span><span class="line"><span class="cl">29. Directory does not contain SHA256 sig. Continue without verification? YES.
+</span></span><span class="line"><span class="cl">30. Location of the sets? [done]
+</span></span><span class="line"><span class="cl">31. What timezone are you in ? America/Boise
+</span></span><span class="line"><span class="cl">Acá falla al descargar el firmware XD vas a tener que conectarte a través de ethernet y bajarlo o usar un pendrive.
+</span></span><span class="line"><span class="cl">32. Exit to (S) ,... [reboot] (Enter) Primero sacá el pendrive o el medio de instalación.
+</span></span></code></pre></div><p>corebooting las thinkpad es un dolor de huevos hay muchos problemas y podés brikear la laptop.</p>
+<p>k openbsd está roto, hay que usar el archivo de openbsd efi (método que se mostró en el video de dual openbsd linux) &ldquo;chain load&rdquo; ese archivo hay que usar c-bios o tiana core como payload, coreboot rompe la maquina, se pierde funcionalidad de la máquina.
+Solía tener una maquina con coreboot y usaba c-bios como payload y la vendí</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">33. Nos logueamos como root en la tty.
+</span></span><span class="line"><span class="cl">34. # mail.
+</span></span><span class="line"><span class="cl">&amp; 1
+</span></span><span class="line"><span class="cl">&amp; ?
+</span></span><span class="line"><span class="cl">&amp; more
+</span></span><span class="line"><span class="cl">Podés mandar a openbsd.org tu dmesg para asegurarte que corre bien en tu PC.
+</span></span><span class="line"><span class="cl">exit (ctrl+c)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">35. vi /etc/doas.conf
+</span></span><span class="line"><span class="cl">permit persist :wheel
+</span></span><span class="line"><span class="cl">exit
+</span></span><span class="line"><span class="cl">exit
+</span></span></code></pre></div><p>Y reingresá a tu usuario.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">36. Ahora hay que conectarse a internet.
+</span></span><span class="line"><span class="cl">37. doas pkg_add sakura
+</span></span></code></pre></div></div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Wordpress: HowTo | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://imlauerindex.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://imlauerindex.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://imlauerindex.github.io/">
+      <img src="https://imlauerindex.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://imlauerindex.github.io/wordpress_howto/">
+      <span>Wordpress: HowTo</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://imlauerindex.github.io/@wordpress/">Wordpress</a></li>
+  
+</ul>
+
+<div class="content"><p>Primero instalamos mariadb (alternativa open-source a mysql) la configuramos y creamos una base de datos y tabla prueba.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install -y mariadb-server
+</span></span><span class="line"><span class="cl">sudo systemctl start mariadb
+</span></span><span class="line"><span class="cl">sudo systemctl enable mariadb
+</span></span><span class="line"><span class="cl">sudo systemctl status mariadb
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">// sudo mysql_secure_installation (comando deprecado)
+</span></span><span class="line"><span class="cl">sudo mariadb-install-db
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sudo mysql
+</span></span><span class="line"><span class="cl">grant all on *.* to &#39;admin&#39;@&#39;%&#39; identified by &#39;myawesomepass&#39; with grant option;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">// O en vez de &#39;%&#39; podés usar &#39;localhost&#39;
+</span></span><span class="line"><span class="cl">grant all on *.* to &#39;admin&#39;@&#39;localhost&#39; identified by &#39;myawesomepass&#39; with grant option;
+</span></span></code></pre></div><p>Luego desde tu usuario normal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">mysql</span> <span class="o">-</span><span class="n">u</span> <span class="n">admin</span><span class="err">@</span><span class="n">localhost</span> <span class="o">-</span><span class="n">p</span>
+</span></span><span class="line"><span class="cl"><span class="n">show</span> <span class="n">databases</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">create</span> <span class="n">database</span> <span class="n">db1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">use</span> <span class="n">db1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">show</span> <span class="n">tables</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">create</span> <span class="n">table</span> <span class="n">names</span> <span class="p">(</span><span class="n">id</span> <span class="ne">int</span> <span class="n">primary</span> <span class="n">key</span><span class="p">,</span> <span class="n">name</span> <span class="n">varchar</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span> <span class="ow">not</span> <span class="n">null</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">show</span> <span class="n">tables</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">quit</span>
+</span></span></code></pre></div><h4 id="diferentes-formas-de-configurar-el-usuario-creado">Diferentes formas de configurar el usuario creado:</h4>
+<p><a href="https://phoenixnap.com/kb/how-to-create-mariadb-user-grant-privileges">https://phoenixnap.com/kb/how-to-create-mariadb-user-grant-privileges</a></p>
+<h4 id="descargue-wordpress">Descargue wordpress:</h4>
+<p><a href="https://wordpress.org/download/">https://wordpress.org/download/</a></p>
+<h4 id="descomprimilo-e-instalalo">Descomprimilo e instalalo.</h4>
+<p><code>unzip wordpress*.zip</code></p>
+<h4 id="corré-wordpress">Corré wordpress</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd wordpress
+</span></span><span class="line"><span class="cl">sudo php -S localhost:80 -t .
+</span></span></code></pre></div><p>Luego de conectarte a http://localhost ingresá los datos de tu base de datos y procedé a instalar wordpress, estableciendo el nombre del sitio, el usuario del administrador del wordpress, contraseña, email, y si querés que los motores de búsqueda no te sigan.</p>
+<h5 id="ahora-procederemos-a-instalar-los-plugins">Ahora procederemos a instalar los plugins.</h5>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>

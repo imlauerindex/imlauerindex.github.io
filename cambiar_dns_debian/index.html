@@ -58,7 +58,11 @@ Entonces:</p>
 <li>elimina el enlace simbólico (<code>rm /etc/resolv.conf</code>)</li>
 <li>escribí tu propia versión de <code>/etc/resolv.conf</code></li>
 </ul>
-<h3 id="usando-resolvconf-para-agregar-dns-en-etcresolvconf">Usando resolvconf para agregar DNS en <code>/etc/resolv.conf</code></h3>
+<p>Luego recibirás este error XD:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Error: ipv4: Address already assigned.
+</span></span><span class="line"><span class="cl">/etc/resolvconf/update.d/libc: Warning: /etc/resolv.conf is not a symbolic link to /
+</span></span><span class="line"><span class="cl">run/resolvconf/resolv.conf
+</span></span></code></pre></div><h3 id="usando-resolvconf-para-agregar-dns-en-etcresolvconf">Usando resolvconf para agregar DNS en <code>/etc/resolv.conf</code></h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update
 </span></span><span class="line"><span class="cl">sudo apt install resolvconf
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo vim /etc/resolvconf/resolv.conf.d/head

@@ -6,8 +6,15 @@
     <description>Recent content in Impresora on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 08 Jul 2024 07:01:37 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2024 11:07:44 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@impresora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compartir impresora en Windows</title>
+      <link>https://imlauerindex.github.io/compartir_impresora/</link>
+      <pubDate>Wed, 11 Sep 2024 11:07:44 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/compartir_impresora/</guid>
+      <description>YouTube https://www.youtube.com/watch?v=2HyhMo4Qtw8&#xA;Invidious https://redirect.invidious.us/watch?v=2HyhMo4Qtw8&#xA;Inicio &amp;gt; impresoras y escaners Seleccioná impresora a compartir y dale a propiedades de impresora &amp;gt; compartir(pestaña) &amp;gt; compartir esta impresora Seguridad (pestaña) &amp;gt; Agregar &amp;gt; Escriba los nombres de objeto que desea seleccionar &amp;gt; impresora(usuario creado) &amp;gt; Comprobar nombres &amp;gt; Aceptar &amp;gt; Ahora dale todos los permisos al usuario &amp;gt; Imprimir, Administrar esta impresora, Administrar documentos. Lo que me funcionó (no necesité crear el usuario como en el paso anterior sólo agregar una contraseña) Primero tenés que compartir la impresora como fue mencionado anteriormente.</description>
+    </item>
     <item>
       <title>Instalar impresora compartida de Windows en GNU/Linux</title>
       <link>https://imlauerindex.github.io/instalar_impresora_compartida_de_windows_en_linux/</link>

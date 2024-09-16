@@ -6,8 +6,15 @@
     <description>Recent content in Hugo on Index</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 14 Aug 2024 09:44:43 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2024 16:17:04 -0300</lastBuildDate>
     <atom:link href="https://imlauerindex.github.io/@hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agregar Rawhtml en HUGO</title>
+      <link>https://imlauerindex.github.io/rawhtml_hugo/</link>
+      <pubDate>Tue, 10 Sep 2024 16:17:04 -0300</pubDate>
+      <guid>https://imlauerindex.github.io/rawhtml_hugo/</guid>
+      <description>Para hacer esto previamente es recomendable tener clonado el repo del theme o forkeado y comitear los cambios.&#xA;Agregá en /layouts/shortcodes/rawhtml.html&#xA;&amp;lt;!-- raw html --&amp;gt; {{.Inner}} </description>
+    </item>
     <item>
       <title>Agregando LaTeX a HUGO</title>
       <link>https://imlauerindex.github.io/agregando_latex_a_hugo/</link>

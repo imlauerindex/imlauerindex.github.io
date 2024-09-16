@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Openbsd kvm/virtmanager | Index</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="">
+<meta name="generator" content="hugo-index">
+<link crossorigin="anonymous" href="https://imlauerindex.github.io/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://imlauerindex.github.io/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://imlauerindex.github.io/">
+      <img src="https://imlauerindex.github.io/index.png" alt="Index">
+      <span>Index</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://imlauerindex.github.io/openbsd_kvm_virtmanager/">
+      <span>Openbsd kvm/virtmanager</span>
+    </a>
+  </h1>
+  <p class="desc"></p>
+</header>
+<div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://imlauerindex.github.io/@openbsd/">Openbsd</a></li>
+  
+  <li><a href="https://imlauerindex.github.io/@virtmanager/">Virtmanager</a></li>
+  
+</ul>
+
+<div class="content"><p>Para instalar OpenBSD usando <a href="/post/como-instalar-qemu-kvm-virt-manager/">Qemu-kvm-virtmanager</a> tenés que deshabilitar la opción <code>Enable I/O APIC</code> que se encuentra en <code>opciones &gt; sistema</code>.</p>
+<h4 id="otra-posible-solución">Otra posible solución</h4>
+<p><code>You need to change the VM from dynamically allocated to fixed size on the physical HDD.</code></p>
+<h4 id="otra-posible-solución-1">Otra posible solución</h4>
+<p>Utilizo virt-manager para administrar máquinas virtuales. Estos son los pasos para hacerlo al crear la VM:</p>
+<ol>
+<li>Creá la VM y en el último paso elegí &ldquo;Personalizar la configuración antes de la instalación&rdquo; (Customize configuration before install)</li>
+<li>Hacé clic en la pestaña &ldquo;IDE CDROM 1&rdquo; y cambie &ldquo;Bus de disco&rdquo;(Disk bus) a SATA</li>
+<li>Luego hacé clic en Aplicar y luego en Iniciar instalación en la parte superior izquierda.</li>
+</ol>
+<p>Después de eso, OpenBSD se instaló correctamente.</p>
+<h4 id="otras-posibles-soluciones">Otras posibles soluciones.</h4>
+<p><a href="https://unix.stackexchange.com/questions/674372/kernel-panic-while-install-openbsd">https://unix.stackexchange.com/questions/674372/kernel-panic-while-install-openbsd</a></p>
+<p><a href="https://www.wezm.net/v2/posts/2023/openbsd-db-atapi-start-not-ready/">https://www.wezm.net/v2/posts/2023/openbsd-db-atapi-start-not-ready/</a></p>
+</div></div><footer>
+    <hr>
+    <div class="footer-text">
+        <div>© 2024 Index</div>
+        <div>Powered by <a href="https://gohugo.io/">Hugo</a> & <a
+                href="https://github.com/adityatelange/hugo-index/">Index</a></div>
+    </div>
+</footer>
+</body>
+</html>
