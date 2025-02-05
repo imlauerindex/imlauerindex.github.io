@@ -1,8 +1,10 @@
 ---
-title: "Controlar porton firebase"
+title: "Controlar portón con Firebase"
 date: 2025-02-03T16:51:42-03:00
 tags: ['porton']
 ---
+MIT APP INVENTOR: https://appinventor.mit.edu/
+
 Le cambié por 0 y 1:
 
 **Nota**: El programa compartido en esta URL no me funcionó porque usa una librería vieja de Firebase y no me dió el código de la librería vieja tuve que usar otro codigo para el ESP32 pero sí usé la aplicación creada en el MIT APP solo hice unas pequeñas modificaciones como el PIN de salida y el nombre y el ícono de la app y la URL del firebase, etc.
