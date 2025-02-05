@@ -7,6 +7,8 @@ Le cambié por 0 y 1:
 
 **Nota**: El programa compartido en esta URL no me funcionó porque usa una librería vieja de Firebase y no me dió el código de la librería vieja tuve que usar otro codigo para el ESP32 pero sí usé la aplicación creada en el MIT APP solo hice unas pequeñas modificaciones como el PIN de salida y el nombre y el ícono de la app y la URL del firebase, etc.
 
+Y en el programa de MIT APP le cambié "ON" y "OFF" por Math - 0 y 1
+
 #### Acá está la aplicación de Android hecha en MIT APP Inventor y el codigo que NO COMPILA para el ESP32 (explicado anteriormente)
 http://kio4.com/arduino/117_Wemos_Firebase.htm (https://archive.is/Ytxyu)
 
