@@ -19,7 +19,7 @@ https://github.com/MohammedArmanKhan/Turn-LED-ON-OFF-from-firebase-using-ESP32 (
 
 En donde contiene la librería vieja usada.
 
-```
+```c
 #include <WiFi.h>                                                // esp32 library
 
 #include <IOXhop_FirebaseESP32.h>                                             // firebase library
