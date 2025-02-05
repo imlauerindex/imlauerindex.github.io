@@ -1,0 +1,42 @@
+baseURL = "https://imlauera.github.io"
+ignoreLogs = ['warning-goldmark-raw-html']
+languageCode = "es-es"
+title = "Imlauer"
+#theme = "hugo-texify3"
+theme = "bare"
+enableGitInfo = false
+
+#paginate = 250
+pagination.pagerSize = 250
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+
+[params]
+mainSections = ["post"]
+author = "Imlauer."
+email = "imlauerandres[at]gmail.com"
+picture = "/img/memememe.jpg"
+#repoLink = "https://github.com/orf/bare-hugo-theme"
+description = 'imlauerandres [at] gmail.com | bitcoin: bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3'
+#description = 'imlauerandres [at] gmail.com'
+# PostCSS is harder than it should be to get working on a theme
+# example site. It's easy on _your_ site.
+postcss = false
+
+# Include the author name in the <title> of articles
+includeAuthorInTitle = false
+# link, primary, info, success, warning, danger, small, medium, large, half height hero, fullheight hero, Fullheight hero with navbar
+hero_colour = "link"
+
+[markup.highlight]
+noClasses = true
+theme = "monokai"
+
+[minify]
+  disableHTML = true
+
+[[params.social]]
+	icon = "github"
+	url = "https://github.com/imlauera/"

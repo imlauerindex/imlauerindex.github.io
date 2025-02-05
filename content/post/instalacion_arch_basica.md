@@ -1,0 +1,969 @@
+---
+title: "Instalación de ArchLinux completa y cheatsheet de pacman"
+date: 2023-11-22T02:05:50-03:00
+tags: ["archlinux","full","installation"]
+---
+
+```bash
+loadkeys es
+timedatectl set-ntp true
+```
+
+#### Configurar wifi después de bootear a arch
+```bash
+iwctl
+device list
+station wlan0 scan
+station wlan0 get-networks
+station wlan0 connect asdf
+station wlan0 show
+exit
+```
+#### Probar la conexión
+ping dgg.gg
+
+
+##### Listá tus particiones
+`fdisk -l`
+
+###### Para empezar a particionar ejecutamos
+`cfdisk /dev/sda` o usando `fdisk /dev/sda` explicado más abajo
+
+De ahí seleccioná gpt en la lista.
+
+Explicación de por qué gpt:   
+>To boot MBR under UEFI, you need CSM. Intel pushed for its removal years ago, so it's unlikely to find it in anything modern.
+Es recomendable para UEFI con hdd mayores a 2teras, dos también funciona con UEFI pero para bootear un disco duro con MBR(dos) desde UEFI se usa CSM que es algo viejo deprecado por intel). En MBR(DOS) no podés tener una partición de 3 teras. GPT es el futuro.  UEFI Firware necesita GPT. 
+
+
+Explicación sobre MBR(DOS) y GPT : [https://youtube.com/watch?v=Ch9f7i0hj90](https://youtube.com/watch?v=Ch9f7i0hj90)
+
+
+[https://hardzone.es/reportajes/que-es/csm-bios-uefi-placa-base-hdd-ssd/](https://hardzone.es/reportajes/que-es/csm-bios-uefi-placa-base-hdd-ssd/)
+
+
+**Crea una particion de efi de por lo menos 300 megas, otra de swap de 4gb, y el espacio que sobra para ext4**
+
+
+**Si no lo quieren hacer con cfdisk lo pueden hacer con fdisk de la siguiente manera:**
+#### uefi (gpt)
+```bash
+g (gpt disk label)
+n
+1 (partition number [1/128])
+2048 first sector
++300M last sector (boot sector size)
+t
+1 (EFI System)
+n
+2
+default
++4G
+t
+2
+swap
+n
+3
+default (fill up partition)
+default (fill up partition)
+w (write)
+```
+
+
+#### Formateo, montado de particiones e instalación base (usando UEFI)
+```bash
+mkfs.ext4 /dev/sda3 (root partition)
+mkswap /dev/sda2 (swap partition)
+mkfs.fat -F 32 /dev/sda1 (efi partition)
+mount /dev/sda3 (root_partition) /mnt
+mount --mkdir /dev/sda1 (efi partition) /mnt/boot
+swapon /dev/sda2 (swap_partition)
+pacstrap -K /mnt base base-devel linux linux-firmware vim man-pages man-db
+genfstab -U /mnt >> /mnt/etc/fstab
+arch-chroot /mnt 
+ln -sf /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime
+hwclock --systohc
+vim /etc/locale.gen y descomentá en_US.UTF-8 UTF-8 (es el idioma del sistema operativo a mi me gusta en ingles)
+locale-gen
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
+echo "KEYMAP=es" > /etc/vconsole.conf
+### Mirá en el directorio /usr/share/kbd/consolefonts/ para ver tus letras disponibles
+echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf
+echo "arch" > /etc/hostname
+```
+```bash
+vim /etc/hosts
+127.0.0.1       localhost
+::1 localhost
+127.0.0.1       arch.localdomain	arch
+```
+```bash
+passwd # cambiar la clave del root
+pacman -S grub networkmanager 
+systemctl enable NetworkManager
+
+pacman -S wpa_supplicant wireless_tools netctl  # no necesario, con networkmanager te basta. Opcional 
+```
+```bash
+pacman -S dosfstools mtools # particiones fat
+
+#### uefi(gpt)
+pacman -S efibootmgr 
+grub-install --target=x86_64-efi --bootloader-id=grub_uefi --efi-directory=/boot --recheck
+```
+## OJO!!
+En algunos UEFI frameworks con fallas tenes que instalar el grub usando el parámetro `--removable` para instalar el bootloader a la ubicación de respaldo "fallback" porque sino se borra sólo la entrada del efi.
+
+[https://bbs.archlinux.org/viewtopic.php?id=250928](https://bbs.archlinux.org/viewtopic.php?id=250928)
+
+```bash
+sudo grub-install --target=x86_64-efi --efi-directory=/boot --removable
+```
+
+Si no hacés esto, de todas formas vas a poder bootear a tu arch usando la EFI shell de la siguiente manera
+Tenés que ubicar el efi y ejecutarlo
+```bash
+blk0:
+cd EFI
+cd grub
+grubx64.efi
+```
+
+##### legacy dos/mbr
+
+```bash
+grub-install /dev/sda --recheck
+```
+
+###### Luego de instalar el grub se lo configura con el siguiente comando:
+
+## Para que os-prober reconozca las demás distros tenés que montar las otras particiones luego de inicar arch y en `/etc/default/grub` agregá la siguiente línea:
+
+`GRUB_DISABLE_OS_PROBER=false`
+
+
+```
+sudo mount --mkdir /dev/sdaX /mnt/linux
+```
+
+Ejecutá: `sudo os-prober` para verificar que detecte la partición de las demás distribuciones de linux que tengas.
+
+Luego
+
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+exit
+```
+
+##### Ahora salimos del chroot y reiniciamos
+```bash
+exit
+reboot
+```
+
+#### Crear un usuario e instalar xfce
+
+```console
+# nmtui (para conectarse wifi)
+# useradd -m -g users -G video,audio,wheel nombre_usuario
+# passwd nombre_usuario ## agregar password
+# vim /etc/sudoers y agregá tu usuario copiando la linea de root y sustituyendo root por tu nombre de usuario
+# pacman -S pipewire pipewire-pulse # servidor de audio
+# pacman -S pavucontrol (opcional para controlar y setear otras placas de audio)
+### Agregá esto a .xinitrc si es que no usas un login manager (aunque para mi no fue necesario)
+# pipewire &
+# pipewire-pulse &
+# pipewire-media-session &
+#### Esto yo no lo volvería a instalar, solo xorg y xorg-xinit porque uso dwm, o ahora estoy usando sólo la TTY.
+# pacman -Syu xorg xfce4 xfce4-goodies 
+# pacman -S fish 
+### La configuración de fish está en .fish/config/config.fish, uso fish por el autosuggestions.
+# chsh para cambiar la shell del usuario actual
+```
+
+Ingresá desde tu usuario y creá un archivo .xinitrc adentro poné
+```bash
+exec xfce4-session
+```
+
+### agregar keymap keyboard y touchpad synaptics
+
+```console
+# /etc/X11/xorg.conf.d/00-keyboard.conf
+Section "InputClass"
+        Identifier "system-keyboard"
+        MatchIsKeyboard "on"
+        Option "XkbLayout" "es"
+        Option "XkbModel" "pc104"
+EndSection
+```
+
+
+```console
+# /etc/X11/xorg.conf.d/70-synaptics.conf
+Section "InputClass"
+    Identifier "touchpad"
+    Driver "synaptics"
+    MatchIsTouchpad "on"
+        Option "TapButton1" "1"
+        Option "TapButton2" "3"
+        Option "TapButton3" "2"
+        Option "VertEdgeScroll" "on"
+        Option "VertTwoFingerScroll" "on"
+        Option "HorizEdgeScroll" "on"
+        Option "HorizTwoFingerScroll" "on"
+        Option "CircularScrolling" "on"
+        Option "CircScrollTrigger" "2"
+        Option "EmulateTwoFingerMinZ" "40"
+        Option "EmulateTwoFingerMinW" "8"
+        Option "CoastingSpeed" "0"
+        Option "FingerLow" "30"
+        Option "FingerHigh" "50"
+        Option "MaxTapTime" "125"
+EndSection
+```
+
+
+### Para limpiar la terminal cuando tenés seteado el set -o vi
+Esto va en el archivo .inputrc
+```bash
+set editing-mode vi
+$if mode=vi
+
+set keymap vi-command
+# these are for vi-command mode
+Control-l: clear-screen
+
+set keymap vi-insert
+# these are for vi-insert mode
+Control-l: clear-screen 
+$endif
+```
+
+
+
+
+
+
+Luego guardá y ejecutá startx, done.
+
+
+Esta instalación que encontré es ligeramente diferente: [https://www.geeksforgeeks.org/arch-linux-installation-and-configuration-on-uefi-machines/](https://www.geeksforgeeks.org/arch-linux-installation-and-configuration-on-uefi-machines/)
+
+
+
+
+#### Fonts
+```bash
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+```
+
+
+### Instalar dwm, st, dvtm, dwmstatus
+
+Instalar las dependencias de dwm sin bloat 
+
+```bash
+sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk
+```
+https://wiki.archlinux.org/title/dwm
+[https://dl.suckless.org/](https://dl.suckless.org/)
+
+Mi dwm configuración: [https://github.com/imlauera/dwm](https://github.com/imlauera/dwm)
+
+
+.xinitrc
+```console
+dwmstatus &
+xfce4-screensaver &
+st -e irssi &
+st -e vim ~/TODO &
+chromium &
+mbsync -a &
+st -e neomutt &
+redshift -O3500; xset r rate 300 50; exec startdwm
+
+
+### startdwm
+while true; do
+    # Log stderror to a file
+    dwm 2> ~/.dwm.log
+    # No error logging
+    #dwm >/dev/null 2>&1
+done
+```
+
+
+#### ATENCION: TUVE PROBLEMAS CON EL STARTDWM
+Tuve problemas usando startdwm directamente escribí exec dwm porque crasheaba el mpv cuando apretaba J y pipewire no lo necesité escribir en .xinitrc directamente lo instalé y funcionaba sin necesidad de escribirlo.
+Configuracion que uso en /etc/mpv/mpv.conf y /etc/yt-dlp.conf
+###### /etc/mpv/mpv.conf
+```bash
+[esotericwarfare@arch mpv]$ cat mpv.conf
+--profile=fast
+--sub-auto=all
+--ytdl-raw-options="format=18,write-auto-sub=,write-sub=,sub-lang=[en,ru]"
+[esotericwarfare@arch mpv]$
+```
+
+##### yt-dlp.conf
+```bash
+[esotericwarfare@arch mpv]$ cat /etc/yt-dlp.conf
+--format=18
+--write-auto-sub
+--write-sub
+--sub-lang=en,ru
+[esotericwarfare@arch mpv]$
+```
+
+# pacman -Qm: Estos paquetes tenes que instalar para terminar la instalación
+```bash
+[esotericwarfare@arch ~]$ pacman -Qm
+cstrike-appimage 1.6-1
+dmenu-git 5.3.r0.7be720c-1
+dmenu-git-debug 5.3.r0.7be720c-1
+jackett-bin 0.22.233-1
+keynav-debug 0.20180821.0-2
+keynav-git 0.+r271.20220824-1
+keynav-git-debug 0.+r271.20220824-1
+ovh-ttyrec-git v1.1.7.1.r0.g36e8dde-1
+ovh-ttyrec-git-debug v1.1.7.1.r0.g36e8dde-1
+simplescreenrecorder 0.4.4-3
+simplescreenrecorder-debug 0.4.4-3
+surf 2.1-6
+surf-debug 2.1-6
+tabbed 0.8-1
+tabbed-debug 0.8-1
+[esotericwarfare@arch ~]$
+```
+
+
+
+
+
+
+
+
+
+```console
+sudo pacman -S git
+git clone https://git.suckless.org/dwm
+git clone https://git.suckless.org/st
+git clone https://git.suckless.org/dwmstatus
+curl -L https://www.brain-dump.org/projects/dvtm/dvtm-0.15.tar.gz -o dvtm.tar.gz
+sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk
+cd st
+sudo make clean install
+cd dwm
+vim config.h
+
+
+static const char *termcmd[]  = { "st","-e","dvtm", NULL };
+
+static const char *up_vol[]   = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "+10%",   NULL };
+static const char *down_vol[] = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "-10%",   NULL };
+static const char *mute_vol[] = { "pactl", "set-sink-mute",   "@DEFAULT_SINK@", "toggle", NULL };
+
+static const char *brighter[] = { "brightnessctl", "set", "10%+", NULL };
+static const char *dimmer[]   = { "brightnessctl", "set", "10%-", NULL };
+
+
+mkdir $HOME/pics
+scrot $HOME/pics/%m-%d-%Y-%H%M%S.png
+scrot $HOME/pics/%m-%d-%Y-%H%M%S.png --select --line mode=edge
+
+
+       { 0,         XK_Print, spawn, SHCMD("/path/to/scripts/screenshot.sh") },
+       { ShiftMask, XK_Print, spawn, SHCMD("/path/to/scripts/screenshotsel.sh") },
+
+sudo make clean install
+
+`cp /etc/X11/xinit/xinitrc ~/.xinitrc`
+.xinitrc:
+```console
+dwmstatus &
+feh --bg-center "/home/esotericwarfare/wall.png" &
+st -e irssi &
+chromium &
+exec startdwm
+```
+
+
+
+##### startdwn:
+```bash
+[esotericwarfare@arch ~]$ cat /usr/bin/startdwm
+while true; do
+    # Log stderror to a file
+    dwm 2> ~/.dwm.log
+    # No error logging
+    #dwm >/dev/null 2>&1
+done
+```
+```
+
+#### Configurar driver intel ( no hace falta el que viene por defecto funciona bien pero para sacarte el screen tearing tenés que usar picom)
+[https://youtube.com/watch?v=zEhAJMQYSws](https://youtube.com/watch?v=zEhAJMQYSws)
+
+
+### Screen tearing
+Tuve un problma de screen tearing que podría estar relacionada con psr (lee la archlinux wiki) lo terminé solucionando con picom, aunque no es la solución ideal
+
+Instalá picom y agregalo al xinitrc así:
+```bash
+picom -cfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88 --daemon
+```
+en `/etc/xdg/picom.conf`, cambiá los siguientes parámetros
+```
+backend = "glx"
+vsync = true
+```
+
+##### Pegar logs 
+```console
+curl -F file=@- https://0x0.st
+```
+
+
+
+### Minimalista picom.conf para arreglar screen tearing
+```bash
+#corner-radius = 14.0;
+#################################
+#             Shadows           #
+#################################
+
+
+# Enabled client-side shadows on windows. Note desktop windows 
+# (windows with '_NET_WM_WINDOW_TYPE_DESKTOP') never get shadow, 
+# unless explicitly requested using the wintypes option.
+#
+# shadow = false
+shadow = false;
+
+# The blur radius for shadows, in pixels. (defaults to 12)
+# shadow-radius = 12
+shadow-radius = 12;
+
+# The opacity of shadows. (0.0 - 1.0, defaults to 0.75)
+# shadow-opacity = .75
+
+# The left offset for shadows, in pixels. (defaults to -15)
+# shadow-offset-x = -15
+shadow-offset-x = -6;
+
+# The top offset for shadows, in pixels. (defaults to -15)
+# shadow-offset-y = -15
+shadow-offset-y = -6;
+
+# Avoid drawing shadows on dock/panel windows. This option is deprecated,
+# you should use the *wintypes* option in your config file instead.
+#
+# no-dock-shadow = false
+
+# Don't draw shadows on drag-and-drop windows. This option is deprecated, 
+# you should use the *wintypes* option in your config file instead.
+#
+# no-dnd-shadow = false
+
+# Red color value of shadow (0.0 - 1.0, defaults to 0).
+# shadow-red = 0
+
+# Green color value of shadow (0.0 - 1.0, defaults to 0).
+# shadow-green = 0
+
+# Blue color value of shadow (0.0 - 1.0, defaults to 0).
+# shadow-blue = 0
+
+# Do not paint shadows on shaped windows. Note shaped windows 
+# here means windows setting its shape through X Shape extension. 
+# Those using ARGB background is beyond our control. 
+# Deprecated, use 
+#   shadow-exclude = 'bounding_shaped'
+# or 
+#   shadow-exclude = 'bounding_shaped && !rounded_corners'
+# instead.
+#
+# shadow-ignore-shaped = ''
+
+# Specify a list of conditions of windows that should have no shadow.
+#
+# examples:
+#   shadow-exclude = "n:e:Notification";
+#
+# shadow-exclude = []
+shadow-exclude = [
+  "name = 'Notification'",
+  "class_g = 'Conky'",
+  "class_g ?= 'Notify-osd'",
+  "class_g = 'Cairo-clock'",
+  "_GTK_FRAME_EXTENTS@:c"
+];
+
+# Specify a X geometry that describes the region in which shadow should not
+# be painted in, such as a dock window region. Use 
+#    shadow-exclude-reg = "x10+0+0"
+# for example, if the 10 pixels on the bottom of the screen should not have shadows painted on.
+#
+# shadow-exclude-reg = "" 
+
+# Crop shadow of a window fully on a particular Xinerama screen to the screen.
+# xinerama-shadow-crop = false
+
+
+#################################
+#           Fading              #
+#################################
+
+
+# Fade windows in/out when opening/closing and when opacity changes,
+#  unless no-fading-openclose is used.
+# fading = false
+fading = false
+
+# Opacity change between steps while fading in. (0.01 - 1.0, defaults to 0.028)
+# fade-in-step = 0.028
+fade-in-step = 0.03;
+
+# Opacity change between steps while fading out. (0.01 - 1.0, defaults to 0.03)
+# fade-out-step = 0.03
+fade-out-step = 0.03;
+
+# The time between steps in fade step, in milliseconds. (> 0, defaults to 10)
+# fade-delta = 10
+
+# Specify a list of conditions of windows that should not be faded.
+# fade-exclude = []
+
+# Do not fade on window open/close.
+# no-fading-openclose = false
+
+# Do not fade destroyed ARGB windows with WM frame. Workaround of bugs in Openbox, Fluxbox, etc.
+# no-fading-destroyed-argb = false
+
+
+#################################
+#   Transparency / Opacity      #
+#################################
+
+
+# Opacity of inactive windows. (0.1 - 1.0, defaults to 1.0)
+# inactive-opacity = 1
+inactive-opacity = 1.0;
+
+# Opacity of window titlebars and borders. (0.1 - 1.0, disabled by default)
+# frame-opacity = 1.0
+frame-opacity = 0.95;
+
+# Default opacity for dropdown menus and popup menus. (0.0 - 1.0, defaults to 1.0)
+# menu-opacity = 1.0
+
+# Let inactive opacity set by -i override the '_NET_WM_OPACITY' values of windows.
+# inactive-opacity-override = true
+inactive-opacity-override = true;
+
+# Default opacity for active windows. (0.0 - 1.0, defaults to 1.0)
+active-opacity = 1.0
+
+# Dim inactive windows. (0.0 - 1.0, defaults to 0.0)
+# inactive-dim = 0.0
+
+# Specify a list of conditions of windows that should always be considered focused.
+# focus-exclude = []
+#focus-exclude = [ "class_g = 'Termite'" ];
+
+# Use fixed inactive dim value, instead of adjusting according to window opacity.
+# inactive-dim-fixed = 1.0
+
+# Specify a list of opacity rules, in the format `PERCENT:PATTERN`, 
+# like `50:name *= "Firefox"`. picom-trans is recommended over this. 
+# Note we don't make any guarantee about possible conflicts with other 
+# programs that set '_NET_WM_WINDOW_OPACITY' on frame or client windows.
+# example:
+#    opacity-rule = [ "80:class_g = 'URxvt'" ];
+
+
+#################################
+#     Background-Blurring       #
+#################################
+
+
+# Parameters for background blurring, see the *BLUR* section for more information.
+# blur-method = 
+# blur-size = 12
+#
+# blur-deviation = false
+
+# Blur background of semi-transparent / ARGB windows. 
+# Bad in performance, with driver-dependent behavior. 
+# The name of the switch may change without prior notifications.
+#
+# blur-background = false
+
+# Blur background of windows when the window frame is not opaque. 
+# Implies:
+#    blur-background 
+# Bad in performance, with driver-dependent behavior. The name may change.
+#
+# blur-background-frame = false
+
+
+# Use fixed blur strength rather than adjusting according to window opacity.
+# blur-background-fixed = false
+
+
+# Specify the blur convolution kernel, with the following format:
+# example:
+#   blur-kern = "5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1";
+#
+# blur-kern = ''
+blur-kern = "3x3box";
+
+
+# Exclude conditions for background blur.
+# blur-background-exclude = []
+blur-background-exclude = [
+  "window_type = 'dock'",
+  "window_type = 'desktop'",
+  "_GTK_FRAME_EXTENTS@:c"
+];
+
+#################################
+#       General Settings        #
+#################################
+
+# Daemonize process. Fork to background after initialization. Causes issues with certain (badly-written) drivers.
+# daemon = false
+
+# Specify the backend to use: `xrender`, `glx`, or `xr_glx_hybrid`.
+# `xrender` is the default one.
+#
+# backend = 'glx'
+backend = "xrender";
+
+# Enable/disable VSync.
+# vsync = false
+vsync = true
+
+# Enable remote control via D-Bus. See the *D-BUS API* section below for more details.
+# dbus = false
+
+# Try to detect WM windows (a non-override-redirect window with no 
+# child that has 'WM_STATE') and mark them as active.
+#
+# mark-wmwin-focused = false
+mark-wmwin-focused = true;
+
+# Mark override-redirect windows that doesn't have a child window with 'WM_STATE' focused.
+# mark-ovredir-focused = false
+mark-ovredir-focused = true;
+
+# Try to detect windows with rounded corners and don't consider them 
+# shaped windows. The accuracy is not very high, unfortunately.
+#
+# detect-rounded-corners = false
+detect-rounded-corners = true;
+
+# Detect '_NET_WM_OPACITY' on client windows, useful for window managers
+# not passing '_NET_WM_OPACITY' of client windows to frame windows.
+#
+# detect-client-opacity = false
+detect-client-opacity = true;
+
+# Specify refresh rate of the screen. If not specified or 0, picom will 
+# try detecting this with X RandR extension.
+#
+# refresh-rate = 60
+refresh-rate = 60
+
+# Limit picom to repaint at most once every 1 / 'refresh_rate' second to 
+# boost performance. This should not be used with 
+#   vsync drm/opengl/opengl-oml
+# as they essentially does sw-opti's job already, 
+# unless you wish to specify a lower refresh rate than the actual value.
+#
+# sw-opti = 
+
+# Use EWMH '_NET_ACTIVE_WINDOW' to determine currently focused window, 
+# rather than listening to 'FocusIn'/'FocusOut' event. Might have more accuracy, 
+# provided that the WM supports it.
+#
+# use-ewmh-active-win = false
+
+# Unredirect all windows if a full-screen opaque window is detected, 
+# to maximize performance for full-screen windows. Known to cause flickering 
+# when redirecting/unredirecting windows.
+#
+# unredir-if-possible = false
+
+# Delay before unredirecting the window, in milliseconds. Defaults to 0.
+# unredir-if-possible-delay = 0
+
+# Conditions of windows that shouldn't be considered full-screen for unredirecting screen.
+# unredir-if-possible-exclude = []
+
+# Use 'WM_TRANSIENT_FOR' to group windows, and consider windows 
+# in the same group focused at the same time.
+#
+detect-transient = false
+#detect-transient = true
+
+# Use 'WM_CLIENT_LEADER' to group windows, and consider windows in the same 
+# group focused at the same time. 'WM_TRANSIENT_FOR' has higher priority if 
+# detect-transient is enabled, too.
+#
+# detect-client-leader = false
+detect-client-leader = true
+
+# Resize damaged region by a specific number of pixels. 
+# A positive value enlarges it while a negative one shrinks it. 
+# If the value is positive, those additional pixels will not be actually painted 
+# to screen, only used in blur calculation, and such. (Due to technical limitations, 
+# with use-damage, those pixels will still be incorrectly painted to screen.) 
+# Primarily used to fix the line corruption issues of blur, 
+# in which case you should use the blur radius value here 
+# (e.g. with a 3x3 kernel, you should use `--resize-damage 1`, 
+# with a 5x5 one you use `--resize-damage 2`, and so on). 
+# May or may not work with *--glx-no-stencil*. Shrinking doesn't function correctly.
+#
+# resize-damage = 1
+
+# Specify a list of conditions of windows that should be painted with inverted color. 
+# Resource-hogging, and is not well tested.
+#
+# invert-color-include = []
+
+# GLX backend: Avoid using stencil buffer, useful if you don't have a stencil buffer. 
+# Might cause incorrect opacity when rendering transparent content (but never 
+# practically happened) and may not work with blur-background. 
+# My tests show a 15% performance boost. Recommended.
+#
+# glx-no-stencil = false
+
+# GLX backend: Avoid rebinding pixmap on window damage. 
+# Probably could improve performance on rapid window content changes, 
+# but is known to break things on some drivers (LLVMpipe, xf86-video-intel, etc.).
+# Recommended if it works.
+#
+# glx-no-rebind-pixmap = false
+
+# Disable the use of damage information. 
+# This cause the whole screen to be redrawn everytime, instead of the part of the screen
+# has actually changed. Potentially degrades the performance, but might fix some artifacts.
+# The opposing option is use-damage
+#
+# no-use-damage = false
+use-damage = true
+
+# Use X Sync fence to sync clients' draw calls, to make sure all draw 
+# calls are finished before picom starts drawing. Needed on nvidia-drivers 
+# with GLX backend for some users.
+#
+# xrender-sync-fence = false
+
+# GLX backend: Use specified GLSL fragment shader for rendering window contents. 
+# See `compton-default-fshader-win.glsl` and `compton-fake-transparency-fshader-win.glsl` 
+# in the source tree for examples.
+#
+# glx-fshader-win = ''
+
+# Force all windows to be painted with blending. Useful if you 
+# have a glx-fshader-win that could turn opaque pixels transparent.
+#
+# force-win-blend = false
+
+# Do not use EWMH to detect fullscreen windows. 
+# Reverts to checking if a window is fullscreen based only on its size and coordinates.
+#
+# no-ewmh-fullscreen = false
+
+# Dimming bright windows so their brightness doesn't exceed this set value. 
+# Brightness of a window is estimated by averaging all pixels in the window, 
+# so this could comes with a performance hit. 
+# Setting this to 1.0 disables this behaviour. Requires --use-damage to be disabled. (default: 1.0)
+#
+# max-brightness = 1.0
+
+# Make transparent windows clip other windows like non-transparent windows do,
+# instead of blending on top of them.
+#
+# transparent-clipping = false
+
+# Set the log level. Possible values are:
+#  "trace", "debug", "info", "warn", "error"
+# in increasing level of importance. Case doesn't matter. 
+# If using the "TRACE" log level, it's better to log into a file 
+# using *--log-file*, since it can generate a huge stream of logs.
+#
+# log-level = "debug"
+log-level = "warn";
+
+# Set the log file.
+# If *--log-file* is never specified, logs will be written to stderr. 
+# Otherwise, logs will to written to the given file, though some of the early 
+# logs might still be written to the stderr. 
+# When setting this option from the config file, it is recommended to use an absolute path.
+#
+# log-file = '/path/to/your/log/file'
+
+# Show all X errors (for debugging)
+# show-all-xerrors = false
+
+# Write process ID to a file.
+# write-pid-path = '/path/to/your/log/file'
+
+# Window type settings
+# 
+# 'WINDOW_TYPE' is one of the 15 window types defined in EWMH standard: 
+#     "unknown", "desktop", "dock", "toolbar", "menu", "utility", 
+#     "splash", "dialog", "normal", "dropdown_menu", "popup_menu", 
+#     "tooltip", "notification", "combo", and "dnd".
+# 
+# Following per window-type options are available: ::
+# 
+#   fade, shadow:::
+#     Controls window-type-specific shadow and fade settings.
+# 
+#   opacity:::
+#     Controls default opacity of the window type.
+# 
+#   focus:::
+#     Controls whether the window of this type is to be always considered focused. 
+#     (By default, all window types except "normal" and "dialog" has this on.)
+# 
+#   full-shadow:::
+#     Controls whether shadow is drawn under the parts of the window that you 
+#     normally won't be able to see. Useful when the window has parts of it 
+#     transparent, and you want shadows in those areas.
+# 
+#   redir-ignore:::
+#     Controls whether this type of windows should cause screen to become 
+#     redirected again after been unredirected. If you have unredir-if-possible
+#     set, and doesn't want certain window to cause unnecessary screen redirection, 
+#     you can set this to `true`.
+#
+wintypes:
+{
+  tooltip = { fade = true; shadow = true; opacity = 0.75; focus = true; full-shadow = false; };
+  dock = { shadow = false; }
+  dnd = { shadow = false; }
+  popup_menu = { opacity = 0.8; }
+  dropdown_menu = { opacity = 0.8; }
+};
+```
+
+
+
+Para desbloquear un usuario que intentó varias veces acceder:
+```console
+# faillock --user nombre_usuario --reset
+```
+
+
+
+#### Instalar docker
+```bash
+sudo pacman -S docker docker-compose
+sudo systemctl start docker.service
+sudo usermod -aG docker $USER
+```
+
+#### Para programación arduino lectura y escritura de /dev/ttyUSB0
+`sudo usermod -aG uucp $USER`
+
+## Cada vez que agregas un grupo al usuario tenes que cerrar la sesión y volver a entrar.
+
+Instalamos `locate` para buscar archivos más rápidos 
+
+___
+### Pacman
+##### To search for a package:
+`pacman -Ss <package>...`
+
+##### To update the local package base and upgrade all out-of-date packages:
+`pacman -Suy`
+
+##### To install a package:
+`pacman -S <package>...`
+
+##### To uninstall a package:
+`pacman -R <package>...`
+
+##### To uninstall a package and its depedencies, removing all new orphans:
+`pacman -Rcs <package>...`
+
+##### To get information about package:
+`pacman -Si <package>...`
+
+##### To install a package from builded package file (.tar.xz):
+`pacman -U <file>`
+
+##### To list the commands provided by an installed package:
+`pacman -Ql <package>... | sed -n -e 's/.*\/bin\///p' | tail -n +2`
+
+##### To list explicitly installed packages:
+`pacman -Qe`
+
+##### To list the top-most recent explicitly installed packages (not in the base groups):
+`expac --timefmt='%Y-%m-%d %T' '%l\t%n' $(comm -23 <(pacman -Qeq|sort) <(pacman -Qqg base base-devel|sort)) | sort -r | head -20`
+
+##### To list orphan packages (installed as dependencies and not required anymore):
+`pacman -Qdt`
+
+##### To list installed packages sorted by size
+`pacman -Qi | awk '/^Name/ {name=$3} /^Installed Size/ {print name, $4 substr($5,1,1)}' | column -t | sort -rhk2 | cat -n | tac`
+
+You can't directly install packages from the Arch User Database (AUR) with
+pacman. You need an AUR helper program such as `yay` or `paru` to do that.
+But considering that all of those are themselves in the AUR, here is how to
+do that manualy.
+___
+Installing a package from AUR is a relatively simple process:
+- Make sure that you have the `base-devel` and `git` packages installed
+- Retrieve the repository corresponding to the package from the AUR website
+- Run `makepkg` in the cloned repository
+- Use `pacman` to install the created package
+___
+##### Ensure that have `base-devel` and `git`:
+`pacman -S --needed base-devel git`
+##### Retrieve the repository:
+`git clone https://aur.archlinux.org/<package>.git`   
+`cd <package>`
+##### Build the package:
+`makepkg -s`
+##### Install:
+`sudo pacman -U <package (.pkg.tar.zst)>`
+
+### tldr:pacman 
+Arch Linux package manager utility.
+Some subcommands such as `pacman sync` have their own usage documentation.
+For equivalent commands in other package managers, see <[https://wiki.archlinux.org/title/Pacman/Rosetta](https://wiki.archlinux.org/title/Pacman/Rosetta)>.
+More information: <[https://man.archlinux.org/man/pacman.8](https://man.archlinux.org/man/pacman.8)>.
+
+##### Sincronizar y actualizar todos los paquetes.
+`sudo pacman -Syu`
+
+##### Instalar un nuevo paqueteInstalar un nuevo paquete.
+`sudo pacman -S package_name`
+
+##### Eliminar un paquete y sus dependencias.
+`sudo pacman -Rs package_name`
+
+##### Buscar en la base de datos de paquetes con alguna palabra clave o expresión regular.
+`pacman -Ss "search_pattern"`
+
+##### Listar paquetes instalados y sus versiones.
+`pacman -Q`
+
+##### Listar sólo los paquetes explícitamente instalados y sus versiones:
+`pacman -Qe`
+
+##### Listar paquetes huérfanos (fueron instalados como dependencias pero actualmente no son requeridos por ningún paquete)
+`pacman -Qtdq`
+
+##### Limpiar todo el cache de pacman:
+`sudo pacman -Scc`
+
+### Eliminar paquetes hérfanos
+`sudo pacman -Qdtq | sudo pacman -Rns -`
+

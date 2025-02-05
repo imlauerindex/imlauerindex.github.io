@@ -1,0 +1,109 @@
+---
+title: "Mi Configuración De VIM"
+date: 2024-09-25T16:29:35-03:00
+tags: ['vim']
+---
+Descargá VIM plug:
+
+curl -O https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+```bash
+autocmd BufWritePost resume_spanish.tex !pdflatex /home/mistermac/projects/MiCV/pro/resume_spanish.tex
+autocmd BufWritePost resume_english.tex !pdflatex /home/mistermac/projects/MiCV/pro/resume_english.tex
+
+:setlocal spell spelllang=es
+set termguicolors
+"let g:carbonized_dark_LineNr = 'off'
+"let g:carbonized_light_LineNr = 'off'
+set hlsearch    " highlight all search results set ignorecase  " do case insensitive search
+set incsearch   " show incremental search results as you type
+set noswapfile  " disable swap file
+set ignorecase
+
+set ai
+set ic
+
+
+" vim -b : edit binary using xxd-format!
+augroup Binary
+  au!
+  au BufReadPre  *.bin let &bin=1
+  au BufReadPost *.bin if &bin | %!xxd
+  au BufReadPost *.bin set ft=xxd | endif
+  au BufWritePre *.bin if &bin | %!xxd -r
+  au BufWritePre *.bin endif
+  au BufWritePost *.bin if &bin | %!xxd
+  au BufWritePost *.bin set nomod | endif
+augroup END
+
+autocmd BufWritePost *.bin term ++close ++hidden cp % %:r.txt
+
+
+
+
+syntax on
+set number
+"let g:gruvbox_termcolors=256
+set tabstop=4 shiftwidth=4 expandtab
+if &term =~ '^screen'
+    " tmux will send xterm-style keys when its xterm-keys option is on
+    execute "set <xUp>=\e[1;*A"
+    execute "set <xDown>=\e[1;*B"
+    execute "set <xRight>=\e[1;*C"
+    execute "set <xLeft>=\e[1;*D"
+endif
+syntax on
+set relativenumber
+set background=dark
+
+call plug#begin('~/.vim/plugged')
+
+" Theme
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+" Buscador de archivos y también posee el comando :W(Windows) para navegar a través de las tabs
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+" Plugin para detectar errores de sintáxis programando en Python.
+" Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+" Theme
+"Plug 'phanviet/vim-monokai-pro'
+" Theme
+"Plug 'owickstrom/vim-colors-paramount'
+" vim-plug
+" Theme
+Plug 'romgrk/doom-one.vim'
+" Theme
+Plug 'gruvbox-community/gruvbox'
+Plug 'nanotech/jellybeans.vim'
+" Theme
+Plug 'nightsense/carbonized'
+Plug 'preservim/nerdtree'
+" Theme
+"Plug 'ajmwagar/vim-deus'
+Plug 'Badacadabra/vim-archery'
+Plug 'fcpg/vim-orbital'
+Plug 'NLKNguyen/papercolor-theme'
+"Plug 'cseelus/vim-colors-lucid'
+
+call plug#end()
+"colorscheme gruvbox
+"colorscheme orbital
+"colorscheme jellybeans
+colorscheme PaperColor
+"colorscheme onehalfdark
+"colorscheme peachpuff
+"colorscheme archery
+"colorscheme blue
+"colorscheme delek
+"colorscheme murphy
+"colorscheme carbonized-dark
+autocmd VimEnter * NERDTree
+set mouse=a
+```
+
+Luego de guardarlo en `.vimrc` ejecutá `:PlugInstall`
