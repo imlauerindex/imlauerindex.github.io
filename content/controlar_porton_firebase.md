@@ -3,7 +3,7 @@ title: "Controlar portón con Firebase"
 date: 2025-02-03T16:51:42-03:00
 tags: ['porton']
 ---
-MIT APP INVENTOR: https://appinventor.mit.edu/
+MIT APP INVENTOR: https://ai2.appinventor.mit.edu/
 
 Le cambié por 0 y 1:
 
