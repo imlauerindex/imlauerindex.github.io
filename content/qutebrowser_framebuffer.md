@@ -61,6 +61,17 @@ cmake ..
 make
 sudo make install
 ```
-**Y ahora sí compila!**    
+**Y ahora sí compila, pero no aparece kmap2qmap en mi caso no sé por qué**    
+
+Olvidate de todo esto si no te funcionó cloná este repo:
+
+```bash
+git clone https://github.com/neochapay/kmap2qmap
+cd kmap2qmap
+qmake .
+./kmap2qmap
+```
+
 Todo esto para tener la utilidad `kmap2qmap` y poder tener el teclado en español XDD, amo el framebuffer.
+
 
