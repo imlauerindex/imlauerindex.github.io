@@ -42,11 +42,21 @@ Tenés que entrar a la página de qttools bajo Release encontrarás TAGS. Ahí b
 
 **ESO NO ES TODO!!!** Ahora cuando bajes el zip o el tar.gz de tu versión (en mi caso 6.8.1) y lo compiles te va a putear porque te falta `src/assistant/qlitehtml` porque es un submódulo que no lo baja. Tenés que clonar este repo en `/tmp` ejecutá: 
 
+#### ESO NO ES TODO
+No te va a compilar el kmap2qmap, tenés que abrir `configure.cmake` y descomentar:
+```bash
+qt_configure_add_summary_entry(ARGS "kmap2qmap")
+```
+
 ```bash
 git clone --recurse-submodules -j8 "https://github.com/PyQt5/QLiteHtml"`
 cd QLiteHtml
 cp -R qlitehtml /home/usuario/Downloads/qttools-6.8.1/src/assistant
-cd /home/usuario/Downloads/qttools-6.8.1/build
+vim /home/usuario/Downloads/qttools-6.8.1/configure.cmake
+Descomentá qt_configure_add_summary_entry(ARGS "kmap2qmap")
+cd /home/usuario/Downloads/qttools-6.8.1
+mkdir build
+cd build
 cmake ..
 make
 sudo make install
