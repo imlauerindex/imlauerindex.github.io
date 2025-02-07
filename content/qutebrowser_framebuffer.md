@@ -75,3 +75,9 @@ qmake .
 Todo esto para tener la utilidad `kmap2qmap` y poder tener el teclado en español XDD, amo el framebuffer.
 
 
+## FIN: TODO ESTO NO SIRVE PARA NADA... SOLO ESTO ME SIRVIO
+https://forum.qt.io/topic/107443/how-to-configure-keyboard-layout-when-running-qt-on-eglfs-without-x
+
+```bash
+export XKB_DEFAULT_LAYOUT=es
+```
