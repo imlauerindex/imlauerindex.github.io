@@ -31,6 +31,32 @@ aircrack-ng -w sanchez_dicc2 /home/esotericwarfare/Sanchez1/handshake-FE:A0:3F:2
 
 Ahora podemos hacer alguna expresión regular para sacar las palabras menores que 8 caracteres...
 
+https://stackoverflow.com/questions/72264342/how-can-i-filter-a-wordlist-to-only-include-words-of-a-certain-minimum-size
+
+Using awk:
+
+```bash
+awk 'length($0) >= 10' rockyou.txt
+```
+
+Using grep:
+
+```bash
+grep -P '^.{10,}' rockyou.txt
+```
+
+or
+
+```bash
+grep '^.\{10,\}' rockyou.txt
+```
+
+Using perl:
+
+```bash
+perl -lne 'print if length() >= 10' rockyou.txt
+```
+
 
 Saludos, que Dios los bendiga.
 
