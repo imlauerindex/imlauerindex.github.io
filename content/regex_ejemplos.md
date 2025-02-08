@@ -29,5 +29,8 @@ grep -E '^[^0-9]*([0-9]){4}$' sanchez_dicc1 > sanchez_dicc2
 aircrack-ng -w sanchez_dicc2 /home/esotericwarfare/Sanchez1/handshake-FE:A0:3F:21:00:91.cap
 ```
 
+Ahora podemos hacer alguna expresión regular para sacar las palabras menores que 8 caracteres...
+
+
 Saludos, que Dios los bendiga.
 
