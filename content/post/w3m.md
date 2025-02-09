@@ -29,3 +29,46 @@ xterm*faceSize: 14
 ```
 
 Ejecutá: `xrdb .Xdefaults`
+
+### Redirecciones en w3m
+```console
+url m!^https?://([a-z]+\.)?x\.com/!
+substitute_url "https://sotwe.com/"
+
+url m!^https?://([a-z]+\.)?twitter\.com/!
+substitute_url "https://sotwe.com/"
+
+url m!^https?://([a-z]+\.)?reddit\.com/!
+substitute_url "https://old.reddit.com/"
+
+url "https://www.youtube.com/" exact
+substitute_url "file:/cgi-bin/video.cgi?"
+#substitute_url "https://yewtu.be/"
+
+url m!^https?://([a-z]+\.)?wikipedia\.com/!
+substitute_url "https://wl.vern.cc/"
+
+url m!^https?://([a-z]+\.)?imgur\.com/!
+substitute_url "https://rimgo.pussthecat.org/"
+
+url "https://www.reuters.com/" exact
+substitute_url "https://neuters.de/"
+
+url "https://www.reuters.com/" exact
+substitute_url "https://neuters.de/"
+
+url "https://medium.com/" exact
+substitute_url "https://scribe.rip/"
+
+url "https://web.archive.org/" exact
+substitute_url "https://wayback-classic.net/"
+```
+
+### Restaurar ventanas cerradas 
+```bash
+Inside ~/.w3m/keymap add:
+
+keymap d COMMAND "EXTERN 'echo %s >> ~/.w3m/RestoreTab.txt' ; CLOSE_TAB"
+keymap u COMMAND TAB_GOTO file:/cgi-bin/restore_tab.cgi
+
+```
