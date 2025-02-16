@@ -1,7 +1,6 @@
 ---
 title: "Crackear Fibertel WiFixxx"
 date: 2025-02-10T01:55:15-03:00
-tags: ['hacking']
 ---
 ```console
 004?d?d?d?d?d?d?d
