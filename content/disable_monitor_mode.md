@@ -7,6 +7,6 @@ Luego de hacer una prueba de auditoría necesitamos deshabilitar el modo monitor
 
 ```bash
 ifconfig wlp1s0 down
-iwconfig wlp1s0 managed
+iwconfig wlp1s0 mode managed
 ifconfig wlp1s0 up
 ```
