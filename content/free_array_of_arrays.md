@@ -1,9 +1,13 @@
 ---
-title: "Free array of arrays"
+title: "Free pointer of pointers"
 date: 2025-02-08T18:44:48-03:00
 tags: ['c']
 ---
-No podes "liberar" un arreglo de arreglos. Tenés que liberar todo lo que fue creado con malloc.
+Sólo tenés que pensar en liberar memoria cuando tenés un programa muy grande que pide un poco de memoria en un loop y eso acumula memoria con el tiempo, pero si tenés un programa batch (por lotes) que pide memoria (allocated memory), no hay necesidad de liberar esa memoria porque el sistema operativo lo hará por vos cuando el programa finalice. (Leer al final más info).
+
+No podes "liberar" un puntero de punteros. **Tenés que liberar todo lo que fue creado con malloc.**
+
+Si definiste así: `static char buffer[25]` esto no necesita ser liberado.
 
 ### Ejemplo
 ```c
@@ -47,3 +51,7 @@ int main(){
 ```
 
 https://stackoverflow.com/questions/33170802/c-does-freeing-an-array-of-pointers-also-free-what-theyre-pointing-to
+
+Quizás como es un programa de lotes (batch program) podés alocarlo y no desalocar nada porque todo será "desalocado" (free) al final del programa de todas formas porque será desalocado por el sistema operativo cuando el programa terminó.  Los sistemas operativos modernos cerrarán todos los archivos que abriste y unmap todas las regiones de memoria en las que hiciste un map.
+
+

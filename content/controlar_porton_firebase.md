@@ -106,3 +106,5 @@ void loop() {
 
 }
 ```
+
+### Si no tenés internet, podés crear un punto acceso con el mismo nombre de tu red y la misma contraseña, y apagar el modem/router así el ESP32 se conecta al punto de acceso WiFi creado por tu celular y podés abrir el portón.
