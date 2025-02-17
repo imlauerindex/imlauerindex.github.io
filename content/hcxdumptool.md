@@ -1100,3 +1100,8 @@ Solución:
 sudo systemctl stop NetworkManager
 sudo systemctl stop wpa_supplicant
 ```
+
+
+https://www.hackingarticles.in/wireless-penetration-testing-pmkid-attack/
+
+https://miloserdov.org/?p=7801
