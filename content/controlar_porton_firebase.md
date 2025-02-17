@@ -3,6 +3,12 @@ title: "Controlar portón con Firebase"
 date: 2025-02-03T16:51:42-03:00
 tags: ['porton']
 ---
+Antes de hacer esto grabé un servidor web en el ESP32 para abrir el portón pero funcionaba **MAL** se desconectaba el servidor y cuando andaba tenía mucho lag.
+
+Tenía que conectarme al WiFi y acceder a la URL: http://192.168.0.25/32/on para abrir y cerrar http://192.168.0.25/32/off 
+
+---
+
 MIT APP INVENTOR: https://ai2.appinventor.mit.edu/
 
 Le cambié por 0 y 1:
