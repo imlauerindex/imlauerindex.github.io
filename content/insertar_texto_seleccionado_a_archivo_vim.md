@@ -1,5 +1,5 @@
 ---
-title: "Insertar_texto_seleccionado_a_archivo_vim"
+title: "Insertar texto seleccionado a archivo vim"
 date: 2025-02-16T17:06:43-03:00
 tags: ['vim']
 ---
