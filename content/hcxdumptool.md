@@ -18,6 +18,12 @@ Desde la versión 6.3.0 las opciones hay cambiados por problemas de rendimiento.
 
 Para atacar una MAC ADDRESS en específico se crea un Berkeley Packet Filter
 
+Con `airodump` obtenés el BBSID y luego:
+
+```bash
+sudo airodump-ng wlp1s0
+```
+
 Just create a Berkeley Packet Filter and add it to hcxdumptool.  Steps to create a simple filter: set monitor mode
 
 ```bash
@@ -62,6 +68,23 @@ hcxdumptool -i INTERFACE -w dumpfile.pcapng -F --rds=1
 ```
 
 Luego de 3 minutos, detené la captura con Control+C y vas a tener los paquetes capturados en tu directorio home: hash.hc22000 y esidist l handshake será guardado en `dumpfile.pcaapng`
+
+Podés intentar romper el handshake usando hashcat:
+
+```bash
+hcxpcapngtool -o hash.hc22000 -E wordlist dumpfile.pcapng
+hashcat -m 2200 -o wordlist.txt hash.hc2200
+```
+
+#### Atacando con aircrack
+
+Aircrack no soporta pcapng asi que tenés que transformarlo usando el siguiente comando:
+
+```bash
+tshark -r foo.pcapng -w foo.pcap -F libcap
+tcpdump -r dumpfile.pcapng -w foo.pcap
+aircrack-ng -w rockyou.txt foo.pcap
+```
 
 ---
 
@@ -1063,5 +1086,17 @@ hcxdumptool -i INTERFACE -o file.pcapng --active_beacon --enable_status=15
 
 ```
 
+Posibles errores:
 
-https://miloserdov.org/?p=7801
+```bash
+Possible reasons:
+ driver is broken
+ driver is busy (misconfigured system, other services access the INTERFACE)
+4772 Packet(s) captured by kernel
+```
+Solución: 
+
+```bash
+sudo systemctl stop NetworkManager
+sudo systemctl stop wpa_supplicant
+```
