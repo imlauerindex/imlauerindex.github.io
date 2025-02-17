@@ -5,6 +5,8 @@ tags: ['hacking']
 ---
 Al hacer un ataque PMKID no es necesario desautenticar al cliente para capturar el handshake. Este ataque se puede realizar sin clientes.
 
+Este ataque también se puede hacer con Airgeddon.
+
 Es obligatorio detener todos los servicios que acceden a tu interfaz en mi caso: 
 
 ```bash
