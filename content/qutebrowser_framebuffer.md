@@ -81,3 +81,14 @@ https://forum.qt.io/topic/107443/how-to-configure-keyboard-layout-when-running-q
 ```bash
 export XKB_DEFAULT_LAYOUT=es
 ```
+
+
+Si querés copiar y pegar un texto podés clonar privatebin
+
+```bash
+git clone https://github.com/PrivateBin/PrivateBin
+cd PrivateBin
+php -S 127.0.0.1:1111
+```
+
+Copiar desde qutebrowser y pegar a ahí entrar a la URL y darle a guardar archivo
