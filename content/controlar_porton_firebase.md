@@ -114,3 +114,41 @@ void loop() {
 ```
 
 ### Si no tenés internet, podés crear un punto acceso con el mismo nombre de tu red y la misma contraseña, y apagar el modem/router así el ESP32 se conecta al punto de acceso WiFi creado por tu celular y podés abrir el portón.
+
+
+OJO: Cuando usás wifi todo es inestable, lo mejor es usar Ethernet, pero si aún así querés usar wifi podés usar un watchdog timer: https://forum.arduino.cc/t/esp32-periodic-autoreset-possible-solved-1/577976 para que se apague automáticamente luego de un tiempo.
+
+Ethernet: https://forum.arduino.cc/t/exemple-of-a-swtich-on-and-off-a-led-using-ethernet-shield/69032
+
+https://forum.arduino.cc/t/ethernet-shield-and-a-led/207153
+
+Ejemplo uso de Ethernet shield
+```bash
+#include <SPI.h>
+#include <Ethernet.h>
+
+#include <Servo.h>
+Servo myservo;  // create servo object to control a servo
+
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED }; //physical mac address
+byte ip[] = { 192, 168, 1, 102 }; // ip in lan
+byte gateway[] = { 192, 168, 1, 1 }; // internet access via router
+byte subnet[] = { 255, 255, 255, 0 }; //subnet mask
+
+String readString;
+
+void setup() {
+// Open serial communications and wait for port to open:
+Serial.begin(9600);
+
+pinMode(13, OUTPUT);
+
+while (!Serial) {
+; // wait for serial port to connect. Needed for Leonardo only
+}
+
+// start the Ethernet connection and the server:
+Ethernet.begin(mac, ip, gateway, gateway, subnet);
+}
+
+```
