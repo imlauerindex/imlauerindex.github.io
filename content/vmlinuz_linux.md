@@ -1,5 +1,5 @@
 ---
-title: "Error: file Vmlinuz-inux not found"
+title: "Error: file Vmlinuz-linux not found"
 date: 2025-02-19T05:20:30-03:00
 tags: ['linux']
 ---
