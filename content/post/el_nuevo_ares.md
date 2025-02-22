@@ -24,3 +24,11 @@ La API key lo copias de https://localhost:9117
 Abrí Jackett y agregá todos los indexers publicos seleccionando uno por uno el checkbox de la izquierda.
 
 Finalmente abrí qbittorrent andate a Search y buscá el torrent que quieras.
+
+
+Podés descargarte qbittorrent-nox para y agregar `.config/qBittorrent/qBittorrent.conf` debajo de `[Preferences]`:
+```bash
+WebUI\Password_PBKDF2="@ByteArray(ARQ77eY1NUZaQsuDHbIMCA==:0WMRkYTUWVT9wVvdDtHAjU9b3b7uB8NR1Gur2hmQCvCDpm39Q+PsJRJPaCU51dEiz+dTzh8qbPsL8WkFljQYFQ==)"
+```
+
+Que establece la contraseña por defecto como adminadmin para no tener que estar copiando y pegando la contraseña temporal que te genera cada vez que abrís el programa.

