@@ -1105,4 +1105,14 @@ sudo systemctl stop wpa_supplicant
 
 https://www.hackingarticles.in/wireless-penetration-testing-pmkid-attack/
 
+#### Si querés seguir este tutorial que ya está desactualizado yo me bajé la versión 6.0.6 
+Primero de todo tenés que matar `wpa_supplicant` y `NetworkManager`:
+```bash
+sudo airmon-ng check kill
+```
+
 https://miloserdov.org/?p=7801
+
+Los parámetros de ese tutorial funcionan con esta versión:    
+https://github.com/ZerBea/hcxdumptool/archive/refs/tags/6.0.6.tar.gz
+
