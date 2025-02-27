@@ -1,0 +1,39 @@
+---
+title: "Mi configuración de w3m"
+date: 2025-02-27T01:00:41-03:00
+tags: ['w3m']
+---
+**External browser**:    
+
+Chawan parecido a w3m es un navegador que soporta un poco de javascript.
+
+`Escape+M` para iniciar el navegador externo o `Numero+Escape+M` 
+
+```bash
+Mailer                                     [/usr/bin/neomutt    ]
+External browser                           [/usr/bin/mpv        ]
+2nd external browser                       [elinks              ]
+3rd external browser                       [vim                 ]
+4th external browser                       [yt-dlp -f134+140 --c]
+5th external browser                       [gallery-dl --cookies]
+6th external browser                       [falkon              ]
+7th external browser                       [cha                 ]
+8th external browser                       [yt-dlp -f140 --cooki]
+9th external browser                       [git clone           ]
+```
+
+Con `.config/fish/fish.conf`:
+
+```bash
+export XKB_DEFAULT_LAYOUT=es
+export QT_QPA_PLATFORM=linuxfb:size=1000x1000
+alias dgg 'w3m dgg.gg'
+alias tdgg 'torsocks w3m dgg.gg'
+alias telegram 'falkon web.telegram.org'
+alias upwork 'falkon upwork.com'
+alias whatsapp 'qutebrowser https://web.whatsapp.com'
+alias yewtube 'w3m https://yewtu.be/feed/subscriptions'
+alias invidious 'w3m https://inv.nadeko.net/feed/subscriptions'
+```
+
+
