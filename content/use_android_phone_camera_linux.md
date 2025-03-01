@@ -5,6 +5,11 @@ tags: ['android']
 ---
 You can use any Android phone as a webcam for your Ubuntu PC by using DroidCam.
 
+```bash
+mpv IP/video 
+```
+Pero no podés transmitir la cámara a través de internet porque de esa forma es muy lento.
+
 1. First download the DroidCam app on your android device via the Play Store.
 2. Next install adb on your Ubuntu PC:
 ```bash
