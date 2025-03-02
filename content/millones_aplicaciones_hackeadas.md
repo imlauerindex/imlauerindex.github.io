@@ -3,7 +3,8 @@ title: "Millones de aplicaciones vulneradas: como ejecutar código remoto sobre 
 date: 2025-03-01T22:31:57-03:00
 tags: ['hacking']
 ---
-Fuente: https://kibty.town/blog/todesktop/
+Fuente: 
+w3m https://kibty.town/blog/todesktop/
 
 **Traducción**:    
 
@@ -11,7 +12,6 @@ Esto empezó cuando estaba mirando cursor, un editor con inteligencia artificial
 
 ![lulu](https://kibty.town/files/img/posts/todesktop/lulu-alert.png)
 
-A LuLu alert, showing that "Install Cursor" was trying to connect to "download.todeskt
 Una alerta de LuLu, mostrando que "Install Cursor" estaba intentando conectarse a "[https://download.todesktop.com](https://download.todesktop.com)"
 
 Ahora, ¿qué es todesktop? Pensé que estaba descargando cursor. Mirando en su sitio aparenta ser un servicio bundler[1] además de proveer un SDK[2] para aplicaciones de electron. Así que aparentemente el instalador que descargué está en realidad controlado por **todesktop**, no cursor.
@@ -22,7 +22,7 @@ Esto me despertó la curiosidad y me cree una cuenta en **todesktop** para inves
 
 Cuando me dí cuenta que la aplicación usaba firestore (es una base de datos no-sql de firebase que es frecuentemente usada en frontend), rápidamente abrí mi devtools(F12 o Control+Shift+i en cualquier navegador) y empecé a hacer basic recon[3] en el firebase.
 
-Me dí cuenta que el sitio tenía sourcemaps, que hicieron que la búsqueda de todos los caminos de firestore usados en aplicación sea más fácil (sigue siendo fácil sin los sourcemaps)
+Me dí cuenta que el sitio tenía sourcemaps, que hicieron que la búsqueda de todos las rutas de firestore usadas en aplicación sea más fácil (sigue siendo fácil sin los sourcemaps)
 
 Luego encontré una colección insegura, temporaryApplications, que parecía darme una lista de nombres de algunas aplicaciones (edito: **todesktop** aclaró que esta colección no tiene información sensible y no fue actualizada desde el 2022), pero no encontré más que eso, todo parecía seguro en el firebase salvo de eso.
 
@@ -30,13 +30,13 @@ Me dí cuenta de que la mayoría del deployment y la lógica general pasa en la 
 
 El cli (command line interface) administra deployments, subida de código de fuente, y mucho más. La página parece ser una shell para crear aplicaciones, ver deployments, etc etc.
 
-Yo fui otra vez suertudo que el cli también tenía sourcemaps, así que usé el `sourcemapper` para extraerlos en un árbol source.
+Yo fui otra vez suertudo que el cli también tenía sourcemaps, así que usé el [sourcemapper](https://github.com/denandz/sourcemapper) para extraerlos en un árbol source.
 
 Observando ahí, encontré una vulnerabilidad arbitraria s3 a través de una función de firebase llamada `getSignedURL`, pero no tenía una clave s3 (ruta de archivo) para subir a eso haría algo interesante, así que seguí buscando.
 
 ##### hijacking[4] la tubería de deployment a través de un script post-install
 
-Quería obtener acceso a la máquina en donde la aplicación se construye y la forma más fácil de hacerlo es a través de un script postinstall en el package.json, así que hice eso con un `simple reverse shell payload`.
+Quería obtener acceso a la máquina en donde la aplicación se construye y la forma más fácil de hacerlo es a través de un script postinstall en el `package.json`, así que hice eso con un `simple reverse shell payload`.
 
 Esto funcionó. Navegando a través del contenedor, descubrí donde estaba vivía el código de compilación de la aplicación y encontré esto:
 
@@ -93,6 +93,3 @@ Un Build Container es un contenedor que se ejecuta durante el proceso de creaci�
 
 **Privileged Sidecar**:
 Un Privileged Sidecar es un tipo de contenedor que se ejecuta con privilegios de root (o con permisos elevados) en el host que lo ejecuta. 
-
-**Privileged Sidecar de un Build Container**:
-En este contexto, un Privileged Sidecar de un Build Container es un contenedor que se ejecuta con privilegios de root (o con permisos elevados) y que se utiliza como un acompañante (sidecar) del Build Container. Su propósito es proporcionar acceso a recursos del sistema operativo del host que sean necesarios para el proceso de construcción de la aplicación, pero que no sean accesibles desde el Build Container estándar.
