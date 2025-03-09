@@ -32,4 +32,4 @@ chromium --headless $1 --run-all-compositor-stages-before-draw --dump-dom --virt
 chromium --headless $1 --disable-gpu --run-all-compositor-stages-before-draw --dump-dom --virtual-time-budget=10000 | sed "s|<head>|<head><base href=$1>|g" | w3m -T text/html
 ```
 
-Con `alias google = "w3m google.com"` mpv como navegador externo ya estás hecho para navegar casi toda la web.
+Con `alias dgg = "w3m dgg.gg"` mpv como navegador externo ya estás hecho para navegar casi toda la web.
