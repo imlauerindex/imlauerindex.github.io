@@ -22,7 +22,12 @@ Usarlo con w3m como navegador externo: Creá un archivo llamado `w3m_chromium.sh
 chromium --headless $1 --run-all-compositor-stages-before-draw --dump-dom --virtual-time-budget=10000 | w3m -
 ```
 
-#### La que actualmente estoy usando 
 ```bash
 chromium --headless $1 --run-all-compositor-stages-before-draw --dump-dom --virtual-time-budget=10000 | monolith - -I -b $1 | w3m -
+```
+
+### El comando que estoy actualmente usando: Sin monolith con sed es mas rápido
+
+```bash
+chromium --headless $1 --disable-gpu --run-all-compositor-stages-before-draw --dump-dom --virtual-time-budget=10000 | sed "s|<head>|<head><base href=$1>|g" | w3m -T text/html
 ```
