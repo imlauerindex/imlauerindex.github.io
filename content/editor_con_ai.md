@@ -1,5 +1,5 @@
 ---
-title: "Editor con AI"
+title: "Cursor: Editor con AI"
 date: 2025-03-11T19:54:33-03:00
 tags: ['ai']
 ---
