@@ -3,6 +3,12 @@ title: "Curso Electricidad: 1era clase"
 date: 2025-03-13T09:21:26-03:00
 tags: ['electricista']
 ---
+#### Audio de la clase en Archive:
+https://archive.org/details/record-57
+#### Audio de la clase en Vocaroo:
+https://vocaroo.com/1bkuThXk0Fs9
+#### Audio de la clase en YouTube:
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO9roP_5LKwhf0StuiEh_WAj7iYO05K3qOFUJQVnlOHRBXVX1N0qFQjqpTFqQPDX9NneZSaMOvbHi2E7a2_CH2xPSueykT19WsJZQZWeWbkrb5VSNbMz4YH2HqS-GIorKiOW24bizGsufwCVMz3QGvjnqPX51ccZwkkne11J4tATvRyf52UPQV13_JSXo/s320/IMG_20250312_204002630_BURST000_COVER.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcc1tWG2LnpeEHkvlMQShOdaoZ2FUpT7QnjdCWUHbyVgG5odM9kfX-JWwNbcZjye1QcEUfGf7lrHrjSiUzUesARc0woO_YH6UzNW2BdurUbhDLPIlFKwifHgHbZbjOqtIFFR3xFDZvAP_C3WcirPf8g99gDv9i0mXKiiA1iKhNk_nB7tkzKL0CXlBmVX8/s320/IMG_20250312_203958452.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwFkn_ADM0b6NzQsu5U8UUTtV4xp0WWA1utlFyfh1LuSLNJVdaQ_NydJ0ZVajj2Sm4YoQhtI8-gfm2zWTWM1S-N5kvUUVHITwS_viWfQAOYhjmyKTPG-QMHA8xDcCQ8jnAQ5-CdCf_o4-cT57u7JFk3L8m2LwM1BZqqmf1GI67vRKZjUQF99XAYXzmHHA/s320/IMG_20250312_203949215.jpg)
