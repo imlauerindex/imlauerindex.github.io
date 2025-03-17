@@ -1,5 +1,5 @@
 ---
-title: "Usar chrome sin chrome: Chrome headless"
+title: "Usar chrome sin chrome: Chrome headless con w3m"
 date: 2025-03-08T08:02:01-03:00
 tags: ['chrome']
 ---
@@ -34,6 +34,12 @@ chromium --headless $1 --disable-gpu --run-all-compositor-stages-before-draw --d
 
 ##### Se pude usar puppeteer para scrollear y cargar todo el javascript.
 Uso: `node chromium_headless.js URL numeroVecesScrolear`
+
+Creá un archivo bash y lo llamás desde w3m.
+```bash
+node chromium_headless.js "$1" 20 | sed "s|<head>|<head><base href=$1>|g" | w3m -T text/html
+```
+
 
 ```js
 

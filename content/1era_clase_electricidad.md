@@ -27,3 +27,61 @@ https://vocaroo.com/1bkuThXk0Fs9
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG8-ahHfFZph9MxHmjp0jrtn_Wiw0sSj-mNPUT4JkYX97hq0DZArjFk4Ei_f4-Eoq-CTk3J8XctzGiG2aHyLXjg1S0MiIjZZha7IxYD2lZOg6ADYSHJH5IpQgN5KUeazCAKf53RfbITrr31dYfAUvb_GdI76q3HqCkp1nzY7CRUniwLElpd-Y8tZksJlI/s4160/IMG_20250312_192429247_BURST000_COVER_TOP.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOg1fGT2yYmJPpAgBKaUthnpflE8WPNlCvJMGo5fjNlyMTVY77jn964Kq97TAQsJkKJ5Mho1wurkd1uaZvfRwUNZIqlLQUNhZBSjLh7RfSQH3g5N0Pl6DRfio7DUo37gydRDy_Y_xndBc0VM9D7kVoxscIisEBSKL2bqPQYSxRt64Vke2FEiSg1Hb4tmg/s4160/IMG_20250312_183441666.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr19A-eHfn9eNW-xHxlZrFb9t6hydCuMicu8RctGfHskBoQ9WqjIicWT1z-bOe_XyGCtXFGsNIz7rozfL6ek7hPhRPVjP0IKNr_clzSzkOl5pN_ueQ9jK4EEjqrn9pw-28qfIkiBT_hbsdLQRm_uEB7XFhdAqKgwJYXPnr6zvv2WW4hqYXv5v2IAGhYwA/s4160/IMG_20250312_183436215.jpg)
+
+Profesor: Francisco Espeche. Ingeniero Mecánico.    
+Tel: 3764224522    
+Lunes, Martes, Miércoles - 18:30 20:30   
+
+
+Una instalación eléctrica es segura y confiable cuando ha sida concebida y realizada por un instalador electricista habilitado que ha aplicado la Reglamentación para la Ejecución de Instalaciones Eléctricas en Inmuebles, y ha utilizado materiales normalizados IRAM.
+
+### ¿Cómo funciona la protección diferencial?
+El principio es simple, se trata de asegurar que cada instalación cuente con un interruptor diferencial y que todos los tomacorrientes permitan conectar a tierra los aparatos que alimentan.
+Cuando por una falla en la aislación de un aparato eléctrico sus partes metálicas queden sometidas a tensión, el conductor de protección hará circular una corriente de fuga, a tierra. El interruptor diferencial detectará esta fuga y cortará la alimentación en forma inmediata. También para el caso de contactos accidentes con partes metálicas bajo tensión, la corriente a través del cuerpo humano se verá limitada por la rápida respuesta del interruptor diferencial que cortará la alimentación en milésimas de segundos.
+
+### Diez SI para una instalación segura.
+
+1. Interruptor diferencial 
+Se debe instalar un interruptor diferencial de 30 mA, menor de 200 ms.
+2. Un interruptor por circuito, Automático termomagnético o manual con fusibles.
+3. Toma a tierra en toda la instalación. De resistencia inferior a 10 ohms.
+4. Separación de funciones
+Un circuito para cada función. Por ejemplo, en una vivienda, según el grado de electrificación del inmueble, debe instalarse:
+* Circuito para las bocas de alumbrado.
+* Circuito para los tomacorrientes.
+* Circuitos exclusivos para cada artefacto especial que se instale: lavarropa, horno, termotanque, etc.
+5. Secciones mínimas de los conductores
+Línea principal: 4.0 mm^2 Cu.
+Líneas seccionales: 2.5 mm^2 Cu.
+Líneas de circuitos: 1.5 mm^2 Cu.
+Conductor de protección: 2.5 mm^2 Cu.
+6. Tomacorrientes con toma a tierra.
+Distribuídos para que cada artefacto tenga una tomacorrientes propio.
+7. Observar los principios de seguridad en el cuarto de baño:
+Respetar las distancias de protección entre los t tomacorrientes, interruptores, artefactos y bañera.
+8. Utilizar materiales normalizados IRAM en todos los componetes de la instalación.
+9. Protector pararrayos
+Descagador de baja tensión con su respectiva puesta a tierra a instalarse en la acometida de cada conexión.
+10. Protección de tensión
+Se debe instalar en el table principal a lado del interruptor diferencial.
+
+### Algunos NO para un uso seguro
+1. No utilice prolongadores
+2. No conecte varios artefactos juntos.
+3. No desconecte tirando del cable.
+4. No utilice adaptadores. Instale tomacorrientes y ficha normalizada IRAM.
+5. No cambie lámparas sin desconectar el artefacto o sin cortar la electricidad desde el tablero.
+
+art.3.4 - El usuario deberá arbitrar los medios para que los aparatos, equipos, motores o cualquier otro elemento eléctrico de su propiedad o que haga uso de la instalación eléctrica en cuestión, tengan la debida protección eléctrica como la técnica lo aconseja, tales como; descargadores con su respectiva conexión a tierra, detectores de sobretensión o baja tensión con dispositivo de desconexión incorporado o según el caso, un equipo de resguardo por inversión de secuencia de fases; contra los efectos de posibles anormalidades en el sistema de distribución de EMSA, debido a fallas comunes en líneas y transformadores o aquellos provocados por accidentes de terceros.
+
+art-6.2 - EMSA en ningún saco será responsable ante el Usuario por los perjuicios que puedan ocasionarse por interrupciones o cualquier accidente que pudiera acontecer en la red de distribución por hechos o actos de terceros o fenómenos metereológicos.
+
+### Información de EMSA.
+Sugerencias y recomendaciones de como concebir una Instalación eléctrica confiable y segura.
+
+Aplicar la Reglamentación para Ejecución de Instalaciones Eléctricas en Inmuebles (AEA), es indispensable para que usted pueda disfrutar de un **buen servicio eléctrico**, aquel que le aporta seguridad y calidad por medio de:
+* La provisión constante de electricidad con voltaje y tensión estables y
+* Una instalación eléctrica adecuada que brinde la máxima seguridad y confiabilidad.
+
+
+En los cuartos de baño la instalación eléctrica debe respetar la zona de peligro, dentro de la cual no pueden instalarse interruptores, tomacorrientes, calefones eléctricos o artefactos de iluminación y de la zona de protección donde pueden instalarse artefactos de iluminación y aparatos eléctricos fijos, clase II, que se encuentren protegidos contra posibles salpicaduras.
