@@ -361,3 +361,10 @@ two-letter abbreviation for the Swedish locale (which I don't know off hand).  T
 En `w3m` apretá o y poné como navegadores por defecto: `mpv`, `qutebrowser`, `yt-dlp -f134+140`, `netsurf-fb -f sdl -w 1366 -h 768`, `gallery-dl --cookies-from-browser firefox`, `falkon`, `konqueror`.
 
 
+#### Para copiar y pegar en vim usando wayland:
+```
+sudo pacman -S wl-clipboard
+vim .vimrc
+xnoremap <silent> <C-@> :w !wl-copy<CR><CR>
+```
+Seleccioná las líneas a copiar y apretá `Control+@` y lo pegás con `Control+Shift+V`. 
