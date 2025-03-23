@@ -1,5 +1,5 @@
 ---
-title: "Electricidad -  Clase 3"
+title: "Electricidad -  Clase 4"
 date: 2025-03-19T16:08:40-03:00
 tags: ['electricidad']
 ---
@@ -29,4 +29,4 @@ Audio en Vocaroo: https://vocaroo.com/1hnXZFbaWXBU
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirohK_URgctCkdV98dJSI5tVxTE1giOIpSaYQ0v0sV3ovgub_oBXBd12DbPYFh7o852_6-S_kdxkTtgLLe0sRzOU6yHod-yGMgwjy9mGsolHXfiSxRSTVIir-vNbDqpkilqn7SvtNOk1OEiBwCg5MoS6MdomqBhzMhqFHDAdCHJ0mP6ykKq-lO-EWVGR8/s4160/IMG_20250318_200956327.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWMu_a1LyHK6gtjuj0lqHRscITBOvevjemPxlMf6qN0fOIZyY2oKICEkEziVRv7YuXXmaCvapVRCY2oRt2j361MA_PfFn7sqOfWmPgeh_W60cq17B4C4IvlxNLEoBno2RMCe_X8tFBP6PLbQ3rK2HJOe1HJ50skbwA3i1TTWsvUPKIrAy85M6QHNj7Khc/s4160/IMG_20250318_203759780.jpg)
 
-w3m https://imlauer.blogspot.com/2025/03/electricista-clase-3.html
+4ta clase porque falté la primer clase: https://imlauer.blogspot.com/2025/03/electricista-clase-3.html
