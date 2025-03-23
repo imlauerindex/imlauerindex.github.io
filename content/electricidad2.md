@@ -28,10 +28,7 @@ https://vocaroo.com/1bkuThXk0Fs9
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOg1fGT2yYmJPpAgBKaUthnpflE8WPNlCvJMGo5fjNlyMTVY77jn964Kq97TAQsJkKJ5Mho1wurkd1uaZvfRwUNZIqlLQUNhZBSjLh7RfSQH3g5N0Pl6DRfio7DUo37gydRDy_Y_xndBc0VM9D7kVoxscIisEBSKL2bqPQYSxRt64Vke2FEiSg1Hb4tmg/s4160/IMG_20250312_183441666.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr19A-eHfn9eNW-xHxlZrFb9t6hydCuMicu8RctGfHskBoQ9WqjIicWT1z-bOe_XyGCtXFGsNIz7rozfL6ek7hPhRPVjP0IKNr_clzSzkOl5pN_ueQ9jK4EEjqrn9pw-28qfIkiBT_hbsdLQRm_uEB7XFhdAqKgwJYXPnr6zvv2WW4hqYXv5v2IAGhYwA/s4160/IMG_20250312_183436215.jpg)
 
-Profesor: Francisco Espeche. Ingeniero Electromecánico. 
-Trabajo como inspector de obra, ascesor de empresa, proyectista. El primer título que tuve fue ingeniero mecánico pero en la mecánica tenés que trabajar constantemente tener un taller para fabricar todas esas cosas importantes o una empresa que acá hay pocas pero en esa época ya estaba ahora el ALTO PARANÁ. O alguna yerbatera son difíciles. Después hice un año más y fue ingeniero electromecánico y era más fácil porque tenía más amigos en la construcción y hacía proyectos con ellos, al principio cuando uno está solo teníamos nuestros proyectos y a picar paredes y a colocar caños. Me gustaba y más cuando ves que la instalación sale bien y te pagan y después va en boca en boca y así sale más laburo.
-
-
+Profesor: Francisco Espeche. Ingeniero Mecánico. 
 Tel: 3764224522    
 Lunes, Martes, Miércoles - 18:30 20:30   
 
