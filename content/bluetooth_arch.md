@@ -21,6 +21,7 @@ bluetoothctl
 > power on
 > agent on
 > scan on
+> devices
 > pair MAC_ADDRESS
 > connect MAC_ADDRESS
 ```
