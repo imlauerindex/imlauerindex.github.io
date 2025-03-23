@@ -1,6 +1,5 @@
 ---
-title: "Curso Electricidad: Clase 2. Simbología. Red de distribución Morceto. Fusible aéreo. Si tenés morceto con fusible (antirobo) no hace falta el aéreo. Si solo tenés morceto simple se coloca el aéreo por la fase. EMSA coloca el morceto. Conductor preensamblado y bipolar. Un electricista chanta me quizo cambiar toda la instalación porque el conductor de entrada es más chico que va al tablero seccional. Línea de alimentación es la que vincula la red de la empresa distribuidora con los borners del medidor de carga. Acometida se llama así al conjunto de elementos que se utiliza para hacer la conexión entre la red alimentación y el medidor: cable, fusible y morceto. La otra es línea de distribución principal hay una línea que se llama línea principal esta línea que va del medidor al tablero general se llama línea principal para que ustedes entiendan aunque esté detrás del medidor yo del medidor saco una alimentación que va al tablero general o principal del medidor saco una línea que va al tablero general esa línea se llama línea principal. Alimentación trifásica, ahí aparecerán 3 fases (3 líneas) trifásica. Si tengo una alimentación como ese tablero que te mostré ahí tengo TRES fase más el neutro. Fijense que esta caja es más alta que la otra ¿para qué?
-Es cuando uno tiene losa, la losa continua se hace primero la parte de madera se pone la caja se hace la distribución luego va el hormigón arriba. Fijense que es más alto entonces ahí para hierro y todas esas cosas y logro una mejor distribución se usa este tipo de caja."
+title: "Curso Electricidad: Clase 2. El examen es a carpeta abierta. Simbología. Red de distribución Morceto. Fusible aéreo. Si tenés morceto con fusible (antirobo) no hace falta el aéreo. Si solo tenés morceto simple se coloca el aéreo por la fase. EMSA coloca el morceto. Conductor preensamblado y bipolar. Un electricista chanta me quizo cambiar toda la instalación porque el conductor de entrada es más chico que va al tablero seccional. Línea de alimentación es la que vincula la red de la empresa distribuidora con los borners del medidor de carga. Acometida se llama así al conjunto de elementos que se utiliza para hacer la conexión entre la red alimentación y el medidor: cable, fusible y morceto. La otra es línea de distribución principal hay una línea que se llama línea principal esta línea que va del medidor al tablero general se llama línea principal para que ustedes entiendan aunque esté detrás del medidor yo del medidor saco una alimentación que va al tablero general o principal del medidor saco una línea que va al tablero general esa línea se llama línea principal. Alimentación trifásica, ahí aparecerán 3 fases (3 líneas) trifásica. Si tengo una alimentación como ese tablero que te mostré ahí tengo TRES fase más el neutro. Fijense que esta caja es más alta que la otra ¿para qué?  Es cuando uno tiene losa, la losa continua se hace primero la parte de madera se pone la caja se hace la distribución luego va el hormigón arriba. Fijense que es más alto entonces ahí para hierro y todas esas cosas y logro una mejor distribución se usa este tipo de caja. Siempre en todo gabinete en todo medidor hasta EMSA te pide que esté en el gabinete puesta a tierra, sino no te baja la línea."
 date: 2025-03-13T09:21:26-03:00
 tags: ['electricista']
 ---
@@ -29,7 +28,10 @@ https://vocaroo.com/1bkuThXk0Fs9
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOg1fGT2yYmJPpAgBKaUthnpflE8WPNlCvJMGo5fjNlyMTVY77jn964Kq97TAQsJkKJ5Mho1wurkd1uaZvfRwUNZIqlLQUNhZBSjLh7RfSQH3g5N0Pl6DRfio7DUo37gydRDy_Y_xndBc0VM9D7kVoxscIisEBSKL2bqPQYSxRt64Vke2FEiSg1Hb4tmg/s4160/IMG_20250312_183441666.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr19A-eHfn9eNW-xHxlZrFb9t6hydCuMicu8RctGfHskBoQ9WqjIicWT1z-bOe_XyGCtXFGsNIz7rozfL6ek7hPhRPVjP0IKNr_clzSzkOl5pN_ueQ9jK4EEjqrn9pw-28qfIkiBT_hbsdLQRm_uEB7XFhdAqKgwJYXPnr6zvv2WW4hqYXv5v2IAGhYwA/s4160/IMG_20250312_183436215.jpg)
 
-Profesor: Francisco Espeche. Ingeniero Mecánico. 
+Profesor: Francisco Espeche. Ingeniero Electromecánico. 
+Trabajo como inspector de obra, ascesor de empresa, proyectista. El primer título que tuve fue ingeniero mecánico pero en la mecánica tenés que trabajar constantemente tener un taller para fabricar todas esas cosas importantes o una empresa que acá hay pocas pero en esa época ya estaba ahora el ALTO PARANÁ. O alguna yerbatera son difíciles. Después hice un año más y fue ingeniero electromecánico y era más fácil porque tenía más amigos en la construcción y hacía proyectos con ellos, al principio cuando uno está solo teníamos nuestros proyectos y a picar paredes y a colocar caños. Me gustaba y más cuando ves que la instalación sale bien y te pagan y después va en boca en boca y así sale más laburo.
+
+
 Tel: 3764224522    
 Lunes, Martes, Miércoles - 18:30 20:30   
 
@@ -663,4 +665,68 @@ Siempre se busca la manera, vení hacé una ampliación y justo no tenés ningú
 
 Les voy a pasar el esquema, si todos hicieron el QR les voy pasando lo que vimos.
 
+El que falta que busque la carpeta.
+
+Antes de que me olvide acá no dice pero agrega la puesta a tierra.
+
+Siempre en todo gabinete, en todo medidor hasta EMSA te pide que esté en el gabinete puesta a tierra, sino no te baja la línea. 
+
+Conector desnudo conductor amarillo no te baja la línea.
+
+Puesta a tierra, ahí no dice en el esquema pero se sabe que es así.
+
+Voy a preparar la semana que viene les voy a dar ya el gabinete para que vayan entre un monofásico aprobado por EMSA y todo lo que ustedes hagan tiene que ser igual que ese, GABINETE METÁLICO, en otras provincias trabajan con gabinetes PBC. El tablero de atrás también es metálico y otras provincias trabajan con PBC.
+
+Todos los tableros tienen que ir con esta características si yo hago un tablero al costado en la contratapa tiene que ir el esquema ahí te va a decir que se 1 ese RCT o lo que sea va a tener iluminación aula en este caso como es escuela esto después se arregla se pone a la altura pero primero tengo que armar esta parte para poder hacer todo allá.
+
+Y se va viendo.
+
+Alumno: Y acá hay un millón?
+Alumno2: 45 mil 60 mil pesos.
+
+Cada aula tiene un tablero seccional y la alimentación de la mitad de donde está el pasillo es un tablero que maneja todo hasta ahí estuve dirigiendo yo.
+
+Y lo otro hicieron después ya para inaugurar si o si así que contrataron otra gente, toda la parte de iluminación de esta aula hicimos nosotros, solo 4 de estos se quemaron entonces quedamos medias oscuras. Y a veces traigo los tubos de una escuela.
+
+Hay todavía en la misma proporción los tubos florescentes entonces cambiamos por tubos leds.
+
+Alumno: El florescente tiene un gas que es venenoso por el polvo.
+
+Fijense que yo ya tengo contacto con algunos alumnos mientras pueda ayudarlos.
+
+Siempre hay que tratar de hacer la alimentación por un lado y la salida por otro, porque si a veces hay gente que les gusta meter todo el canal solo para alimentación y distrubición pero que pasa unen. Pero que problema tiene? Si yo tengo corto circuito me puede quemar la alimentación.
+
+Lo ideal es que la alimentación esté por un lado en este caso venga por arriba. Entonces no tengo problema, si yo hago la salida acá entro por acá no queda bien, hago por un lado la alimentación principal y la otra que va a los circuitos por otro lado.
+
+Puede ser por debajo porque puede venir de forma subterránea y venir por acá y subir arriba puede ir por abajo puedo tener el tablero acá y puede tener tomacorriente por acá entonces baja por acá y otro toma. Lo que no puedo hacer es que el tablero me sirva como caja de paso.
+Vamos a suponer que yo tengo el tablero acá quiero prender las luces viene alimentación de acá para allá y quiero prender las luces entonces lo ideal es poner una caja de paso que vayan las luces y después venga a la llave. Esto es fusible así como está no tengo corriente tengo que un conductor desnudo calibrado generalmente.
+
+Los primeros fusibles protegían los conductores fusibles calibrados a rosca, tenía la rosca vos sacabas tenía un diasec y dos borneras acá pasaba un conductor por adentro y un coso de arena, en caso de que tenía la fusión y corte apagaba la chica la leña no es silice ,  pero es parecido a la arena.
+
+Después apareció el bipolar que cortaba solo el vivo esa es la térmica negra, esa es la marca americana y tenía solo 1 llave bipolar. 
+
+Después exigieron el conductor neutro que era único daba todo el circuito que variaba la térmica para controlar la fase como había cortocircuito como cierra el cortocircuito neutro.
+
+Hicieron que todo el circuito sea bipolar entonces en caso de que haya un cortocircuito esa que es bipolar corta fácilmente.
+
+Tenemos disyuntor, termomagnética y el 3er componente es la puesta a tierra, es obligatorio.
+
+#### Ducha eléctrica por qué desconectan el disyuntor.
+Una época ponían por reglamentación la salida del disyuntor el circuito tenía térmica y se iba a la ducha eléctrica y la puesta a tierra, pero el problema es que la resistencia producía un choque térmico entonces provocaba como una fuga de corriente, hacía saltar el disyuntor.
+
+En mi casa yo hago así ahora: vos te estabas bañando cortaba toda la instalación hacía saltar el disyuntor. Entonces lo que hice fue desconectar el disyuntor o hacer puesta a tierra, desconecté saqué el disyuntor y le puse a una térmica y la ducha bajé a una puesta a tierra. La ventaja que tenemos ahora es que antes los caños eran de plomo o sino de elobrown ? soy mecánico cualquier fuga se transmitía por la cañería y sentías el cosquilleo hoy en día es de PBC, entonces esa pequeña fuga de corriente no se transmite.
+
+Una vez yo quiería poner un termotanque y ellos querían poner duchas eléctricas brazileras, hicimos toda la instalación si prendías una sola andaba bien, prendías 3 o 4 sobrecargaba la línea después con el tiempo pusimos un termotanque de 1000 litros pero a veces la gente quiere ahorrar, estoy haciendo un edificio con una empresa y ya sacaron el tema del gas que todo elemento que están ahí termotanque horno eléctrico ya se hace con electricidad y hay que prever todos esos consumo mejor que antes.
+
+Consumo de la cocina 7500 watts, para una cocción más o menos buena se necesita 1 hora. 1 hora 7500 watts te baja la instalación. Porque el cable que sea de 10 te liquida.
+
+Dividí 7500/220 te da el amper, el consumo normal de esa cocina y ese consumo es lo mismo que acá consume acá en la acometida de 10. O sea y vos tenés toda la casa, un elemento consumís todo. No podés usar el aire, ni las luces ni la heladera porque estás consumiendo todo la cocina.
+
+Le programé la instalación de otra forma y le dije si usa 3 hornallas sin el horno, o puede usar el horno y 1 ornalla más que eso no, o sino se recargaba la línea.
+
+---
+
+Las barritas de cobre se puede usar.
+
+Si se unen los cables de entrada con la salida la térmica no van a saltar, porque la corriente no pasa por las térmicas pasa de cable a cable, porque se juntan los cables por el calor. Cuando se juntan los cables ya no va a saltar más.
 

@@ -25,4 +25,6 @@ bluetoothctl
 > connect MAC_ADDRESS
 ```
 
+En caso de una mala conexión usar `disconnect MAC_ADDRESS`
+
 https://old.reddit.com/r/archlinux/comments/13cr6mj/how_to_setup_bluetooth_service_on_arch_linux/
