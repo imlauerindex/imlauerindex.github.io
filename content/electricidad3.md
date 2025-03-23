@@ -22,4 +22,7 @@ Audio Archive: https://archive.org/details/record-58_202503
 
 En realidad esta es la 3er clase, porque empecé desde la 2da clase el curso.
 
+#### Transcrpición
+
+
 https://imlauer.blogspot.com/2025/03/electricidad-2da-clase.html
