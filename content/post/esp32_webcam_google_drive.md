@@ -428,7 +428,7 @@ String urlencode(String str)
 }
 ```
 
-Para grabar el programa en la ESP32 usé el programa arduino y para configurar el arduino seguí este video: [https://m.youtube.com/watch?v=oCA7XZl8ztk&feature=youtu.be](https://youtube.com/watch?v=gN8MamCE4qE) a veces me puteaba diciendo que compiló mal le cambiaba la velocidad de la comunicación serial y volvía a poner la que estaba y funcionaba
+Para grabar el programa en la ESP32 usé el programa Arduino y para configurar el arduino seguí este video: [https://m.youtube.com/watch?v=oCA7XZl8ztk&feature=youtu.be](https://youtube.com/watch?v=gN8MamCE4qE) a veces me puteaba diciendo que compiló mal le cambiaba la velocidad de la comunicación serial y volvía a poner la que estaba y funcionaba
 
 [https://youtube.com/watch?v=XqT1rLHl3DE](https://youtube.com/watch?v=XqT1rLHl3DE)
 

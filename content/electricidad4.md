@@ -3,8 +3,11 @@ title: "Electricidad -  Clase 4"
 date: 2025-03-19T16:08:40-03:00
 tags: ['electricidad']
 ---
-Audio en Archive: https://archive.org/details/record-59
-Audio en Vocaroo: https://vocaroo.com/1hnXZFbaWXBU
+#### Audio en Archive:
+https://archive.org/details/record-59        
+
+#### Audio en Vocaroo:
+https://vocaroo.com/1hnXZFbaWXBU
 
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyf5U6qeAht5UW8Zyju4WEC-kaU3WxBoGedGxsmArn87lUwGBotBUtjs0ab4WdiMKBdWRptjg1NG1KrFifPlek0SLk4QUpMU5XLeMI9Vz31Y8sb3VFfxs-96iod4D2XRjHhZ9xIl87ieUhdMRU1S-PNMKucjy1BhfRLXOp0FHCvO7S8JZxFZem5t87cZ0/s4160/IMG_20250318_183607339.jpg)
@@ -29,4 +32,12 @@ Audio en Vocaroo: https://vocaroo.com/1hnXZFbaWXBU
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirohK_URgctCkdV98dJSI5tVxTE1giOIpSaYQ0v0sV3ovgub_oBXBd12DbPYFh7o852_6-S_kdxkTtgLLe0sRzOU6yHod-yGMgwjy9mGsolHXfiSxRSTVIir-vNbDqpkilqn7SvtNOk1OEiBwCg5MoS6MdomqBhzMhqFHDAdCHJ0mP6ykKq-lO-EWVGR8/s4160/IMG_20250318_200956327.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWMu_a1LyHK6gtjuj0lqHRscITBOvevjemPxlMf6qN0fOIZyY2oKICEkEziVRv7YuXXmaCvapVRCY2oRt2j361MA_PfFn7sqOfWmPgeh_W60cq17B4C4IvlxNLEoBno2RMCe_X8tFBP6PLbQ3rK2HJOe1HJ50skbwA3i1TTWsvUPKIrAy85M6QHNj7Khc/s4160/IMG_20250318_203759780.jpg)
 
-4ta clase porque falté la primer clase: https://imlauer.blogspot.com/2025/03/electricista-clase-3.html
+#### Transcripción audio (A partir de minuto 06:01)
+
+Algún día voy a tener una biblioteca ahí. Voy a tener algo con cerradura.
+Esto que está acá es una instalación que proyecta los materiales que ellos utilizan normalmente PBC.
+
+
+---
+
+En realidad esta era la 4ta clase porque falté la primer clase: https://imlauer.blogspot.com/2025/03/electricista-clase-3.html
