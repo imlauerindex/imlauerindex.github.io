@@ -448,7 +448,7 @@ Luego `service network-manager start`
 Y tu internet debería volver a funcionar.
 
 
-### Capturando el handshake
+### Capturando el handshake con Airodump
 **¿Qué es el handshake?**
 Una serie de 4 paquetes intercambiados entre el cliente y el punto de acceso durante un establecimiento de conexión. El handshake contiene la contraseña cifrada. Sólo podemos capturar el handshake cuando el cliente se conecta a la WiFi, no cuando ya está conectado.
 
