@@ -285,12 +285,14 @@ Acá puede haber una variación, el split entonces generalmente se pone a una al
 , el que proyecta la casa es el arquitecto, que tiene una locura de hacer algo distintos.
 
 Alumna: Hay aires acondicionado que salen del techo en el Duomo de la costanera.  
-Profesor: Sí. Es como una ¿? (Hora 01:13) acuérdense que algunos son de mayor cantidad de frigorías eso son aires de estas características y otros que son climas horizontales ¿? o de arriba y tienen otras condiciones tienen hasta un equipo que está afuera y ese equipo puede ser que tenga para 2 aires acondicionados y ese va a través de un sistema de cañería pero bueno... Acuérdense que si tienen suerte es fácil...
+Profesor: Sí. El tema es el siguiente: acuérdense que algunos son de mayor cantidad de frigorías eso son aires de estas características y otros que son climas horizontales o de arriba y tienen otras condiciones tienen hasta un equipo que está afuera y ese equipo puede ser que tenga para 2 aires acondicionados y ese va a través de un sistema de cañería pero bueno... Acuérdense que si tienen suerte uno es fase ¿? (01:13:38) ...
 
-Pero siempre le van a pedir a ustedes que son electricista, dame energía hasta ese aire. Acá yo necesito energía vos tenés que llevar esa energía hasta ese aire.
+Pero siempre le van a pedir a ustedes que son electricistas, dame energía hasta ese aire. Acá yo necesito energía vos tenés que llevar esa energía hasta ese aire.
 
 Alumna: O sea que la energía de esos que están en el techo. Están en el equipo o están escondido, porque yo no he visto enchufes.   
-Profesor: Eso probablemente está en el equipo de afuera exterior, y la toma está afuera. La mayoría de esos equipos son trifásicos.
+Profesor: Eso probablemente está en el equipo de afuera exterior
+Alumna: Y la toma está afuera también?   
+Profesor: Sí. Afuera también. La mayoría de esos equipos son trifásicos.
 
 Hora 01:14
 
