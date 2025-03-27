@@ -12,4 +12,6 @@ https://archive.org/details/record-63
 Cometí el error de desarmarlo rápido y no observar como estaba armado.
 
 Desarmamos esto, conectamos fase y neutro a la base, luego lo probamos en un tablero.
+Para verificar que funcionaba de forma correcta con un multímetro verificamos la continuidad del cable fase y de neutro (no debería haber continuidad).
+
 ![](https://http2.mlstatic.com/D_NQ_NP_936765-MLA46355981719_062021-O.jpg)
