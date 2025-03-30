@@ -64,9 +64,9 @@ Eso es lo que quería mostrarle. Después tengo un conductor desnudo que está a
 Por qué es importante donde coloco el conductor? Fijense que va atrás hay gente que me coloca adelante entonces el tornillo ajusta los hilos del conductor del cobre pero se abre porque acá está el tornillo, la idea es que agarre toda la superficie de atrás. Acuérdense que esto va hincado¿? (Minuto 14)
 
 Alumno: puede ir en forma horizontal también?    
-Profesor: Lo ideal es que esté hincado, horizontal solo cuando tengo mucha piedra y tengo poca profundidad de tierra.
-Alumno: y no tiene que ir a la vista?  
-Profesor: Lo que queda arriba es este pedacito.  
+Profesor: Lo ideal es que esté hincado, horizontal solo cuando tengo mucha piedra y tengo poca profundidad de tierra.    
+Alumno: y no tiene que ir a la vista?    
+Profesor: Lo que queda arriba es este pedacito.     
 Alumno: puede quedar al descubierto....   
 Profesor: tiene una cámara de inspección, voy a revisar que va tipo un capuchón acá ese capuchón que va a nivel de piso tiene una orejita que permite tomar la medición de la puesta a tierra, eso se mide con telurimétro después cuando avancemos vamos a ver esas cosas.
 
@@ -75,7 +75,7 @@ Quería mostrarles porque ese pilar monofásico es lo que nos habilita a nosotro
 \*Llega alumno.   
 Profesor: Como anda señor!
 
-Acuérdense que esta es la 2da fotocopia. Ahora veré si puedo sacar la 3era.
+Acuérdense que esta es la 2da fotocopia. Ahora veré si puedo sacar la 3era.  
 
 Alumna: Dice la cometida deberá tener una flecha, qué?.    
 Profesor: Viste cuando vos tenés un conductor ahí que no caiga.   
@@ -183,7 +183,7 @@ Todas las cajas que están de esta forma ya sea en un cielo raso suspedido o en 
 
 ###### Hoy al inventarse el sistema de led ya se sacó el ¿? (Minuto 45) tenemos una cosa menos, pero igual tenemos que seguir aplicando las mínimas sugerencias. De la boca de gancho U y después sí pongo un tornillo en uno de los extremos para que no gire...
 
-### Por qué gira el artefacto al colocar? Estos son cielorazo con característas en la cuál uno puede limpiar y siempre hay un personal de servicio. Antes que nada soy inspector de escuela, inspector de infraestructura de escuela de la parte eléctrica entonces el personal de servicio limpia y no le perdonan nada, a veces vos veías que eso estaba así...
+### Por qué gira el artefacto al colocar? Estos son cielo raso con características en la cuál uno puede limpiar y siempre hay un personal de servicio. Antes que nada soy inspector de escuela, inspector de infraestructura de escuela de la parte eléctrica entonces el personal de servicio limpia y no le perdonan nada, a veces vos veías que eso estaba así...
 
 #### Uso de machimbre.
 Pero son condiciones y tienen esta particularidad que se puede limpiar, mejoramos el tema del **machimbre**. Para que ustedes entiendan había una época que se cortaba mucho machimbre y acá quedaban los desagues los húmedos y nosotros seguíamos con la idea de que quedaba lindo en las escuelas más en las escuelas rurales el machimbre bien pintado barnizado, pero luego empezamos a desistir con la idea esa porque se secaba y se deformaba el machimbre... Y como era un material inófugo se reemplazó el machimbre por esto. 
@@ -441,22 +441,22 @@ Profesor: si tenés buenos conductores no te preocupes.
 
 Hablan de las herramientas para la próxima clase...
 
-Profesor auxiliar le dió una caja de 5, 6 elementos más que era mío y le dijo que estaba haciendo allá en Itaembé Guazú.  
-Alumno: Escondió la caja...  
-Profesor: No tengo voy a preguntar ahora, pero tampoco quiero quedar mal con la gente.   
-Alumno: El buscapolo que usted estaba buscando el otro día es uno como este.  
-Profesor: Después voy a mostrar lo que me compró la gente de acá y al principio. De este tengo una variedad de cantidad. Trajiste?   
-Alumno: El morceto sí. Este no sé.  
-Profesor: Y bueno ese para que vean yo tengo fusible MH para mostrarle ahora.  
-Alumno: Sí, pero este se usa son contado con los dedos de las manos las casas que funcionan con seccionador que tienen APR.  
-Profesor: Y sí, pero se usa.  
-Alumno: Para empezar tenés que tener trifásica, sino al pedo que te compres uno.
-Profesor: Claro lo que pasa es que en algunos lugares...    
-Alumno: Generalmente en zonas rurales.
-Profesor: No. Vamos a suponer que vos hagas la alimentación en forma subterránea.
-Alumno: Ahí te conviene poner APR.
-Profesor: École, ahí poné APR aunque sea **monofásico** poné APR allá arriba directamente le desconectan va al medidor y después tranquilamente, o sea que no hay problema en ese sentido. Ahora lo que me falta darle a ustedes es la simbología. 
-
+Profesor auxiliar le dió una caja de 5, 6 elementos más que era mío y le dijo que estaba haciendo allá en Itaembé Guazú.       
+Alumno: Escondió la caja...       
+Profesor: No tengo voy a preguntar ahora, pero tampoco quiero quedar mal con la gente.        
+Alumno: El buscapolo que usted estaba buscando el otro día es uno como este.       
+Profesor: Después voy a mostrar lo que me compró la gente de acá y al principio. De este tengo una variedad de cantidad. Trajiste?        
+Alumno: El morceto sí. Este no sé.       
+Profesor: Y bueno ese para que vean yo tengo fusible MH para mostrarle ahora.       
+Alumno: Sí, pero este se usa son contado con los dedos de las manos las casas que funcionan con seccionador que tienen APR.       
+Profesor: Y sí, pero se usa.       
+Alumno: Para empezar tenés que tener trifásica, sino al pedo que te compres uno.     
+Profesor: Claro lo que pasa es que en algunos lugares...         
+Alumno: Generalmente en zonas rurales.          
+Profesor: No. Vamos a suponer que vos hagas la alimentación en forma subterránea.         
+Alumno: Ahí te conviene poner APR.         
+Profesor: École, ahí poné APR aunque sea **monofásico** poné APR allá arriba directamente le desconectan va al medidor y después tranquilamente, o sea que no hay problema en ese sentido. Ahora lo que me falta darle a ustedes es la simbología.      
+     
 ---
 
 En realidad esta era la 4ta clase porque falté la primer clase: https://imlauer.blogspot.com/2025/03/electricista-clase-3.html
