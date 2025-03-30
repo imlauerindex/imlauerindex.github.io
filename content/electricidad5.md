@@ -240,6 +240,9 @@ Profesor: Sí. En la cajita sí, esto es una caja de toma, en donde vos quieras 
 Alumno: Que le pelas con una trincheta o algo?     
 Profesor: Ahora vamos a explicar después le voy a mostrar ahí está hecho eso y eso hacen los alumnos. Está hecho acá pedí que me hagan para que muestren, este por las dudas ustedes (suena timbre), no es recreo, ese es un timbre tiene un transformador arriba entran 220 y sale 24 voltios, me permite que esa llave de punto ese pulsador me llegue 24 voltios, es importante porque en ese caso generalmente el pulsador, en una casa vamos a suponer que esté retirado que esté en la vereda 5,6 metros.
 
+Minuto 58:02
+
+
 
 
 ---
