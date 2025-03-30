@@ -238,12 +238,177 @@ Alumna: Ah, abajo en la cajita de abajo.
 Profesor: Sí. En la cajita sí, esto es una caja de toma, en donde vos quieras entonces acá llega 2,5 mm^2 y ahí hacé las uniones dentro de las uniones dentro de la caja. Acuérdense vos unís el cable no más para que vos veas la gente se equivoca con esta característica como tiene dos módulos ahí voy a pasar entonces la gente dice bueno yo pongo acá y de acá salgo a la otra, pongo acá y de ahí saco otro pongo acá y de ahí saco el otro, o sea acá sería el inicio y acá el final del otro módulo pero que pasa está recalentando ese. Estamos?     
 
 Alumno: Que le pelas con una trincheta o algo?     
-Profesor: Ahora vamos a explicar después le voy a mostrar ahí está hecho eso y eso hacen los alumnos. Está hecho acá pedí que me hagan para que muestren, este por las dudas ustedes (suena timbre), no es recreo, ese es un timbre tiene un transformador arriba entran 220 y sale 24 voltios, me permite que esa llave de punto ese pulsador me llegue 24 voltios, es importante porque en ese caso generalmente el pulsador, en una casa vamos a suponer que esté retirado que esté en la vereda 5,6 metros.
+Profesor: Ahora vamos a explicar después le voy a mostrar ahí está hecho eso y eso hacen los alumnos. Está hecho acá pedí que me hagan para que muestren, este por las dudas ustedes (suena timbre), no es recreo, ese es un timbre tiene un transformador arriba entran 220 y sale 24 voltios, me permite que esa llave de punto ese pulsador ahí me llegue 24 voltios, es importante porque en ese caso generalmente el pulsador, en una casa vamos a suponer que esté retirado que esté en la vereda 5/6 metros y la gente quiere comunicarse con ustedes si no tengo portero eléctrico tiene un timbre y ese timbre está al aire libre y tiene 24 voltios entonces ¿qué pasa? Cuando tiene problemas de que si hay una pérdida o lo que sea transmita o descargue sobre la persona.
+
+#### Acuérdense que tensiones hasta 24 voltios el cuerpo permite absorber o sea que 24 voltios me da una corriente de 30 miliamper, 30 miliamper me hace un cosquilleo pero no me tira para atras, es importante el tema del timbre es lo mas sencillo sino tenes que golpear la mano o gritar.
+
+#### Hablando de cuando un tipo ingresó al garage de la casa del profesor.
+Fijense una vez un tipo una casa yo compré una casa ahí al lado, y adentro del garage tenía el timbre ahí antes de entrar a la casa.
+
+Alumna: Tenía que entrar a tu patio.    
+Profesor: Tenía que entrar al garage para tocar timbre, y una vez me olvidé y ... Dejé abierto el portón entró un tipo ahí. Como yo no ví el timbre digo pero vos sabés que esta parte me pertenece por más que vos quieras... Creo que vendía sandwiches de milanesas o lo que sea, y le digo retirá acá y te voy a atender, dentro de mi casa no te voy a atender, tengo hijos chicos loco, como vas a entrar ahí dentro. Eso fue por culpa mía de poner el timbre afuera. Era cierto estaba mal construído. Probablemente en esa época supongo siempre uno piensa que en esa época la gente podía tener algunos casos abierto ahí en la entrada pero bueno... 
 
 Minuto 58:02
 
+Estamos hasta ahí? Creo que la mayoría de los símbolos. Está, después le voy a pasar esto. Le voy a sacar fotocopia o algo por el estilo, ahora cuando empiece a ver los nombres voy a tomarme la idea porque ahora tengo todo números no más, pero voy a pasar a ver quién es fulano de tal armo mi agenda y le empiezo a mandar. Vos viniste recién? Después anotate ahí en este ¿?. El que no se anotó ponganse y después cuando hagamos el tema de asistencia ahí bien aclarado para poder tener cada uno información. El WhatsApp exclusivo información, ya se acabó el que no vino no vino, y el que está está.
+
+Ahora vamos a empezar por partes, acá tengo un ayudante experto. Vamos a sacar todo lo que tengamos después yo les voy a dar el alicate todas estas cosas, sacá todo.
+
+#### Hablando de los tableros.
+Lo que se va a hacer ahora para que ustedes vayan viendo la idea principalmente yo tengo que desarmar todo esto para hacerlo más rápido vamos a usar un alicate y cortar, esto tiene que quedar limpio porque esto va a servir para ustedes el día de mañana un banco de prueba. Ahí se hacen todo los circuitos se prueba y ahí vemos como trabajan y todo.     
+#### Próxima clase armaremos portalámparas.
+El tema acá es sacar todo lo que tengamos y guardar los cables, los cables nos sirven ahora para poder hacer los empalmes. Entonces .... Teniendo los empalmes y sabiendo como trabajar cada caso particular vamos a empezar con el tema del portalámparas que voy a comprar pedir pero a veces viene espacios muy chiquititos parece que voy a tener que comprar yo no más, entonces cada uno va a tener su portalámparas y va a probar como se hace la instalación y todo, vamos a ir desarmando una vez que tengamos los cables yo quiero saber ahí cuanto tengo en total. Habla boludeces con el ayudante(Alejandro): "Has tú lo que debas hacer"... Todas estas cajitas si está todo limpio ahí. Yo de estos tengo que comprar por lo menos unos 20 hay de estos muchos. Pero siempre.... Cuidado tu celular no va a ser que justo se caiga tu celular, después me vas a echar la culpa a mi, cualquier cosa pregunten. Yo voy a ir contando todo lo que hay, cuánto tenemos en total.    
+###### Proceden a sacar tableros (bastidores) y contar la cantidad de alumnos...
+Después a lo último vamos a ir viendo lo que le faltó a la gente nueva, el tema de la fotocopia para que vayan viendo. Te voy a molestar un cachito no más, vos quedate ahí. Hay que contar cuántos hay cuantos somos... Vamos a contar cuánto hay.
+
+##### Contando la cantidad de tableros(bastidores).
+A veces vamos a trabajar de a dos por cupitre y a veces de a 1 depende de las cantidades, acá no es importante si el sabe será el primero o el segundo, pero van a trabajar los dos, los dos tienen que hacer las mismas macanas y tienen que aprender. ¿Cuántas tenemos ahí? 10. Contando... **15 en total, teníamos 20 así que desaparecieron 5**. NO importa.
+
+Allá tiene que quedar todo así despejado, 16, 17 nos faltarían 3 después.
+
+##### Después vamos a hacer canalización.
+Este que está acá después cuando empecemos canalización vamos a hacer algo parecido a esto vamos a poner conectores y vamos a colocar las cajas y vamos a ir armando nuestro tablero de prueba. Cada uno tiene que tener eso... Esto es lo que cada uno va a tener para poder armar los circuitos.
+
+Vos vas a probar acá (le habla al ayudante).
+
+##### Vamos a armar circuitos básicos.
+Los circuitos básicos tienen que aprender no es difícil.
+
+##### Contando bastidores y asegurándose de que haya 1 por cada mesa...
+Hay 13 mesas así que puede ir uno por mesa.
+
+##### Hay alicates con aislación hasta 1000 voltios.
+Vamos a empezar por partes, voy a ver que herramientas tengo acuérdense que lo primero que tengo que tener en cuenta en este caso voy a cortar con alicate que tiene todo el sistema aislado hay algunos que aparece y dice hasta 1000 voltios. Ustedes saben que acá yo tengo 200 voltios de tensión o sea que me sobra paño, puedo tener tensiones hasta 1000 voltios y todos son aislantes. Tengo otra que tiene otro mango aislante para tensiones más grandes.
+
+Entonces uno tiene la seguridad de que acá uno \*\* muestra otra pinza que soporta más voltios 
+
+###### Profesor dejó herramienta arriba de la luneta del auto y el sol derritió y perdió la aislación.
+Una cosa importante que me sucedió a mi compré un juego de vaco ¿? (01:09:22) esto más la pinza y una vez me olvidé haciendo rápido las herramientas, juntando todas las herramientas me olvidé justo una pinza arriba de la luneta del auto. Le agarró el sol cuando llego esto porque el vidrio actúo como una lupa y chau, pero me derritió toda esta parte.     
+O sea que quiero decir que a veces sin querer uno deja la herramienta en cualquier lado y cuando necesita se cortó todo el tema de la aislación, o sea que esa herramienta solo uso para trincar algunas cosas **pero para trabajar con energía no**.
+
+Alumno: hacemos un barco? ¿?
+
+Alumna: Profe le puedo hacer una pregunta?    
+Profesor: Sí señora.   
+Alumna: En paraguay hay normas IRAM?   
+Profesor: No IRAM sólo en Argentina Instituto de Asociación Argentina.   
+Alumna: Como puedo saber de comprar una herramienta, puedo comprar en Paraguay o no es recomendable? Me voy a vacunovich por ejemplo
+Profesor: Sí, ahí le van a vacunar (chiste). El tema es así ellos especifican en algunos sectores dicen hasta que tensión pero tienen algunas herramientas, fíjense que aunque ustedes no crean hay herramientas chinas que venden ellos también allá y acá también o sea que no hay problemas el tema de seguridad.
+
+##### Nunca trabajar con tensión siempre bajar la energía, solo si es muy necesario y hay que usar guantes y botines con suelas aislantes.
+Lo que pasa que uno trabajando profesionalmente y con tensión, por eso nosotros lo que vamos a hacer primeramente es el trabajo sin tensión. Armamos todo y después le damos tensión. Cualquiera que empiece en la parte eléctrica lo que conviene siempre: bajar la energía reviso bajo la energía, veo el problema y después veo, no trabajo con tensión.
+
+Solo en lugares que tengo mucha necesidad y no tengo que bajar la energía ahí tengo que trabajar con tensión pero ahí ya tengo que trabajar con guantes que yo les dije aislante, entonces tengo la seguridad que esa descarga y especialmente botines, botines con suela aislante y eléctricos entonces quiere decir que si me llega a tener la descarga acá no voy a recibir la descarga porque estoy aislado. Ese es importante el tema de seguridad.
+
+Bueno. Voy a ver que elementos tengo antes que nada. Herramientas... A medida que voy desarmando voy encontrando cosas.
+
+Alumno: Continuando con la pregunta, de ser china o americana. ¿Qué sello debería tener la herramienta como para certificar que es aprobada.
+
+##### Una época ponían una manguera como aislante de la pinza.
+**Profesor: Si ustedes compran allá en algunos casos dicen la cantidad de voltios, generalmente mientras tenga un mango que sea aislante. Una cosa es aislante bastante grueso, y una época ponían tipo una manguera, es aislante tmb pero es una manguera.** Esto fíjense que ya cuesta sacar en algunos casos está todo bien tomado y yo sé tengo la seguridad de que hasta acá tengo aislado.
+
+### Como usar alicate: trabaja como una tijera meter dedo en el medio, hay alicates que tienen un resorte. Pinza y alicate. Lo que hago es marcar primero y hago giro sobre. Con una pinza con el alicate marcás y después palanquás.
+
+Bueno por lo menos tengo algunas herramientas todavía, vamos a suponer alicate. La gente que usa tijera es muy fácil meto el dedo acá y abro y cierro. En brasil compré un alicate que tenía un resorte, en vez de hacer esto (poner el dedo en el medio) tenía el resorte hacía así, o sea me abría el resorte y yo apretaba hasta que un día yo presté cuando me devolvieron desapareció el resorte, porque a la gente le gusta saber porque tiene ese resorte entonces empiezan a probar y sacan y después ya no pueden colocar, pero es importante que ustedes tengan en cuenta que la primera herramienta para corte es un alicate. Trabaja tipo una tijera.
+
+Mi ayudante...    
+Vamos a mostrar todo porque mañana cada uno va a hacer....
+
+### Como usar el alicate y el pelacables.
+Él (el ayudante) pela cables con alicate pero hay gente que ya tiene hasta un electricista tiene un bruto cayo acá de tanto pelar y hacer fuerza con alicate pero para la gente que recién empieza y haciendo uniones fuera de la caja lo ideal con una pinza tomás del cable con el alicate marcás y después palanqueas. Con el alicate primero marco y después hago giro sobre. Entienden ahí no uso el dedo y ahí ya estoy pelando el cable, eso van a practicar mañana, vamos a tratar de instruir todas las cosas que podamos acá. Me falta una caja de herramientas que quedó en otro centro de formación otra base que está allá en Itaembé Guazú, pero en general vamos a hacer todo lo posible para que uno por mesa por lo menos tengamos un juego.
+
+Entonces uso esto de esta forma, esa es la primera forma de poder pelar un cable. Despues hay...     
+Alumno: Y el pelacables profe?      
+Profesor: Ahora te voy a mostrar mi shera-aa, pero ese es para que la gente ya sepa.  Si no hay mantenimiento y la gente no cuida se oxidan. 
+
+Pelar cables con alicate: https://www.youtube.com/embed/iSCQmw9ctIc    
+
+Pelar cables con el pelacables (herramienta): https://www.youtube.com/embed/W4n9M65q8eI
+
+Esto que está acá es un pela cable pero permite pelar cables hasta 4 mm^2.
+
+Profesor al ayudante: Yo pensé que ibas a mostrar tu pelacable.     
+Ayudante: Yo no uso pelacables.    
+Profesor: Bueno, este es otro pelacables pero este no sirve, este es para...
+Ayudante: Ese es solamente para colocar terminales punta hueca.
+Profesor: No, o directamente si yo quiero usar en la parte eléctrica que son cables más finos hasta un milímetro (1 mm^2). Entonces puedo utilizar este pero no sirve para... Este es el que me ayuda a mi a poder pelar el cable tiene fíjense distintos interticios ¿? (01:17:59) huecos entonces cada hueco (del pelacables) hasta 4 mm^2, después viene 2,5 mm^2 / 1,5 mm^2 y 1mm^2 yo puedo ir pelando ¿cómo hago?
+
+#### Trabajar con alicate vs trabajar con pelacables. Hasta 4 mm^2 el pelacables.
+Dame un pedazo de cable ayudante. Ese es 2,5 mm^2 entonces fíjense hasta 4 mm ^2 tengo la posibilidad de pelar con esta herramienta directamente como es 2,5 mm^2 tengo que poner hasta el anteúltimo interficio (hueco) lo único que hace es CLICK (pela el cable) es muy sencillo pero tengo que empezar con las herramientas básicas y después este. Yo cuando estoy trabajando con un tablero me conviene tranquilamente está ¿? pero es hasta 4 mm^2.
+
+Seguimos... Primero vamos a empezar con la chiquitita esta. Siempre se trata hay una parte que es importante, en algún lado está.
+
+##### Calibre: pie de rey para medir diámetro conductor.
+Ustedes con el tiempo ya van a aprender, quién sabe que es esto? Un calibre. Se trata de medir siempre que diámetro tiene el conductor acá en este caso es casi 1mm^2 y pico 2 mm^2.
+
+Entonces ¿que es lo que pide las normas? Es que 10 veces el diámetro del conductor. Nosotros no vamos a tener todo el día un calibre en la mano para pelar o sacar la aislación 10 veces el diámetro del conductor no sirve.
+
+#### La distancia para pelar el cable: 2, 3 centímetros (son dos dedos), ahí tengo que pelar el cable. Cuanto más grande sea la sección del cable hay que dejar más centímetros sino costará empalmar.
+#### Empalme prolongación: unir otro conductor con otro conductor de la misma sección.
+Nosotros vamos a la práctica y vamos a tener la posibilidad entre 2 y 3 centímetros pelá el cable, la gente que maneja las manos a veces son dos dedos, ahí tengo que pelar el cable, con 2 dedos estoy. Cuanto más grande es la sección del conductor: vamos a suponer que tengo un cable de 10 mm^2 no es lo mismo pelar 2 centímetros yo tengo que tratar de pelar 3 centímetros porque después vamos a ver cuando **tengamos que hacer el empalme si tengo un conductor de mayor sección me va a costar empalmar para hacer la primer unión que podemos hacer la prolongación unir otro conductor con otro conductor de la misma sección para prolongar**. Eso se llama un empalme prolongación, algunos lo llaman en inglés westom ¿? pero es un empalme prolongación uno se inicia con eso, si o si tengo que hacer un empalme después haremos otros tipos de empalme para que ustedes vayan viendo y conociendo las herramientas y sobre todo cuando utilicemos una vez que hagamos el empalme tenemos que tener en cuenta como trabaja la cinta aisladora, la cinta aisladora también cumple una función.
+
+###### Cinta aisladora como usar
+Una vez que se realiza el empalme le voy a mostrar como debés sujetar la primer sujección es para realmente mantener el empalme y la 2da porque en estos casos no hacemos la unión con soldadura. Nosotros antes cuando colocamos el tema de las dicroicas, antes era muy usual dicriocas y se necesitaba un buen empalme para poder mantener porque eran conexiones bajas en un transformador y todo eso que ustedes pueden y costaba que o sea teníamos que hacer un buen empalme para que tenga una mejor vida útil y soldábamos los conductores pero en casos especiales, hoy en día hacemos empalme con la mano directamente apretamos con cualquier elemento que tengamos en este caso la pinza una vez que está bien empalmado aplicamos la cinta aisladora, eso de que con la cinta aisladora hacerle "eehe-eeeeh" ¿? (01:23:09) no sirve porque a veces hace girar como es redondo la cinta aisladora yo puedo dar vuelta y vuelta y tarde o temprano corta y ya está ¿? (01:23:24) pero tiene que tener la suficiente fuerza para que esa unión ese empalme sea bueno.
+
+Descartamos el ¿?(pelacables) (01:23:25) a mi no me gusta.
+
+Pero como toda herramienta ya se rompió hay de estos como 10. No sé para que compramos. Yo pido las herramienta para tener y tampoco hay.
+
+Alumno: Ese venden en california.   
+Ayudante: No lo compres vas a tirar tu plata al pedo.
+##### PREGUNTAR
+Profesor: Sí, en todos lados venden hay hasta la casa de electrónica Krauser hasta 0,75 perfecto, 1 perfecto, después ya ahí ya te cuesta. Pero como toda herramienta fíjese **esta también tiene un sistema que me permite a mi cortar conductor** hoy en día para eso no más sirve, pero lo que te quiero decir es que a veces te ofrecen y uno cree aparecen algunos juegos de herramienta y aparece este adentro... La otra vez estaba mirando un video de ciudad del este (Paraguay) que es más barato a mitad de precio y ya compran un juego de destornilladores pinza alicate todo junto y aparece uno de estos para cosas chiquitas puede andar.
+
+Alumno: Cable de red.    
+Profesor: Bueno, seguimos!    
+Alumno: Son 8 pelitos.    
+Ayuante: Sí, yo conozco el cable de red pero no te lo recomiendo. Eso por lo general se usaba mucho para colocar esto: la terminal de punta hueca.    
+
+#### Protector de sobre y baja tensión.
+Antes que me olvide la otra vez me preguntaron esto es un protector de baja y alta tensión, protector de sobre y baja tensión.
+
+**A qué se denomina sobre tensión?** Yo tengo que todos los dispositivos de una vivienda están trabajando generalmente a una tensión óptima entre 220 voltios pero ese 220 puede bajar o subir de acuerdo a la característica que tenga la instalación de afuera y puede variar pero ese rango comprende entre 220 y 239 voltios. Entonces este elemento de protección me permite a mi.
+
+Que quiere decir que yo tengo un rango de tensión de tensión que cualquier dispositivo dentro de una vivienda puede andar en esos rangos, disminuye la vida útil puede disminuir pero hay picos puede haber de la red que fructúa entonces tengo un elemento que se utiliza en caso de que esa tensión disminuya o baje me permita a mi cortar la energía hasta que se estabilice.
+
+Este es un protector. Uno trabaja en forma automática y otra en forma manual yo puedo desconectarlo porque puede ser que constantemente esté cortando y me perjudique las heladeras entonces yo corto desenchufo lo que sea.
+
+Pero este elemento...
+
+Alumno: cuando yo no tengo 220 constante ese aparato me cuidaría.    
+Profesor: Claro está en un rango! Hay otros que te permiten que vos regules tu tensión pero este es interesante en vivienda particulares, tratar... Hay otro que... Esto es de una instalación que yo puedo colocar dentro de mi tablero.
+
+### Profesor tiene un estabilizador en la computadora (no sirve tiene que tener una UPS).
+Después tengo otro dispositivo que yo puedo colocar por equipo puedo colocar en el toma que está en mi heladera por ejemplo, yo compré un televisor de 75 pulgadas mentiras entonces quiero cuidar ese elemento y pongo un protector ahí. Cuando voy a hacerle la parte del problema de tensión los equipos electrónicos son los que más sufren o donde está la computadora yo tengo tengo estabilizador así que la computadora no va a tener problema, pero ese es importante que tengan en cuenta que hay elementos que protegen la fructuación de tensión dentro de una vivienda como uno ve eso porque visualmente uno puede estar sin querer esto tengo LED casi ni se nota, pero puedo tener un foco incandescente si tengo la época de los florescentes no quiere arrancar empieza a parpadear hoy todo son LEDs así que con baja tensión anda, el ventilador va a disminuir su velocidad **eso es el problema de tensión**, es importante que tengan en cuenta eso porque a veces me preguntan... Yo tengo un kiosqueero que está al lado de mi casa y a veces tiene corte de energía y tiene varias heladeras, el me pide a veces ¿como protegemos? Bueno ¿cuál de tus equipos de tus heladeras son las que vos querés proteger? Protegemos algo sino **el circuito de heladeras que él hace ahí protegemos con este equipo para cuidar**.
+
+Lo que quiero decir que voy encontrando cosas para mostrarle a ustedes cual simularemos la instalación vayan viendo por las dudas...
+
+    
+Ayudante: por lo general ahora vienen digitales esos (protector de tensión). O todos compran los inhibidores ¿? (Minuto 01:29:43) famosos SICA que se venden ahora que eso se regula el rango que uno quiere y se conecta antes que la heladera el freezer.       
+Alumno: Ese es el que prende una luz cuando hay baja tensión?    
+Ayudante: Ese tiene un indicador lumínico que se ve ahí adelante, pero ese es viejo ese ya está regulado en un cierto nivel lo que vienen ahora son todos programables.    
+Alumno: Alguien quiere verlo    
+
+Alumno: Yo ví que en una casa ponen unos capacitores, o sea un tablero y unas baterías después del tablero, para proteger también la entrada?      
+#### Banco de capacitores, para que sirve.
+Profesor: Eso es otra cosa, generalmente los lugares de grandes consumo panadería lo que sea, detrás del tablero y al lado del tablero ponen un tablero que se llama de banco de capacitores que es para corregir el coseno de pi, el coseno de pi produce potencia reactiva, reactiva para que ustedes entiendan todo lo que entra de la línea es potencia activa, si se trata de consumir, todo lo que entra esa potencia activa no hay problema pero siempre hay un elemento como resistencia motores, que provoca que esa potencia no sea la necesaria. O sea todo consumo que entra allá a veces se pierde en potencia reactiva, entonces que hace la gente y la gente de EMSA pide que coloquen al lado del tablero principal un banco de capacitores y ese provoca que el conseno de pi varíe entre 0,95 0,98 entonces no baja tanto sino si vos no tenés eso en algunos casos el ángulo de potencia aparece 0,65 0,70 entonces para EMSA eso es bajo eso. **(Mala explicación mejor explicación clase 22 de aires acondicionados, el capacitor atrasa la corriente la bobina adelanta)**.
+Y exige que todo lo que le entrega no se pierda en potencia reactiva, entonces los tipos para no pagar más ponen ese banco de capacitores.
+
+Tacuarí: tacuarí y san martín la panadería tacuarí vos entrás está el tablero y al lado está el banco de capacitores, y tiene un LED que está indicando el coseno de PI tiene en ese momento, ahí tiene horno eléctrico todo a resistencia.
+
+Bueno, después vamos a ver mejor esa parte.
+
+Todo elemento ya sea estos casos destornilladores con punta plata con punta lo que sea, son todos aislantes o sea que yo puedo trabajar tranquilamente en un sistema sin problema, hay gente que se entusiasma con el aislante y tiene la particularidad en algunos casos de usar el destornillador de otra forma hasta ahí va bien porque tengo esto que es aislante vamos a suponer pero hay veces no tengo acá ningún destornillador sin aislación. Voy a mirar atrás. No tengo ahora.
+
+#### Aislante de destornillador al ajustar borners de la fase, si no tiene aislación recibirás la descarga.
+Pero que hacen algunas personas vamos a suponer que este no tenga aislate y de tan constumbre que hace usa esto, y justo ese que está usando no tiene aislación y puede ser que esté el problema en este caso de ajustar uno de los borners y si ajusta el borner de la fase va a recibir **una descarga**.
 
 
+01:34:21
+
+
+##### Información enviada a través de WhatsApp
+Símbolos pdf: https://archive.org/details/esquema-general-de-inst.-electrica-1/
 
 ---
 
