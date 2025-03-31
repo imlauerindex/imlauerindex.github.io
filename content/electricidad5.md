@@ -403,9 +403,146 @@ Todo elemento ya sea estos casos destornilladores con punta plata con punta lo q
 #### Aislante de destornillador al ajustar borners de la fase, si no tiene aislación recibirás la descarga.
 Pero que hacen algunas personas vamos a suponer que este no tenga aislate y de tan constumbre que hace usa esto, y justo ese que está usando no tiene aislación y puede ser que esté el problema en este caso de ajustar uno de los borners y si ajusta el borner de la fase va a recibir **una descarga**.
 
+Por eso es importante usar elementos que estén aislados en una reparación: tornillo, destornillador ya sea plana, punta plana, triangular lo que sea todos aislados.
 
-01:34:21
+Si no estás seguro de lo que estás haciendo o tengan seguridad en su herramienta o usen un guante aislante.
 
+###### Con el alicate solo se corta cable, no alambre.
+Esto es otra cosa importante: yo tengo una pinza, esta es una pinza común algunos usan hasta para cortar alambre. Con alicate solo se corta cable no se corta alambre, hay gente que corta alambre con el alicate.
+###### Me duele la gente que corta alambre con el alicate, hay que mirar a trasluz y si está bien cerrado es porque está espectacular. Sino si cortas alambre se lastiman y se hacen dientes.
+Este está nuevito vos mirás arriba y está unido, fijate adentro todavía anda pero hay otros que están más defectuosos, **en la unión ya hay una pequeña luz**.
+
+Lo primero que hay que ver cuando compramos alicate son los filos que estén bien cerrados mirando a trasluz por si van al osito.
+
+Alumna: No me dan ganas de ir al osito.    
+Profesor: No, no. Pero por las dudas le digo   
+
+Están buenos los destornilladores eléctricos
+
+Alumnos: están buenos los destornilladores dieléctricos que tienen el juego...     
+Profesor: Claro!, el juego.     
+Alumnos: los aislados?     
+Alumno: Sí, esos suelen ser caros.     
+Profesor: Sí acá están carísimos.     
+Alumno: El protector está pasando mano a mano     
+Profesor: Si quiero ir a la placita y comprar un alicate miro a trasluz si está bien no hay problema. Que no haya luz. Hay diferente marcas y diferente tela, yo no puedo entender a veces que una herramienta que es una pinza común aislante esté arriba de los 20.000 pesos. Pónganse comprándose 2 o 3 ya tengo que ...   
+Alumno: Electromisiones tienen buena marca.   
+Ayudante: A no ser que compres SICA.   
+Profesor: Lo importante que ustedes entiendan que en todos los elementos necesitamos AISLACIÓN. Esto es una llave de punta y hay gente que yo tengo otro también de punta pero pero corrugada y donde utilizo eso? Hay lugares en donde ustedes tienen un tablero con grandes problemas internos cables por todos lados y no puedo meter la mano entonces la pinza me ayuda a tratar de ver donde están los circuitos saco pongo lo que sea alimento por eso sirve la llave de punta, hay lugares si yo pongo la otra pinza que tiene otra característica la boca más grande no llego acá dentro, entonces eso me permite trabajar con seguridad.
+En síntesis hay infinidad de herramientas lo importante es que el electricista sepa para que sirve cada herramienta. Golpea para que se "vaya el manguito para arriba de la pinza".  ¿Tengo que tener un elemento cortante? Sí lo tengo que tener. Si yo no compro el... Tengo que tener el alicate. Hay gente que dice pero si ya tengo con esta pinza ya que cierra puedo pelar cable todo, y bueno si prueba y domina trabaje no hay problema yo tengo que sacar la aislación nada más o sea para hacer los empalmes tengo que sacar la aislación llegar al filamento o a los alambres de cobre con esos alambres de cobres hago la unión. Les voy a traer vamos a hacer el trabajo primero de los empalmes como se hace yo voy a organizar mañana cada caso particular, vamos a sacar ahora de esto que solo quede la parte de cañería, de acá vamos a cortar acá primero porqué algunos van a desarmar todo y me gustaría que mire como está armado para ver y que ustedes vuelvan a armar de nuevo.
+
+Una vez para que ustedes entiendan agarro le pregunté en general si sabían armar y desarmar una... Sí me dijieron llego allá y me sacó todos los tornillos quedó vacío sin tornillo sin nada y pero ahora te animás a armar? 
+Profesor: Sí me dijo. Al rato voy a mirar y pudiste armar de nuevo?
+Alumno: Y lo que pasa que no sabía como era este tornillo.
+Profesor: Y para que desarmaste todo si tenés que desarmar las dos puntas sacarle la rosca y listo?...
+Alumno: Si lo que pasa es que ahora no puedo armar.
+Profesor: Suele ocurrir...
+
+##### La próxima clase vamos a armar un portalámparas.
+Por eso vamos a tratar de que ahora vamos a cortar directamente vamos a sacar los portalámparas y después mañana voy a repartir a cada uno un portalámparas van a armar devuelta, vamos a probar y les puede aparecer acá con una cinta amarilla como esta y ya vamos a poner el nombre. Por qué es importante que tengan? Si yo hice bien las cosas comprobé que este portalámparas anda funciona, **cuando meto la lámpara no gira porque eso es una cosa fundamental**, si yo pongo el portalámpara y giro probablemente internamente los cables se me entrecrucen y puede probar un cortocircuito si todo eso hice bien entonces ya tengo un portalámparas que el día de mañana cuando empiece a armar mi circuito ya tenga en funcionamiento y después iremos armando otro más. Pero en principio vamos a reutilizar lo que tenemos y vamos a ir armando. 
+
+Qué otra cosa fundamental era? Vamos a hacer uniones entonces.
+
+Una vez que probemos estos los portalámparas ahí van a pasar acá en frente y vieron el tablero que teníamos la otra vez? Van a agarrar van a colocar yo voy a mirar no más yo les voy a decir como tienen que hacer, les dejo todos los elementos hacen ahí y ahí empiezan la primera parte del sistema y eso les va a quedar grabado de acá hasta que salgan del curso, van a utilizar el buscapolo, la lámpara de prueba que les voy a dar, el probador de tensión, antes de armar eso van a utilizar el multímetro para ver la continuidad los cables con el foco y todo no se tocan entonces yo puedo armar tranquilamente y probar, todo lo que yo hablé ustedes yo no voy a hablar más mañana.
+
+Ayudante: Ah que vivo.    
+Profesor: Quiere ser mi ayudante... (le hace un chiste). La idea es que aprendan y que empecemos a practicar esto es para que ustedes por eso algunos ya saben la parte eléctrica y me resultaría más fácil que demuestre ahí y ya sé que trabaja bien entonces le doy la oportunidad a otro porque al ser mucha gente cuesta un poco que todos trabajemos en la misma sintonía.
+
+
+Minuto 01:43:30
+
+
+Todos tienen que saber como revisar una instalación.
+
+#### Empalme: Cola de rata. Está prohibido. Se usa cuando es un caso de emergencia cuando se empalma con tensión.
+En síntesis voy a armar en una hojita un resumen cuáles son las conexiones más importantes, ¿que utilizo yo?, puedo utilizar de otra forma, lo único que voy a hacer es que hay un empalme que le llaman **COLA DE RATA**, es lo más fácil pero eso dentro de la instalación interna está casi prohibido.
+
+Mira que (el ayudante) ya tiene cayo en los dedos así que enseguida uno sabe que ese electricista.
+
+##### Video: Agregar video de empalme de rata.
+
+Alumna: Por qué lo tortura con el auxiliar? El (ayudante) tendría que pasar a módulo ya.    
+Profesor: No, y el quiere estar conmigo, el puede pasar.     
+Ayudante: Aparte es un requisito hacer este curso primero y después el otro.   
+Profesor: Bueno, mostrale!    
+Ayudante: El famoso cola de rata se usa solamente si es un caso de emergencia cuando **se empalma con tensión**, lo que hacen mucho algunos trenzan cable algunos no lo hacen. Trenzan ambas puntas los cables se juntan primero y hacen así.    
+Profesor: Ese es el empalme...    
+Alumno: Ese es el que hacemos todos XD.     
+Ayudante: Este empalme no se usa porque es muy débil.    
+#### Sobre aislación, si tengo energía usar pinza.
+Profesor: Y para poner cinta aisladora hay que... Tiene una forma hay que poner por adentro para que no se vaya porque si le pones por arriba hacen así eso es como un capochón hacen así y sale ¿? (01:46:14). Vamos a suponer que lo que hizo está perfecto el dijo cuando tengo energía pero no voy a meter el dedo ahí igual no le va a recibir la corriente pero lo que quería mostrar era si tengo energía yo puedo agarrar con esta mano hasta acá porque está aislado entonces o cualquier cable que yo tenga acá lo ideal **si tengo energía uso la pinza** estamos? Estoy trabajando con energía mientras no toco en otro lado yo puedo hacer todo lo que quiera con el empalme sin tocar el conductor, toco la aislación y voy a ligar... Va a hacer un cosquilleo pero si tengo aislante no vas a tener ningún problema.
+
+Hay tipos que he visto grandote que directamente tocaban sin problemas (el estaba aislado) si no está aislado hasta un pequeño roce con la escalera recibirá una descarga, yo me acuerdo el tipo hacía todo y un día sin querer empezó a hablar y sin querer tocó el techo, o la pared y ligó una patada, y les dije y bueno pero eso es porque vos estabas distraído porque si vos estabas acá... Tac tocó puaaah pero eso ocurre lo importante es que no tengan miedo esto es cuando yo trabajo con tensión. Fíjense que interesante esto porque yo puedo hacer mismo, trabajar con tensión no descontando ¿? agarro el destornillador uso la pinza de punta esa y voy y coloco acá y después ajusto con el destornillador aislante, si ajusto con cualquiera de los otros voy a tener problemas
+
+Todo me permite a mi decir que cada herramienta que utilice depende de como lo utilice todo es para seguridad.
+
+Alumno: Sin tensión cuál la forma correcta? (hablando de empalmes)        
+Ayudante: Hay varias formas.    
+Profesor: Hay varias formas, bueno le voy a dar para que se luzca acá. Hacele una prolongación simple no más. En este caso ya fíjense la idea principal en estos casos este cable es de 1 y medio mm^2 no necesito tener tanto conductor sin aislación pero la... Para que ustedes entiendan yo me interesa a mi hay dos formas pero la más rápida para mi yo hago tipo x tomo el medio x las dos y después hago un empalme para un lado y luego para el otro lado esa es la que yo hago generalmente, lo que no tiene que pasar es la aislación o sea todo lo que uno está empalmando de un lado de un lado al otro en la prologanción no me tiene que pasar los filamentos en la aislación, ni tampoco quedar un bodoque, esto así después si yo pongo una buena cinta eso queda duro.
+
+#### Los cables bipolares no pueden soportar fuerza mecánica.
+Otra cosa importante para que ustedes entiendan los cables bipolares no pueden soportar fuerza mecánica, ¿qué significa eso? Que si yo tengo un elemento vamos a suponer una lámpara industrial no sé si ustedes vieron una lámpara industrial... Que no quede colgado del cable, que el conductor NO soporte el peso de la lámpara, hay algunos que hacen eso y está mal.
+
+#### Conductor tipo taller para que soporte la lámpara está prohibido, primero soporto la lámpara y después hago la ¿? (01:51:24)
+Entonces que hace la gente que le vende los productos ? Lampariones grandotes lo que sea, tienen una argolla y esa argolla tiene un alambre o no es alambre sino que en algunos casos son conductores... No es conductores... Eeehhh... **alambre garbanizado** y eso con unos apliques para ajustar eso acá entonces este soporta la lámpara y el cable baja al lado generalmente tipo taller, porque ustedes algunas veces van a ver un **conductor tipo taller que tenga esas características y que soporte la lámpara, eso está prohibido**, primero soporto la lámpara y después la ¿? (01:51:24) ... He visto eso. Hoy por suerte ya tenemos unos lamparones que son más livianos más en la parte industrial pero eso de colgar arriba no... Algunos van hasta con cadena colocado arriba y después el conductor ahí.
+
+#### Hablando de fútbol
+Le voy a dejar 10 minutos antes, vamos a ir filmando ahí, porque me pidieron que hay partido y cuesta llegar y como estos brasileros hablaron de más es importante que por lo menos empatemos, que no perdamos, si ellos nos dijieron que nos van a golear, ahí va a estar bravo. Ahí el chango este tenía el coso de...
+
+Vieron este no (Alicate)? Antes de que pierda su filo, porque de tanto filo... Miren de arriba van a ver como ese está en buenas condiciones (alicate).
+
+A ver quiero ver ese... El protector de tensión.
+
+Con el uso se va gastando el alicate y para volver a tener el filo que tenía es muy difícil y la calidad es muy difícil porque el ángulo ni por más genio que seas porque esto está hecho con ¿? (01:53:11) porque tiene el ángulo necesario, ahora si nosotros queremos afilarle ya he probado hasta la tijera y no tuve la suerte.
+
+**Se usa tenasa para cortar el alambre más duro.**
+
+#### El filo del alicate es mucho más fino. Si cortás un alambre con el alicate le vas a hacer una muesca y después no vas a poder cortar más cable XD.
+#### Preguntar.
+La otra razón por la que se recomienda comprar esto y esto es porque el filo de este es mucho más grueso que el de este, este es mucho más fino(alicate) por eso con este es mucho más fácil cortar y pelar cable pero es exclusivamente para eso. Por eso también te aguanta el corte de alambre, porque el filo de este es más grueso que el de este.       
+Alumno: Ah, con el otro cortan alambre      
+Ayudante: Si cortás un alambre con el alicate le vas a hacer una muesca después cuando quieras cortar un cable no va a cortar.   
+Profesor: La otra que hacen una muesca es cuando vos cortás dos cables fase y neutro junto se hace cortocircuito    
+Ayudante: eso me pasó tuve la mala suerte de prestar ese estaba nuevo    
+Profesor: esta pinza parece ya un tramontina está lleno de dientes, **¿cómo hizo cortocircuito?** Apretó fase y neutro a la vez cortocircuito. Quería cortar los dos a la vez.        
+Ayudante: Era un pavo. Esa vez tuve que llevarle a una guardia conmigo durante la noche que se trabaja con tensión y tuvimos que hacer un arreglo en un tablero de la costanera en la parte de abajo yo le pedí que corrija el empalme y le presté ese alicate, yo estoy arriba en el tablero en la escalera, él abajo después de un tiempo se escucha un PAAF.
+
+##### Carlos cortó cable fase y neutro juntos (el cable taller viene un cable todo junto pero en realidad son dos dentro fase y neutro)
+
+##### El cable de taller tiene 2 conectores por eso se equivocan.
+
+Ayudante: Carlos, ¿qué te pasó?    
+Carlos: No que me chispeó acá.    
+Ayudante: ¿Cómo que chispeó? Vos estás trabajando con tensión que es lo que pasó allá abajo.    
+Carlos: No es que yo corté acá yo corté los cables.    
+Ayudante: Cortaste 1 por 1?    
+Carlos: Eeehhh    
+Ayudante: Listo, el alicate se fundió y encima tuve que volver a subir porque cortó todo.    
+Profesor: Es importante que tengan en cuenta eso.
+Ayudante: Los cables se cortan de 1 en 1 (el cable taller parece 1 pero son varios XD).     
+Alumna: Moraleja no presten las herramientas.
+Ayudante: También.
+Alumno: Si no tiene no tiene sus propias herramientas...
+Ayudante: Teóricamente era técnico electromecánico recibido en el Janssen, yo lo dudo.
+Alumna: Aah bueno.
+Profesor: Pero suele ocurrir o sea que siempre hay una primera vez.    
+Ayudante: Y sí, así se aprende.    
+Profesor: La otra importante es que no debo prestar la herramienta. La herramienta es lo que le da confianza a uno si esta herramienta yo sé como trabaja como está aceitado todo, hay otra que tenés que ... Yo generalmente le aceito todas las veces que pueda, pero todo lo que ustedes ven son herramientas que utilizamos y después vamos a empezar a ver todas manuales para que ustedes vean después vamos a ver si tenemos la suerte y si viene un amigo ahí que tiene herramientas hidráulicas para hacer vamos a suponer otro pertinales los empalmes con manguito con terminales más grandes, el tiene un sistema de pinza hidráulica entonces no hace fuerza pone ahí y le apreta y el hidráulico absorbe toda la fuerza y le hace el empalme con secciones de 16 mm^2 25 mm^2 pero tengo que tener la herramienta.
+
+Después voy a traer herramienta mía no es mecánica pero es manual, después le voy a mostrar algunos terminales para que sirven. Y cada herramienta depende del conductor si es aluminio o cobre tiene una determinada interticio para hacer la unión para que uno ponga el empalme y después apriete con la herramienta si vos te equivocás porque generalmente el aluminio es más duro que el cobre, podés romper la herramienta y eso es lo que uno no quiere. 
+
+No encontraba directamente unos pernos que hacen... Y el tipo se equivocó en vez de poner justo en la sección de cobre puso en la del aluminio y rompió mi herramienta. Bueno yo la arreglé, no anda al 100% pero por lo menos sirve para reutilizar en algunos casos importantes. ¿A qué voy yo? Que a veces uno presta la herramienta y uno piensa que la persona sabe utilizar y a veces ocurre eso y después te da la bronca.
+
+##### Hablando del multímetro
+Los tester aunque ustedes no crean, dentro tienen unos fusibles y puede ser que porque el tipo no sabía hizo una mala... Este tester o multitester tiene un sistema que yo puedo graduar y saber que función que estoy midiendo en que rango y todo, entonces no tengo problemas, ahora si me equivoco esto tiene un fusible que corta la alimentación, pero hay otros que no tienen.
+
+Lo que le quiero decir es que todas las posibilidades es importante que conozcamos estas herramientas y no prestemos he prestado pinza amperométrica y ya no abría o se pasaron el rango, o golpearon el visor y prende pero solo marca la mitad, entonces tampoco te sirve. No prestemos. Hoy en día las mejores herramientas te sale arriba de 100.000 pesos lo mas famoso la punta rota. Todos esos problemas son que se pueden presentar los equipos generalmente por lo menos la marca que sea siempre mientras esté bien funcionando te ayuda a uno tener la confianza necesaria para revisar una instalacióno sea que no hay problema. La marca mientras uno tenga confianza en el equipo, no hay problema.
+
+Alumno: Aparte que también tiene que saber usar, donde y cuando, podés tener las mejores herramientas y usar mal    
+Profesor: Sí si.    
+Ayudante: Por eso más allá de las marcas, hay algunas que son paupérimas pero dentro de las marcas normalizadas, el problema nunca va a ser la herramienta, sino el operario, porque cada herramienta tiene un funcionamiento si le exigís más de lo que puede hacer se va a romper.    
+
+Profesor: Bueno, nos vemos mañana si Dios quiere.
 
 ##### Información enviada a través de WhatsApp
 Símbolos pdf: https://archive.org/details/esquema-general-de-inst.-electrica-1/
