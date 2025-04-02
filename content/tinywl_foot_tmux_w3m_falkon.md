@@ -362,9 +362,23 @@ En `w3m` apretá o y poné como navegadores por defecto: `mpv`, `qutebrowser`, `
 
 
 #### Para copiar y pegar en vim usando wayland:
-```
+```bash
 sudo pacman -S wl-clipboard
 vim .vimrc
 xnoremap <silent> <C-@> :w !wl-copy<CR><CR>
 ```
 Seleccioná las líneas a copiar y apretá `Control+@` y lo pegás con `Control+Shift+V`. 
+
+
+#### Para correr chrome necesitás ejecutarlo con el siguiente argumento:
+
+```bash
+chromium --ozone-platform=wayland
+```
+
+##### O configuralo de forma permanente en chrome.
+* Go to chrome://flags
+* Search "Preferred Ozone platform"
+* Set it to "Wayland"
+
+https://www.reddit.com/r/Fedora/comments/rkzp78/make_chrome_run_on_wayland_permanently/
