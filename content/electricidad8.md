@@ -1,5 +1,5 @@
 ---
-title: "Electricidad: Clase 8 / EMPALMES. Estuve ausente."
+title: "Electricidad / Clase 8 : Clase práctica sobre EMPALMES. Estuve ausente."
 date: 2025-04-05T16:57:37-03:00
 tags: [electricidad]
 ---
