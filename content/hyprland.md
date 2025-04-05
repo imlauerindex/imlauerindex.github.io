@@ -3,6 +3,8 @@ title: "Hyprland"
 date: 2025-04-05T03:41:56-03:00
 tags: ['linux']
 ---
+###### Sigo usando el framebuffer con eglfs en computadoras lentas.
+
 Mi actual configuración de Hyprland.
 ```bash
 # #######################################################################################
@@ -42,7 +44,7 @@ monitor=,preferred,auto,auto
 # Set programs that you use
 $terminal = kitty -e tmux
 $fileManager = pcmanfm
-$menu = wofi --show drun
+$menu = wmenu-run
 
 
 #################
