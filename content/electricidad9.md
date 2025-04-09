@@ -475,6 +475,9 @@ Profesor: Si si la resistencia.
 Alumno: Agarrá un buscapolo y acercate para saber cual es la fase.
 Profesor: A veces el problema de la resistencia es que en algunos sistemas es distinta y no hay la misma marca suele ocurrir.
 
-Estamos hasta ahí y PVC también tenemos livianos, en esa época todavía eran livianos y pesados ahora ya empezamos a mejorar porque en esa época hacíamos esto todavía habían los caños de PVC pero de otra época y también tiene otra característica liviano, semipesado y pesado. Después le voy a mandar ahora por WhatsApp. Le voy a mandar tipos de cañería y hay cañerías que tienen la particularidad empezando por esta
+Estamos hasta ahí y PVC también tenemos livianos, en esa época todavía eran livianos y pesados ahora ya empezamos a mejorar porque en esa época hacíamos esto todavía habían los caños de PVC pero de otra época y también tiene otra característica liviano, semipesado y pesado. Después le voy a mandar ahora por WhatsApp. Le voy a mandar tipos de cañería y hay cañerías que tienen la particularidad empezando por esta no sé si es por esta que son los caños de memoria,
+
+#### Caños de memoria. Por qué caños con memoria? Porque el resorte uno puede maniobrar y volver a su posición original va a quedar una franjita adentro pero pueden volver a su posición original, de cuantos metros vienen los caños?
+
 
 Hora 01:51:22
