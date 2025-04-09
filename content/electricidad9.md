@@ -20,6 +20,7 @@ https://archive.org/details/record-74
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuX3V6p0PZoBw2EZr88TSO1ZE3omi84FbCeJHWRx17V_0xT0mdfK1rpjuiIgmenrH2l62SgPgDOaGwZ7_tPUP4KJi5DKAxrZ14WqsyR6wg-0BVgALrpvZ4uRQGL7cy7NL2esTw7eiYZhH2ELq1ChhySQ32Pkycz83jRnaKYiBOI1Bl27eNZ0V2YiTVSeo/s4160/IMG_20250407_201513659.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOolO4sBiUi6fZtCHFjZPWJlJVSQzVe6TPFako-WHwxslgciOr9I5oKOG7VKP-DAbE38tVSMD1X-6amwZ5tAQLBJcvohKyXqBz5_4rCHqElZ6Pu457dmxVhCwZ03lW1hzSL0WtTqlH6ZI11T9qORf4sbu_mUBgs0PhjlalfTvarQrnR0yxCpjFeeflnns/s4160/IMG_20250407_203835049.jpg)
 
+---
 
 ##### Transcripcion desde el minuto 15 (profesor llegó tarde):
 
