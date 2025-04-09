@@ -6,6 +6,8 @@ tags: ['fish']
 ```bash
 pacman -S fish
 fish_vi_key_bindings
+set -U fish_greeting # deshabilita mensaje de bienvenida
+
 ```
 
 Si querés modificar más tu fish podés ejecutar `fish_TAB`
