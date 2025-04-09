@@ -106,9 +106,9 @@ emerge --config sys-libs/timezone-data
 
 #### Esta linea compilara todos estos paquetes
 ```bash
-emerge gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils fim firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant
---autounmask-write 
-dispatch-conf
+emerge -va gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin yt-dlp mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant
+
+Agregá --autounmask-write y luego dispatch-conf
 hwclock --systohc
 systemctl enable NetworkManager
 ```
@@ -134,15 +134,17 @@ exit
 reboot
 ```
 
-#### Creamos un usuario luego de bootear gentoo
+#### Nos logueamos y creamos un usuario luego de bootear gentoo
 ```bash
-# nmtui (para conectarse wifi)
-# useradd -m -g users -G video,audio,wheel nombre_usuario
-# passwd nombre_usuario # [B]agregarle una contraseña al usuario[/B]
+useradd -m -g users -G video,audio,wheel nombre_usuario
+passwd nombre_usuario # agregarle una contraseña al usuario
+$ nmtui (para conectarse wifi)
 vim /etc/sudoers y agregá tu usuario copiando la linea de root y sustituyendo root por tu nombre de usuario debajo de todo.
 ```
 
 Y abrimos el entorno grafico ejecutando sway desde la TTY y con Tecla Windows+Enter abrimos una terminal llamada foot.
+
+Ahora en `/usr/bin/firefox-bin` a la última línea agregá `apulse` (por el audio).
 
 
 Listo.
@@ -426,3 +428,4 @@ rc-service display-manager start
 Tenés que crear el .xinitrc y start XD
 
 ```
+

@@ -19,3 +19,5 @@ https://archive.org/details/catalogo-tubelectric
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxnQqua5OzA7LuNlxzKztlgP_jyKJmApy0VMofJQcRXMYKNqsiNTO5KqhbGP7JoT21r94Vo6j_9VByb5uF8Mr0INXbvXJijxzngTS5Y58RVsr_pobEwuoM96AX7yR1ucEeo8zCLQoH3sW33Og9oYhhnxfXN-H1M_X3Z_d2AvWueWNYRkJWMgQrsPNirHo/s4160/IMG_20250408_185830874.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi91G9kp3-90GKWuVDjt85-P-atKdPxkbxMfsApBV_C2YGoLFsdhJSMO3bgSjYjStwwRgi-ufnq_dwTo7f1f3WsfF7rma6i2aImlTgXKh27UyogrFEBlWuyjP2PKFM60fQgEnwc6mBquvhx7ey0yuOG9nA6xMa7rxy1DYbtKL3pc5KlZb1ZcyA_0g9ct6k/s1280/WhatsApp%20Image%202025-04-08%20at%206.03.42%20PM.jpeg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiICeKcdJrrHhJv4kW-nrejoJJ0j1h55Tq0ly1aZkOphCJPw7s1PST8r_f-XXVAg4Vkv22uHSahm-kdkyHbTYLpEnhC9bT0vapQ-mQq5PP71G9cQ_JeHjZP038c1yi_22WQuOQHs57jzofsogcsZfSF7M3zANqBwNyQW_1wW3uFvCp-GugCzItRUK4uecc/s1599/WhatsApp%20Image%202025-04-01%20at%203.12.23%20PM.jpeg)
+
+https://aaieric.org.ar/costos-mano-de-obra
