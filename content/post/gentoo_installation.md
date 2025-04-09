@@ -4,8 +4,6 @@ date: 2023-11-29T08:39:16-03:00
 tags: ['gentoo','install']
 categories: ['linux','installation']
 ---
-
-
 Esto son los paquetes que instalé por el momento, sin Xorg solo wayland. Sí uso fish y qué?
 La verdad es que Gentoo es un meme pero a mi me divierte.
 
@@ -108,7 +106,7 @@ emerge --config sys-libs/timezone-data
 
 #### Esta linea compilara todos estos paquetes
 ```bash
-emerge gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils fim firefox-bin mpv php apulse imagemagick
+emerge gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils fim firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant
 --autounmask-write 
 dispatch-conf
 hwclock --systohc

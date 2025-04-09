@@ -7,7 +7,7 @@ Agregar a sway en `/etc/sway/config` para moverse al último workspace
 
 # Toggle workspaces
 ```bash
-bindsym $mod+grave workspace back_and_forth
+bindsym $mod+Tab workspace back_and_forth
 
 input * {
     xkb_layout "es"
