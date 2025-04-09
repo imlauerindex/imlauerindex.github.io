@@ -3,6 +3,12 @@ title: "Samba server en Linux"
 date: 2024-08-15T19:55:28-03:00
 tags: ['samba','server','linux']
 ---
+Creo que no hace falta ninguna de esas configuraciones solo tenes que agregar la contraseña.
+
+`sudo smbpasswd -a esotericwarfare`
+
+---
+
 ```bash
 sudo apt install samba -y
 sudo systemctl stop smbd

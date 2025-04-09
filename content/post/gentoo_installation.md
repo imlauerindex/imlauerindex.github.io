@@ -4,6 +4,156 @@ date: 2023-11-29T08:39:16-03:00
 tags: ['gentoo','install']
 categories: ['linux','installation']
 ---
+
+
+Esto son los paquetes que instalé por el momento, sin Xorg solo wayland. Sí uso fish y qué?
+La verdad es que Gentoo es un meme pero a mi me divierte.
+
+Recién me estoy iniciando lejos de ser un experto. Use systemd con ext4, la mayoría de usuarios de gentoo no usan systemd ni ext4, usan xfs con openrc creo. 
+
+Aca estan los pasos que segui:
+
+De acá me bajé minimal installation CD: https://www.gentoo.org/downloads/ lo puse en un pendrive ejecutando `dd if=...iso of=/dev/sdb status=progress bs=1M` y lo boote pero podés instalar gentoo desde cualquier distro de linux siempre y cuando no sea esa partición en donde quieras instalarlo.
+
+
+```bash
+loadkeys es # Teclado en español de españa (no uso el de argentina)
+fdisk -l
+```
+Hacemos el particionado con `cfdisk /dev/sda` o usando `fdisk /dev/sda`.
+
+Explicación sobre MBR(DOS) y GPT : https://youtube.com/watch?v=Ch9f7i0hj90 Basicamente si tenes un disco duro de mas de 3 gigas usa GPT pero si es de menos usa DOS, para UEFI tenes que usar GPT.
+
+**Crea una particion de efi de por lo menos 300 megas, otra de swap de 4gb, y el espacio que sobra para ext4**
+
+**Si no lo quieren hacer con cfdisk lo pueden hacer con fdisk de la siguiente manera:**                          
+
+##### uefi (gpt)
+```bash
+g (gpt disk label)
+n
+1 (partition number [1/128])
+2048 first sector
++300M last sector (boot sector size)
+t
+1 (EFI System)
+n
+2
+default
++4G
+t
+2
+swap
+n
+3
+default (fill up partition)
+default (fill up partition)
+w (write)
+```
+
+#### Formateo, montado de particiones e instalación base (usando UEFI)
+```bash
+mkfs.ext4 /dev/sda3 (root partition)
+mkswap /dev/sda2 (swap partition)
+mkfs.fat -F 32 /dev/sda1 (efi partition)
+mount /dev/sda3 (root_partition) /mnt/gentoo
+mount --mkdir /dev/sda1 (efi partition) /mnt/gentoo/boot
+swapon /dev/sda2 (swap_partition)
+links https://gentoo.org/downloads/mirrors
+```
+
+##### Por ahora uso systemd
+```bash
+South America -> AR ->  [url]https://gentoo.zero.com.ar/gentoo/[/url] -> releases -> amd64 -> autobuils -> current-stage3-amd64-desktop-systemd/ -> stage3-amd64-desktop-systemd-20250406T165023Z.tar.xz -> descargá y guardalo 
+```
+
+##### Descomprimí y borralo.
+```bash
+tar xvf stage*
+rm stage* 
+genfstab /mnt/gentoo > /mnt/gentoo/etc/fstab
+```
+#### Configurá las dns (No uses las de personal ni claro porque bloquean todo si me creen tirale un ping a thepiratebay.org o a librefutbol.su)
+```bash
+cp --dereference /etc/resolv.conf /mnt/gentoo/etc
+cd /mnt/gentoo
+arch-chroot .
+nano /etc/portage/make.conf
+ACCEPT_LICENCE="*"
+MAKEOPTS="-j3" # Sirve para optimizar el tiempo de compilacion sugieren: numeros de núcleos+1
+ln -sf /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime
+hwclock --systohc
+nano /etc/locale.gen y descomentá en_US.UTF-8 UTF-8 (es el idioma del sistema operativo a mi me gusta en ingles)
+locale-gen
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
+echo "KEYMAP=es" > /etc/vconsole.conf
+```
+##### Mirá en el directorio /usr/share/consolefonts/ para ver tus letras disponibles
+```bash
+echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf
+echo "arch" > /etc/hostname
+```
+
+#### Agregá o reemplazá
+`nano /etc/hosts`    
+```bash
+127.0.0.1       localhost
+::1 localhost
+127.0.0.1       arch.localdomain        arch
+```
+passwd # cambiar contraseña root
+emerge-webrsync
+echo "America/Buenos_Aires" > /etc/timezone
+emerge --config sys-libs/timezone-data
+
+#### Esta linea compilara todos estos paquetes
+```bash
+emerge gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils fim firefox-bin mpv php apulse imagemagick
+--autounmask-write 
+dispatch-conf
+hwclock --systohc
+systemctl enable NetworkManager
+```
+
+En algunos UEFI frameworks con fallas tenes que instalar el grub usando el parámetro --removable para instalar
+el bootloader a la ubicación de respaldo “fallback” porque sino se borra sólo la entrada del efi.
+
+`sudo grub-install --target=x86_64-efi --efi-directory=/boot --removable`
+
+Para que os-prober descubra otra particiones tenés que montarlo y en `/etc/default/grub` escribí `GRUB_DISABLE_OS_PROBER=false`
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+echo "KEYMAP=es" > /etc/vconsole.conf
+echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf
+```
+
+Modifica sudoers opcional si queres sudo sin contraseña
+
+```bash
+sudo systemctl enable gpm
+exit
+exit
+reboot
+```
+
+#### Creamos un usuario luego de bootear gentoo
+```bash
+# nmtui (para conectarse wifi)
+# useradd -m -g users -G video,audio,wheel nombre_usuario
+# passwd nombre_usuario # [B]agregarle una contraseña al usuario[/B]
+vim /etc/sudoers y agregá tu usuario copiando la linea de root y sustituyendo root por tu nombre de usuario debajo de todo.
+```
+
+Y abrimos el entorno grafico ejecutando sway desde la TTY y con Tecla Windows+Enter abrimos una terminal llamada foot.
+
+
+Listo.
+
+---
+
+#### Antigua guía.
+
+
 Tiene que ser más grande que 5 gb la partición root
 Crea una particion de efi de por lo menos 300 megas, otra de swap de 4gb, y el espacio que sobra para ext4
 
