@@ -357,6 +357,124 @@ Profesor: Y no sé pero algunos técnicos de EMSA van a tener suerte. Ya aprobar
 
 Bueno empecemos.
 
-Dice para materializar los conductores tienen más elementos que debe utilizando para ellos diferentes elementos clasificados de la siguiente manera. Si nosotros 
+Dice para materializar los circuitos los conductores tienen más elementos que ¿? (01:27:20) debe utilizando para ellos diferentes elementos clasificados de la siguiente manera. ¿?¿?¿?
+
+Si nosotros internamente estábamos utilizando conductores unipolares esos conductores unipolares necesitan un elemento de protección para cualquier cosa hasta sistema de una puerta puede dañar la aislación de los conductores entonces se necesita que todos los conductores dentro de una vivienda estén protejidos, a través de un sistema de canalización.
+
+Esa canalización puede ser hierro, PVC, que ahora está muy de moda y dentro de una vivienda las cañerías pueden ser embutidas o a la vista. Esto que usted ven acá (aula) es a la vista. Si es una obra nueva nosotros tenemos que embutir acá, la otra vez vimos... ¿Para eso? Después ese que viene de Candelaria a ese le vamos a guardar...
+
+Ayudante: Ese que tiene la suegra con la cañería...
+Profesor : La cañería anaranjada nunca me voy a olvidar.
+Alumna: A mi cuñada le pusieron en el techo corrugado blanco yau inígfuso, es cierto eso?
+Ayudante: Si es el blanco sí.
+Profesor: Sí, les dije que hay dos posibilidades, tenés 3 tipos de ignífuso, cañería liviana, pesada y semipesada y depende del espesor. Ella está hacinendo?
+Alumna: Una casita.
+Profesor: Si no pero la cañería esa, en donde lo está poniendo?
+Alumna: Los que pusieron en el techo arriba del cielo raso es ese corrugado blanco.
+Profesor: Está bien pero ese tiene que estar tensado. 
+Ayudante: EStá suelto o está tensado?
+Alumna: Ah no subí arriba del techo.
+Profesor: Ah no pero para saber.
+Alumna: Solo veo que cuelga porque todavía no están los artefactos.
+Profesor: Ah no pusieron ni las bocas.
+Alumna: No, todavía no pusieron nada.
+Profesor: Porque ahí en ese caso claro ahí no tenés la boca ese está el corrugado no más.
 
 
+Alumno: En mi casa hicieron un muro y le pusieron el corrugado naranja ese y ese también.
+##### Profesor: La cajita esa.... Si pusieron arriba para la iluminación ese corrugado tiene que terminar acá en un condcutor, eso que está tirado ahí la gente pone porque después le mete esto y listo, pero tiene que terminar en una boca y ese corrugado que está arriba digimos que tiene que ir tensado.
+Después decile ay que bien que bueno tu electricista pero está haciendo las cosas mal.  Ay en serio.
+Alumna: Tengo muchos problemas con mi cuñada no quiero agregarle otra más. Encima ni se ve.
+
+Alumno: Hicieron al lado de casa un muro y le pusieron estos de plástico y este naranja y acá va el encadenado ese, porque yo le estaba por sacar una foto y me escuchó.
+Profesor: Pero es tu vecino si te contrata a vos ahí te va...
+Alumno: Ah jajaja
+
+Profesor: Cualquier cosa ustedes vean hoy dice que la inteligencia artificial le ayuda, vean cositas después pueden disernir yo esto les cuento porque hay videos de todos lados del mundo y a veces dice una cosa y otra por eso si les voy a dar un video tiene que ser un video exclusivamente que yo haya visto, ahora dejé abierto por las dudas porque hasta ahora se portaron bien cuando empiecen a ver cosas raras.... Porque a veces ponen videos que no tienen nada que ver con lo nuestro
+
+Alumno: Por ahí yo pienso que es para abaratar costo
+Profesor: Y sí todo es para abaratar costo pero vos tenés 2 problemas principales, vos tenés costo y seguridad vos tenés que evaluar eso, si es tu casa....
+Ayudante: Preferentemente pagá un poco más pero asegurate de que no pase nada.
+Alumno: Y eso está al aire libre.
+Alumno2: Si no es para vos...
+Alumna: Si es para el cliente está bien (chiste)
+Profesor: Acuérdense que el cliente pone si yo hago bien los cálculos le doy los materiales pone los materiales, a mi lo que me interesa la mano de obra que yo cobro pero si es para seguridad ahí tengo que ver como el dice cualquier cosa va al tablero y pone la peor marca que tenga, puede poner porque él quiere abaratar costos.
+Ayudante: SICA.
+Profesor: SICA o lo que tenga ahí, MADE IN CHINA, es un producto que mientras esté bien la instalación puede ser útil, lo que yo hago directamente acuérdense que hay una parte que dice que por cada circuito yo puedo colocar 15 bocas.
+
+##### Por cada circuito yo puedo colocar 15 bocas. Yo cuando tengo marcas que no tengo la seguridad agarro esas 15 bocas divido pongo en un circuito 8 y en otro 7 en vez solo 1 circuito pongo 2 circuitos, uno de 7 y 8 bocas. Entonces si tengo problemas el de 8 me salta y no me salta todo, y este sigue funcionando normalmente, no es que soy estricto dame lo mejor.
+### Marca ABB no, porque no apretaba y el profesor lo rompió.
+Fíjense la otra vez me dan un tablero para hacer y hace rato que no hacía con la línea ABB, es una marca interesante pero que problema tenía... Buscame una termomagnética cuando yo ponía en el riel no ajustaba. Hicieron pero no calsaba bien hasta que un día le apreté fuerte y rompí uno, uno tengo allá sin soporte y fui a comprar otro pero si ahora tengo que hacer un tablero le digo que ABB no, traeme cualquiera pero ABB no hasta la JAILOCK¿? (01:34:30) traba bien en le riel link y entra bien. Es la parte es esto, y encima los ABB tienen estos soportes pero no apretaba hasta que lo rompí entonces dije esa marca no quiero usar más porque encima terminaba de armar todos los cables apenas un rocesito y PAC suelta. Y queda firme eso.
+
+Hablando de firmes acá (el alumno) dejó el interruptor ahí flotando, bueno seguimos.
+Alumno: Jaja.
+
+Alumno2: Veo que fotocopia nueva no aparece las jabalinas, quiere decir que no hace falta en este caso?
+Profesor: Tendría que tener, lo que pasa es que como esto es nuevo no lo miré, porque siempre puede haber una pérdida pero como todo es PVC supuestamente no le da mucha bolilla. Voy a averiguar eso, no te preocupes. Todavía yo sigo con el otro sistema.
+
+Entonces tenemos 2 tipos de cañerías: EMBUTIDAS y A LA VISTA.
+Nosotros somos auxiliares electricista, tenemos un plano, el plano nos indica a través de la simbología que voy a colocar donde a qué distancia y ya sé por norma que si no me dan altura yo sé que ese rango que vimos a través del reglamento donde voy a colocar a qué distancia con nivel del piso. Eso, espero que ya estén bien duchos.
+
+##### Entonces en las embutidas aparecen dos tipos de cañerías: De acero o de PVC.
+Ahí empiezzan los PVC esto es de acero diamantado le llaman ellos, todas las cañerías de hierro son de esas características y puedo tener cañería de PVC.
+Dos tipos de cañerías, acá tengo acuérdense empezamos con la emubtida, si yo tengo que embutir primero embuto la caja una vez que tenga definida la caja y la salida a través del conector, **la elección de salida para donde va tengo que colocar el caño y esas cañerías de hierro tengo que hacer con el mortero: cemento y arena y agua 3x1. No puedo colocar acá la mezcla que usa la cal sino me corroe.**
+
+Alumno: Y el plástico también?
+Profesor: No el plástico no. (Hace un gesto que le pega con el caño) Esa es la desventaja que tengo en este sentido, por eso quería decirles si uso esto yo todavía tengo la suerte de que me hacen caso pero algún día me van a echar a la mierda. Yo trabajo para el ministerio de la educación entonces los caños en todas las obras son a través de cañería de hierro todavía hasta que venga uno y me diga poné esta (PVC).
+
+PREGUNTAR
+###### Me trajieron tengo 2 carpetas de gerlock¿? (Hora 01:39:06) para que yo revise y vea. Le dije que todavía no probé con cañería de coso (PVC).
+
+##### Acuérdense que todas las cajas esmaltadas, esta para ahí no porque se oxidó ya pero estas son esmaltadas generalmente porque todas las cañerías sobre todo la parte de hierro acuérdense con CEMENTO y arena NO CON LA CAL PORQUE ME CORROE.
+##### Y el acero puede ser liviano para que ustedes entiendan la cañería puede ser liviana, semipesada y pesada. Las dos primeras son las que más se utilizan en instalación domiciliaria, pesada ya es en forma insdustrial. En qué varía eso? En el espesor. El espesor de los caños es más liviano ¿? (Hora 01:40:16) 
+
+Antiguamente cuando empezamos no teníamos ni dobladora de caños entonces lo que permitía doblar y hacer curvas mayores de 90 grados la rodilla nada más, ahora si querés doblar este caño pesado con tu rodilla y andá no más al geriátrico porque no vas a poder, pero el liviano y semipesado podíamos doblar con la rodilla.
+
+Pero después empezaron a aparecer los dobladores de caños, ese voy a traer para que vean, por lo menos para que sepan que hay dobladores de caños y **la curva tiene que sre mayor que 90 grados.**
+
+#### ¿Qué permite el doblez?
+Que yo no utilice elementos auxiliares como la curva, después vmaos a ver si hay curva por ahí. Mi ayudante ya está revisando.... Va a conocer más que yo.
+
+Estas son curvas: tiene un conector acá. Esto es la unión por las dudas a cada curva en la parte de hierro tiene una cupla y una cupla roscada, de un lado tiene una cupla y la curva parte roscada entonces esto nos sirve a nosotros para seguir haciendo las uniones. Esto generalmente lo puedo encontrar acá ahí arriba porque las bocas están ahí viene el caño y tengo que bajar entonces cada vez que tengo que bajar para no hacer el doblez con el caño o yo voy a ver si capaz que compre otra ¿? más ¿? (01:42:24) por acá demoran demasiado.
+**Como yo doblo un caño de PVC con el resorte. ESto son caños que vienen con memoria o sino como antes se ponía arena acá se calentaba y se empezaba a tipo artesanal pero demoraba mucho tiempo** La idea principalmente para nosotros que hacemos la mano de obra es hacer el trabajo en el menos tiempo posible para que esa obra realmente nos reditúe porque sino podemos hacer lo mismo en 5 días y otro en 1 día y medio cobra lo que vos hiciste en 5 días.
+
+Alumno: Le demoramos un poquitto más para que no digan tan rápido tan rápido me arrancaste la cabeza.
+Profesor: Ya pensó en eso.
+Alumno2: Hay que estar siempre un paso adelante.
+Ayudante: Pero eso tiene una contraparte, si vos trabajaste muchos años perfeccionando tu técnica vos hiciste eso rápido porque vos estuviste muchos años de tu vida en servicio perfeccionando su técnica. Uno sin experiencia va a tardar el triple de tu tiempo.
+Alumna: O invertiste en herramientas.
+Profesor: Sí o en estudios, te capacistaste.
+Ayudante: Ese poco tiempo que dicen algunos, eso es herramientas conocimiento y experiencia.
+#### (Hora 01:44:10)
+###### Profesor: Yo siempre me acuerdo de un alumnmo que trabajaba para una empresa y el arquitecto que estaba encargado de la obra le pide que necesitaba hacer una instalación en su casa, entonces va el mismo que el había tomado para la obra va a su casa, le hace tantas bocas tanta plata. Bueno, el vago accepta y le dice los materiales trae los materiales y empieza a hacer la obra, el vago(arquitecto) se fue a la obra y cuando vino a la casa estaba todo hecho ya.
+Arquitecto: Ah pero en un día hiciste y me va a cobrar eso?
+###### Electricista: Sí, pero habíamos arreglado por boca. El tiempo que yo tardo no tiene nada que ver con lo que hace, se especifica por boca. En principio empezaron a discutir y el tipo como también trabajaba en otra obra para la otra empresa se achicó y le dijo bueno mañana vemos cualquier cosa. Entonces logró cobrar la mitad porque el vago no quería perder el laburo de la empresa, entonces cobró la mitad. Y le dijo, como todo era verbal. Todo era de palabras, cuando uno presenta un presupuesto con cierta característica ustedes tienen que poner 5 bocas de iluminación, 8 bocas de tomacorrientes, 2 bocas especiales, tablero tantos pesos. Adicionales por boca tantos pesos firman los dos. Y ahí empezamos la obra. Ahora si es tddo hablado siempre hay motivos por los que uno quiere ganar más que otro. O mejor dicho el otro accepta pero como vos hiciste muy rápido te quiere pagar menos.
+Arquitecto: Ah si yo pago la hora en la obra póngale 3500 por hora al electricista, y vos me querés cobrar tanto por 1 día de laburo que vos hiciste en mi casa, así es el razonamiento de ellos.
+Profesor: Ocurre.
+Ayudante: En realidad está establecido que en la obra ¿? (Hora 01:47) se remunera de una forma y el electricista particulares de otra forma, en Internet hay una página que está establecido todos los precios por boca por aplique por ventilación todo eso está establecido a nivel país. Se toma un índice y eso está establecido a nivel país para tener una referencia.
+Profesor: Después yo le voy a dar.
+Alumno: Cómo se llama la página?
+Profesor: Dígame cuanto tengo que cobrar por tanto (chiste).
+
+Quería mostrarles a veces en algunas carpetas tengo un presupuesto ahí.
+
+Bueno hay uno que es la revista del instalador. Hay distintos precios si uno hace solo cañería si hace recableado si hace solo eso, van valores por mano de obra, solo mano de obra. Esa es la **revista del instalador** y después hay otro que es AAIERIC también trae lista de precios mano de obra de acuerdo a la cantidad de bocas que uno hace por tablero, todo eso está especificado yo cada cierto tiempo cada 6 meses pego un chequeo, acuérdense que esto es a nivel nacioanl, eso significa que ellos juntan de toda la provincia y hacen un promedio y **a veces acá los precios son un poquito menos**.
+
+Uno por el tema de la distancia otro por el recorrido y depende que lugar uno esté también.
+
+Alumno: Un mosquito profe.
+Profesor: No acá loco, el dengue este, eso que le tiré la porquería esa.
+
+Alumna: Como dijo el segundo?
+Ayudante: AAIERIC
+
+Alumno: Yo cambié una ducha, cambié la resistencia cuando abrí la ducha cayó todos los cositos.
+Profesor: Sí. 
+Alumno: Cambié la ducha y le puse los peinecitos no sé como se llamarán que tiene forma de peine.
+Profesor: Si si la resistencia.
+Alumno: Agarrá un buscapolo y acercate para saber cual es la fase.
+Profesor: A veces el problema de la resistencia es que en algunos sistemas es distinta y no hay la misma marca suele ocurrir.
+
+Estamos hasta ahí y PVC también tenemos livianos, en esa época todavía eran livianos y pesados ahora ya empezamos a mejorar porque en esa época hacíamos esto todavía habían los caños de PVC pero de otra época y también tiene otra característica liviano, semipesado y pesado. Después le voy a mandar ahora por WhatsApp. Le voy a mandar tipos de cañería y hay cañerías que tienen la particularidad empezando por esta
+
+Hora 01:51:22
