@@ -73,6 +73,7 @@ rm /tmp/$titulo.mp4
 ```
 
 #### Si solo queres crear el video de youtube
+Para bajarte youtube-upload: https://github.com/tokland/youtube-upload
 ```bash
 echo "Generamos thumbnail para youtube"
 echo "Ingresa titulo sin espacios:"
