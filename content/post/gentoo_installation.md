@@ -155,9 +155,20 @@ Listo.
 Para actualizar todos los paquetes: `emerge --ask --verbose --update --deep --newuse @world`
 Las noticias se leen con `sudo eselect news list` y `sudo eselect news read 1`
 
+
 Si tu WiFi funciona lento: https://forums.gentoo.org/viewtopic-t-1075252-start-0.html
+https://forums.gentoo.org/viewtopic-t-996692.html
+
+https://reyabogado.com/us/what-is-wireless-regulations/
+
 ```bash
-iw reg set AR
+iw reg set AR # (codigo de tu pais)
+```
+
+Para ver cuanto tiempo te tardará compilar un paquete: 
+```bash
+sudo emerge -av genlop
+genlop -tq www-client/falkon
 ```
 
 ---

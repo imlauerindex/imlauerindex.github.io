@@ -136,4 +136,40 @@ Vos tenés este acá vos trincás acá hacelo bien redondo esto bien largo, hace
 
 Ayudante: Así tiene que tocar.
 
+Profesor: Pasale ahí que la gente vea.
 
+La gente va a hacer la prueba acá.
+
+Todos van a hacer lo mismo así que acá el que se equivoca no hay problema.
+
+Minuto 45: 
+
+El tema es así llega con el portalámparas acá y prueba hay continuidad ahí no sienten ruido eso quiere decir que no se tocan los cables ahí fase y neutro ahí les va pone la lámpara acá y el señor conecta acá entre este y este está todo apagado por supuesto.
+
+Una vez que ponen el portalámparas acá empezamos con estos elementos prueba con el buscapolo, ven cual es la fase y cuál es el neutro. Después de ese trabajo pueden levantar la térmica, la térmica tiene un pequeño problema que tenía un pasador y alguien sin querer se lo llevó.
+
+#### Tengo que levantar las dos juntas, porque sino no sirve.
+Yo voy a estar acá cerca cualquier cosa me tiro arriba.
+
+Alumna: Aah.
+
+Usan primero el buscapolo esto es para ver la continuidad, una vez que saben que no tocan los cables no hay problema, buscapolo primero después usan esto esto que hace la fase. 
+
+Después lámpara de prueba tengo que tener y saber que acá llega fase y neutro, fase y neutro y acá sigue la conexión que es L1 y L2 va a ser la conexión de la lámpara.
+
+Por último van a usar el probador de tensión, quiero que presten atención porque acá ustedes van a ver hasta donde llega el LED, presten atención no es exacta sino aproximada.
+
+Entonces quiero que vayan probando que equipo hay que ustedes pueden tener el día de mañana probar el día de mañana para probar la instalación eléctrica, una vez que prueban todo. Levantan la térmica, levantan el ... Y tiene que prender el foco. Siempre y cuando el foco no esté quemado esa es otra posibilidad.
+
+Entienden como es el trabajo? Yo hice eso, hice la conexión vengo acá, pruebo primero con el tester, ahora les enseño donde está el beep, que ustedes sienten que hay continuidad o no y hacen todo el proceso esto siempre hacen y se hace siempre en cualquier ejercicio que hagan ustedes una conexión de lámpara siempre van a hacer esto porque esto tienen que tener en cuenta que me quede la memoria y algún día ustedes tengan la posibilidad de comprar un elemento de estos, van armando su equipamiento y es para que tengan seguridad. Ustedes mismos, yo necesito eso para estos primeros elementos para que ustedes empiecen.
+
+La otra cosa, acá será el lugar de prueba, siempre vengan de uno no de 10.
+
+#### El que va en el medio es la FASE.
+
+Fíjense bien el tema acá yo necesito que esto es un tester lo que estamos haciendo en la parte de continuidad yo necesito tener este elemento para probar en el tablero yo necesito para en el tablero ver si los borners de salida fase y neutro de cada circuito no están UNIDOS. Entonces pruebo, si tengo continuidad, busco el problema donde está la conexión si hay interno si hay un cable que está tocando a otro.
+
+Alumno: Si terminas la instalación y en alguna parte se está tocando los cables. Cuál es la 1era parte que se pueda ir a llegar a ir a ver? En esta posibilidad de que se tocan los cables.
+Profesor: Lo primero que vos ves en esto es un portalámpara entonces ese es el 1er trabajo que estamos haciendo es el portalámpara, el 1er 
+
+Acuérdense que 
