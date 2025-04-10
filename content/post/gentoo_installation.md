@@ -99,14 +99,17 @@ echo "arch" > /etc/hostname
 ::1 localhost
 127.0.0.1       arch.localdomain        arch
 ```
-passwd # cambiar contraseña root
+#### Cambiamos contraseña root y sincronizamos
+```bash
+passwd 
 emerge-webrsync
 echo "America/Buenos_Aires" > /etc/timezone
 emerge --config sys-libs/timezone-data
+```
 
 #### Esta linea compilara todos estos paquetes
 ```bash
-emerge -va gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin yt-dlp mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant scrot translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard
+emerge -va gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin yt-dlp mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant scrot translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop
 
 Agregá --autounmask-write y luego dispatch-conf
 hwclock --systohc
@@ -148,6 +151,8 @@ Ahora en `/usr/bin/firefox-bin` a la última línea agregá `apulse` (por el aud
 
 
 Listo.
+
+Para actualizar todos los paquetes: `emerge --ask --verbose --update --deep --newuse @world`
 
 ---
 

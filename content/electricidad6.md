@@ -22,3 +22,10 @@ Para verificar que funcionaba de forma correcta con un multímetro verificamos l
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEPIw7hXBuNk3vheaTrF_GtBahgSgvEcIjUMSmmTLr32d67CEqoWheWzXCDDPE138S2O4u2gt1SKOz8nBJlZNXIl29Z4AO0lwy80msPJ7lWl4DTNraUHeyCDRdD_o877QCPrUoZTNcGfGSDbsy6337h-3hBCH5JJnlr_v8Aw_JhAt3SLme7-EGrqAQefQ/s4160/IMG-20250326-WA0002.jpg)
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgodE-6veYwOqmqw7A4r6f2vOJRPIrwi79heWdX5LadomN5rtJA25dIOIJjUpah-3DZMsBLJDmvxHLd7HfNw1dBpMrPVAARgB0Bii2T-KjPoSYOW9IrSRGPhArniJDuYgQ8xVBDypdio_A1_qsE1x2iQvaGVJvVo4FhxLXiSNSSC7gC83gNuatNlu5RK_A/s4160/IMG-20250326-WA0003.jpg)
+
+### Transcripción (a partir minuto 6:25)
+Yo respiro aire puro no más, siempre me afanan los cables así que...
+
+Son los cables para sacar lo que tenemos y eso nos sirve a nosotros para hacer las práctica, no traigo una portalámparas por las dudas para que no se sientan solos.
+
+Antes de que me olvide yo siempre me olvido de algo, 

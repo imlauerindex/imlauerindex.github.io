@@ -6,8 +6,6 @@ sudo systemctl start smb
 ### Agregar para detectar tmux
 firefox-bin blogger.com
 echo "Ingresa la URL del articulo que creaste"
-read 
-blog
 read URL
 echo "Ingresa el titulo del articulo que creaste sin espacios (electricidad4)"
 read titulo
@@ -32,7 +30,8 @@ sed -i 's/$/)/' /tmp/$titulo.md
 # chromium --headless=new "$URL" --disable-gpu --run-all-compositor-stages-before-draw --dump-dom --virtual-time-budget=10000 | grep -oP 'img[^>]*src="\K[^"]+' >> "$HOME/projects/blog/content/$titulo.md"
 # cat /tmp/$titulo_images.md >> "$HOME/projects/blog/content/$titulo.md"
 
-tail -n +3 /tmp/$titulo.md >> "$HOME/projects/blog/content/$titulo.md"
+#tail -n +3 /tmp/$titulo.md >> "$HOME/projects/blog/content/$titulo.md"
+cat /tmp/$titulo.md >> "$HOME/projects/blog/content/$titulo.md"
 
 #### Imágenes de alta calidad
 sed -i 's/s320/s4160/g' "$HOME/projects/blog/content/$titulo.md"
@@ -41,13 +40,14 @@ sed -i 's/s320/s4160/g' "$HOME/projects/blog/content/$titulo.md"
 echo "Generamos thumbnail para youtube"
 echo "Ingresa pequeña descripción con saltos de linea para el thumbnail de youtube (sino sale de la imagen)"
 read -z short_description
+echo "Gerando thumbnail..."
 thumbnailg $short_description /tmp/$titulo.png
 echo "Ingresa ubicación completa de archivo de audio m4a de la clase"
 read archivo_audio_path
 echo "Creando un video a partir del audio..."
 ffmpeg -i /tmp/$titulo.png -i $archivo_audio_path -c:v libx264 -tune stillimage -c:a copy /tmp/$titulo.mp4
 
-youtube-upload \
+/home/esotericwarfare/youtube-upload/youtube-upload-master/bin/youtube-upload \
   --title="$titulo" \
   --description="$descripcion" \
   #--category="Science" \
