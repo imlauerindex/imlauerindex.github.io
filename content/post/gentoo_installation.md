@@ -109,7 +109,7 @@ emerge --config sys-libs/timezone-data
 
 #### Esta linea compilara todos estos paquetes
 ```bash
-emerge -va gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin yt-dlp mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant scrot translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh
+emerge -va gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant scrot translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp
 
 Agregá --autounmask-write y luego dispatch-conf
 hwclock --systohc
@@ -154,6 +154,11 @@ Listo.
 
 Para actualizar todos los paquetes: `emerge --ask --verbose --update --deep --newuse @world`
 Las noticias se leen con `sudo eselect news list` y `sudo eselect news read 1`
+
+Si tu WiFi funciona lento: https://forums.gentoo.org/viewtopic-t-1075252-start-0.html
+```bash
+iw reg set AR
+```
 
 ---
 
