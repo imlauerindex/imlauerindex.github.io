@@ -106,7 +106,7 @@ emerge --config sys-libs/timezone-data
 
 #### Esta linea compilara todos estos paquetes
 ```bash
-emerge -va gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin yt-dlp mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant
+emerge -va gentoo-kernel-bin grub networkmanager tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin yt-dlp mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant scrot translate-shell dev-vcs/git hugo dev-python/pip 
 
 Agregá --autounmask-write y luego dispatch-conf
 hwclock --systohc
