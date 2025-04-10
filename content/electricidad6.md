@@ -9,6 +9,9 @@ https://vocaroo.com/15jDCE6h4IdZ
 #### Audio en Archive:
 https://archive.org/details/record-63
 
+#### Audio en YouTube:
+https://www.youtube.com/watch?v=nk8Hri7RG6k
+
 Cometí el error de desarmarlo rápido y no observar como estaba armado.
 
 Desarmamos esto, conectamos fase y neutro a la base, luego lo probamos en un tablero.

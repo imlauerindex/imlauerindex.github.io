@@ -7,6 +7,8 @@ tags: [electricidad]
 https://vocaroo.com/1oV3Ik1LSwaP
 #### Audio en Archive:
 https://archive.org/details/record-61
+#### Audio en YouTube:
+https://www.youtube.com/watch?v=JafISI-oi6U
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQIAvjNFtblr0Lgw5SAtQ5fyF1oD05_SVgxShFsMPvlBnSAbkYBOu6tusz911P5Bmg7iEaRZiW6JnD0jy3dE092dZMV8DuBmiLPOPDRdD-rPd0fvzgzt_E2euh3cELXGydRzSBqCz1a-5fsuWz5lAfTheh8tbhiS1ctOIxzpuJ9CB1wBdf3aK_RSM7FF8/s4160/IMG_20250325_182348168.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCGksoG9BeqJN-ZJOK_n4-eePKWPYJApfwIwjGFXEeEx0aXLTyeZ0Ie3OvKthngWzNdr58KOVPg_GyTzNHIVJRP7sbU12nopAqhKFOriSSrJv8aXy4oMFgJT8HXh7-S2RDh5sRnQEbYw9gfh1mJQ49YjYLMsSgkE6AIHuRRkVvDsLufAw5NUNPifMw_tU/s4160/IMG_20250325_192159830.jpg)

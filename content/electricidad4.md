@@ -9,6 +9,9 @@ https://archive.org/details/record-59
 #### Audio en Vocaroo:
 https://vocaroo.com/1hnXZFbaWXBU
 
+#### Audio en YouTube:
+https://www.youtube.com/watch?v=A0NSDdsoT_w
+
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyf5U6qeAht5UW8Zyju4WEC-kaU3WxBoGedGxsmArn87lUwGBotBUtjs0ab4WdiMKBdWRptjg1NG1KrFifPlek0SLk4QUpMU5XLeMI9Vz31Y8sb3VFfxs-96iod4D2XRjHhZ9xIl87ieUhdMRU1S-PNMKucjy1BhfRLXOp0FHCvO7S8JZxFZem5t87cZ0/s4160/IMG_20250318_183607339.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5lVQ5rwJ49WbPuruUxbP-2Ud2JrZH5uOvg9LieGGaeGwzQh7merl__fD6czD4wykNTToe7v7Sj7hxCni3UqR5SVc0rwOtrBdwYvpyrTnWhCF0OVCg4jLTpPB0X3xwRtt66iWRpxdbBjUbhVcLZfEp5pxT5A1qONSH6v2A4VennwEXBDucUlPGCnTZ76w/s4160/IMG_20250318_183609655.jpg)
