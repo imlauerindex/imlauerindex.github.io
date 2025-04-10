@@ -10,7 +10,7 @@ https://vocaroo.com/1mOXmDVVcNcE
 https://archive.org/details/record-74
 
 #### Audio en Youtube:
-https://www.youtube.com/watch?v=Cc_CGLRU5xQ
+https://www.youtube.com/embed/Cc_CGLRU5xQ
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_VZJiQqWK2J6F3p2QyYpWQ2CLx2UP7vdBm-bxtJnXOVWxPklRwTUxVk-WXw3pQHrWDtP2ySa-wJ0kKEUqNceSmJthBT6oNobCnhz2TZteFtEptTdUrCsdF_HigKH3IMK2NDqDeq7uEgl1u9KD0RI6_C6yGaJaTUpeVft6u9GxDwGn-xatW8KxdJdfbqU/s4160/IMG_20250407_192928527.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBq_zoR0jNheBUVTFbwAJm863H-mDszdyr5Hu3c0y-cxP7BI9OJKoZiDG5pdglYx1hLTUm8Foo2nQnhE-JGCfKA3M9JAeW98Zp6HIxbQBEEKQmdrNLjeaZNlYM5pxnSfh454TdfUVFAqnfsaL8-HJIimgAZLFssp_RqoyGKV9GaZRbrUkF-sHc2THrzEA/s4160/IMG_20250407_193426081_HDR.jpg)

@@ -8,7 +8,7 @@ https://archive.org/details/record-57
 #### Audio de la clase en Vocaroo:
 https://vocaroo.com/1bkuThXk0Fs9
 #### Audio de la clase en YouTube:
-https://www.youtube.com/watch?v=kC4hTgBpfa0
+https://www.youtube.com/embed/kC4hTgBpfa0
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO9roP_5LKwhf0StuiEh_WAj7iYO05K3qOFUJQVnlOHRBXVX1N0qFQjqpTFqQPDX9NneZSaMOvbHi2E7a2_CH2xPSueykT19WsJZQZWeWbkrb5VSNbMz4YH2HqS-GIorKiOW24bizGsufwCVMz3QGvjnqPX51ccZwkkne11J4tATvRyf52UPQV13_JSXo/s4160/IMG_20250312_204002630_BURST000_COVER.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcc1tWG2LnpeEHkvlMQShOdaoZ2FUpT7QnjdCWUHbyVgG5odM9kfX-JWwNbcZjye1QcEUfGf7lrHrjSiUzUesARc0woO_YH6UzNW2BdurUbhDLPIlFKwifHgHbZbjOqtIFFR3xFDZvAP_C3WcirPf8g99gDv9i0mXKiiA1iKhNk_nB7tkzKL0CXlBmVX8/s4160/IMG_20250312_203958452.jpg)

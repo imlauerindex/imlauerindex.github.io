@@ -8,7 +8,7 @@ https://vocaroo.com/1nCsI2HvLFNc
 #### Audio en Archive.org:
 https://archive.org/details/record-76_202504
 #### Audio en Youtube:
-https://www.youtube.com/watch?v=nPLnCB8nsbw
+https://www.youtube.com/embed/nPLnCB8nsbw
 
 #### Documentos enviados por WhatsApp
 https://archive.org/details/catalogo-tubelectric

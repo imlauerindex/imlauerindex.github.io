@@ -5,7 +5,7 @@ tags: [electricidad]
 ---
 Clase práctica sobre EMPALMES. Estuve ausente. Me sentia demasiado mal. Antes de la clase el profesor **Francisco Espeche** mando este video por WhatsApp:
 
-https://www.youtube.com/watch?v=nXI7tKH1FY0
+https://www.youtube.com/embed/nXI7tKH1FY0
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxmquqAaeChlL26mmo050E8xXJ0eV4Kk1PGKae5AihmLmSSN31Z7qFLPLHQSNoRKbTIrvrAm02sWMS1nvaEw3IiCaPYomNLMhtYR2eVV4X57TdLqx4Rpc_-xq3a0Z2Wjf1wFK7UWT5ONiKWf5UIqbSB9tCbtOhbG_UWfRQ2AZchC_atWGqcLvsXoHID8M/s4160/IMG_20250407_182208364.jpg)
 

@@ -10,7 +10,7 @@ https://vocaroo.com/15jDCE6h4IdZ
 https://archive.org/details/record-63
 
 #### Audio en YouTube:
-https://www.youtube.com/watch?v=nk8Hri7RG6k
+https://www.youtube.com/embed/nk8Hri7RG6k
 
 Cometí el error de desarmarlo rápido y no observar como estaba armado.
 

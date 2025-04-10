@@ -8,7 +8,7 @@ https://vocaroo.com/12sRsOPRw6es
 #### Audio Archive:
 https://archive.org/details/record-58_202503   
 #### Audio YouTube:
-https://www.youtube.com/watch?v=tN76Tnlmi8s
+https://www.youtube.com/embed/tN76Tnlmi8s
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicKAnsKRfZJwu_RnE1E4TAkzJo7ZHfKKvP9CSmnkUBVkB2PQcEoEbwMlAG6JsAJhizvyz37__fJ7o5u2raNuMNuzVH48db9VPTINArGgonRgGkaI-gSheWl96Gpz4mSiQFQOPzIyilajzPVdPCCsXL0RST35iWVUKFO__q755ZNRHc1sDVAROHpLc_6GU/s4160/IMG_20250317_190755536.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0neuMZu2H31pJhimu52GT_MANcFPO8Zx-xl_4B-WxqUH7iHSOKoGXyTR7LET5g7Ijhgu1xr5CKUuvUXPTYw2dSOeLMo84JY_e8Gpy0gJ4PCiys5xFSZgtVaBEHPmKSHOBx6EbFUy18zjRnKV5Z8y7it1cIj5uDM5Iirm7sTfCQrjmLKjVsncsHlMpZ8g/s4160/IMG_20250317_190757223.jpg)

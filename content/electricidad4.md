@@ -10,7 +10,7 @@ https://archive.org/details/record-59
 https://vocaroo.com/1hnXZFbaWXBU
 
 #### Audio en YouTube:
-https://www.youtube.com/watch?v=A0NSDdsoT_w
+https://www.youtube.com/embed/A0NSDdsoT_w
 
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyf5U6qeAht5UW8Zyju4WEC-kaU3WxBoGedGxsmArn87lUwGBotBUtjs0ab4WdiMKBdWRptjg1NG1KrFifPlek0SLk4QUpMU5XLeMI9Vz31Y8sb3VFfxs-96iod4D2XRjHhZ9xIl87ieUhdMRU1S-PNMKucjy1BhfRLXOp0FHCvO7S8JZxFZem5t87cZ0/s4160/IMG_20250318_183607339.jpg)
