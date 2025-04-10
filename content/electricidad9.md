@@ -8,6 +8,10 @@ https://vocaroo.com/1mOXmDVVcNcE
 
 #### Audio en Archive:
 https://archive.org/details/record-74
+
+#### Audio en Youtube:
+https://www.youtube.com/watch?v=Cc_CGLRU5xQ
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_VZJiQqWK2J6F3p2QyYpWQ2CLx2UP7vdBm-bxtJnXOVWxPklRwTUxVk-WXw3pQHrWDtP2ySa-wJ0kKEUqNceSmJthBT6oNobCnhz2TZteFtEptTdUrCsdF_HigKH3IMK2NDqDeq7uEgl1u9KD0RI6_C6yGaJaTUpeVft6u9GxDwGn-xatW8KxdJdfbqU/s4160/IMG_20250407_192928527.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBq_zoR0jNheBUVTFbwAJm863H-mDszdyr5Hu3c0y-cxP7BI9OJKoZiDG5pdglYx1hLTUm8Foo2nQnhE-JGCfKA3M9JAeW98Zp6HIxbQBEEKQmdrNLjeaZNlYM5pxnSfh454TdfUVFAqnfsaL8-HJIimgAZLFssp_RqoyGKV9GaZRbrUkF-sHc2THrzEA/s4160/IMG_20250407_193426081_HDR.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhi3EZyNE4lKdifG385eBB3a6JmElpCA7Jota1fw2l7Q9np78U4c0epn8ff0X7Gddnscgs5ndRCh_IzCOFg9BIG6DaregiIU2219L2_MG59GI__kqzub0YlL80IfFQZ3izfnSCYQMEESTyqzcKcIAXjtPSrYSmzq3tsR__M6BGP3fIOLqdZd_jWuYS4BCs/s4160/IMG_20250407_194450899.jpg)
