@@ -1,5 +1,5 @@
 ---
-title: "Electricidad11"
+title: "Electricidad / Clase 11: No usar curva y contracurva juntos porque es difícil pasar cinta pasacables, mejor un cañito en el medio. Meter pinza para sacar rebarba adentro y afuera agarrar el caño. Acanaladora."
 date: 2025-04-10T07:25:44-03:00
 tags: [electricidad]
 ---
