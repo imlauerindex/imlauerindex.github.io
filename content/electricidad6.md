@@ -476,5 +476,42 @@ Voy armando eso, después vamos a hacer más cosas.
 
 Profesor: Quién es Aroda?
 Alumno: Presente.
-Ah bueno, no, Veo que me tiró acá le cuelgo el cogote digo no puede ser siempre tienen así porque después es importante que cada uno tenga su portalámparas porque ya probó no hace cortocircuito todos los cables que están acá se tira aquí (balde). Eso después vamos a reutilizar. 
+Ah bueno, no, Veo que me tiró acá le cuelgo el cogote digo no puede ser siempre tienen así porque después es importante que cada uno tenga su portalámparas porque ya probó no hace cortocircuito todos los cables que están acá se tira aquí (balde). Eso después vamos a reutilizar. Van a usar acá.....
+
+Pasando el cuaderno de asistencia...
+
+Profesor: Cualquier cosa que tengan problema preparen o manden yo estoy haciendo este trabajo necesito información necesito que me ayuden no hay problema. Yo a veces viajo pero a veces me pongo a tomar un café por ahí y empiezo a revisar.
+
+Alumno: Este llevamos no más?
+Profesor: No eso queda acá. Cada uno tiene su... Está todo probado después vamos a ir armando otra cosa y vamos a empezar a adelantar algunas cosas, estos son todos nuevos así que yo tengo que tener lugar. ....
+
+Alumna: El que yo usé estaba en un tablero.
+Profesor: Sí sí lo importante que entiendan como es la instalación, después mandaré una foto de muestra ahí para que tengan idea y no se olviden más como es la instalación ahí que dice que tiene que estar en buenas condiciones. Cuando aparece X verde es bien, y el X rojo es malo.
+
+Me gusta la gente que ya hizo algún trabajo así me preguntan y vamos viendo.
+
+#### Qué diferencia tiene esto entre un curso técnico?
+Acá el tema es así. Vienen para entender y la necesidad de tener un oficio entonces es muy distinto... El profesor continúa hablando sobre de que se trata. Les da más importancia a la estudiantina por eso me activa a mi venir acá, me gusta enseñar porque uno llega a cierta etapa que necesita enseñar...
+
+## \* Paso a la parte práctica
+
+Hora 02:03
+Ayudante: Si están en hora y tienen que irse igual, si ustedes anotaron en el cuaderno que no pasaron la clase que viene vamos a empezar con eso
+Ayudante: Empezamos probando continuidad con el tester, ¿está en escala? 
+Yo: Sí.
+Ayudante: Probamos si funciona (tocando las dos puntas)
+Yo: Toco
+Ayudante: Perfecto.
+
+Ayudante: Identificamos (con el buscapolo) si tenemos fase en nuestro circuito energizamos el circuito todo el circuito, esas tienen que ser las dos a la vez. Exacto. En entrada y salida térmica disyuntor y bornera sí, tenemos fase. 
+Yo: Pruebo con el buscapolo, acá hay una luz tengo fase.
+Ayudante: Bueno entonces en tu contrario no tiene que tener fase.
+Yo: Acá
+Ayudante: No. El contrario es el de al lado. Perfecto. Entonces en todos tiene que encender uno si y otro no. Uno si y otro no.
+Yo: Acá enciende acá no.
+Ayudante: Si acá no te enciende ninguno significa que en este trayecto tenés un problema por eso siempre se verifica todo el circuito NUNCA parcial.
+Yo: Acá también?
+Ayudante: No. Esta parte no. Sabemos que tenemos fase pero el otro puede no estar conectado puede ser tierra o puede ser el neutro. Para saber vamos a conectar la **lámpara de prueba**.
+
+Fin.
 
