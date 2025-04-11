@@ -242,4 +242,13 @@ Interruptor principal de cabecera, interruptor termomagnético entonces cualquie
 
 #### Hora 01:12: Hablando de la charla de seguridad en altura, dice que hay que anotarse por la "capacidad". Y dice que dan un certificado, alto curro eso.
 
+Una cosa importante hablando del tema de seguridad.
 
+Cuando yo estoy trabajando directamente en el cableado de una nueva canalización siempre necesito de un ayudante.
+Hasta para levantar la escalera. 
+
+#### Anécdota
+Una vez fuimos a hacer una instalación en El Dorado y tenía un galpón grande y varias canchas de fútbol 5 estábamos colocando los artefactos. De un lado colocamos columnas del otro lado como tenía un tinglado usamos los soportes o las ranuras del tinglado y hicimos colocar un artefacto 
+Pero como era un tinglado esos tinglados tienen un recubierto de chapa entonces va un amigo mio y apoya la escalera. 
+
+Anímense 

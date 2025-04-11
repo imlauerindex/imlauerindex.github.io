@@ -6,7 +6,7 @@ tags: ['android']
 Borré el teclado, no tenía los botones ni de encendido ni para bajar el volumen así que no podía bootear al fastboot, no podía loguearme porque no aparecía el teclado, no podía conectarme por Bluetooth, tampoco no tenía cuenta de invitado habilitada.
 
 #### Solución:
-Formatear celular desde google "find my device".
+Formatear celular desde google "find my device android".
 
 La única vez en mi vida que dí gracias a la puerta trasera de Google.
 

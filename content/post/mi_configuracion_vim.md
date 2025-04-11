@@ -1,5 +1,5 @@
 ---
-title: "Mi Configuración De VIM"
+title: "Mi Configuración de Vim"
 date: 2024-09-25T16:29:35-03:00
 tags: ['vim']
 ---
@@ -20,6 +20,9 @@ autocmd BufWritePost resume_english.tex !pdflatex /home/mistermac/projects/MiCV/
 set termguicolors
 "let g:carbonized_dark_LineNr = 'off'
 "let g:carbonized_light_LineNr = 'off'
+xnoremap <silent> <C-@> :w !wl-copy<CR><CR> " copiar pegar en wayland
+
+
 set hlsearch    " highlight all search results set ignorecase  " do case insensitive search
 set incsearch   " show incremental search results as you type
 set noswapfile  " disable swap file
@@ -94,7 +97,7 @@ call plug#end()
 "colorscheme gruvbox
 "colorscheme orbital
 "colorscheme jellybeans
-colorscheme PaperColor
+colorscheme slate
 "colorscheme onehalfdark
 "colorscheme peachpuff
 "colorscheme archery

@@ -9,3 +9,8 @@ Stack Overflow, el lugar de donde proviene la mayor parte de su código de produ
 
 [Descargar Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Descargas)
 
+
+#### Descargar Wikipedia (son archivos zim). Necesitás Kiwix.
+
+https://download.kiwix.org/zim/wikipedia/?C=S;O=D
+
