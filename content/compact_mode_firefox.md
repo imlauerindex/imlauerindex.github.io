@@ -1,5 +1,5 @@
 ---
-title: "Compact mode firefox"
+title: "Compact mode Firefox"
 date: 2025-04-11T04:48:37-03:00
 tags: ['firfox']
 ---
