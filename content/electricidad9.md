@@ -44,7 +44,7 @@ Uno como toda experiencia DESCREE un pooc en el sistema porque se acostumbró ta
         
 Hablando de cuántas copias sacar...        
         
-15*3 = 45. 16 copias. Vamos a llevar 50 hojas, contá hasta 50 hojas llevá allá que impriman.        
+15\*3 = 45. 16 copias. Vamos a llevar 50 hojas, contá hasta 50 hojas llevá allá que impriman.        
 La idea es tratar siempre que tengan la posibilidad de recurrir a un lugar cuando necesitan información, porque a veces unas cosas uno aprende y otras no.        
         
 #### Hoy vamos a empezar con canalización        
@@ -73,11 +73,11 @@ Bueno porque sino tengo que explicar toda la parte de PVC. Estamos entonces.
         
 Todavía tengo que averiguar en electromisiones si todos los materiales que me exigen acá existen.        
 Ayudante: En donde?        
-Profesor: En electromisiones, para mañana si quiere yo le verifico.        
+Profesor: En ElectroMisiones, para mañana si quiere yo le verifico.        
 Alumno: Tengo un compinche en electrolínea que trabaja en la caja.        
 Profesor: No por lo menos para saber si... Viste que exigen una nueva característica es necesario saber si contámos con todo los materiales porque a veces vamos a empezar a armar y resulta que no.        
         
-Yo les dije que si hay mosquito que avisen, algún día vamos a tener "eletricisado" (automatizado). Esto tiene que hacer el portado, tirá por allá en los rincones.        
+Yo les dije que si hay mosquito que avisen, algún día vamos a tener "electrizado" (automatizado). Esto tiene que hacer el portado, tirá por allá en los rincones.        
         
 Bueno.        
         
@@ -524,7 +524,7 @@ Y la otra forma ya empezamos con cable subterráneo acuérdense que el cable sub
     
 Vayan pasando ese, que inteligente poné la fecha no más.    
     
-Entonces ese tipo de instalacińo subterránea lo único que vemos ahora si hay posbilidad la gente que quiere ir a tomar mate ir allá a Itaembé Guazú vean sale del **transformador hay un gabinete y ese gabinete algunas veces está abierto y van a ver la térmica y esa térmica va a directamente a la casa que está allá la casa que está allá, van todos conductores subterráneos de 2 pares o 3 porque lleva tierra también.**     
+Entonces ese tipo de instalación subterránea lo único que vemos ahora si hay posbilidad la gente que quiere ir a tomar mate ir allá a Itaembé Guazú vean sale del **transformador hay un gabinete y ese gabinete algunas veces está abierto y van a ver la térmica y esa térmica va a directamente a la casa que está allá la casa que está allá, van todos conductores subterráneos de 2 pares o 3 porque lleva tierra también.**     
     
 Va a salir de ahí y van al medidor que está allá al otro medidor todo monofásico excepto algunos lugares en donde hay trifásico van por canalización y esos conductores generalmente en esa parte son subterráneos y no se debe cortar si se corta o por X motivo se hizo más corto, en algún lugar **tengo que hacer la unión pero nunca NUNCA en la tierra en algún lugar que entra agua TAMPOCO**. Tengo que levantar minimamente 3 centímetros y de ahí una caja y sacar ya para conexión nunca dentro del suelo, acuérdense por más que pongamos hasta gelatina siempre va a entrar en algún lado agua y esa unión no sirve.    
     

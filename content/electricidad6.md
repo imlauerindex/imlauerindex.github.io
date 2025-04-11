@@ -296,82 +296,185 @@ Profesor: No eso es en la casa electrónica.
 Alumna: En la casa electrónica ahí por Bolivar y Corrientes?    
 Profesor: Corrientes hay una ahí, una allá y otra allá en frente del ¿? (Hora 01:21)    
 Alumna: Ah en frente del Bachi?     
-Profesor: École.    
-Alumna: Cuál es el más barato de esos dos?    
-Profesor: \*Hace un gesto de que no sabe.    
-Alumna: Ah buah profe tiene que dar bien los datos no a la mitad. (Hora 01:21)    
+Profesor: École.       
+Alumna: Cuál es el más barato de esos dos?       
+Profesor: \*Hace un gesto de que no sabe.       
+Alumna: Ah buah profe tiene que dar bien los datos no a la mitad. (Hora 01:21)       
+   
+#### Para armar un portalámparas se usa el cable punta de tester.   
+   
+NO y eso que ustedes piden, eso que ustedes ven acá, eso que está acá es de acá XD (está hablando de los cablecitos del portalámparas que son los mismos de los cables que tiene el tester) El cable punta del tester.   
+   
+Alumna: Claro   
+Profesor: De ahí se corta las puntas y se arma.   
+   
+Alumno: Veo que acá le ponemos continuidad y acá ....   
+Profesor: Sí....   
+   
+Hay de diferentes precios no se van a asustar porque hay más gruesos sale un poquito más, el año pasado unos chicos compraron.   
+Alumna: De 4? Que era de 4 mm^2?   
+Profesor: No era más reforzado porque algunos que son, las puntas son más chiquitas, y otras son más gruesas, o sea que te da más seguridad. Acá le vamos a afanar, vió esta otra tiene otro tipo de punta, mejor. Entienden?    
+   
+   
+##### Lo único que se hace es cortar la parte extrema arman ustedes el portalámparas y ya tienen la lámpara de prueba porque ese codito está aislado entonces constantemente... Hay otra gente que no quiere comprar esto y armar con el cablecito le pelan el cable... Es cuestión de seguridad.   
+O sea que no hay problema.   
+   
+Hora 01:25   
+Alumna: El blanco puede oficiar de neutro también?   
+Profesor: En otra época sí, hoy es azul. Pero todo depende también que yo voy a hacer la mano de obra y que el secretario me va a comprar los materiales y si me da blanco coloco que ese blanco va a ser neutro porque ustedes saben que yo tengo 3 fases y ya tengo definida **R.S.T. y RST generalmente es rojo, negro y marrón entonces esos 3 ya son los colores que yo ya tengo que tener siempre como fase y el blanco lo puedo llevar a neutro, pero tengo que decir que ese blanco es neutro. El verde-amarillo ese es tierra**.   
+   
+Alumna: Comieron tierra los verde amarello (haciendo referencia al partido) Argentina - Brazil.   
+Profesor: Mi sueño es ir a verlo a Messi a jugar y que esté caminando en la cancha. Después en las eliminatorias si viene voy a tratar de conseguir, así le veo por lo menos.   
+   
+Hablando de fotocopias y de WhatsApp...    
+   
+Habla de por qué no habilita WhatsApp para todos porque mandan videos que no respetan las normas.   
+   
+Habla boludeces de la Inteligencia Artificial. No tiene ni idea pero rechaza la inteligencia artificial sin saber del tema.   
+   
+**Opinión personal**: Critica muy duro la Inteligencia Artificial pero no se da cuenta que los colegios, los cursos las universidades son mucho peores.   
+   
+... Después cuando llegan a montador ustedes ya van a estar "ducho" (seguro de lo que están haciendo).   
+   
+Me van a aguantar hasta fin de año, si quieren.   
+   
+##### Yo soy ingeniero mecánico a mi la vocación de servicio pasó porque iba a inspeccionar una obra y tenía gente de otros lugares de Brasil Paraguay tenía mucha demanda de oficio eléctrico principalmente y cada uno vamos de Brasil tenía un conocimiento distinto una norma distinta y se equivocaban mucho en los planos.   
+   
+Entonces hicimos un laboratorio en una escuela y el laboratorio generalmente tiene una mesada y en cada mesada tiene un lugar en donde se lava las manos y esa mesada tenía los dos lugares en donde iban los toma ahí hubo 2 problemas:   
+**1. El inspector (el capataz) vió donde iba las bachas entonces ¿qué hizo la gente? Puso los tomas arriba de la bacha fíjense que tengo a 15 cm de la mesada porque coloco el tomacorriente tengo agua ahí, y la norma me pide que la bacha esté acá y a 40 cm esté el eje en donde voy a colocar mi interruptor tomacorriente entonces tengo que subir hasta acá o sea bien la limitación del agua no me salpique acá, llego allá y esto que es. Si lo que pasa es que nadie me dijo   
+   
+Alumno: A 40 y a 15.   
+Profesor: A 40 y a 15 mínimo de ahí para allá. El agua no me tiene que salpicar.   
+Alumno: Son corto 40 che.   
+Profesor: 40 de acá tiene...   
+Alumno: Del límite de la bacha.   
+Profesor: Tu centro, tu canilla o tu llave está acá.   
+Alumno: Vos tomás de la llave?   
+Profesor: De acá. O sea acá está tu...   
+Alumno: La conexión sanitaria.   
+Profesor: La canilla. Acá tengo tu sistema de agua. Acá tenía tu bacha de acá para allá    
+Alumno: De acá para allá 40.   
+Profesor: Sí. Para que llegue agua ahí tenés que tirar un valde. Esas cosas son importantes cuando se hacen esas y falta conocimiento, entonces vamos a ver también conocimiento de qué distancia vamos a colocar eso.   
+   
+Faltaba gente de oficio para las empresas y ellos contrataban en Paraguay salía barato. Y uno cuando va a inspeccionar las obras yo que estoy en la parte de educación trato de que la gente que va a utilizar el reglamento de instalación esté protegida porque hay chicos y tienen poca conciencia.   
+   
+En la casa de uno cuando ustedes tienen una criatura que recién empieza a gatear y lo primero que va y mete el dedo en el enchufe. Y va allá vos le sacas y quiere ir. Fíjense ahora si intentan hay tomacorriente que no permiten meter 1 solo cable o 1 solo dedo meté los 2 no 1. Si vos querés meter ahí no vas a poder y los 2, y tenés que meter los 2 cables para que te aisle para que puedas.   
+   
+   
+**Es increíble, tengo 4 hijos entonces ponía protectores en cada, pegado para que nadie tqoue, pero se va y ves que necesitás disyuntor después vas y sabés que necesitás puesta a tierra, entonces ya vas armando un sistema de protección en toda tu casa porque necesitás cuidar a esa gente que anda ahí que quiere jugar y más si tenés un prolongador como ve que tiene cantidad de enchufes que constantemente estás desenchufando el vago quiere ir y probar. Entonces esas cosas es importante en el tema de seguridad en cualquier vivienda que tengamos.**   
+   
+##### El electricista cuando va caminando hasta los edificios ves como es la alimentación, ustedes van a ver en algunos lados un transformador después un cable capaz que subterráneo baja por ahí y arriba hay seccionadores le llaman pero se llama APR fusible que es la alimentación de esa al edificio esto va a un medidor o un gabinete de medidores.    
+   
+##### Siempre hay que ir observando y ese conductor puede ser subterráneo baja a través de un poste y ese poste está protegido hasta 3 metros para que la gente no robe.   
+   
+Fíjense este que trabajaba en seguridad en realidad puso unas bochas que son las luces que están en la costanera los primeros fueron ahí cerca del gaucho el indio había unas bochas ahí vino una tormenta de viento y esto se dió vuelta porque no estaba bien seguro.   
+Alumna: Las blancas esas?   
+###### Profesor: Las blancas. Cuando voy a mirar tenían conductor tipo taller y las conexiones estaban al ras del piso, ahí ya te das cuenta que hay un problema porque por más que tenga el tablero que está allá arriba y el disyuntor y toda esa línea que va allá abajo, yo no puedo poner el conductor tipo taller en donde yo tengo primero ascendero donde están los chicos, si van los chicos van por allá van a mirar la pata del tipo este. Suben por ahí andan por todos lados suben por las piedras, entonces vos ves las conexiones ahí y todo tipo taller, con cinta aisladora común que con el agua se empieza a desmembrar entonces eso requiere termocontraíbles. Después le voy a traer que no entra humedad y todas esas cosas XD. (Hora 01:42:51)   
+Entonces uno va viendo ya.   
+   
+Yo tengo y jugué al fútbol con Estelato(intendente) ¿? (Hora 01:43) pero ¿que le voy a decir?   
+Personal: La EVI le entró al intendente para que mantenga los electricista sacan la tapa dejan los cables para afuera y dejan ahí afuera.   
+   
+Alumno: Qué la toque, que la pase, que la suelte.   
+Profesor: Que la suelte (chiste), no. Una vez me dice por qué no fuiste, porque este centro de formación también tiene su gente que va a barrios tiene comedores en algunos barios merenderos se llama y va gente de acá o de otros lugares. Y le enseñan instalaciones eléctricas algunas son mujeres pero le está faltando el **tema de seguridad porque uno no puede enseñar una térmica y dejar acá y hacer todas las conexiones y el cableado sobre la mesa no más directamente ustedes cuando armen van a hacer cableado dentro de la cañería, porque la cañería protege el conductor.** Cualquier problema está ahí la conexión no acá.   
+   
+Alumna: Mi suegra la línea pero la que va del tablero que está detrás del medidor a la casa era subterránea se cortó vino un electricista y le conectó aérea pero le canalizó con PVC, cuando vino el granizo ese se rompió todo. Yo puedo cambiar eso?   
+Profesor: Sí.   
+Alumna: Tengo una térmica ahí en el panel(pilar) y ahí solo desconecto...   
+Profesor: Sí vos ¿? y bajá   
+Alumna: Primero en la casa   
+Profesor: Primero en la casa pero ... Si vos querés hacer la alimentación atrás de tu medidor tengo el tablero principal ahí la térmica vos bajás eso y no tenés conexión.   
+Alumna: No voy a tener problema.   
+Profesor: Pero antes de eso tenés que ver que cambiás que es lo vas a hacer. Vos canalizás si vas a ocupar el mismo, si vas a cambiar el caño.   
+Alumna: No tengo que cambiar el caño porque se destruyó. Va a ser exterior va a haber otra granizada y va a romper.   
+Profesor: Caño PVC?   
+Alumna: Sí   
+Profesor: Acordate que tiene 3 características el PVC: **liviano, semipesado y pesado**. Agarrá el más duro hay uno que ya es económicamente un poco más grande, en el sentido más caro pero tiene una protección mayor que es casi igual de resistencia que una cañería ya aparecieron después le voy a dar las característica para que ustedes vean, esos caños por más que **tire piedra no se van a romper**.   
+Alumna: Ah buenísimo porque quebró todo.   
+Profesor: No no seguro. Si vió algunas casa que perforó los tanques PVC tricapa.   
+Alumna: Sí.   
+###### Profesor: En otras casas sacan el tanque y hacen una bajada, esa bajada también pero tienen 2 cosas una la bajada porque yo a veces yo también respeto el sistema pero la bajada del tanque del PVC tricapa tiene que ir envuelto porque constantemente está expuesto a **rayos ultravioleta** y eso se seca y cualquier golpe reseca produce como un cristal corta enseguida por eso a veces no es que me enojo sino que hay gente que usa la caja de paso esa caja **cuadrada de plástico afuera** una caja de paso de bipolier, de PVC con tapa y ahí hacen las conexiones pero está constantemente expuesto al sol, y después con el tiempo, pasa 1 año, nosotros **prohibimos en la escuela porque hay unos valores**., tienen la caja con 60 conexiones la quiere agarrar así pega la patada porque se cristalizó lluvia lo que sea. Entonces que se pone en esos casos que va al exterior? Ponemos caja de paso de fundición de aluminio con estanco todo más duro más resistente todo lo que sea pero sale más caro, pero es cuestión de... Pero la caja de plástico dura un tiempo.   
+Alumno: Y ahí voy a tener: fase neutro y tierra a ese tablero, o solo fase y neutro?   
+Profesor: Vos tenés que ver como está conectado, lo ideal es que fase y neutro vienen exclusivamente para alimentación ahí y la tierra te pide que... Vieron el pilar ese? Hay una tierra que esa desconecta ahí pusimos la jabalina si yo tengo la posibilidad o mando conductor ahora después vamos a ver la características de conductores. Pero ahora lo voy a explicar rápido:   
+   
+##### **el conductor de puesta a tierra en esos casos tiene que ser de la misma sección de conductor de entrada si yo tengo conductor de entrada de 6 mm^2 el conductor de puesta a tierra tiene que ser de 6 mm^2**. Es una simple característica porque se me puede desprender lo que sea una fase y esa fase tiene que descargar todo abajo, la descarga tiene que aguantar. Por eso el conductor de puesta a tierra tiene que ser igual o el mismo en ese caso.   
+Alumno: Es más grande? Por las dudas?   
+Profesor: Está bien, no hay problema, pero llega a estar a cierta ponele hasta 25 milímetros^2   
+Alumno: Ponele de 8 mm^2   
+##### Profesor: Ponele hasta 25 milímetros^2 de 8 no hay, 25 milímetros^2 y hasta ahí no más después por más que vos aumentes no sirve pero hasta 25 mm^2... El de 35, 50 ya se usa para descarga de pararrayos. En ese caso por ejemplo si está la jabalina acá y puedo mandar tranquilamente los 3 conductores hasta allá si yo ya tengo la posibilidad y ya alguien me puso la jabalina allá, lo único que tengo que hacer es unir esta jabalina con aquella.   
+   
+Alumno: Y como yo sé que tiene la jabalina la puesta a tierra? Se ve a simple vista?   
+Alumno2 (técnico en refrigeración): Baja el cable   
+Profesor: En algunos casos sí, porque tengo el tomacable ese y otros tengo que medir. ¿Cómo se mide eso? Después vamos a medir tensión. Ahora pasamos continuidad después vamos a medir con el mismo tipo tensión.   
+   
+###### Una vez era tensión ustedes van a revisar y ver tensión y van a aparecer una parte senosoidales ese es la **CORRIENTE ALTERNA Y TENSIÓN ALTERNA** es la parte alterna. **Yo tengo que medir y no tengo posibilidad y mido entonces mido y sé que yo tengo entre fase y neutro 220, en teoría o ciencia dijimos que el neutro se saca de la tierra del transformador ahí pasa por la línea entonces la línea que estaba ahí hice una buena puesta a tierra y tiene 220 entonces desde el punto que medí cierra con la fase y me tiene que dar una tensión parecida a 220.**   
+   
+Se entiende? Si tengo puesta a tierra. Me tiene que dar una tensión parecida...       
+Alumno: Qué tomas? El, el... La descarga y la fase.       
+Profesor: La descarga y la fase. Entonces ahí si acá tengo 220 esta fase con la jabalina que está ahí...   
+Alumno: Tiene que quedar parecido.   
+#### Profesor: Tiene que quedar parecido a 220/200. O sea más o menos eso para que ustedes entiendan para comprobar eso. Estamos?   
+   
+Es un repaso rápido. Pero para la gente que recién empieza a veces le dejo un poco loco pero no importa.   
+   
+Alumno: O sea desde el pilar hasta la caja de adentro van 3 cables?.   
+Profesor: Claro si tenés tu puesta a tierra acá. Entonces es fase y neutro y tierra porque siempre en el cosito que yo les dí el catálogo ese está el dibujo y ahí dice si o sí puesta a tierra, entonces en el gabinete de medidores que es el que más.... El tablero que está atrás también tiene puesta a tierra **EMSA te baja la línea siempre y cuando vos tengas puesta a tierra**.   
+Alumno: Nunca vi, ahora que usted dice voy a prestar atención y haciendo memoría.   
+   
+Profesor: A ver un conductor desnudo. Ese conductor desnudo es puesta a tierra, pero es así es importante que vayan conociendo, lo mejor que pueden hacer es cuando empiezan electricidad es que vean en su casa que es lo que tienen.   
+Alumno: Mi casa está un desastre, se va a prender todo fuego la casa.   
+###### Profesor: Bueno pero ahora vos viniste acá así que... Lo primero que uno aprende para saber que es lo que uno tiene adentro y como mejoro después ya una vez que ya sé ya puedo ofrecer mis servicios a los otros.   
+   
+Alumno: En la caja de mi casa están las térmicas negras esas (la foto está al final de esta página: https://imlauera.github.io/electricidad10/ )   
+Profesor: Uh esa  Esas térmicas las negras son tinde americano ¿? (Hora 01:52)   
+Alumno2: Pre-históricas.   
+Profesor: O sea que para el nuestro que es tipo riel link no sirve.   
+Alumno2: Esa trajo Colón.   
 
-#### Para armar un portalámparas se usa el cable punta de tester.
+##### Cambiar la térmica vieja negra
+###### Profesor: Claro eso se usaba antes, vos querés cambiar eso y no se puede si yo voy a cambiar una termomagnética de riel link uno enchufa no calza, entonces ¿Qué es lo que se hace? Eso tiene una plantilla que es así que está abulonada la Scheneider que le llaman ahí entonces si vos queres cambiar, yo dejé esa parte porque ¿? (Hora 01:53:16) le puse un link riel arriba y después armé un sistema para meter una contratapa, pero esas son americanas y vienen en algunos casos en la mayoría siempre venían de **1 solo polo** y levantaba y algunos andan todavía. Si no sufrió mucha descarga anda todavía. O sea que si el quiere cambiar va a tener que poner nueva norma ahora y poner **circuitos bipolares** termomagnética con 2 usos.       
+Alumno: Cortás completo.      
+Profesor: Sí y vamos a suponer que ya tiene todas las cañerías puestas, yo he hecho así en la casa de mi viejita de mi mamá, entonces puse caja es como caja de paso nada más, la caja que tiene él. Y la otra le puse exterior **entonces en vez de ir a esa caja de paso hacía todas las conexiones y seguía, o sea eso es lo más práctico**   
+Alumno: Le hiciste como un registro.      
+Profesor: Claro.   
+Alumno: Y la otra cuando yo compré mi casita puse otro tablero encima pero ¿que particularidad tiene? Si yo quiero agregar tengo que sacar todo y después pasar.
+Alumno: Aah
 
-NO y eso que ustedes piden, eso que ustedes ven acá, eso que está acá es de acá XD (está hablando de los cablecitos del portalámparas que son los mismos de los cables que tiene el tester) El cable punta del tester.
+Profesor: Ya te vas? Firmá acá (cuaderno de asistencias)...
 
-Alumna: Claro
-Profesor: De ahí se corta las puntas y se arma.
+Es importante que vayan mirando acá estamos para ayudar si él quiere mejorar su instalación que traiga o mande fotos. Sacá tu foto y ya vemos. Algún día vamos a sacar la foto y ver como podemos ayudar.     
+Alumna: Porque a vos te pasa en tu casa pero mañana me pasa con un cliente.      
+Profesor: Y sí. Ahí figura como trabajo práctico.   
+Alumno: Qué práctico? Cuál es el práctico?    
+Profesor: Y lo que hicimos hoy. Vos no hiciste nada porque ya sabés boludo.   
+Alumno: Pero y tiene nota o algo?   
+Profesor: No no ya sabés y esta empieza con esto y el uso de todos los elementos de seguridad para ver... Eso es un trabajo práctico aunque ustedes no lo crean. Todos los trabajos prácticos es importante que todos hagan, si saben es mucho mejor, la idea principal es que vamos a suponer que el día de mañana vengan ustedes acá a laburar. Vamos a suponer que el día de mañana vengan van a haber preguntas que hicieron y que no hicieron, entonces que sepa que hay trabajos prácticos.   
+   
+Hice un buen ritmo loopeando desde 01:52:39 hasta 01:52:41 (el sonido de mi respiración hasta pre)  XDD   
+   
+###### Hay una cosa que es importante ustedes pueden faltar al teórico pero la práctica tienen que saber. Entonces es importante que tengan en cuenta eso.   
+   
+Esto nos sirve para pelar los cables chiquititos, porque tenemos que tener... No esta, para tirar al coso...   
+Alumno (refrigeración): Eso es para reciclar?   
+Profesor: No eso es para ayudar con la limpieza a los porteros.   
+Alumno (refrigeración): Ah, yo pensé que reciclaban el cobre.   
+Profesor: Hay algunos que reciclan.   
+Alumno2: Profe y esto?    
+Profesor: Ahora vamos a contar eso.   
+Alumno2: Esto no es para tirar?....
+   
+Primero vamos a hacer así, la gente que se armó los portalámparas o los tableros de prueba esos, no los que hicieron ahora que tienen nombre, los otros van a venir acá porque eso vamos a reutilizar después, entienden?
 
-Alumno: Veo que acá le ponemos continuidad y acá ....
-Profesor: Sí....
+Ahí vos tirás y ponés acá.
 
-Hay de diferentes precios no se van a asustar porque hay más gruesos sale un poquito más, el año pasado unos chicos compraron.
-Alumna: De 4? Que era de 4 mm^2?
-Profesor: No era más reforzado porque algunos que son, las puntas son más chiquitas, y otras son más gruesas, o sea que te da más seguridad. Acá le vamos a afanar, vió esta otra tiene otro tipo de punta, mejor. Entienden? 
+Ahora ya sé tu nombre así que... Todos los portalámparas que ustedes sacaron va a aparecer acá esto voy a guardar. Ese queda... Ese está a tu nombre ese es nuevo.
+Alumno (refrigeración): Llevo?
+Profesor: No dejá acá, ahora vamos a armar otra cosa.
+Alumna: Vos no le pusiste nombre ellos tienen la cinta...
 
+Voy armando eso, después vamos a hacer más cosas.
 
-##### Lo único que se hace es cortar la parte extrema arman ustedes el portalámparas y ya tienen la lámpara de prueba porque ese codito está aislado entonces constantemente... Hay otra gente que no quiere comprar esto y armar con el cablecito le pelan el cable... Es cuestión de seguridad.
-O sea que no hay problema.
+Profesor: Quién es Aroda?
+Alumno: Presente.
+Ah bueno, no, Veo que me tiró acá le cuelgo el cogote digo no puede ser siempre tienen así porque después es importante que cada uno tenga su portalámparas porque ya probó no hace cortocircuito todos los cables que están acá se tira aquí (balde). Eso después vamos a reutilizar. 
 
-Hora 01:25
-Alumna: El blanco puede oficiar de neutro también?
-Profesor: En otra época sí, hoy es azul. Pero todo depende también que yo voy a hacer la mano de obra y que el secretario me va a comprar los materiales y si me da blanco coloco que ese blanco va a ser neutro porque ustedes saben que yo tengo 3 fases y ya tengo definida **R.S.T. y RST generalmente es rojo, negro y marrón entonces esos 3 ya son los colores que yo ya tengo que tener siempre como fase y el blanco lo puedo llevar a neutro, pero tengo que decir que ese blanco es neutro. El verde-amarillo ese es tierra**.
-
-Alumna: Comieron tierra los verde amarello (haciendo referencia al partido) Argentina - Brazil.
-Profesor: Mi sueño es ir a verlo a Messi a jugar y que esté caminando en la cancha. Después en las eliminatorias si viene voy a tratar de conseguir, así le veo por lo menos.
-
-Hablando de fotocopias y de WhatsApp... 
-
-Habla de por qué no habilita WhatsApp para todos porque mandan videos que no respetan las normas.
-
-Habla boludeces de la Inteligencia Artificial. No tiene ni idea pero rechaza la inteligencia artificial sin saber del tema.
-
-**Opinión personal**: Critica muy duro la Inteligencia Artificial pero no se da cuenta que los colegios, los cursos las universidades son mucho peores.
-
-... Después cuando llegan a montador ustedes ya van a estar "ducho" (seguro de lo que están haciendo).
-
-Me van a aguantar hasta fin de año, si quieren.
-
-##### Yo soy ingeniero mecánico a mi la vocación de servicio pasó porque iba a inspeccionar una obra y tenía gente de otros lugares de Brasil Paraguay tenía mucha demanda de oficio eléctrico principalmente y cada uno vamos de Brasil tenía un conocimiento distinto una norma distinta y se equivocaban mucho en los planos.
-
-Entonces hicimos un laboratorio en una escuela y el laboratorio generalmente tiene una mesada y en cada mesada tiene un lugar en donde se lava las manos y esa mesada tenía los dos lugares en donde iban los toma ahí hubo 2 problemas:
-**1. El inspector (el capataz) vió donde iba las bachas entonces ¿qué hizo la gente? Puso los tomas arriba de la bacha fíjense que tengo a 15 cm de la mesada porque coloco el tomacorriente tengo agua ahí, y la norma me pide que la bacha esté acá y a 40 cm esté el eje en donde voy a colocar mi interruptor tomacorriente entonces tengo que subir hasta acá o sea bien la limitación del agua no me salpique acá, llego allá y esto que es. Si lo que pasa es que nadie me dijo
-
-Alumno: A 40 y a 15.
-Profesor: A 40 y a 15 mínimo de ahí para allá. El agua no me tiene que salpicar.
-Alumno: Son corto 40 che.
-Profesor: 40 de acá tiene...
-Alumno: Del límite de la bacha.
-Profesor: Tu centro, tu canilla o tu llave está acá.
-Alumno: Vos tomás de la llave?
-Profesor: De acá. O sea acá está tu...
-Alumno: La conexión sanitaria.
-Profesor: La canilla. Acá tengo tu sistema de agua. Acá tenía tu bacha de acá para allá 
-Alumno: De acá para allá 40.
-Profesor: Sí. Para que llegue agua ahí tenés que tirar un valde. Esas cosas son importantes cuando se hacen esas y falta conocimiento, entonces vamos a ver también conocimiento de qué distancia vamos a colocar eso.
-
-Faltaba gente de oficio para las empresas y ellos contrataban en Paraguay salía barato. Y uno cuando va a inspeccionar las obras yo que estoy en la parte de educación trato de que la gente que va a utilizar el reglamento de instalación esté protegida porque hay chicos y tienen poca conciencia.
-
-En la casa de uno cuando ustedes tienen una criatura que recién empieza a gatear y lo primero que va y mete el dedo en el enchufe. Y va allá vos le sacas y quiere ir. Fíjense ahora si intentan hay tomacorriente que no permiten meter 1 solo cable o 1 solo dedo meté los 2 no 1. Si vos querés meter ahí no vas a poder y los 2, y tenés que meter los 2 cables para que te aisle para que puedas.
-
-
-**Es increíble, tengo 4 hijos entonces ponía protectores en cada, pegado para que nadie tqoue, pero se va y ves que necesitás disyuntor después vas y sabés que necesitás puesta a tierra, entonces ya vas armando un sistema de protección en toda tu casa porque necesitás cuidar a esa gente que anda ahí que quiere jugar y más si tenés un prolongador como ve que tiene cantidad de enchufes que constantemente estás desenchufando el vago quiere ir y probar. Entonces esas cosas es importante en el tema de seguridad en cualquier vivienda que tengamos.**
-
-##### El electricista cuando va caminando hasta los edificios ves como es la alimentación, ustedes van a ver en algunos lados un transformador después un cable capaz que subterráneo baja por ahí y arriba hay seccionadores le llaman pero se llama APR fusible que es la alimentación de esa al edificio esto va a un medidor o un gabinete de medidores. 
-
-##### Siempre hay que ir observando y ese conductor puede ser subterráneo baja a través de un poste y ese poste está protegido hasta 3 metros para que la gente no robe.
-
-Fíjense este que trabajaba en seguridad en realidad puso unas bochas así que son las luces que están en la costanera los primeros fueron ahí cerca del gaucho el indio había unas bochas ahí vino una tormenta de viento y esto se dió vuelta porque no estaba bien seguro.
-Alumna: Las blancas esas?
-###### Profesor: Las blancas. Cuando voy a mirar tenían conductor tipo taller y las conexiones estaban al ras del piso, ahí ya te das cuenta que hay un problema porque por más que tenga el tablero que está allá arriba y el disyuntor y toda esa línea que va allá abajo, yo no puedo poner el conductor tipo taller en donde yo tengo primero ascendero donde están los chicos, si van los chicos van por allá van a mirar la pata del tipo este. Suben por ahí andan por todos lados suben por las piedras, entonces vos ves las conexiones ahí y todo tipo taller, con cinta aisladora común que con el agua se empieza a desmembrar entonces eso requiere termocontraíbles. Después le voy a traer que no entra humedad y todas esas cosas XD. (Hora 01:42:51)
-Entonces uno va viendo ya.
-
-Yo tengo y jugué al fútbol con Istalato pero ¿que le voy a decir?
-Alumno: Qué la toque, que la pase, que la suelte.
-Profesor: Que la suelte, no. Una vez me dice por qué no fuiste, porque este centro de formación también tiene su gente que va a barrios tiene comedores en algunos barios merenderos se llama y va gente de acá o de otros lugares. Y le enseñan instalaciones eléctricas algunas son mujeres pero le está faltando el tema de seguridad porque uno no puede enseñar una térmica y dejar acá y hacer todas las conexiones y el cableado sobre la mesa.
