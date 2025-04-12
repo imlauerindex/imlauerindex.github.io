@@ -174,6 +174,9 @@ genlop -tq www-client/falkon
 O podes conseguir un valor estimado acá:
 https://gentoo.linuxhowtos.org/compiletimeestimator/
 
+Emerge comandos:  https://forum.calculate-linux.org/t/comandos-emerge-de-portage-explicados/7932
+
+
 ---
 
 #### Antigua guía.
