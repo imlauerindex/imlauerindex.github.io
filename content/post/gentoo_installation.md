@@ -174,8 +174,26 @@ genlop -tq www-client/falkon
 O podes conseguir un valor estimado acá:
 https://gentoo.linuxhowtos.org/compiletimeestimator/
 
-Emerge comandos:  https://forum.calculate-linux.org/t/comandos-emerge-de-portage-explicados/7932
+**Emerge comandos**:  https://forum.calculate-linux.org/t/comandos-emerge-de-portage-explicados/7932
 
+###### Actualizar gentoo
+We therefore recommend the following procedure for users:    
+1. Sync your tree:    
+```bash    
+# emerge --sync    
+```    
+    
+2. Perform a full world upgrade, e.g.:    
+```bash    
+# emerge -a -uvDU @world --keep-going=y    
+```    
+    
+3. Perform a world upgrade again.    
+    
+4. Once complete, depclean:    
+```bash    
+# emerge -a --depclean    
+```    
 
 ---
 
