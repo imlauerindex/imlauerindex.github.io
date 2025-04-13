@@ -17,7 +17,7 @@ Y este es mi `/etc/yt-dlp.conf`:
 
 ```bash
 [I] esotericwarfare@arch ~> cat /etc/yt-dlp.conf
---format=18
+#--format=18
 --write-auto-sub
 --write-sub
 --sub-lang=en,ru,es
