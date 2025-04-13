@@ -392,9 +392,17 @@ Profesor: Claro pero no es convincente (el ayudante habla arriba del profesor), 
 Alumno2: Cinta aisladora que le prenden con un encendedor.
 Profesor: No, ese es cinta termocontraible. Entonces vos lo que estás reemplazando y la aislación vos a esa cinta termocontraíble le das calor y esa funciona.
 
-\* Llega la preceptora (Soledad), ahora voy a conocerles y ustedes me van a conocer a mi.
+\* Llega la preceptora y secretaria (Soledad), ahora voy a conocerles y ustedes me van a conocer a mi.
 
+(Hora 01:53) ... Habla de Rugby ... Tenían pica porque la mayoría de los que iban al Robin eran de la EPET y queríamos ganar, aguantamos medio tiempo y el 2do todos los vagos estaban hecho mierda, y yo dije yo me voy a la mierda (se fue al equipo opuesto). Pero me cargaron demasiado después la EPET, porque me acuerdo mucho eso. No se enojaron mucho pero tomé la decisión porque era la final encima los vagos se fueron 15-10 estaba cansado no daba más.
 
-Hora 01:45
+###### Estas uniones se hacen en algunos casos para evitar hacer una prolongación o una unión generalmente con cinta aisladora o sea yo uso terminales gomera
+Alumna: Se usan dentro de la caja?
+Profesor: En la caja, puse acá no más porque cuando tengo que hacer una demostración, pero se puede hacer dentro de una caja, generalmente **caja de paso**, con esa unión que él va a hacer esta puede ir acá arriba hay cajas esta son 10x10 puede haber cajas 15x15 o 20x20 entonces yo tengo una bornera de conexión y no necesito hacer empalmes con cinta aisladora todas esas cosas.
 
-Hora 01:50 el profesor por suerte cerró un poco la boca.
+Alumna: Esa bornera hay que fijar o puede quedar floja?
+Profesor: Puede quedar floja depende que característica algunos fijan también depende del tipo de caja porque si yo tengo una caja de 10x10 que es lo mínimo que hay en una vivienda es complicado porque fíjense.
+Alumno: Ese es para evitar la cinta?
+Profesor: 
+
+Hora 01:54
