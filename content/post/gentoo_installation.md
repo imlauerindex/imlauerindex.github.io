@@ -172,7 +172,30 @@ genlop -tq www-client/falkon
 ```
 
 O podes conseguir un valor estimado acá:
-https://gentoo.linuxhowtos.org/compiletimeestimator/
+https://gentoo.linuxhowtos.org/compiletimeestimator/ 
+
+O preguntale a ChatGPT.
+
+###### Para instalar navegador chawan: 
+```bash
+git clone https://git.sr.ht/~bptato/chawan
+sudo emerge -va nim libssh2
+cd chawan
+make
+sudo make install
+```
+###### Agregar soporte de imágenes.
+```bash
+mkdir ~/.chawan
+vim .chawan/config.toml
+[buffer]
+images = true
+```
+###### Para ver key-bindings de chawan
+```bash
+cha about:chawan
+```
+
 
 **Emerge comandos**:  https://forum.calculate-linux.org/t/comandos-emerge-de-portage-explicados/7932
 
@@ -194,6 +217,17 @@ We therefore recommend the following procedure for users:
 ```bash    
 # emerge -a --depclean    
 ```    
+
+Instalá asistente de inteligencia artificial:
+```bash
+git clone https://github.com/sigoden/aichat
+cd aichat
+cargo install aichat
+cd ~/.cargo/bin/
+./aichat - elegí deepinfra
+```
+Después lo podés agregar a tu PATH.
+
 
 ---
 
