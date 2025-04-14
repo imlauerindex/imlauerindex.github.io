@@ -190,9 +190,13 @@ mkdir ~/.chawan
 vim .chawan/config.toml
 [buffer]
 images = true
+[external]
+copy-cmd = "wl-copy"
 ```
+
 ###### Para ver key-bindings de chawan
 ```bash
+mancha cha-config # Para ver diferentse parámetros de configuración
 cha about:chawan
 ```
 
@@ -218,7 +222,12 @@ We therefore recommend the following procedure for users:
 # emerge -a --depclean    
 ```    
 
-Instalá asistente de inteligencia artificial:
+###### Actualizar un paquete en específico:
+```bash
+sudo emerge --update --ask yt-dlp
+```
+
+**Instalá asistente de inteligencia artificial**:    
 ```bash
 git clone https://github.com/sigoden/aichat
 cd aichat
