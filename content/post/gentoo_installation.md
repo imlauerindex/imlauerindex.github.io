@@ -194,6 +194,16 @@ images = true
 copy-cmd = "wl-copy"
 ```
 
+###### Duckduckgo desde la terminal
+```bash
+mkdir cli_tools
+cd cli_tools
+git clone https://github.com/jarun/ddgr.git
+sudo cp ddgr /usr/bin/
+```
+
+
+
 ###### Para ver key-bindings de chawan
 ```bash
 mancha cha-config # Para ver diferentse parámetros de configuración

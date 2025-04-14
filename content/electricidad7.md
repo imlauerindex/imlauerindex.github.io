@@ -377,60 +377,100 @@ Para que ustedes vean todas las uniones se hace dentro de una caja si yo pongo e
      
      
 ###### cuando hacemos el cableado dentro de la caja, ya sea con el bucle lo que sea...Yo tengo que dejar 15 cm o evidentemente hay veces que uno pasa el cable...      
-Una época tenía un electricista un ayudante de electricista, y tenía acuérdense que los rollos de conductores vienen de 100 metros póngale que ponga 3 rollos de 100 metros de 2,5 y tengo que pasar acá los conductores de toma corriente....     
+Una época tenía un electricista un ayudante de electricista, y tenía acuérdense que los rollos de conductores vienen de 100 metros póngale que ponga 3 rollos de 100 metros de 2,5 y tengo que pasar acá los conductores de toma corriente....        
+        
+###### Qué hacía el tipo? Llegaba a esta boca y cortaba volvía otra vez y cortaba, iba hasta allá y cortaba otra vez. O sea que una vez que terminaba de pasar todos los conductores el tenía que hacer la unión entre ese y ese y el otro y NO ES ASÍ.        
+No sé si me entienden, el cortaba en cada boca 15 cm y hacía la unión lo ideal es que ese tomacorriente que está ahí paso hago toda la alimentación paso dejo los bucles, llego hasta el conductor acá sin cortar que es la cañería sería el circuito principal de toma abierta acá         
+Ayudante: O sea que sea solo 1 tiro que sea un troncal.        
+Profesor: Que sea solo un tiro, una vez que tengo hecho tengo que hacer en otra época hacíamos instalaciones mixtas teníamos que hacer tomacorriente y iluminación ahí recién hago la derivación o sea paso todos los conductores de 2,5 lo que sea y después hago la derivación.        
+Alumna: Dejo el bucle bajo así? Y sigo....        
+Profesor: Sigo sí, exactamente. Sigo sí entonces voy dejando es una palma. Lo que le quiero decir que depende de como trabajo me alumiyo por cierto, **porque tengo que hacer la unión acá otra vez**, el cortaba acá, unía allá después cortaba allá unía otra vez acá eso **NO ES ÓPTIMO** porque estoy cortando toda la instalación los conductores teniendo la posibilidad de hacer un trayecto y dejar solo previsto para la derivaciones y listo.        
+        
+Bueno ese es 1 y la otra: Tiene una particularidad este después se hace con 3 o con 4. Cuando yo pongo la cinta aisladora o sino cuando hago este también, entonces a ese no es conveniente para que ustedes tengan idea y no vamos a utilizar metro nada por el estilo pero lo ideal siempre cuando yo **pelo un cable que tenga por lo menos 2 o 3 cm que sería 2 dedos**.        
+Alumno: Profe yo ví en videos que no eran de Argentina que le ponen un sombrerito y le hacen con una grimpeadora.        
+Profesor: Claro pero no es convincente (el ayudante habla arriba del profesor), hay otro que vos hacés hasta no la grimpeadora esa sino directamente tiene un capuchón y vos le ...        
+Alumno2: Cinta aisladora que le prenden con un encendedor.        
+Profesor: No, ese es cinta termocontraible. Entonces vos lo que estás reemplazando y la aislación vos a esa cinta termocontraíble le das calor y esa funciona.        
+        
+\* Llega la preceptora y secretaria (Soledad), ahora voy a conocerles y ustedes me van a conocer a mi.        
+        
+(Hora 01:53) ... Habla de Rugby ... Tenían pica porque la mayoría de los que iban al Robin eran de la EPET y queríamos ganar, aguantamos medio tiempo y el 2do todos los vagos estaban hecho mierda, y yo dije yo me voy a la mierda (se fue al equipo opuesto). Pero me cargaron demasiado después la EPET, porque me acuerdo mucho eso. No se enojaron mucho pero tomé la decisión porque era la final encima los vagos se fueron 15-10 estaba cansado no daba más.        
+        
+###### Estas uniones se hacen en algunos casos para evitar hacer una prolongación o una unión generalmente con cinta aisladora o sea yo uso terminales gomera        
+Alumna: Se usan dentro de la caja?        
+Profesor: En la caja, puse acá no más porque cuando tengo que hacer una demostración, pero se puede hacer dentro de una caja, generalmente **caja de paso**, con esa unión que él va a hacer esta puede ir acá arriba hay cajas esta son 10x10 puede haber cajas 15x15 o 20x20 entonces yo tengo una bornera de conexión y no necesito hacer empalmes con cinta aisladora todas esas cosas.        
+        
+Alumna: Esa bornera hay que fijar o puede quedar floja?        
+Profesor: Puede quedar floja depende que característica algunos fijan también depende del tipo de caja porque si yo tengo una caja de 10x10 que es lo mínimo que hay en una vivienda es complicado porque fíjense.        
+Alumno: Ese es para evitar la cinta?        
+Profesor: Para evitar la cinta, en este caso es chiquito pero si vos fijás vas a tener que buscar la forma primero de como colocar esto para poder hacer esa unión adentro acá. Porque siempre tiene que ir para un mismo sentido, no puedo hacer esto y volver arriba, esa forma que hace él la unión el trenzado ese... Yo después le voy a...        
+   
+Bueno primero... Se me fue mi ayudante.   
+   
+El lo que está haciendo ya es otra, vamos a empezar a hacer una primera.   
+   
+Alumno: Aparte no te queda el chorizo y te hace lugar adentro de la caja.   
+Profesor: Ya se adelanta acá mi maestro, vos venís a laburar acá. Vení vení vas a explicar... **Hay otra unión**, no tengas verguenza.  Vos cortas 2 dedos así, dos dedos son casi 2,5 3 cm, el pela cables, esto es unión por prolongación yo prolongo un cable, y quiero prolongar tengo que hacer esa unión.    
+   
+###### Empalme prolongación   
+Tengo 2... Él peló 2 cables, una prolongación muy simple yo hago la de X, ¿qué hace eso? Fíjense tengo 2 conductores y hago tipo una cruza ahí, en el medio lo idea es tomo de un lado primero siempre que los hilos o los conductores que están acá que forman la sección de conductor estén lo más **planos posibles** porque voy de un lado y después voy del otro. Una vez que termino eso, la última fijación. Eso van a probar ya que está ahí y le aprieto ahí. La idea principalmente es que esto quede lo más fino posible que con el tema de la cinta aisladora me quede algo bien finito, por eso tienen que peinar el cable cuando hacen el entrecruzamiento, **peinen entonces no queda el bodoque ahí, hay gente que hace...** Bueno pero para que ustedes vean hay gente que hace el mismo sistema y hace esto.... Entonces que pasa hace el mismo entrecruzamiento después hay diferentes formas pero a veces suele ocurrir depende del conductor que tenga, queda una pelota. Y la idea es que   
+   
+###### No tiene que quedar pelota y no tiene que terminar la unión dentro o pasar la aislación, tiene que ser de tal forma de que después se pueda poner tranquilamente la cinta aisladora y la cinta aisladora forme tipo un solo conductor no el bodoque ese.   
+###### Esto se hace hasta cables de hasta 4mm^2, ese tipo de empalme.   
+Profesor: Para otros conductores de secciones de 4mm^2 que ahí ya pasa a 6 y después a 10 mm^2 la idea es va con manguito de fijación que es unos manguitos.   
+Alumno: Conectores   
+Profesor: Conectores, o con manguito de fijación que son de aluminio que se prensa se hace todo el paquete, pero esto es lo que más **se usa dentro de una vivienda** la otra son alimentaciones de tablero lo que sea.    
+Alumno: Eso para que no ocupe espacio dentro de una caja cuando metes todo el cable adentro?   
+Profesor: Claro   
+Alumno2: He visto que algunos le restan un poco de filamento.   
+Profesor: No sirve porque, preguntate a vos. ¿Por qué no sirve?    
+Profesor: \* El profesor se pincha con el cable.   
+Alumna: Se pinchó   
+Profesor: Quién es el que se quiere ir rápido? (para firmar el cuaderno de asistencias)   
+Profesor: No sirve porque, preguntate a vos. ¿Por qué no sirve? Si vos sacás los filamentos, acuérdense que cada conductor tiene su sección....    
+   
+###### ¿Cuál es la sección del conductor? La de cobre. La parte del alambre. Si vos sacás filamento vas a disminuir tu sección, si vos querés tu corriente máxima no es lo real que estás colocando.   
+Alumno2: He visto también en la construcción le pregunté al arquitecto, **¿por qué había cable de puesta a tierra sobre la columna? Vió la terminación de la columna queda los hierros**.   
+Profesor: Sí los hierros   
+Alumno2: Y bueno ahí le pusieron el... Y dijo que sirve igual pero...   
+Profesor: Bueno el tema es así si yo estoy haciendo un edifico lo que hago viste que se hacen las **zapatas**, cuando se saca toda la tierra para hacer la zapata se pone un mallado de conductor desnudo junto con las columnas de los hierros se va prisionando y yo tengo todo puesta a tierra.   
+Alumno2: Aah   
+Profesor: Sirve pero no es lo ideal porque vos tenés que ir directamente al conductor verde amarillo.   
+Alumno2: Sí sí yo estaba sujetando la chapa y ví y pregunté no más. Sirve me dijo.   
+Profesor: No, no...  TODO Sirve lo ideal es... Fijate que va unido todo abajo eso.   
+Alumno: Descarga por el hormigón?    
+Profesor: Por el hierro.   
+Alumno: Y si está tocando la pared?   
+Profesor: Actúa como un sistema equipotencial de puesta a tierra ahí tiene que estar **la protección del interruptor diferencial** va a saltar (Hora 02:02) lo es que te va a...     
+Alumno: Aaah     
+Profesor: Pero eso es una puesta a tierra que se hace para todo el edificio, entonces yo puedo tener abajo llevar conductores de puesta a tierra y servir para mejor protección no tiene **nada de malo**.     
      
-###### Qué hacía el tipo? Llegaba a esta boca y cortaba volvía otra vez y cortaba, iba hasta allá y cortaba otra vez. O sea que una vez que terminaba de pasar todos los conductores el tenía que hacer la unión entre ese y ese y el otro y NO ES ASÍ.     
-No sé si me entienden, el cortaba en cada boca 15 cm y hacía la unión lo ideal es que ese tomacorriente que está ahí paso hago toda la alimentación paso dejo los bucles, llego hasta el conductor acá sin cortar que es la cañería sería el circuito principal de toma abierta acá      
-Ayudante: O sea que sea solo 1 tiro que sea un troncal.     
-Profesor: Que sea solo un tiro, una vez que tengo hecho tengo que hacer en otra época hacíamos instalaciones mixtas teníamos que hacer tomacorriente y iluminación ahí recién hago la derivación o sea paso todos los conductores de 2,5 lo que sea y después hago la derivación.     
-Alumna: Dejo el bucle bajo así? Y sigo....     
-Profesor: Sigo sí, exactamente. Sigo sí entonces voy dejando es una palma. Lo que le quiero decir que depende de como trabajo me alumiyo por cierto, **porque tengo que hacer la unión acá otra vez**, el cortaba acá, unía allá después cortaba allá unía otra vez acá eso **NO ES ÓPTIMO** porque estoy cortando toda la instalación los conductores teniendo la posibilidad de hacer un trayecto y dejar solo previsto para la derivaciones y listo.     
+Una vez en una escuela estaba el medidor y al lado del medidor de mampostería se hizo un pisito de 40cm de ladrillo después todo era HIERRO un cuadrante de hierro hasta llegar a 2 metros, hubo una descarga  de la línea producto de un rayo, el rayo hizo este recorrido y descargó sobre la reja, entonces ¿que hay que hacer en esos casos?     
      
-Bueno ese es 1 y la otra: Tiene una particularidad este después se hace con 3 o con 4. Cuando yo pongo la cinta aisladora o sino cuando hago este también, entonces a ese no es conveniente para que ustedes tengan idea y no vamos a utilizar metro nada por el estilo pero lo ideal siempre cuando yo **pelo un cable que tenga por lo menos 2 o 3 cm que sería 2 dedos**.     
-Alumno: Profe yo ví en videos que no eran de Argentina que le ponen un sombrerito y le hacen con una grimpeadora.     
-Profesor: Claro pero no es convincente (el ayudante habla arriba del profesor), hay otro que vos hacés hasta no la grimpeadora esa sino directamente tiene un capuchón y vos le ...     
-Alumno2: Cinta aisladora que le prenden con un encendedor.     
-Profesor: No, ese es cinta termocontraible. Entonces vos lo que estás reemplazando y la aislación vos a esa cinta termocontraíble le das calor y esa funciona.     
+Porque el medidor de chapa y tenía la mampostería hecha acá y estaba unida todo la reja en esos casos la reja también tiene que ir a tierra porque que hizo descargó vino acá fíjense que es interesante que llovía entonces en el desague bajó el rayo se fue por el agua y remató allá en el fondo. O sea lo que quiero decirle es que a veces si yo tengo en ese caso un medidor y un tablero general cerca, esa reja tiene que ir a **tierra** algún tinglado para que ustedes vean siempre la gente que hace eso colgar las estructura eso va a **puesta a tierra también unido a puesta a tierra**, después le voy a mostrar una YPF que estaban haciendo allá en Salta nueva una tenía todo sistema del tinglado unido entre sí para puesta a tierra, formaba tipo una cámara de farenheit, entonces es como si tuviera... Cae el rayo pero dentro del recinto no pasa nada, forma tipo una estructura que no permite entrar el rayo.     
      
-\* Llega la preceptora y secretaria (Soledad), ahora voy a conocerles y ustedes me van a conocer a mi.     
+Alumno: Eso vi acá por Uruguay ahí donde está el mercado hay todo tinglado ahí al rededor todo estañado ¿? Por el ¿?      
+Profesor: Eso es una cámara Faranheit entonces el rayo no entra ahí. Es como si estuvieras dentro de un auto y cuando cae el rayo todo lo que pasa al lado no... Eso son descargas atmosférica como una descarga puede producir una forma distinta.     
      
-(Hora 01:53) ... Habla de Rugby ... Tenían pica porque la mayoría de los que iban al Robin eran de la EPET y queríamos ganar, aguantamos medio tiempo y el 2do todos los vagos estaban hecho mierda, y yo dije yo me voy a la mierda (se fue al equipo opuesto). Pero me cargaron demasiado después la EPET, porque me acuerdo mucho eso. No se enojaron mucho pero tomé la decisión porque era la final encima los vagos se fueron 15-10 estaba cansado no daba más.     
+Yo pensé que era 7 y pico y íbamos a hacer práctico y 8:30 se van...     
+Alumno: Qué tenemos que pagar aparte?     
+Profesor: Ya empezó. Yo no tengo problemas.     
+Alumna: Dejó picando en el aire.     
+Alumno: Yo tengo que ir hasta Candelaria.     
+Profesor: No, está bien te entiendo Chino. Chingote le estaba por decir porque yo soy fanático de ¿?     
+Alumno: 40 minutos hasta allá.     
+Profesor: No, nosotros vamos a hacer mañana vamos a terminar las cosas, tráeme todo ya aquello... Mañana antes que venga ya reparto las herramientas, no dejo las herramientas acá porque si me voy y viene alguien a la mañana como no hay nadie puede desaparecer.     
      
-###### Estas uniones se hacen en algunos casos para evitar hacer una prolongación o una unión generalmente con cinta aisladora o sea yo uso terminales gomera     
-Alumna: Se usan dentro de la caja?     
-Profesor: En la caja, puse acá no más porque cuando tengo que hacer una demostración, pero se puede hacer dentro de una caja, generalmente **caja de paso**, con esa unión que él va a hacer esta puede ir acá arriba hay cajas esta son 10x10 puede haber cajas 15x15 o 20x20 entonces yo tengo una bornera de conexión y no necesito hacer empalmes con cinta aisladora todas esas cosas.     
-     
-Alumna: Esa bornera hay que fijar o puede quedar floja?     
-Profesor: Puede quedar floja depende que característica algunos fijan también depende del tipo de caja porque si yo tengo una caja de 10x10 que es lo mínimo que hay en una vivienda es complicado porque fíjense.     
-Alumno: Ese es para evitar la cinta?     
-Profesor: Para evitar la cinta, en este caso es chiquito pero si vos fijás vas a tener que buscar la forma primero de como colocar esto para poder hacer esa unión adentro acá. Porque siempre tiene que ir para un mismo sentido, no puedo hacer esto y volver arriba, esa forma que hace él la unión el trenzado ese... Yo después le voy a...     
+La parte que yo les mostré es este vos tenés disyuntor ahí disyuntor ahí y tenes las dos térmicas esas... Serían estas dos de acá abajo? Pero tenes un interruptor muy grande para toda la instalación capaz que si vos colocás filtro sobrecarga y usalo, va a saltar por cortocircuito por sobrecarga no va a saltar.  
+  
+Alumno: Y ese es de 20 amper el que yo le puse?  
+Profesor: De 40.  
+Alumno: Y el otro tiene 20 cada uno.  
+Profesor: 20 cada uno pero no es que se suma, lo que quiero decir es que si vos tenes 2 de 20 no se suma los dos, sino que este protege el sistema, pero eso vamos a ver.  
+Alumno: Ahora que ya tengo más conocimiento  
+Profesor: Te voy a dar un pedazo de riel para que vos coloques.  
+Alumno: Ah si, yo estoy por hacer ¿? lo mismo que ví en una caja me olvidé de sacarle una foto pero miré y había todo un mongi ¿? de cables o sea ni toqué,.  
+Profesor: Eso es una caja de paso, entonces que es lo que tenés que hacer? Primero si vos no estás seguro bajá todo la red de distribución allá, ahí la caja agarrá un destornillador un elemento y le vas sacando, **no vayas a meter tu mano ahí porque como es caja de paso tu cinta aisladora puede estar reseca entonces apagá primero y sacá, una vez que saques...**  
+Alumno: De ese va a 2 portalámparas y a 1 interruptor y después estaba el fluorescente pero ese se quemó.  
+Profesor: Bueno ahora cuando vos hagas la lámpara de prueba, vos sacás tu fluorescente y ahí uní y probá si es del artefacto o no, o sea vos vas probando todo se prueba.  
 
-Bueno primero... Se me fue mi ayudante.
-
-El lo que está haciendo ya es otra, vamos a empezar a hacer una primera.
-
-Alumno: Aparte no te queda el chorizo y te hace lugar adentro de la caja.
-Profesor: Ya se adelanta acá mi maestro, vos venís a laburar acá. Vení vení vas a explicar... **Hay otra unión**, no tengas verguenza.  Vos cortas 2 dedos así, dos dedos son casi 2,5 3 cm, el pela cables, esto es unión por prolongación yo prolongo un cable, y quiero prolongar tengo que hacer esa unión. 
-
-###### Empalme prolongación
-Tengo 2... Él peló 2 cables, una prolongación muy simple yo hago la de X, ¿qué hace eso? Fíjense tengo 2 conductores y hago tipo una cruza ahí, en el medio lo idea es tomo de un lado primero siempre que los hilos o los conductores que están acá que forman la sección de conductor estén lo más **planos posibles** porque voy de un lado y después voy del otro. Una vez que termino eso, la última fijación. Eso van a probar ya que está ahí y le aprieto ahí. La idea principalmente es que esto quede lo más fino posible que con el tema de la cinta aisladora me quede algo bien finito, por eso tienen que peinar el cable cuando hacen el entrecruzamiento, **peinen entonces no queda el bodoque ahí, hay gente que hace...** Bueno pero para que ustedes vean hay gente que hace el mismo sistema y hace esto.... Entonces que pasa hace el mismo entrecruzamiento después hay diferentes formas pero a veces suele ocurrir depende del conductor que tenga, queda una pelota. Y la idea es que
-
-###### No tiene que quedar pelota y no tiene que terminar la unión dentro o pasar la aislación, tiene que ser de tal forma de que después se pueda poner tranquilamente la cinta aisladora y la cinta aisladora forme tipo un solo conductor no el bodoque ese.
-###### Esto se hace hasta cables de hasta 4mm^2, ese tipo de empalme.
-Profesor: Para otros conductores de secciones de 4mm^2 que ahí ya pasa a 6 y después a 10 mm^2 la idea es va con manguito de fijación que es unos manguitos.
-Alumno: Conectores
-Profesor: Conectores, o con manguito de fijación que son de aluminio que se prensa se hace todo el paquete, pero esto es lo que más **se usa dentro de una vivienda** la otra son alimentaciones de tablero lo que sea. 
-Alumno: Eso para que no ocupe espacio dentro de una caja cuando metes todo el cable adentro?
-Profesor: Claro
-Alumno2: He visto que algunos le restan un poco de filamento.
-Profesor: No sirve porque, preguntate a vos. ¿Por qué no sirve? 
-Profesor: \* El profesor se pincha con el cable.
-Alumna: Se pinchó
-Profesor: Quién es el que se quiere ir rápido? (para firmar el cuaderno de asistencias)
-Profesor: No sirve porque, preguntate a vos. ¿Por qué no sirve? Si vos sacás los filamentos, acuérdense que cada conductor tiene su sección.... 
-
-###### ¿Cuál es la sección del conductor? La de cobre. La parte del alambre. Si vos sacás filamento vas a disminuir tu sección, si vos querés tu corriente máxima no es lo real que estás colocando.
-Alumno2: He visto también en la construcción le pregunté al arquitecto, **¿por qué había cable de puesta a tierra sobre la columna? Vió la terminación de la columna queda los hierros**.
-Profesor: Sí los hierros
-Alumno2: Y bueno ahí le pusieron 
-Profesor: Sí los hierros
