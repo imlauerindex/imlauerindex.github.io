@@ -468,9 +468,30 @@ Profesor: De 40.
 Alumno: Y el otro tiene 20 cada uno.  
 Profesor: 20 cada uno pero no es que se suma, lo que quiero decir es que si vos tenes 2 de 20 no se suma los dos, sino que este protege el sistema, pero eso vamos a ver.  
 Alumno: Ahora que ya tengo más conocimiento  
-Profesor: Te voy a dar un pedazo de riel para que vos coloques.  
+Profesor: Te voy a dar un pedazo de riel link para que vos coloques.  
 Alumno: Ah si, yo estoy por hacer ¿? lo mismo que ví en una caja me olvidé de sacarle una foto pero miré y había todo un mongi ¿? de cables o sea ni toqué,.  
 Profesor: Eso es una caja de paso, entonces que es lo que tenés que hacer? Primero si vos no estás seguro bajá todo la red de distribución allá, ahí la caja agarrá un destornillador un elemento y le vas sacando, **no vayas a meter tu mano ahí porque como es caja de paso tu cinta aisladora puede estar reseca entonces apagá primero y sacá, una vez que saques...**  
 Alumno: De ese va a 2 portalámparas y a 1 interruptor y después estaba el fluorescente pero ese se quemó.  
 Profesor: Bueno ahora cuando vos hagas la lámpara de prueba, vos sacás tu fluorescente y ahí uní y probá si es del artefacto o no, o sea vos vas probando todo se prueba.  
 
+Hora 02:09
+
+Yo: Tengo una consulta sobre el grosor de cable 4 mm ^2 para aires, pero si yo le pongo uno de 2,5 no es que la térmica va a proteger si se traba la bocha
+Profesor: Ahí vas a poner 2,5mm^2 va a tenés que poner uno de 16, pero está fallando tu sistema, está fallando 
+Yo: La reglamentación es que yo ponga de 4mm^2 pero si falla algo, si se traba el motocompresor.
+Profesor: Y tiene que saltar por cortocircuito, si es por sobre carga va a demorar un tiempo no más, pero salta por sobrecarga demora un tiempo no es instantáneo por cortocircuito es instantáneo por sobrecarga demora un tiempo y te corta, ese tiempo depende de la corriente que está funcionando mayor que tu interruptor entonces trabaja al límite, pero no es que te corta en un instante, a veces demora media hora o 1 hora. Siempre miro cuando usan la ducha eléctrica yo ya estoy mirando ahí cuánto tiempo tarda porque ya tenemos los aires prendidos, y los aires más la ducha es muy **probable que salte el interruptor B que está ahí atrás del medidor**, seguro que salta entonces espero que salte para que ellos vean que están ocupando mal: **o apaguen los aires o dejen 1 aire prendido sino salta por la ducha eléctrica**. Pero yo te digo automáticamente cuando hago proyectos ni pienso en el consumo, directamente de 4mm^2, igual que 1,5mm^2 acá, 2,5mm^2
+Yo: El tema es que si es un edificio el cable de alimentación será grande.
+Profesor: No no porque vos te vas a tu caja de paso, tu tablero seccional entonces fijate que vos podés tener yo a veces voy al edificio de tomolto, estamos por hacer un edificio estamos instalando ahora y vamos a poner conductores subterráneos y el proyecto dice que quiere todo monofásico y como no se utiliza más el tema de gas anafe y todas las partes eléctricas ya no usan más gas. Entonces que pasa en el proyecto me figura conductores de 16 mm^2 pero le dije al dueño ahí si vamos a colocar subterrános yo puedo colocar de 10 no de 16 entonces el conductor subterráneo tiene una posibilidad de tener una corriente máxima 10 apmer más que el conductor bipolar entonces tengo un rango igual que el preensamblado ese tiene que acordarse bien que 
+
+###### El preensamblado ahí de 6 es 10 amper o 15 más que el conductor bipolar de adentro. 
+El buscapolo de esta característica ya no es válido porque toda la herramienta que están utilizando, toda herramienta tiene un aislante y este dice **que tiene tipo un acrílico y ellos consideran que este acrílico por más acrílico que tenga se golpea o se parta no cumple la misma función que una herramienta aislante entonces, trajeron ahora un buscapolo con este sistema todo aislado acá, después sale una lucesita ahí y prueba todo o sea que esto ya tarde o temprano no se va utilizar, y tiene este sistema de aislación**.
+
+Todos los materiales toda la parte eléctrica va recubierta de un aislante, ese aislante hasta los buscapolos ya van a tener esa característica. 
+
+En este caso (muestra la pinza) soporta hasta 1000 voltios. O sea que vos podés estar acá y con una tensión de 1000 voltios no tenés ningún problema. Lo mismo ocurre con un buscapolo las mismas características va a ser interesante no sé cuanto sale ahora, apenas venga me voy a comprar para tener la idea. Esta porquería se golpea y pierde la aislación o sino pierde esta porquería acá y ya tenés el metal ahí y el metal ahí es contraproducente porque vos tocás sin querer y ligás la patada.
+
+Nos vemos.
+Saludos a tu viejo decile.
+
+Habla de Rugby...
+Fin.
