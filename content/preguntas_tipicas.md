@@ -1,6 +1,5 @@
 ---
 title: "Preguntas tipicas entrevisas"
-date: 2025-04-14T10:53:42-03:00
 tags: ['interview']
 ---
 14.¿Qué te motiva a trabajar dentro del área de Desarrollo de Software?
