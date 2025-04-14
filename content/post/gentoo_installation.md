@@ -109,7 +109,7 @@ emerge --config sys-libs/timezone-data
 
 #### Esta linea compilara todos estos paquetes
 ```bash
-emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links
+emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
 
 Agregá --autounmask-write y luego dispatch-conf
 hwclock --systohc
@@ -229,9 +229,73 @@ cd ~/.cargo/bin/
 Después lo podés agregar a tu PATH.
 
 
+```bash
+[I] esotericwarfare@jentu ~> cat /etc/portage/package.accept_keywords/obs
+=media-video/obs-studio-31.0.3 ~amd64
+sudo emerge -va obs-studio
+```
+
+###### Instalar gimp
+```bash
+sudo emerge -va gimp
+```
+###### Tiempos de compilación en una netbook con Intel(R) Celeron(R) N2806 (2) @ 2.00 GHz con 4GB de RAM y GPU integrada XD
+```bash
+[I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober su
+do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant t
+ranslate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3
+m net-fs/samba vim links obs-studio gimp
+2025-04-07T02:02:57 >>> app-misc/fastfetch: 3′40″
+2025-04-07T02:06:37 >>> sys-boot/grub: 23′26″
+2025-04-07T02:35:49 >>> sys-kernel/gentoo-kernel-bin: 10′14″
+2025-04-07T03:25:48 >>> net-wireless/wpa_supplicant: 7′11″
+2025-04-07T03:57:13 >>> net-misc/networkmanager: 19′45″
+2025-04-07T06:42:25 >>> sys-boot/grub: 23′47″
+2025-04-07T07:06:13 >>> sys-boot/os-prober: 32s
+2025-04-07T07:33:55 >>> app-admin/sudo: 8′46″
+2025-04-07T07:52:44 >>> app-editors/vim: 7′02″
+2025-04-07T08:30:04 >>> www-client/w3m: 4′57″
+2025-04-07T09:31:03 >>> dev-vcs/git: 39′01″
+2025-04-07T10:10:29 >>> www-apps/hugo: 31′11″
+2025-04-07T11:10:14 >>> app-shells/fish: 36′51″
+2025-04-07T12:07:29 >>> net-misc/yt-dlp: 6′18″
+2025-04-07T12:22:02 >>> net-wireless/aircrack-ng: 14′28″
+2025-04-07T13:33:16 >>> app-misc/tmux: 9′14″
+2025-04-07T13:46:35 >>> media-video/mpv: 23′57″
+2025-04-07T12:52:58 >>> dev-lang/php: 2:28:43
+2025-04-07T14:17:35 >>> net-fs/samba: 2:04:19
+2025-04-07T17:25:28 >>> acct-group/pipewire: 47s
+2025-04-08T00:27:52 >>> media-video/pipewire: 31′01″
+2025-04-08T03:11:44 >>> gui-wm/sway: 7′32″
+2025-04-08T03:44:15 >>> gui-apps/foot: 2′43″
+2025-04-08T04:10:18 >>> media-sound/alsa-utils: 4′37″
+2025-04-08T04:56:09 >>> www-client/firefox-bin: 59s
+2025-04-08T07:01:08 >>> www-client/firefox-bin: 2′37″
+2025-04-08T10:17:36 >>> gui-apps/wmenu: 1′34″
+2025-04-08T15:17:55 >>> www-client/firefox-bin: 1′19″
+2025-04-08T17:18:24 >>> media-sound/apulse: 1′46″
+2025-04-08T22:00:17 >>> media-gfx/imagemagick: 30′11″
+2025-04-09T14:30:05 >>> sys-kernel/linux-firmware: 9′55″
+2025-04-09T14:41:00 >>> net-wireless/wpa_supplicant: 12′09″
+2025-04-09T17:15:01 >>> app-i18n/translate-shell: 45s
+2025-04-10T04:54:49 >>> dev-python/pip: 1′02″
+2025-04-10T07:41:13 >>> gui-apps/wl-clipboard: 4′15″
+2025-04-10T09:51:02 >>> sys-process/btop: 10′50″
+2025-04-10T10:07:54 >>> gui-apps/grim: 53s
+2025-04-10T10:16:20 >>> media-gfx/feh: 1′10″
+2025-04-10T15:10:11 <<< net-misc/yt-dlp: 30s
+2025-04-10T15:12:54 >>> net-misc/yt-dlp: 2′37″
+2025-04-12T17:19:43 >>> www-client/links: 7′59″
+2025-04-13T10:33:57 >>> www-apps/hugo: 18′30″
+2025-04-13T14:57:13 >>> www-client/firefox-bin: 1′09″
+2025-04-13T17:01:45 >>> media-video/obs-studio: 1:01:06
+2025-04-14T01:06:18 >>> media-gfx/gimp: 1:51:45
+```
+
+
 ---
 
-#### Antigua guía.
+## Antigua guía.
 
 
 Tiene que ser más grande que 5 gb la partición root
