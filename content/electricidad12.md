@@ -8,7 +8,7 @@ https://vocaroo.com/1dx7HunJiApZ
 ###### Audio en Archive:
 https://archive.org/details/record-82
 ###### Audio en YouTube:
-https://www.youtube.com/watch?v=VDcXUfq6rvs
+https://www.youtube.com/embed/VDcXUfq6rvs
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpAjSN0mu_UmD369sYu-q82f89D-v_P5WqaXnaxfnucFnGZpnRplJBmgBEbGa3o-IPBih-6TEj-eu8x6qmQZQR3cEUmDsIvs_vumJhywK3h7nGfmYnsVNtlXP7mh5ZrSKB0Ebhai16gIn4B0wpKoOc6QTcXhKz61Q2ulU7VBihT3smlaB_o_sWMOFC2mo/s4160/IMG_20250414_203006264.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-aEzxvR2S5G4lrCALU2kcPsRQR7aVLS6M2WP1ohv-jXXrdTKjkPFIPUDj0aYWAthMZI5i0tBUpd8l8opuz9Oy6f7bDdA7o_bfkcXsZD9zW2Pn9M7SV5FCoYpO7Q0Z9jAWmeTZcCAR_buV0u1Zqls9n1ktLDGHuQJS2tl2NBKDR9CW517nnaA-0RchoIg/s4160/IMG_20250414_203001133.jpg)

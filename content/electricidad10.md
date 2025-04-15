@@ -25,3 +25,31 @@ https://archive.org/details/catalogo-tubelectric
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiICeKcdJrrHhJv4kW-nrejoJJ0j1h55Tq0ly1aZkOphCJPw7s1PST8r_f-XXVAg4Vkv22uHSahm-kdkyHbTYLpEnhC9bT0vapQ-mQq5PP71G9cQ_JeHjZP038c1yi_22WQuOQHs57jzofsogcsZfSF7M3zANqBwNyQW_1wW3uFvCp-GugCzItRUK4uecc/s1599/WhatsApp%20Image%202025-04-01%20at%203.12.23%20PM.jpeg)
 
 https://aaieric.org.ar/costos-mano-de-obra
+
+###### Transcripción desde el minuto (minuto 15:54)
+Cada vez que traigo cosas no viene el vago...
+Alumno: Está ahí
+
+Ahí tengo una muestra que me dió la gente de Jermu ¿? Una vez uno de los últimos caños que han salido y tiene la dureza de un caño de hierro y puede trabajar hasta 90 grados sin problemas una gran ventaja en este sentido.
+
+Alguien recibe la tarjeta de conductor ese? 
+Alumno: Ah. Hoy se reciben?
+Algunos te mandan por correo, por WhatsApp a la gente que ellos recibieron la tarjeta así que recién estoy mirando si estaba.
+
+Empezamos con tubo de PVC generalmente para que ustedes vean que hay tubos rígidos este es una marca y después aparece la marca Jenroid ¿? Y después varias marcas más pero es lo que más me ha dado la posibilidad de utilizar y estos tubelectric también todo eso y ¿? son los que realmente se juntan con tubelectric y hacen una exclusiva de elementos y cañerías de PVC para tratar de mantener el mercado y ahora hablando de todo el mercado ya empezamos con el tema de pedigio medidores sean de PVC así que hoy normalizaron.
+
+¿que sabés vos si si encontrás ponele y yo te mando las características?
+Uno siempre duda, las empresas siempre tienen la idea de que EMSA exigía el tema de los gabinetes metálicos hoy en día se está mejorando el tema y bueno ahora ya no es que exigen todavía pero si se puede colocar PVC y sale más barato colocamos PVC y chau.
+
+Si hay mosquito por ahí...
+
+Vamos a seguir con canalización que es la parte más linda del sistema.
+Lo malo es que ese escalón está tirando por acá no más.
+
+\* Demuestra otro de los caños nuevos... También.
+
+Aquel es más rígido tiene la particularidad de...
+Alumno: Profesor eso sirve para agua? Cañería de agua?
+Profesor: Vas a comprar uno que sale carísimo para el agua.
+
+Vamos a pensar un rato: cada material que se utiliza tiene un propósito según pretensión, seguridad y característica 
