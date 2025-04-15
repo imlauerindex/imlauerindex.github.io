@@ -192,6 +192,9 @@ vim .chawan/config.toml
 images = true
 [external]
 copy-cmd = "wl-copy"
+[siteconf.hn]
+cookie = true
+
 ```
 
 ###### Duckduckgo desde la terminal
@@ -311,6 +314,8 @@ m net-fs/samba vim links obs-studio gimp
 2025-04-14T01:06:18 >>> media-gfx/gimp: 1:51:45
 ```
 
+###### Intro to gentoo de Immolo
+https://youtube.com/playlist?list=PLySnTFv9rBnSyQEw1RHSR3g-ZAowjegBm
 
 ---
 

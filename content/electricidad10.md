@@ -52,4 +52,110 @@ Aquel es más rígido tiene la particularidad de...
 Alumno: Profesor eso sirve para agua? Cañería de agua?
 Profesor: Vas a comprar uno que sale carísimo para el agua.
 
-Vamos a pensar un rato: cada material que se utiliza tiene un propósito según pretensión, seguridad y característica 
+Vamos a pensar un rato: cada material que se utiliza tiene un propósito según pretensión, seguridad y característica de cada uno, si vos compras ese para agua te va a doler el bolsillo, encima para hacer las uniones en cambio los otros tienen.
+
+Cada uno tiene su propósito porque sino no vamos a mezclar los tantos.
+
+Alumno: Para golpearle al ayudante.
+Profesor: Siempre cuando hablamos de canalización aparece algo que es importante en algunos casos generalmente en la parte industrial la bandeja portacables todo esto que ustedes ven tiene un soporte... 
+\* Llegó el capo máximo (el alumno al que le regaló un riel link para la instalación de su casa) 
+Antes que me olvide siempre es importante solucionar porque sino ya me voy a olvidar y va a quedar ahí. Es importante siempre que ustedes vean como tratar de solucionar con el mínimo gasto posible para poder...Ruido... Bueno te regalo porque sino no vas a arreglar. El dibujo que está ahí por último es tu casa. Cuando es la casa de uno yo trato de que por lo menos vea como puede mejorar y que es lo que debería hacer el día de mañana para mejorar su instalación y tener más seguridad ahí como está estamos...
+
+Alumno: Ah y este va acá atrás
+Profesor: El que tiene un tablero seccional dentro de su casa, vamos a hacerlo primero con el sistema. Esto acá tiene pestañas y tiene un sistema de termomagnética eso que ustedes ven negras ahí, esto es riel americano y las termomágneticas son unipolares americanas que son bastante viejas en el sentido de figurado, se usaba y tenía protección trabaja con un sistema de tecnología que tenemos ahora pero era otro tipo otra calidad pero tenía el mismo efecto.
+
+Vení no más acá (llama al ayudante). Ya vamos a encontrar.
+
+El tuvo un problema del interruptor principal de corte que es la termomagnética que estaba acá y puso otra pero de otra característica esa es tipo RIEL LINK, dame que vamos a mostrar hijo (el tipo guardó el RIEL LINK en su mochila) y puso la termomagnética ahí acostada, tirada. Entonces el para cualquier cosa que él haga va a tener que agarrar la térmica para poder cerrar o abrir el circuito entonces la empresa acá de... La escuela le va a donar un RIEL LINK, esto tiene que poner acá primera instancia y fijar la térmica que puso ahí esa termomagnética bipolar que está ahí es la principal de corte.
+
+Alumno: Va a presión no más?
+Profesor: No no, va atornillado. Ahí vas a tener que atornillarle a la plancha esa que está ahí.
+Alumno: Claro pero la térmica en sí?
+Profesor: Ese ya tiene un anclaje. Esto se apoya de arriba para abajo y el encastre tiene una... Una pestañita que uno levanta encastra acá primero y después hace esto y ahí encastra y ahí se ajusta a veces tiene un resorte.
+Alumno2: Eso que está oxidado ahí le tengo que atornillar esto?
+Profesor: Claro ese es chapa, esa es una barra metálica oxidada nada más. Lo 1ero que el tiene que hacer es eso. Por qué le hago este desarrollo para que ustedes piensen porque lo primero que tiene que hacer es fijar la termomágnetica ITM a la base de chapa que está ahí que es riel americano el no va a sacar porque sino tiene que abulonar abulonar y después colocar eso tiene unos bulones eso ahí la caja, los RIELS AMERICANO sino no va a tener donde picar la termomagnética.
+
+Alumna: Profe para picar podría usar 2 componentes o solo atornillado? Esa mascilla de poxil creo que es.
+Profesor: No no es mejor atornillarle no más porque ahí le pasás con la topoladora ajustas ahí pones el tornillo y queda fijo.
+
+Pasos a realizar para mejorar la instalación del alumno (las fotos están en algunas de las publicaciones de electricidad): 
+
+Lo **primero** que tiene que hacer es fije acá. Coloca la termomagnética 
+**Segundo paso** piensen que tiene que hacer. Ya colocó la termomagnética como puedo mejorar eso? 
+Alumno: Cambia el cables.
+Profesor: Cambiar los cables exactamente, este cable que viene acá.
+Alumno2: Si ese está re feo.
+Profesor: Vas a cambiar el cable por un conductor igual de sección que el que tiene acá, vieron que tiene algo arriba ahí? Eso tiene que cambiar.
+Alumna: Hace como así una montaña?
+Profesor: Claro después hace esto viene acá esta es la termomagnética que va a colocar después viene acá y hace esto... 
+Alumna: Y sale otra vez.
+Profesor: Eso es el vivo la fase. Estamos? Porque esto lo único que corta es la fase y después el neutro sale por acá.
+Alumno2: Sí ese se va.
+Profesor: Y hace todo el recorrido pero lo que él tiene que cambiar es 1ero los conductores estos para poder tener una... Y ese interruptor le sirva y tenga una buena sección de conductor para poder hacer esto.
+Alumna: Los que están abajo no se ven tan tan mal.
+Profesor: No pero tiene que cambiar hasta ahí, pero lo que estamos haciendo es el paso previo para que el pueda mejorar con poco efectivo, es la casa de él. Cuando el cobra hace una cosa, cuando...
+Alumno2: Encima está todo lleno de tornillo ahí arriba.
+Alumno: Una sopleteada ahí para sacar el polvo.
+Alumno3: Ese es mantenimiento ya.
+Profesor: Ahí estamos mejorando lo que él tiene pero nos está faltando algo, ya empezamos a ver que me está faltando algo que a ver si ustedes me ayudando, algo que protege las personas....
+Profesor: El interruptor diferencial, o sea que el cuando tenga efectivo va a poner un interruptor diferencial acá al lado que tiene pulsador un  ID este es un ITM(interruptor termomagnético).
+Alumno2: Ah yo pensé que ese era (el disyuntor).
+Profesor: Coloca ese y ya tiene protección a humanos y a animales, pero le falta otra cosa. Este es el símbolo de puesta a tierra... Estamos?  **Tercero**, bueno hasta ahí estamos esto es el 3ero que cambia todo pone 3ero un disyuntor o interruptor diferencial puesta a tierra y ahí toma toda la alimentación. Ahí está arreglando todavía después cuando tenga un poquito más de efectivo el ya cambia eso acá pone 2 ITM bipolares, acá no. Ya sea si tiene 2x16 ahí o 2x20 no sé lo que dice ahí pero vamos a suponer que tiene uno de **iluminación y otro de tomacorriente el va a poner 2 interruptores bipolares si el tiene 2 interruptores bipolares el tiene que ver porque hay un conductor que es el conductor del neutro que está acá que sale para allá**.
+Ayundate: Los 2 son de 20.
+Profesor: Los 2 son de 20, o sea que hay algo que está mal **no va a proteger los conductores más finos** pero el día de mañana va a tener que poner 2 interruptores, 2x16 y 1 de 10 y 2x20 uno para iluminación y el otro...
+
+Hasta ahí estamos? Vieron que el tiene un bucle ahí arriba, que eso es la fase cuando él ponga los otros 2 el va a poner la fase y el neutro ahí y va a salir neutro y fase por acá. Neutro y fase por acá.
+
+Les quería mostrar algo... Fijo esto viene calza directamente acá y esto que está acá. Esatmos? Entonces encastro arriba primero bajo y esto no entra, es lo que sirve para fijar un interruptor, esto es tetrapolar pero él usa bipolar acá no es difícil el sistema. Lo único malo es que **estas pestañas como son de plástico de vez en cuando se rompen y hay que tratarlas con cuidado**.
+
+Alumna: Y como alimenta al otro al de al lado?
+Profesor: Por los bucles, los bucles esa guirnalda que usted ve ahí al costado es que tira alimentación a toda la hora. Cuando él saque esto va a poner 2 interruptores bipolares entonces esto que es el neutro que va para acá va a ir directamente acá el otro ahí y de ahí sale la alimentación para cada circuito. 
+Alumna: Y la fase igual bucle.
+Profesor: École, ese es el bucle que está ahí.
+Alumna: Necesita esa bornera.
+Profesor: Necesita porque generalmente te permite hasta 3 bocas por... 
+Ayudante: Por térmica.
+Profesor: No.
+###### Ley de Kirchoff
+Profesor: 3 bucles por distribución porque primero llega alimentación hago un bucle acá y otro bucle acá entonces toda la recarga queda en el 1ero hay una ley que se llama de **Kirchoff** que dice que **todo lo que entra tiene que izar a la sumatoria de todas las corrientes que salen**, entonces este que recién abrió carga.
+
+Alumno: Él de él el principal es de 40 el que cambió y no puede superar 40 el resto.
+Profesor: El resto no, porque ese es el principal después va a tener problemas en la protección si yo pongo un interruptor mayor y sección de cable no se compenza... Vas embora...
+Alumno: Por eso tiene 2 de 20.
+Profesor: Claro el va a tratar de solucionar su problema pero tiene que hacerlo metódicamente. Por eso les dije los 2,3 casos para que el pueda cambiar. De 4 cambia los 2 ahí pone los interruptores termomagnéticos 2 por lo menos mínimo que son los que están acá... ¿Estamos más o menos? Es sencillo el sistema.
+
+Cualquier problema que tengan y necesitan asesor, a mi me interesa no explicarle a él solo porque eso mismo el día de mañana le puede pasar a ustedes entonces le explicamos a él y le explicamos a todos. El día que ustedes algún día tengan algún problema vamos a intentar explicarlo.
+
+Alumno: El interruptor diferencial es ese que está entre medio de...
+
+Esa es la idea principal, en otro cursos tenía la posibilidad de revisar problemas, problemas del tablero....
+
+\* Pasa un ex-alumno
+Como anda pase, ya que a vos te gusta hablar...
+
+Alumno que se está por recibir: No no, saludaba no más
+
+###### Vamos a seguir con canalización
+Tengo miedo al dengue.
+
+Ese es uno este es de los viejos y tenemos de los otros, tenemos varias cosas. Estamos chango?
+
+Cuando él mejora el tiene la obligación de pasar como está mejorando porque ya que le dí este (RIEL LINK), no llega a poner y... Cuando quiere agarrar desconectar va a tener que tocar acá si llega a ligar una patada...  Eso es lo 1ero que tenés que hacer ahora si querés que te preste la perforadora y bueno vamos a tener que buscar 
+
+Alumna: Profe pero antes de ese está el tablero general detrás del medidor?
+Profesor: Eso que él mostró al lado y escribió abajo, hay 2 tableritos ahí.
+Alumno: Si ese no sé que es.
+Profesor: Ese era el tablero general, este tenía que estar acá en la térmica principal.
+Alumno: No, pero siempre estuvo así ese.
+Profesor: Y bueno estaba vacío 
+Alumno: Sí estaba vacío
+Profesor: Pero ahí sería el...
+Ayudante: Ahí estaba el general.
+Profesor: Claro, porque seguramente tu medidor está por acá cerca.
+Alumno: El medidor?
+Profesor: Eeh.
+Alumno: No, está lejos.
+Profesor: Ah bueno entonces no.
+Profesor: Entonces le pusieron una térmica en el pilar.
+Alumno: Está lejos y ahí viene a ese.
+Profesor: No. Probablemente hay casas antiguas que una época no tenían ni línea municipal no tenía el muro antes una casa 
