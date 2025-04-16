@@ -9,7 +9,7 @@ https://vocaroo.com/1efmU5QFpIEW
 ###### Audio en Archive.org
 https://archive.org/details/record-86
 ###### Audio en YouTube
-https://www.youtube.com/watch?v=UTkGo4YMaos
+https://www.youtube.com/embed/UTkGo4YMaos
 
 https://www.energiademisiones.com.ar/planos-del-pilar/
 
