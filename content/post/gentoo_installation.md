@@ -152,6 +152,26 @@ Ahora en `/usr/bin/firefox-bin` a la última línea agregá `apulse` (por el aud
 
 Listo.
 
+###### Configurá la hora
+timedatectl set-ntp true
+
+###### Agregá repositorio de binarios (ya viene agregado por defecto).
+```bash
+vim /etc/portage/binrepos.conf/gentoobinhost.conf
+Agregá sync-uri (probablemente ya la tengas)
+# getuto (si ya la tenías no necesitás esto)
+sudo vim /etc/portage/make.conf
+FEATURES="${FEATURES} binpkg-request-signature"
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkg"
+
+sudo emerge --getbinpkg -vauDU @world
+```
+Para instalar un binario: `emerge -vag falkon` o si solo queres puros binarios `sudo -vaG falkon`
+
+
+https://imlauera.github.io/post/como_configuro_la_hora_y_la_fecha_desde_internet/
+
+
 Para actualizar todos los paquetes: `emerge --ask --verbose --update --deep --newuse @world`
 Las noticias se leen con `sudo eselect news list` y `sudo eselect news read 1`
 
@@ -184,7 +204,7 @@ cd chawan
 make
 sudo make install
 ```
-###### Agregar soporte de imágenes.
+###### Agregar soporte de imágenes a chawan
 ```bash
 mkdir ~/.chawan
 vim .chawan/config.toml
