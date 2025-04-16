@@ -156,6 +156,7 @@ Listo.
 ###### Borrar un paquete
 ```bash
 sudo emerge --deselect pkg
+emerge --update --newuse --deep @world
 sudo emerge --depclean
 ```
 
@@ -289,11 +290,14 @@ sudo emerge -va obs-studio
 sudo emerge -va gimp
 ```
 ###### Tiempos de compilación en una netbook con Intel(R) Celeron(R) N2806 (2) @ 2.00 GHz con 4GB de RAM y GPU integrada XD
+### Ya no uso pipewire porque los paquetes binarios vienen todos con pulseaudio.
 ```bash
-[I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober su
-do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant t
-ranslate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3
-m net-fs/samba vim links obs-studio gimp
+#### Viejo
+[I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober su do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant t ranslate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
+
+#### Nuevo (pulseaudio)
+[I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pulseaudio tmux fastfetch os-prober su do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant t ranslate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
+
 2025-04-07T02:02:57 >>> app-misc/fastfetch: 3′40″
 2025-04-07T02:06:37 >>> sys-boot/grub: 23′26″
 2025-04-07T02:35:49 >>> sys-kernel/gentoo-kernel-bin: 10′14″

@@ -213,11 +213,26 @@ Tengo 2 posibilidades:
 
 A veces hay problemas pérdida de gas generalmente se trata de que la alimentación del agua eléctrica de lo que sea esté por afuera de la construcción nueva porque si hay una pérdida podemos descubrirla porque si pasa por abajo ya es un problema porque cuesta encontrar la falla. Hay veces que se hace una ampliación y la superficie tiene una cierta inclinación y por más que haya pérdida de agua por ejemplo el agua se va y no se ve si yo tengo una superficie o horizontal a veces queda un manchón y el piso se va hundiendo ahí yo tengo pérdida de agua y se ve. Entonces es importante tener esa y la parte eléctrica peor. Eso es para que ustedes vean que a veces hay problemas en la construcción.
 
-Cable directamente enterrado en un subterráneo y cable alojado en caños, cable canales enterrados hay lugares esto ocurrió en un edificio en forma horizontal
+Cable directamente enterrado en un subterráneo y cable alojado en caños, cable canales enterrados hay lugares. Esto ocurrió en un edificio en forma horizontal en un edificio que tenían distintos departamentos pero como era largo se hizo la edificación de varios departamentos en una longitud de 50 metros para el fondo y tenía 20 entonces el gabinete de medidores de cada departamento estaba acá y ¿cómo llegamos hasta allá? No podemos mandar un conductor porque tenemos distintos departamentos de acuerdo a la cantidad de departamentos va un conductor subterráneo si es monofásico monofásico, si es trifásico de acuerdo a la cantidad o la que consuma de potencia que se va a estimar tu departamento.
+
+Entonces ¿que se hace? Un conducto...  A ver ¿quién sabe? De mampostería, póngale 30x40 y ahí mando todos los conductores subterráneos a cada departamento que esté en forma horizontal, eso **lleva tapa** estamos? Ese punto no es que al aire libre porque alguien puede estirar lo que sea lleva una tapa, en algunos casos tiene una estructura de hierro en ángulo y va apoyado tapa de madera o lo que sea. Lo a veces de mampostería. 
+Alumno: Agarrado del piso
+Profesor: Exactamente agarrado del piso. El otro tengo la profundidad del tabique ese de que se hizo de mampostería ahí coloco todos los conductores y arriba coloco una tapa se hace de esa forma también, lo que quiero decir es que el conductor subterráneo también puede ir al **aire libre pero en ducto para poder transportar la energía a cada departamento**.
+Alumna: Y también tiene que respetar 70 cm?
+Profesor: Sí, en algunos casos sí. Ahora me tocó un edificio que no estaba previsto la **columna montante primero con tanto despelote en ese sentido de que agarran varias empresas a la vez la primer cosa que se me ocurre mandar con bandeja hasta el aire luz porque son departamentos que es muy finito el frente y bastante amplio la longitud entonces los departamentos están... Pero tengo muy finito el frente**. Entonces tengo un sistema de aire luz y en primera instancia vamos a llevar con bandeja hasta donde podamos.
+Porque se hace el 1ero y 2do piso para entrada de garaje, te exige la municipalidad para que cada departamento tenga como mínimo un habitáculo por cada departamento pero la empresa **se olvidó de ver donde se hace el conducto para alimentar cada departamento luchamos tanto con los arquitectos que se va a hacer 2 ductos por afuera por cada bloque**, entonces ¿qué problema tiene? Es que cualquier problema que uno... Es difícil revisar porque va a estar afuera y no tengo escalera no tengo ningún sistema de que yo pueda revisar en ese caso como está la montante ¿? (Minuto 57) y el conductor que entra directamente a cada departamento les dije vamos a hacer una base para que la persona que tenga que revisar la instalación o el ducto o quiera ampliar la cantidad de potencia tenga la posibilidad de poder reemplazar el conductor pero se va a hacer todo por afuera que no es lógico y no me convence. 
+**Pero los arquitectos no quieren romper la parte principal ahí cerca del ascensor a veces uno cierra los ojos porque son amigos, ustedes eligen ya, pero yo por las dudas no voy a firmar**. (Minuto 57:47)
+
+Alumna: O sea que tienen que hacer con andamio todos los arreglos cuando tienen que montar los caños en el piso...
+Profesor: École. Por ahora sí encima son como 10 pisos, así que va a tener que ser un buen andamio.
+Alumna: O sea a veces tienen que arreglar eso?
+Profesor: Generalmente cuando tengo una montante y hago solo alimentación, los montantes se hace 1 sola vez ¿por que? Yo les pedí a ellos que la parte de iluminación de los pasillos se haga adentro y lo otro sirva solo para alimentación entonces va la cañería entra allá y la otra parte que es iluminación de los pasillos telefonía lo que sea que se haga por adentro, hasta ahora dijieron que sí. Vamos a ver.
+
+Subterráneos directamente enterrado o alojado sobre canales y iuto y los secta ¿? arriba más o menos eso es lo que ahora vamos a empezar a ver como leyendo un plano nosotros tenemos que colocar las cañerías de PVC lo que todavía no les dije que tipo y que sección de cañería necesito para cada instalación, en principio, después vamos a ver. Acuérdense que parte de la norma me dice que yo debo elegir la sección de la cañería de acuerdo a la cantidad de conductores que voy a necesitar. Pero que pasa? Nosotros siempre primero empezamos con el tema de canalización después vamos a ver el tema de circuitos.
 
 
 ---
 
-Minuto 51
+Hora 1:10
 
 
