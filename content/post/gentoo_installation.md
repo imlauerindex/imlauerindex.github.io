@@ -108,6 +108,7 @@ emerge --config sys-libs/timezone-data
 ```
 
 #### Esta linea compilara todos estos paquetes
+Mejor si usás el repositorio de binarios con la opción `-g` explicado más abajo.
 ```bash
 emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
 
@@ -152,6 +153,12 @@ Ahora en `/usr/bin/firefox-bin` a la última línea agregá `apulse` (por el aud
 
 Listo.
 
+###### Borrar un paquete
+```bash
+sudo emerge --deselect pkg
+sudo emerge --depclean
+```
+
 ###### Configurá la hora
 timedatectl set-ntp true
 
@@ -166,7 +173,7 @@ EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkg"
 
 sudo emerge --getbinpkg -vauDU @world
 ```
-Para instalar un binario: `emerge -vag falkon` o si solo queres puros binarios `sudo -vaG falkon`
+Para instalar un binario: `emerge -vag falkon` o si solo queres todos los paquetes binarios `sudo -vaG falkon`
 
 
 https://imlauera.github.io/post/como_configuro_la_hora_y_la_fecha_desde_internet/
@@ -213,7 +220,7 @@ images = true
 [external]
 copy-cmd = "wl-copy"
 [siteconf.hn]
-cookie = true
+cookie = "save"
 
 ```
 

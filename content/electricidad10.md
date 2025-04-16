@@ -158,4 +158,66 @@ Alumno: No, está lejos.
 Profesor: Ah bueno entonces no.
 Profesor: Entonces le pusieron una térmica en el pilar.
 Alumno: Está lejos y ahí viene a ese.
-Profesor: No. Probablemente hay casas antiguas que una época no tenían ni línea municipal no tenía el muro antes una casa 
+Profesor: No. Probablemente hay casas antiguas que una época no tenían ni línea municipal no tenía el muro antes una casa, antes una época las casas altos patios y a veces se ponían los medidores directamente allá para no hacerlos acá hay lugares en donde todavía tiene los medidores allá. Yo tengo escuelas todavía que tienen el medidor allá.
+Ayudante: Entonces podía?
+Profesor: Se podía si, entonces entraban los tipos tomaban la medición allá si esto era todo patio hoy en día para entrar ahí tenés que...
+Alumna: Él va a tener que trabajar con corriente entonces.
+Profesor: El tiene medidor y atrás del medidor tiene el tablero general el baja todo y hace todo.
+Alumno: Profe y el que entra ahí es el RETENAX que decían?
+Ayudante: Como se llama? 
+Alumno: No, ya sé que es la marca. 
+Profesor: El preensamblado? 
+Alumno: Sí.
+Profesor: Pero eso porque vos tenés tu pilar, tu tablero general va por arriba por eso tiene RETENAX que va hasta allá... RETENAX digo preensamblado, va todo por arriba la conexión y va al tablero seccional que es el que tenes dentro de la casa.
+Alumno: Porque me acuerdo que el electricista que me había hecho me dijo ¿y acá como hacemos porque el cañito era muy finito? Y no sé le dije vos tenés que arreglar eso.
+Alumno: Y no sé le dije, vos tenés que arreglar eso.
+Profesor: Para entrar?
+Alumno: Sí.
+Profesor: Bueno, eso es lo que estamos hablando el tema de los caños. Ahora después le voy a mandar una...
+Alumno: Es como que le pico un poquito.
+Profesor: Ahí se acostumbra normalmente cuando el caño es muy fino y tengo que pasar preensamblado y no tengo otra posibilidad y no quiero picar el caño colocar un caño para llegue directamente ahí por afuera se puede hacer. 
+Alumno: No no pero él así no más.
+Profesor: El chamamé sale caro, pero ahora estás aprendiendo por suerte. 
+
+Dijimos que hay cables apoyados directamente sobre bandejas, estas bandejas tienen distinta dimensiones y de acuerdo a la cantidad de conductores que van acá generalmente se calcula una medición que después vamos a ver de la bandeja de acuerdo a la cantidad de conductores subterráneos que yo tengo para colocarlo en forma horizontal. También puedo colocarlo en forma horizontal y después llevarlo otro en sería así... En este sentido yo coloco los 2 en forma horizontal todo lo que va y entrar en longitud esto y después el otro en el medio voy colocando para directamente ir a otro circuito, eso se puede hacer en bandeja.
+
+###### Conductor taller está permitido.
+Hoy en día los conductores subterráneos son bastante honerosos y están poniendo el conductor tipo taller con aislante más delgado, y las normas de vez en cuando para tratar de que la instalación salga, permite hoy en día eso.
+**Siempre y cuando no haga conexión dentro, porque acuérdense que esto también tiene 3 metros y van los conductores y algunos quieren hacer distribuciones entonces ya tiene marcado fíjense donde van los conectores, trae un conector de 1 pulgada directamente se hace la bajada esto va en forma horizontal se va haciendo la bajada y directamente bajo a mi lugar de origen**.
+
+Eso se está utilizando en grandes edificios. Nosotros una vez venimos trabajando para una gente de la AFIP ahora no sé como se llama... Santa Fé y Colón y tenía un tablero principal y después yo ese tablero principal y tablero seccional era a través de bandejas y bajaban directamente conductor subterráneo a ese tablero y hacía la distribución en un sector. Era interesante.
+
+###### Las bandejas de baja tensión tiene que estar arriba de la de alta tensión en caso de caída.
+Acuérdense que yo también puedo tener bandejas para trabajar con líneas de baja tensión, la única diferencia en estos casos por ejemplo, es que esta de baja tensión tiene que estar arriba de esta. Por qué?
+Alumno: Interferencia
+Profesor: No. Vamos a suponer que yo tenga al revés esto y se me caiga o se corte un circuito con conductores y caiga sobre la línea de baja de tensión, me electrifica este sitio de acá o hace campo magnético por eso es interesante en este sentido que esto esté abajo de los de baja tensión... Se hace pero suele ocurrir en algunos casos hasta para no tener ese problema se hace un soporte de ménsula más grande y se coloca una de las dos. Todo depende del lugar que tenga.
+
+Lo importante que tenga esto que esta bandeja por ejemplo si yo quiero reemplazar o cambiar el conductor o a su vez llevarlo a otro sector esté en una situación de que sea fácil el reemplazo. También hay de estos accesorios esos accesorios implican que yo puedo venir acá tener **curva y contracurba para que esta mantenga su sección**. Vamos a suponer que me toca hacer una instalación de bandeja no allá arriba sino acá eso viene un supermercado acá en el interior entonces que hicieron para no hacer tantos accesorios para poder hacer **curva y contracurva** porque hay también curvas para bajar de nivel ellos directamente pusieron ménsula de acá hasta acá y colocaron la bandeja en forma horizontal y se fueron 50 metros atrás porque era un supermercado entonces después hicieron bajar normal a cada tablero y quedó bastante bien... A veces estéticamente se nota mucho pero ellos reemplazaron porque hay bandejas de estas características que son pintadas salió un poquito más caro. Pero donde necesitan estética hay bandeja de colores, este es garbanizado. Ellos tienen bandeja de colores que resulta interesante.
+
+Este es un tipo de bandeja, bandeja perforada después podemos tener bandeja tipo escalera se llama entonces cuando ustedes vean ese tipo de bandeja tiene la característica de que en vez de ser todo un sistema continuo son todo tipo una que hace soporte por eso se llama tipo escalera y va a los conductores subterráneos pero generalmente se usa más en lugares de industria, entonces lleva la alimentación a diferentes lugares en donde tienen diferentes máquinas entonces uno va viendo los conductores subterráneos que van pasando de un lugar a otro, siempre y cuando vayan ordenados yo no puedo tirar el cable acá después pongo otro tiro otro cable esto tiene que ir presentado y en hilera en algunos casos hasta enumerados a que circuito corresponde, entienden eso?
+
+Eso también equivaldría tener ese ordenamiento en caso de que ocurra un desperfecto o efectivamente ocurra una descarga muy grande a un problema puede reemplazar ese conductor es cuestión de trabajar con esto, una de las partes que siguen.
+
+###### Vamos a la parte de instalaciones subterráneas que vinos ahí
+Después veremos con más detalles con respecto a lo que dice las normas que profundidad debería ir y esos conductores pueden ir enterrados directamente en la tierra (XDD) o en cañería de PVC en algunos casos por cañería de desague la idea es que este conductor vaya lo mejor posible pero las normas me piden que vaya de una profundidad vamos a adelantarnos un poquito... A una profundidad, esta es la canalización pozo, a una profundidad de 0,70 metros nivel del piso este es conductor subterráneo después vamos a ir viendo las normas un poquito más grande y la parte subterránea, pero como esto es una parte de canalización....
+
+Esto tiene un sistema de protección que vamos a ir viendo después pero la idea acá principalmente es que ustedes entiendan que el conductor puede ir directamente enterrado o dentro de un caño de PVC. Las dos características son importantes a un profundidad que ellos me piden que es 0,70 a nivel del piso, hay lugares en donde directamente tengo tierra y después tengo una veredita de 2 metros y después sigue otra vez la parte de tierra. Me dice que en esa parte que yo tengo de 2 metros que puede ser de hormigón simple. ¿Como le llaman?
+Ayudante: \* Incomprensible
+Profesor: No. Una carpeta así. Hormigón pobre más o menos que es una carpetita para hacer una entrada, ahí si o si tengo que pasar un caño para caño tipo camisa. Para qué me sirve? Vamos a suponer que yo tengo una vereda abajo de la vereda si yo tengo un conductor subterráneo tengo que poner un caño PVC ese caño PVC va a estar abajo pero me sirve si yo quiero cambiar conductor subterráneo por más que yo tenga tierra yo llego hasta acá tiene que pasar por abajo y me sirve para poder reemplazar el conductor. 
+Hagan en cuenta que yo tengo una vereda acá, acá tengo mi conductor generalmente por otro subterráneo y acá esta parte si o si que me pide que vaya 10 cm que sobresalga acá y este caño pase por abajo acuérdense que no es la profundidad y sigue el conductor subterráneo, entonces esta parte en donde yo tengo hormigón y tengo cemento en caso de que quiera reemplazar conductor voy sacando la tierra acá y esto hago el pase y sigo sacando por la tierra. A veces ocurre que las empresas vamos a suponer una ampliación en la casa original había un conductor subterráneo que venía la alimentación para acá y quieren hacer una ampliación para el frente. 
+
+###### Hay que hacer un caño camisa para nueva parte
+Tengo 2 posibilidades: 
+1. Cambiar la trayectoria del conductor subterráneo ese.
+2. Poner en esa parte en donde se va a edificar, toda esa parte un caño camisa entonces cualquier cosa que yo tenga primero que me va a prestar conductores si yo pongo cemento lo que sea ahí, para hacer el piso el concreto toda la piedra lo que sea si yo golpeo sobre eso me aplasta el conductor, en ese caso si pongo caño camisa cualquier cosa que yo haga reemplazo toda esa parte sin problema. Y ocurre lo mismo con el agua entonces hay que **hacer un caño camisa para la nueva parte**. 
+
+A veces hay problemas pérdida de gas generalmente se trata de que la alimentación del agua eléctrica de lo que sea esté por afuera de la construcción nueva porque si hay una pérdida podemos descubrirla porque si pasa por abajo ya es un problema porque cuesta encontrar la falla. Hay veces que se hace una ampliación y la superficie tiene una cierta inclinación y por más que haya pérdida de agua por ejemplo el agua se va y no se ve si yo tengo una superficie o horizontal a veces queda un manchón y el piso se va hundiendo ahí yo tengo pérdida de agua y se ve. Entonces es importante tener esa y la parte eléctrica peor. Eso es para que ustedes vean que a veces hay problemas en la construcción.
+
+Cable directamente enterrado en un subterráneo y cable alojado en caños, cable canales enterrados hay lugares esto ocurrió en un edificio en forma horizontal
+
+
+---
+
+Minuto 51
+
+
