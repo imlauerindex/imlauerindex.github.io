@@ -317,6 +317,8 @@ m net-fs/samba vim links obs-studio gimp
 ###### Intro to gentoo de Immolo
 https://youtube.com/playlist?list=PLySnTFv9rBnSyQEw1RHSR3g-ZAowjegBm
 
+Ahora bajate youtube-upload desde GitHub: https://github.com/tokland/youtube-upload y ejecutá el binario ;)
+
 ---
 
 ## Antigua guía.
