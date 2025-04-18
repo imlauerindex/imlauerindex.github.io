@@ -153,6 +153,7 @@ Ahora en `/usr/bin/firefox-bin` a la última línea agregá `apulse` (por el aud
 
 Listo.
 
+
 ###### Borrar un paquete
 ```bash
 sudo emerge --deselect pkg
@@ -175,6 +176,12 @@ EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkg"
 sudo emerge --getbinpkg -vauDU @world
 ```
 Para instalar un binario: `emerge -vag falkon` o si solo queres todos los paquetes binarios `sudo -vaG falkon`
+
+##### Instalá lm-sensors
+```bash
+sudo emerge -vag lm-sensors
+sensors
+```
 
 
 https://imlauera.github.io/post/como_configuro_la_hora_y_la_fecha_desde_internet/
@@ -281,7 +288,7 @@ Después lo podés agregar a tu PATH.
 ```bash
 [I] esotericwarfare@jentu ~> cat /etc/portage/package.accept_keywords/obs
 =media-video/obs-studio-31.0.3 ~amd64
-sudo emerge -va obs-studio
+sudo emerge -va obs-studio xdg-desktop-portal-wlr (para grabar pantalla)
 ```
 
 ###### Instalar gimp
@@ -290,11 +297,13 @@ sudo emerge -va gimp
 ```
 ###### Tiempos de compilación en una netbook con Intel(R) Celeron(R) N2806 (2) @ 2.00 GHz con 4GB de RAM y GPU integrada XD
 ### Ya no uso pipewire porque los paquetes binarios vienen todos con pulseaudio.
+# Actualización: Ya no uso pulseaudio porque me consumía un montón de CPU volví a pipewire
+
 ```bash
-#### Viejo
+#### Nuevo
 [I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober su do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant t ranslate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
 
-#### Nuevo (pulseaudio)
+#### Viejo (pulseaudio)
 [I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pulseaudio tmux fastfetch os-prober su do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant t ranslate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
 
 2025-04-07T02:02:57 >>> app-misc/fastfetch: 3′40″

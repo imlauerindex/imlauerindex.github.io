@@ -290,7 +290,7 @@ Esta tabla que aparece en el reglamento tiene una finalidad en un sector va a ap
 \* Se escuchan aplausos
 Profesor: Se están recibiendo los vagos.
 Alumno: Es Javier? Javier está ahí?
-Profesor: No ese es el tíutlo que utilizan el año pasado y tarjeta GIELIC ¿? (Hora 01:13) entonces están recibiendo.
+Profesor: No ese es el título que utilizan el año pasado y tarjeta GIELIC ¿? (Hora 01:13) entonces están recibiendo.
 Alumno: Mmmm una nueva tarjetita.
 Profesor: Exactamente esa es. 
 
@@ -330,20 +330,112 @@ Profesor: Claro, lo que ustedes tienen que tener en cuenta es que generalmente u
 Se que es un poco engorrozo. La idea es que tengan la idea de por qué instalo esto. O sea nosotros instalamos los caños de tal tipo y con esta caracterśitica como estamos dando canalización lo ideal después es ver el tema de los conductores. Pero para ver el tema de los conductores yo tengo que explicar primero como se genera la electricidad entonces veremos un poquito más adelante.
 
 Hoy estamos con la idea de canalización. Esta tabla le voy a pasar después. Después de última miremos, acuérdense que: 
-####### RL y RS: cañería metálica.
+###### RL y RS: cañería metálica.
 
 Después le voy a pasar otra pero ahora con sistema de PVC, la misma forma de esto pero acá va a aparecer canalización en PVC ya el nuevo reglamento me está dando la posibilidad también.
 
 Alumno: Cuál es más cara?
 Profesor: El de metal. Por eso están economizando.
 
-### Medidas de caños principales: 3/4, 5/8, 7/8, 1 pulgada.
+### Medidas de caños principales: 3/4, 5/8, 7/8, 1 pulgada. Cuando dicen 3/4 se refiere a 3/4 de 1 pulgada.
 Antes de seguir esto también tiene sección tiene de 3/4 5/8 7/8 1 pulgada fíjense que internamente esto parece un acordión ahí dentro (cable corrugado) la idea principalmente si van a usar corrguado siempre que la sección en vez...
 
 ##### Si yo utilizo un caño rígido de 3/4 este caño (corrugado) tendría que ser un poquito más que esto entonces el corrugado en este caso sería de 7/8.
+O sea siempre porque fíjense que yo tengo este caño que es rígido las paredes son lisas y yo puedo esplazar los conductores y encima la cinta pasacables sin problemas, acá ya tengo ranurado y en algunos casos se traba la cinta.
+
+###### Si van a trabajar con corrugado utilicen un caño de sección mayor.
+Porque sino van a tener problemas y hay gente que a veces no coloca las curvas directamente pasa el corrugado le mete directamente así. 
+
+###### La curva debe ser mayor de 90 grados para que entre la cinta y pase los cables.
+Otra cosa que hay que tener en cuenta. Acuérdense que es siempre 90 grados entonces esa curva no puedo estar aplastado tiene que tratar de hacer mayor de 90 grados para que entre mejor la cinta y pase mejor los cables. Es un problema que tengo en todo lugar. Nosotros somos instaladores y a veces el propietario compra las cosas a nosotros nos interesa cobrar la mano de obra pero ya vieron por lo menos, y por último vamos a hablar con la suegra acá de mi amigo.
+###### Terminantemente prohibido el anaranjado no se debe utilizar: tóxico, se propaga el incendio y yo piso y esto se desforma.
+Este de acuerdo al cálculo en algunos casos no se tiene que desformar, este en algunos casos el pesado en algunos sectores utilizan en la parte de hormigón cuando hacen la baldoza continua utilizan este pero tiene que ser del espesor adecuado en caso de que se descargue directamente...
+
+Alumna: El corrugado pesado puede servir para exteriores?
+Profesor: Pero donde pensás poner?
+Alumna: Tengo que reemplazar ese caño de PVC que rompió el granizado. Es en el patio. En el muro del patio.
+Profesor: Sí. Seguramente esa cañería iba sujeta a algo.
+Alumna: Está sujeta tiene esos clips.
+Profesor: Tratá de llevando con los soportes lo más cerca posibles sino te va a quedar como que parece una víbora. Si fuera del interior no hay problema porque no se ve porque sino va a quedar todo el... Pero se puede utilizar. 
+
+Esto tengo para que sepan que no se debe utilizar XD (corrugado naranja).
+Alumna: Eso son de los más antiguos.
+Profesor: El naranja no se usa más, pero he visto en algunos lugares todavía y algunas ferreterías siguen vendiendo esto. En ferretería exclusivamente.
+Alumno: En todas las obras de una casa particular se ve eso.
+Profesor: Yo sé que a veces hay personas que no quieren comprar los materiales y compra lo mínimo pero le **tienen que avisar**, después ya decile cuando hacen el presupuesto queda a disposición los materiales de acuerdo a la característica que le damos pero si el quiere poner otro... **Pero no se olviden de decirle las cosas porque si yo me quedo callado y le digo que esto sirve**... Siempre hay que decir, después que el tipo compre lo que quiera.
+
+Seguimos...
+
+Después de esto aparecerá otro y va a aparecer esto uno de **Genroid**, me da la posibilidad de todas la canalización en PVC. En algunos casos como deberá ser directamente y muestra para que uso más o menos se interiorice acá tiene la particularidad que esta es la parte de la cocina en donde yo necesito mayores cajas y tomas lo que sea entonces es lindo mirar para tener idea, después ustedes van a recibir el plano pero es importante que empiecen a concientizarse que la canalización es lo 1ero que hacemos nosotros en temas de instalación eléctrica en principio la otra vez estaba leyendo y miro en los videos fijar las cañerías... No, al revés tiene que ser.
+
+###### **NO fijar las cañerías sino que tengo que fijar 1ero las cajas. Fijo las cajas 1ero y después hago la distribución si va para arriba para abajo para el costado, siempre en forma ortogonal**.
+O sea que siempre estén en ángulo de 90 grados. Esto puede estar embutido puede estar embutido o puede estar en el exterior y exterior se ve más.
+
+Alumno: Leí esa palabra y pensé que se había equivocado (ortogonalidad).
+
+Esta es la parte de iniciamiento de caños vamos a ver después que terminemos la parte de circuitos, vamos a hacer un circuito que comprende.
+
+###### Generalidades para instalación de cañería embutida, que debemos hacer o qué generalidades debemos cumplir para poder hacer cañería embutida.
+Lo 1ero que piden ellos además de que **respetes la ortogonalidad**, es que todas las cañerías que uno pone de acuerdo a la sección del conductor y la **cantidad de conductores sean fácil de introducción y retiro de conductores dentro de la cañería**.
+
+Las curvas que ustedes ven que son de 90 grados para hacer en este caso las bajadas allá, **no sean más de 2 curvas entre cajas o bocas** eso está después le voy a pasar bien la parte de agrupación de cañerías le voy a dar otro papel para que ustedes tengan, son partes de las normas pero son **reducidas** cosa que ustedes necesitan para poder hacer la instalación.
+
+**Para evitar tener una gran cantidad de cañerías y ángulos y curvas** lo ideal es que tenga un cierto recorrido generalmente la cinta pasacables tiene al rededor de 10, 15 metros que es más o menos lo que se usa, si paso los 20 metros ya cuesta es todo un problema, pero me dice que más de 10 metros o 15 metros yo no puedo tener una boca con respecto a la otra, para eso necesito utilizar **la caja cuadrada que es para poder hacer una derivación una conexión o lo que tenga pensado**.
+
+###### La caja cuadrada se usa para una derivación o conexión. Menos de 15 metros, 12 metros tengo que poner una caja de paso. La caja de paso va a 0,30 del nivel del cielo raso en forma vertical. No puedo tener una boca de más de 15 metros respecto de la otra.
+
+Esta es la mínima caja de 10x10 la que utilizamos rectangular y espesor que utilizamos dentro de una vivienda, acá acuérdense que empezamos con la vivienda después iremos avanzando porque hay cajas de estas características de mayor sección y mayor espesor pero depende de la cantidad de conductores que yo necesito. 
+
+Hago derivaciones puedo pasar los circuitos por acá y distintas derivaciones puedo hacer, eso se llama **caja de paso o derivación**.
+
+###### La caja de paso se usa porque el recorrido es muy largo. No es necesario cortar se puede hacer el bucle.
+Se podrá para ello caja de paso registro que no supere los 15 metros recorrido cuando sea recta horizontal porque yo puedo tener una alimentación horizontal de acá hasta allá. Pero dice que más de 15 metros yo coloco generalmente colocamos a 12 metros una caja de paso **porque el recorrido es muy largo entonces necesito colocar en ese recorrido puede ser una montante horizontal una caja de paso en la mitad del recorrido**, pero esto como es caja de paso y está en la mitad del recorrido **no significa que yo pase el cable y corta acá y después vuelvo a pasar la línea y corto**. Acuérdense que esto va a hacer el bucle ese, **no es necesario cortar**. Yo puedo hacer la alimentación vamos a suponer en este caso del tablero principal que está en la entrada y quiero alimentar mi tablero que está acá. Entonces necesito un trayecto bastante grande y colocar cajas de paso en mi recorrido para que me permita a mi poder pasar la cinta pasacables con los cables y acá dejar el bucle y seguir **NO NECESARIAMENTE CORTAR ACÁ** porque hay gente que corta acá y corta acá está bien le dejo los 15 cm que me pide la norma hago las uniones y sigo pero la idea principalmente si no tengo derivaciones y es sólo para hacer una montante horizontal y que sirva como caja de paso **me conviene seguir dejar el bucle ahí y seguir para allá y después corto el cable cuando termino en mi tablero**. Hago 2 recorridos y corto, cuanto menos corte tenga mejor va a hacer mi unión sino tengo que hacer varias uniones.
+
+Por eso les digo si yo tengo que hacer una alimentación de un tomacorriente de acá hasta allá hago todo el recorrido no importa que tenga que pasar por la boca dejo los bucles y llego hasta acá. Dejo los 15 y después voy haciendo si tengo que hacer unas derivaciones de esa forma porque sino ¿que hago?, **voy a tener más uniones** y si el tipo muy endeble sería que no apretó bien puede tener falso contacto, y ese pequeño **falso contacto** me puede ocasionar una chispa y eso provoca **incendios**.
+
+He visto obras importantes que sabía que pasaba pero cada vez que prendían un equipo grande me hacía saltar el disyuntor pero era porque estaba mal el desconexionado ¿? (Hora 01:37). Eso vamos ir viendo después.
+
+###### Montante vertical y horizontal
+Aparecen en la parte de los montantes horizontales, acuérdense que la montante horizontal o montante vertical son directamente para transportar las líneas principales de un tablero principal a un seccional en ese caso puede ser un edificio también o que esté en forma horizontal o departamento en forma horizontal y un edificio en altura, ahí tenemos la montante vertical paso una columna y va a cada piso distribuyendo a cada departamento por piso pero tengo que tener una columna ahí sube y ese piso va a tener una cámara o una caja en este caso de registro para ver que conductor va a determinado departamento también hay **montante vertical**.
+
+Hay 2 cosas importantes en un edificio con montante verticales que toma la alimentación del medidor y va a cada departamento y también puede haber montante horizontales como les dije yo ese departamento que tenía el chorizo allá y tenía el departamento ahí en el cambio de línea del perimetral ( ¿? (Hora 01:39) también hay ciertas formas. Todo eso se debe hacer.
+
+###### Cuando una montante en recta vertical se debe instalar cajas de paso o de filtro no mayor de 12 metros.
+##### Por cada departamento: 1 medidor. 30 departamentos 30 circuitos, 30 conductores subterráneos por cada circuito.
+Un edificio tiene diferentes plantas y cada planta puede ser distintos departamentos, estos distintos departamentos actúan a su vez como una vivienda común, porque son departamentos son viviendas (un monoambiente lo que sea) y cada departamento necesita una **alimentación directamente desde el medidor** por cada departamento se necesita 1 medidor y por cada medidor se necesita una troncal que vaya directamente a ese departamento o sea que yo tengo un edificio que tiene 30 departamentos y desde el **gabinete de medidores tiene que salir 30 circuitos porque a veces los unipolares o sino 30 conductores** en ese caso nosotros vamos a poner media subterráneo **30 conductores subterráneos para cada circuito**. Y eso hay que llevarlo y eso lo llevaremos por la **columna montante**. Está más o menos?
+
+Quiero contarles donde empieza la canalización estamos avanzando en edificio pero la idea principalmente lo que nos depara el destino primero hacemos **inmuebles vivienda** y lo otro ya un poco más en forma colectiva sale edificio que 1ero es la habitacional una casa cualquiera. 
+
+**No me gusta** la parte de la norma que dice: _si se coloca más de 3 curvas por cañería se debe... Las cajas de paso registro se debe instalar cada 9 metros_, en una vivienda ya es muy jodido porque** los dormitorios de un recinto tiene 3 o 4 metros como gran longitud es difícil que yo haga un recorrido de 9 metros, pero esto es más para edificio. 
+
+Traeme la boca esa: caja ortogonal.
+
+###### Todas las cañerías debe empezar y terminar dentro de una caja y el caño no puedo colocar directamente, debe ir a un conector en cajas de salida y entrada.
+###### Las cajas ortogonales son bocas de alimentación
+O sea si yo tengo esto son cajas ortogonales que son **bocas de iluminación** entonces si yo tengo que colocar una cañería nunca puede estar en el aire. Entonces si o si debe terminar y empezar en una caja, vamos a suponer este. Esto acuérdense va acá directamente ahí **tiene que empezar y terminar en una caja** y en la caja yo no puedo colocar directamente el caño. Todas las cajas de salida y entrada de cañería en una caja debe estar 1 conector. Si está vamos a suponer... Voy a una obra y veo así lo tengo que **rechazar** (sin el conector). Si está pegado arriba tengo que picar, colocar conectores y después va.
+
+A veces le **perdono** pero por lo menos **cortame el caño hasta acá que no se vea**.
+
+Alumna: Y en el caso del corrugado también tiene el mismo conector que va a la caja o va a otro sistema? Encastra igual la medida de está estandarizado?
+Profesor: École. El mismo. Sí sí. (Antes había dicho que en el caso del corrugado no se necesita conectores y que no se necesitan uniones). Tiene que ir acá tiene que terminar acá hay gente que directamente pone y ves que es así está normalizado el reglamento me está pidiendo que haga esto. Entonces tengo que hacer (poner el conector). Si no hago estoy cometiendo: almiguo. Esto no, esto sí.  Es una exigencia y antes que nada...
+
+###### 1ero para hacer la canalización fijo las bocas y las fijo a la estructura de el techo, se hace independiente de la estructura del cielo raso.
+###### Las bocas no se deben mover
+Hoy en día está muy de moda el cielo raso flotante con la flijida de perfiles de aluminio esas cosas esto tiene que ir arriba al llegar que protege bien todo en bolsa y hacer esto y este no se debe mover, entonces después si hacen la estructura de aluminio y ese aluminio está muy seco y le quieren poner un precinto poner un alambre especial para que esto quede más fijo, no hay problema. Pero este en principio tiene que quedar arriba, se hace en forma independiente a la estructura del cielo raso. 
+
+Alumno: Estos cuadraditos para que son?
+###### Todas las bocas arriba van con gancho U.
+Profesor: Eso es para que vos preguntes. Dijimos que toca las bocas que estén arriba cajas ortogonales va el **gancho U** y como mínimo me gusta usar ya lo uso, uso todo la caja de metálica entonces esa caja metálica nos sirve directamente para que yo apoye acá o hago así. Fíjense que esto no tiene cosa (la caja PVC no tenía)
+Alumno: Ah y ese es el gancho U? 
+Profesor: Se supone fíjense vamos a idear o sirve para poner otro soporte acá directamente anchar ahí arriba, este ganchito ni tiene. Pero vamos a suponer que tengo la posibilidad de otro anclaje arriba esto es para apoyar y tener el soporte y acá esto es para que yo pueda colgar esto.
+
+Toma lista la preceptora...
+
+
+Ayudante: Este es para losa continua (la caja más grande).
 
 
 ---
 
-Hora 1:10
+Hora 1:50
 
