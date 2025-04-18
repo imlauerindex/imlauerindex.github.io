@@ -19,3 +19,13 @@ sudo su
 cd mnt
 ```
 Si no funciona así hacelo con root.
+
+En Gentoo tenés que insatlar: `simple-mtpfs` y `android-file-transfer-linux`.
+
+```bash
+emerge -va simple-mtpfs android-file-transfer-linux
+mkdir ~/AndroidDevice
+simple-mtpfs ~/AndroidDevice
+fusermount -u ~/AndroidDevice # unmount
+```
+
