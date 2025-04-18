@@ -432,10 +432,217 @@ Profesor: Se supone fíjense vamos a idear o sirve para poner otro soporte acá 
 Toma lista la preceptora...
 
 
-Ayudante: Este es para losa continua (la caja más grande).
+Ayudante: Este es para losa continua (la caja ortogonal más grande).
+Cuando vos tenés una losa continua lo que se hace primero es la placa de red que se fija la placa de todo, adonde vas las distancias y se van colocando las cañerías y ahí pasan los hierros por todos lados, entonces generalmente esto implica que tu losa va a ser mínimamente entre 7 y 10 porque si es 5 está al límite. Entonces este tipo te da la posibilidad de que vos puedas salir directamente acá sin hacer la derivación para arriba ¿? (Hora 01:49) esa es la posibilidad de usar ese, en algunos casos la parte de hierro tenes todas las cajitas queda acá y vos podés pasar... Ruido ruido ruido (01:49)
+
+###### Ccomo fijo la caja a la estructura del techo.
+Generalmente yo tengo la posibilidad en algunas cajas en algunas bocas algunos ponen planchuelas otras directamente que aparecen como.... Decinos como está en tu casa:
+
+Alumno: Con alambre.
+Ayudante: Correntino?
+Alumno: Ni idea. 
+Ayudante: Correntino está todo con alambre.
+
+###### Planchuelas para fijar cajas hay infinidad de formas de fijar cajas (con alambre)
+Profesor: No no, puede hacer un soporte de alambre arriba no hay problema mientras eso esté fijo, lo interesante que ustedes tienen que tener en cuenta si yo tengo que poner un ventilador en algunas casas. Ahora ya no hago más porque antes me llama Juan ¿? pero debe soportar mínimamente entre 50 y 80 kilos que no baje. Entonces **tiene que fijar arriba** la forma de fijar tiene infinidad depende del material que tenga en mi obra o si tengo un buen soldador tengo planchuelas fíjense que tengo en algunos casos interticio ¿? para fijar la planchuela acá y esa planchuela llevar arriba.
+
+La gente que hace la parte de la estructura del cielo raso flotante de aluminio me dan o queda un pedazo y de eso voy arriba, **fijo arriba**.
+Alumno: A un tirante?
+Profesor: A un tirante, tengo que ir a buscar un tirante de arriba.
+
+Tirante: https://es.wikipedia.org/wiki/Tirante_%28construcci%C3%B3n%29
+
+Alumna: No queda otra forma, y la losa? Si se va a...
+Profesor: La losa no hay problema.
+Alumna: Ah ya está antes de cargar la losa ya se hace la estructura todo el cableado (para hacer la losa se hace una estructura de hierro o preprensada)
+###### Se deja la losa un poquito más alto. Picar la losa no rinde 
+Profesor: Sí, eso lo que vos hacés es losa continua se pone la placa acá y se pone las cajitas arriba y después se hace la distribución, generalmente últimamente no estamos haciendo en edificios que no sabemos bien definidos la divisoria de esto, **entonces hacemos directamente la losa una altura un poquito más grande de más alta de lo que se necesita para poder hacer la instalación de acuerdo al cambio que pueda hacer el arquitecto** lo que sea, hay edificios que empiezan la etapa hacen toda la estructura de losa y después recién en un período más adelante y con otras observación, efectivo cambia modifican la _silueta_. Entonces ahí es mucho más fácil hacer toda la instalación de acuerdo a lo que necesiten porque a veces se venden por **metro cuadrado** se unen departamentos se unen otros por metros cuadrados y uno quiere de una forma u otra entonces se va haciendo eso y si uno ya puso la losa la caja es muy probable que después se tenga que cambiar y picar la losa es bastante embromado, por más que tengamos tipos que puedan picar la losa... Yo he picado losa pero no es muy conveniente. Es cansador y aparte no rinde porque para picar un metro necesitás... Cuesta.
+Alumno: Rotomartillo
+Alumno2: A muela.
+
+Entonces no es lo ideal pero yo he picado porque se tapo y a veces cuando uno hace este tipo de losa acuérdense que uno pone directamente papel acá y hace todo el sistema y trata de que todas las bocas no tengan la tentación de mover¿?(Hora 01:53) de hormigón nada por el estilo tiene que estar bien fijo, a veces uno va...Uno no está pendiente cuando está pendiente y cuando está colocando el **hormigonero tira no más ahí y a veces desparrama y sin querer puede tirar los caños para un lado o para el otro**. O sea que a veces puede entrar (hormigón) entonces puede desprender un conector y me entra hormigón ahí y cuesta sacar por más buena voluntad que tengamos... Y está la otra contraparte: 
+###### El hormigonero sin querer puede tirar los caños para un lado o para el otro.
+###### Si no nos llevamos bien con la gente de la obra es muy probable que alguna macana nos hagan porque nunca estamos todo el día en la obra.
+Te tapan las cañerías y tenés que buscar otras acciones.
+
+**Si no nos quieren mucho es probablemente que constantemente tengamos problemas de ese sentido.** (Hora 01:54). 
+**Putear** contra 10 vagos vos solo probablemente sean 2 electricistas contra todo el resto... Es muy difícil.
+
+Alumno: Eso se arregla en la obra profe.
+Alumna: Lo que pasa en la obra queda en la obra.
+Profesor: Sí es muy difícil porque uno no está todo el día en la obra entonces a quién le vas a primar? Y es así. Por eso es importante llevarse bien es una cosa importante el tema de las interrelaciones.
+Alumno: Relaciones humanas
+Profesor: Sí. 
+Alumno2: Hay que pagar una birra.
+Alumno3: Sentarse en el balde.
+Profesor: Sí. No es fácil porque el electricista está un par de días por ejemplo y la obra sigue avanzando vos haces la canalización y después pasas el cableado y todo ese tema.
+
+##### Después del grueso viene el fino.
+##### Las empresas contratan por boca y por trabajo y no por tiempo determinado, porque sale más barato contratarle así.
+Ellos hacen después del grueso viene el fino. Cuando está toda tu cañería y después vos venís y haces el cableado entonces cuesta un poco estar en obra por eso a veces las empresas cuando contratan a la gente contratan por boca y por trabajo y no le contratan por tiempo determinado porque le sale más barato contratarle así una vez que termina el trabajo chau y después le llama otra vez para hacer el cableado.
+
+###### Lo malo de vez en cuando es que capaz que él hizo las cañerías y después ya contrató a otro para hacer el cableado y si no tienen el mismo canon la misma formación es probable que este le cueste le cueste el doble porque no le dejó nada se llevó los planos.
+Así ocurre a mi me ocurrió acá, hubo un **desacuerdo con un electricista** que estaba manejando la obra y se llevó todos los planos que le hice.
+
+Y bueno, ocurre y después es un problema nuevo que empieza porque va a tener que descubrir donde están las bocas como sigue la canalización. Sacame por favor por ahí debe estar la plata que tengo para arreglar. No mentira XD.
+
+###### Toda cañería empieza y termina en una boca o caja lo que sea.
+Cuando hagamos el tema de canalización considerar en el tema de canalización fíjense si empezamos con **cañería de PVC la idea es que terminemos con cañería de PVC**. Si empezamos con cañería de hierro la idea es que terminemos con todo el sistema de hierro.
+
+Pero puede ocurrir que empezamos con cañería de hierro o PVC y se dejó la curva ahí arriba o no. Y el tipo consiguió o trajo otro tipo de material en este caso PVC. Lo que se debe hacer y es correcto y se puede hacer porque estamos cambiando un sistema de materiales por otro sistema. Entonces llegar de este sistema de PVC o de hierro hasta la boca. Y después de esa boca puedo cambiar el tipo de material. 
+
+###### Lo ideal es que yo empiece y termine con un mismo material en caso de cambiar hacerlo cuando llega a una boca.
+En realidad lo ideal es que yo empiece y termine con un mismo tipo de material. Ahora todas las curvas, accesorios todo lo que necesito para ese sistema sea del mismo material en este caso PVC pero también puede ocurrir que tenga cañería de hierro y sobre el trayecto el tipo me cambie y quiera cambiar por cañería PVC. Puedo hacerlo pero **cuando llega a una boca** y partir de ahí puedo hacer la otra distribución.
+
+O sea el sistema me permite. Tiene que llegar a una boca cualquiera y de ahí salir recién con cañería de hierro si quieren o al revés. Estamos? No debo mezclar.
+
+He visto en algunas obras el tema de caja de paso por ejemplo o cañerías que salían de un tablero principal y esto quedaba con curva acá bueno algunos sin curva... **¿Qué hicieron directamente?** 
+###### Mal: Colocar la curva como capuchón
+Vamos a suponer que empezamos con cañería vamos a suponer que empezamos con cañería de hierro y no tuvo la mejor idea la empresa y el electricista colocar la **curva como capuchón**.
+
+Preguntar (capuchón): A ver no tenemos caño de hierro ponía como un capuchón o sea quedaba esto y en vez de terminar todo su recorrido con una curva adecuada todo embutido, le ponían otra curva acá no más directamente. Porque la curva a veces tiene un... 
+Alumno: Sin cupla?
+Profesor: Sin cupla sin nada, o a veces con cupla porque dejaban así.
+Profesor: Claro entran acá y ahí ya le cambian y siguen el... Entienden?
+Alumno: Yo vendo mangueras y me han comprado manguera de media para hacer la instalación para la losa. Porque un tipo me compró varios rollos, yo pensé que era un lavadero. 
+Ayudante: ¿Qué corrugado?
+Alumno: No manguera. Y el tipo me dice no para las instalaciones eléctricas.
+Profesor: Así no más es.
+Alumno: Yo le vendí.
+###### Chiste que ni me dí cuenta 
+Profesor: Y sí. **No, pero a su vez es interesante porque en algunos casos más en las losas empieza a entrar agua y después ya utiliza ese caño para...** XDDD 
+Alumno: La manguera
+Profesor: No, ese está prohibido.
+Alumno: Ahora con el curso este uno se da cuenta.
+###### En Paraguay usan mangueras en vez de caño. En algunos países está permitido XD.
+Profesor: Anteriormente, vieron que Paraguay incrementó la cantidad de edificios y se veía las mangueras ahí. Y hay lugares en el mundo que se utilizan mangueras. Ustedes ven una caja de paso y un tipo colocando mangueras para nosotros no está permitido pero en otros lugares se nota que sigue esa forma.
+Alumno: La manguera no se que...
+Ayudante: La que usas para lavar el patio de tu casa, esa.
+Profesor: Entienden? Esto no se debe hacer entonces:
+
+###### No se debe hacer: Cambio un sistema cañería de hierro o PVC lo que si puedo hacer es que todo siga hasta esta boca de hierro y después cambio a PVC. Debo llegar a una boca.
+Alumno: Si o si ortogonales, nunca cuadrada?
+Profesor: Y también puede ser que vos tengas cuadrada acá y no hay problema porque es una caja o sea que puedo llegar a la caja y de ahí salir con otro tipo de canalización no hay problema.
+Ayudante: Vos podes llevar hasta cualquier boca lo que **no tenés que empalmar los materiales en el caño en el medio**.
+
+###### Definición de boca.
+Alumna: Cuando dice boca, es la caja o por ejemplo ahí tengo 2 bocas en una caja. Ahí que tengo 2 enchufes.
+Ayudante: No. Boca es donde uno coloca el bastidor, adonde llega el cable eso es la boca.
+Profesor: Y tenga 220 generalmente.
+Alumna: Eso se cobra por boca?
+Profesor: Por boca, **vamos a suponer que yo tengo toma ahí eso es una boca**. Esto es toma porque tengo energía 220 acá. Ahora esto solo no es una boca, esto solo no es una boca, esto solo con la tecla con el interruptor es una boca. 
+
+O sea todo este sistema acá esto acá hasta acá es una boca.
+
+
+Alumno: Ah no es que por ejemplo yo calculaba... 2 luces es 1 boca.
+###### Dos luces con una llave de punto: Podés cobrar 1 boca y media.
+Profesor: Es una boca... O acá por ejemplo vos podés colocar estas 2 luces poner con una sola llave de punto y podés cobrar 1 boca y media más de eso no, porque puede ocurrir que tengas que picar la pared. Y después arriba lo único que haces es colocar la boca ahí unir la otra boca acá. Entonces no tenés mucha demora en tu trabajo porque este está haciendo ya la alimentación picar la pared ir arriba y ahí ir a otras bocas. **Entonces es una boca y media más de eso no podés cobrar**.
+
+Ahora si vos querés fíjense acá por ejemplo
+
+Yo de vez en cuando trabajando para algunas empresas todas las aulas son de 6 artefactos y los ventiladores, los ventiladores especialmente 1 boca. 
+###### Por cada ventilador 1 boca
+###### Iluminación: si yo tengo 3 iluminación acá y 3 allá. En una misma caja tengo 2 llaves o 3 de acuerdo a la cantidad de luces que quiero que prendan juntas o 2 y 2. 
+Entonces no le puedo... De vez en cuando le perdono y le digo bueno le doy por lo menos 3 bocas porque después dicen **que los valores son bajos**, mentira pero ellos ganan guita y bueno. 
+
+Al tuyo lo que te hago es... Está bien sácame de acá pero allá poneme hermano todo una bandilla que venga de acá para allá ¿? (Hora 02:05)
+
+Entonces ahí todo luchar...
+Alumna: Negociar.
+Profesor: A mi me interesa que el tablero tenga las protecciones adecuadas y la mejor termomagnéticas entonces... Ellos dicen: "no necesito un disyuntor no más" ¿? (Hora 02:05)
+
+###### Cuánto cobrar por el recableado.
+Pero siempre es cuestión de hablar eso. Fíjense que hay gente que hace **recableado** y el recableado es de distintos precios para que ustedes entiendan vamos a suponer ya que estamos hablando de bocas. Yo tengo la canalización hecha. Se hace la canalización. Y se cobra un valor en porcentaje de esa canalización para el tema de canalización.
+
+Vamos a suponer siempre en canalización **se cobra un 60%** porque ustedes tienen que embutir volver a fijar las cajas dar todas las posibilidades. 
+###### Entonces esa canalización se hace a un 60% del valor de las bocas.
+Y el tema del cableado, tengo cableado cableado es un 40% entonces que ideas tiene que tener ustedes.
+
+Vamos a suponer en el mejor de los casos estamos hablando de mano de obra y si la mano de obra nuestra: una boca terminada, vamos a poner un valor. Después le voy a dar un valor real. Tenga un valor de 40 pesos la boca más o menos.
+
+
+Supongamos que la boca tenga un valor de 40 pesos la boca.
+Ayudante: Creo que está como 20 ahora la boca (20 mil)
+Profesor: Como 20 si 29 está el cableado la canalización... 40 lucas te sale. No, está más caro.
+Alumno: 25 mil estaba para el...
+Profesor: No, nono.
+Alumno: Ayer yo ví en el...
+Ayudante: Aplique o boca no es lo mismo.
+Alumna: 40 me sabe a poco.
+Alumno: A la tabla esa yo le saqué una foto (la foto de la clase pasada).
+###### Como cobrar canalización y cableado.
+Profesor: En síntesis, vamos a suponer un mínimo, entonces si es 40 mil pesos: 1 boca. Van a tener que picar, no quiere picar la ¿? (hora 02:07) entonces para hacer un ejemplo sea **24 mil sería la mano de obra por canalización** y lo otro recto que sería **16 el cableado** entienden?
+
+Ayudante: Sí, 22, 20 la boca de canalización.
+Profesor: Esto va por boca entienden lo que les quiero decir.
+
+###### En un valor real por boca ustedes hacen 1ero la canalización y después el cableado entonces cobran el 60% de la cañería del porcentaje de por boca que ustedes hagan cobran ese precio y después el 40% cuando terminen el cableado.
+Alumno: Esta pared cuántas bocas tiene?
+Profesor: A ver, vamos a pensar del tablero para allá, no el tablero para allá ¿?. El tablero ese tiene 2 bocas, que tienen 2 tomas. Y después tenes 1,2,3 y la llave de punto que máximo podría ser 2 bocas pero 1 boca y media sería así. O sea tenés 3 bocas y media: 1, 1 y por cada toma 1 boca.
+###### La pared tiene 3 bocas y media. Por cada toma 1 boca.
+Alumno: Por todo eso le tengo que cobrar 160 mil pesos. Caro.
+Alumno2: No es caro, es barato.
+
+Yo quiero que se fijen cuando entren a Internet y vean el tema de cañerías y el tema del cable. Hoy un rollo de cable sale arriba **de los 100 mil pesos** cada 100 metros.
+
+Alumno: Al contratista le gusta tu comentario.
+
+Profesor: Entonces una vez que empieces a ver el tema de los materiales, 1ero le tienen que canalizar el tema de el propietario le compre los materiales. Si ustedes compran los materiales, me pone la mano de obra es otro...
+
+###### Preguntar sobre cobro canalización y cableado por el recableado no se suma 60% más 40% porque ya la canalización está hecha.
+Alumno: Y cuánto tiempo lleva hacer todo eso?
+Profesor: Uno rápido: 1,2,3,4,5 y ponele en 2 horas tenés que hacer porque es todo exterior. No tenés que picar pared nada por el estilo.
+
+Ayudante: 22 la boca.
+Profesor: Lo ideal es trabajar de a 2 ahí, entonces uno marcá uno poné las cosas poné el otro arriba arriba, pero tardás un tiempito.
+Alumno: Nos vemos mañana.
+Alumna: 1ero el cálculo es: **tengo 3 bocas de 20 mil, son 60 mil. Y tengo que sacarle el 60% de 60 mil  y le sumo y después saco el 40% de 60 mil**. Así sería?
+Profesor: Vamos a suponer que vos tengas 3 bocas terminadas. Entonces 3 bocas terminadas son 120 lucas (40 mil por cada una). Terminado con cableado y todo.
+Alumno (refrigeración): El 60% de 120 mil la cañería, el 40% de 120 mil el cableado. Si vos hacés todo el laburo porque por ahí vos haces boca no más.
+Alumna: Al precio de la boca le tengo que sumar el 60% del 120 mil y el 40% y hago todo.
+Profesor: No sumas sino que sacarle el porcentaje.
+Alumna: Le saco pero después le sumo.
+Profesor: No, vos tenés 120 mil pesos las 3 bocas. De eso vos haces solo 3 bocas canalización.
+Alumna: ¿Cuánto sale la canalización de esas 3 bocas? El 60% de 120 mil?
+Profesor: No. Primero vos tenes que pensar que tu boca es 40 mil. Tenes las 3 bocas que vos hiciste son **haciendo la canalización sola** multiplicá 24x3 (60% de 40 mil = 40x0,6)... 72 mil es tu peso solo la canalización solo la obra de la canalización. El porcentaje es esto. No sé si me entendés vos tenés tu valor por cada boca es 40 mil pesos.
+Ayudante: Por cada boca terminada y cableada.
+Profesor: De ese valor por una boca vos sacás el 60% para canalización y el 40% para cableado. No me cuentes por tu espalda. 
+Alumno: Eso ya es cuando es una construcción de 0.
+Profesor: Exacto.
+Alumno: Normalmente vos vas a ir a una casa y ya está hecho el cableado y la canalización.
+###### Ayudante: Por eso hay una página que pone cuánto es el precio del **recableado** porque ya tiene hecho esa división.
+Profesor: Pero es así.
+Alumna: Y no es como la obra que te dicen 50 de materiales y 50 mano de obra.
+Profesor: No eso es de **herrería**.
+Alumno: Hay algunos presupuestos así como la herrería pero perdes guita vos.
+Profesor: No eso es de herrería. En herrería sí.
+Ayudante: Siempre el recableado es menos trabajo porque tu cañería ya está.
+Alumna: A la persona si yo le voy a hacer las 4 bocas (se equivocó 3 bocas) son 120 mil con canalización y cableado.
+Alumno: No ese es el precio. 120 son 3.
+Alumna: 3 bocas = 120 mil con canalización y cableado.
+Profesor: Exactamente.
+Alumna: Listo
+Profesor: Y ahí el porcentaje de esa 3 bocas vos haces, el 60% canalización sola y 40% del cableado.
+Alumna: Si pero ese es mío, es para mi, es para saber, yo voy a ganar 120 mil no más.
+Profesor: Si si. 
+Alumno: Y para inspección ocular ya antes 22 mil.
+Profesor: Sí, si.
+Alumno: Inspección ocular, evaluación diagnóstico ascesoramiento.
+Ruido ruido ruido.
+Alumno (refrigeración): Tomate un mate no sé que más.
+Ayudante: Inspección ocular significa que tenes que abrir todas las bocas y encontrar la falla.
+Alumno: Sí para disimular sí.
+Ayudante: O sea no es que yo abro la tapa y miro.
+Alumno (refrigeración): Te tomás una uvita una chipita y 80 lucas (boludeces).
+Alumno (refrigeración): Hasta mañana gente. Va ir para arriba el millo (fútbol).
+Yo: Nos vemos.
+Alumno: A qué hora?
+Alumno (refrigeración): Ahora.
+
 
 
 ---
 
-Hora 1:50
+Hora 02:08:47
 
