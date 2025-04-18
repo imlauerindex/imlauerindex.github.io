@@ -1,5 +1,5 @@
 ---
-title: "Montar android como almacenamiento usb"
+title: "Montar android como almacenamiento usb: MTP"
 date: 2025-01-07T12:40:03-03:00
 tags: ['android']
 ---
