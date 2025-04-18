@@ -222,7 +222,6 @@ images = true
 copy-cmd = "wl-copy"
 [siteconf.hn]
 cookie = "save"
-
 ```
 
 ###### Duckduckgo desde la terminal
@@ -349,6 +348,14 @@ sudo emerge -va gimp
 https://youtube.com/playlist?list=PLySnTFv9rBnSyQEw1RHSR3g-ZAowjegBm
 
 Ahora bajate youtube-upload desde GitHub: https://github.com/tokland/youtube-upload y ejecutá el binario ;)
+
+###### Masked packages
+```bash
+sudo touch /etc/portage/package.accept_keywords/zzz_automask
+sudo emerge -vag sys-kernel/linux-firmware --autounmask-write --autounmask
+sudo dispatch-conf - u
+sudo emerge -vag sys-kernel/linux-firmware
+```
 
 ---
 
