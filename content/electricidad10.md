@@ -20,7 +20,6 @@ https://archive.org/details/catalogo-tubelectric
 * Ley de Kirchoff     
 * Conductor taller está permitido.     
 * Las bandejas de baja tensión tiene que estar arriba de la de alta tensión en caso de caída.     
-* Vamos a la parte de instalaciones subterráneas que vinos ahí     
 * Hay que hacer un caño camisa para nueva parte     
 * Como mínimo 3/4 sino 19/16 o 19/17 que son cañerías de hierro.     
 * Caño corrugado blanco no se propaga el fuego.     

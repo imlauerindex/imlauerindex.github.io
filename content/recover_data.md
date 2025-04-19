@@ -1,5 +1,5 @@
 ---
-title: "Recover data"
+title: "Como recuperar particion: Formatee una partición de ext4 como swap por accidente."
 date: 2025-04-18T09:24:49-03:00
 tags: ['data','recovery']
 ---
