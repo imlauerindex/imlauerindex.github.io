@@ -278,7 +278,17 @@ echo ">=net-vpn/nordvpn-3.16.6 ~amd64" > /etc/portage/package.accept_keywords/no
 sudo emerge -va net-vpn/nordvpn
 ```
 
-Instalar OBS: https://forums.gentoo.org/viewtopic-t-1150271-start-0.html
+**Instalar OBS**: https://forums.gentoo.org/viewtopic-t-1150271-start-0.html
+**Grabar pantalla con OBS**: https://old.reddit.com/r/swaywm/comments/xldx5c/how_to_record_in_obs_studio_in_sway/
+
+```
+[I] atavistic11@netbook ~> cat /etc/portage/package.use/obs-studio
+media-video/obs-studio pipewire
+[I] atavistic11@netbook ~> cat /etc/portage/package.use/xdg-desktop-portal
+gui-libs/xdg-desktop-portal screencast
+[I] atavistic11@netbook ~> sudo emerge -va xdg-desktop-portal xdg-desktop-portal-wlr obs-studio
+```
+
 ```bash
 sicro@sicro ~ $ cat /etc/portage/make.conf
 ...

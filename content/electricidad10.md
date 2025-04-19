@@ -39,7 +39,7 @@ https://archive.org/details/catalogo-tubelectric
 * Si van a trabajar con corrugado utilicen un caño de sección mayor.     
 * La curva debe ser mayor de 90 grados para que entre la cinta y pase los cables.     
 * Terminantemente prohibido el anaranjado no se debe utilizar: tóxico, se propaga el incendio y yo piso y esto se desforma.     
-*  **NO fijar las cañerías sino que tengo que fijar 1ero las cajas. Fijo las cajas 1ero y después hago la distribución si va para arriba para abajo para el costado, siempre en forma ortogonal**. Fijar cajas en tirante.    
+*  **NO fijar las cañerías sino que tengo que fijar 1ero las cajas. Fijo las cajas 1ero y después hago la distribución si va para arriba para abajo para el costado, siempre en forma ortogonal**. Fijar cajas en tirante o planchuela.    
 * La caja cuadrada se usa para una derivación o conexión. Menos de 15 metros, 12 metros tengo que poner una caja de paso. La caja de paso va a 0,30 del nivel del cielo raso en forma vertical. No puedo tener una boca de más de 15 metros respecto de la otra.     
 * La caja de paso se usa porque el recorrido es muy largo. No es necesario cortar se puede hacer el bucle.     
 * Montante vertical y horizontal     
