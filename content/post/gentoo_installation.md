@@ -167,6 +167,19 @@ eix wifite
 sudo emerge -va wifite
 ```
 
+###### Masked packages
+```bash
+sudo touch /etc/portage/package.accept_keywords/zzz_automask
+sudo emerge -vag sys-kernel/linux-firmware --autounmask-write --autounmask
+sudo dispatch-conf - u
+sudo emerge -vag sys-kernel/linux-firmware
+```
+**Otra forma**:
+```bash
+echo ">=net-vpn/nordvpn-3.16.6 ~amd64" > /etc/portage/package.accept_keywords/nordvpn
+sudo emerge -va net-vpn/nordvpn
+```
+
 Instalar OBS: https://forums.gentoo.org/viewtopic-t-1150271-start-0.html
 ```bash
 sicro@sicro ~ $ cat /etc/portage/make.conf
@@ -392,13 +405,6 @@ https://youtube.com/playlist?list=PLySnTFv9rBnSyQEw1RHSR3g-ZAowjegBm
 
 Ahora bajate youtube-upload desde GitHub: https://github.com/tokland/youtube-upload y ejecutá el binario ;)
 
-###### Masked packages
-```bash
-sudo touch /etc/portage/package.accept_keywords/zzz_automask
-sudo emerge -vag sys-kernel/linux-firmware --autounmask-write --autounmask
-sudo dispatch-conf - u
-sudo emerge -vag sys-kernel/linux-firmware
-```
 
 ---
 
