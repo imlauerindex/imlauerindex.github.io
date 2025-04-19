@@ -153,6 +153,12 @@ Ahora en `/usr/bin/firefox-bin` a la última línea agregá `apulse` (por el aud
 
 Listo.
 
+###### Cuando agregás flags USE tenés que ejecutar
+```bash
+emaint --auto sync
+emerge --ask --verbose --update --deep --newuse @world
+```
+
 
 ###### Borrar un paquete
 ```bash
