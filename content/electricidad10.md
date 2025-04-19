@@ -1,5 +1,5 @@
 ---
-title: "Electricidad Clase 10 / Continuamos con canalización"
+title: "Electricidad Clase 10 / Continuamos con canalización: cupla, desperdicio de caños, caño corrugado, conductor taller, bandejas de baja alta tensión, medida caños, mezclar hierro con PVC no es recomendable pero hacerlo a través de una caja de paso. Corrugado blanco es ignífugo. Fijar cajas en tirante o planchuelas. Montaje horizontal, vertical. RL/RS nomenclatura hierro. Como cobrar canalización y cableado y el recableado."
 date: 2025-04-08T21:45:57-03:00
 tags: [electricidad]
 ---
@@ -30,9 +30,7 @@ https://archive.org/details/catalogo-tubelectric
 * RL y RS es nomenclatura de hierro.     
 * Si ustedes van a comprar ustedes van a ElectroMisiones, piden cañería de 3/4, 5/8 7/8 o 1 pulgada. No dicen denme el caño de 19/16 o si es PVC 20 o si es el otro 22. Piden ya la característica que necesitan para hacer las cosas.     
 * Yo tengo que tomar el mayor valor decimos que por norma la tierra es 2,5mm^2 de sección para todo el recorrido es el verde amarillo.      
-* Como usar la tabla para sacar medida de caño.     
-* Entonces, ¿qué se hace normalmente?     
-* 3 conductores. Entonces esto recorre acá y acá tengo 2,5 la sección de conductores que son 3. Entonces donde me une este con este, me va a dar el caño que yo necesito según la tabla. Pero me da el caño mínimo de ahí para arriba.     
+* Como usar la tabla para sacar medida de caño: 3 conductores. Entonces esto recorre acá y acá tengo 2,5 la sección de conductores que son 3. Entonces donde me une este con este, me va a dar el caño que yo necesito según la tabla. Pero me da el caño mínimo de ahí para arriba.     
 * El profesor mínimo usa 3/4 por más que el cálculo le de 5/8     
 * El de 5/8 solo se usa en línea recta     
 * El profesor utiliza siempre uno más 3/4 y 7/8.     
@@ -42,8 +40,7 @@ https://archive.org/details/catalogo-tubelectric
 * Si van a trabajar con corrugado utilicen un caño de sección mayor.     
 * La curva debe ser mayor de 90 grados para que entre la cinta y pase los cables.     
 * Terminantemente prohibido el anaranjado no se debe utilizar: tóxico, se propaga el incendio y yo piso y esto se desforma.     
-*  **NO fijar las cañerías sino que tengo que fijar 1ero las cajas. Fijo las cajas 1ero y después hago la distribución si va para arriba para abajo para el costado, siempre en forma ortogonal**.     
-* Generalidades para instalación de cañería embutida, que debemos hacer o qué generalidades debemos cumplir para poder hacer cañería embutida.     
+*  **NO fijar las cañerías sino que tengo que fijar 1ero las cajas. Fijo las cajas 1ero y después hago la distribución si va para arriba para abajo para el costado, siempre en forma ortogonal**. Fijar cajas en tirante.    
 * La caja cuadrada se usa para una derivación o conexión. Menos de 15 metros, 12 metros tengo que poner una caja de paso. La caja de paso va a 0,30 del nivel del cielo raso en forma vertical. No puedo tener una boca de más de 15 metros respecto de la otra.     
 * La caja de paso se usa porque el recorrido es muy largo. No es necesario cortar se puede hacer el bucle.     
 * Montante vertical y horizontal     
@@ -62,17 +59,17 @@ https://archive.org/details/catalogo-tubelectric
 * Después del grueso viene el fino.     
 * Las empresas contratan por boca y por trabajo y no por tiempo determinado, porque sale más barato contratarle así.     
 *  Lo malo de vez en cuando es que capaz que él hizo las cañerías y después ya contrató a otro para hacer el cableado y si no tienen el mismo canon la misma formación es probable que este le cueste le cueste el doble porque no le dejó nada se llevó los planos.     
-*  Toda cañería empieza y termina en una boca o caja lo que sea.     
-* Lo ideal es que yo empiece y termine con un mismo material en caso de cambiar hacerlo cuando llega a una boca.     
+* Toda cañería empieza y termina en una boca o caja lo que sea.     
+* Lo ideal es que yo empiece y termine con un mismo material en caso de cambiar hacerlo cuando llega a una boca. 
 * Mal: Colocar la curva como capuchón     
 * Dos luces con una llave de punto: Podés cobrar 1 boca y media.     
-* Por cada ventilador 1 boca     
+* Por cada ventilador: 1 boca     
 * Iluminación: si yo tengo 3 iluminación acá y 3 allá. En una misma caja tengo 2 llaves o 3 de acuerdo a la cantidad de luces que quiero que prendan juntas o 2 y 2.      
 * Cuánto cobrar por el recableado.     
-* Entonces esa canalización se hace a un 60% del valor de las bocas.     
+* La canalización se hace a un 60% del valor de las bocas.     
 * Como cobrar canalización y cableado.     
-* En un valor real por boca ustedes hacen 1ero la canalización y después el cableado entonces cobran el 60% de la cañería del porcentaje de por boca que ustedes hagan cobran ese precio y después el 40% cuando terminen el cableado.     
-* La pared tiene 3 bocas y media. Por cada toma 1 boca.     
+* En un valor real por boca ustedes hacen 1ero la canalización y después el cableado entonces cobran el 60% de la cañería del porcentaje de por boca que ustedes hagan, cobran ese precio y después el 40% cuando terminen el cableado.     
+* La pared del aula tiene 3 bocas y media. Por cada toma: 1 boca.     
 * Sobre cobro canalización y cableado por el recableado: no se suma 60% más 40% porque ya la canalización está hecha.     
 * Hay una página que pone cuánto es el precio del **recableado**.
 
