@@ -2,6 +2,7 @@
 title: "Acerca de Mi"
 date: 2024-07-27T03:01:07-03:00
 ---
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk2gBEvpo3-v4hjNDk8eVWFOmy6APxSzxXHOSQJcRee4uIgq-ZHDb8ynXUYhVLPUMenhiQ9ejbxYF7DqUeM9v7z_USYed9Sw54hhOrvUk_fGo1CzGUy1SVbZ_afFvC9twcUY8RrSHJLfe2JVC4U3nMSRxuhtF3u6taK3A4KReSRTrsoChgK5aD8Xdq97x9/s640/mpv-shot0002.jpg)
 
 Todo lo que necesitás saber sobre mi está en https://imlauerandres.github.io  
 

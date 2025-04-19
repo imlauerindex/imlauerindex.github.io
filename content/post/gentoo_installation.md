@@ -153,6 +153,26 @@ Ahora en `/usr/bin/firefox-bin` a la última línea agregá `apulse` (por el aud
 
 Listo.
 
+Instalar OBS: https://forums.gentoo.org/viewtopic-t-1150271-start-0.html
+```bash
+sicro@sicro ~ $ cat /etc/portage/make.conf
+...
+INPUT_DEVICES="libinput mouse keyboard synaptics"
+USE="elogind -systemd swaybar wayland X xorg dbus wifi hwaccel jpeg git ssh threads persist postproc cups text bluetooth icu nss pulseaudio minizip -kde gui curl gnuplot opengl readline vulkan googledrive cairo egl pdf acpi alsa speex v4l lua screencast x264 npm gtk gtk3 -doc udev -networkmanager"
+VIDEO_CARDS="amdgpu radeonsi radeon"
+...
+
+sicro@sicro ~ $ cat /etc/portage/package.use/obs-studio
+media-video/obs-studio pipewire
+
+sicro@sicro ~ $ cat .config/sway/config
+...
+exec gentoo-pipewire-launcher
+exec --no-startup-id /usr/libexec/xdg-desktop-portal -r
+...
+I don't know exactly how I solved it, I called in the Sway config file xdg-desktop-portal-wlr instead of xdg-desktop-portal- and emerge Wireplumber and at the next boot it worked on OBS and Firefox. Discord still doesn't work but after months of trying to solve this I'm just gonna celebrate this and fix it later
+```
+
 
 ###### Borrar un paquete
 ```bash

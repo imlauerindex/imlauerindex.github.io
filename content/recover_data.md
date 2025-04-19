@@ -5,6 +5,8 @@ tags: ['data','recovery']
 ---
 Formatee una partición de ext4 como swap accidentalmente. Que capo.
 
+ChatGPT me dió respuestas boludas durante 1 hora estuve boludiando con eso. El 1er resultado de Google me dió la respuesta.
+
 ```bash
 sudo blkid /dev/sda5
 
