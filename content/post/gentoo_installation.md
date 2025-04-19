@@ -153,6 +153,20 @@ Ahora en `/usr/bin/firefox-bin` a la última línea agregá `apulse` (por el aud
 
 Listo.
 
+#### Agregar repositorio pentoo (herramientas hacking):     
+```bash
+sudo emerge app-eselect/eselect-repository
+sudo emerge eix
+sudo eix-update
+eix wifite # busca
+sudo eselect repository list 
+sudo eselect repository enable pentoo
+cat /etc/portage/repos.conf/eselect-repo.conf
+sudo emaint sync -a
+eix wifite
+sudo emerge -va wifite
+```
+
 Instalar OBS: https://forums.gentoo.org/viewtopic-t-1150271-start-0.html
 ```bash
 sicro@sicro ~ $ cat /etc/portage/make.conf
