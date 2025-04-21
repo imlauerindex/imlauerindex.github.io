@@ -53,9 +53,146 @@ Alumno: Lo que pasó es que cambié en mi casa cosas así yo no tenía ni idea y
 Profesor: La otra vez mandé a solucionar el tema de los 380 dentro de la instalación de la escuela. Quedaron pegados algunos cables pero el principal problema que tuvieron es que el morceto no agarraba bien el neutro entonces cuando consumían ese neutro no estaba bien apoyado, es lo mismo que que tiene que estar bien sujeto los cables. Entonces ese morceto cuando apretó el neutro a la calle hacía falso contacto. Costaba que el neutro se desligue y entonces por ese neutro entraba por el campo magnético una fase más. Entonces te daba 380 y hoy otro algo parecido una escuela acá C64 (Monseñor de Andrea) tuvo problemas así que mandamos a la empresa para que, ya la misma que se fue allá a arreglar con la experiencia que tienen allá. 
 
 ¿Qué hizo la empresa?
-Revisó toda la instalación primero volvieron a llamar a EMSA y dijieron que revisen bien el neutro ahí, entonces cambiaron el morceto y toda la parte de instalación de afuera con sus correspondientes medidas. Entonces lo que pasó 
+###### Empresa cambió morceto
+Revisó toda la instalación primero volvieron a llamar a EMSA y dijieron que revisen bien el neutro ahí, entonces cambiaron el morceto y toda la parte de instalación de afuera con sus correspondientes medida. Entonces lo que pasó sujetan un neutro sigue del tablero general para adentro el estudio de toda la instalación ya tenía seguro que el neutro ya estaba funcionando bien entonces lo que hicieron por partes es revisar porque en uno de esos encendidos el tema es que la... Los artefactos se unieron entonces quedó unido el neutro a un ¿? (Minuto 24) y quedaba 380. Entonces quedó unido al neutro y te daba 380.
+
+###### Al bobinado le llega 380 y quema
+Una vez que se arregla la alimentación hay que revisar todo boca por boca. Lo otro que se quemó fue el motor que andaba a 220 y llegó 380. Por eso yo les dije que si yo tengo un ventilador y tengo 220 normalmente como estaba previsto el bobinado anda y funciona normal ahora yo le doy 380, esa velocidad aumenta y aumenta la corriente llega a un térmico que se quema o pierde la aislación el bobinado y después se quema el botón. Hay que parar en ese sentido por más lindo que esté el aire.
+
+###### En épocas de tormenta entra la fase por el neutro o ramas de árboles que caen sobre la líneas y perjudican el sistema
+Son cosas que ocurren generalmente en épocas de tormenta el viento los movimientos de los cables por más preensamblado le hace estos movimientos puede haber árboles con ramas o perjudique en el sistema o caiga sobre la línea y también se perjudica.
+
+###### Uniones en cables de aluminio, se puede tocar la fase con tensión mientras estemos aislados (sentiremos cosquilleo).
+La otra vez estaba mirando un video justamente cuando estamos haciendo la unión de cables, mostraba la línea y que estaba un tipo arreglando un cable de aluminio eso es más difícil porque hay que hacer conexión de seguridad tipo preensamblado pero requiere más técnica para hacer eso, y comentaba que cualquier persona podemos tocar el vivo y hacer la unión (cola de rata) lo que sea tocando los cables siempre y cuando tengamos una aislación que si pasa corriente no baje y pase por nuestro cuerpo se puede hacer el tema es que hay gente que ya es experta, no tienen problema nosotros que recién empezamos sentimos cosquilleo y queremos rajar (irse).
+
+###### Pajaritos en la línea: siempre y cuando esté aislado se puede trabajar con tensión.
+Y después muestra como un pajarito está en la línea en los conductores desnudos que es la fase y el tipo no... Ahora llega a poner la patita en la otra y... Pero eso es lo que quiero que entiendan.
+
+###### Accidente en Lopez y Planes y Lavalle (rapipago): Se recomienda aislamiento total hasta el tipo. El tipo tenía tantos elementos de sujeción que toda la corriente pasó por él y lo quemó.
+###### El arco que hace ese campo magnético puede ocasionar que descargue por tu cuerpo, es aconsejable tener puesta a tierra abajo.
+Siempre y cuando esté aislado se puede trabajar con tensión. El caso que ocurrió ahí en Lopez y Planes y Lavalle (rapipago), ahí lo que aconsejaban primero es que esté aislado todo el sistema hasta el tipo. Entonces lastimosamente el tipo tenía todo elemento de sujeción, de **tanto que tenía elemento de sujeción la corriente pasó por el y le quemó todo adentro** y más de la distancia que tenía con la parte 
+Y más de la distancia con la que tenía con la parte de arriba, fíjense que hasta ahora que yo he pasado **sigue el cartel sin terminar** pero es importante el tema de media y alta tensión tener el tema de seguridad ¿? (Minuto 28) porque el arco que hace eso campo magnético puede ocasionar que la descarga descargue por tu cuerpo en esos casos siempre aconsejan tener una **puesta a tierra abajo** y que en cualquier cosa la descarga vaya a tierra.
+
+Le quería mostrar un plano eléctrico para que ustedes vayan viendo como es un plano proyectado que se puede armar todo lo que ustedes pueden ver ahí. Nosotros estamos en ¿?
+
+###### Antes el profesor no daba el catálogo porque los gabinetes eran solo para gente de Buenos Aires (PVC). Hoy en día sí vamos a utilizar gabinetes de PVC (es obligación).
+###### Antes había gabinete de chapa hoy en día eso cambia el medidor va a estar en ese gabinete solo el medidor, y arriba hay unos tableros de distintos termomagnética 
+Hay distintos catálogos generalmente los más interesantes son los de GENROID acá entonces traté de mandarle todo lo que está ahí para que ustedes vayan viendo. A veces ustedes van a empezar a leer o algo por el estilo mirar. Una cosa hoy en día antes no daba esto porque al empezar la parte del catálogo la parte de medidores, ya te empiezan a trabajar como si fueras gente de Buenos Aires con los gabinetes todo de PVC hoy en día a nosotros eso no nos servía o sea que para qué le íbamos a mandar eso, hoy en día ya esos catálogos de esos gabinetes nosotros vamos a poder utilizar. O sea tenemos que utilizar y eso nos sirve para tener una idea exacta de qué característica tiene que dimensiones como van los cables, hay cosas que es la última parte, están los gabinetes de edificio puede tener distintos gabinetes. **Creo que monofásico 8, trifásico 6 pero son los tipos de gabinetes y nosotros antes teníamos la alimentación toda de chata por abajo acá subía acá un sistema de barra iba a cada medidor y del medidor salía una térmica y esa térmica manejaba la alimentación a cada departamento, ese es el gabinete de chapa que teníamos nosotros. Hoy en día eso cambia el medidor va a estar en ese gabinete y arriba hay unos tableros de distinto termomagnética o sea que la alimentación llega hasta acá, el gabinete baja la térmica de cada departamento y ese departamento va para arriba**, después van a ver las fotos ahí. A veces es interesante proyectar la imagen y que alguien que más o menos entienda, algo. Entonces le muestre como es la instalación por eso traje para que la idea de que el catálogo no sea una simple revista entiendan que es lo que se está haciendo y para que sirve lo que están aprendiendo porque sino... Que es la realidad exacta.
+
+###### Profesor mandó catálogo de PVC.
+Después vamos a ver si tenemos suerte, todo eso ustedes lo pueden ver tranquilamente o bajen en las computadoras entonces ven las imágenes todo lo que ustedes quieran. La idea es que tienen un catálogo actualizado de lo que se viene a nivel comercial y el sistema de PVC y esas cosas. 
+
+###### Así como esta tabla tiene exclusivamente para caños metálicos hay otra tabla que es para PVC.
+También me da los tipos de caños que tenían caños memoria y le va dando distintas características de los más cotizados ahí aparece el caño de PVC que tiene sección mayor que tiene una durabilidad que va a reemplazar al caño de hierro. Todo eso está puesto en ese catálogo y después en otro catálogo que le voy a... Ahí aparece una casa hecha directamente con el catálogo de GENROD el cuadradito este. 
+
+Catálogo general aparece este. A mi lo que más me interesa es que ustedes tengan en cuenta esta parte porque esto es lo que realmente quería tratar de hacer con ustedes conseguir ladrillo hueco y ver como realmente se hace la instalación dentro o embutida dentro de la mampostería o embutida entonces esto es lo que está ahí entonces aparece esto esto y esto así. Ustedes van a tener la posibilidad de visualizar sin ningún problema y tener como base eso. En síntesis ustedes tienen que saber dos cosas importantes como tengo sistema de canalización metálica o de PVC embutida o a la vista o exterior como ustedes quieran llamarle tienen que aplicar parte del reglamento si. Todo tiene, o todos los materiales que utilizamos tienen su respectivo accesorio, todo eso nos sirve a nosotros para poder hacer una instalación. Si hablan de cañería a la vista. Yo estoy tratando de darle un pantallazo de que vamos viendo despacio. Ruido (Minuto 35:50). Todo lo que nosotros aplicamos acá o vemos directamente se hace en la realidad, nosotros que somos instaladores yo también me considero parte de ustedes **vamos a recibir un plano o un proyecto o un bosquejo y a partir de ahí ese plano está en planta, solo en planta** por eso es importante que tengan en cuenta que eso es planta.
+
+Planta: un dibujo en la cuál se saca el techo y uno ve todo de arriba como están las paredes el tema de las aberturas.    
+###### Viga con todo el sistema de hierro
+###### Donde termina la viga dejan una altura de 10 mm para que el hormigón no se desparrame: se forma tipo un cajón, al final tiene un cartoncito de soporte para que el hormigón no se derrame, entonces va formando la losa.
+Nosotros tenemos que tener idea siempre a partir de donde tomamos o dimensionamos nuestras bocas, tenemos que tomar un punto fijo en este caso la pared o allá o lo que sea. Les digo esto porque **cuando estamos trabajando en losa continúa se arman las bases, siempre es una base de de madera** con esa base de madera aparecen las vigas, en donde van las vigas que son unos cajones ahí van las vigas con todo el sistema de hierro y a veces la gente después donde termina la viga o el cajón dejan una altura de 10 mm de una madera que es para que el hormigón no se desparrame para este lado porque se forma un **cajón de las vigas al parte del piso**. Al final tiene un cartoncito de soporte para que el hormigón que van poniendo no se derrame para acá entonces va formando la losa. Entonces **hay que ver desde donde tomamos las medidas para colocar las bocas de acuerdo a una escala determinada que era el plano o la silueta que nos están dando** para que podamos armar eso, vamos a hacer una representación chiquita para que ustedes vean donde van las bocas y como se toman las medidas acuérdense lo 1ero que dijimos es ver a qué distancia está de una boca a otra.
+
+Al ayudante: Traéme dos boquitas 
+
+###### Trabajaremos sobre imaginación de losa continua para armar como van las bocas.
+###### Nunca poner boca al revés, siempre para abajo.
+Entonces a partir de ahí tenemos que tener en cuenta que elementos utilizamos vamos a trabajar primero que es lo más fácil vamos a trabajar sobre una imaginación de una losa continua porque es más fácil para poder armar como van las bocas. Vamos a suponer que esta es la parte de madera y la boca siempre va... **Nunca pongan al revés**. Acá tengo unas medidas acá tengo otra medida. Generalmente tengo un conector y otro conector 
+
+###### ¿que es lo que se hace para medir?
+###### Como fijar las cajas: Hay que fijar si o si aunque sea en la madera por eso tiene agujeros. Algunos ponen un clavo con arandela para apoyar en la madera o con alambre entrecruzado, abajo papel de diario o bolsa de cemento.
+Esto tenemos que fijar aunque sea en una madera tenemos que fijar por eso tiene algunos agujeros para poder algunos ponen un clavo con una arandela para que esto apoye ahí directamente sobre la madera otros ponen alambre. Eso lo hacen entrecruzado para que esto no se mueva y abajo siempre tienen que ir... En algunos casos ponen papel de diario pero lo que siempre hay es la bolsa de cemento pero como eso es duro lo que hacen es mojar un poco.  Colocan esto y colocan esto.
+
+Una vez que tengo eso donde tendrá un metro.
+
+Vamos a hacer que yo tengo un metro acá imaginario.
+Alumno: 3 de estos son casi 1 metro.
+###### En este caso es losa pero podría ser este mismo sistema el que estuviera arriba en un sistema suspendido.
+###### Siempre fijo primero las bocas.
+Profesor: Si no pero es para que vean porque si esto está fijo, esto estamos haciendo en cuenta que en este caso es losa pero podría ser este mismo sistema el que estuviera arriba en un sistema suspendido **siempre fijo primero la boca**. 
+
+###### Fijo las bocas y tomo las medidas con los conectores puestos, no es necesario que llegue hasta acá porque no va a entrar: mitad y mitad de esto.
+###### Las cañerías de hierro tienen 1 elemento de sujeción: pequeño tornillo
+Una vez que fijo primero las bocas lo que tengo que hacer... Pasame tu caño ese que tenía en la mano... Fijo las bocas y tomo las medidas ya teniendo los conectores puestos porque eso es lo mínimo que vamos a hacer en cualquier lugar de la pared tengo que tomar las medidas no es necesario que llegue hasta acá porque no va a entrar. Mitad de esto más o menos y mitad de esto. Y si tengo cañería de hierro.... Pasame un conector.... Tengo la posibilidad de que esa cañería tiene **1 elemento de sujeción que es un pequeño tornillo**.
+
+Esto que ven acá es un elemento de sujeción entonces no mueve. Después tengo otro secretito.
+
+###### Tengo que tratar de que este caño pase el tornillo. La rosca tiene una cierta longitud que no me permite llegar el caño hasta allá.
+###### Si hago esto en suspensión tiene que estar para abajo porque voy a ajustar de abajo no de arriba.
+Esto me fija el caño entones en este caso por ejemplo, yo tengo que tratar de que este caño pase el tornillo. **Hasta allá no voy a poder porque esto como va enroscado tiene una cierta longitud la rosca que no me permite llegar caño hasta allá o sea que por más que haga va a hacer difícil si yo hago esto en suspensión este tiene que estar para abajo. Acuérdense que yo voy a ajustar de acá va a ser difícil ajustar de arriba, ajusto de abajo y hago esa característica**.
+
+###### Si está fijo para colocar el caño tengo que sacar 1 conector y ahí recién pongo el caño y junto con conector.
+###### Según el profesor trabajar con cañería de hierro es más fácil que PVC. El PVC es a presión.
+Si esto está fijo y amurado ya, **yo tengo que tener en cuenta que para colocar el caño tengo que sacar 1 conector**. Saco 1 conector y recién pongo el caño y junto con el conector... Esto está fijo: 1ero meto el caño de un lado y recién esto que es: movible pasa ahí y ahí recién ajusto a veces cuesta pero cuando trabajaba con cañería de hierro era mucho más fácil trabajar con cañería de hierro que con caño de PVC.
+
+Alumna: En ese caso el PVC es a presión? Cuando es PVC es a presión?
+###### Las cajas siempre están fijas. Un lado de los 2 tendrás que sacar un conector para colocar caños. 
+Profesor: Claro. Es a presión. Pero lo que te quiero decir es que esto está fijo. **Las cajas siempre están fijas entonces un lado de los dos vas a tener que sacar un conector para colocar caños**. Vos vas a medir de acá hasta acá, no vas a medir todo el caño porque no te va a dar la medida acá vos tenés una cierta... Como te puedo decir esto es medio cónico cuando llega a la parte se ajusta entonces tengo que buscar la forma... Esto es todo práctica así que al principio le va a costar pero después es más fácil para colocar...
+
+Otra particularidad que ustedes ven a ver en el catálogo que todas los elementos... Tráeme la curva ese que tenía ayer de este.
+
+###### Todas los elementos de unión sujeción curva lo que sea ellos tienen un núcleo que es tipo un cemento tipo la gotita y eso sirve de sujeción y una vez que está ahí el **endurecimiento del PVC con el líquido este** es más fácil cortar que... No se puede.
+
+###### Cuando hacen en el exterior no le colocan el líquido porque es difícil moverlo
+Que ventaja tengo de utilizarlo al exterior? He visto la gente hace coloca, vamos a suponer cualquier boca caja 5x10 lo que sea y como a veces no le entra bien va le baja saca pone y... Lo que quiero decir es que tengo la posibilidad de sacar esto moverlo bajarlo de acuerdo a las circunstancias, a veces es tan difícil también volver a pasar los cables a veces desconectan por eso en algunos casos cuando hacen en el exterior no le colocan el líquido.
+###### Distintos superficies o cielos rasos: la idea no es que esta boca que está más abajo o arriba este caño va y llega la bajada acá para que quede bien hay que trabajar con un sistema 
+He visto. Hay una parte del reglamento: lo ideal es hasta 2 curvas. Puede ser que en un sistema que yo tenga distintas superficie o distintos cielos rasos que esté un poco más bajo, la idea no es que esta boca que está más abajo o más arriba este caño este caño va 
+
+###### No es fácil trabajar con resorte para hacer la S. La mayoría pone baja y pone la otra baja.
+###### En un sistema de curva y contracurva es muy dífícil pasar la cinta pasacables.
+Ese es una S más o menos. Es difícil hacer una buena S para encausar la boca esa que tenía con otra que está a distinto nivel (47:54) y esto es una forma de trabajo artesanal cuando ustedes tengan el **resorte para poder hacer la deformación** esta es cuestión de trabajarlo y no es fácil. La mayoría pone hágase cuenta esto, pone baja y pone la otra baja (otra curva) entonces hace un sistema de contracurva (como una S), esto ocurre también en PVC o si tuviera caño de hierro lo mismo, esto se llama un sistema de contracurva y es muy difícil pasar la cinta pasacables.
+
+Fíjense que estamos con una reglamentación que tengo 2 curvas. Si pongo 3 otra curva más peor todavía esto puede seguir acá llega acá que tengo que hacer la bajada y tengo que hacer otra curva. Entonecs que se suele hacer? Esto es todo práctica y se van a dar cuenta cuando tengan algún problema como podemos solucionar ese tema, pero antes de eso le voy contando como se soluciona... Vieron que interesante tener un ayudante.
+
+Alumno: Si yo estaba mirando pero no me imaginaba como era la losa
+Profesor: Lo que aparece ahí es un dibujo de una losa continua ese corrugado entonces es más fácil para tirar, se tira para abajo. Estamos contando algunos secretos que con el tiempo ustedes van a saber.
+#### Lo primordial es siempre que yo fije la boca tome las medidas.
+Ahora vamos a ver un dibujito práctico porque puede ser que el día de mañana dicen yo quiero colocar 2 bocas acá y centradas. Vamos a colocar bocas centradas. Lo importante que tengan en cuenta que hay una tabla exclusivamente para cañería de hierro que es la tabla mínima tiene la parte de reglamentación y otra parte que es de PVC que también está normalizado a partir de ahora.
+Ayudante: En WhatsApp yo les puse el PDF y que página es.
+##### Para evitar curva y contracurva: hacer una curva dejarle un pedazo de caño más y luego la otra curva porque cuando pasa por el caño intermedio aumenta la velocidad, o sino hay que hacer una pesca tipo un anzuelo una vez que enganchó y se va girando.
+Todo eso es importante que tengan en cuenta. Fíjense acuérdense que seguimos haciendo que esto es un caño. Si yo tengo un sistema de curva y contracurva es muy difícil abrirse poder pasar la cinta.... Que es lo que se hace o se debería hacer en algunos casos conviene que esa curva dejarle un pedazo de caño más y después la otra curva, no sé si me entienden.
+Lo que quiero decir es que esto curva y contracurva deberían dejar un pedazo de caño y después lo otro porque cuando pasa la cinta acá aumenta la velocidad y entra más fuerte a esto. Acá entra medio estacionado por eso le digo entonces no tanto pero por lo menos por acá entonces la cinta aumenta la velocidad y entra. O sino hay que hacer una pesca.
+
+##### La cinta pasacables tiene un ganchito un agujerito se hace con alambre tipo un anzuelo
+La cinta pasacables tiene un ganchito un agujerito y se hace con alambre tipo un sistema de... Tipo un anzuelo de un lado y otro del otro lado trabajan los 2 **siempre y cuando la cañería esté embutida y ya no tenga la posibilidad vos querés hacer pasar eso.**. De un lado tiene un sistema con argolla y otro entonces se hace tipo un anzuelo. El que sabe pescar el anzuelo no es algo normal sino que tiene una pequeña inclinación y lo mismo ocurre con eso. Entonces pasa de un lado uno y el otro otro y después se va girando y una vez que se enganchó vamos despacito, es todo un arte del tema.
+
+Depende de la sección de caño que estás usando la cantidad de conductores que puse si yo pongo un caño de 7, 5/8 que es el mismo ahí hay una parte que hablamos con otros profesionales y ya ponemos los pliegos que el mínimo que se debería utilizar en nuestra instalación domiciliaria sea de 3/4. El de 5/8 solo recto.
+#### Mínimo caño en instalación domiciliaria: 3/4, 5/8 solo permitido recto.
+Seguimos...
+
+Hay veces que he visto y he hecho a veces a los chicos les dejo como hacemos eso ahí la instalación doble. Perfecto pasá el pasacables y los vagos están peludiando (por la curva) ya y después lo que hacen normalmente es agarrar desarman pasan un poco y después le unen... Es otra forma de trabajar.
+
+Seguimos... Hay muchas cosas para aprender en el tema de canalización, la parte principal ya saben la parte constructiva vamos a ir viendo de a poco.
+
+Antes de pasar a como se embute las cajas, vamos a ver el tema de canalización.
+###### Si nosotros trabajamos suspendida siempre para abajo y el tornillo me sujeta.  En algunos casos como los caños son rígidos no es necesario atarle acá otro alambre de la estructura del techo o sea no hay problema.
+
+###### PVC colocar respetando ORTOGONALIDAD(90 grados) y PARALELISMO con respecto a la viga o columna.
+Yo tengo PVC hay una parte que dice como se ve a la vista, que debe tener en cuenta la persona que está colocando primero que sean ORTOGONALES, que sean PARALELOS a la viga o lo que tengan en este caso columna, paralelo a la viga, o sea que de un aspecto de paralelismo. Siempre 90 grados y voy armando mi instalación de acuerdo a la necesidad que tenga que hacer, pero siempre antes de fijar las cañerías tengo que fijar las cajas.
+
+#### Antes de fijar las cañerías tengo que fijar las cajas.
+Esas cajas 5x10 tengo que ver de donde viene la alimentación y para donde va porque si yo fijo esto una vez que este fijada es más difícil sacar la lengueta porque se empuja para adentro no para afuera y a veces hay que romper todo porque se olvidaron de esa partecita, entonces ya fijo esta caja para arriba o para abajo y más si es embutida.
+
+Acá empezamos a ver el tema: 
+##### ¿Cuándo entramos en la parte de empezar a embutir nuestra caja? Nosotros entramos en la obra. Lo ideal es que la obra ya tenga el revoque grueso porque pican la pared y se rompe.
+##### Si no está el revoque grueso, deberían darte una faja o una cinta de revoque que le diga que esa parte es la parte terminada.
+Porque hay ciertas personas o algunas que tienen más fuerzas que otra que pican tan fuerte que si esto no tiene revoque esto se va para allá o se rompe si se utiliza ladrillo hueco es muy probable que en vez de que se haga un huequito será un hueco gigante. La idea es siempre que esté el grueso. Si no está el revoque grueso y le contratan a ustedes y ven toda la estructura con ladrillo hueco o ladrillo cerámico por lo menos le tienen que dar una faja o una cinta de revoque que le diga que esa parte es la parte terminada.
+
+Una vez que tenemos la parte nosotros podemos tranquilamente embutir eso. La caja se embute al ras de la faja siempre y cuando esta pared esté aplomada. Si no está aplomada se nota generalmente se nota en los a pasillos grandes para poder hacer todo uniforme a veces tienen que revocar allá hasta en algunos casos he visto espesores bastante grandes y bueno ahí ya es otro cantar.
+
+Alumno: Y ahí sobre la cinta le ponemos.
+Profesor: No, la cinta la faja es una guía es hasta donde tiene que estar tu cajita. 
+Alumno: Y si no hay faja.
+Profesor: Y tenes que calcular.
+Alumno: 2cm de revoque?
+###### Si no está la faja o el revoque no se colocan las cajas.
+Profesor: Eso depende todo si está a plomo y el capataz de obra te diga hasta acá vamos a hacer más o menos 1cm 2cm entonces vos vas con esa característica vos colocas la caja.
+Alumno2: No se coloca, yo tengo años de construcción y no se coloca si no está faja. Si o si tiene que estar la faja o el revoque.
+
+
+
+
 
 
 ---
 
-Minuto 21
+Minuto 01:00:21

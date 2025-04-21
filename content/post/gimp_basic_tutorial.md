@@ -65,11 +65,11 @@ Puede anclarlo a la capa actual con el comando Capa → Anclar capa (Ctrl+H), o 
 Alternativamente, puede convertir la selección flotante en una nueva capa usando el comando Capa → Nueva capa (Ctrl+Shift+N), o el botón Nueva capa en el cuadro de diálogo Capas, mientras la selección flotante está activa. Esto convierte la selección flotante en una capa real que puedes editar cuando quieras.
 
 
-### Remove background
+### Remove background (transparencia)
 Abrí la imágen  
 Desde el menú -> Layer -> New Layer  
 Fill with: Transparency  
-Image-> Merge Visible Layer -> Merge  
+Image-> Merge Visible Layer(Control+M) -> Merge  
 Bucket Fill (Shift b)  
 En Tool Options Bucket Fiil mode -> Erase y abajo de Affected Area poné Fill similar colors en vez de fill whole selection
 Edit -> Copy  

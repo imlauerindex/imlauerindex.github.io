@@ -17,7 +17,7 @@ https://archive.org/details/catalogo-tubelectric
 
 ### Resumen de la clase:
 
-* Ley de Kirchoff     
+* Ley de Kirchoff: lo mismo que entra sale.     
 * Conductor taller está permitido.     
 * Las bandejas de baja tensión tiene que estar arriba de la de alta tensión en caso de caída.     
 * Hay que hacer un caño camisa para nueva parte     

@@ -109,6 +109,14 @@ emerge --config sys-libs/timezone-data
 
 #### Esta linea compilara todos estos paquetes
 Mejor si usás el repositorio de binarios con la opción `-g` explicado más abajo.
+
+### Si queres usar xorg con xinitrc y dwm
+```bash
+sudo emerge -va x11-base/xorg-server xinit dwm st dmenu
+sudo vim /etc/portage/savedconfig/x11-wm/dwm-6.5 # Cambia tu configuracion generalme cambio el Mod1Mask a Mod4Mask (tecla Windows)
+sudo emerge dwm
+```
+### Esto es si queres usar sway:
 ```bash
 emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
 
@@ -157,6 +165,18 @@ Listo.
 ```bash
 emaint --auto sync
 emerge --ask --verbose --update --deep --newuse @world
+```
+
+###### Instalar ladybird: Primero googleá ladybird gentoo y fijate en que overlay está para agregarlo
+```bash
+sudo eselect repository enable 331
+sudo emerge --sync && sudo eix-update && sudo eix lady
+sudo emerge -va ladybird
+
+sudo touch /etc/portage/package.accept_keywords/zzz_automask # si está masked
+sudo emerge -va ladybird --autounmask-write --autounmask
+sudo dispatch-conf # u 
+sudo emerge -va ladybird 
 ```
 
 
@@ -275,7 +295,7 @@ sudo emerge -va wifite
 ```bash
 sudo touch /etc/portage/package.accept_keywords/zzz_automask
 sudo emerge -vag sys-kernel/linux-firmware --autounmask-write --autounmask
-sudo dispatch-conf - u
+sudo dispatch-conf # u
 sudo emerge -vag sys-kernel/linux-firmware
 ```
 **Otra forma**:
@@ -285,7 +305,24 @@ sudo emerge -va net-vpn/nordvpn
 ```
 
 **Instalar OBS**: https://forums.gentoo.org/viewtopic-t-1150271-start-0.html
-**Grabar pantalla con OBS**: https://old.reddit.com/r/swaywm/comments/xldx5c/how_to_record_in_obs_studio_in_sway/
+## NO USES PULSEAUDIO SI USAS WAYLAND NO VAS A PODER CAPTURAR LA PANTALLA, SI USAS FIREFOX-BIN TENES QUE INSTALAR APULSE Y EJECUTARLO ASI: APULSE /OPT/FIREFOX/FIREFOX
+###### Tenés que usar pipewire y no instalar pulseaudio todas las aplicaciones que compilaste con pulseaudio las tendras que recompilar con pipewire
+
+
+**Grabar pantalla con OBS**: https://old.reddit.com/r/swaywm/comments/xldx5c/how_to_record_in_obs_studio_in_sway/    
+
+**Grabar video**: media-video/v4l2loopback-0.13.1
+
+```bash
+[I] atavistic11@netbook ~> cat /etc/portage/package.use/obs-studio
+media-video/obs-studio pipewire screencast
+[I] atavistic11@netbook ~> sudo emerge --ask --verbose --update --deep --newuse @world
+[I] atavistic11@netbook ~> 
+systemctl --user enable --now pipewire pipewire-pulse wireplumber
+[I] atavistic11@netbook ~> dbus-run-session sway
+```
+
+https://wiki.gentoo.org/wiki/PipeWire#USE_flags
 
 ```
 [I] atavistic11@netbook ~> cat /etc/portage/package.use/obs-studio
@@ -294,6 +331,19 @@ media-video/obs-studio pipewire
 gui-libs/xdg-desktop-portal screencast
 [I] atavistic11@netbook ~> sudo emerge -va xdg-desktop-portal xdg-desktop-portal-wlr obs-studio
 ```
+
+
+###### Instalar airgeddon
+Al querer instalarlo tuve un problema de paquete bloqueado: 
+```bash
+net-misc/iputils[arping(+)] ("net-misc/iputils[arping(+)]" is soft blocking net-analyzer/arping-2.25)
+```
+Lo que hice fue agregar una `USE flag` al paquete de iputils y recompilarlo de la siguiente manera.
+```bash
+echo net-misc/iputils arping | tee /etc/portage/package.use/iputils
+sudo emerge -va iptuils # Recompilo con la bendera arping (te aparece en rojo).
+```
+
 
 ```bash
 sicro@sicro ~ $ cat /etc/portage/make.conf
