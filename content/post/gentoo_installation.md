@@ -112,10 +112,19 @@ Mejor si usás el repositorio de binarios con la opción `-g` explicado más aba
 
 ### Si queres usar xorg con xinitrc y dwm
 ```bash
-sudo emerge -va x11-base/xorg-server xinit dwm st dmenu
+sudo emerge -va x11-base/xorg-server xinit st dmenu
+EN LA GUÍA DE INSTALACIÓN DE ARCHLINUX ESTÁ COMO CAMBIAR LA DISTRIBUCION DE TECLADO (sudo vim /etc/X11/xorg.conf.d/10-keyboard.conf)
+echo "x11-wm/dwm savedconfig" | tee  /etc/portage/package.use/dwm
+sudo emerge -va dwm
 sudo vim /etc/portage/savedconfig/x11-wm/dwm-6.5 # Cambia tu configuracion generalme cambio el Mod1Mask a Mod4Mask (tecla Windows)
-sudo emerge dwm
+sudo emerge -va dwm
 ```
+#### Saber que banderas usa un programa
+```bash
+sudo emerge -va app-portage/gentoolkit
+equery uses dwm
+```
+
 ### Esto es si queres usar sway:
 ```bash
 emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
@@ -320,6 +329,7 @@ media-video/obs-studio pipewire screencast
 [I] atavistic11@netbook ~> 
 systemctl --user enable --now pipewire pipewire-pulse wireplumber
 [I] atavistic11@netbook ~> dbus-run-session sway
+systemctl --user restart pipewire pipewire-pulse wireplumber
 ```
 
 https://wiki.gentoo.org/wiki/PipeWire#USE_flags
