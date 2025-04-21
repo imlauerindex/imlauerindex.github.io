@@ -129,6 +129,10 @@ sudo emerge -va xsetroot
 while true; do xsetroot -name "$(date)"; sleep 1 ; done &
 exec dwm
 ```
+
+#### esa configuración es muy básica lee todo esto XDD: https://wiki.gentoo.org/wiki/Dwm
+INSTALÁ KEYNAV ASÍ PODES MANEJAR EL MOUSE CON EL TECLADO (VIM KEYBINDINGS)
+
 Si querés tener íconos tenés que **COMPILAR UN PARCHE XDDD**.
 
 
