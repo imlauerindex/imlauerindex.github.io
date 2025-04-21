@@ -119,6 +119,19 @@ sudo emerge -va dwm
 sudo vim /etc/portage/savedconfig/x11-wm/dwm-6.5 # Cambia tu configuracion generalme cambio el Mod1Mask a Mod4Mask (tecla Windows)
 sudo emerge -va dwm
 ```
+#### Para poner la HORA XD en la barra de arriba de dwm:
+```bash
+sudo emerge -va xsetroot
+```
+##### Agregá a tu `.xinitrc`:
+
+```bash
+while true; do xsetroot -name "$(date)"; sleep 1 ; done &
+exec dwm
+```
+Si querés tener íconos tenés que **COMPILAR UN PARCHE XDDD**.
+
+
 #### Saber que banderas usa un programa
 ```bash
 sudo emerge -va app-portage/gentoolkit
