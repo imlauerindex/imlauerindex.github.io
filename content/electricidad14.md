@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 14. Leímos catalogo."
+title: "Electricidad / Clase 14. Canalización. Leímos catalogo Genrod (Tubeelectric). Exámen entra esquema de una acometida."
 date: 2025-04-18T18:22:20-03:00
 tags: [electricidad]
 ---
