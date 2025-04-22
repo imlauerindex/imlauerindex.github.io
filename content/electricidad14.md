@@ -12,4 +12,4 @@ https://archive.org/details/record-89
 https://www.youtube.com/watch?v=4DZGSrwLy4o
 
 ###### Leímos el catálogo GENROID en un Televisor
-https://archive.org/edit/catalogo-tubelectric
+https://archive.org/details/catalogo-tubelectric

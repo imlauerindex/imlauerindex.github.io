@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 15: Canalización. Doblamos caño PVC con la rodilla. Perfilería: es como un caño hacer empalmes ahí está prohibido. Prohibido sujetar con cable canal. "
+title: "Electricidad / Clase 15: Canalización. Doblamos caño PVC con la rodilla, radio (56mm). Perfilería: es como un caño hacer empalmes ahí está prohibido. Prohibido sujetar con cable canal. "
 date: 2025-04-22T14:11:06-03:00
 tags: [electricidad]
 ---
