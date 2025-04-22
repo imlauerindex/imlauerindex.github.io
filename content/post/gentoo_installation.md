@@ -196,6 +196,15 @@ Ahora en `/usr/bin/firefox-bin` a la última línea agregá `apulse` (por el aud
 
 Listo.
 
+## En Gentoo cada vez que instalás algo tenés que ir a leer la Wiki que te dirá las FLAGS más usadas.
+#### Cuando configurás un profile Gentoo selecciona por vos un par de USE FLAGS, pero no es suficiente.
+Por ejemplo leyendo OBS gentoo dice que las flags más comunes son: 
+
+> For a standard streaming setup that uses a webcam, PulseAudio, has a NVIDIA graphics card and integrates with major streaming services one might add to `/etc/portage/package.use`:
+```bash
+media-video/obs-studio lua nvenc pulseaudio speex v4l
+```
+
 ###### Cuando agregás flags USE tenés que ejecutar
 ```bash
 emaint --auto sync
