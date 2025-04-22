@@ -187,6 +187,15 @@ Alumno: 2cm de revoque?
 ###### Si no está la faja o el revoque no se colocan las cajas.
 Profesor: Eso depende todo si está a plomo y el capataz de obra te diga hasta acá vamos a hacer más o menos 1cm 2cm entonces vos vas con esa característica vos colocas la caja.
 Alumno2: No se coloca, yo tengo años de construcción y no se coloca si no está faja. Si o si tiene que estar la faja o el revoque.
+Profesor: Yo si estoy en obra directamente pido la faja.
+Alumno2: Esa es la referencia para...
+Alumno3: Con la regla te podés guiar?
+Profesor: Sí porque la faja tiene cada cierto cantidad intermedio rojo. 
+Alumno3: Con faja faja regla ponemos las cajitas arriba de la regla 
+Profesor: Claro si a veces no es buscar una regla, sino buscar una madera que esté bien no más (mentira)
+Ayudante: Vos tenes que tener una guía esa guía si no está su revoque se llama faja, regleta o cinta. Yo lo conocí siempre como regleta.
+Profesor: Tenemos cajas de 5x10, tenemos que embutir.
+
 
 
 

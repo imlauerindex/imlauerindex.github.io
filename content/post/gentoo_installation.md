@@ -132,6 +132,15 @@ exec dwm
 
 #### esa configuración es muy básica lee todo esto XDD: https://wiki.gentoo.org/wiki/Dwm
 INSTALÁ KEYNAV ASÍ PODES MANEJAR EL MOUSE CON EL TECLADO (VIM KEYBINDINGS)
+```bash
+mkdir tools
+cd tools
+git clone https://github.com/jordansissel/keynav
+sudo emerge x11-libs/cairo x11-libs/libXinerama x11-misc/xdotool
+make
+sudo make clean install
+```
+
 
 Si querés tener íconos tenés que **COMPILAR UN PARCHE XDDD**.
 
@@ -142,7 +151,7 @@ sudo emerge -va app-portage/gentoolkit
 equery uses dwm
 ```
 
-### Esto es si queres usar sway:
+### Ahora instalá todos estos paquetes (si usaste dwm borrá sway):
 ```bash
 emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
 
@@ -223,6 +232,7 @@ Agregá sync-uri (probablemente ya la tengas)
 # getuto (si ya la tenías no necesitás esto)
 sudo vim /etc/portage/make.conf
 FEATURES="${FEATURES} binpkg-request-signature"
+### Esto es para que siempre baje los binarios si es que los tiene. O sea no necesitas usar la opcion -G o g
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkg"
 
 sudo emerge --getbinpkg -vauDU @world
@@ -333,9 +343,28 @@ sudo emerge -va net-vpn/nordvpn
 **Instalar OBS**: https://forums.gentoo.org/viewtopic-t-1150271-start-0.html
 ## NO USES PULSEAUDIO SI USAS WAYLAND NO VAS A PODER CAPTURAR LA PANTALLA, SI USAS FIREFOX-BIN TENES QUE INSTALAR APULSE Y EJECUTARLO ASI: APULSE /OPT/FIREFOX/FIREFOX
 ###### Tenés que usar pipewire y no instalar pulseaudio todas las aplicaciones que compilaste con pulseaudio las tendras que recompilar con pipewire
+###### Matar servidor pulse audio
+```bash
+pulseaudio -k
+```
+###### Iniciar servidor:
+```bash
+pulseaudio -D
+```
 
 
 **Grabar pantalla con OBS**: https://old.reddit.com/r/swaywm/comments/xldx5c/how_to_record_in_obs_studio_in_sway/    
+
+###### Momento clásico de Gentoo: Cuando instalé OBS no podía usar la cámara así que tuve que leer la Wiki:https://wiki.gentoo.org/wiki/OBS_Studio y habilitar las flags en `/etc/portage/package.use/obs`. Las nuevas banderas están en verde.
+
+```bash
+media-video/obs-studio lua nvenc pulseaudio speex v4l
+```
+
+**Ahora después de agregar las banderas emerge**: 
+```bash
+emerge -va media-video/v4l2loopback obs-studio
+```
 
 **Grabar video**: media-video/v4l2loopback-0.13.1
 
