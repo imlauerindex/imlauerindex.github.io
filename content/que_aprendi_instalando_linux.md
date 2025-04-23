@@ -10,6 +10,7 @@ Cosas que he aprendido usando e instalando Linux:
 * El software privativo necesita ser gigante porque sino es fácil crear una copia de código abierto, por eso los lectores de PDF en Windows tienen cantidad de boludeces y tardan minutos en abrir en computadoras de bajos recursos.
 * Instalar Linux es como cocinar, es como seguir una receta, o reparar algo.
 * Es mejor escribir tus guías que seguir las otras
+* En Gentoo podés crear un binario que sea muy específico para tu uso. Por ejemplo al instalar OBS no tenía ni siquiera soporte para compartir la pantalla tuve que volver a compilarlo usando estas FLAGS: `media-video/obs-studio lua nvenc pulseaudio speex v4l` y si quiero soporte para cargar una página en OBS tengo que agregar `browser` a la lista de FLAGS para poder hacerlo.
 * En Gentoo se puede usar **binarios**: https://www.youtube.com/embed/DemDvWEu9vg . En Gentoo usando los profiles `eselect profile list` podés usar hasta el kernel 2.6.
 * En Gentoo con Firefox hay un problema de audio con PulseAudio y PipeWire, Firefox no soporta ṔipeWire, así que tendrás que ejecutar `apulse /opt/firefox/firefox-bin` para tener audio.
 * Chawan y w3m son navegadores de consolas que recomiendo.
