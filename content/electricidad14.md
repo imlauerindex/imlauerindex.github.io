@@ -9,7 +9,7 @@ https://voca.ro/1bSaDxOxewXW
 ###### Audio en Archive.org
 https://archive.org/details/record-89
 ###### Audio en YouTube
-https://www.youtube.com/watch?v=4DZGSrwLy4o
+https://www.youtube.com/embed/4DZGSrwLy4o
 
 ###### Leímos el catálogo GENROID en un Televisor
 https://archive.org/details/catalogo-tubelectric

@@ -11,8 +11,9 @@ https://vocaroo.com/1hjLQYyLQIkS
 https://archive.org/details/record-94
 
 ###### Audio en YouTube
-https://www.youtube.com/watch?v=rDrnbLd95v0
+https://www.youtube.com/embed/rDrnbLd95v0
 
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR2oDACyxHDQ0bJvEQ82OSugA5G6bHJnpdM5ARc7IXawIqUfoDq5oiy3rIiS5js7FBkxkmfI2GLviJAq7z6W6Fz_og3e41SpbRf-pceV89KXQLKBPQ2RvDaOFEngWuxG5n3K2swp449Y5oxW6T-hObmnYIO4gtEhaElEXVfZs_RIKt9Bz_F1Ict7CL4sM/s1536/fed64637-9be9-4ca9-ac1e-7bdfb85c73b5.png)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzIvZGrzx4Q3JNdf3Zv5TYOnbkopNYTT3U-wsvd6cTkuY64XbcawrzjA7nlVpjx0k84fGFoRRK4QZNElMqGtzHkvUBRrRYaFmvEJlGFzWvTXL7N797ClumK-yc_dhSC3pipl0RnSRShovvyEJ8Piqy_75xxObnDrcT4hAiqy6pxSukKSADUMDjG6dkVCI/s4160/IMG-20250422-WA0002.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQRRQOzAZXqfseZiKN2JHjVqB00VfM58DPjDju-471DMBC67pSjPtMhvRDo36GRe94t_RCHKAvl4s9eG8jbbNbpWfKKAW3KPnl5a8nH0ML3OTeXIZn2ViYiNTZ9jRbqUJQFDt8pPC5YsgsSm0JMNrGg2uhA1-GW_-KNITIWXsPRVen92C6EIhxvcar5wg/s4160/IMG-20250422-WA0003.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_fpwMakstx49Q84JBHcJhUVMeU2uIjbX6EDfJFe1MCVGzGVhLOwehLHiR07IzI3l7hB7krHMwvN_tUQ_c_VMtmAxPBymS0-KpjGyFIpX-R3wSn8Fb89KJ-AzbTy-pTbW4SW45pjfGVDLwMurWEImxSm-x1Z_XLLxTA9oDv_Y5PhjvHgULnrKXdxdPUNo/s4160/IMG-20250422-WA0004.jpg)

@@ -9,7 +9,7 @@ https://voca.ro/1ducR52fkSsq
 ###### Audio en Archive.org:
 https://archive.org/details/record-92
 ###### Audio en YouTube:
-https://www.youtube.com/watch?v=5z4CWtm1z_A
+https://www.youtube.com/embed/5z4CWtm1z_A
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkPMOWPHxPVGuh9bRttWjXb3CAiYKnf0nqgg2HhovkRTWJR1gihlmGajXWfFIJ1uVuv7y5IrT2OdvC-A-qUiA52YS514SgvJL0T92IicpaF5JfzcFyTPOgr9jORBzsh-oeGah-NDFpg17auoryEqdd6ju_ZrfsIrwxithbaz6_yWZfwYKmK1NEsGiTK0k/s4160/IMG_20250422_182437335.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWRjLMgVd9lCtq9TtO3CICszitK_T4AVe_Bx0hx34In2iF0sNRcWVlXobhFmmyYkbvA3iQefcom1OuuDOBkpqcZf-ztzJzS6CdAcmT1rJv9YJBiN7ZAWwrPSHsTZu7N5gdYQF9v4OGldPi-PJRa3UsD09wLkI-5GuoM9bNGX6GcY6UanyBaVrbCeUB4LU/s4160/IMG_20250421_184123019.jpg)
