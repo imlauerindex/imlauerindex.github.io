@@ -10,8 +10,8 @@ read archivo_audio_path
 echo "Creando un video a partir del audio..."
 ffmpeg -i /tmp/$titulo.png -i $archivo_audio_path -c:v libx264 -tune stillimage -c:a copy /tmp/$titulo.mp4
 
-source /home/atavistic11/youtube-upload/bin/activate.fish 
-/home/atavistic11/youtube-upload/youtube-upload/bin/youtube-upload \
+source $HOME/youtube-upload/bin/activate.fish 
+$HOME/youtube-upload/youtube-upload/bin/youtube-upload \
   --title="$titulo" \
   --description="$short_description" \
   #--category="Science" \

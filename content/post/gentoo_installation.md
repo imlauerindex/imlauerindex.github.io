@@ -112,13 +112,20 @@ Mejor si usás el repositorio de binarios con la opción `-g` explicado más aba
 
 ### Si queres usar xorg con xinitrc y dwm
 ```bash
-sudo emerge -va x11-base/xorg-server xinit st dmenu
+sudo emerge -va x11-base/xorg-server xinit st dmenu # Actualmente estoy usando kitty en vez de st porque soporta imágenes usando chawan 
 EN LA GUÍA DE INSTALACIÓN DE ARCHLINUX ESTÁ COMO CAMBIAR LA DISTRIBUCION DE TECLADO (sudo vim /etc/X11/xorg.conf.d/10-keyboard.conf)
 echo "x11-wm/dwm savedconfig" | tee  /etc/portage/package.use/dwm
 sudo emerge -va dwm
 sudo vim /etc/portage/savedconfig/x11-wm/dwm-6.5 # Cambia tu configuracion generalme cambio el Mod1Mask a Mod4Mask (tecla Windows)
 sudo emerge -va dwm
 ```
+
+Si usás Kitty desactivá el sonido de campana:
+```bash
+vim .config/kitty/kitty.conf
+enable_audio_bell no
+```
+
 #### Para poner la HORA XD en la barra de arriba de dwm:
 ```bash
 sudo emerge -va xsetroot
