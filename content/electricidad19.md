@@ -9,7 +9,7 @@ https://vocaroo.com/1cAFyikGV6rm
 ###### Audio en Archive:
 https://archive.org/details/record-103
 ###### Audio en YouTube:
-https://www.youtube.com/watch?v=EBVL1PEp0d0
+https://www.youtube.com/embed/EBVL1PEp0d0
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgplARuBd1uckqlx6Nrmmy7VzvhuM6wpsqJ9wc3kRe1Mb3c-qQiDou676qZhW4zASigsYp8g2lFgh1F6Oull-yNcsnG5AxuXj9KCWf9CJTG8p3JjYuLvaUIFtjbbDHbcwhCp-AB8ZA5FiCVBd8s4bxM7ABD1zLQ_WnXl9JJEUHm9IZNSL40Kd0h-ZVSjVA/s4160/IMG_20250429_192321455.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Ck8IxYTTiCvwSUDgia7kmQY2ep68VqBkDqkbNK52190exVUDI8QGbTgjJkt9Uer7BJ8HN3t2j8l6rmTT96n6KhvCHpNiMTKTsPOx0MhwmBtnOMdKE4mVmGF13JUCRW6EH9BRzDMgQx8-WopdOOt10G7MNaoqCesOpgOgSm3BAABH9SxIBo9eu38n7Jw/s4160/IMG_20250429_194331884.jpg)
