@@ -4,7 +4,7 @@ sudo systemctl start smb
 # ffmpeg -i image.jpg -i audio.mp3 -c:v libx264 -tune stillimage -c:a copy out.mp4
 # youtube-upload
 ### Agregar para detectar tmux
-firefox-bin blogger.com
+firefox blogger.com
 echo "Ingresa la URL del articulo que creaste"
 read URL
 echo "Ingresa el titulo del articulo que creaste sin espacios (electricidad4)"

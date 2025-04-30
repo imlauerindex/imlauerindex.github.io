@@ -1,0 +1,22 @@
+---
+title: "Electricidad / Clase 18: Conductores, no conductores o aislantes, semiconductores. Sistema alarmas."
+date: 2025-04-30T03:38:22-03:00
+tags: [electricidad]
+---
+
+###### Audio en Vocaroo:
+https://vocaroo.com/17BxVXxtlKi2
+###### Audio en Archive.org:
+
+###### Audio en YouTube:
+https://www.youtube.com/watch?v=GD1oQWwrFVI
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_dzmLjrl2PjbwO4d19cQCvFUFpCfRkEZHCnegKfnmJ-tiiCMP-tyF87A4o1CUYak5lcO9TYD5OBP8XgKroxL0pEfOqdNoC_9q6Irtt2_vqM0U1hFd-1XzaND2BMIAjB4nxQGW1eR3ioMpPOsp-kdvakTiUeVCH8XvX1PsldTr80vc2SvSVfFXkb_afSY/s4160/WhatsApp%20Image%202025-04-28%20at%208.37.44%20PM.jpeg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh96vepcNaL5-ryq5BbXwNq8sIYKlYYVt5_tBKBhBAkZUZySi0nBHW6AXN2YkceHYoxZd7d1BjhNWFSphjKke8LYEoGBLV0oAfQw2TivrI6ZUNFlonlpvRPuC00R8a2ojF0BEWzfkjn9eEk0onbsBUDrzdFKEnfwZvDgjKOHZJsf2FjE2X3C4wK4rqbrRc/s4160/IMG_20250428_202117044.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOvl1cci1FhIEdu7Sn6r5IrW90CW2vcMlJzQjYQbmIXfJ_Bg6f1CmooQzGI-YIYgwyK0aJ9fb1T8UrS_eDFAzKo-R3yCGxyVfhOTym5aPNxQaGmJlHLI-axCFuQAjleC3DaAfO2I3E4aSfB40hh_LhAgI0Tg01vCJmYQzq3cogQGh_wOT-yMKbve3ng8U/s4160/IMG_20250428_202115645.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTzn95SDmk3ckbhn38SnA6lvV2CkvdBYRzq1QyCB7al9eIdbuP7nAdrp3Egg1S4YcYgmFAfV8sr0E-6QCY0TkP1TqK9eDbSD5zOyZfhyphenhyphenC3BddPrdhXPDjuR3FpcyJRHSSXV9scGPnwF_xFWYYIXhmfnBFxVvpG6fKhxsPq_drnO2QcxTfgQHEjF6I_cro/s4160/IMG_20250428_192556936.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOReeWA_3Ac0erKsv51IEBxVfsnPg1lnMvVXItiT2vdn0wwKkmShE3DSvOoYhr0XTedPGbQYeC8usR2gY_MHTHkzgCqQw9XhDqfHhjA5-BRkf-Kkxj27sKrH2yoboQa7tYSmn4vdoGXp0TNh5r0Ek0yRwottK5AM_gkGReGC-DhibpuLafpyGpNPxUehc/s4160/IMG_20250428_191521983_BURST001.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5Bbf0vCa5uYRx61L16HeVlKco_SQlnh10o5AvJxUkHRq_2NkYAinH7Yq5lHpqW4QyvzXswagaByLuOXfWGk26RrQrZaPkwcxP_D4wjlKq3sSOBa4lRPE5eKxp3rU6GcisSHbow2S-uuz15uJX93PJzZaSeQL1I3hPNpneI-VL71ycrs161AjjIJJwMZQ/s4160/IMG_20250428_191521983_BURST000_COVER_TOP.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNCsvbiQWsz2PcPnYN_0H2BM7vd0-fM3puhdcgqvG8qN7POePhK203vs1dk_hHxgVymwDIzWqofJjF_4R6dbAsbq6i_7qfgMWduC8_2FtQ5mO4AbQtGMd2MkxSqqo_WoFQ65d79zDse5P3kHk83GBvK6NQXDLpXGpKGs4kfRoy4qkdhHs7qtZkiTycSu8/s4160/IMG_20250428_190203900.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRiHA-SB9M_lS4vFs1xQIghRxRqVvgZUHgumbo6LQtPaMLi69OPZ23GMmdavxMDnxrERsFElZsbZeYaElkIVQwcQFFeAL4fWANgsqpEKcREXoT6f_ZkzrVSpoxzSQPM2Az-ivI9LY2NyA0joc8kxMErBnTkFKA_lbffYQbTZq-BWnjI6VBh1LwxX3-08/s4160/IMG_20250428_182315210.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3ZqTw2G20SYHigoJAbstBxVSKiyK1HTqIbFB_rOZPXHew4b2J5zhYNUoe7D8OqwV5IknbaEWxDJwH6FgvaNU_r-0YxXLIMMArZqQBrNRSWLfdXrDT6q85rYhRIBH8KTMhUsOaCyee8mGMyASc0CcwRsJmZoItjmMU8QszoyUacpeATM7jigjRqXLA8VU/s4160/WhatsApp%20Image%202025-04-28%20at%208.17.05%20PM.jpeg)

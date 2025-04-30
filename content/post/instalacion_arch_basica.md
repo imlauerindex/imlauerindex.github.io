@@ -868,6 +868,12 @@ sudo systemctl start docker.service
 sudo usermod -aG docker $USER
 ```
 
+Si instalás OBS y usás wayland:
+
+```bash
+```
+
+
 #### Para programación arduino lectura y escritura de /dev/ttyUSB0
 `sudo usermod -aG uucp $USER`
 
