@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 19. Sistema Alarma. Corriente Alterna/Continua. Tester multímetro, medimos continuidad. Profesor se burla alumno de la clase anterior (número de avogadro) y putea a otro (Hora 1:36) La clase que viene hacemos circuito paralelo y en serie. Llevar foco incandescente."
+title: "Electricidad / Clase 19. Sistema Alarma. Corriente Alterna/Continua. Tester multímetro, medimos continuidad. Profesor se burla alumno de la clase anterior (número de avogadro) y putea a otro (Hora 1:36 y hora 1:46) La clase que viene hacemos circuito paralelo y en serie. Llevar foco incandescente."
 date: 2025-04-30T03:43:07-03:00
 tags: [electricidad]
 ---
