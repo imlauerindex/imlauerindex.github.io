@@ -97,9 +97,16 @@ vim /etc/hosts
 ::1 localhost
 127.0.0.1       arch.localdomain	arch
 ```
+
 ```bash
 passwd # cambiar la clave del root
 pacman -S grub networkmanager alsa-utils 
+```bash
+
+##### Fonts
+```bash
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+```
 
 pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop feh yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland
 
@@ -257,10 +264,6 @@ Esta instalación que encontré es ligeramente diferente: [https://www.geeksforg
 
 
 
-#### Fonts
-```bash
-sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
-```
 
 
 ### Instalar dwm, st, dvtm, dwmstatus
