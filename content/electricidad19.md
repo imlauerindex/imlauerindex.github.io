@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 19. Sistema Alarma. Corriente Alterna/Continua. Profesor se burla alumno de la clase anterior (número de avogadro) y putea a otro (Hora 1:36) La clase que viene hacemos circuito paralelo y en serie. Llevar foco incandescente."
+title: "Electricidad / Clase 19. Sistema Alarma. Corriente Alterna/Continua. Tester multímetro, medimos continuidad. Profesor se burla alumno de la clase anterior (número de avogadro) y putea a otro (Hora 1:36) La clase que viene hacemos circuito paralelo y en serie. Llevar foco incandescente."
 date: 2025-04-30T03:43:07-03:00
 tags: [electricidad]
 ---
@@ -15,4 +15,3 @@ https://www.youtube.com/watch?v=EBVL1PEp0d0
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpVknt7TghhJd-sqGDu4AXFDohK3hz_cI-TzC-oTh3hHxi0h1N-oBSAkxqDYvXNMBsSaZwut-plw9QDEmMABkoEvkxnUlc14SZ3klHvVICjMIJVw1hHBUuPIpUQ2mkkLsjWPMP-QZ7oSCeLmJCK6hSV4VslaM3zD9GZy_6F1KBM9wdQps8OUGLpNQXtbI/s4160/IMG_20250429_194725622.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvhmPuvfNN97ZtP8al-wVQu4-DDB0-J7isR0b75lEH8MgCjpNfTPcsonp8_U1zZeHDxh5N-7eFY2I8VqitVodqMZaRiLwIX21hKaTcKMzwVBoJ6GkUvO3t0SrZkJSe_y5Fi3ZVl5HzwiDqSNzyCU51-bup-osBf6Y_6hILUu9D_Y3ZCbtTmMGXIrgQD-k/s4160/IMG_20250429_200006777.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1-U6q8YbxKmPXf6ZMdZ3QlwWsCjeBDxwwzbcIoHi6sFMQdIOrK7VGRAO-VQybwe5Sqstn_aUbyrsbdjWHTSMyTacPr2lGBC2goYmOTLcg1cEk52u8iYe0Zu6l1brjCtzfRYQQhD3TuTejwMCBVzYuBH0PYFsUNKi3ZZD3DmUwXh-J1CbeCD6whpg098g/s4160/IMG_20250429_201858377.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgwPx12rGHi4ymvzCyR1hOhvFSnS8jYtjbtMzxpYWf0pbX0VYI4WV4ZcPzQhXkqp5anDF1o2SURM-qU9NzPhojwfR77XCeLtJ5j8ZH92c8XOHew9F_u5mhRDgeGMx3Vso9VsgtrdX6UaGArtScoNmxEV0jWt-zL-fv0NTKY1N0mCIfDPLARrwCl2H7FDM/s4160/IMG_20250430_013428759.jpg)
