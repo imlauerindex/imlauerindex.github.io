@@ -99,7 +99,11 @@ vim /etc/hosts
 ```
 ```bash
 passwd # cambiar la clave del root
-pacman -S grub networkmanager 
+pacman -S grub networkmanager alsa-utils 
+
+pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop feh yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland
+
+
 systemctl enable NetworkManager
 
 pacman -S wpa_supplicant wireless_tools netctl  # no necesario, con networkmanager te basta. Opcional 
@@ -868,10 +872,27 @@ sudo systemctl start docker.service
 sudo usermod -aG docker $USER
 ```
 
-Si instalás OBS y usás wayland:
+**Si instalás OBS y usás wayland con sway:**
 
 ```bash
+
+export QT_QPA_PLATFORM=wayland
+sudo pacman -S qt6-wayland
 ```
+
+**Agregar al `/etc/sway/config`:**
+
+```bash
+# Set XDG_CURRENT_DESKTOP for proper Wayland support
+exec --no-startup-id dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
+
+# Start xdg-desktop-portal services (ensure wlr starts first)
+exec --no-startup-id /usr/lib/xdg-desktop-portal-wlr &
+exec --no-startup-id /usr/lib/xdg-desktop-portal -r
+```
+https://www.youtube.com/watch?v=Rq0ZjsAMeIY
+
 
 
 #### Para programación arduino lectura y escritura de /dev/ttyUSB0
