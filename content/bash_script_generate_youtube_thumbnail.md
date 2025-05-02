@@ -44,6 +44,6 @@ if [[ -z "$1" || -z "$2" ]]; then
 fi
 magick -size 1920x1080 plasma:red-blue out.png
 #convert -font Source-Code-Pro-Medium -fill white -pointsize 100 -gravity center -draw "text 0,0 '$1'" out.png $2
-magick out.png -font "/usr/share/fonts/liberation-fonts/LiberationSerif-Regular.ttf" -fill white -pointsize 100 -gravity center -draw "text 0,0 '$1'"  $2
+magick out.png -font "/usr/share/fonts/noto/NotoSansMono-Regular.ttf" -fill white -pointsize 100 -gravity center -draw "text 0,0 '$1'"  $2
 rm out.png
 ```

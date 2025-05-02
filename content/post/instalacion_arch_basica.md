@@ -111,6 +111,13 @@ sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
 pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop feh yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland
 
 
+Si instalás wayland tenés que ejecutar discord y chrome así y **feh** para que funcioné tenés que instalar xorg-server-xwayland o mejor usá imv.
+```bash
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-wlr  xorg-server-xwayland
+Tenés que modificar el /etc/sway/config (buscá en mis publicaciones sway)
+discord --enable-features=UseOzonePlatform --ozone-platform=wayland
+```
+
 systemctl enable NetworkManager
 
 pacman -S wpa_supplicant wireless_tools netctl  # no necesario, con networkmanager te basta. Opcional 

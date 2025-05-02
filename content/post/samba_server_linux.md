@@ -26,13 +26,11 @@ Agregá lo siguiente:
   hosts deny = 0.0.0.0/0
 
 
-[linuxsharename]
+[samba]
   comment = Open Linux Share
-  path = /home/imlauer/linuxshare
+  path = /home/esotericwarfare/samba
   read only = no
   guest ok = yes
-  force user = imlauer
-  force group = imlauer
 ```
 
 Ejecutá: `testparm` para probar la configuración.

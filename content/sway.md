@@ -6,7 +6,26 @@ tags: ['linux']
 Agregar a sway en `/etc/sway/config` para moverse al último workspace
 
 # Toggle workspaces
+### Para grabar la pantalla en OBS.
 ```bash
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-wlr 
+```
+
+```bash
+# PARA OBS
+# Set XDG_CURRENT_DESKTOP for proper Wayland support
+exec --no-startup-id dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
+
+# Start xdg-desktop-portal services (ensure wlr starts first)
+exec --no-startup-id /usr/lib/xdg-desktop-portal-wlr &
+exec --no-startup-id /usr/lib/xdg-desktop-portal -r
+
+
+
+
+
+
 bindsym $mod+Tab workspace back_and_forth
 
 input * {
