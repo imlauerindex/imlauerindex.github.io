@@ -155,7 +155,100 @@ Alumno6(Vendedor de Mangueras): Esa está muy bueno, yo tengo pero para compreso
 Alumno5: Claro este es pizarra, pizarra para... 
 Alumno3: Vos ya tenés el pizarrón común?
 Alumno5: Algo así.
-Profesor: Así que número de avogadro.
+Profesor: Así que... Número de avogadro. 
+Profesor: Estoy buscando de donde salió de la parte eléctrica.
+Alumno5: No no tenía nada que ver. Se me mezclaron los conocimientos. Dije cualquier cosa. Después me di cuenta y dije no debí decir eso.
+Profesor: Me hubieras dicho por lo menos el teorema de Rují, entonces es más fácil para mi explicar.
+Alumno5: Cómo es la de los átomos. Teoría molecular. 
+Profesor: Teoría atómica.
+Alumno3: Cuántica XD
+Alumno5: Como es Thomson, modelo atómico de Bol.
+Profesor: Bueno eso es mejor.
+Alumno5: Claro ahí me confundí era Bold.
+Alumno3: Pero el número de Avogadro.
+Alumno5: Ah vos me querés defender jajajaja. No sí debe...
+Profesor: Pero por las dudas no vamos a aprender eso porque después le vamos a confundir.
+Alumno3: Era 220 o el número de avogadro.
+Profesor: Jeje.
+Alumno5: Un mol... No tenía nada que ver.
+Profesor: Una molécula.
+Alumno5: Sí era una molécula.
+Profesor: El problema es que yo después no me olvido de ese tema. Ahora va aparecer al costado Avogadro, bueno vamos a empezar.
+
+###### Empezamos
+###### Como son los circuitos, donde se generan, la energía alterna como nace, donde está el receptor donde está el generador el alternador. 
+###### Magnitudes físicas.
+###### Qué es corriente, resistencia, conductor.
+###### No enseñamos física, solo tenemos que saber las magnitudes que nos representan.
+El problema de todos estos fenómenos físicos, hay distintas teorías pero la idea principal es que ustedes sepan como son los circuitos y como salen, donde se generan  y todas esas cosas. Sepan que la electricidad tiene más la alterna tiene de donde nace porque sino eso es lo más fundamental y después la parte de los circuitos como se **genera donde está el receptor donde está el generador el alternador en el caso de corriente alterna**. Y que ustedes entiendan las magnitudes físcas. **Cuál es la corriente cual es la resistencia, cuál es el conductor**, todas esas cosas es fundamental cuando hacemos las instalaciones que hay que tener en cuenta nada más que eso. Porqued si ponemos hay muchas teorías y a veces es medio engorroso entender fśicamente. Nosotros no damos física, justamente somos instaladores tenemos que saber las magnitudes que nos representan y que conforma en cualquier fórmula y en cualquier medición que hagamos.
+
+Yo encontré un tester, estos son digitales los otros analógicos pero tenía solo la parte de arriba.
+
+###### La alarma tiene un pulsador contra la pared que protege en caso de querer desarmarla se activa la alarma.
+Ya que estamos ya voy desarmando cosas con el tema de las alarmas estos son los detectores después si quieren meten, hay que meter en un... Y se abre para que ustedes entiendan internamente como es, esto viene una conexión pero para que sirve la sirena. Esto que tiene acá (un botón) cuando yo coloco, ese pulsador está unido ahí. En caso de que lleguen a sacar esto empieza a sonar sin que suene la alarma. O se activa la alarma, esto lo que hace es proteger de cualquier desarme que tenga la alarma después sacá por acá pero llegás a tocar allá... Tienen unos switch esto también tiene un sistema para que ya estamos ahí esto estaba cableado la otra vez.
+
+###### Hablan de que la radio está regulada pero el streaming no. Problema de España. 
+Así que desistieron de la radio.
+Alumno3(Anteojos con barba negra): La radio está regulada, el streaming no está regulado.
+Profesor: Viste como buscan hacer las cosas. Este lo ideal es, me pongo acá este está mi llave ¿para que presté? ese le giraron ahí...
+Alumno3(Anteojos con barba negra): En la radio entra el sindicato sersal.
+Profesor: Ah viste que hay gente que sabe cosas, uno va aprendiendo. Uno se desarmó pero generalmente van 4 cables fíjense quería desarmar ahí. 
+Alumno3(Anteojos con barba negra): Es telefónico?
+Profesor: Sí, par telefónico. Fijate si le podés desarmar con este. Este tiene una trabita, a ver si tengo otro más, ese está amurado ahí justo la base par telefónico, acá hay uno, acá hay otro. Tiene una trabita fijate ahí sino ahí... Total este .... En el otro centro de formación desarmamos eso. Bueno vamos a ir viendo despacito ahí empezamos. Vieron que problema tuvo España todavía no saqué mi posición. 
+Alumno6(Vendedor de Mangueras): Siguen igual o se arregló?
+Profesor: No ya arreglaron ya, gran parte creo que esta mañana se iba a solucionar.
+Alumno(que hizo enojar al profesor): Parece que tenían una térmica SICA.
+Profesor: No hablen pavadas porque después la gente escucha y ustedes después... AVOGADRO dijo el vago, de donde salió eso. Hay teorías.
+Alumno5: Se me mezclaron.
+Profesor: Se me mezclaron.
+Alumno5: Se me mezclaron los conocimientos.
+Profesor: Ahora vas a prestar atención porque todo lo que vos digas, será dicho en tu contra.
+
+###### Normalmente cerrado, normalmente cerrado
+###### tiene un elemento que es en caso de que uno toque directamente o quiera desarmar esto se active entonces normalmente siempre está cerrado
+###### Regular alarmas: como ubicar el ángulo como regular, hay soportes. Hay otros que se pueden subir y bajar.
+Para que ustedes vean esto internamente es un detector de movimiento, que se usa en alarmas principalmente tengo 3 borneras siempre cualquier equipo que uno tenga para activar, necesito positivo negativo en este caso. Después tengo 2 cablecitos más que directamente unen es **normalmente abierto y normalmente cerrado** esto significa que el normalmente cerrado exclusivamente en caso de que esto tiene un elemento que es en caso de que uno toque directamente o quiera desarmar esto se active entonces normalmente siempre está cerrado, pero en caso de que yo desconecto eso empieza a sonar la alarma. Es interesante en este caso para que ustedes entiendan no es que yo no comparta el tema de sistema inalámbrico pero para mi me dió más resultado esta característica o esta forma de activarlos, así que ...
+Alumno(que hizo enojar al profesor): Pasa que van buscando la forma de eliminar el instalador, de que la instalación sea más...
+Profesor: La idea es... Lo que yo entiendo es tratar de hacerlo todo más fácil y más rápido entonces no contratar un tipo como ustedes que hagan instalación.
+Alumno(que hizo enojar al profesor): Claro instala el dueño de la casa no más.
+Alumno6(Vendedor de Mangueras): Claro para vender más.
+Alumno(que hizo enojar al profesor): Más rápido vendés. 
+###### Las cámaras nuevas vienen como un foquito. Las alarmas tienen soporte y se puede regular si sube o baja. Al verificar una instalación veremos que si esto está activado, siempre va a tener una lucesita para ver que está el infrarojo.
+##### Depende del nicho que agarren y la prestación, ustedes tienen un amplio rango de trabajo. 
+Alumno6(Vendedor de Mangueras): Viste ahora, las cámaras que vienen como un foquito.
+Profesor: Bueno. Este que ven acá ustedes es seguramente para que vean el infrarojo que hace el sistema de tensión y hay equipos que tienen la posibilidad de que esto se regule entonces ven la distancia o sea cuando yo tengo menos ángulo para abajo tengo menor recorrido y menor longitud de detensión, entonces acá tengo mayor recorrido y esto se regula o sea que no es que yo coloco, hay soporte que hacen que esto. Y hay otros que directamente tienen la posibilidad de regular una vez que uno coloca que esto baje o suba. Algunos que hacen esa característica....
+Ustedes cuando quieran entrar o verificar una instalación van a ver que esto está activado siempre va a tener una lucesita para que está el infrarojo, son cosas sencillas lindas de... Lo que quiero decir es que hay gente que se dedica a diferentes ramas en la parte eléctrica instalación en todo. Depende del nicho que agarren y la prestación o sea que se capaciten ese, ustedes tienen un amplio rango de trabajo. Lo que le digo a veces... Bueno.
+
+###### Magnitudes, ver como medimos y qué característica tenga.
+Traje para empezar algunas magnitudes y ver como medimos, y qué característca tenga, ya le vamos a llevar esto acá. Le voy mostrando porque le voy mostrando en casa y ya más o menos le voy trayendo porque después está archivado por ahí.
+
+###### Este tiene una caja de paso el verde me indica la tensión, y el otro la corriente (ojos de buey con display) entonces yo tengo acá un transformador si o si estos 2 elementos tienen la posibilidad de si quiero medir la tensión a través de un grafiquito
+Que vamos a hacer ahí de un circuito como tomo el valor porque generalmente uno quiere medir la tensión en ese instante y necesito un multímetro.
+
+###### Si yo no tengo un elemento o un equipo que pueda medir la tensión busco cualquier elemento para tener una idea que es lo que está pasando en ese circuito.
+###### Por un arco(como una pinza amperométrica) pasa un cablecito que es el cable que a través de un campo magnético pasa la corriente por acá genera un campo magnético eso se transforma entonces me indicará la corriente (en el ojo de buey con display).
+
+###### Como activo el contactor 
+Sí o si acá yo puedo medir la tensión, entrada salida lo que sea, pero también este que es para que mida la corriente yo necesito tener la posibilidad de darle 220 acá y por acá pasaría un cablecito que es el cable que a través de un campo magnético pasa la corriente por acá genera un campo magnético eso se transforma y es igual que la pinza amperométrica entonces me va a indicar en este equipo que es lo que está pasando y que corriente tengo en ese instante. Para qué me sirve esto? Vamos a suponer que yo tengo que verificar o hay un problema en una instalación eléctrica hoy en día con el celular la gente de una zona rural posiblemente no tenga elementos de medición entonces trato de colocar en algunos casos un poco más grande, para que ellos me muestren que es lo que está pasando cuando enciende que es lo que está pasando en la corriente. Y a veces me dicen que no arranca me muestran los tableros, no tengo ninguna foto de tablero de contactores de térmica entonces le empiezo a mostrar que es lo que tienen que hacer, que es lo que tienen que tocar para ver si realmente funciona o no.
+
+###### La gente desarma cuando le decís un posible problema y es más difícil hacer un diagnóstico al encontrarlo desarmado.
+###### Solución de problemas de contactor: electrobomba motor. 
+###### Hay que mandar gente que ya lleva un contactor para reemplazarlo y después ver sin tocar nada porque si le decís algo la gente lo primero que hace es desarmar.
+###### Si desarma el problema es que si lo encontrás desarmado ya es difícil hacer un diagnóstico.
+Y le voy explicando que puede hacer porque a veces es conctactor, entonces ¿qué hace? Trata de conectar el contactor y mientras funcione el contactor... O sea yo le activo el contactora a través de un sistema o cualquier elemento que tenga para pulsarlo si funciona el motor quiere decir que el problema principal no es el motor ni la electrobomba nada por el estilo, el relé no está cortado ni está abierto, entonces el problema principal es el contactor porque el contactor tiene 2 elementos que son principales que es la bobina y en 1 le doy la fase y en el otro generalmente trabajo con 220, entonces en 1 le doy la fase y el otro neutro y cuando activo me tiene que chupar el contactor si no hace eso no arranca probablemente el principal problema sea el contactor entonces tengo que mandar gente que ya lleva un contactor para reemplazarlo a eso y después ver sin tocar nada, porque si vos le decís algo y la gente lo primero que hace es desarmar.
+Si desarma el problema es que si lo encontrás desarmado ya es difícil hacer un diagnóstico.
+##### La idea principal es que te cuente lo que está pasando y vos le estás comentando pero que no desarme, si desarma ahí mandá a gente que lleve una bomba o un tablero nuevo porque esa gente ya desarmó las partes principales y hay gente que encima desconectan y a veces es difícil encontrar como estaba conectado.
 
 
+Bueno. Vamos a empezar a ver una parte que a nadie le gusta y a mi tampoco, así que no se preocupen. 
+
+Para entender bien esta parte física y teórica, como se genera electricidad, la parte teórica en este sentido sería energía atómica. Se hace en función de como funciona un átomo. O sea en principio como está formado la materia.
+
+
+
+
+
+
+
+Alumno3(Anteojos con barba negra):
 
