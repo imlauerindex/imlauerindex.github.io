@@ -22,3 +22,312 @@ Las diferencias entre los sistemas eléctricos con y sin sistemas de conexión a
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpVknt7TghhJd-sqGDu4AXFDohK3hz_cI-TzC-oTh3hHxi0h1N-oBSAkxqDYvXNMBsSaZwut-plw9QDEmMABkoEvkxnUlc14SZ3klHvVICjMIJVw1hHBUuPIpUQ2mkkLsjWPMP-QZ7oSCeLmJCK6hSV4VslaM3zD9GZy_6F1KBM9wdQps8OUGLpNQXtbI/s4160/IMG_20250429_194725622.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvhmPuvfNN97ZtP8al-wVQu4-DDB0-J7isR0b75lEH8MgCjpNfTPcsonp8_U1zZeHDxh5N-7eFY2I8VqitVodqMZaRiLwIX21hKaTcKMzwVBoJ6GkUvO3t0SrZkJSe_y5Fi3ZVl5HzwiDqSNzyCU51-bup-osBf6Y_6hILUu9D_Y3ZCbtTmMGXIrgQD-k/s4160/IMG_20250429_200006777.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1-U6q8YbxKmPXf6ZMdZ3QlwWsCjeBDxwwzbcIoHi6sFMQdIOrK7VGRAO-VQybwe5Sqstn_aUbyrsbdjWHTSMyTacPr2lGBC2goYmOTLcg1cEk52u8iYe0Zu6l1brjCtzfRYQQhD3TuTejwMCBVzYuBH0PYFsUNKi3ZZD3DmUwXh-J1CbeCD6whpg098g/s4160/IMG_20250429_201858377.jpg)
+
+---
+
+
+###### Minuto 01   
+Yo: Hoy vamos a dar teoría. Como ayer dimos. Buenas.   
+Alumno: Por eso tenés la batería   
+Alumno2: Le acabo de comprar una nueva.   
+Alumno3: Ah vo' el que me contaste?   
+Alumno2: No el señor me mandó.   
+Alumno3: Vos decís que ahí tienen agua caliente?   
+Alumno2: Sí, yo recién calenté ahí está la pava eléctrica. Cargá el agua esperá 1 minuto.   
+Alumno3: Le pediste a alguien?   
+Alumno2: No, no pasá a calentar no más.    
+Alumno3: Le digo que vos me mandaste.   
+Alumno2: Como te lavás las manos.   
+Alumno2: Compré al pedo.   
+Alumno4: Como estamos.   
+Yo: Buenas.   
+Alumno3: No anda el tester, cuando me compre otro tengo "pila".   
+Yo: Ah no anda, o sea compraste fallado?   
+Alumno3: No no, mi tester es viejo.   
+Alumno4: Preguntale a sábelo todo cuando llegue.   
+Alumno: Cuál es el sentido de la vida?   
+Alumno4: No me refiero al profesor.   
+Alumno3: Capaz solo el display murió pero bueno, pero para continuidad funciona.   
+Yo: Hay algunos que tenés que apretar el display para que se vea.   
+Alumno5: Eso suele tener un fusible adentro, no te fijaste?   
+Alumno3: Sí, está el fusible está entero. No es que no prende tiene el display cagado.   
+Yo: Y si lo apretás, no se vé?   
+Alumno3: Ah bueno sí. Entre dos uno aprieta el display. Aah que le habrá pasado el desuso.   
+Yo: Se habrá caído.   
+Alumno3: Mm. Nadie tiene un cable de red, tiene un tester de red.   
+Yo: Por qué tiene un cable de Internet?   
+Alumno3: Es un tester que aparte tiene cable de Internet, con este aparatito podés medir.   
+Yo: Ah podes ver si anda el cable. Ah mirá vos, no sabía eso.   
+Alumno3: Si prende luz 1, tiene hasta 8 cables. O sea...   
+Alumno6(Vendedor de Mangueras): Hoy va a venir Alejandro con un super tester.   
+Alumno4: Que le pregunté por qué no funciona (el tester).   
+Alumno6(Vendedor de Mangueras): Ah eso se quema, si le medís mal se quema, si le pones menos voltaje le encajás 220 explota.   
+Alumno3: Pero tiene fusible, no está quemado el fusible.   
+Alumno6(Vendedor de Mangueras): Y el capacitor no? Tiene que hacerle medir tiene que estar cargado también.   
+Alumno3: Igual estos son descartables. 13 mil está en MercadoLibre, NISUTA.   
+Alumno6(Vendedor de Mangueras): Yo encargué uno en Electro uno como el profeosr.   
+Alumno3: 200 lucas?   
+Alumno6(Vendedor de Mangueras): 17, estaba 16 ahora subió.   
+Alumno3: Tan barato?   
+Alumno6(Vendedor de Mangueras): Y después así el comunardo 7 mil.   
+Alumno3: O sea si queres tener una pinza podes tener.   
+Alumno6(Vendedor de Mangueras): Viste que el del profe tiene para capacitor.   
+Yo: Ese sale más caro.   
+Alumno6(Vendedor de Mangueras): Ese está 17.   
+Yo: Pero no sé hasta que capacidad mide. Hasta cuántos microfaradios.   
+Alumno6(Vendedor de Mangueras): No, este...   
+Yo: Y capaz si te comprás uno te conviene comprar la pinza que mide amper.   
+Alumno3: Sí. Este yo lo usaba para el cable de red.   
+Yo: Hoy en día la mayoría usa WiFi.   
+Alumno3: Al router lo tenés que cablear.   
+Yo: Si al router pero todas las demás computadoras ya están con WiFi.   
+Alumno3: Igual el usuario común, pero el que sabe es el que cableado es mejor, pero el que sabe se hace el mismo.   
+Yo: Hay WiFi 5.8 que llega hasta 200 megas (creo).   
+Alumno3: El 6 hasta 300. En realidad más hasta 1000, solo que en Posadas en casas 300 es el común, 300 simétrico el de Claro que viene ahora.   
+Yo: Ah subida y bajada.   
+Alumno3: Sí, espectacular.   
+Alumno6(Vendedor de Mangueras): Subió ya a 8 el tester.   
+Alumno3: Pero vos ya pediste?   
+Alumno6(Vendedor de Mangueras): Y hay por 5, 6500   
+Alumno4: Vos entraste a la página de electromisiones para?   
+Alumno6(Vendedor de Mangueras): Sí. Mi hijo va al Janssen y mi compinche es el dueño de Revendé y le pregunté cuánto salía un soldador y me dijo 17 un Surich de 60 watts me fijé en Electro...   
+Alumno3: De electŕonica?   
+Alumno6(Vendedor de Mangueras): Claro para electrónica. La otra vez me fijé en electro 9 mil pesos, fui y le compré.   
+Alumno3: Y le piden un mínimo de Watts?   
+Alumno6(Vendedor de Mangueras): No. Viste que yo tenía uno de esos de la placita, porque yo durante años arreglé celulares tablets, tenía uno viejo que para algunas cosas no más usaba. Le dí y según él no sirve porque tardaba mucho, el profesor le cagó a pedo porque no terminaba de soldar un cable. Yo le dijé si vos sabés soldar sabés soldar con cualquier soldador. Con un clavo caliente, una pienza y 1 clavo caliente. Y supuestamente estaba por desaprobar taller por eso. Ahora tiene que sacar un 10 por lo menos, encima le di una lija, si no quiere derretir el estaño lijale la puntita y... Ya está.   
+Alumno4: Mañana hay clases?   
+Alumno6(Vendedor de Mangueras): Hasta 200 microfaradios.   
+Alumno3: Tengo que apretarlo no más.   
+   
+Tamborilleo... XD   
+   
+Alumno6(Vendedor de Mangueras): La pinza amperométrica 12, una básica.   
+Yo: Sí, no subieron los precios porque creo que desde el año pasado están ....   
+Alumno6(Vendedor de Mangueras): Si no todo están más o menos, yo vendo algunas cosas, yo tengo desde Diciembre del 2024, 2023. Viste que cuando ganó Milei todo se fue a la puta y bueno desde ahí no aumentan, se ve que ahí ya aumentarón por las dudas. Y ahora también con el primer anuncio, ahí mandaron una lista nueva. Estos hijos de puta y...   
+Alumno3: No le acepto nadie?   
+Alumno6(Vendedor de Mangueras): Y se ve que le habrán cancelado el pedido todo porque después viste que... Como que el 1er día no pasó nada con el dólar y mandaron otra, casi el mismo valor de lo que estaba y encima con 10% de descuenta en efectivo.   
+Alumno4: Vos tenés ferretería?   
+Alumno6(Vendedor de Mangueras): Yo vendo algunas cosas, llegué a tener una ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más, antes hasta te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a gruporá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más.    
+Alumno4: Pero que es lo que más vendés?   
+Alumno6(Vendedor de Mangueras): Yo vendo mucho manguera, manguera de riego manguera para compresor de aire, las gomerías. Después vendo pistola para pintar para compresor, puertas plegadizas.   
+Alumno4: Inflador pequeño tenés? Ví que había uno a batería.   
+Alumno6(Vendedor de Mangueras): Ese te conviene... Yo vendía pero compraba en el Vital, compraba del Vital y revendía. Entramos todos en unos grupos de una ferretería de Paraguay que se llama Ferretería Julio. Te añade al grupo y te van mandando. Hoy mandaron un compresor digital, un espectáculo, está bueno para uno.   
+Profesor: Che, cada vez menos, parece que se aburren voy a empezar a dar otras cosas.    
+Alumno5(Avogadro): Vino feliz profe, el último día.   
+Profesor: Me estaban por dar la llave para ver lo que están haciendo adelante, porque antes era radio y ahora no sé que van a hacer tipo un streaming, está hecha la instalación, quería ir a ver para que sepan.   
+Alumno6(Vendedor de Mangueras): Le embueron ahí en la radio.   
+Profesor: Sí por eso, quería ir a ver que es lo que hicieron para mostrarle a ustedes para que tengan idea de que cualquiera hace la instalación eléctrica, aparte de que ya está hecho eso la idea es que pueda sacar conclusiones buena o malas pero buena, es para que ustedes entiendan. Pero bueno está viniendo me averiguó allá, acá cerca y después de la sería de la salida de ruta 12 viste que está el puesto ahí de caminera hay que ir 200 metros y después doblar para el fondo entonces la empresa esta tiene algunas concesiones y hacen las casas de... Entonces están allá, no vienen para acá. Si tenemos suerte aunque sea que nos presten mañana, esa es la idea. No sé para que mierda traigo si esto yo no... Voy a sacar fotocopia.   
+   
+Como siempre preparé algo pero posiblemente no traje las cosas no tengo computadora.   
+   
+Alumno5: Vos no sabés donde se consiguen esas pizarras?   
+Alumno6(Vendedor de Mangueras): Sí, en cualquier librería.   
+Alumno5(Avogadro): Pero yo necesito una de ....   
+Alumno6(Vendedor de Mangueras): Tenés acá viste por Santa Fé pasando Junín, de este lado venden chiquitaje cosas chicas.   
+Profesor: Me quedó grabado Avogadro.   
+Alumno6(Vendedor de Mangueras): Por lo menos el panel ranurado ese sale, fortuna (pizarra).   
+Alumno3: Yo me compré un contact.   
+Alumno6(Vendedor de Mangueras): Te conviene comprar cualquier cosa y comprás la pintura para pizarrón. Ese le pintás viste, se vende en la pinturería y después le escribís con tiza.   
+Alumno3: Yo tenía un pizarrón y le puse un contact. O sea no se llama: pelu¿?(Minuto 15:50) para... No sé como es el nombre, en MercadoLibre está como para transformar tu pizarrón para marcador.   
+Alumno4: Y son los patini.   
+Alumno6(Vendedor de Mangueras): Esta es mirá (muestra el celular con el compresor o el inflador no sé que era). 11 dólares en Paraguay, 13 mil pesos por ahí está.   
+Alumno4: 10 mil pesos hacen 60 mil guaraníes.   
+Alumno6(Vendedor de Mangueras): Más o menos. Y hay uno que viene... Hay una cajita que viene inflador y cargador de batería    
+Alumno4: Sí esa es la que mi compañero tiene.   
+Alumno6(Vendedor de Mangueras): Esa está muy bueno, yo tengo pero para compresor tengo, el inflador.   
+Alumno5: Claro este es pizarra, pizarra para...    
+Alumno3: Vos ya tenés el pizarrón común?   
+Alumno5: Algo así.   
+Profesor: Así que... Número de avogadro.    
+Profesor: Estoy buscando de donde salió de la parte eléctrica.   
+Alumno5: No no tenía nada que ver. Se me mezclaron los conocimientos. Dije cualquier cosa. Después me di cuenta y dije no debí decir eso.   
+Profesor: Me hubieras dicho por lo menos el teorema de Rují, entonces es más fácil para mi explicar.   
+Alumno5: Cómo es la de los átomos. Teoría molecular.    
+Profesor: Teoría atómica.   
+Alumno3: Cuántica XD   
+Alumno5: Como es Thomson, modelo atómico de Bol.   
+Profesor: Bueno eso es mejor.   
+Alumno5: Claro ahí me confundí era Bold.   
+Alumno3: Pero el número de Avogadro.   
+Alumno5: Ah vos me querés defender jajajaja. No sí debe...   
+Profesor: Pero por las dudas no vamos a aprender eso porque después le vamos a confundir.   
+Alumno3: Era 220 o el número de avogadro.   
+Profesor: Jeje.   
+Alumno5: Un mol... No tenía nada que ver.   
+Profesor: Una molécula.   
+Alumno5: Sí era una molécula.   
+Profesor: El problema es que yo después no me olvido de ese tema. Ahora va aparecer al costado Avogadro, bueno vamos a empezar.   
+   
+###### Empezamos   
+###### Como son los circuitos, donde se generan, la energía alterna como nace, donde está el receptor donde está el generador el alternador.    
+###### Magnitudes físicas.   
+###### Qué es corriente, resistencia, conductor.   
+###### No enseñamos física, solo tenemos que saber las magnitudes que nos representan.   
+El problema de todos estos fenómenos físicos, hay distintas teorías pero la idea principal es que ustedes sepan como son los circuitos y como salen, donde se generan  y todas esas cosas. Sepan que la electricidad tiene más la alterna tiene de donde nace porque sino eso es lo más fundamental y después la parte de los circuitos como se **genera donde está el receptor donde está el generador el alternador en el caso de corriente alterna**. Y que ustedes entiendan las magnitudes físcas. **Cuál es la corriente cual es la resistencia, cuál es el conductor**, todas esas cosas es fundamental cuando hacemos las instalaciones que hay que tener en cuenta nada más que eso. Porqued si ponemos hay muchas teorías y a veces es medio engorroso entender fśicamente. Nosotros no damos física, justamente somos instaladores tenemos que saber las magnitudes que nos representan y que conforma en cualquier fórmula y en cualquier medición que hagamos.   
+   
+Yo encontré un tester, estos son digitales los otros analógicos pero tenía solo la parte de arriba.   
+   
+###### La alarma tiene un pulsador contra la pared que protege en caso de querer desarmarla se activa la alarma.   
+Ya que estamos ya voy desarmando cosas con el tema de las alarmas estos son los detectores después si quieren meten, hay que meter en un... Y se abre para que ustedes entiendan internamente como es, esto viene una conexión pero para que sirve la sirena. Esto que tiene acá (un botón) cuando yo coloco, ese pulsador está unido ahí. En caso de que lleguen a sacar esto empieza a sonar sin que suene la alarma. O se activa la alarma, esto lo que hace es proteger de cualquier desarme que tenga la alarma después sacá por acá pero llegás a tocar allá... Tienen unos switch esto también tiene un sistema para que ya estamos ahí esto estaba cableado la otra vez.   
+   
+###### Hablan de que la radio está regulada pero el streaming no. Problema de España.    
+Así que desistieron de la radio.   
+Alumno3(Anteojos con barba negra): La radio está regulada, el streaming no está regulado.   
+Profesor: Viste como buscan hacer las cosas. Este lo ideal es, me pongo acá este está mi llave ¿para que presté? ese le giraron ahí...   
+Alumno3(Anteojos con barba negra): En la radio entra el sindicato sersal.   
+Profesor: Ah viste que hay gente que sabe cosas, uno va aprendiendo. Uno se desarmó pero generalmente van 4 cables fíjense quería desarmar ahí.    
+Alumno3(Anteojos con barba negra): Es telefónico?   
+Profesor: Sí, par telefónico. Fijate si le podés desarmar con este. Este tiene una trabita, a ver si tengo otro más, ese está amurado ahí justo la base par telefónico, acá hay uno, acá hay otro. Tiene una trabita fijate ahí sino ahí... Total este .... En el otro centro de formación desarmamos eso. Bueno vamos a ir viendo despacito ahí empezamos. Vieron que problema tuvo España todavía no saqué mi posición.    
+Alumno6(Vendedor de Mangueras): Siguen igual o se arregló?   
+Profesor: No ya arreglaron ya, gran parte creo que esta mañana se iba a solucionar.   
+Alumno(que hizo enojar al profesor): Parece que tenían una térmica SICA.   
+Profesor: No hablen pavadas porque después la gente escucha y ustedes después... AVOGADRO dijo el vago, de donde salió eso. Hay teorías.   
+Alumno5: Se me mezclaron.   
+Profesor: Se me mezclaron.   
+Alumno5: Se me mezclaron los conocimientos.   
+Profesor: Ahora vas a prestar atención porque todo lo que vos digas, será dicho en tu contra.   
+   
+###### Normalmente cerrado, normalmente cerrado   
+###### tiene un elemento que es en caso de que uno toque directamente o quiera desarmar esto se active entonces normalmente siempre está cerrado   
+###### Regular alarmas: como ubicar el ángulo como regular, hay soportes. Hay otros que se pueden subir y bajar.   
+Para que ustedes vean esto internamente es un detector de movimiento, que se usa en alarmas principalmente tengo 3 borneras siempre cualquier equipo que uno tenga para activar, necesito positivo negativo en este caso. Después tengo 2 cablecitos más que directamente unen es **normalmente abierto y normalmente cerrado** esto significa que el normalmente cerrado exclusivamente en caso de que esto tiene un elemento que es en caso de que uno toque directamente o quiera desarmar esto se active entonces normalmente siempre está cerrado, pero en caso de que yo desconecto eso empieza a sonar la alarma. Es interesante en este caso para que ustedes entiendan no es que yo no comparta el tema de sistema inalámbrico pero para mi me dió más resultado esta característica o esta forma de activarlos, así que ...   
+Alumno(que hizo enojar al profesor): Pasa que van buscando la forma de eliminar el instalador, de que la instalación sea más...   
+Profesor: La idea es... Lo que yo entiendo es tratar de hacerlo todo más fácil y más rápido entonces no contratar un tipo como ustedes que hagan instalación.   
+Alumno(que hizo enojar al profesor): Claro instala el dueño de la casa no más.   
+Alumno6(Vendedor de Mangueras): Claro para vender más.   
+Alumno(que hizo enojar al profesor): Más rápido vendés.    
+###### Las cámaras nuevas vienen como un foquito. Las alarmas tienen soporte y se puede regular si sube o baja. Al verificar una instalación veremos que si esto está activado, siempre va a tener una lucesita para ver que está el infrarojo.   
+##### Depende del nicho que agarren y la prestación, ustedes tienen un amplio rango de trabajo.    
+Alumno6(Vendedor de Mangueras): Viste ahora, las cámaras que vienen como un foquito.   
+Profesor: Bueno. Este que ven acá ustedes es seguramente para que vean el infrarojo que hace el sistema de tensión y hay equipos que tienen la posibilidad de que esto se regule entonces ven la distancia o sea cuando yo tengo menos ángulo para abajo tengo menor recorrido y menor longitud de detensión, entonces acá tengo mayor recorrido y esto se regula o sea que no es que yo coloco, hay soporte que hacen que esto. Y hay otros que directamente tienen la posibilidad de regular una vez que uno coloca que esto baje o suba. Algunos que hacen esa característica....   
+Ustedes cuando quieran entrar o verificar una instalación van a ver que esto está activado siempre va a tener una lucesita para que está el infrarojo, son cosas sencillas lindas de... Lo que quiero decir es que hay gente que se dedica a diferentes ramas en la parte eléctrica instalación en todo. Depende del nicho que agarren y la prestación o sea que se capaciten ese, ustedes tienen un amplio rango de trabajo. Lo que le digo a veces... Bueno.   
+   
+###### Magnitudes, ver como medimos y qué característica tenga.   
+Traje para empezar algunas magnitudes y ver como medimos, y qué característca tenga, ya le vamos a llevar esto acá. Le voy mostrando porque le voy mostrando en casa y ya más o menos le voy trayendo porque después está archivado por ahí.   
+   
+###### Este tiene una caja de paso el verde me indica la tensión, y el otro la corriente (ojos de buey con display) entonces yo tengo acá un transformador si o si estos 2 elementos tienen la posibilidad de si quiero medir la tensión a través de un grafiquito   
+Que vamos a hacer ahí de un circuito como tomo el valor porque generalmente uno quiere medir la tensión en ese instante y necesito un multímetro.   
+   
+###### Si yo no tengo un elemento o un equipo que pueda medir la tensión busco cualquier elemento para tener una idea que es lo que está pasando en ese circuito.   
+###### Por un arco(como una pinza amperométrica) pasa un cablecito que es el cable que a través de un campo magnético pasa la corriente por acá genera un campo magnético eso se transforma entonces me indicará la corriente (en el ojo de buey con display).   
+   
+###### Como activo el contactor    
+Sí o si acá yo puedo medir la tensión, entrada salida lo que sea, pero también este que es para que mida la corriente yo necesito tener la posibilidad de darle 220 acá y por acá pasaría un cablecito que es el cable que a través de un campo magnético pasa la corriente por acá genera un campo magnético eso se transforma y es igual que la pinza amperométrica entonces me va a indicar en este equipo que es lo que está pasando y que corriente tengo en ese instante. Para qué me sirve esto? Vamos a suponer que yo tengo que verificar o hay un problema en una instalación eléctrica hoy en día con el celular la gente de una zona rural posiblemente no tenga elementos de medición entonces trato de colocar en algunos casos un poco más grande, para que ellos me muestren que es lo que está pasando cuando enciende que es lo que está pasando en la corriente. Y a veces me dicen que no arranca me muestran los tableros, no tengo ninguna foto de tablero de contactores de térmica entonces le empiezo a mostrar que es lo que tienen que hacer, que es lo que tienen que tocar para ver si realmente funciona o no.   
+   
+###### La gente desarma cuando le decís un posible problema y es más difícil hacer un diagnóstico al encontrarlo desarmado.   
+###### Solución de problemas de contactor: electrobomba motor.    
+###### Hay que mandar gente que ya lleva un contactor para reemplazarlo y después ver sin tocar nada porque si le decís algo la gente lo primero que hace es desarmar.   
+###### Si desarma el problema es que si lo encontrás desarmado ya es difícil hacer un diagnóstico.   
+Y le voy explicando que puede hacer porque a veces es conctactor, entonces ¿qué hace? Trata de conectar el contactor y mientras funcione el contactor... O sea yo le activo el contactora a través de un sistema o cualquier elemento que tenga para pulsarlo si funciona el motor quiere decir que el problema principal no es el motor ni la electrobomba nada por el estilo, el relé no está cortado ni está abierto, entonces el problema principal es el contactor porque el contactor tiene 2 elementos que son principales que es la bobina y en 1 le doy la fase y en el otro generalmente trabajo con 220, entonces en 1 le doy la fase y el otro neutro y cuando activo me tiene que chupar el contactor si no hace eso no arranca probablemente el principal problema sea el contactor entonces tengo que mandar gente que ya lleva un contactor para reemplazarlo a eso y después ver sin tocar nada, porque si vos le decís algo y la gente lo primero que hace es desarmar.   
+Si desarma el problema es que si lo encontrás desarmado ya es difícil hacer un diagnóstico.   
+##### La idea principal es que te cuente lo que está pasando y vos le estás comentando pero que no desarme, si desarma ahí mandá a gente que lleve una bomba o un tablero nuevo porque esa gente ya desarmó las partes principales y hay gente que encima desconectan y a veces es difícil encontrar como estaba conectado.   
+   
+   
+Bueno. Vamos a empezar a ver una parte que a nadie le gusta y a mi tampoco, así que no se preocupen.    
+   
+###### La materia está formado por una cantidad de átomos y a partir de ahí hace toda la introducción como se meuven los electrones para generar la corriente eléctrica.   
+Para entender bien esta parte física y teórica, como se genera electricidad, la parte teórica en este sentido sería energía atómica. Se hace en función de como funciona un átomo. O sea en principio como está formado la materia.   
+La materia está formado por una cantidad de átomos y a partir de ahí hace toda la introducción como se meuven los electrones para generar la corriente eléctrica. Todo ese problema es una mención no más que hacemos, a mi esa parte me interesa las magnitudes, entonces si aprenden bien las magnitudes tarde o temprano cuando leen algo, "ah esto hay que hacer". Entienden como es el sistema?   
+   
+###### Primera advertencia al alumno que lo hizo enojar y al tipo que dijo número de avogadro. Hablan sobre graficar un circuito en el pizarrón.   
+Alumno(que hizo enojar al profesor): La primer patada ay esto es potencia activa que es consumo   
+Profesor: Me va a dar un infarto si siguen hablando así **(la primera advertencia)** (Minuto 36)   
+El otro con el tema de avogadro.    
+Alumno5(avogadro): Ah ni dije nada todavía profe.   
+Profesor: Todavía. Reconoció que se le escapó algo, que tenía un conocimiento un poco nefasto y dijo ...   
+Alumno5(avogadro): Ay profe, no era tan nefasto. Estaba en medida.   
+Profesor: En la física. Bueno pero es así. Lo lindo de todo esto es que hay que tomarlo a ver como un chiste porque nunca se va a olvidar.   
+Ayudante: Con un cierto grado de humor.   
+Profesor: Ah vos dijiste que querías dibujar, vas a dibujar entonces.   
+Ayudante: Ruido.   
+Profesor: Vos dijiste: "mientras ud. habla de valde yo voy a hacer..."   
+Ayudante: Sus dibujos dejan mucho que desear   
+Profesor: Te das cuenta... Dejan mucho que desear.   
+Ayudante: Te estoy defendiendo hace referncia al Alumno5.   
+Profesor: Lo que quiero es a ver si tengo un dibujo acá, lo que pasa es que el dibujo lo tengo en la mente, no te puedo decir todo, pero vamos a ver que te puedo decir.   
+Ayudante: Piénselo.   
+###### Alternador así se llama en corriente alterna el que genera.   
+Profesor: Vamos a revisar. Haceme un circuito como hicimos ayer, entonces poné... El dibujo lo tengo en la mente. A ver si tengo acá... Ahora te das cuenta porque... Creo que tenía en esta carpeta.... Buscando dibujo... Se complica porque... Pero hacelo com te hice ayer. La idea principal es que vos veas y podemos marcar las magnitudes, esto a ver hacelo así mirá. École esto es así pero poné fusible conector y todas esas cosas para explicar las partes constitutivas de un circuito eléctrico. Acuérdense, yo puedo tener ... Lo importante que vos tengas acá que la gente.... Tiene un alternador porque es alternador porque en corriente alterna el que genera es un alternador, y si esto no está directamente tengo la alimentación de la línea 220. Entonces eso es lo importante que... Este es más moderno si se llega a quemar ya sabemos por qué un elemento de protección que en este caso proteje...   
+   
+Que protege el fusible? La línea.   
+Alumno(que hizo enojar al profesor): Ese es el fusible aéreo.   
+   
+Cuando es fusible un elemento que actúa por fusión,    
+###### ¿qué es la fusión? Que un metal entra en rojo y se funde, entonces se dice fusión.   
+   
+Alumno(que hizo enojar al profesor): Aaaahhh, aaauummm dijo él....   
+Profesor: Ese es fusible. Un elemento en ese caso 1 hilo que pasa una cierta corriente esa corriente hace que si está calibrado se corta a un determinado amperage.    
+###### El fusible es un alambre calibrado si supera se corta, se corta a un determinado amperage.   
+Alumno6(Vendedor de Mangueras): Si supera.   
+Profesor: Si supera se corta eso.   
+Ayudante: Por eso es un alambre calibrado.   
+###### Si es en corriente contínua es generador, en alterna es alternador.   
+###### Batería es continua.   
+Profesor: Bueno andá poniendo, esto que está acá eso es generador o alternador siempre confunden si es en corriente contínua es generador. Quiero que entiendan que acá yo tengo 220. Continua es batería. Hay un proceso químico también de como se desarrolla la batería pero.... Ánodo cátodo 2 de hierro y después hay 1 elemento que hace ¿?.. Eso no vamos a estudiar porque se complica el tema de la batería para que ustedes entiendan me interesa más esto.   
+   
+Alumno6(Vendedor de Mangueras): Y qué térmica se usa...   
+Profesor: Ahí hay un palo para darle. Bueno hasta acá este es un hilo conductor generalmente como se dijimos...   
+   
+El pasaje de electrón en un sistema atómico de electrón de un lugar a otro se va dejando hueca, eso genera la corriente. Esa corriente eléctrica es lo que circula por el conductor, es condcutor porque conduce la corriente. Dentro de este sistema o de este circuito yo tengo 1 elemento. Depende de la característica que tenga el material y hay elementos que se oponen al paso de la corriente y eso se llama resistencia.   
+###### Los elementos que se oponen al paso de la corriente se llaman resistencia.   
+   
+Normalmente cuando vean una fórmula aparece una R. Y poné abajo la unidad es ohmios y se representa con una letra omega. Nosotros cuando tengamos que trabajar con instrumento de medición aparecerá una parte que aparece esta letra (omega) y cualquier elemento o cualquier. **Profesor saca un instrumento**·   
+Ayudante: Uuuh ese.   
+Profesor: Eh este se ríe también.    
+Ayudante: No no me río, es difícil de usarlo.   
+###### El tester del profesor es confiable    
+Profesor: Este tiene más años que...   
+Ayudante: Y son más confiables.   
+Profesor: Bueno todos los elementos que usteddes vean esto es un tester o multímetro, aparecerá un lugar en donde aparece entonces cualquier elemento que tengamos trae un pedazo de cable para que vean tiene un valor de resistencia, la gente que estudie electrónica ven una resistencia de distinto colores cada color indica un determinado múltiplo submúltiplo de algo para poder al final decir esta resistencia vale tanto, kiloohm o lo que sea. Entonces acá la idea principal es que nosotros tenemos que tener en cuenta que el conductor o cualquier conductor puedo medirlo porque tambien depende de la **resistencia de la longitud que yo tenga del conductor**.   
+   
+###### Cuando más largo es el conductor mayor será la resistencia.   
+El multímetro lo que puedo medir la resistencia, probale ahí el va a medir los dos extremos del cable. Aparte de esa parte del tester, hay una parte que me indica continuidad que también vamos a ver eso. Porque la idea principal acá no es que hagamos fórmulas y revisemos la instalaciones todo lo que ustedes quieran tengamos la posibilidad de que esa magnitudes sean medibles.   
+   
+Qué nos ayuda las magnitudes? A verificar como está la instalación.   
+   
+Eso que ustedes ven ahí es porque hay continuidad, entonces si esa continuidad me indica a mi que cualquier elemento que yo tenga me da la posibilidad de decir si está cortado o no, o si este interruptor anda. Si quieren medir continuidad y tengo 1 elemento y lo tengo que ...   
+   
+###### Un módulo es un interruptor cualquiera.   
+###### Para probar un interruptor se usa la continuidad del tester.   
+Fíjense una cosa fácil para que yo vea si existe o no continuidad antes de revisar un módulo es un interruptor cualquiera, entonces primero tengo que saber que ese interruptor como puedo probarlo porque a veces me venden y yo etngo la posibilidad de decir bueno.... Andará o no andará. Antes de colocar y darle corriente o darle tensión. Entonces lo que tengo que hacer directamente, a ver si este anda (prueba continuidad).... Yo tengo 2 borners acá: 1 si ustedes vamos a empezar,   
+   
+###### Los interruptores(módulos) se colocan a 1,20 del piso en una caja de 5x10 rectangular.   
+¿Esto adónde está? A 1,20 del piso en una caja de 5x10 rectangular, ahí llega la fase entonces la fase llega a ese elemento y el retorno va a la lámpara entonces que hago normalmente? Porque a veces suele tener problemas solo por el interruptor y eso está apagado    
+Ayudante: No usted tiene el coso en el otro lado.   
+Profesor: Y hacele así (da vuelta los cables).    
+Alumnos ríen....   
+Profesor: Y claro porque en algún lado tengo la ... Dale! Suena pitido. O sea si no funciona no se va a escuchar, esto me está indicando continuidad, porque lo primero que ustedes van a ver de los 2 testers hay una parte que indique unos símbolos de tipo un audio tipo una campana dibujale ya que estás ahí.   
+   
+Un elemento que me permite a mi medir la continuidad y tiene ese audio. Por qué es importante a veces yo estoy en la oscuridad y voy midiendo a ver si hay...    
+Alumna: Cuando hace ese pitido es que está....   
+###### Cuando nosotros hagamo el cableado y terminemos de hacer el tablero antes de conectar o darle tensión a todo el sistema, tengo que probar que cada elemento no esté continuo.    
+   
+Profesor: Que está continuo o sea el circuito está cerrado en ese caso, o sea tengo continuidad. Por qué es importante eso? Después vamos a ir viendo cuando nosotros hagamo el cableado y terminemos de hacer el tablero, que antes de conectar o darle tensión a todo el sistema, tengo que probar que cada elemento no esté continuo porque si está continuo sale normalmente del interruptor fase y neutro si está continuo lo primero que hace es explotar porque el cortocircuito se produce cuando tengo fase y neutro.   
+   
+###### El cortocircuito se produce cuando tengo fase y neutro juntos.   
+Si está pegado los cables que problema voy a tener es que tengo cortocircuito tengo fase y neutro le doy con el interruptor lo 1ero que hace es el clispaso.    
+###### Tengo que probar todos los elementos para que cuando le de tensión no ocurra eso.   
+Alumno(Vendedor de Mangueras): Ese para los electrodomésticos cuando prende un ventilador le probás si suena (continuidad).   
+Profesor: Si no, el problema es que salte algo de tu casa, ese es lo más probable.   
+Ayudante: En nuestro caso medimos en el tablero y en el tomacorriente después si la falla es externa a eso. Igual vos hiciste bien tu trabajo.   
+Profesor: Entonces vamos a dejar claro tenemos un elemento que me permite a mi medir en este caso la resistencia, resistencia se opone al paso de la corriente, la corriente la vamos a decir con la letra I y esto circula de este lado porque acá tengo un interruptor y acá tengo un elemento receptor que puede ser lámpara, un motor ya hablamos en sistema genético que en ese caso el ventilador.   
+Alumno3: Tomacorrientes.   
+Profesor: Tomacorrientes no porque vos le tenés que enchufar o sea se supone que acá ya tiene un motor ya está yo voy a terminar acá con fase y neutro entonces estoy dando 220 ahí. Entonces cualquier elemento que se supone que ahí puede haber un motor ya enchufado para generar o una estufa que me indica acá el órden. O cualquier otro elemento que necesite normalmente 220, todas las instalaciones domiciliarias necesitan si o si los elementos una tensión de 220, no hay otra posibilidad exceptuando si yo tengo un motor trifásico ahí si necesito característica yo puedo tener un equipo grande de arriba de los 9000 frigorías y eso ya son trifásicos o sea que ahí necesito las 3 fases algunos llevan 1 más para tener la posibilidad de activar desactivar con control remoto todo el sistema que tiene los motores 380.   
+   
+###### Conductor y cable son sinónmos. No hay problema en decirle cable. Hay diferentes categorías: subterráneo, preensamblado.   
+Esto que está acá es conductor hay gente que a veces pero no está mal porque la otra vez la señora dijo: "no pero es cable". Y cable normalmente se dice o sea que no hay problema en diferenciar el conductor y cable es algo medio sinónimo o sea la gente que está constantemente hablando puede decir cable no hay problema. Si tengo un catálogo a veces aparece cable de otra categoría: cable subterráneo, cable preensamblado. La otra vez la señora que estaba ahí me dijo "conductor o cable", las dos cosas lo mismo.   
+   
+Para que ustedes entiendan y después vamos a hacer un circuito mañana.   
+   
+Un circuito eléctrico consta de estos 3 o 4, un elemento que genera o puede ser directamente la línea corriente alterna un conductor esto es un fusible en el caso de que el conductor tenga consumo generalmente un motor sea mayor que lo puede soportar el conductor este fusible corte y el interruptor que me permite cerrar el circuito. Todos los circuitos tienen que ser cerrados para que pueda circuilar la corriente, si está cortado por acá será difícil que pueda funcionar ese sistema.   
+   
+###### Lámparas incandescente tienen filamento de trugsteno, tiene una resistencia de tungsteno.   
+Lámpara, motor o lo que sea siempre ustedes van a ver normalmente que cualquier equipo que vimos ayer exclusivamente la parte de potencia, cualquier motor cualquier lámpara si yo llego a prender, teníamos la lámpara incandecente esto que está acá es una lámpara incandescente fíjense que tiene un filamento tungsteno. Una época se usaba eso. Esto es más fácil de ver que pasa con la corriente eléctrica, como esto es una resistencia lo que hace es...   
+###### LED posee menor consumo.   
+Esto internamente tiene una resistencia de tungsteno entonces se pone al rojo vivo y eso es lo que da al sistema vivo. Para que ustedes vean, capaz que ya no conocen ustedes son gente jóven todavía ahora es todo LED. La facilidad que tiene el LED es que posee menor consumo. Y todo equipo    
+   
+   
+---
+
+Minuto 48:58
+
