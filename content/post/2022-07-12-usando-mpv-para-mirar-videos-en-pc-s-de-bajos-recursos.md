@@ -78,3 +78,17 @@ new search
 Espero que les haya servido.
 
 
+
+
+
+##### Para abrir videos pegando la url en vez de escribir cada vez mpv
+```bash
+[I] esotericwarfare@arch ~> cat launch_mpv.sh
+while true; do
+	echo -n "mpv > "
+	read url
+	mpv $url > /dev/null &
+done
+
+[I] esotericwarfare@arch ~>
+```
