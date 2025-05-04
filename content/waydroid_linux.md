@@ -3,6 +3,10 @@ title: "Waydroid: Ejecutar aplicaciones Android en ArchLinux"
 date: 2025-05-04T03:23:15-03:00
 tags: ['linux']
 ---
+
+Waydroid no es un emulador: 
+> No, Waydroid is not a traditional Android emulator. It's a container-based approach that allows you to run a full Android system within a Linux container, rather than emulating it. Think of it as running a dedicated, isolated Android environment on top of your Linux host.
+
 Hay que aprender a instalar los paquetes AUR manualmente porque a veces falla con `yay` en este caso me falló la compilación de `libgbinder` porque faltaba la CFLAG `-Wno-incompatible-pointer-types`
 
 Si tenés suerte podés instalarlo con `yay` a mi no me sirvió y lo tuve que hacer manualmente:
