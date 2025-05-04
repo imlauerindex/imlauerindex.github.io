@@ -78,7 +78,7 @@ $ systemctl restart waydroid-container.service
 
 #### Para actualizarlo
 ```bash
-# waydroid upgrade
+sudo waydroid upgrade
 ```
 
 #### Iniciar la sección, mostrar la ventana, ingresar a la shell, listar aplicaciones, y abrir una.
