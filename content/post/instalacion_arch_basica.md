@@ -108,7 +108,7 @@ pacman -S grub networkmanager alsa-utils
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
 ```
 
-pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird
+pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor
 
 Para instalar smtube tendrás que usar el AUR. **Aclaración sobre el AUR:** podés usar YAY o otros pero lo ideal es que instales los paquetes del AUR **manualmente**: https://averagelinuxuser.com/install-aur-manually-helpers/
 

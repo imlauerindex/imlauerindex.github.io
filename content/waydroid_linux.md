@@ -13,7 +13,6 @@ yay -S waydroid
 
 ###### Compilación manual de waydroid porque me falló `yay -S waydroid`
 ```bash
-git clone https://aur.archlinux.org/libgbinder.git
 [I] esotericwarfare@arch ~ > mkdir tools && cd tools
 [I] esotericwarfare@arch ~/tools> git clone https://aur.archlinux.org/libgbinder.git
 [I] esotericwarfare@arch ~/tools> git clone https://aur.archlinux.org/python-gbinder.git
@@ -53,9 +52,14 @@ Si no lo tenemos lo instalamos de la siguiente forma:
 sudo pacman -Syu linux-zen linux-zen-headers
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo waydroid init -f
-waydroid init -s GAPPS # Si querés GAPPS (es más lento)
-systemctl enable waydroid-container.service
-systemctl start waydroid-container.service
+sudo waydroid init -s GAPPS # Si querés GAPPS (es más lento) (Si ya ejecutaste el comando anterior agregá -f para forzar)
+```
+
+Si descargás GAPPS tenés que registrar tu Android acá: https://www.google.com/android/uncertified
+
+```bash
+sudo systemctl enable waydroid-container.service
+sudo systemctl start waydroid-container.service
 ```
 
 Editá el archivo `vim /var/lib/waydroid/waydroid.cfg` y agregá lo siguiente al final:
