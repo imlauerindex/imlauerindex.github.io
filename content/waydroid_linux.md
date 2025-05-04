@@ -13,14 +13,14 @@ yay -S waydroid
 
 ###### Compilación manual de waydroid porque me falló `yay -S waydroid`
 ```bash
-[I] esotericwarfare@arch ~ > mkdir tools && cd tools
-[I] esotericwarfare@arch ~/tools> git clone https://aur.archlinux.org/libgbinder.git
-[I] esotericwarfare@arch ~/tools> git clone https://aur.archlinux.org/python-gbinder.git
-[I] esotericwarfare@arch ~/tools> git clone https://aur.archlinux.org/waydroid.git
-[I] esotericwarfare@arch ~/tools> ls
+$ mkdir tools && cd tools
+$ git clone https://aur.archlinux.org/libgbinder.git
+$ git clone https://aur.archlinux.org/python-gbinder.git
+$ git clone https://aur.archlinux.org/waydroid.git
+$ ls
 libgbinder/  python-gbinder/  waydroid/
-[I] esotericwarfare@arch ~/tools> cd libgbinder
-[I] esotericwarfare@arch ~/tools/libgbinder> vim PKGBUILD
+$ cd libgbinder
+$ vim PKGBUILD
 ```
 
 En el `PKGBUILD` de `libgbinder` agregá:
@@ -34,11 +34,11 @@ build() {
 ```
 
 ```bash
-[I] esotericwarfare@arch ~/tools/libgbinder> makepkg -si
-[I] esotericwarfare@arch ~/tools/libgbinder> cd ../python-gbinder/
-[I] esotericwarfare@arch ~/tools/libgbinder> makepkg -si
-[I] esotericwarfare@arch ~/tools/libgbinder> cd ../waydroid
-[I] esotericwarfare@arch ~/tools/libgbinder> makepkg -si
+$ makepkg -si
+$ cd ../python-gbinder/
+$ makepkg -si
+$ cd ../waydroid
+$ makepkg -si
 ```
 
 ##### Ahora que tenemos waydroid instalado:
@@ -89,6 +89,8 @@ waydroid shell
 waydroid app list
 waydroid app launch $package_name
 ```
+
+---
 
 #### Fuentes:
 https://wiki.archlinux.org/title/Waydroid https://inv.nadeko.net/watch?v=4yCnutLzWyU
