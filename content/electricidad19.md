@@ -407,15 +407,31 @@ Profesor: Depende de que uso tengas. Yo no tengo porque lo.... Bueno fíjense to
 0,81 y 0,83 amper. O sea esa es la diferencia que tenemos ahora con el tema de lámpara incandescente de la época antigua, el ahorro energético por eso en gran cantidad vamos a **suponer que tengamos 10 lámparas, acá directamente multiplá esto por 10 y será 8,1 amper para 10 lámparas de 100 watts el consumo será 8,1 amper** fíjense acá para 10 lámparas de LED el consumo será 0,083
 Ayudante: 0,83 va a ser
 ###### Hay 8 amper de diferencia entre LED y incandescente.
-Profesor: 0,83 amper y ahí tengo 8 amper de diferencia. Ese es el consumo que ustedes tienen que entender a veces por qué se trata de concientizar a todos los clientes principalmente.
+Profesor: 0,83 amper y **ahí tengo 8 amper de diferencia**. Ese es el consumo que ustedes tienen que entender a veces por qué se trata de concientizar a todos los clientes principalmente.
 
 Alumna: Ese era el lema de la campaña de concientización del tema del ahorro energético. Fue hace 10 15 años.
-Profesor: Y probablemente después de unas elecciones que se hizo junto con las elecciones se hizo un sistema de consulta a ver si aprobaban de la represa Corpus San Ignacio.
-Alumna: Igualmente todo el tema de las energías revovable todo eso lleva años, como ud. decía el tema de los paneles solares que no llega a abastecer en lo que se consume. En el Brazil algunas veces que yo viajé ellos tienen molino eólico.
-Profesor: Fíjense el apagón que hubo allá (España y Portugal) había lugares que tenía sistema de batería y **todo igual no abasteció toda la población quedó a oscuras ni los lugares en donde realmente necesitaban no había semáforos**.
-Alumna: Yo me enteré acá que pasó eso. Escuché y dijieron que era un acto terrorista.
+Profesor: Y probablemente después de unas elecciones era porque se hizo junto con las elecciones se hizo un sistema de consulta a ver si aprobaban de la **represa Corpus San Ignacio**.
+Alumna: Igualmente todo el tema de las energías revovable todo eso lleva años, como ud. decía el tema de los paneles solares que no llega a abastecer en lo que se consume. En el Brazil ellos tienen molino eólico.
+Profesor: Fíjense el apagón que hubo allá (España y Portugal) había lugares que tenía sistema de batería y **todo igual no abasteció toda la población quedó a oscuras ni los lugares en donde realmente necesitaban no había semáforos**, no había subte.
+Alumna: Yo me enteré acá que pasó eso. Escuché y dijieron que era un acto terrorista que no era que hubo una falla.
+Profesor: Si hay acto terrorista enseguida se va a ver vamos a suponer una bomba en la bajada de alimentación principal, enseguida se verá.
+Alumna: Claro pero negaron totalmente el tema de alguna falla en el sistema energético decía los porcentajes que era creo que es un 20% se hace cargo el Estado, y el resto es privado. No sé que pasó ahí.
+Profesor: Ya se va a saber
+Alumna: Acá pasó hace 2 años por ahí, me acuerdo que me había mudado que 2 días no sé si habían robado.
+Alumno6(Vendedor de Mangueras): Uno de los incendios de Corrientes.
+Profesor: Un incendio en la línea de alimentación principal.
+Alumna: Que no tuvimos energía.
+###### Alumno6(Vendedor de Mangueras): Que decían que era un atentado que era la cámpora XDDD
+#### Profesor: El coronavirus se experimentó en un laboratorio Chino
+Profesor: Todo es asi después se sabe. Es lo mismo que la vacuna esta, que recíen se sabe que el tema del COVID que se experimentó dentro de un laboratorio Chino y después salió. O sea que tarde o temprano se sabe.
+Alumno6(Vendedor de Mangueras): Pasa que es difícil reconocer que fue un atentado.
+Profesor: No y encima es difícil de probar también porque empezaron con el tema de los cibernéticos que fue el hacker, no sé.... Pero bueno
+Ayudante: Eso vos tenés que tener pruebas 
+Alumno6(Vendedor de Mangueras): No no pero vos si decís entraron a mi sistema me hackearon estás reconociendo que tu sistema no sirve, es complicado.
+Profesor: Esto es interesante que uno conozca la parte de circuito porque también aparte de esto necesitamos tener elementos de protección acá tenemos solo 1 fusible pero en algunos lados de acuerdo a la característica que tenga el circuito yo puedo tener elementos de protección y eso necesito conocerlo pero para que sirve los métodos de protección, en este caso acuérdense que vamos viendo de apoco esto que está acá es un **interruptor termomagnético tiene 2 partes principales 1 actúa en forma térmica y otra por cortocircuito electromagnética**, este ya no sirve por más que levante no sirve.....
 
-#### Profesor: El coronavirus se creó en un laboratorio .
+Alumno3: Tiene un termostato adentro (la térmica).
+Profesor: No no, después vamos a ver, él va a dibujar. No acá lo que hace un interruptor fíjense tiene una bornera de entrada y otra de salida. Eso es lo 1ero que tienen que tener en cuenta o sea para que ustedes vayan viendo. Tiene tipo una llave que abre y cierra el circuito que es esta llave, este yo lo utilizo en forma manual pero internamente tengo una parte 
 
 ---
 

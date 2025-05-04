@@ -14,7 +14,6 @@ yay -S waydroid
 ###### Compilación manual de waydroid porque me falló `yay -S waydroid`
 ```bash
 git clone https://aur.archlinux.org/libgbinder.git
-```
 [I] esotericwarfare@arch ~ > mkdir tools && cd tools
 [I] esotericwarfare@arch ~/tools> git clone https://aur.archlinux.org/libgbinder.git
 [I] esotericwarfare@arch ~/tools> git clone https://aur.archlinux.org/python-gbinder.git
@@ -78,6 +77,8 @@ $ systemctl restart waydroid-container.service
 # waydroid upgrade
 ```
 
+#### Iniciar la sección, mostrar la ventana, ingresar a la shell, listar aplicaciones, y abrir una.
+```bash
 waydroid session start
 waydroid show-full-ui
 waydroid shell
