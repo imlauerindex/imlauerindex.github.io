@@ -522,16 +522,119 @@ Ayudante: Ese no sé donde está.
 Alumno4: Firmaste ya?
 Profesor: Para saber que resistencia tiene. Este tiene suerte que el termo de él no se va a romper no más. Jaja le echaba. **Chau avogadro**. (Hora 01:38:50)
 Alumno5(Avogadro): Aahh jaja.
-Profesor: Número de avogadro.
+Profesor: Número de avogadro el señor.
 Alumno3: Cuando le entreguen el certificado avogadro, número de avogadro.
 Ayudante: 450 sobre 750
+###### A mayor longitud mayor resistencia
 Profesor: Pero tomá la medida ahí y la resistencia que yo tengo acá y vos tomás. Yo puedo aumentar la resistencia, **a mayor longitud tengo mayor resistencia**. Vamos a medir ahora.
 
+Bajale para este lado tiene que quedar en OHM (el tester).
+Alumno6(Vendedor de Mangueras): Pero si tocas las puntas no te mide a vos?
+Profesor: No, **un cuerpo humano tiene una resistencia arriba de 3000 OHM**.
+Ayudante: Ahí hay 0,5 Ohm 
+Profesor: Lo que quiero decirles es que a veces es interesante cuando la gente que trabaja con eléctronica tiene una resistencia interna adentro o está cortada y en ese caso no sé por el color que característica tiene cuántos Ohm tiene la resistencia. Saco el elemento y pongo ahí o hay tablas que también te indica de acuerdo a los **colores que característica tiene y cuánto vale esa resistencia**. 
 
+###### Es importante el tema de los ohmions porque al leer el catálogo en donde indica una sección de tantos conductores y ya te hablan por kilómetro, cuánto es la resistencia por kilómetro.
+O sea te da un valor exacto Kilómetro por Ohmio algo por el estilo para que tengan la idea. Cuando uno trabaja con línea externa va a saber, **si yo pongo un conductor de tal característica si realmente me va a soportar la corriente que yo necesito, eso ya es algo en gran escala** pero nosotros internamente, luego veremos una fórmula que de acuerdo a la longitud me puede variar el consumo yo puedo tener determinada potencia vamos a suponer dentro de una vivienda el elemento el dispositivo que consume mayor corriente es la ducha eléctrica. 
+###### Lo que más consume potencia dentro de una vivienda es la ducha eléctrica.
+###### Esa ducha eléctrica normalmente en baja tiene 4500 watts de consumo y en alta más caliente llega a 5500 watts
+Pero si yo divido eso por 220 me dará un valor de amper o sea de corriente que consume en ese instante en ese momento aquí. **Ahora si yo tengo una longitud porque tomo la longitud donde tomo la alimentación ahí tengo que calcular cuánto realmente necesito qué sección de conductor necesito para ese elemento tomando la medición del tablero hasta acá y depende de la longitud**. Entonces acá puedo tener el valor en este instante en este momento acá de un conductor de sección de 4 mm^2 suficiente 
 
+###### Por qué un conductor de 4mm^2 es suficiente desde el tablero principal al seccional si recomienda 4mm^2 para la ducha y para el aire
 
+Pero si pongo una alimentación de un tablero que está a una distancia de 15 o 20 metros y este valor de 4 mm^2 puede pasar a 6 o 10 mm^2 depende que fórmula tengo, y después se comprueba con el tema de la pinza amperométrica.
+##### Por eso es imporante: La sección del conductor y que caída de tensión de acuerdo a la longitud.
+Alumno(que hizo enojar al profesor): Entre el tablero principal y el tablero seccional también hay una caída de tensión según la distancia?
+Profesor: Según la distancia pero se calcula de acuerdo al consumo que vos tengas internamente. Por eso es interesante esta lámpara de 100 amper¿? (100 watts quizo decir) anteriormente nosotros hacíamos el **cálculo tomando la cantidad de bocas y poniendo 100 watts por cada luminaria entonces la suma de todas esas luminaria que está en esta habitación me daba un valor de potencia y dividíamos por la longitud verificamos que la sección de conductor correspondiente para esta parte iluminaria sea la correcta.**
+Alumno6(Vendedor de Mangueras): Eso para calcular el conductor y la llave termoagnética?
+Ayudante: Eso es para calcular el conductor. La termomagnética vos ponés de acuerdo a qué sección de conductor usas.
+Alumno6(Vendedor de Mangueras): Claro pero por ejemplo yo tengo una ducha eléctrica. 15 metros, y habíamos dicho que el conductor de 4mm^2 íbamos a usar para toma especial, o sea ¿eso no cambia?
+Profesor: Claro lo que pasa es que la longitud te varía si vos tenés 15 metros no es lo mismo que vos tengas acá a 1 metro las tomas principales o a 5 metros.
+Alumno6(Vendedor de Mangueras): Tengo que achicar el cable?
+Ayudante: Tenés que aumentar.
+# Lo que veremos en el 2do cuatrimestre.
+#### Profesor: 1ero quiero que aprendan esto, después les voy a dar una fórmula que se hace la sección del conductor de acuerdo a la longitud y **hay un elemento que eso vamos a ver el 2do cuatrimestre, hay un problema de la variación de tensión** permitida dentro de un sistema de inmuebles un 3% desde la alimentación hasta el último toma que está acá. ¿Qué significa? **Que yo en un sistema normal de una casa de una vivienda puedo tener una caída de tensión de alimentación hasta allá la entrada de la acometida hasta el último toma que está acá una caída máxima de un 3% entonces habrá una fórmula que esa caída de tesnión aparecerá y yo le puedo ir regulando de acuerdo a lo que yo necesito en vez de poner 3% pongo 1,5% entonces voy controlando que sección de conductor me va a salir para eso**.
+
+#### Puteada (Hora 01:46)
+Eso se hace pero yo no quiero complicar yo quiero empezar por acá 1ero.
+Alumno(que hizo enojar al profesor): No, pero igual podemos profe.
+Profesor: No no no no, no empecés a hablar porque te voy a echar.
+Alumno(que hizo enojar al profesor): Tenga fé en nosotros. 
+Profesor: Te voy a empezar a echar porque no quiero que hables, la gente recién empieza, y si vos sabés algo me interesa, pero si decís pavadas no me gusta. Me estoy enojando porque acá la gente viene a aprender no vienen a... No me gusta que digas cada cosa, no me resulta interesante lo que decís eso te digo la verdad. Y si no te gusta te pido que te retires esa es la única solución que te doy. 
+Alumno(que hizo enojar al profesor): No profe estaba jodiendo...
+Profesor: No no, por eso no me gusta los chistes porque la gente viene a aprender y va a escuchar cosas y capaz que le queja lo que vos dijiste y eso está mal. Entienden? No es que te quiera joder pero a veces queda lo otro y no lo REAL. Si ellos supieran todo estén en el mismo nivel SÍ. Pero las chicas allá están perdidas entonces tengo que tener en cuenta que hay gente que recién empieza entonces no me vengas a decir cualquier cosa. Igual que este tipo (avogadro), levanten la mano yo voy a responder lo que ustedes quieran pero no me empiecen a joder así porque a mi no me gusta, soy sincero yo vengo acá a enseñar dar todo lo que pueda para que ustedes aprendan ahora si vienen a hacer CHACOTA acá yo no sirvo, soy sincero. (Hora 01:47:40)
+
+Alumna: Mañna qué podemos traer?
+###### Con el LED no vamos a poder la corriente.
+Profesor: Nosotros vamos a hacer mañana, circuito en serie y en paralelo. Yo le voy a dar los 3 portalámparas vamos a conectar y le voy a dar llave de punto lo que sea, si quieren traer una lámpara de 100 watts incandescentes porque si hacemos todos los circuitos podemos meter. Si hago en el tema LED es muy probable que nos quedemos no podemos medir la corriente. Es difícil conseguir lámpara incandescente el señor consiguió acá en frente. Acá en la ferretería en la esquina venden todavía. 
+Alumna: Acá en la de Centenario y Lavalle?
+Profesor: Sí. Entonces es más fácil que ustedes vean que es lo que passa en un circuito en serie y en uno paralelo. Lo ideal sería que vos tenés 1 yo tengo otra y consigamos de potencia de 100 watts. Entonces todo son iguales.
+Ayudante: O sea lo ideal sería que las 2 lámparas incandescentes son de la misma potencia. 
+Alumna: 2? 
+Profesor: Sí o 1. Yo voy a comprar así que no se preocupen.
+Alumna: Portalámparas también?
+Profesor: No portalámparas no. La idea es que vean como hago la conexión y cuál es el circuito en serie y cuál en paralelo después va a aparecer la tensión, aparecerá la corriente cuál es el constante y cuál es variable en un caso y en el otro. Y eso no se van a olvidar más y que pasa en un caso y en el otro. Yo no quiero contar todo porque sino no tiene gracia hacer la experiencia una vez que vean, van a seber. **Ahí recién verán cuál es el que realmente se usa en instalación inmueble y cuál es nuestro caso particular** pero necesitto que ustedes vean no es lindo contar si no que la experiencia lo vean así y ahí veamos que pasa con la **tensión que pasa con la corriente que pasa con la conexión y todas esas cosas**, eso no más es.
+
+Profesor: Cualquier cosa menos el número de avogadro ustedes me cuentan, que necesitan. Acuérdense que esto, voy a guardar. Desconectándo lámpara.
+
+Y esto todo lo que necesito es que empiecen a conocer los instrumentos de medición hoy en día estamos trabajando solo con este rango para que vean la resistencia, tengan y utilicen vamos a explicar como se utiliza cada uno en particular, **una época damos una clase exclusiva pero la idea principalmente no es dar una sola clase sino constantemente que ustedes prueben y vean de acuerdo a su necesidad que medida necesita esa es la realidad exacta porque sino no tiene gracia....**.
+Ayudante: Que se explique mucho y no tengan experiencia usando las herramientas.
+Profesor: Algún día comprarán creo que tengo otro más un tester con otra característica también pero pueden mirar.
+Alumna: Cuando uno hace es como los ejercicios ahí cuando aplicás es como que te queda más con el ejemplo.
+Ayudante y profesor: Sí no por eso es la práctica.
+Profesor: Después hay muchas cosas que pueden tener vamos a empezar con lo básico, hay muchos elementos que vienen ahora cada uno con un elevado costo, no es tan fácil conseguir pero lo principal ... Ya le dije si yo recién empiezo lo primero qu tengo que tener es un buscapolo y una lámpara de prueba yo con **2 elementos puedo saber realmente que es lo que está pasando ahí, si no tengo eso es muy difícil que yo puedo no necesito ni medir sino si hay tensión o no y acá es interesante si yo tengo lámpara incandescente en el caso de que tenga tensión menos de 220 se va a notar el sistema lumínico como actúa**
+Alumno3: Se va a atenuar.
+Ayudante y profesor: Se va a atenuar. Exactamente.
+Profesor: Exactamente. No va a ser brillante.
+
+###### Probador de tensión, lámpara de prueba, y buscapolo
+
+Después va a aparecieron como vimos la otra vez, **el probador tensión**. Para verificar si esa tensión es la correcta. **A veces sirve porque hay corte de luz y aparece un pico de tensión lo ideal es que se estabilice 1ero y recién ahí prenda o levante la térmica de toda mi instalación.** Porque si yo levanto y hay bajo consumo y empieza a... 
+
+El probador de tensión me marca o me mide una tensión aproxximada si yo tengo tensión 220 fíjense empieza en 24 voltios en corriente alterna en cada LED tengo un valor aprox. no REAL después aparece ...
+
+#### Lo que quiero decir que generalmente cuando hay corte de luz masivo en una casa un barrio y después soluciona EMSA o la gente de la cooperativa conviene principalmente bajar la llave o el interruptor principal de corte para evitar ese bruzco cambio, o cuando llega la energía que todos estén prendido a la vez entonces hay 1 pico, atenúa 1ero y después empieza a subir y a veces tengo tensiones que no llegan a 220 y lo único que se prende ahora con esta característica que tenemos aparecerá los tubos LEDs prendidos pero vamos a suponer una heladera va a empezar a querer arrancar y no le da la tensión.
+Alumna: En Garupá pasa mucho eso, eso le iba a preguntar está el aire así el enchufe y vos para hacer tu seguridad le ponés un interruptor cosa de que vos **bajas porque depende del consumo de cada aparato hay cosas que anda y cosas que no, y hay unos protectores**
+Profesor: Sí es por equipo, eso son individiales. 
+Alumna: Y hay algunos que vienen con el relojito que te miden y te dice 220 y dice 180 entonces no arranca si no es la tensión necesaria.
+Ayudante: Si esos se programan después hay uno que viene que es más o menos el mismo tamaño que va dentro del tablero.
+Profesor: Después le vamos a mostrar eso hay un elemento que es para un sistema trifásico, pero el único problema que tiene es que es línea trifásica si cualquiera de las fases tiene un consumo mayor de lo previsto que está regulado corta todo.
+Alumna: Pero es super oscilante la tensión, yo averigué todo eso porque mi mamá vive en Garupá unos equipos que no sé como se llaman que te regulan la tensión de la casa entonces vos tenés siempre un **estabilizador, pero era muy oscilante mucha gente tenía problemas** y EMSA safaba como podía porque viene desde los transforamdores desde la lína. 
+Profesor: Por eso depende que tipo de transformadores puede haber consumo hay veces que se **calculó transformador a una determinada cantidad de usuarios y después no a basto** y más si se compra equipo nuevo y va recargando la línea.
+Alumna: Claro yo hablo del tema de los robos de... 
+Profesor: Ahí me acuerdo hay una Torre siempre cada vez que yo paso y vuelve el sistema de Garupá el puente que siempre afanan las luces. 
+Alumno: Ah el zaimán?
+Profesor: No de Garupá que va a Candelaria.
+Alumna: Ah si si el arroyo. 
+Profesor: Entonces cada vez que uno pasa y vuelve ya vez que está oscuro, ah ya afanaron de vuelta.
+Ayudante: El claro cruce de lo que viene siendo el acceso Sur una vez que vos pasaste el puente está todo apagado y eso es porque **robaron toda la línea**.
+Alumna: Encima la tienen re clara.
+Profesor: Saben.
+Alumno6(Vendedor de Mangueras): Por eso es que no hay luz?
+Ayudante: Y sí porque los artefactos y los tablero¿? (Hora 01:57) funcionan pero no funcionan¿? (Hora 01:57)
+Profesor: Fíjense ahí el arroyo ¿cómo se llama el arroyo de San Ignacio ahí abajo?
+Alumno3: Yabebiry.
+Profesor: Ahí hay un puente debajo del puente hay unos conductores subterráneos y eso salían de las farolas 3 veces robaron, por debajo del puente o sea que ya saben como desconectarle y tranquilamente como sacar esa alimentación.
+Alumna: Pero ahí tenés que conocer porque te estás jugando la vida. Yo le tengo un super respeto.... Habla de la heladera que le pateo...
+Profesor: Sí sí. Eso ocurre cuando la bocha, el motor de la heladera tiene una pérdida de aislación entonces transmite toda la parte metálica hoy en día exige la norma que vos **tengas la puesta a tierra** entonces cualquier fuga que tengas vaya primero a la puesta a tierra, eso te exige las normas anteriormente la gente no. Las normas se van actualizando en esa época todavía no existía el sistema de la puesta a tierra.
+Alummna: Esa heladera duró años... Cambiaron todo y esa duraba.
+Ayudante: No sé si vos alguna vez viste detrás de la heladera que hay una pelota negra esa es motor y se conoce como bocha eso tiene un recubrimiento aislate que eso con el tiempo suele pasar que se gaste o se deteriora y eso al estar asentado en la base metálica de la heladera si no tenés puesta a tierra **la electricidad se va a conducir por toda la heladera.**
+##### Si vos tenes puesta a tierra va a saltar tu disyuntor.
+**Alumna: Yo los admiro (a los tipos que roban los cables).** Porque tenes que tener mucho conocimiento y te arriesgar la vida para cortar eso tenes que saber.
+Ayudante: Encima los cables subterráneos se cortan con sierra.
+Alumna: Claro eso que ustedes pasaron el otro día que era super grueso.
+Ayudante: Eso se corta con sierra.
+Profesor: Sino tenes que tener amoladora. Lo malo de ahora es que hay amoladora a batería.
+Ayudante: Eso nos solucionó muchas cosas, porque rompía las pelotas que tengas que buscar una forma de llevar la alimentación solamente para la herramienta con la que estás trabajando.
+Alumno4: Nos podemos retirar?
+Profesor: Medio camino a casa.
+Alumno4: Yo me voy a Candelaria. 
+Alumno6(Vendedor de Mangueras): Moto uber.
+AlumnoX: Profe mañana hay que traer pinza eso, alicate pela cables?
+Profesor: NO todavía tenemos.
+Ayudante: Haremos un conexionado simple.
 
 ---
 
-Hora 1:39:32
+Hora 1:50
 
