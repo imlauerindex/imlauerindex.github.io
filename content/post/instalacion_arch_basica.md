@@ -108,9 +108,15 @@ pacman -S grub networkmanager alsa-utils
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
 ```
 
-pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor
+pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks
 
 Para instalar smtube tendrás que usar el AUR. **Aclaración sobre el AUR:** podés usar YAY o otros pero lo ideal es que instales los paquetes del AUR **manualmente**: https://averagelinuxuser.com/install-aur-manually-helpers/
+
+#### Instalar yay
+```bash
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+yay -S tor-browser-bin
+```
 
 
 Si instalás wayland tenés que ejecutar discord y chrome así y **feh** para que funcioné tenés que instalar xorg-server-xwayland o mejor usá **imv**.

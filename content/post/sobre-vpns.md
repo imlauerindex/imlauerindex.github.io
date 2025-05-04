@@ -1,12 +1,10 @@
 ---
-layout: post
 title: Sobre VPNs
 tags: ['vpn']
 categories: ['networking']
 ---
-
 No usarlas para la privacidad.
-Hay VPNs que guardan logs.
+Hay VPNs que guardan logs. Muy probablemente a  tu ISP le importa menos tus datos que a una VPN.
 Las VPN engañan diciendo que si te conectás en una cafetería a una red WiFi los atacantes pueden interceptar tus contraseñas. Esto no es cierto siempre y cuando el sitio use HTTPS estás a salvo.
 Sólo usá una VPN si querés ocultar tu sexualidad, si subís piratería o si sos un asesino.
 Lo que si es cierto es que tu proveedor de servicios o un cibercriminal puede ver las páginas que visitás y las contraseñas
