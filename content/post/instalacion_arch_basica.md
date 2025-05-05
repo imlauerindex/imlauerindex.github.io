@@ -115,8 +115,9 @@ Para instalar smtube tendrás que usar el AUR. **Aclaración sobre el AUR:** pod
 #### Instalar yay
 ```bash
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-yay -S tor-browser-bin
+yay -S tor-browser-bin aichat
 ```
+Al ejecutar aichat seleccioná `deep-infra` que no requiere una API key.
 
 
 Si instalás wayland tenés que ejecutar discord y chrome así y **feh** para que funcioné tenés que instalar xorg-server-xwayland o mejor usá **imv**.
