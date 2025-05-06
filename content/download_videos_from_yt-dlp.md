@@ -11,8 +11,7 @@ Error relocating /usr/lib/torsocks/libtorsocks.so: __fdelt_chk: symbol not found
 Error relocating /usr/lib/torsocks/libtorsocks.so: __memcpy_chk: symbol not found
 Error relocating /usr/lib/torsocks/libtorsocks.so: __vsnprintf_chk: symbol not found
 Error relocating /usr/lib/torsocks/libtorsocks.so: __fprintf_chk: symbol not found
-$ rm -rf /usr/bin/yt-dlp
-rm: cannot remove '/usr/bin/yt-dlp': Permission denied
+$ sudo rm -rf /usr/bin/yt-dlp
 $ sudo pacman -Syu yt-dlp
 $ torsocks yt-dlp -F "https://www.youtube.com/embed/ID" ### Funcionó
 ```

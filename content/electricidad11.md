@@ -285,7 +285,34 @@ Profesor: École. Vamos a atenderle.
 
 \* Preceptora: Toma lista.
 
+Seguimos, es interesante el catálogo este porque hay distintas formas y distintas uniones y hasta con sistema corrugado trabajan así que tienen para divertirse lean. Hay distintos tipos de cañería que se está utilizando y hay cañerías que salieron hay **cañerías los caños de memoria que tenía la posibilidad de hasta 60 grados después de 60 grados se empiezan a desformar**, entonces hay que buscar la forma de que estas **sujecciones sean más cerqueñas entonces para que no se deforme**, va a aparecer estos tipos de caño lean ahí y fíjense esto es muy resistente, esto va a tener como posibilidad de que van a ser reemplazados los caños por esto.
+Ayudante: Y ahí el profesor deja de trabajar
+Profesor: Ahí ya me jubilo ya porque todo lo que aprendí para las normas ya no son iguales. Bueno antes que me olvide vamos a suponer que los contratan a ustedes y tienen que ir a poner 2 o 3 bocas fíjense que es tan fácil a través de un sistema geométrico capaz que ya saben algunos pero por lo menos los voy a ir insinuando, **SIEMPRE TRATEN DE HACER LAS DIAGONALES, ESTO ES UN RECTÁNGULO, ESTO ES UNA CASA, UNA PIEZA O LO QUE SEA ENTONCES UN RECTÁNGULO CUALQUIERA IMAGINARIO LO QUE SEA Y USTEDES BUSCAN EL MEDIO, TOMAN LA MEDIDA Y SI QUIERO 2 PORQUE ESTE SIEMPRE ES IMPORTANTE PORQUE NO VAN A VER SI NO TIENEN NI METRO QUIERO 2 BOCAS SIEMPRE EN MEDIO TRAZO ESTO Y ACÁ TENGO LAS 2 BOCAS**. O sea no es difícil el tema de imaginar que **si no tengo plano bosquejo**, como bosquejo? **Tratando de hacer una figura, en este caso voy a hacer rectangular otra puede ser cuadrada que equivaldría a tener una planta de esta pieza por ejemplo**, entonces trazo sin tener tanta medida como puedo hacer y de centrar mi boca en ese sentido. Eso es para que vayan viendo después hay **una fórmula pero casi no la utilizamos para poder tener más bocas**. Pero normalmente en en una vivienda **más de 2 bocas lo máximo que puedo hacer es esto**. 
 
+Eso es para que tengan idea de que en obra ustedes van a **recibir un bosquejo y probablemente no tengan las medidaas adecuadas para poder centrar las bocas, suele ocurrir**. Entonces lo primero que tienen que hacer es que siempre tienen que tomar la parte interna como longitud acuérdense que en **un plano cualquiera yo tengo la pared puede de 15, 20 lo que sea el espesor de la pared no me interesa me interesa si voy a poner un tablero y ese tablero tiene mayor que la dimensión de la pared porque se va a romper todo**. Generalmente los tableros en una vivienda como máximo y que tiene todas las **termomagnéticas para colocar son de 10 de máximo. Hay algunas que son más chicos pero 10 máximo** entonces yo puedo colocar una pared de **15 o 12 porque a veces vienen de 12. Más el revoque puede llegar a 15 y puedo colocar tranquilamente un tablero, si no puedo embutirlo, ahí ya voy a otro sistema que está exterior**.
+Ayudante: Para que tengan una idea de la dimensión: El ancho de esta caja tiene 10. Esto sería lo que por lo general un tablero domiciliario entra en una pared.
+Profesor: Claro porque es más o menos eso lo que voy a hacer. Y si yo **tengo la posibilidad de tener gabinete** son un sistema que tiene puertas y puedo llevarlo directamente puedo sacar hasta 1 cm porque tengo la posibilidad de que ese gabinete como tiene una puerta girarlo y todo. **Así que cuando meto muy profundo a veces si le hago mal, a veces tengo que perfilarlo a 45 grados para que esa puerta gira sobre su propio eje y se pueda abrir**. Es cuestión de práctica ya van a ver a medida que ustedes quieran colocar los equipos que forma resolverlo, eso depende siempre de ustedes. Cuando reciban un plano nadie les dirá como tienen que hacerlo. Por eso es importante aparte que ustedes van a **hacer la lista de materiales, recién ahí ver donde colocan las bocas**. 
+
+Alumno(Avogadro): Ahí le mandamos un mensajito profe.
+Profesor: Los primeros días te atiendo, después ya bloqueo.
+Ayudante: Después está 9000 la consulta.
+Profesor: Bloqueo por mal tiempo. Nah una cosa es... NO hay problema.
+**Alumno3: Profe y el durlock se trabaja con la misma cañería y todo ese tipo de cosas o cambia?
+Profesor: La misma cañería**, fíjate ahí el 1er curso traeme una perfilería (Hora 01:20) cualquiera. Después le devolvemos para que vea más o menos en el grupo que es lo que se hace y qué perfilería se usa. Las cañerías son las mismas lo único que tengo que tener en cuenta como **fijo esta caja ahora si el trae el perfíl ya vamos a ver como fijo esta caja, estas cajas tienen que estar fijas**.
+
+###### Antes que hacían en el durlock? Se olvidaban de hacer la instalación eléctrica hacían el hueco y después trataban de que el bastidor, el hueco hacían justo para que entre la cajita acá y como el bastidor era más grande entonces hacían que el bastidor se fije al durlock pero es una utopía porque vos estás fijando algo a una pared que tiene yeso. Entonces si se mueve mucho vais envora.
+Entonces hay que hacer bien.
+
+Alumno(ignorado): Hoy subí a un techo a sacar un termotanque y tiene un cieloraso bastante amplio de madera y tiene toda la cañería de hierro, tiene la puesta a tierra todo y arriba tiene todos los cables pelados de cobre.
+Profesor: No te quisieron dar el pedacito ese que tiene? 
+Ayudante: Eh?
+###### Profesor: Allá tenían un bosquejo de una pared.
+Ayudante: Ese ya no llegó
+Profesor: No importa. No llegós? Bueno. Vamos a hacerle así, esto para que ustedes **vean a veces las paredes tienen esta longitud** ponele parado, al revés tiene que ser pero no importa. Más o menos esto puede ser una pared. Depende del tipo si los **perfiles son autocortantes tiene otra característica son más anchos**, pero en síntesis esto son perfilería de durlock. Vamos a suponer que yo estoy haciendo porque esto puede ser como **barrales transversales. Tengo uno vertical y después travesales se pega también al piso para que esto quede fijo y después se va armando de acuerdo a la característica de la silueta que le presentan para poder hacer la pared de durlock**.
+
+Vamos a suponer que esto es un barral que pasa de un lado a otro hay perfiles cortantes que a veces tienen hasta agujero para poder hacer los pases de los caños y todo pero acá lo que se debe hacer es NO importa acá decí **acá ya requerimos de una tijera para colocar la chapa y todo**. 
+
+###### El durlock tiene un espesor de 3,4,5 mm. 
 
 
 
