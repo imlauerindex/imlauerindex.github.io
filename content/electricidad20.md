@@ -10,6 +10,9 @@ https://archive.org/details/record-104
 ###### Audio en YouTube:
 https://www.youtube.com/embed/HXGFTzbrKP8
 
+##### Video mandado por WhatsApp.
+https://www.youtube.com/watch?v=BEFGzbV5SE8&ab_channel=JorgeCogollo
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQJ_tQLc5rd6y7cfWhyhofhCUHhS-MGhLedfMTFecMqmRd3m7-QWi8MJAqWwpVQNdf5JX7XhpOmOyUF8QIZdFUr48t1kAw7iMGEaf53aFYz5jgBb850mJq32R7_2C4qW5zHhWrOyrpIPWcthXQVt5vtq7M5B3v2f8Vh6AYwzVznEtnEyaZp0XsydALai0/s4160/IMG_20250430_184222823.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8mAIPYY8vSP0kknXam4c-WbMxBHqbL-41qYTkEKHRZnwK4SfUVN1eoaBGkv7w-PpFnlascmTTdw05IBh6Ljg0vbPp6QRXDDEy_Q2Inr0HXkSeMlF3kMDKvYjkZ3B2NkzW4fp7ye6qGonpZw78BHnPJ2ADYRizcKAUyA3j-CO-zahXdHpBQfoByhR7vsg/s4160/IMG_20250430_184819957.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsQFjJU4topCgeJqxPm4n3SHBsYugqzGUVw7p0qub23CeZNcieHIhFAEcTGE0Uf-wzscXCxbsgto8ACyivgxemuxk4NvucvAvzLz-ridgL4WZp5ApMIzY2u06q7iBc4snfZLDJcgD_yR7rQIFEeVq9dOrSvMMKyCR8dfqiV2ePJnTuE0Kd0Bt4aBcMQ3w/s4160/IMG_20250430_184836280.jpg)

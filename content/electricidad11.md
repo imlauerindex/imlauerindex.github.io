@@ -313,7 +313,7 @@ Profesor: No importa. No llegós? Bueno. Vamos a hacerle así, esto para que ust
 Vamos a suponer que esto es un barral que pasa de un lado a otro hay perfiles cortantes que a veces tienen hasta agujero para poder hacer los pases de los caños y todo pero acá lo que se debe hacer es NO importa acá decí **acá ya requerimos de una tijera para colocar la chapa y todo**. 
 
 ###### El durlock tiene un espesor de 3,4,5 mm. 
-
+Acá tengo una característica que esto me sirve también para durlock porque yo tengo que apoyar acá esto tiene una silueta ya que me permite a mi colocar y tiene la posibilidad de acuerdo al durlock que tenga, la posibilidad de que esto quede a distancia. Pero vamos a suponer que yo quiera colocar esta caja tengo que tener la idea de que ese la terminación de ese **durlock esté a una distancia de 5 mm y tengo que fijar esta caja, esta caja fijo al perfil esto tiene que estar bien nivelado porque sino mi caja queda hueca y cuando yo hago el hueco para poner el bastidor queda torcida. Entonces primero pongo a nivel esto y después fijo en donde está o tengo necesidad de colocar la caja y fijo perforo esto puede ser con tornillo o en algunos casos también puedo hacer con remache, cualquiera de las 2 formas tengo la posibilidad de resolver esto que quede fijo**, porque perforo acá y hago no es que voy a perforar ahí en el fondo. Le pongo la chapa hasta ahí que esto quede fijo, hay lugares o sectores que gente le hace también y le pone un perfil acá y otro acá, para que no se mueva de acuerdo a la forma de uso porque hay veces que uno hace esto para un enchufe constantemente, pero con 2 tornillos acá no se mueve.
 
 
 
