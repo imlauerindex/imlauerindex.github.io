@@ -17,3 +17,6 @@ https://www.youtube.com/embed/VDcXUfq6rvs
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRJkKmosUfplYhfAnQreGL93ZyKk1JvIXknljwdgpWJ2c8I4HCHhUMQMuiNRP3ZqFvcopJS_BnJobRhX_yHHqy1IHYzhCdJrZ4zf3ksS1IFsnzLoH6XzHGeIvWG9f3ogrAJXcblwSUgn1mL6OLJ8TiULdWOmYewqVyppOEtHaxUS_bupcFGNqlzEKlaiY/s4160/IMG_20250414_202709058.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRJkKmosUfplYhfAnQreGL93ZyKk1JvIXknljwdgpWJ2c8I4HCHhUMQMuiNRP3ZqFvcopJS_BnJobRhX_yHHqy1IHYzhCdJrZ4zf3ksS1IFsnzLoH6XzHGeIvWG9f3ogrAJXcblwSUgn1mL6OLJ8TiULdWOmYewqVyppOEtHaxUS_bupcFGNqlzEKlaiY/s4160/IMG_20250414_202709058.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2wPbBRZqjP9cxQ8EJzuAzEX3QszA9ysbTRBkHfrTboErcuwavxJGbnuX6xn0IZszga0bYFPDryrHONX0sU9V2PWUNmqc3srdwFNsMXh3gJXqFQHrKmHFfg-szgbmkBLWyHvLxhLepsz_mvdQR5yIjts-pYU4SKTdA2ZRuovWFy79YHBk-EBViVLCybtg/s4160/IMG_20250414_202719036.jpg)
+
+##### Transcripción audio.
+Bueno no hay posibildades del proyector.
