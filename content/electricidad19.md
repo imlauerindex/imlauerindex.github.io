@@ -59,23 +59,23 @@ Yo: Por qué tiene un cable de Internet?
 Alumno3: Es un tester que aparte tiene cable de Internet, con este aparatito podés medir.      
 Yo: Ah podes ver si anda el cable. Ah mirá vos, no sabía eso.      
 Alumno3: Si prende luz 1, tiene hasta 8 cables. O sea...      
-Alumno6(Vendedor de Mangueras): Hoy va a venir Alejandro con un super tester.      
+Alumno6(Vendedor): Hoy va a venir Alejandro con un super tester.      
 Alumno4: Que le pregunté por qué no funciona (el tester).      
-Alumno6(Vendedor de Mangueras): Ah eso se quema, si le medís mal se quema, si le pones menos voltaje le encajás 220 explota.      
+Alumno6(Vendedor): Ah eso se quema, si le medís mal se quema, si le pones menos voltaje le encajás 220 explota.      
 Alumno3: Pero tiene fusible, no está quemado el fusible.      
-Alumno6(Vendedor de Mangueras): Y el capacitor no? Tiene que hacerle medir tiene que estar cargado también.      
+Alumno6(Vendedor): Y el capacitor no? Tiene que hacerle medir tiene que estar cargado también.      
 Alumno3: Igual estos son descartables. 13 mil está en MercadoLibre, NISUTA.      
-Alumno6(Vendedor de Mangueras): Yo encargué uno en Electro uno como el profeosr.      
+Alumno6(Vendedor): Yo encargué uno en Electro uno como el profeosr.      
 Alumno3: 200 lucas?      
-Alumno6(Vendedor de Mangueras): 17, estaba 16 ahora subió.      
+Alumno6(Vendedor): 17, estaba 16 ahora subió.      
 Alumno3: Tan barato?      
-Alumno6(Vendedor de Mangueras): Y después así el comunardo 7 mil.      
+Alumno6(Vendedor): Y después así el comunardo 7 mil.      
 Alumno3: O sea si queres tener una pinza podes tener.      
-Alumno6(Vendedor de Mangueras): Viste que el del profe tiene para capacitor.      
+Alumno6(Vendedor): Viste que el del profe tiene para capacitor.      
 Yo: Ese sale más caro.      
-Alumno6(Vendedor de Mangueras): Ese está 17.      
+Alumno6(Vendedor): Ese está 17.      
 Yo: Pero no sé hasta que capacidad mide. Hasta cuántos microfaradios.      
-Alumno6(Vendedor de Mangueras): No, este...      
+Alumno6(Vendedor): No, este...      
 Yo: Y capaz si te comprás uno te conviene comprar la pinza que mide amper.      
 Alumno3: Sí. Este yo lo usaba para el cable de red.      
 Yo: Hoy en día la mayoría usa WiFi.      
@@ -86,55 +86,55 @@ Yo: Hay WiFi 5.8 que llega hasta 200 megas (creo).
 Alumno3: El 6 hasta 300. En realidad más hasta 1000, solo que en Posadas en casas 300 es el común, 300 simétrico el de Claro que viene ahora.      
 Yo: Ah subida y bajada.      
 Alumno3: Sí, espectacular.      
-Alumno6(Vendedor de Mangueras): Subió ya a 8 el tester.      
+Alumno6(Vendedor): Subió ya a 8 el tester.      
 Alumno3: Pero vos ya pediste?      
-Alumno6(Vendedor de Mangueras): Y hay por 5, 6500      
+Alumno6(Vendedor): Y hay por 5, 6500      
 Alumno4: Vos entraste a la página de electromisiones para?      
-Alumno6(Vendedor de Mangueras): Sí. Mi hijo va al Janssen y mi compinche es el dueño de Revendé y le pregunté cuánto salía un soldador y me dijo 17 un Surich de 60 watts me fijé en Electro...      
+Alumno6(Vendedor): Sí. Mi hijo va al Janssen y mi compinche es el dueño de Revendé y le pregunté cuánto salía un soldador y me dijo 17 un Surich de 60 watts me fijé en Electro...      
 Alumno3: De electŕonica?      
-Alumno6(Vendedor de Mangueras): Claro para electrónica. La otra vez me fijé en electro 9 mil pesos, fui y le compré.      
+Alumno6(Vendedor): Claro para electrónica. La otra vez me fijé en electro 9 mil pesos, fui y le compré.      
 Alumno3: Y le piden un mínimo de Watts?      
-Alumno6(Vendedor de Mangueras): No. Viste que yo tenía uno de esos de la placita, porque yo durante años arreglé celulares tablets, tenía uno viejo que para algunas cosas no más usaba. Le dí y según él no sirve porque tardaba mucho, el profesor le cagó a pedo porque no terminaba de soldar un cable. Yo le dijé si vos sabés soldar sabés soldar con cualquier soldador. Con un clavo caliente, una pienza y 1 clavo caliente. Y supuestamente estaba por desaprobar taller por eso. Ahora tiene que sacar un 10 por lo menos, encima le di una lija, si no quiere derretir el estaño lijale la puntita y... Ya está.      
+Alumno6(Vendedor): No. Viste que yo tenía uno de esos de la placita, porque yo durante años arreglé celulares tablets, tenía uno viejo que para algunas cosas no más usaba. Le dí y según él no sirve porque tardaba mucho, el profesor le cagó a pedo porque no terminaba de soldar un cable. Yo le dijé si vos sabés soldar sabés soldar con cualquier soldador. Con un clavo caliente, una pienza y 1 clavo caliente. Y supuestamente estaba por desaprobar taller por eso. Ahora tiene que sacar un 10 por lo menos, encima le di una lija, si no quiere derretir el estaño lijale la puntita y... Ya está.      
 Alumno4: Mañana hay clases?      
-Alumno6(Vendedor de Mangueras): Hasta 200 microfaradios.      
+Alumno6(Vendedor): Hasta 200 microfaradios.      
 Alumno3: Tengo que apretarlo no más.      
       
 Tamborilleo... XD      
       
-Alumno6(Vendedor de Mangueras): La pinza amperométrica 12, una básica.      
+Alumno6(Vendedor): La pinza amperométrica 12, una básica.      
 Yo: Sí, no subieron los precios porque creo que desde el año pasado están ....      
-Alumno6(Vendedor de Mangueras): Si no todo están más o menos, yo vendo algunas cosas, yo tengo desde Diciembre del 2024, 2023. Viste que cuando ganó Milei todo se fue a la puta y bueno desde ahí no aumentan, se ve que ahí ya aumentarón por las dudas. Y ahora también con el primer anuncio, ahí mandaron una lista nueva. Estos hijos de puta y...      
+Alumno6(Vendedor): Si no todo están más o menos, yo vendo algunas cosas, yo tengo desde Diciembre del 2024, 2023. Viste que cuando ganó Milei todo se fue a la puta y bueno desde ahí no aumentan, se ve que ahí ya aumentarón por las dudas. Y ahora también con el primer anuncio, ahí mandaron una lista nueva. Estos hijos de puta y...      
 Alumno3: No le acepto nadie?      
-Alumno6(Vendedor de Mangueras): Y se ve que le habrán cancelado el pedido todo porque después viste que... Como que el 1er día no pasó nada con el dólar y mandaron otra, casi el mismo valor de lo que estaba y encima con 10% de descuenta en efectivo.      
+Alumno6(Vendedor): Y se ve que le habrán cancelado el pedido todo porque después viste que... Como que el 1er día no pasó nada con el dólar y mandaron otra, casi el mismo valor de lo que estaba y encima con 10% de descuenta en efectivo.      
 Alumno4: Vos tenés ferretería?      
-Alumno6(Vendedor de Mangueras): Yo vendo algunas cosas, llegué a tener una ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más, antes hasta te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a gruporá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más.       
+Alumno6(Vendedor): Yo vendo algunas cosas, llegué a tener una ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más, antes hasta te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a gruporá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más.       
 Alumno4: Pero que es lo que más vendés?      
-Alumno6(Vendedor de Mangueras): Yo vendo mucho manguera, manguera de riego manguera para compresor de aire, las gomerías. Después vendo pistola para pintar para compresor, puertas plegadizas.      
+Alumno6(Vendedor): Yo vendo mucho manguera, manguera de riego manguera para compresor de aire, las gomerías. Después vendo pistola para pintar para compresor, puertas plegadizas.      
 Alumno4: Inflador pequeño tenés? Ví que había uno a batería.      
-Alumno6(Vendedor de Mangueras): Ese te conviene... Yo vendía pero compraba en el Vital, compraba del Vital y revendía. Entramos todos en unos grupos de una ferretería de Paraguay que se llama Ferretería Julio. Te añade al grupo y te van mandando. Hoy mandaron un compresor digital, un espectáculo, está bueno para uno.      
+Alumno6(Vendedor): Ese te conviene... Yo vendía pero compraba en el Vital, compraba del Vital y revendía. Entramos todos en unos grupos de una ferretería de Paraguay que se llama Ferretería Julio. Te añade al grupo y te van mandando. Hoy mandaron un compresor digital, un espectáculo, está bueno para uno.      
 Profesor: Che, cada vez menos, parece que se aburren voy a empezar a dar otras cosas.       
 Alumno5(Avogadro): Vino feliz profe, el último día.      
 Profesor: Me estaban por dar la llave para ver lo que están haciendo adelante, porque antes era radio y ahora no sé que van a hacer tipo un streaming, está hecha la instalación, quería ir a ver para que sepan.      
-Alumno6(Vendedor de Mangueras): Le embueron ahí en la radio.      
+Alumno6(Vendedor): Le embueron ahí en la radio.      
 Profesor: Sí por eso, quería ir a ver que es lo que hicieron para mostrarle a ustedes para que tengan idea de que cualquiera hace la instalación eléctrica, aparte de que ya está hecho eso la idea es que pueda sacar conclusiones buena o malas pero buena, es para que ustedes entiendan. Pero bueno está viniendo me averiguó allá, acá cerca y después de la sería de la salida de ruta 12 viste que está el puesto ahí de caminera hay que ir 200 metros y después doblar para el fondo entonces la empresa esta tiene algunas concesiones y hacen las casas de... Entonces están allá, no vienen para acá. Si tenemos suerte aunque sea que nos presten mañana, esa es la idea. No sé para que mierda traigo si esto yo no... Voy a sacar fotocopia.      
       
 Como siempre preparé algo pero posiblemente no traje las cosas no tengo computadora.      
       
 Alumno5: Vos no sabés donde se consiguen esas pizarras?      
-Alumno6(Vendedor de Mangueras): Sí, en cualquier librería.      
+Alumno6(Vendedor): Sí, en cualquier librería.      
 Alumno5(Avogadro): Pero yo necesito una de ....      
-Alumno6(Vendedor de Mangueras): Tenés acá viste por Santa Fé pasando Junín, de este lado venden chiquitaje cosas chicas.      
+Alumno6(Vendedor): Tenés acá viste por Santa Fé pasando Junín, de este lado venden chiquitaje cosas chicas.      
 Profesor: Me quedó grabado Avogadro.      
-Alumno6(Vendedor de Mangueras): Por lo menos el panel ranurado ese sale, fortuna (pizarra).      
+Alumno6(Vendedor): Por lo menos el panel ranurado ese sale, fortuna (pizarra).      
 Alumno3: Yo me compré un contact.      
-Alumno6(Vendedor de Mangueras): Te conviene comprar cualquier cosa y comprás la pintura para pizarrón. Ese le pintás viste, se vende en la pinturería y después le escribís con tiza.      
+Alumno6(Vendedor): Te conviene comprar cualquier cosa y comprás la pintura para pizarrón. Ese le pintás viste, se vende en la pinturería y después le escribís con tiza.      
 Alumno3: Yo tenía un pizarrón y le puse un contact. O sea no se llama: pelu¿?(Minuto 15:50) para... No sé como es el nombre, en MercadoLibre está como para transformar tu pizarrón para marcador.      
 Alumno4: Y son los patini.      
-Alumno6(Vendedor de Mangueras): Esta es mirá (muestra el celular con el compresor o el inflador no sé que era). 11 dólares en Paraguay, 13 mil pesos por ahí está.      
+Alumno6(Vendedor): Esta es mirá (muestra el celular con el compresor o el inflador no sé que era). 11 dólares en Paraguay, 13 mil pesos por ahí está.      
 Alumno4: 10 mil pesos hacen 60 mil guaraníes.      
-Alumno6(Vendedor de Mangueras): Más o menos. Y hay uno que viene... Hay una cajita que viene inflador y cargador de batería       
+Alumno6(Vendedor): Más o menos. Y hay uno que viene... Hay una cajita que viene inflador y cargador de batería       
 Alumno4: Sí esa es la que mi compañero tiene.      
-Alumno6(Vendedor de Mangueras): Esa está muy bueno, yo tengo pero para compresor tengo, el inflador.      
+Alumno6(Vendedor): Esa está muy bueno, yo tengo pero para compresor tengo, el inflador.      
 Alumno5: Claro este es pizarra, pizarra para...       
 Alumno3: Vos ya tenés el pizarrón común?      
 Alumno5: Algo así.      
@@ -178,7 +178,7 @@ Alumno3(Anteojos con barba negra): En la radio entra el sindicato sersal.
 Profesor: Ah viste que hay gente que sabe cosas, uno va aprendiendo. Uno se desarmó pero generalmente van 4 cables fíjense quería desarmar ahí.       
 Alumno3(Anteojos con barba negra): Es telefónico?      
 Profesor: Sí, par telefónico. Fijate si le podés desarmar con este. Este tiene una trabita, a ver si tengo otro más, ese está amurado ahí justo la base par telefónico, acá hay uno, acá hay otro. Tiene una trabita fijate ahí sino ahí... Total este .... En el otro centro de formación desarmamos eso. Bueno vamos a ir viendo despacito ahí empezamos. Vieron que problema tuvo España todavía no saqué mi posición.       
-Alumno6(Vendedor de Mangueras): Siguen igual o se arregló?      
+Alumno6(Vendedor): Siguen igual o se arregló?      
 Profesor: No ya arreglaron ya, gran parte creo que esta mañana se iba a solucionar.      
 Alumno(que hizo enojar al profesor): Parece que tenían una térmica SICA.      
 Profesor: No hablen pavadas porque después la gente escucha y ustedes después... AVOGADRO dijo el vago, de donde salió eso. Hay teorías.      
@@ -194,11 +194,11 @@ Para que ustedes vean esto internamente es un detector de movimiento, que se usa
 Alumno(que hizo enojar al profesor): Pasa que van buscando la forma de eliminar el instalador, de que la instalación sea más...      
 Profesor: La idea es... Lo que yo entiendo es tratar de hacerlo todo más fácil y más rápido entonces no contratar un tipo como ustedes que hagan instalación.      
 Alumno(que hizo enojar al profesor): Claro instala el dueño de la casa no más.      
-Alumno6(Vendedor de Mangueras): Claro para vender más.      
+Alumno6(Vendedor): Claro para vender más.      
 Alumno(que hizo enojar al profesor): Más rápido vendés.       
 ###### Las cámaras nuevas vienen como un foquito. Las alarmas tienen soporte y se puede regular si sube o baja. Al verificar una instalación veremos que si esto está activado, siempre va a tener una lucesita para ver que está el infrarojo.      
 ##### Depende del nicho que agarren y la prestación, ustedes tienen un amplio rango de trabajo.       
-Alumno6(Vendedor de Mangueras): Viste ahora, las cámaras que vienen como un foquito.      
+Alumno6(Vendedor): Viste ahora, las cámaras que vienen como un foquito.      
 Profesor: Bueno. Este que ven acá ustedes es seguramente para que vean el infrarojo que hace el sistema de tensión y hay equipos que tienen la posibilidad de que esto se regule entonces ven la distancia o sea cuando yo tengo menos ángulo para abajo tengo menor recorrido y menor longitud de detensión, entonces acá tengo mayor recorrido y esto se regula o sea que no es que yo coloco, hay soporte que hacen que esto. Y hay otros que directamente tienen la posibilidad de regular una vez que uno coloca que esto baje o suba. Algunos que hacen esa característica....      
 Ustedes cuando quieran entrar o verificar una instalación van a ver que esto está activado siempre va a tener una lucesita para que está el infrarojo, son cosas sencillas lindas de... Lo que quiero decir es que hay gente que se dedica a diferentes ramas en la parte eléctrica instalación en todo. Depende del nicho que agarren y la prestación o sea que se capaciten ese, ustedes tienen un amplio rango de trabajo. Lo que le digo a veces... Bueno.      
       
@@ -258,14 +258,14 @@ Cuando es fusible un elemento que actúa por fusión,
 Alumno(que hizo enojar al profesor): Aaaahhh, aaauummm dijo él....      
 Profesor: Ese es fusible. Un elemento en ese caso 1 hilo que pasa una cierta corriente esa corriente hace que si está calibrado se corta a un determinado amperage.       
 ###### El fusible es un alambre calibrado si supera se corta, se corta a un determinado amperage.      
-Alumno6(Vendedor de Mangueras): Si supera.      
+Alumno6(Vendedor): Si supera.      
 Profesor: Si supera se corta eso.      
 Ayudante: Por eso es un alambre calibrado.      
 ###### Si es en corriente contínua es generador, en alterna es alternador.      
 ###### Batería es continua.      
 Profesor: Bueno andá poniendo, esto que está acá eso es generador o alternador siempre confunden si es en corriente contínua es generador. Quiero que entiendan que acá yo tengo 220. Continua es batería. Hay un proceso químico también de como se desarrolla la batería pero.... Ánodo cátodo 2 de hierro y después hay 1 elemento que hace ¿?.. Eso no vamos a estudiar porque se complica el tema de la batería para que ustedes entiendan me interesa más esto.      
       
-Alumno6(Vendedor de Mangueras): Y qué térmica se usa...      
+Alumno6(Vendedor): Y qué térmica se usa...      
 Profesor: Ahí hay un palo para darle. Bueno hasta acá este es un hilo conductor generalmente como se dijimos...      
       
 El pasaje de electrón en un sistema atómico de electrón de un lugar a otro se va dejando hueca, eso genera la corriente. Esa corriente eléctrica es lo que circula por el conductor, es condcutor porque conduce la corriente. Dentro de este sistema o de este circuito yo tengo 1 elemento. Depende de la característica que tenga el material y hay elementos que se oponen al paso de la corriente y eso se llama resistencia.      
@@ -307,7 +307,7 @@ Profesor: Que está continuo o sea el circuito está cerrado en ese caso, o sea 
 ###### El cortocircuito se produce cuando tengo fase y neutro juntos.      
 Si está pegado los cables que problema voy a tener es que tengo cortocircuito tengo fase y neutro le doy con el interruptor lo 1ero que hace es el clispaso.       
 ###### Tengo que probar todos los elementos para que cuando le de tensión no ocurra eso.      
-Alumno(Vendedor de Mangueras): Ese para los electrodomésticos cuando prende un ventilador le probás si suena (continuidad).      
+Alumno(Vendedor): Ese para los electrodomésticos cuando prende un ventilador le probás si suena (continuidad).      
 Profesor: Si no, el problema es que salte algo de tu casa, ese es lo más probable.      
 Ayudante: En nuestro caso medimos en el tablero y en el tomacorriente después si la falla es externa a eso. Igual vos hiciste bien tu trabajo.      
 Profesor: Entonces vamos a dejar claro tenemos un elemento que me permite a mi medir en este caso la resistencia, resistencia se opone al paso de la corriente, la corriente la vamos a decir con la letra I y esto circula de este lado porque acá tengo un interruptor y acá tengo un elemento receptor que puede ser lámpara, un motor ya hablamos en sistema genético que en ese caso el ventilador.      
@@ -418,16 +418,16 @@ Profesor: Si hay acto terrorista enseguida se va a ver vamos a suponer una bomba
 Alumna: Claro pero negaron totalmente el tema de alguna falla en el sistema energético decía los porcentajes que era creo que es un 20% se hace cargo el Estado, y el resto es privado. No sé que pasó ahí.   
 Profesor: Ya se va a saber   
 Alumna: Acá pasó hace 2 años por ahí, me acuerdo que me había mudado que 2 días no sé si habían robado.   
-Alumno6(Vendedor de Mangueras): Uno de los incendios de Corrientes.   
+Alumno6(Vendedor): Uno de los incendios de Corrientes.   
 Profesor: Un incendio en la línea de alimentación principal.   
 Alumna: Que no tuvimos energía.   
-###### Alumno6(Vendedor de Mangueras): Que decían que era un atentado que era la cámpora XDDD   
+###### Alumno6(Vendedor): Que decían que era un atentado que era la cámpora XDDD   
 #### Profesor: El coronavirus se experimentó en un laboratorio Chino   
 Profesor: Todo es asi después se sabe. Es lo mismo que la vacuna esta, que recíen se sabe que el tema del COVID que se experimentó dentro de un laboratorio Chino y después salió. O sea que tarde o temprano se sabe.   
-Alumno6(Vendedor de Mangueras): Pasa que es difícil reconocer que fue un atentado.   
+Alumno6(Vendedor): Pasa que es difícil reconocer que fue un atentado.   
 Profesor: No y encima es difícil de probar también porque empezaron con el tema de los cibernéticos que fue el hacker, no sé.... Pero bueno   
 Ayudante: Eso vos tenés que tener pruebas    
-Alumno6(Vendedor de Mangueras): No no pero vos si decís entraron a mi sistema me hackearon estás reconociendo que tu sistema no sirve, es complicado.   
+Alumno6(Vendedor): No no pero vos si decís entraron a mi sistema me hackearon estás reconociendo que tu sistema no sirve, es complicado.   
 Profesor: Esto es interesante que uno conozca la parte de circuito porque también aparte de esto necesitamos tener elementos de protección acá tenemos solo 1 fusible pero en algunos lados de acuerdo a la característica que tenga el circuito yo puedo tener elementos de protección y eso necesito conocerlo pero para que sirve los métodos de protección, en este caso acuérdense que vamos viendo de apoco esto que está acá es un **interruptor termomagnético tiene 2 partes principales 1 actúa en forma térmica y otra por cortocircuito electromagnética**, este ya no sirve por más que levante no sirve.....   
    
 Alumno3: Tiene un termostato adentro (la térmica).   
@@ -475,7 +475,7 @@ Profesor: Las lámparas de bronce? No. Era el artefacto de bronce. El portalámp
 Alumna: Ya ni me acuerdo porque lo tengo re guardado porque yo tengo un nene chico.   
 Ayudante: Se ve algo así como esto pero adentro vos ves un color tipo bronce.    
 Alumna: No no tiene, es un velador.   
-Alumno6(Vendedor de Mangueras): Le dicen lámpara vos ponés lámpara y te aparece por ejemplo una araña.   
+Alumno6(Vendedor): Le dicen lámpara vos ponés lámpara y te aparece por ejemplo una araña.   
 Alumna: Claro este era no sé del tatara tatara...... **Sigue hablando de una lámpara de bronce no es seguro por su nene guardó en una caja de bronce pesado, la base es de madera..**   
 Ayudante: Y sí. La estructura es de bronce   
 Alumna: Si si si, la estructura y tiene hay una que ya ni me acuerdo es una base asi y tiene una que tiene un pirulo.   
@@ -492,9 +492,9 @@ Ayudante: Y sí porque sino no llegará al portalámparas.
 Profesor: Anotá la fecha (libro de asistencias).   
 Alumna: Sí, pero me pareció re ¿? (Hora 01:34) eso es como que se usaba antes, de ahí miraba el tema del foquito.   
 Ayudante: Igual yo te aseguro que ese si estaba funcionando, funciona el portalámpara está AISLADO de la estructura, no se va a electrificar la estructura si lo conectás, no debería.   
-Alumno6(Vendedor de Mangueras): Te conviene vender el bronce.   
+Alumno6(Vendedor): Te conviene vender el bronce.   
 Alumna: También pensé en eso, esto es muy tentador, porque si llega a entrarte alguien. Yo soy de esa idea yo vengo de Buenos Aires y allá me robaron, lo único que pedís es tu seguridad.   
-Alumno6(Vendedor de Mangueras): Pero acá en el cementerio la semana pasada.   
+Alumno6(Vendedor): Pero acá en el cementerio la semana pasada.   
 Alumna: Ah claro por los metales.   
    
 Profesor: Las cosas principales tenemos 3 magnitudes características en un circuito: tensión corriente y resistencia   
@@ -529,7 +529,7 @@ Ayudante: 450 sobre 750
 Profesor: Pero tomá la medida ahí y la resistencia que yo tengo acá y vos tomás. Yo puedo aumentar la resistencia, **a mayor longitud tengo mayor resistencia**. Vamos a medir ahora.   
    
 Bajale para este lado tiene que quedar en OHM (el tester).   
-Alumno6(Vendedor de Mangueras): Pero si tocas las puntas no te mide a vos?   
+Alumno6(Vendedor): Pero si tocas las puntas no te mide a vos?   
 Profesor: No, **un cuerpo humano tiene una resistencia arriba de 3000 OHM**.   
 Ayudante: Ahí hay 0,5 Ohm    
 Profesor: Lo que quiero decirles es que a veces es interesante cuando la gente que trabaja con eléctronica tiene una resistencia interna adentro o está cortada y en ese caso no sé por el color que característica tiene cuántos Ohm tiene la resistencia. Saco el elemento y pongo ahí o hay tablas que también te indica de acuerdo a los **colores que característica tiene y cuánto vale esa resistencia**.    
@@ -546,11 +546,11 @@ Pero si pongo una alimentación de un tablero que está a una distancia de 15 o 
 ##### Por eso es imporante: La sección del conductor y que caída de tensión de acuerdo a la longitud.   
 Alumno(que hizo enojar al profesor): Entre el tablero principal y el tablero seccional también hay una caída de tensión según la distancia?   
 Profesor: Según la distancia pero se calcula de acuerdo al consumo que vos tengas internamente. Por eso es interesante esta lámpara de 100 amper¿? (100 watts quizo decir) anteriormente nosotros hacíamos el **cálculo tomando la cantidad de bocas y poniendo 100 watts por cada luminaria entonces la suma de todas esas luminaria que está en esta habitación me daba un valor de potencia y dividíamos por la longitud verificamos que la sección de conductor correspondiente para esta parte iluminaria sea la correcta.**   
-Alumno6(Vendedor de Mangueras): Eso para calcular el conductor y la llave termoagnética?   
+Alumno6(Vendedor): Eso para calcular el conductor y la llave termoagnética?   
 Ayudante: Eso es para calcular el conductor. La termomagnética vos ponés de acuerdo a qué sección de conductor usas.   
-Alumno6(Vendedor de Mangueras): Claro pero por ejemplo yo tengo una ducha eléctrica. 15 metros, y habíamos dicho que el conductor de 4mm^2 íbamos a usar para toma especial, o sea ¿eso no cambia?   
+Alumno6(Vendedor): Claro pero por ejemplo yo tengo una ducha eléctrica. 15 metros, y habíamos dicho que el conductor de 4mm^2 íbamos a usar para toma especial, o sea ¿eso no cambia?   
 Profesor: Claro lo que pasa es que la longitud te varía si vos tenés 15 metros no es lo mismo que vos tengas acá a 1 metro las tomas principales o a 5 metros.   
-Alumno6(Vendedor de Mangueras): Tengo que achicar el cable?   
+Alumno6(Vendedor): Tengo que achicar el cable?   
 Ayudante: Tenés que aumentar.   
 # Lo que veremos en el 2do cuatrimestre.   
 #### Profesor: 1ero quiero que aprendan esto, después les voy a dar una fórmula que se hace la sección del conductor de acuerdo a la longitud y **hay un elemento que eso vamos a ver el 2do cuatrimestre, hay un problema de la variación de tensión** permitida dentro de un sistema de inmuebles un 3% desde la alimentación hasta el último toma que está acá. ¿Qué significa? **Que yo en un sistema normal de una casa de una vivienda puedo tener una caída de tensión de alimentación hasta allá la entrada de la acometida hasta el último toma que está acá una caída máxima de un 3% entonces habrá una fórmula que esa caída de tesnión aparecerá y yo le puedo ir regulando de acuerdo a lo que yo necesito en vez de poner 3% pongo 1,5% entonces voy controlando que sección de conductor me va a salir para eso**.   
@@ -610,7 +610,7 @@ Profesor: Entonces cada vez que uno pasa y vuelve ya vez que está oscuro, ah ya
 Ayudante: El claro cruce de lo que viene siendo el acceso Sur una vez que vos pasaste el puente está todo apagado y eso es porque **robaron toda la línea**.   
 Alumna: Encima la tienen re clara.   
 Profesor: Saben.   
-Alumno6(Vendedor de Mangueras): Por eso es que no hay luz?   
+Alumno6(Vendedor): Por eso es que no hay luz?   
 Ayudante: Y sí porque los artefactos y los tablero¿? (Hora 01:57) funcionan pero no funcionan¿? (Hora 01:57)   
 Profesor: Fíjense ahí el arroyo ¿cómo se llama el arroyo de San Ignacio ahí abajo?   
 Alumno3: Yabebiry.   
@@ -629,7 +629,7 @@ Ayudante: Eso nos solucionó muchas cosas, porque rompía las pelotas que tengas
 Alumno4: Nos podemos retirar?   
 Profesor: Medio camino a casa.   
 Alumno4: Yo me voy a Candelaria.    
-Alumno6(Vendedor de Mangueras): Moto uber.   
+Alumno6(Vendedor): Moto uber.   
 AlumnoX: Profe mañana hay que traer pinza eso, alicate pela cables?   
 Profesor: NO todavía tenemos.   
 Ayudante: Haremos un conexionado simple.   
