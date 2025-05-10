@@ -15,6 +15,7 @@ UEFI bootea desde un usb live y ejecutá:
 sudo mount /dev/sda3 (root) /mnt
 sudo mount /dev/sda1 (efi) /mnt/boot
 
+sudo pacman -Ss arch-install-scripts
 arch-chroot /mnt
 
 ### Si estás desde otra distro
