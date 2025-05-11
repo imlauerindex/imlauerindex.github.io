@@ -14,18 +14,24 @@ sudo pacman -S xdg-desktop-portal xdg-desktop-portal-wlr
 ```bash
 # PARA OBS
 # Set XDG_CURRENT_DESKTOP for proper Wayland support
+# No me sirvió
 exec --no-startup-id dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 
 
 # Start xdg-desktop-portal services (ensure wlr starts first)
-exec --no-startup-id /usr/lib/xdg-desktop-portal-wlr &
-exec --no-startup-id /usr/lib/xdg-desktop-portal -r
+# No me sirvió
+# exec --no-startup-id /usr/lib/xdg-desktop-portal-wlr &
+# exec --no-startup-id /usr/lib/xdg-desktop-portal -r
+
+#### Me sirvió
+exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DISPLAY
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway 
 
 
 
 
 
-
+#### Para cambiar workspaces TAB.
 bindsym $mod+Tab workspace back_and_forth
 
 input * {

@@ -283,13 +283,248 @@ Alumna: Le voy a sacar una foto porque no veo nada.
 Profesor: Le vamos a sentar a las chicas acá adelante, no ven nada.    
 Ayudante: Se entendió?
 Vendedor: Sí, pensé que dentro de la caja de paso no había que empalmar nada.
-Ayudante: 
+Ayudante: La caja de paso justamente para hacer ¿? (Hora 01:16). Los empalmes se hacen acá y acá.
+
+Sigo. Ya tenemos 2, vamos a suponer que este ya hicimos.
+
+###### 3) 2 laḿparas y 2 interruptores en la misma caja (el profesor no entiende su propia letra leyó 2 lámparas y 2 interruptores el mismo caso)
+Alumno: En la misma caja.
+Entonces yo como buen samaritano y si después no tengo material ahora voy a colocar otra llave de punto aquí, voy a colocar otra llave de punto aquí, es 1 punto. Después le voy a comentar que si no tengo llave de punto yo les voy a explicar que va a aparecer una llave que tiene 1,2,3 esta es llave de 1, de un punto, y esta llave combinada, pero después vamos a ver eso. Pero puede ser que **la mala suerte que tengan no tenga llave de punto para todos y aparece una llave combinada** pero en principio si no tengo llave de punto bueno.
+
+**2 módulos, este es el 3er caso ya**, es importante que vayan hacinedo los casos porque después cuando tengan todo el quilombo hecho no van a saber que se hizo primero.
+
+Una vez le dí, un esquema coleccionado y todo y lo que pasaba es que la gente veía el color y agarraba y ponía los cables no más, eso no me interesa a mi que pongan los cables que están ahí la cantidad. Me interesa que piensen como van y como está el conexionado y por donde nació y donde salió. Todas esas cosas me interesan no **pongo la cantidad de los conductores que dicen ahí, ta ta ta, eso no me sirve yo le voy a preguntar como hizo, como hace primero y los pasos, por eso estoy tratando de hacerlo en forma ordenada y despacio**. 
+
+Aprovechen que son 12 nada más después la otra gente no sé como vamos a hacer, va a tener que venir 1 día.
+
+Bueno, estamos ahora? Si o no.
+
+Bueno, tengo la otra lámpara acá pongo 2 conductores de 1,5 mm^2 y acá... Voy a hacerlo aparte no más porque tengo que agregarlo allá para que ilumine allá va a hacer 1 más. 1x1,5 o sea acá sería tierra más esto. Vamos a poner un conductor más y acá en vez de 1 llave, va a haber la característica de: este es 1 y esta es otra llave acá. Entonces me quedó el esquema, esto en síntesis va a aparecer real si estoy haciendo solo esto va a aparecer directamente en el plano eléctrico como es cañería 19/16 y de ahí va a ser igual a 3 conductores. **3 conductores de 1,5 mm^2 más tierra** eso va a aparecer en el plano de planta.
+
+**En el plano eléctrico cuando ustedes miren el plano va a aparecer un conductor menos**, y esta es la característica en el plano que tiene que figurar acá. Estamos hasta ahí? Estamos haciendo la planta eléctrica.
+
+\* Llega la preceptora y toma lista (Hora 01:21)
+Ahí va a recitar la canción de fonsina.
+Toma lista.
+
+Ahora vamos a hacer esto está la parte eléctrica está, esto es lo que va a aparecer ahí y ustedes vamos a ver que pasa acá ahora, por eso es importante que tengan porque ahora va a pasar el borrador.
+
+**Fíjense esto que estaba acá ya no va a ir más acá directamente acá vamos a hacer, vamos a tomar del conductor UN PUENTE vamos a alimentar el otro módulo, y el otro retorno para no borrar tanto va a seguir a la otra lámpara**, fíjense como ya en la planta va a figurar 3 conductores. 1,2,3 que les voy a poner por las dudas. 
+
+Este llega de acá a acá, este llega de acá a acá y este llega de acá. No sé si vimos bien hasta ahí.
+
+Alumna: O sea van a salir 2 retornos de la caja.
+###### Profesor: 2 retornos, perfecto. Es lo que dice acá. Dentro de la cañería va aparecer 2 retornos.
+Sebastían: Ahí no hay problema en el puente porque no hay nada (preguntó por el consumo)
+Profesor: No, ahí no tocamos nada lo otro estaba conectado y directamente lo único que hace desconectamos ahí y conectamos acá, acuérdense que yo puedo hacer cualquier empalme dentro de esta caja, yo desconecto acá y coloco los 2. **Para que voy a hacer toda la conexión hasta acá o conseguí otro cable, eso es importante porque yo voy a ver que es lo que están haciendo, si van a poner un cable de acá hasta acá solo no me sirve porque ya no siguen el método que tenían que haber hecho desconectá acá y de acá unimos ese pedacito**. A este que está acá. O sea que acá va a aparecer entonces el puente otra vez acá y acá sale el otro y este desaparece va unido a este. **Este llega ahí y el otro sigue de largo** por eso es importante que vayan mirando porque esto después si se puede borrar, alguien va a borrar.
+
+No sé si me entienden, la idea acá es que piensen después. **Acá yo les voy a dar el punta pie inicial, las lámparas las llaves de punto lo que sea y ustedes tienen que hacer el conexionado** y después les voy a dar el esquema eléctrico, les voy a mandar, pero entonces el procedimiento lo que tienen que hacer por etapas. 
+
+Alumno: El retorno sale del primer interruptor allá profe?
+Profesor: Uno sale para acá y el otro, acá le desconectás el que está y va directamente hasta acá. Todos esos pasos quiero que hagan porque para eso estoy explicando, sino pueden unir un hilo no más y no me sirve.
+
+Alumna: O sea que en este caño voy a tener 3 cables ahora.
+###### Profesor: Sí, 3 cables 1,5 más tierra. (Ejercicio 3)
+Si Dios quiere.
+
+Sigo avanzando ya hicimos esto. Vamos 2 lámparas y 2 interruptores en distintas cajas.
+Sebastián: Agregamos otra caja abajo de la.
+Profesor: Acá entonces ahora agregamos acá fíjense ponemos de otro distinta ubicación entonces ahora ya vamos a ir armando nuestra, nuestro bastidor. 
+
+**Vamos a hacer el 4 ahora**, por eso yo voy anotando después los ejercicios que hagan, el que me saltea le pongo 0. Que malo que soy. Para ver que hicieron. Estamos hasta ahí o no? Porque a esto después le pueden poner más bocas o más cosas o lo que quieran. Más bocas más cajas octogonales de acá por ejemplo pero necesito que ustedes tengan idea de como se hace nada más. Esto es el principio de acción las chicas se puso las dos manos no sé que voy a hacer, no. Acá se viene a aprender no se asusten. 
+
+Ayudante: Ante la duda se consulta.
+Profesor: Claro no te asustes, pero es lo mismo que cuando vos revises tu instalación ahora cuando estés más segura tu instalación de tu casa. Vas a saber que esto es lo que está en tu casa, ya de otra forma pero es lo mismo o sea que estos son los circuitos básicos que van a estar dentro de tu casa y tarde o temprano cuando desarmes o revises vas a poder armar y desarmar lo que quieras.
+
+Acuérdense que yo tengo un borrador acá.
+
+Ahora fíjense del esquema eléctrico que varía ahora porque ya le voy a cambiar de lado para que se vea mejor, vamos a poner acá. Por eso es importante las etapas ahora que hago? 
+Ayudante: Por qué no podemos acá el esquema unifilar, así queda aquel de montaje... Se puede hacer más grande.
+Profesor: Eeeh aquí no más.
+Ayudante: Porque queda muy encimado.
+Profesor: No está bien, quiero ver esto a ver como es, me interesa acá. Bueno vamos a hacer un poquito mejor entonces.
+
+###### Vamos a hacer primero en planta ese (ejercicio 4)
+
+Ayudante: Por qué no lo hace un poco más grande?
+###### Planta: cañerías solamente.
+Profesor: No porque sino voy a ocupar todo el espacio y no tengo otra cosa que hacer. Acá es fácil voy a tener entonces vamos a suponer **que tengo una lámpara acá y otra lámpara ahí, tengo una llave de punto acá y puede ser que por acá en el medio se me ocurrió meter otra llave de 1 punto desaparece esta llave de 2 puntos entonces fíjense el cuadrado va a ser siempre igual, acá tengo este, este, este y acá. Esto es planta. Las cañerías solamente**. Tengo 2 llaves de punto: 1 con uno, y 2 con 2 estos dos encendido se hacen de esta forma.
+
+Agregar foto de ejercicio 4.
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMkRdtDHhNr_VT4DL0Y3ZjdzuyimbZir7xioEgtogVOKabl1pikiliITqeOBbe2FxvAq_gakM74JkinxLELOSdKBBOigJ6c8SdmPs1D1bHU-1HzbkheWhbApTCEu8ayZzSySD9aOTbhDcAPiNgds5L7-vhaliK87k-nmql5HcvO9-ly795GYGvqbr53gQ/s4160/IMG_20250507_201900387.jpg)
+
+Torres: Me duele la cabeza.
+Profesor: Yo le voy a pegar acá, me dice me duele la cabeza.
+Ayudante: Dentro de un ratito te va a dolar en serio.
+Profesor: No, el tema es fácil no hay problema, cuando vos empieces a hacer el ejercicio te vas a dar cuenta acá es todo esquema y el esquema eléctrico. Todavía son auxiliares pero el día de montador ustedes van a hacer cualquier esquema ahí y van a tener que ir armando el circuito, yo ahora tengo la paciencia de armarle.
+Torres: La paciencia.
+Botolli: Mirá que si no tiene la paciencia.
+Profesor: No, la paciencia en el sentido de que...
+Ayudante(Alejandro): Va a pasar lo que me pasó con el compañero acá.
+Profesor: Le voy a hacer despacito para que ustedes entiendan como se hace las etapas. Después ya les voy a dar un circuito y...
+Ayudante(Alejandro Ramirez): Y ahí arreglense.
+Profesor: Claro, ahí ya no voy a tener más paciencia porque ya supuestamente van a ser montadores, tienen que saber leer la parte eléctrica ejercicio de planta, esquema eléctrico tienen que dominar, ya van a ser montadores ya no les puedo ayudar. Ya que está ahí a vos te gusta dibujar (al ayudante), hacé el esquema eléctrico.
+Ayudante(Alejandro Ramirez): El unifilar?
+Profesor: Sí, 1ero este, el esquema eléctrico. Yo este no te voy a dar porque este es el mejor(el marcador).
+Ayudante(Alejandro Ramirez): Bueno. Voy a agarrar uno de acá porque ya sé que todos estos funcionan.
+Profesor: No este es el nuevo que yo compré. Había 3 de estos. 
+Ayudante(Alejandro Ramirez): El otro día yo quiero saber para que me pidió que separe todos y que tire los que no sirven.
+Profesor: Y es para vos ahí yo este, este va a ser mío.
+Alumno(Refrigeración): Hay problema de vestuario acá
+Ayudante(Alejandro Ramirez): Primero era el negro ahora cambió ahora el otro.
+Profesor: Bueno, tenes el azul ahí?
+Ayudante(Alejandro Ramirez): Sí. 
+Profesor: Tiene todo acá.
+Ayudante(Alejandro Ramirez): Sí, todo funciona.
+Profesor: Tenía un alumno que decía, tengo todo. Bueno haceme entonces, no hay problema. Tengo todo dice, y si tenía todo... O sea para algo viste, ese negro(marcador) negro si o si. 
+Ayudante(Alejandro Ramirez): Ahora ya tiene el azul.
+Profesor: No pero voy a comprar 2 negros y todo nuevo. Voy a guardar, voy comprando por partes y después va quedando. Ahora voy a tener lo mismo que está ahí pero se va a desarmar ahora. Yo le voy a mostrar con el dedo el va a hacer la instalación aparte y acá le muestro como va a tener que arreglar acá porque ustedes el bastidor no me van a cambiar. Van a cambiar las conexiones, van a cambiar de un lado al otro lo que sea pero eso va a hacer exclusivamente. Como diría que fácil que es. 
+
+##### Buscar en la clase anterior cuando nos explicó como usar buscapolo, tester, probador de tensión, etc.
+Acuérdense que este esquema se va a probar así que no es que, van a venir acá yo **voy a armar 2 probadores y vamos a repartirnos el que termina primero de 1 lado, termina el otro** y van a aplicar todos los métodos se van a cansar de decir **bueno yo estoy usando esto: Tengo el buscapolo**, van a decir hay estoy podrido, sí van a estar podridos de repetir lo mismo pero tarde o temprano eso les va a quedar no hay otra forma.
+El tipo que trabaja y constantemente hace lo mismo siempre tarde o temprano se mecaniza entonces esos elementos va a tener para probar y eso es la seguridad que les va a dar a ustedes para cuando trabajen con el arquitecto, mastreo mayor de obra lo que sea.
+
+Bueno, no le va a poner nada entonces? Fíjense ahora que hago, estamos en el 2 lámparas y 2 puntos en distintas cajas. Yo puedo tener en cualquier lado acá o allá el encendido ese yo tengo que tratar de revisar la instalación eléctrica esa parte, entonces vamos a nuestro esquema de montaje que es este. Ahora desaparece esta que está acá. **La llave de punto que está acá yo voy y le pongo de este lado voy a tener que conseguir otro bastidor lo que sea y va acá**. 
+
+Ayudante: Hay que ir borrando.
+Profesor: Yo por eso quería hacer en distinto lugar, no tuve la posibilidad.
+
+Bueno, fíjense como va quedando esto ya tengo **punto 1 punto, lámpara y lámpara , caja octogonal, caja octogonal lámpara lámpara** fíjense como quedan este circuito esquema eléctrico ponele ahí va ser un 4 acá por si alguien se atrevió a hacer una foto. Ese es el 4. El esquema eléctrico de la formación 4. Estamos?
+
+Entonces si o si que dijimos que la lámpara llega al neutro, y el...
+Ayudante: Y la tierra a todas las cajas.
+Profesor: Y la tierra en la caja octogonal llega a todas las cajas, puesta a tierra.
+
+Está? Voy a tratar de conseguir también conductores de puesta a tierra para que ustedes tengan en **cuenta que si yo no meto la puesta ahí no es válida la instalación**.
+###### Ayudante: O como referencia de última se usará un hilo(como tierra).
+Profesor: Vamos a ver que consigo, yo en algún lado tengo que tener y después también algún día le voy a pedir cosas que ustedes traigan, después va para ustedes.
+Vendedor: Y ahí en la caja de paso le puedo... La otra fase?
+Profesor: Sí, todo hacé en la caja de paso. Acá no se pone la instalación en el medio cañería es lo mismo que si estuvieras hecho en la parte real dentro de la cañería está prohibido hacer cualquier empalme dentro de la cañería. Eso es norma y él que hace ahí está cometiendo un ¿? (01:37)
+
+Bueno, estamos hasta ahí.
+
+Botolli: Él hizo a tierra a la lámpara.
+Ayudante: Va a la caja. Esto es la caja, la tierra va a la caja.
+Botolli: Va al octogonal?
+Ayudante: Sí.
+Ayudante: Esta referencia es el octogonal.
+###### Botolli: Se le pone un tornillito y ahí no más?
+Profesor: Sí o dejás el cable ahí no más.
+Ayudante: Pero la tierra tiene que llegar.
+Profesor: Si, tenes todo cañería y tenes caja de hierro aconsejan que atornilles.
+Ayudante: Que atornilles que pongas un tornillo y la puesta a tierra a la caja.
+Botolli: A la caja no al portafoco.
+Profesor: Vamos a suponer que vos tengas..
+Ayudante: Es que en el portafoco no tenes donde poner.
+Botolli: Por eso.
+Profesor: ...Y compres un plafón cuadrado esos LEDs y ahí te va a aparecer y la parte exterior es de chapa, ahí te aparece una bornera con borners ¿? (01:38) una bornerita esa y te aparece para que vos coloques fase, neutro y tierra y ahí tiene que colocar. En principio esto porque tenemos un portalámparas común pero puede hacer que generalmente todos los que vienen ahora los plafones cuadrados ovalados lo que ustedes quieran eso tiene una bornera a ver si hay un portafoco.
+Ayudante: Acá hay un **driver**.
+Profesor: No como se llama un portalámpara ese de los viejos esos de LED.
+
+\* Profesor y ayudante se van a buscar algo. Alumno Torres habla
+
+Estamos por ahí? Eso está.
+
+Ahora yo saco este y voy acá, que hago ahí entonces? Fíjense ya acá desaparece uno, en vez de **3 me quedan 2 no más** saco un retorno ahí este retorno que iba paseando para este lado se va y viene para este lado. Ese retorno que estaba acá corto acá y hoy tiro ¿? (Hora 01:39) por eso les digo que van a utilizar los mismos cables, si Dios quiere y hacen bien las cosas **cortan acá el retorno que estaba unido acá o pasa directamente y vengo aquí**.
+
+Botolli: Por qué no puedo hacer un empalme desde la caja de derivación?
+Profesor: Que dije yo recién? Retorno. El retorno que tenía todavía no puse la llave.
+Ayudante: Todavía no pusiste tu fase.
+Profesor: Entonces **el retorno que vos tenías acá, desconecto y voy y conecto a esta parte que está acá, ahí a la llave de punto y después la fase que está acá ahí tomo si la fase**.
+Sebastían: Ahí hago un empalme.
+
+Agregar FOTO DE TP4.
+
+Profesor: Viene al **empalme y el neutro mantengo ahí**.
+Sebastían: Entonces viene la fase del
+Ayudante: Y a la pregunta anterior la tierra siempre llega a la caja.
+Profesor: La fase viene de acá en la caja de paso la caja octogonal hago la derivación para la otra fase y el retorno saco el que está acá y vengo acá.
+
+###### Botolli: ¿Por qué no puedo sacar el retorno de la cajita de 5x10 no más?
+Ayudante: Porque tu retorno va a estar en tu llave en esta, acá vos tenes un retorno que viene a este foco y acá vas a sacar otro retorno que va a venir solo acá. Pero como vos ya hiciste el tiro lo único que tenes que hacer es romper el empalme acá y mandar el cable para este lado. 
+Sebastian: Va a sobrar cable.
+Profesor: Sí, va a sobrar.
+Ayudante: A ver si hay un pedazo de cable acá.
+Profesor: Es lo que vos vas a ver dentro de una habitación así, ese que vos tenes ventilador es el mismo sistema.
+Ayudante: Vos tenes el esquema acá. Este prende este dos. Tu retorno viene de acá hasta acá, el retorno que vos empalmaste acá para que con este vos enciendas los 2 focos. (**PARA MI ACÁ SE EQUIVOCÓ PORQUE ESTÁ HABLANDO DEL EJERCICIO 2 Y YA ESTABAMOS EN EL EJERCICIO 3 EN DONDE HABÍA 2 RETORNOS 1 PARA CADA LLAVE**)
+Botolli: Sí.
+Ayudante: En vez de sacar este cable y tirar, de acá desempalmas el cable que viene de acá hasta acá a tu lámpara lo vas a mandar para abajo.
+Botolli: Nosotros queremos que ambos juntos trabajen sobre ambas lámparas.
+Ayudante: No.
+Profesor: Sí sí, uno para cada lado. Uno para acá y otro para acá. (El ayudante y el profesor se equivocaron).
+Botolli: Y por qué yo no puedo traer una fase de ahí voy ahí y acá hago un retorno directo.
+Ayudante: Y sí, pero nosotros te explicamos el retorno para vos ahorrar cable y no desperdiciar vos lo que tenés que hacer es sacar de acá...
+Profesor: Vos estás trabajando en ese tablero, estás haciendo una secuencia esta.
+Ayudante: En este, la idea
+Alumno(Refrigeración): La discución es semántica. Ella está entendiendo que sale de acá el retorno, y vos le estás explicando que tiene que ocupar el mismo trayecto de cable para ahorrarlo.
+Profesor: Y sí, es lógico. Adonde vas a meter tu cable, vas a cortar y vas a tirar, vas a reutilizar por eso son los prácticos por etapas.
+Botolli: Ah uso el mismo cable? 
+Alumno(Refrigeración): **El mismo cable que vos usaste de tu retorno acá, va a venir acá abajo. Y acá sí después vas a sacar una fase**.
+Botolli: Yo estaba interpretando que tengo que hacer un empalme ahí en el retorno y seguir con el mismo retorno hasta la llave.
+Alumno(Refrigeración): No.
+Botolli: Ah bueno
+Torres: Fíjate que ese dibujito se entiende.
+Botolli: No por eso yo entendí bárbaro pero cuando me dicen que del retorno tiene que ser de ahí a ahí yo estaba interpretando mal.
+Alumno(Refrigeración): Eso es ahora en el tablero porque la idea es que desperdiciemos la menor cantidad de cable posible.
+Botolli: Ah bueno están mezclando los tantos.
+Alumno(Refrigeración): Se mezclaron los tantos?
+Profesor: Va a ser un ejercicio por partes, por eso voy a controlar yo.
+Vendedor: Ah claro, en el mismo bastidor vamos a haciendo todas las variaciones.
+Profesor: Claro cada uno va a tener su bastidor. Acá la idea no es hacer lo más rápido posible sino ir pensando lo que están haciendo por eso van por etapas.
+AlumnoX: Todo se hace el mismo día?
+Ayudante: No creo que lleguemos, pero sería interesante.
+Botolli: Hoy no más vino un poquito acelerado el profe.
+Profesor: No no, 
+Botolli: Quiere dar todo junto.
+AlumnoX: Pero se podría.
+Profesor: No, todo se puede hacer pero...
+Ayudante: Lo ideal sería que como son 6 puntos diferentes hacer 2 por clase.
+Profesor: Fíjense no pero ahora van a estar solos, si vienen los hermanos Chuck Norris, ayer he visto agarró uno ya hacía tac-tac-tac conectaba acá agarraba y decía no está mal acá y... Así no. Porque todos tienen que entender. Yo he visto ahí el que trabajaba así y así y no me gusta porque agarra uno la posta y hace solo él. No, si yo voy a agarrar la posta no me tengo que apurar y explicar a los que están al lado. Entienden? Porque entonces sirve que todos entiendan. Ahora aquel señor que está jugando al celular no sé si va a aprender pero no importa ya no me interesa mucho. Los dos hermanos se van a entender van a sentarse junto por las dudas. Estudien los dos, los dos son iguales. Así que.
+Alumno: Idénticos no más profe.
+Ayudante: Sí pero tenemos al que está fijo al pizarrón, y al que está fijo al teléfono.
+Profesor: Así que vamos a ver que pasa pero el tema vamos a hablar en otro sentido yo en la parte de práctico soy el tipo más perro que hay porque ya estamos trabajando con electricidad. Cada ejercicio que hacen acá van a venir a probar y si hacen mal y hacen apurado mi complicación es que no se lastimen y eso que ustedes van a aplicar acá es lo que realmente les va a servir en una instalación básica de una vivienda. Entonces yo ahí ya soy medio chinchudo. O sea presto tema, todo movimiento porque van a trabajar solos quizás ella tenga un bastidor y al lado tenga un bastidor y por X no tengamos todas las herramientas y ocupen las mismas herramientas. Uno espera así del otro y ... Entienden como es el sistema? Esta es una parte práctica que es lo que realmente se usa en instalación en escalas menores perfecto, en escalas menores pero todos los trabajos que se hagan con electricidad yo trato de que... Esto ya no es un juego, acuérdense tampoco estamos en la secundaria acá ya directamente yo miro como trabajan y si realmente tienen vocación de servicio. No... Que hagan la parte bien o sea ya no tengan.... Acá salen y estos mismos van a realizar, y si acá empiezan a hacer mal y no prestan atención es probable que después tengan problema entonces eso yo no quiero. 
+Botolli: Lo que pasa es que nos agarró un poquito de vértico profe porque puso 6 todo junto. Si pone 2 y hacemos, 2 y hacemos...
+Profesor: No, pero el tema yo después les voy a mandar algunas instalaciones ya hechas no de bastidores estos pero les voy a mandar algunos. Va a aparecer algunos, papel y todo. Lo que pasa es que la idea acá era explicarle los prácticos que vienen y tengan idea como se hace. Ahora 12, ustedes los 12, 13 con el señor no sé si va a querer hacer, si no quiere hacer, él va a ser mi ayudante. Ya saben el procedimiento y saben que es lo que tienen que hacer con el bastidor.
+Ayudante: Si usted necesita que yo haga, yo hago.
+Profesor: No no, si sabes para que.
+Ayudante: Pero si necesita que haga yo voy a hacer.
+Profesor: No, la idea es que me ayudes si no como voy a controlar toda la... Voy a armar un tablero aunque sea con tablero voy a armar una instalación acá para...  Otro tablero práctico para que cualquier cosa que haya un corto circuito me actúa el tablero esto o el otro. Vamos a tener un tablero de cada lado así vamos a hacer más rápido las comprobaciones y todo y ahí ya vamos a practicar un poquito el tema de todo lo que podemos hacer. Lo que falta después la parte de elementos de medición, trabajaremos otro día aparte porque yo necesito por lo menos que tengan contacto con esas herramientas que es lo que le va a servir para testear o revisar instalación y ver donde toma la tensión, que tipo utilizo, todas esas cosas que vemos siempre se va a volver a repetir pero en gran escala. Capaz que alguien haga uno y después vemos el primero va a ser con todos el equipamiento como es el procedimiento todo porque
+
+##### Eso hay una parte teórica que yo prengunto: con que elementos cuento en una instalación, que debo tener los procedimientos los pasos que necesito, es fácil. En la práctica por ejemplo: buscapolo. Todas esas cosas que hicimos, eso va pregunta escrita.
+Entonces si no saben eso es una nota menos, un punto menos.
+Botolli: Como se llama el 2do instrumento de medición que tiene el LED?
+Profesor: El LED? A ver que contesten.
+Ayudante: Usted preguntó es el 2do. Cuál es el 2do?
+Botolli: El 1ero que usamos es el **buscapolo**
+Profesor: El 2do?
+Alumna: La lámpara de prueba.
+Botolli: El 3ero el que tiene el LED?
+Sebastian: **Probador de tensión**
+Profesor: École.
+Botolli: Como?
+Sebastian: **Probador de tensión**
+Profesor: **Probador de tensión** que tiene el LED y distintas enumeraciones que son valores aproximados de tensión.
+
+###### Hay una pregunta que siempre hago y eso es fácil ahora que ustedes están 12 nada más: Donde se toma o donde hago la medición de la tensión. En los borners de la termomagnética bipolar por ejemplo tomo los borners ahí. Ta para que ustedes sepan donde tomo la tensión. Esos dos y tengo 1 elemento que va al común en el caso del tester y el otro va...
+Alumno: Voltaje continuo.
+##### Voltaje continuo o voltaje alterna. Entonces yo tomo ahí.
+Después voy a traer una pila para que cuando empecemos a hacer un poco de ejercicios el tema de medición voy a traer una pila para que ustedes midan que voltaje tiene esa pila y donde está que es lo que pasa para que ustedes prueben. Es sencillo, lo que pasa es que tener un instrumento para cada uno va a tardar 10 años. Consigo 1 cada año, va a ser 10 años pero tengo 2/3 dispositivos para un tester.
+
+Entendieron este? Bueno.
+
+###### Ejercicio 5
+Esto de combinación vamos a hacer aparte porque ahí ya tenemos que hacer otra puerta por acá por ejemplo y después tomar la llave combinación acuérdense que es la llave esta característica este es el sería así, vamos a hacerle más lindo esta es la llave combinación y generalmente ahí el **tema modular va a aparecer 3 tornillos** eso es una llave combinación. Esa llave combinación es lo que ustedes después cuando hagamos un sistema compartido entrada y salida 
+
+
+
+
+
+
+
+
     
-    
-    
-    
-    
-    
+
 ---
 
-Hora 01:16:20
+Hora 01:46:40
