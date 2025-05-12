@@ -28,8 +28,10 @@ exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DISPLAY
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway 
 
 
+bindsym --locked XF86HomePage exec firefox
+bindsym --locked XF86AudioPlay exec smtube
 bindsym --locked XF86Mail exec thunderbird
-bindsym --locked XF86WWW exec firefox
+
 
 
 #### Para cambiar workspaces TAB.
