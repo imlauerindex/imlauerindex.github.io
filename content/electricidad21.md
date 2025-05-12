@@ -25,3 +25,5 @@ https://www.youtube.com/watch?v=RjSsyycAPkk
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp4zldbbs62kwqFYirhNQQTDQ9uCOf7DJb5doxWCq9IP7gD_VuvapW5MOn-jgfJKrSVhNyw29YpU99cF0mNvPZaev3UR6uIkxLErvRml03NSZnVnmUqbLTVrZFO71MC8OqOqEwUqp6ba9HoN4gNgwfSU5b3lDm5g7NMg2Re0Fq44phAeiiUy4rAGo9tTk/s4160/IMG_20250430_204733652_BURST000_COVER_TOP.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHAVayGJWBpyj2W-2TLeJnJaOkhBHiwk0kZeShOxI6QzJ6GH-7dal9ElOwqT_M8TbZZ4N0TqVTJtJMXObqIHFum-pMUZkrgwoeRcXVxJMKe74kteuoFH89OWO0sKLVkgv0X0XcAyCnm4w-N0L5G_U54rbe-vrOjM_bb9xgdVNIYsxj-5rQmWqoJcC2zME/s4160/IMG-20250505-WA0042.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIkBq23aMiNmfA3ac9CHIceMfL2B87-wSrTUKVpunoEbxc_PII8PfqziPwOZ6Y9Py-qbjz7be2H7ZaLR6JhCJetsoMmIb84HMU9WwOeMGciGPaAgC2ClQsOijewy3-1l-I8-IuNnOhIz3ncWa8m6GOM3D80BspQdaYmRpVmnC_ZWFlFQMhrZnhPEHiaTA/s4160/IMG-20250505-WA0037.jpg)
+
+##### Transcripción

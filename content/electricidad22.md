@@ -11,9 +11,38 @@ https://archive.org/details/record-113
 ###### Audio en YouTube:
 https://www.youtube.com/watch?v=v5VihbvcxFw
 
-#### Resumen
+#### Preguntas de examen
 * Eso hay una parte teórica que yo prengunto: con que elementos cuento en una instalación, que debo tener los procedimientos los pasos que necesito, es fácil. En la práctica por ejemplo: buscapolo. Todas esas cosas que hicimos, eso va pregunta escrita.
 * Hay una pregunta que siempre hago y eso es fácil ahora que ustedes están 12 nada más: Donde se toma o donde hago la medición de la tensión. En los borners de la termomagnética bipolar por ejemplo tomo los borners ahí. Ta para que ustedes sepan donde tomo la tensión. Esos dos y tengo 1 elemento que va al común en el caso del tester y el otro va Voltaje continuo o voltaje alterna. Entonces yo tomo ahí.
+###### Resumen
+* Hay una hoja que les dí agrupación de conductores.
+* Antes de colocar los conductores yo tengo que tener la canalización bien hecha, o sea que esté concluído el montaje de todas las cañerías y cajas.
+* Todos los conductores deberá dejarse una longitud mínima de 15cm, más o menos de 15cm una mano abierta. 
+* No quiero a veces es que estén tan apretado en la cajita y pelen el cable una longitud mínima entonces hacen el empalme así no más y ponen cinta aisladora todo lo que quieran pero esa unión no es confiable
+* Cableado del ventilador ya viene una llave exclusivamente acá que va a ser para iluminación.  Si yo empujo con la empuñadura no se tiene que desformar (el plástido del regulador del ventilador) y eso se desformaba y se notaba después cuando vos veías el transformador y esta parte de acá medio quemado
+* Casas container completamente armadas: Nosotros hicimos escuelas con contenedores 3 metros de largo por 6. Entonces uníamos 2 contenedores entre 1 y otro esta pared tarde o temprano se saca. Se hizo un techo bastante grande para que el agua caiga sobre el techo y no sobre el contenedor
+* Circuitos reales dentro de una vivienda circuitos básicos
+* No es comprar cualquier conductor porque si compro conductor muy fino o puedo comprar muy grueso en ese caso estoy invirtiendo dinero de más
+* Esquema Planta: nosotros vemos una instalación eléctrica a partir de que sacamos el techo de arriba esto una planta es un cuadrado acá o un rectángulo o lo que sea y **ahí va los distintos tipos de canalización**
+* El 1er práctico va a hacer una lámpara vamos a tener y un interruptor.
+* Cañería mínima en este caso es 3/4 que sería el 19/16 todo cañería de 3/4
+* Iluminación es 1,5mm^2
+* Una vez que tenemos la planta, vamos a hacer el esquema eléctrico
+* Este es el esquema eléctrico entonces nosotros ya supimos que acá va a llegar un circuito que es una caja de paso, si o si en esa caja de paso que vamos a hacer va a llegar para que ustedes entiendan fase neutro y tierra. Esto que está acá si o si va a llegar.
+* Caja de derivación la mínima es 10x10 puede variar de 10 a 15x15 o 15x10.
+* Módulo de 1 interruptor que sería una llave de punto pero es un módulo internamente esto va así, abre o cierra el circuito nada más que eso y eso va colocado en una caja que lo vamos a hacer acá una caja 5x10, la caja es 5x10 rectangular
+* En la lámpara si o si siempre tiene que llegar el neutro
+* Ya dijimos que era 3/4 entonces arriba va a figurar 19/16 que eso es igual 3/4 de caño. Ahí va a aparecer 2 conductores de 1,5 mm^2 más tierra y ahí fíjense que viene a la llave si esto sale directamente de acá porque esto va a llegar acá y acá tengo que sacar el neutro me va a quedar acá en la lámpara y el otro 2 bueno, 1 va directamente a la llave que es la fase y el retorno de acá entonces acá va otros 2 conductores por 1,5 mm^2 más tierra y también va a ser 19/16.
+* Rectangular 5x10 solo instalación una parte del ejercicio va a estar ahí pero si esto fuera un esquema de montaje ya tengo el nivel del piso, esto es nivel 0 nivel de piso Vamos a hacer despacito con respecto al nivel del piso vamos a tomar 1,20 de acá a acá si esto fuera empotrado a la pared vamos a suponer que es empotrado a la pared, esto sería alrededor de 1,90 ¿donde encuentro esto? En el baño o en la cocina o en el lavadero empotrado en la pared no arriba.
+* Caja 10x10 la altura es 0,30 del cieloraso
+* NEUTRO donde termina el neutro en el portalámparas, si o si en el portalámparas, la fase va directamente esto no se deben olvidar siempre va a la llave al interruptor en este caso llave de 1 punto y bueno el de la otra parte directamente para hacer en la realidad el retorno va a la lámpara
+* **El 2do: Vamos a hacer con 1 interruptor todavía.**
+
+
+
+
+
+
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXihLo4TobCR5vUbqEEDnpQtvDfrVOfcdaAUmCZDj2bzuR1An3w5nGMRUD8uVtTr0hWFrf4JucZ-HpSlad-741IFfmxwA6LEE5aaBQqsY99Akhd0AWAyKEVf34mYDrkhn5qbItNZr2i9kkpS-ICnzPe2BNx6G4W1D698Ax9u-k0vNOF5Qd7h9TI7NX1so/s4160/IMG_20250507_191210299.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifWu_YUb-VILvRaRpIQ01DH4vZkVNWrX9zXcNSgdyDWY9l8FAk1BHwlj0sHlIiZ5Qy4gi6bygGuThwNXmUzTNu6gptYP56tPlgsCSx9wk37QtIuOZXdduVKNcy03QJ-sKMX6pEgXMysP5VlnaKduFpSMvXv5ayI4w4JnsuoUUJUrpH5-nSfkKvdcUF3qY/s4160/IMG_20250507_191211516.jpg)
@@ -156,7 +185,7 @@ Profesor: En el plano va a aparecer una línea, pero este es un plano y ahí aho
         
 No sé si me entendieron. Esto lo que va a haber en el plano eléctrico, y esto es lo que realmente está yo acá no le voy a poner el número de la sección de conductor ni nada por el estilo ni cambiar, ustedes tienen que saber esto supuestamente si está bien hecho ahora le voy a hacer.        
         
-###### Hasta acá el esquema eléctrico del TP1. Ahora vamos a hacer el esquema del montaje (ACÁ AGREGAR FOTO DEL TP1)        
+###### Hasta acá el esquema eléctrico del TP1. Ahora vamos a hacer el esquema del montaje 
 El esquema de montaje es algo parecido a lo que ustedes tienen con el tema del bastidor. Esto es un esquema de montaje ya sea como armamos esto en la escala interior lo que sea pero **el tema de montaje va a tener las mismas condiciones que esto, lo único que tiene que tener en este caso por ejemplo voy a tener un lugar en donde está la caja de paso**. De acá tomo la alimentación va un conector acá va otro conector y después vemos que hacemos cañería, cañería, la caja octogonal en este caso... Que mal que estoy dibujando.        
 Ayudante: Concuerdo.        
 Profesor: Y ahí agrupo abajo eso: cañería, conector, conector, conector, conector y acá aparece la caja rectangular 5x10. Estoy tomando solo un lado, **solo instalación una parte del ejercicio va a estar ahí pero si esto fuera un esquema de montaje ya tengo el nivel del piso, esto es nivel 0 nivel de piso**. Y ahi ya tengo, ¿qué aplico ahí? Vamos a hacer despacito con **respecto al nivel del piso vamos a tomar 1,20 de acá a acá si esto fuera empotrado a la pared vamos a suponer que es empotrado a la pared, esto sería alrededor de 1,90 ¿donde encuentro esto? En el baño o en la cocina o en el lavadero empotrado en la pared no arriba**, si esto estuviera arriba, esto ya no sería 1,90 sino directamente tendría otra característica si estuviera colocado a la altura del cieloraso esa altura sería alrededor de 2,60 metros una casa normal.        
