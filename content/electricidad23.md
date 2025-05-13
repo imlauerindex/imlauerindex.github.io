@@ -3,6 +3,7 @@ title: "Electricidad / Clase 23: Armamos tablero con 1 lámpara y 1 interruptor.
 date: 2025-05-13T05:21:44-03:00
 tags: [electricidad]
 ---
+
 ###### Audio en Vocaroo:
 https://vocaroo.com/1kU19ki9zqAq    
 ###### Audio en Archive.org:
