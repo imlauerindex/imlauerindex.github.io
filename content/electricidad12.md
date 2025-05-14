@@ -81,8 +81,29 @@ Eso viene ustedes piden gabinete de caño lo que sea, esto de PVC también ahora
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKMBpB6_W705WQlOtlY8CakcgR5u86hqtxYLoDSmcZZ_NR1HND4KvxoxeLo8S1FZADsGDE7KoLKj7qfUajaksp02NcpyJjphq8CYDcaRxXQttfaxd1P2zNe_mF_LmSsjmkRUVqIL-CojOwqZBvKSnVHt691KcEpoHNz3FLScIKx568tQOVzlBa2mS5Nz4/s4160/IMG_20250414_185021883_HDR.jpg)
 
-TODO DE PVC, o sea que ya... Si a mi vamos a suponer que **yo necesito colocar este tablero de PVC si es una instalación monofásica en vez de pedir la caja más chica pido por lo menos para 4 módulos**
+TODO DE PVC, o sea que ya... Si a mi vamos a suponer que **yo necesito colocar este tablero de PVC si es una instalación monofásica en vez de pedir la caja más chica pido por lo menos para 4 módulos porque sino le van a dar una cosita chiquitita así, la idea es tener mayor superficie para poder trabajar aunque sea si acá salgo directamente y voy en forma subterránea tengo que tener espacio porque sino no va a entrar bien el conductor subterráneo**.
+Alumno: Parece que ahora son 2 caños, 2 de 1 pulgada. 2 caños de material sintético rígido según IRAM interconexión de cajas.
+Profesor: Eeh... El que estamos viendo es este acá.
+
+Sigo. Ese cuando yo tenga la **posibilidad porque nosotros empezamos desde el medidor ahí tengo el medidor viene la alimentación los 4 borners y ahí pasa atrás. Si este mismo caño tiene entrada y salida porque acá entra el conductor acá y después sale y puede salir aéreo entonces ahí necesito otro caño, pero no es hasta acá sino directamente hasta este, o sea el caño que está ahí anteriormente vamos a suponer que este en el medio acá viene de arriba va al medidor va al tablero general que está acá, y del tablero general viene sube otra vez y sale por el mismo caño para no ocupar 2 caños, entonces sale directamente y ese va a la alimentación de la casa al tablero seccional.**
+Ayudante(Alejandro Ramirez): La idea es que no vuelva por la misma caja y que suba por un caño independiente que se conecta...
+Profesor(Espeche): La misma caja. Ellos te ponen por las dudas ya el revoque entonces va por arriba porque si o si va por arriba o sino directamente la otra es que venga subterráneo ahí ponés 1 sola vez, pero ese es para eso. **Esos dos caños que te dan es para que vos tengas la posibilidad de otra vez subir para arriba**.
+
+\* Llega alumno: Buenas.
+Profesor: Buenas noches.
+
+Entonces para que tengan en cuenta: **la altura es igual que lo que tenía anteriormente con gabinete metálico el sistema es el mismo entra un caño directamente este caso garbanizado va a la alimentación al medidor y de acá va al tablero general, ese tablero general o tablero seccional y ahi entra y va directamente el conductor directamente al tablero seccional ahí, por eso tiene 2 caños**. O sea ese entra ahí pero por las dudas es 1, pero si yo hago en forma subterránea directamente pongo 1 y voy directamente conductor subterráneo al tablero seccional que está dentro de la vivienda.
+
+Lo siento mucho pero cada vez que pido el proyecto está ocupado, tenemos solo 1, el otro ya robaron, así que algún día voy a tener la suerte y compro uno.
+Torres: Ahí entre paréntesis dice interconexión de cajas?
+Profesor: Interconexión de cajas, sí. Estás conectando esta caja que está acá con la otra caja que va hasta acá. La medida la dan ellos 40x40 no sé que...
+Ayudante: El pilar.
+Profesor: Fijate la distancia que dice ahí, 45, ese es del frente y otro de costado pero más o menos es un cuadrado eso. No, les digo porque **la empresa que estaba haciendo el trabajo de medidor habló con la gente de EMSA y le dijo que ponga PVC** o sino ¿?(Minuto 24:59) otro quilombo.
+Ayudante: Y estudiar no le gustaba?
+Profesor: Y no porque si...
+Ayudante: No le gustaba.
+Profesor: No pero si empiezan a exigir desde ahora, la idea es que esto cuando... Todas cosas nuevas requiere un periodo de adaptación. La gente tiene que aprender a usar y primero hay gente que todavía tiene este tipo de gabinete compró ya y que va a hacer? Entonces ellos tienen que preveer que esto demora un tiempo no vamos a hacer todo nuevo ya, pero ellos no te quieren bajar la luz si no aplican ese nuevo que está ahí.
 
 ---
 
-Minuto 19:56
+Minuto 23:30
