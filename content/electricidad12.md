@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 12: Uniones caño caja. Cupla. Curvado caños. Colocación."
+title: "Electricidad / Clase 12: Uniones caño caja. Cupla. Curvado caños. Colocación. Planos de pilar EMSA."
 date: 2025-04-15T07:27:54-03:00
 tags: [electricidad]
 ---
@@ -9,6 +9,8 @@ https://vocaroo.com/1dx7HunJiApZ
 https://archive.org/details/record-82
 ###### Audio en YouTube:
 https://www.youtube.com/embed/VDcXUfq6rvs
+
+https://www.energiademisiones.com.ar/planos-del-pilar/
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpAjSN0mu_UmD369sYu-q82f89D-v_P5WqaXnaxfnucFnGZpnRplJBmgBEbGa3o-IPBih-6TEj-eu8x6qmQZQR3cEUmDsIvs_vumJhywK3h7nGfmYnsVNtlXP7mh5ZrSKB0Ebhai16gIn4B0wpKoOc6QTcXhKz61Q2ulU7VBihT3smlaB_o_sWMOFC2mo/s4160/IMG_20250414_203006264.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKMBpB6_W705WQlOtlY8CakcgR5u86hqtxYLoDSmcZZ_NR1HND4KvxoxeLo8S1FZADsGDE7KoLKj7qfUajaksp02NcpyJjphq8CYDcaRxXQttfaxd1P2zNe_mF_LmSsjmkRUVqIL-CojOwqZBvKSnVHt691KcEpoHNz3FLScIKx568tQOVzlBa2mS5Nz4/s4160/IMG_20250414_185021883_HDR.jpg)
@@ -99,11 +101,41 @@ Torres: Ahí entre paréntesis dice interconexión de cajas?
 Profesor: Interconexión de cajas, sí. Estás conectando esta caja que está acá con la otra caja que va hasta acá. La medida la dan ellos 40x40 no sé que...
 Ayudante: El pilar.
 Profesor: Fijate la distancia que dice ahí, 45, ese es de frente y otro de costado pero más o menos es un cuadrado eso. No, les digo porque **la empresa que estaba haciendo el trabajo de medidor habló con la gente de EMSA y le dijo que ponga PVC** o sino ¿?(Minuto 24:59) otro quilombo.
-Ayudante: Y estudiar no le gustaba?
+Ayudante: Y estudiar no le gusta nada?
 Profesor: Y no porque si...
-Ayudante: No le gustaba.
-Profesor: No pero si empiezan a exigir desde ahora, la idea es que esto cuando... Todas cosas nuevas requiere un periodo de adaptación. La gente tiene que aprender a usar y primero hay gente que todavía tiene este tipo de gabinete compró ya y que va a hacer? Entonces ellos tienen que preveer que esto demora un tiempo no vamos a hacer todo nuevo ya, pero ellos no te quieren bajar la luz si no aplican ese nuevo que está ahí.
+Ayudante: Diga la verdad. No le gusta nada.
+Profesor: No, pero si empiezan a exigir desde ahora, la idea es que esto cuando vos... Todas cosas nuevas requiere un periodo de adaptación. La gente tiene que aprender a usar y primero hay gente que todavía tiene este tipo de gabinete compró ya y que va a hacer? Entonces ellos tienen que preveer que esto demora un tiempo no vamos a hacer todo nuevo ya, pero ellos no te quieren bajar la luz si no aplican ese nuevo que está ahí el PVC. 
+Miré catálogo de GENROD y tiene lindas cosas o sea que es cuestión de adaptarse no hay otra pero teniendo materiales buenos y teniendo materiales e información no hay problema. Eso que dice ahí, lee un cachito que no leo bien.
+Sebastían: **La acometida deberá tener una flecha de 30 cm.**
+Profesor: Claro, como máximo o sea lo que ellos quieren decir es que si yo tengo un conductor ese conductor esto sería recto pero si es una flecha es esto. **Entonces como máximo 30 cm**.
+Le está diciendo porque hay gente que acá va un **anclaje y allá arriba tiene que ir otro anclaje o un morceto depende que característica tenga pero si es un poste directamente tiene un PK20 lo que sea para poder anclar eso entonces que hace? Ese soporte pone más tenso el conductor sino le va a quedar todo colgado eso es lo que no quiero**.
+
+###### Para pasar de milímetros a centímetros sacale un 0.
+Torres: Profe una última cosita. **Dice la caja para medidor, dice dimensiones 180 mm por ancho y por alto 260 mm serían 26 cm?** O sea a ese? 
+Profesor: No a este no. El de tablero seccional
+Torres: Caja para medidor monofásico dice.
+Profesor: Decime cuánto era.
+Torres: Dice ancho 180 mm por alto 260 mm.
+Profesor: **Bueno, 260 es esto. Los 60 de acá es lo mismo que la caja de atrás para afuera y el otro ya viene especificado que hay que comprar para gabinete para medidor monofásico y te dan esa medida y si le decís GENROD te va a dar eso porque ellos ponen de acuerdo con la matriz que es la tienen**
+Torres: Claro no porque ...
+Profesor: No no, este es trifásico. Es más grande y todo así que ese también es trifásico, lo que pude afanar no más son trifásico así que monofásico todavía...
+
+**Estos son pinzas de anclaje depende de que tipo de conductor va se pone el conductor y esto hace presión y a medida que uno tensa se ajusta más esto va con un soporte acá y si tiene poste va otro soporte acá sino se usa el morceto entonces uno regula el ajuste por eso le pide ya que ese 30 cm que produce la flecha es lo máximo recomendable**.
+
+Eso cuando estamos **trabajando exclusivamente con potencia hasta 5 kW o 5,5 kilowatts** eso que ustedes ven ahí que dice ahí, ahí que te dice ahí arriba (de la fotocopia) ?
+Sebastían: 5 kilowatts.
+Profesor: Bueno, después va aumentando, así que ya empieza después a aparecer un sistema trifásico también con la misma característica o sea que... Como me falta la computadora.
+
+No, cualquier cosa ustedes entran en **EMSA y creo que la 2da parte en donde dice reclamos, ahí en la parte de abajo dice especifíca pilares monofásico característica tanto**. A ver si tengo acá algo para que ustedes vayan viendo, entonces ustedes cualquier cosa se olvidan pueden entrar tranquilamente a ese lugar no es no porque uno sea técnico lo que sea pero es para todos. A ver si puedo pasarle.
+https://www.energiademisiones.com.ar/planos-del-pilar/ (Este será)
+Alumno(Leonardo): Pero igual acá en la nota dice al costado que se entre períodicamente porque ellos...
+Profesor(Espeche): Ellos van cambiando, cuando empiecen a no encontrar materiales, ahí van a ver lo que es bueno dijo, pero bueno a ver si yo tengo acá para que ustedes más o menos tengan idea. Ahí está le voy a pasar ya. Esto está en entran en EMSA y encuentran, pero igual yo le paso ya así si no tienen paciencia ya encuentran **todo lo que está que dice plano de pilar está la simbología de EMSA ahí encuentran**
+Alumna(Botolli): En el menú en servicios.
+Profesor(Espeche): En servicios, exactamente. Pero igual ya le dí justo el lugar y tienen todos los tipos de plano pilar para poder... Tiene que aparecer ahí. 
+Sebastían: El anteúltimo.
+Profesor: Entonces entran y... Estamos entonces? Es importante que tengan eso. Andá mostrarle ahí a los chicos, allá el señor allá, **es lo mismo que sacamos copia ahí**.
+
 
 ---
 
-Minuto 23:30
+Minuto 28:51
