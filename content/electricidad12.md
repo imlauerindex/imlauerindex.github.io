@@ -98,7 +98,7 @@ Lo siento mucho pero cada vez que pido el proyecto está ocupado, tenemos solo 1
 Torres: Ahí entre paréntesis dice interconexión de cajas?
 Profesor: Interconexión de cajas, sí. Estás conectando esta caja que está acá con la otra caja que va hasta acá. La medida la dan ellos 40x40 no sé que...
 Ayudante: El pilar.
-Profesor: Fijate la distancia que dice ahí, 45, ese es del frente y otro de costado pero más o menos es un cuadrado eso. No, les digo porque **la empresa que estaba haciendo el trabajo de medidor habló con la gente de EMSA y le dijo que ponga PVC** o sino ¿?(Minuto 24:59) otro quilombo.
+Profesor: Fijate la distancia que dice ahí, 45, ese es de frente y otro de costado pero más o menos es un cuadrado eso. No, les digo porque **la empresa que estaba haciendo el trabajo de medidor habló con la gente de EMSA y le dijo que ponga PVC** o sino ¿?(Minuto 24:59) otro quilombo.
 Ayudante: Y estudiar no le gustaba?
 Profesor: Y no porque si...
 Ayudante: No le gustaba.

@@ -23,6 +23,7 @@ https://www.youtube.com/watch?v=RjSsyycAPkk
 ###### Conexión en paralelo:
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf2ustbBbS50jvffIPk0kJrmY8Cl60TcuV-E8hlOqPmqB1XExkzHIsh2vZothRWwRPOc1PlFUa7mnwUVVaFXm5p_hymc3ywTxdr-VqxHMEeXFbSXOUnK1aqFyWtxP-anLruzUH6gvSvBxVmPp6HuCwFm31Wl_6tllcAS8iI-1uuRWZDqe_eW1yabIXEcU/s4160/IMG_20250505_193501682.jpg)
 ###### Conexión en serie: 
+El retorno va a la lámpara, el neutro de la lámpara va a la fase de la otra lámpara y el neutro de esa lámpara va a la fase de la otra lámpara, y así hasta la última lámpara en donde el neutro sale afuera.
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Zce9ZsIhn35EhT2mxAuaL5RHgA9g4hWjWbsjRGnmUWwdwYFxaWU5Yrno9ym4bCE7e92y261FAlLkLNnqEjwAtYuaUJ81mS4tFQY0yIwUKmZnXWcoqFsQnwFqIUMbKs0fQ9wb4xk37DH8vf9Qe4NK7ObsC1uUB5DcogZn8MDrNOHdX79dDKVZvn7TFEE/s311/unnamed.png)
 https://cursosdeelectricidad.blogspot.com/2008/06/tema-14-conexin-de-2-o-ms-lmparas-en.html
 
