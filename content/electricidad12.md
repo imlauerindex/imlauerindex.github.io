@@ -451,10 +451,25 @@ Ayudante: Saca de la línea.
 Sebastián Melgajero: Y dejan poner otro medidor al lado como para que sea totalmente independiente en la misma casa.
 Profesor: Se puede hacer no hay problema hasta 3 conductores independientes siempre y cuando vos tenes que pagar la conexión de esta de aquella y aquella o sea tenes 3 conductores o 3 medidores diferentes y 3 conductores diferentes hasta allá, se puede.
 Barrientos(Vendedor): EMSA sí, SAMSA es el que no te deja, es solo 1 medidor por terreno.
-Profesor: Ajá, se hace así pero bueno es así. Pero por eso si vos podes hasta 6 departamentos, más de 3 ya podes poner un gabinete para 3 o 4 medidores ¿? (Hora 01:41) o 6 lo que sea, entonces ahí va directamente acá actúa como cada departamento la casa que vos tenes en el celular así que... Lo que a veces es problemático es cuando se tiene una casa primero se hace todo el medidor y después con el tiempo se amplía y se pone otra casas atrás a veces el trayecto de acá hasta allá cuesta. En el sentido de que hay que ver bien como es la alimentación si hago en forma subterránea o en forma aérea, ver que a veces son ¿? distintos entonces tengo que ver de donde paso mi alimentación para no acomplejar a la casa a veces hay que pensar un poquito pero todo se puede hacer. 
+Profesor: Ajá, se hace así pero bueno es así. Pero por eso si vos podes hasta 6 departamentos, más de 3 ya podes poner un gabinete para 3 o 4 medidores ¿? (Hora 01:41) o 6 lo que sea, entonces ahí va directamente acá actúa como cada departamento la casa que vos tenes en el celular así que... Lo que a veces es problemático es cuando se tiene una casa primero se hace todo el medidor y después con el tiempo se amplía y se pone otra casas atrás a veces el trayecto de acá hasta allá cuesta. En el sentido de que hay que ver bien como es la alimentación si hago en forma subterránea o en forma aérea, ver que a veces son ¿? distintos entonces tengo que ver de donde paso mi alimentación para no acomplejar a la casa anterior a veces hay que pensar un poquito pero todo se puede hacer. **Como siempre le digo en una obra yo no voy a ir y tratar de hacer ya todo sino que tengo que ir pensando como puedo hacer para llegar allá sin perjudicar la casa anterior o hago por el otro lado o por el muro perimetral, todo eso se tiene que ir pensando no puedo pasar en este caso llevar un preensamblado acá y justo paso por la casa del otro y pasa por el techo**.
+
+###### He visto ahora está protegido el conductor preensamblado pero hay veces que pasa por arriba del techo del otro y meten allá no más a veces queda colgado ahí arriba del techo.
+Lo ideal es que esté un tendido sea independiente y no perjudique a ninguna instalación, yo he visto en la escuela también que se hizo una ampliación acá y pasaron la alimentación arriba del sector que ya estaba hecho.
+###### Barrientos(Vendedor): Nosotros teníamos un local en alquiler y el tipo estaba debiendo entonces cortamos la luz y como tenía buena relación con el vecino de al lado le pasó un cable, y bueno llamamos a EMSA no sé si le habrá multado pero seguro.
+Ayudante: Si eso tiene una multa, una multa que no creo que nadie quiera pagar, así que no les aconsejo eso.
+Profesor: El vecino es muy difícil, a veces ocurre la necesidad urgente de que cortan la luz o tiene problema en la línea y vos necesitás como conservar por lo menos los alimentos que tenes en la heladera y el tipo de buena fé te pasa una prolongación y lo primero que se hace es enchufar uno de los tomacorrientes.
+Sebastían Melgajero: Macho a  macho.
+Profesor: Y sí, y tiene energía por lo menos un sector entonces es factible pero no es para toda la vida. Así como esto, a él ya le cortaron la luz y ya el otro ya...
+**Ruben Leiva: Algunos tienen el generador cortan la luz bajan la térmica y prende el generador y enchufan a un tomacorriente y alimentan toda la casa siempre y cuando la llave esté abajo funciona**.
+Profesor: Puede ser, pero 1 línea no más. Depende de donde vos hagas.
+Ruben Leiva: No no yo ví pero no en mi casa
+Profesor: No por eso, no podes hacer.
+Ayudante: No en la casa de tu suegra.
+Alumno(Torres): Y los paneles solares funcionan?
+Profesor: Los paneles solares jeje, eso vamos a nombrar perimetral pero todo funciona el tema es que para que ustedes entiendan nosotros tenemos corriente alterna 
 
 
 
 ---
 
-Minuto 01:41
+Minuto 01:44
