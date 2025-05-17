@@ -109,16 +109,18 @@ sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
 ```
 
 ```bash
-pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks qtbittorrent v4l-utils unrar unzip qbittorrent kdenlive extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric texlive-fontsextra extra/texlive-fontsrecommended evince extra/texlive-langspanish cacafire dolphin kio-gdrive
+pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks qtbittorrent v4l-utils unrar unzip qbittorrent kdenlive extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric texlive-fontsextra extra/texlive-fontsrecommended evince extra/texlive-langspanish cacafire dolphin kio-gdrive wget
 ```
 
 #### Virtualización
 ```bash
-sudo pacman -S virt-manager qemu libvirt bridge-utils
+sudo pacman -S virt-manager qemu libvirt bridge-utils dnsmasq virt-viewer vde2 openbsd-netcat
+sudo pacman --needed -S ebtables iptables
+sudo pacman -S libguestfs
 sudo systemctl start libvirtd
 sudo usermod -aG libvirt tu_user
-sudo usermod -aG kvm tu_user
 ```
+Y tenés que cambiar la cantidad de procesadores a 1 sino te tira **kernel panic**.
 
 Para instalar smtube tendrás que usar el AUR. **Aclaración sobre el AUR:** podés usar YAY o otros pero lo ideal es que instales los paquetes del AUR **manualmente**: https://averagelinuxuser.com/install-aur-manually-helpers/
 

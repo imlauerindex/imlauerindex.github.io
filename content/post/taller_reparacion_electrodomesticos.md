@@ -276,5 +276,4 @@ el chip que trabaja en energia continua.
 
 Fotocelda mecánica es mejor que fotocelda electrónica
 
-
 https://redirect.invidious.io/playlist?list=PLuzS0jdNRVvoyXZYCFMJuHj7OhStWKeK1
