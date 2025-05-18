@@ -393,7 +393,7 @@ Agregar foto de ejercicio 4.
     
 Torres: Me duele la cabeza.    
 Profesor: Yo le voy a pegar acá, me dice me duele la cabeza.    
-Ayudante: Dentro de un ratito te va a dolar en serio.    
+Ayudante: Dentro de un ratito te va a doler en serio.    
 Profesor: No, el tema es fácil no hay problema, cuando vos empieces a hacer el ejercicio te vas a dar cuenta acá es todo esquema y el esquema eléctrico. Todavía son auxiliares pero el día de montador ustedes van a hacer cualquier esquema ahí y van a tener que ir armando el circuito, yo ahora tengo la paciencia de armarle.    
 Torres: La paciencia.    
 Botolli: Mirá que si no tiene la paciencia.    
