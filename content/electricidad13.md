@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 13"
+title: "Electricidad / Clase 13. Catálogo INET cursos formación profesional."
 date: 2025-04-15T22:15:25-03:00
 tags: [electricidad]
 ---
@@ -95,12 +95,42 @@ Leiva: Vos publicabas que alquilabas los andamios los trompitos.
 Barrientos: Si, casi todo en Facebook Market y después ya tengo unos clientes casi todos son ahora en verano casi todos son pileteros, los que hacen piletas.
 Leiva: Me gusta el andamio je
 ###### Todos los problemas de alquilar andamio: transporte y colocación.
-Barrientos: Y el andamio ahora subieron los precios y yo me quedé pero yo cobraba caro porque es todo un tema terminas hecho mierda sucio tenes que llevar traer. Me dicen me traes 4 cuerpos de Itaembé Guazú tenes que cargar los 4 cuerpos yo solo, encima pesado yo tengo todos esos horrendos esos viejos que son hierro puro y ahí llevar descargar después para buscar, terminás cansado y todo sucio (los andamios). Entonces siempre cobraba caro alquilaba poco y ahora se ve que, **hoy le alquilé a un vago 1 día y nadie le quería 1 día, todos quieren alquilar mínimo 3 o 1 semana** y hoy le alquilé a un tipo que era solo para cambiar una canaleta para instalar una canaleta de chapa de desague, y me dijo: "NO vos estás cobrando barato me dice porque era 8 mil", igual así normal no es que estoy a full.
+Barrientos: Y el andamio ahora subieron los precios y yo me quedé pero yo cobraba caro porque es todo un tema terminas hecho mierda sucio tenes que llevar traer. Me dicen me traes 4 cuerpos de Itaembé Guazú tenes que cargar los 4 cuerpos yo solo, encima pesado yo tengo todos esos horrendos esos viejos que son hierro puro y ahí llevar descargar después para buscar, terminás cansado y todo sucio (los andamios). Entonces siempre cobraba caro alquilaba poco y ahora se ve que, **hoy le alquilé a un vago 1 día y nadie le quería 1 día, todos quieren alquilar mínimo 3 o 1 semana** y hoy le alquilé a un tipo que era solo para cambiar una canaleta para instalar una canaleta de chapa de desague, y me dijo: "NO vos estás cobrando barato me dice porque era 8 mil", igual así normal no es que estoy a full. El año pasado me inscribí a uno de mecánica ahí en la **comercio 18** abajo está muy bueno también.
+Sebastián: General? 
+Barrientos: Sí, primero arranca con naftero y después diesel y después tiene otra parte de inyección, otra parte de electromecánico, otro mecánica de motos, pero a mi me queda cerca acá, pero el otro es muy lejos y arranqué bien hasta mayo y ahí empezó el frío, lluvia y ahí empecé a faltar a faltar, y no fui más pero está bueno.
+Leti Bottoli: Donde es la comercio 18?
+Barrientos: Rademacher casi tierra del fuego ¿? (Ruido) Minuto 13:33
+Leti Bottoli: Se complica (es lejos).
+Barrientos: Encima todos los días, no es como acá. Todos los días de 7 a 10.
+Sebastián: Acá en la Industrial hay mecánica de motos.
+Barrientos: Sí también sí, yo le pregunté a los vagos por electricidad me mandaron un mensaje y me dijieron que no había más cupos y me dijo que si que aumentaba tal fecha y 15 mil por mes en la Industrial.
+Sebastián: Acá en la Industrial? 
+Barrientos: Sí
+Sebastián: Igual no es tan...
+Leti Botolli: Qué es mecánica o electromecánica?
+Barrientos: No no, electricidad. Todos los cursos medio lo mismo, este es auxiliar eeh.... No recuerdo el nombre.
+Sebastián: Este?
+Barrientos: No el de la EPET. Era tiene un nombre en realidad pero era más se parece como no electromecánica decía como más de inyección algo así. El otro si era, pero re bien pero porque los vagos llevaban de todo, llevaban los autos, vos tenes tu auto llevas y desarmas. 
+Leiva: El tema es el frío la lluvia. 3 meses y ya sos auxiliar hasta noviembre es montador.
+Barrientos: Pero terminabas todo sucio, aceite. 
+Leiva: Pero tenes que aguantar el frío la lluvia, yo hasta Candelaria encima.
+Barrientos: Claro ese es el tema. Lo que pasa es que a vos te conviene acá por el tema del Leli(Tarjeta) pero vos tenes un montón de centros de formación.
+Leiva: Claro más cerca sí.
+Leti Botolli: Sí, pero la tarjetita es importante.
+Barrientos: Sí, pero me parece que allá te daban también. Y acá también los de la EPET también te dan también, yo tengo un amigo que hizo el curso de electricidad hace años unos no es el barrio santos, el barrio Yacyreta que ahí le dieron.
+**Sebastián: Yo encontré este por la página del INET, uno pone INET y formación profesional te aparece un formulario que pones el ET no más misiones departamento capital posadas ahí te tira todos los centros estatales privados y este decía auxiliar electricista domiciliario y desemboca en montador**.
 
-###### TLDR hasta acá: Barrientos vende y alquila herramientas: andamio y trompito, refrigeración: bomba de vacío y pestañadora, herramientas para soldar, hacer pozos, llegó a tener ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más: según el mangueras: manguera de riego, manguera para compresor de aire, las gomerías, pistola para pintar, puertas plegadizas. Está dentro de un grupo de ferretería de Paraguay que se llama Ferretería Julio, antes te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a gruporá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más. El vibrador de hormigón solo lo alquiló 1 vez en 2 años. Y publica CASI todo en Facebook Market juntos con los clientes que ya tiene y hablando con los alumnos del curso. Ahora en verano casi todos son pileteros. Hoy le alquiló el andamio a uno por 1 día que lo usó para instalar una canaleta de desague. Antes de eso durante 20 años arregló celulares.
+https://catalogo-inet.educacion.gob.ar/titulos-formacion-profesional
+
+
+
+
+###### TLDR hasta acá: Barrientos vende y alquila herramientas: andamio y trompito, refrigeración: bomba de vacío y pestañadora, herramientas para soldar, hacer pozos, llegó a tener ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más: según el mangueras: manguera de riego, manguera para compresor de aire, las gomerías, pistola para pintar, puertas plegadizas. Está dentro de un grupo de ferretería de Paraguay que se llama Ferretería Julio, antes te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a ñu porá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más. El vibrador de hormigón solo lo alquiló 1 vez en 2 años. Y publica CASI todo en Facebook Market juntos con los clientes que ya tiene y hablando con los alumnos del curso. Ahora en verano casi todos son pileteros. Hoy le alquiló el andamio a uno por 1 día que lo usó para instalar una canaleta de desague. Antes de eso durante 20 años arregló celulares. Estudio mecánica en la comercio 18.
 
 
 Profesor: 
 
 
+---
 
+Minuto 16:11
