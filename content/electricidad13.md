@@ -89,7 +89,7 @@ Leiva: Siiii.
 Barrientos: En 2 años alquilé 1 vez. No lo usan los vagos a los martillazos nada más, le golpean a la madera, y ese(vibrador de hormigón) vos le pones así y te queda parece una crema impresionante te queda perfecto el hormigón **y no quieren usar** en 2 años alquilé 1 vez, estaba pensando en venderlo no más.
 
 
-##### TLDR: Barrientos vende algunas cosas, llegó a tener ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más, antes hasta te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a gruporá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más.     
+###### TLDR: Barrientos vende y alquila herramientas: refrigeración: bomba de vacío y pestañadora, herramientas para soldar, hacer pozos, llegó a tener ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más: según el mangueras: manguera de riego, manguera para compresor de aire, las gomerías, pistola para pintar, puertas plegadizas. Está dentro de un grupo de ferretería de Paraguay que se llama Ferretería Julio, antes te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a gruporá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más.     
 
 
 Profesor: 
