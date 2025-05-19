@@ -164,7 +164,11 @@ Pero más o menos entienden que hay 4, 2 entradas y 2 salidas. De las 2 entradas
 ###### Los transformadores TI se usan para medir el amperage     
 Pueden haber conductores más grandes y este equipo en algunos casos no sirve porque el conductor es más grande no voy a poder meter ahí, **lo que se hace para potencias grandes sección de conductor más grande entonces lo que se coloca para poder medir en el medidor unos TI se llaman tipo unos transformadores** que se ponen dentro en el percutor están midiendo, después les voy a mostrar cuando aparece unas barra de alimentación llega a las barras pero hay un transformador que me indica **que cantidad de consumo va a tener ese medidor pero a través de un transformador** o sea que no entra toda la carga ahí, eso generalmente se utiliza en grandes potencias pero es para que vayan viendo que es lo que uno pretende.      
      
-     
+Hablan de marcadores.
+
+Esto le va a aparecer a ustedes ahí está en el WhatsApp es muy interesante porque esto es una síntesis para gente que más o menos proyecta y es parte de la **guía de la AEA (Instalación eléctrica en Inmuebles) hasta 10 KiloWatts** pero acá si ustedes ven parte del reglamento aparecen distintas superficies gráficas de electrificación de vivienda algunas simbologías y es importante a veces como proyecta un arquitecto: donde van las bocas, donde van los tomas, le va mostrando fotos en donde directamente uno puede tratar también le bosqueja a través de simbología fíjense como es la planta o lo símbolos que uno tiene para que vean como se proyecta. **Nosotros siempre vamos a ver un plano a planta que sería solo el pedacito el cuadrado**, pero
+
+
      
      
 ---

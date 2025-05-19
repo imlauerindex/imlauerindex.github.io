@@ -19,7 +19,7 @@ author = "Imlauer."
 email = "imlauerandres[at]gmail.com"
 picture = "/img/memememe.jpg"
 #repoLink = "https://github.com/orf/bare-hugo-theme"
-description = 'imlauerandres [at] gmail.com | bitcoin: bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3'
+description = 'imlauerandres [at] gmail.com'
 #description = 'imlauerandres [at] gmail.com'
 # PostCSS is harder than it should be to get working on a theme
 # example site. It's easy on _your_ site.
