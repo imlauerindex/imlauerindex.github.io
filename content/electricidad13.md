@@ -27,146 +27,146 @@ https://archive.org/details/aea-770
 
 #### Transcripción
 
-Sebastián: Que pasa si entra uno nuevo y no rinde y afuera?
-Raul Leiva: No.
-Sebastián: Entran casi siempre gente que sabe?
-Raul Leiva: No, en ese caso cuando hay una primera baja una vez llegué cuando estaba uno eran 20 ahí me cansaba amurar. En Itaembé Guazú laburé 10 años cuando empezó con todo ese movimiento yo estaba en guau una empresa constructora y ahí mi amigo me invitó laburé allá y ahí todo va por la tierra: la luz, todo todo. Como se hace.
-Sebastián: Re bien.
-Raul Leiva: Sí, y ahí como estaban diciendo ese día el cablerio todo por debajo de la tierra, el cable LILA que tenía ayer el grueso, todo eso.
-Yo: El subterráneo.
-Barrientos(Vendedor): Vos trabajas en una empresa?
-Raul Leiva: Sí
-Barrientos(Vendedor): Y esto después vos presentas te sirve el curso?
-Raul Leiva: Sí, me sirve porque va directamente a mi tarjeta girí, en mi tarjeta jiri ya está cargado que yo soy un oficial albañil pero a eso ahora me van a cargar si completo este curso, aparte de auxiliar albañil, auxiliar electricista esto te sirve porque vos presentas a la empresa y dicen ah mira este sabe algo de electricidad, vamos a agarrarle. Con ese título no vas a entrar directamente a ser electricista en una empresa porque ya tienen gente. Uno va escalando y después hace todo lo que es electricidad, tengo un amigo que el trabaja Itaembé Guazú y estudiaba en la UOCRA no sé si era acá electricidad, recibió el título después le dijo al...
-Barrientos(Vendedor): ¿? (Minuto 02:50) estaba por Lopez y Planes
-Raul Leiva: Creo que sí, y ahí después le dijieron bueno acá tenes electricidad empezó a hacer lo que es la canalización todo y después en las obras ya él solo electricidad tiene, limpito ni se ensuciaba solo hacía la parte de electricidad y era uno de la manada.
-Yo: Ah pero hizo el curso?
-Raul Leiva: Hizo el curso sí. Y le sirvió un montón.
-Sebastián: Y hacía bien?
-Raul Leiva: Sí, como dice el profesor eso ya después vas agarrando confianza con distintos laburos que haces.
-Yo: Y era auxiliar o montador?
-Raul Leiva: Creo que no llegó a montador.
-Sebastián: Acá hay un curso de albañil también.
-Raul Leiva: Acá si.
-Sebastián: Y también te cargan a la tarjeta.
-Raul Leiva: También te cargan. El otro día estaba el político este el concejal me parece
-Barrientos(Vendedor): Él es el presidente del consejo.
-Raul Leiva: Claro, él estaba allá afuera ese día.
-Barrientos(Vendedor): Él es el apoderado de la UOCRA.
-Raul Leiva: Sí, fui a sacar fotocopia para el profesor y estaba ahí, ese día se entregaba la tarjeta acá. Y ahí yo le dije yo ya tengo tarjeta como sería en mi caso? Y me dice vos ya no te hacen tarjeta nueva, te cargan en la página y te dan el diploma.
-Barrientos(Vendedor): Cuando estaba ahí por Lopez y Planes hice el de oficial albañil y el antepasado hice el de construcción en seco y un día me llamaron yo estaba haciendo construcción en seco(el curso) así como ahora te llaman del cuartito con globos y era para entregarme un diploma no más, porque después fue la pandemia viste que no hubo. **Yo hice el de plomería primero por Lopez y Planes: Auxiliares en Instalaciones Sanitarias con profesor un arquitecto** y está muy bueno eso pero medio que no le dan bola pero un montón de cosas aprendes y después te das cuenta que en tu casa está hecho todo mal.
-Leiva: Y eso pasa con la electricidad cada día vas aprendiendo y decís en mi casa está un desastre.
-Barrientos(Vendedor): El oficial albañil está muy bueno pero no tiene tanta práctica vos querés creo que hicimos mezcla después hicimos una pared allá hicimos ¿? (Minuto 05:35)
-Leiva: Claro y no es tanto teórico más práctico para mi. (No entendió, Barrientos le decía que era más teórico que práctico).
-Barrientos(Vendedor): Es práctica pero también está muy bueno y el de construcción en seco también, si todos los cursos están buenos.
-Leiva: A mi me gustaría después de esto el año que viene **es refrigeración**.
-Barrientos(Vendedor): Yo hice 10 mil cursos, hice en su época el 1er curso que hice fue el de soldador ahí en la UPM(Universidad Popular de Misiones) estaba allá en el Mercado Central a las 2 de la tarde un calor un aula de chapa y re bien, por lo menos yo no sabía nada, no sabía ni como. Yo siempre hice mucha electrónica mi papá todos se dedicaron a la electrónica, casa de electrónicos. Yo estuve 20 años arreglando celulares, cables todo con 12 voltios no más y bueno eso me sirvió.
-
-\* Llega profesor.
-
-Profesor(Espeche): Che hoy parece que hay fútbol o qué? Algo pasa porque no hay nadie. Ya se cansaron de mí.
-Barrientos(Vendedor): Y ahí hice el de refrigeración también y me tocó un mal profesor viste y ya, si el profesor no es bueno vos no te enganchas con el curso hasta odias la profesión también porque te juro un boludo 15 días nos dictó historia de la refrigeración viste así, nosotros decíamos pero para qué si nosotros tenemos práctica tenemos que desarmar, no no este tiene todo un ...
-Leiva: Un proceso jaja...
-Barrientos: 15 días nos estuvo dictando boludo o sea nos sentábamos así y dictaba 1 hora y media.
-Yo: No, horrible. Algo que podes googlear encima.
-Barrientos(Vendedor): Sí.
-Leiva: Parece la escuela primaria.
-###### No hay mucha diferencia entre refrigeración industrial y heladeras, solo cambia la parte eléctrica según alumno Barrientos.
-Barrientos(Vendedor): Historia de la refrigeración quién inventó todo y armamos grupo estuvo bueno igual era de aires no más y llevé un aire de un compinche le perdieron los caños un quilombo, el último día me consiguieron unos caños porque yo ya le estaba por embocar al profesor encima era de mi edad ponele, y bueno ahí dejé y me anoté en fundación alfa **refrigeración industrial**, ese estuvo pero eramos muchos pero la parte eléctrica la más complicada la parte de refrigeración es todo igual, funciona la cámara frigorífica más grande de los aires acondicionados una heladera es medio lo mismo y después la parte eléctrica cambia.
-
-\* Llega alumna.
-
-###### Barrientos hizo varios cursos y se dió cuenta que nadie tenía las herramientas entonces comenzó a comprar herramientas y alquilar para la construcción, para soldar, para refrigeración, para hacer pozos, de algo me sirvió.
-Barrientos: Hice tantos cursos que el factor común de todo el curso ahí cuando terminaban era que no tenían las herramientas viste entonces ahí yo comencé a comprar herramientas y alquilar para la construcción, para soldar, para refrigeración, para hacer pozos, o sea que de algo me sirvió.
-Sebastián: Re bien.
-Barrientos: Y refrigeración era lo peor porque es lo más caro viste: la bomba, el fol¿?, la pestañadora, fortuna salen.
-Sebastián: Si y para usarlo 1 día está bueno alquilar.
-Barrientos: Y sí y generalmente alquilo la bomba no más, la bomba me piden.
-Yo: Pero la mayoría ni usa la bomba.
-Barrientos: No ni usan, le hacen un barrido no más. Igual yo tengo **vibrador de hormigón** viste que eso es fundamental.
-Leiva: Siiii.
-###### Barrientos alquila herramientas pero solo alquiló 1 vez el vibrador de hormigón.
-Barrientos: En 2 años alquilé 1 vez. No lo usan los vagos a los martillazos nada más, le golpean a la madera, y ese(vibrador de hormigón) vos le pones así y te queda parece una crema impresionante te queda perfecto el hormigón **y no quieren usar** en 2 años alquilé 1 vez, estaba pensando en venderlo no más.
-Leiva: Y sí para un contratista o una obra particular te van alquilar pero una empresa ya tienen lo de ellos viste?
-Barrientos: Sí hay muchos contratistas y **andamio y trompito** eso es todo ahora porque en Marzo fue muy feo.
-Sebastián: No pasó nada?
-Barrientos: De enero febrero estuvo bueno, y marzo paró todo, estaba muy al pedo.
-Leiva: Vos publicabas que alquilabas los andamios los trompitos.
-Barrientos: Si, casi todo en Facebook Market y después ya tengo unos clientes casi todos son ahora en verano casi todos son pileteros, los que hacen piletas.
-Leiva: Me gusta el andamio je
-###### Todos los problemas de alquilar andamio: transporte y colocación.
-Barrientos: Y el andamio ahora subieron los precios y yo me quedé pero yo cobraba caro porque es todo un tema terminas hecho mierda sucio tenes que llevar traer. Me dicen me traes 4 cuerpos de Itaembé Guazú tenes que cargar los 4 cuerpos yo solo, encima pesado yo tengo todos esos horrendos esos viejos que son hierro puro y ahí llevar descargar después para buscar, terminás cansado y todo sucio (los andamios). Entonces siempre cobraba caro alquilaba poco y ahora se ve que, **hoy le alquilé a un vago 1 día y nadie le quería 1 día, todos quieren alquilar mínimo 3 o 1 semana** y hoy le alquilé a un tipo que era solo para cambiar una canaleta para instalar una canaleta de chapa de desague, y me dijo: "NO vos estás cobrando barato me dice porque era 8 mil", igual así normal no es que estoy a full. El año pasado me inscribí a uno de mecánica ahí en la **comercio 18** abajo está muy bueno también.
-Sebastián: General? 
-Barrientos: Sí, primero arranca con naftero y después diesel y después tiene otra parte de inyección, otra parte de electromecánico, otro mecánica de motos, pero a mi me queda cerca acá, pero el otro es muy lejos y arranqué bien hasta mayo y ahí empezó el frío, lluvia y ahí empecé a faltar a faltar, y no fui más pero está bueno.
-Leti Bottoli: Donde es la comercio 18?
-Barrientos: Rademacher casi tierra del fuego ¿? (Ruido) Minuto 13:33
-Leti Bottoli: Se complica (es lejos).
-Barrientos: Encima todos los días, no es como acá. Todos los días de 7 a 10.
-Sebastián: Acá en la Industrial hay mecánica de motos.
-Barrientos: Sí también sí, yo le pregunté a los vagos por electricidad me mandaron un mensaje y me dijieron que no había más cupos y me dijo que si que aumentaba tal fecha y 15 mil por mes en la Industrial.
-Sebastián: Acá en la Industrial? 
-Barrientos: Sí
-Sebastián: Igual no es tan...
-Leti Botolli: Qué es mecánica o electromecánica?
-Barrientos: No no, electricidad. Todos los cursos medio lo mismo, este es auxiliar eeh.... No recuerdo el nombre.
-Sebastián: Este?
-Barrientos: No el de la EPET. Era tiene un nombre en realidad pero era más se parece como no electromecánica decía como más de inyección algo así. El otro si era, pero re bien pero porque los vagos llevaban de todo, llevaban los autos, vos tenes tu auto llevas y desarmas. 
-Leiva: El tema es el frío la lluvia. 3 meses y ya sos auxiliar hasta noviembre es montador.
-Barrientos: Pero terminabas todo sucio, aceite. 
-Leiva: Pero tenes que aguantar el frío la lluvia, yo hasta Candelaria encima.
-Barrientos: Claro ese es el tema. Lo que pasa es que a vos te conviene acá por el tema del Leli(Tarjeta) pero vos tenes un montón de centros de formación.
-Leiva: Claro más cerca sí.
-Leti Botolli: Sí, pero la tarjetita es importante.
-Barrientos: Sí, pero me parece que allá te daban también. Y acá también los de la EPET también te dan también, yo tengo un amigo que hizo el curso de electricidad hace años unos no es el barrio santos, el barrio Yacyreta que ahí le dieron.
-**Sebastián: Yo encontré este por la página del INET, uno pone INET y formación profesional te aparece un formulario que pones el ET no más misiones departamento capital posadas ahí te tira todos los centros estatales privados y este decía auxiliar electricista domiciliario y desemboca en montador** yo no sabía porque son 2 distintos. El de montador es otro aparte. O sea vas a tener 2.
-Leti BotollI: Si aguantás.
-Leiva: Sí já, mi me aguantan dijo el profesor.
-Sebastián: Ahí vi que acá en la industrial tenían todo eso.
-Barrientos: Hasta panadería, panadería está buenísimo para mí está buenísimo porque hay videos y todo.
-Leti Botolli: **El tema yo hice una vez un curso en la Indu es que ellos son muy escuela y te rompen mucho las pelotas con exámenes con esto con lo otro y la pruebita parece que estás en la secundaria**.
-Barrientos: Si si si. Y la ropa y todo.
-Leti Botolli: No. Acá es más extendido.
-Barrientos: Nosotros teníamos que mandar a hacer, bueno yo no llegué a hacer porque me fui pero remera...
-
-https://catalogo-inet.educacion.gob.ar/titulos-formacion-profesional
-
-
-###### TLDR hasta acá: Barrientos vende y alquila herramientas: andamio y trompito, refrigeración: bomba de vacío y pestañadora, herramientas para soldar, hacer pozos, llegó a tener ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más: según el mangueras: manguera de riego, manguera para compresor de aire, las gomerías, pistola para pintar, puertas plegadizas. Está dentro de un grupo de ferretería de Paraguay que se llama Ferretería Julio, antes te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a ñu porá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más. El vibrador de hormigón solo lo alquiló 1 vez en 2 años. Y publica CASI todo en Facebook Market juntos con los clientes que ya tiene y hablando con los alumnos del curso. Ahora en verano casi todos son pileteros. Hoy le alquiló el andamio a uno por 1 día que lo usó para instalar una canaleta de desague. Antes de eso durante 20 años arregló celulares. Estudio mecánica en la comercio 18. En la industrial hasta panadería dan pero es muy escuela secundaria.
-
-
-Profesor: Intenté el televisor, intenté el otro(proyector) mañana me van a prestar un proyector chiquitito después vamos a ver que hacemos.
-Leiva: Nos pagamos una.
-Profesor: No, algún día vamos a comprar dijo el brasilero. Como yo les dije a veces les mando cosas a mi no me gusta que reciban sin que le explique algo entonces estoy mandando después veremos como resolvemos el tema pero para tener la idea y ahora cuando venga el secretario cerca de las 8 dice que viene, quiero ver que hay en el depósito para poder hacer algunas prácticas después voy encontrando cosas en casa y voy trayendo. 
-
-Esto es lo que les dije, esta es la curva esto es un caño con pegamento, el pegamento es tan fuerte que si ustedes sacan yo les doy un premio. Es un pegamento.
-Me acuerdo una época daban un programa que era como si fuera como era ese un **poxipol**.
-Leiva: Cuál es el premio profe?
-Profesor: Ya sacó ya? Bueno ese era el otro que tenía pero tengo 2 en casa. Te vamos a dar un premio: estás aprobado. Tiene fuerza.
-
-Había hace mucho tiempo una propaganda de poxipol y mostraban ahí que ponían un caño con otro y creo que grandes tubos eran y después ponían tipo una grúa parece que sacaban algún lado al otro ahí, eso existe todavía aunque ustedes no crean pero no se usa mucho porque aparecieron otros compuestos. El **poxipol era la mezcla de dos con mucho entonces uno hacía la mezcla y le daba**.
-
-###### Medidor digital monofásico se puede ver la tensión y la corriente. Hasta 100 amper.
-Esto que ustedes ven acá es un **medidor digital monofásico 220 y dice hasta 100 amper** el trifásico este tiene la particularidad después vamos a ver apretando un botón uno ve las tensiones en la entrada fase que sería de 220 entre neutro fase y neutro, fase y neutro, fase y neutro después fase el trifásico y siguiendo apretando otro botón uno puede ver la corriente después les voy a mostrar eso allá grande para que vean que estos medidores digitales nos sirven a nosotros para poder medir en algunos casos que en este caso trifásico mido el tomacorrientes de cada fase, pero este es monofásico y como siempre...
-Barrientos: Ese es el de EMSA o los que se compran así como para...?
-Profesor: Y esto es de EMSA también y también se compran.
-Barrientos: Porque hay unos que yo ví en Electro que es como para medidores internos.
-Profesor: Internos. Eeehh esto usaba mucho la cooperativa de Oberá.
-Sebastián: Hay uno prepago en Allen puede ser?
-Profesor: En Allen hay prepagos, el prepago significa eso que vos te vas por ejemplo a una cooperativa pagas un porcentaje y después ellos te dan un código y te dice cuántos kiloWatts tenes por la plata que pusiste ahí, una vez que está por vencer vamos a suponer te dan 500, 700 mil kilowatts(se equivocó) entonces lo que ellos después hacen se va reduciendo a medida que se va consumiendo, pero vos le graduás ahí. No es que hay gente que pensaba que vos te ibas pagabas y automáticamente tu medidor que estaba allá en la loma del orto, pero vos le pones una clave, ellos te dan un papel ahí le ponés la clave y listo ahí tenes la calidad. Es otra forma de que uno sepa lo que consume y en cuánto. Es prepaga. Generalmente en las zonas rurales yo vi mucho eso y a veces les preguntaba por qué quedaron sin luz y sí porque nos les terminamos de pagar decían.
-
-Ahí yo tengo un tachito, tiramos lo que no sirve.
-
-###### Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro.
-Bueno. Tiene la posibilidad de tener hasta corriente de 100 amper o sea que es bastante noble digital, como todo elemento digital tiene un elemento electrónico dentro y cualquier descarga bastante fuerte ocasiona que el equipo se queme si no tengo un descargador nada por el estilo esto aparentemente se quemó, cuando me dieron me dijieron esto no anda yo llevo para mostrar por lo menos. Fíjense en los dos lados tienen normas IRAM y elementos de seguridad siempre tiene que tener el sellito este y tiene 2 entradas y 2 salidas generalmente fase neutro, neutro y fase siempre y cuando, **cuando ustedes revisen un medidor van a tener la parte del neutro continuo** entonces tengo que mantener el tester acá si este es neutro neutro en algunos casos te indica ya (yo ya no me olvido más pero no importa), te indica cuál es el neutro y cuál es la fase y el otro probando con el tester **la forma de continuidad uno ve cuál es el neutro, si el neutro es el del medio o el de afuera** porque yo puedo tener fase y neutro seguro porque entrada y salida y uno de estos 2 es fase y neutro entonces tengo que probar TAC-TAC. Entienden?
-
-Pero más o menos entienden que hay 4, 2 entradas y 2 salidas. De las 2 entradas es fase y neutro y después puede el neutro estar en el medio o al costado eso se comprueba con el tester en forma de continuidad pero esto para que ustedes vayan viendo pásense esto tiene 2 tornillos de sujeción fíjense que esta es la cantidad o el diámetro que me permite a mi cuánto es más o menos calculale hasta diámetro de 35 mm^2 entra acá un conductor.
-
-###### Los transformadores TI se usan para medir el amperage
-Pueden haber conductores más grandes y este equipo en algunos casos no sirve porque el conductor es más grande no voy a poder meter ahí, **lo que se hace para potencias grandes sección de conductor más grande entonces lo que se coloca para poder medir en el medidor unos TI se llaman tipo unos transformadores** que se ponen dentro en el percutor están midiendo, después les voy a mostrar 
-
-
-
-
+Sebastián: Que pasa si entra uno nuevo y no rinde y afuera?     
+Raul Leiva: No.     
+Sebastián: Entran casi siempre gente que sabe?     
+Raul Leiva: No, en ese caso cuando hay una primera baja una vez llegué cuando estaba uno eran 20 ahí me cansaba amurar. En Itaembé Guazú laburé 10 años cuando empezó con todo ese movimiento yo estaba en guau una empresa constructora y ahí mi amigo me invitó laburé allá y ahí todo va por la tierra: la luz, todo todo. Como se hace.     
+Sebastián: Re bien.     
+Raul Leiva: Sí, y ahí como estaban diciendo ese día el cablerio todo por debajo de la tierra, el cable LILA que tenía ayer el grueso, todo eso.     
+Yo: El subterráneo.     
+Barrientos(Vendedor): Vos trabajas en una empresa?     
+Raul Leiva: Sí     
+Barrientos(Vendedor): Y esto después vos presentas te sirve el curso?     
+Raul Leiva: Sí, me sirve porque va directamente a mi tarjeta girí, en mi tarjeta jiri ya está cargado que yo soy un oficial albañil pero a eso ahora me van a cargar si completo este curso, aparte de auxiliar albañil, auxiliar electricista esto te sirve porque vos presentas a la empresa y dicen ah mira este sabe algo de electricidad, vamos a agarrarle. Con ese título no vas a entrar directamente a ser electricista en una empresa porque ya tienen gente. Uno va escalando y después hace todo lo que es electricidad, tengo un amigo que el trabaja Itaembé Guazú y estudiaba en la UOCRA no sé si era acá electricidad, recibió el título después le dijo al...     
+Barrientos(Vendedor): ¿? (Minuto 02:50) estaba por Lopez y Planes     
+Raul Leiva: Creo que sí, y ahí después le dijieron bueno acá tenes electricidad empezó a hacer lo que es la canalización todo y después en las obras ya él solo electricidad tiene, limpito ni se ensuciaba solo hacía la parte de electricidad y era uno de la manada.     
+Yo: Ah pero hizo el curso?     
+Raul Leiva: Hizo el curso sí. Y le sirvió un montón.     
+Sebastián: Y hacía bien?     
+Raul Leiva: Sí, como dice el profesor eso ya después vas agarrando confianza con distintos laburos que haces.     
+Yo: Y era auxiliar o montador?     
+Raul Leiva: Creo que no llegó a montador.     
+Sebastián: Acá hay un curso de albañil también.     
+Raul Leiva: Acá si.     
+Sebastián: Y también te cargan a la tarjeta.     
+Raul Leiva: También te cargan. El otro día estaba el político este el concejal me parece     
+Barrientos(Vendedor): Él es el presidente del consejo.     
+Raul Leiva: Claro, él estaba allá afuera ese día.     
+Barrientos(Vendedor): Él es el apoderado de la UOCRA.     
+Raul Leiva: Sí, fui a sacar fotocopia para el profesor y estaba ahí, ese día se entregaba la tarjeta acá. Y ahí yo le dije yo ya tengo tarjeta como sería en mi caso? Y me dice vos ya no te hacen tarjeta nueva, te cargan en la página y te dan el diploma.     
+Barrientos(Vendedor): Cuando estaba ahí por Lopez y Planes hice el de oficial albañil y el antepasado hice el de construcción en seco y un día me llamaron yo estaba haciendo construcción en seco(el curso) así como ahora te llaman del cuartito con globos y era para entregarme un diploma no más, porque después fue la pandemia viste que no hubo. **Yo hice el de plomería primero por Lopez y Planes: Auxiliares en Instalaciones Sanitarias con profesor un arquitecto** y está muy bueno eso pero medio que no le dan bola pero un montón de cosas aprendes y después te das cuenta que en tu casa está hecho todo mal.     
+Leiva: Y eso pasa con la electricidad cada día vas aprendiendo y decís en mi casa está un desastre.     
+Barrientos(Vendedor): El oficial albañil está muy bueno pero no tiene tanta práctica vos querés creo que hicimos mezcla después hicimos una pared allá hicimos ¿? (Minuto 05:35)     
+Leiva: Claro y no es tanto teórico más práctico para mi. (No entendió, Barrientos le decía que era más teórico que práctico).     
+Barrientos(Vendedor): Es práctica pero también está muy bueno y el de construcción en seco también, si todos los cursos están buenos.     
+Leiva: A mi me gustaría después de esto el año que viene **es refrigeración**.     
+Barrientos(Vendedor): Yo hice 10 mil cursos, hice en su época el 1er curso que hice fue el de soldador ahí en la UPM(Universidad Popular de Misiones) estaba allá en el Mercado Central a las 2 de la tarde un calor un aula de chapa y re bien, por lo menos yo no sabía nada, no sabía ni como. Yo siempre hice mucha electrónica mi papá todos se dedicaron a la electrónica, casa de electrónicos. Yo estuve 20 años arreglando celulares, cables todo con 12 voltios no más y bueno eso me sirvió.     
+     
+\* Llega profesor.     
+     
+Profesor(Espeche): Che hoy parece que hay fútbol o qué? Algo pasa porque no hay nadie. Ya se cansaron de mí.     
+Barrientos(Vendedor): Y ahí hice el de refrigeración también y me tocó un mal profesor viste y ya, si el profesor no es bueno vos no te enganchas con el curso hasta odias la profesión también porque te juro un boludo 15 días nos dictó historia de la refrigeración viste así, nosotros decíamos pero para qué si nosotros tenemos práctica tenemos que desarmar, no no este tiene todo un ...     
+Leiva: Un proceso jaja...     
+Barrientos: 15 días nos estuvo dictando boludo o sea nos sentábamos así y dictaba 1 hora y media.     
+Yo: No, horrible. Algo que podes googlear encima.     
+Barrientos(Vendedor): Sí.     
+Leiva: Parece la escuela primaria.     
+###### No hay mucha diferencia entre refrigeración industrial y heladeras, solo cambia la parte eléctrica según alumno Barrientos.     
+Barrientos(Vendedor): Historia de la refrigeración quién inventó todo y armamos grupo estuvo bueno igual era de aires no más y llevé un aire de un compinche le perdieron los caños un quilombo, el último día me consiguieron unos caños porque yo ya le estaba por embocar al profesor encima era de mi edad ponele, y bueno ahí dejé y me anoté en fundación alfa **refrigeración industrial**, ese estuvo pero eramos muchos pero la parte eléctrica la más complicada la parte de refrigeración es todo igual, funciona la cámara frigorífica más grande de los aires acondicionados una heladera es medio lo mismo y después la parte eléctrica cambia.     
+     
+\* Llega alumna.     
+     
+###### Barrientos hizo varios cursos y se dió cuenta que nadie tenía las herramientas entonces comenzó a comprar herramientas y alquilar para la construcción, para soldar, para refrigeración, para hacer pozos, de algo me sirvió.     
+Barrientos: Hice tantos cursos que el factor común de todo el curso ahí cuando terminaban era que no tenían las herramientas viste entonces ahí yo comencé a comprar herramientas y alquilar para la construcción, para soldar, para refrigeración, para hacer pozos, o sea que de algo me sirvió.     
+Sebastián: Re bien.     
+Barrientos: Y refrigeración era lo peor porque es lo más caro viste: la bomba, el fol¿?, la pestañadora, fortuna salen.     
+Sebastián: Si y para usarlo 1 día está bueno alquilar.     
+Barrientos: Y sí y generalmente alquilo la bomba no más, la bomba me piden.     
+Yo: Pero la mayoría ni usa la bomba.     
+Barrientos: No ni usan, le hacen un barrido no más. Igual yo tengo **vibrador de hormigón** viste que eso es fundamental.     
+Leiva: Siiii.     
+###### Barrientos alquila herramientas pero solo alquiló 1 vez el vibrador de hormigón.     
+Barrientos: En 2 años alquilé 1 vez. No lo usan los vagos a los martillazos nada más, le golpean a la madera, y ese(vibrador de hormigón) vos le pones así y te queda parece una crema impresionante te queda perfecto el hormigón **y no quieren usar** en 2 años alquilé 1 vez, estaba pensando en venderlo no más.     
+Leiva: Y sí para un contratista o una obra particular te van alquilar pero una empresa ya tienen lo de ellos viste?     
+Barrientos: Sí hay muchos contratistas y **andamio y trompito** eso es todo ahora porque en Marzo fue muy feo.     
+Sebastián: No pasó nada?     
+Barrientos: De enero febrero estuvo bueno, y marzo paró todo, estaba muy al pedo.     
+Leiva: Vos publicabas que alquilabas los andamios los trompitos.     
+Barrientos: Si, casi todo en Facebook Market y después ya tengo unos clientes casi todos son ahora en verano casi todos son pileteros, los que hacen piletas.     
+Leiva: Me gusta el andamio je     
+###### Todos los problemas de alquilar andamio: transporte y colocación.     
+Barrientos: Y el andamio ahora subieron los precios y yo me quedé pero yo cobraba caro porque es todo un tema terminas hecho mierda sucio tenes que llevar traer. Me dicen me traes 4 cuerpos de Itaembé Guazú tenes que cargar los 4 cuerpos yo solo, encima pesado yo tengo todos esos horrendos esos viejos que son hierro puro y ahí llevar descargar después para buscar, terminás cansado y todo sucio (los andamios). Entonces siempre cobraba caro alquilaba poco y ahora se ve que, **hoy le alquilé a un vago 1 día y nadie le quería 1 día, todos quieren alquilar mínimo 3 o 1 semana** y hoy le alquilé a un tipo que era solo para cambiar una canaleta para instalar una canaleta de chapa de desague, y me dijo: "NO vos estás cobrando barato me dice porque era 8 mil", igual así normal no es que estoy a full. El año pasado me inscribí a uno de mecánica ahí en la **comercio 18** abajo está muy bueno también.     
+Sebastián: General?      
+Barrientos: Sí, primero arranca con naftero y después diesel y después tiene otra parte de inyección, otra parte de electromecánico, otro mecánica de motos, pero a mi me queda cerca acá, pero el otro es muy lejos y arranqué bien hasta mayo y ahí empezó el frío, lluvia y ahí empecé a faltar a faltar, y no fui más pero está bueno.     
+Leti Bottoli: Donde es la comercio 18?     
+Barrientos: Rademacher casi tierra del fuego ¿? (Ruido) Minuto 13:33     
+Leti Bottoli: Se complica (es lejos).     
+Barrientos: Encima todos los días, no es como acá. Todos los días de 7 a 10.     
+Sebastián: Acá en la Industrial hay mecánica de motos.     
+Barrientos: Sí también sí, yo le pregunté a los vagos por electricidad me mandaron un mensaje y me dijieron que no había más cupos y me dijo que si que aumentaba tal fecha y 15 mil por mes en la Industrial.     
+Sebastián: Acá en la Industrial?      
+Barrientos: Sí     
+Sebastián: Igual no es tan...     
+Leti Botolli: Qué es mecánica o electromecánica?     
+Barrientos: No no, electricidad. Todos los cursos medio lo mismo, este es auxiliar eeh.... No recuerdo el nombre.     
+Sebastián: Este?     
+Barrientos: No el de la EPET. Era tiene un nombre en realidad pero era más se parece como no electromecánica decía como más de inyección algo así. El otro si era, pero re bien pero porque los vagos llevaban de todo, llevaban los autos, vos tenes tu auto llevas y desarmas.      
+Leiva: El tema es el frío la lluvia. 3 meses y ya sos auxiliar hasta noviembre es montador.     
+Barrientos: Pero terminabas todo sucio, aceite.      
+Leiva: Pero tenes que aguantar el frío la lluvia, yo hasta Candelaria encima.     
+Barrientos: Claro ese es el tema. Lo que pasa es que a vos te conviene acá por el tema del Leli(Tarjeta) pero vos tenes un montón de centros de formación.     
+Leiva: Claro más cerca sí.     
+Leti Botolli: Sí, pero la tarjetita es importante.     
+Barrientos: Sí, pero me parece que allá te daban también. Y acá también los de la EPET también te dan también, yo tengo un amigo que hizo el curso de electricidad hace años unos no es el barrio santos, el barrio Yacyreta que ahí le dieron.     
+**Sebastián: Yo encontré este por la página del INET, uno pone INET y formación profesional te aparece un formulario que pones el ET no más misiones departamento capital posadas ahí te tira todos los centros estatales privados y este decía auxiliar electricista domiciliario y desemboca en montador** yo no sabía porque son 2 distintos. El de montador es otro aparte. O sea vas a tener 2.     
+Leti BotollI: Si aguantás.     
+Leiva: Sí já, mi me aguantan dijo el profesor.     
+Sebastián: Ahí vi que acá en la industrial tenían todo eso.     
+Barrientos: Hasta panadería, panadería está buenísimo para mí está buenísimo porque hay videos y todo.     
+Leti Botolli: **El tema yo hice una vez un curso en la Indu es que ellos son muy escuela y te rompen mucho las pelotas con exámenes con esto con lo otro y la pruebita parece que estás en la secundaria**.     
+Barrientos: Si si si. Y la ropa y todo.     
+Leti Botolli: No. Acá es más extendido.     
+Barrientos: Nosotros teníamos que mandar a hacer, bueno yo no llegué a hacer porque me fui pero remera...     
+     
+https://catalogo-inet.educacion.gob.ar/titulos-formacion-profesional     
+     
+     
+###### TLDR hasta acá: Barrientos vende y alquila herramientas: andamio y trompito, refrigeración: bomba de vacío y pestañadora, herramientas para soldar, hacer pozos, llegó a tener ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más: según el mangueras: manguera de riego, manguera para compresor de aire, las gomerías, pistola para pintar, puertas plegadizas. Está dentro de un grupo de ferretería de Paraguay que se llama Ferretería Julio, antes te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a ñu porá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más. El vibrador de hormigón solo lo alquiló 1 vez en 2 años. Y publica CASI todo en Facebook Market juntos con los clientes que ya tiene y hablando con los alumnos del curso. Ahora en verano casi todos son pileteros. Hoy le alquiló el andamio a uno por 1 día que lo usó para instalar una canaleta de desague. Antes de eso durante 20 años arregló celulares. Estudio mecánica en la comercio 18. En la industrial hasta panadería dan pero es muy escuela secundaria.     
+     
+     
+Profesor: Intenté el televisor, intenté el otro(proyector) mañana me van a prestar un proyector chiquitito después vamos a ver que hacemos.     
+Leiva: Nos pagamos una.     
+Profesor: No, algún día vamos a comprar dijo el brasilero. Como yo les dije a veces les mando cosas a mi no me gusta que reciban sin que le explique algo entonces estoy mandando después veremos como resolvemos el tema pero para tener la idea y ahora cuando venga el secretario cerca de las 8 dice que viene, quiero ver que hay en el depósito para poder hacer algunas prácticas después voy encontrando cosas en casa y voy trayendo.      
+     
+Esto es lo que les dije, esta es la curva esto es un caño con pegamento, el pegamento es tan fuerte que si ustedes sacan yo les doy un premio. Es un pegamento.     
+Me acuerdo una época daban un programa que era como si fuera como era ese un **poxipol**.     
+Leiva: Cuál es el premio profe?     
+Profesor: Ya sacó ya? Bueno ese era el otro que tenía pero tengo 2 en casa. Te vamos a dar un premio: estás aprobado. Tiene fuerza.     
+     
+Había hace mucho tiempo una propaganda de poxipol y mostraban ahí que ponían un caño con otro y creo que grandes tubos eran y después ponían tipo una grúa parece que sacaban algún lado al otro ahí, eso existe todavía aunque ustedes no crean pero no se usa mucho porque aparecieron otros compuestos. El **poxipol era la mezcla de dos con mucho entonces uno hacía la mezcla y le daba**.     
+     
+###### Medidor digital monofásico se puede ver la tensión y la corriente. Hasta 100 amper.     
+Esto que ustedes ven acá es un **medidor digital monofásico 220 y dice hasta 100 amper** el trifásico este tiene la particularidad después vamos a ver apretando un botón uno ve las tensiones en la entrada fase que sería de 220 entre neutro fase y neutro, fase y neutro, fase y neutro después fase el trifásico y siguiendo apretando otro botón uno puede ver la corriente después les voy a mostrar eso allá grande para que vean que estos medidores digitales nos sirven a nosotros para poder medir en algunos casos que en este caso trifásico mido el tomacorrientes de cada fase, pero este es monofásico y como siempre...     
+Barrientos: Ese es el de EMSA o los que se compran así como para...?     
+Profesor: Y esto es de EMSA también y también se compran.     
+Barrientos: Porque hay unos que yo ví en Electro que es como para medidores internos.     
+Profesor: Internos. Eeehh esto usaba mucho la cooperativa de Oberá.     
+Sebastián: Hay uno prepago en Allen puede ser?     
+Profesor: En Allen hay prepagos, el prepago significa eso que vos te vas por ejemplo a una cooperativa pagas un porcentaje y después ellos te dan un código y te dice cuántos kiloWatts tenes por la plata que pusiste ahí, una vez que está por vencer vamos a suponer te dan 500, 700 mil kilowatts(se equivocó) entonces lo que ellos después hacen se va reduciendo a medida que se va consumiendo, pero vos le graduás ahí. No es que hay gente que pensaba que vos te ibas pagabas y automáticamente tu medidor que estaba allá en la loma del orto, pero vos le pones una clave, ellos te dan un papel ahí le ponés la clave y listo ahí tenes la calidad. Es otra forma de que uno sepa lo que consume y en cuánto. Es prepaga. Generalmente en las zonas rurales yo vi mucho eso y a veces les preguntaba por qué quedaron sin luz y sí porque nos les terminamos de pagar decían.     
+     
+Ahí yo tengo un tachito, tiramos lo que no sirve.     
+     
+###### Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro.     
+Bueno. Tiene la posibilidad de tener hasta corriente de 100 amper o sea que es bastante noble digital, como todo elemento digital tiene un elemento electrónico dentro y cualquier descarga bastante fuerte ocasiona que el equipo se queme si no tengo un descargador nada por el estilo esto aparentemente se quemó, cuando me dieron me dijieron esto no anda yo llevo para mostrar por lo menos. Fíjense en los dos lados tienen normas IRAM y elementos de seguridad siempre tiene que tener el sellito este y tiene 2 entradas y 2 salidas generalmente fase neutro, neutro y fase siempre y cuando, **cuando ustedes revisen un medidor van a tener la parte del neutro continuo** entonces tengo que mantener el tester acá si este es neutro neutro en algunos casos te indica ya (yo ya no me olvido más pero no importa), te indica cuál es el neutro y cuál es la fase y el otro probando con el tester **la forma de continuidad uno ve cuál es el neutro, si el neutro es el del medio o el de afuera** porque yo puedo tener fase y neutro seguro porque entrada y salida y uno de estos 2 es fase y neutro entonces tengo que probar TAC-TAC. Entienden?     
+     
+Pero más o menos entienden que hay 4, 2 entradas y 2 salidas. De las 2 entradas es fase y neutro y después puede el neutro estar en el medio o al costado eso se comprueba con el tester en forma de continuidad pero esto para que ustedes vayan viendo pásense esto tiene 2 tornillos de sujeción fíjense que esta es la cantidad o el diámetro que me permite a mi cuánto es más o menos calculale hasta diámetro de 35 mm^2 entra acá un conductor.     
+     
+###### Los transformadores TI se usan para medir el amperage     
+Pueden haber conductores más grandes y este equipo en algunos casos no sirve porque el conductor es más grande no voy a poder meter ahí, **lo que se hace para potencias grandes sección de conductor más grande entonces lo que se coloca para poder medir en el medidor unos TI se llaman tipo unos transformadores** que se ponen dentro en el percutor están midiendo, después les voy a mostrar cuando aparece unas barra de alimentación llega a las barras pero hay un transformador que me indica **que cantidad de consumo va a tener ese medidor pero a través de un transformador** o sea que no entra toda la carga ahí, eso generalmente se utiliza en grandes potencias pero es para que vayan viendo que es lo que uno pretende.      
+     
+     
+     
+     
 ---
 
-Minuto 20
+Minuto 24
