@@ -87,9 +87,17 @@ Barrientos: No ni usan, le hacen un barrido no más. Igual yo tengo **vibrador d
 Leiva: Siiii.
 ###### Barrientos alquila herramientas pero solo alquiló 1 vez el vibrador de hormigón.
 Barrientos: En 2 años alquilé 1 vez. No lo usan los vagos a los martillazos nada más, le golpean a la madera, y ese(vibrador de hormigón) vos le pones así y te queda parece una crema impresionante te queda perfecto el hormigón **y no quieren usar** en 2 años alquilé 1 vez, estaba pensando en venderlo no más.
+Leiva: Y sí para un contratista o una obra particular te van alquilar pero una empresa ya tienen lo de ellos viste?
+Barrientos: Sí hay muchos contratistas y **andamio y trompito** eso es todo ahora porque en Marzo fue muy feo.
+Sebastián: No pasó nada?
+Barrientos: De enero febrero estuvo bueno, y marzo paró todo, estaba muy al pedo.
+Leiva: Vos publicabas que alquilabas los andamios los trompitos.
+Barrientos: Si, casi todo en Facebook Market y después ya tengo unos clientes casi todos son ahora en verano casi todos son pileteros, los que hacen piletas.
+Leiva: Me gusta el andamio je
+###### Todos los problemas de alquilar andamio: transporte y colocación.
+Barrientos: Y el andamio ahora subieron los precios y yo me quedé pero yo cobraba caro porque es todo un tema terminas hecho mierda sucio tenes que llevar traer. Me dicen me traes 4 cuerpos de Itaembé Guazú tenes que cargar los 4 cuerpos yo solo, encima pesado yo tengo todos esos horrendos esos viejos que son hierro puro y ahí llevar descargar después para buscar, terminás cansado y todo sucio (los andamios). Entonces siempre cobraba caro alquilaba poco y ahora se ve que, **hoy le alquilé a un vago 1 día y nadie le quería 1 día, todos quieren alquilar mínimo 3 o 1 semana** y hoy le alquilé a un tipo que era solo para cambiar una canaleta para instalar una canaleta de chapa de desague, y me dijo: "NO vos estás cobrando barato me dice porque era 8 mil", igual así normal no es que estoy a full.
 
-
-###### TLDR: Barrientos vende y alquila herramientas: refrigeración: bomba de vacío y pestañadora, herramientas para soldar, hacer pozos, llegó a tener ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más: según el mangueras: manguera de riego, manguera para compresor de aire, las gomerías, pistola para pintar, puertas plegadizas. Está dentro de un grupo de ferretería de Paraguay que se llama Ferretería Julio, antes te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a gruporá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más.     
+###### TLDR hasta acá: Barrientos vende y alquila herramientas: andamio y trompito, refrigeración: bomba de vacío y pestañadora, herramientas para soldar, hacer pozos, llegó a tener ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más: según el mangueras: manguera de riego, manguera para compresor de aire, las gomerías, pistola para pintar, puertas plegadizas. Está dentro de un grupo de ferretería de Paraguay que se llama Ferretería Julio, antes te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a gruporá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más. El vibrador de hormigón solo lo alquiló 1 vez en 2 años. Y publica CASI todo en Facebook Market juntos con los clientes que ya tiene. Ahora en verano casi todos son pileteros. Hoy le alquiló el andamio a uno por 1 día que lo usó para instalar una canaleta de desague.
 
 
 Profesor: 
