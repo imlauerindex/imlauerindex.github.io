@@ -23,7 +23,7 @@ https://archive.org/details/aea-770
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwUl1X5evLowOWEUQBCQ4X7GxqylBu-f-8g2OvLTvvKoZjkw59gCejGIbaJ_yoVEes5N_slzIONmv1kySzRZSs62T4yVeT5-QnPrh9s4UkgqS7IQuXKzOUEnVRq63lIeBmnOPpS335VA_52G5mZ7AaS58EOX8tma5t7Ammo4D5qri9FJWzlaeCxyAHamw/s4160/IMG_20250415_194547801.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz-he3XRS0VXEkZSlTrRXSrk4psL9JQ1AF1saGbRoOnAVjAQn4gnOgk7n7jg-6QX0BAQqwMilnCgICmq4f7MX3MFsUV9_PCM5X2RPnzHkwOyhURqfGh_MNV0rACKPERCz3QIVnZcjjRjL4xNFDRyqWoJqyT4-Yl0Gf5tgCHqeL4pQsGm8kbL0uQoDKSv0/s4160/IMG_20250415_193247963.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOgaz7CIfG9pX3L86-dG-qJ100rXsS1KwRmEsuCsOs42c3au7GTvCW0LjMcq2yvedTnK4v1FN8KNWoHsfhHWzP26X-Q5QgJqE6H41miAOUiNY3p0u8dQrX7OMrntr42Lex7tKen0ftv04hx2osrJ2RnjeDT7PVhCXQdW3sF_UVRFlHmQBDXmoO8t62cTo/s4160/IMG-20250415-WA0007.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtF_UsEXknnVXdPr_3xoPT5V_5X5GNrJLe2l4A5ExoVuKDtTgLF7Pgx1McwUQSzbPk_BnBeXdqWuHt9vwv9fdX1G9mWNQAF7uQFrc8Iy9sVo5vMAW6AksAAHi8d7ouG9mM8mETz9f3LiKoRDT_44kQjpT170gmVKRA9dOxJJCaDTk6m5wqsmBUEHysYwo/s4160/IMG_20250415_200803401.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeoPnlZ-5vPcM4XBSVV2ryQumYWiEndT__i-5SGIgboEnFhj6M01KfpM8ClLJFiWn2IN81d6SHKqrm_9wxVbACuansiJVs3tUPJQn-3jUnKTsoLAcFDIX344RF-D9uBiavPjhol835S1QbMTK646SH0iTgf-P22Z_YRFyMrm6jZG9wkeS6ROrxH_XXZf8/s4160/IMG_20250415_200803401_flipped_leiva.jpg)
 
 #### Transcripción
 
@@ -118,19 +118,55 @@ Barrientos: Claro ese es el tema. Lo que pasa es que a vos te conviene acá por 
 Leiva: Claro más cerca sí.
 Leti Botolli: Sí, pero la tarjetita es importante.
 Barrientos: Sí, pero me parece que allá te daban también. Y acá también los de la EPET también te dan también, yo tengo un amigo que hizo el curso de electricidad hace años unos no es el barrio santos, el barrio Yacyreta que ahí le dieron.
-**Sebastián: Yo encontré este por la página del INET, uno pone INET y formación profesional te aparece un formulario que pones el ET no más misiones departamento capital posadas ahí te tira todos los centros estatales privados y este decía auxiliar electricista domiciliario y desemboca en montador**.
+**Sebastián: Yo encontré este por la página del INET, uno pone INET y formación profesional te aparece un formulario que pones el ET no más misiones departamento capital posadas ahí te tira todos los centros estatales privados y este decía auxiliar electricista domiciliario y desemboca en montador** yo no sabía porque son 2 distintos. El de montador es otro aparte. O sea vas a tener 2.
+Leti BotollI: Si aguantás.
+Leiva: Sí já, mi me aguantan dijo el profesor.
+Sebastián: Ahí vi que acá en la industrial tenían todo eso.
+Barrientos: Hasta panadería, panadería está buenísimo para mí está buenísimo porque hay videos y todo.
+Leti Botolli: **El tema yo hice una vez un curso en la Indu es que ellos son muy escuela y te rompen mucho las pelotas con exámenes con esto con lo otro y la pruebita parece que estás en la secundaria**.
+Barrientos: Si si si. Y la ropa y todo.
+Leti Botolli: No. Acá es más extendido.
+Barrientos: Nosotros teníamos que mandar a hacer, bueno yo no llegué a hacer porque me fui pero remera...
 
 https://catalogo-inet.educacion.gob.ar/titulos-formacion-profesional
 
 
+###### TLDR hasta acá: Barrientos vende y alquila herramientas: andamio y trompito, refrigeración: bomba de vacío y pestañadora, herramientas para soldar, hacer pozos, llegó a tener ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más: según el mangueras: manguera de riego, manguera para compresor de aire, las gomerías, pistola para pintar, puertas plegadizas. Está dentro de un grupo de ferretería de Paraguay que se llama Ferretería Julio, antes te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a ñu porá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más. El vibrador de hormigón solo lo alquiló 1 vez en 2 años. Y publica CASI todo en Facebook Market juntos con los clientes que ya tiene y hablando con los alumnos del curso. Ahora en verano casi todos son pileteros. Hoy le alquiló el andamio a uno por 1 día que lo usó para instalar una canaleta de desague. Antes de eso durante 20 años arregló celulares. Estudio mecánica en la comercio 18. En la industrial hasta panadería dan pero es muy escuela secundaria.
 
 
-###### TLDR hasta acá: Barrientos vende y alquila herramientas: andamio y trompito, refrigeración: bomba de vacío y pestañadora, herramientas para soldar, hacer pozos, llegó a tener ferretería online. Yo arranqué en la pandemia y ahora hago lo que más se vende y deja más ganancia no vendo más: según el mangueras: manguera de riego, manguera para compresor de aire, las gomerías, pistola para pintar, puertas plegadizas. Está dentro de un grupo de ferretería de Paraguay que se llama Ferretería Julio, antes te llevaba hasta 1 foco a tu casa, pero la gente por 1 foco boludo... Me trae a ñu porá. Y ahora hay 2 o 3 productos que me dejan más ganancias y de eso no más. El vibrador de hormigón solo lo alquiló 1 vez en 2 años. Y publica CASI todo en Facebook Market juntos con los clientes que ya tiene y hablando con los alumnos del curso. Ahora en verano casi todos son pileteros. Hoy le alquiló el andamio a uno por 1 día que lo usó para instalar una canaleta de desague. Antes de eso durante 20 años arregló celulares. Estudio mecánica en la comercio 18.
+Profesor: Intenté el televisor, intenté el otro(proyector) mañana me van a prestar un proyector chiquitito después vamos a ver que hacemos.
+Leiva: Nos pagamos una.
+Profesor: No, algún día vamos a comprar dijo el brasilero. Como yo les dije a veces les mando cosas a mi no me gusta que reciban sin que le explique algo entonces estoy mandando después veremos como resolvemos el tema pero para tener la idea y ahora cuando venga el secretario cerca de las 8 dice que viene, quiero ver que hay en el depósito para poder hacer algunas prácticas después voy encontrando cosas en casa y voy trayendo. 
+
+Esto es lo que les dije, esta es la curva esto es un caño con pegamento, el pegamento es tan fuerte que si ustedes sacan yo les doy un premio. Es un pegamento.
+Me acuerdo una época daban un programa que era como si fuera como era ese un **poxipol**.
+Leiva: Cuál es el premio profe?
+Profesor: Ya sacó ya? Bueno ese era el otro que tenía pero tengo 2 en casa. Te vamos a dar un premio: estás aprobado. Tiene fuerza.
+
+Había hace mucho tiempo una propaganda de poxipol y mostraban ahí que ponían un caño con otro y creo que grandes tubos eran y después ponían tipo una grúa parece que sacaban algún lado al otro ahí, eso existe todavía aunque ustedes no crean pero no se usa mucho porque aparecieron otros compuestos. El **poxipol era la mezcla de dos con mucho entonces uno hacía la mezcla y le daba**.
+
+###### Medidor digital monofásico se puede ver la tensión y la corriente. Hasta 100 amper.
+Esto que ustedes ven acá es un **medidor digital monofásico 220 y dice hasta 100 amper** el trifásico este tiene la particularidad después vamos a ver apretando un botón uno ve las tensiones en la entrada fase que sería de 220 entre neutro fase y neutro, fase y neutro, fase y neutro después fase el trifásico y siguiendo apretando otro botón uno puede ver la corriente después les voy a mostrar eso allá grande para que vean que estos medidores digitales nos sirven a nosotros para poder medir en algunos casos que en este caso trifásico mido el tomacorrientes de cada fase, pero este es monofásico y como siempre...
+Barrientos: Ese es el de EMSA o los que se compran así como para...?
+Profesor: Y esto es de EMSA también y también se compran.
+Barrientos: Porque hay unos que yo ví en Electro que es como para medidores internos.
+Profesor: Internos. Eeehh esto usaba mucho la cooperativa de Oberá.
+Sebastián: Hay uno prepago en Allen puede ser?
+Profesor: En Allen hay prepagos, el prepago significa eso que vos te vas por ejemplo a una cooperativa pagas un porcentaje y después ellos te dan un código y te dice cuántos kiloWatts tenes por la plata que pusiste ahí, una vez que está por vencer vamos a suponer te dan 500, 700 mil kilowatts(se equivocó) entonces lo que ellos después hacen se va reduciendo a medida que se va consumiendo, pero vos le graduás ahí. No es que hay gente que pensaba que vos te ibas pagabas y automáticamente tu medidor que estaba allá en la loma del orto, pero vos le pones una clave, ellos te dan un papel ahí le ponés la clave y listo ahí tenes la calidad. Es otra forma de que uno sepa lo que consume y en cuánto. Es prepaga. Generalmente en las zonas rurales yo vi mucho eso y a veces les preguntaba por qué quedaron sin luz y sí porque nos les terminamos de pagar decían.
+
+Ahí yo tengo un tachito, tiramos lo que no sirve.
+
+###### Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro.
+Bueno. Tiene la posibilidad de tener hasta corriente de 100 amper o sea que es bastante noble digital, como todo elemento digital tiene un elemento electrónico dentro y cualquier descarga bastante fuerte ocasiona que el equipo se queme si no tengo un descargador nada por el estilo esto aparentemente se quemó, cuando me dieron me dijieron esto no anda yo llevo para mostrar por lo menos. Fíjense en los dos lados tienen normas IRAM y elementos de seguridad siempre tiene que tener el sellito este y tiene 2 entradas y 2 salidas generalmente fase neutro, neutro y fase siempre y cuando, **cuando ustedes revisen un medidor van a tener la parte del neutro continuo** entonces tengo que mantener el tester acá si este es neutro neutro en algunos casos te indica ya (yo ya no me olvido más pero no importa), te indica cuál es el neutro y cuál es la fase y el otro probando con el tester **la forma de continuidad uno ve cuál es el neutro, si el neutro es el del medio o el de afuera** porque yo puedo tener fase y neutro seguro porque entrada y salida y uno de estos 2 es fase y neutro entonces tengo que probar TAC-TAC. Entienden?
+
+Pero más o menos entienden que hay 4, 2 entradas y 2 salidas. De las 2 entradas es fase y neutro y después puede el neutro estar en el medio o al costado eso se comprueba con el tester en forma de continuidad pero esto para que ustedes vayan viendo pásense esto tiene 2 tornillos de sujeción fíjense que esta es la cantidad o el diámetro que me permite a mi cuánto es más o menos calculale hasta diámetro de 35 mm^2 entra acá un conductor.
+
+###### Los transformadores TI se usan para medir el amperage
+Pueden haber conductores más grandes y este equipo en algunos casos no sirve porque el conductor es más grande no voy a poder meter ahí, **lo que se hace para potencias grandes sección de conductor más grande entonces lo que se coloca para poder medir en el medidor unos TI se llaman tipo unos transformadores** que se ponen dentro en el percutor están midiendo, después les voy a mostrar 
 
 
-Profesor: 
 
 
 ---
 
-Minuto 16:11
+Minuto 20
