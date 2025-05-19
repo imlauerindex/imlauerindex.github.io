@@ -170,7 +170,6 @@ Esto le va a aparecer a ustedes ahí está en el WhatsApp es muy interesante por
 
 
      
-     
 ---
 
 Minuto 24
