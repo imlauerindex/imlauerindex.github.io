@@ -1,6 +1,5 @@
 ---
-title: "Electricidad / Clase 13. Siempre sacar una foto antes de tocar un tablero porque después te quieren echar la culpa. Catálogo INET cursos formación profesional. Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Si yo tengo una distancia menor que 5 metros directamente pongo disyuntor, sino tengo que poner un interruptor principal de cabecera porque hay una distancia muy grande y en ese trayecto puede haber un cortocircuito. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro. Transformadores TI para medir amperage. La puesta a tierra no es solo 1 conductor sino es todos los elementos la bornera el conductor que va abajo la jabalina, el acople, la cámara de inspección. Página 31 para allá. La fotocopia no tenía puesta a tierra. Empalmes por el suelo (botella de empalme) antes se hacía con gelatina hoy se saca del piso para hacer el empalme. Gente saca tapas costanera. Si yo tengo que unir un cable subterráneo lo tengo que unir pero mi caja de paso tendría que estar por lo menos a 30 cm del suelo y ahí hago la conexión con otro, no en la tierra. Electricista en vez de comprar un fusible NH nuevo, dejó 2 fases anduvo un tiempo hasta que se quemó. 1,5mm^2 térmica de 10. 2,5mm^2 térmica de 16. 4mm^2 térmica de 20. A un electricista la empresa te dió todas térmicas de 20 amper y no protegían los cables, Espeche no lo aprobó. En ese caso hay que hacer firmar a la empresa que trajo térmicas incorrectas. Se usa barra peine porque sino el borner este me soporta las cargas de la suma de esta corriente más esta corriente. Ojo de buey. Térmica tetrapolar de 40 trifásica. Todos los cables que alimentan todas las térmicas de arriba son del mismo milímetro (2mm^2 o 4mm^2) y se hace en forma de bucle sin cortar el cable."
-
+title: "Electricidad / Clase 13. Siempre sacar una foto antes de tocar un tablero porque después te quieren echar la culpa. Catálogo INET cursos formación profesional. Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Si yo tengo una distancia menor que 5 metros directamente pongo disyuntor, sino tengo que poner un interruptor principal de cabecera porque hay una distancia muy grande y en ese trayecto puede haber un cortocircuito. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro. Transformadores TI para medir amperage. La puesta a tierra no es solo 1 conductor sino es todos los elementos la bornera el conductor que va abajo la jabalina, el acople, la cámara de inspección. Página 31 para allá. La fotocopia no tenía puesta a tierra. Empalmes por el suelo (botella de empalme) antes se hacía con gelatina hoy se saca del piso para hacer el empalme. Gente saca tapas costanera. Si yo tengo que unir un cable subterráneo lo tengo que unir pero mi caja de paso tendría que estar por lo menos a 30 cm del suelo y ahí hago la conexión con otro, no en la tierra. Electricista en vez de comprar un fusible NH nuevo, dejó 2 fases anduvo un tiempo hasta que se quemó. 1,5mm^2 térmica de 10. 2,5mm^2 térmica de 16. 4mm^2 térmica de 20. A un electricista la empresa te dió todas térmicas de 20 amper y no protegían los cables, Espeche no lo aprobó. En ese caso hay que hacer firmar a la empresa que trajo térmicas incorrectas. Se usa barra peine porque sino el borner este me soporta las cargas de la suma de esta corriente más esta corriente. Ojo de buey. Térmica tetrapolar de 40 trifásica. Todos los cables que alimentan todas las térmicas de arriba son del mismo milímetro (2mm^2 o 4mm^2) y se hace en forma de bucle sin cortar el cable. El radio por norma al hacer el doblez de los caños.  Una vez que fijo acá la caja y los caños, termino la mampostería, recién hago el cableado. No se permite las uniones o derivaciones de cables en el interior de los caños."
 date: 2025-04-15T22:15:25-03:00
 tags: [electricidad]
 ---
@@ -298,8 +297,43 @@ Sebastián Melgajero: Claro. Esta es una térmica de 40.
 Ayudante: Eso es una térmica tetrapolar de 40.
 Profesor: Trifásica, lo que estoy tratando de que ustedes vean es como se hace el bucle sin cortar el cable. Siempre y cuando el cable también tenga un cierto grosor porque soporta todas las cargas el cable y trata de alimentación acá, **siempre tratan de que la salida del interruptor diferencial o de cualquier térmica sea solo un conductor** (Hora 01:08:52).
 
-Todo lo que vimos ayer: agrupación de conductores, cañerías, todas esas cosas que vamos a hacer práctico, quería revisar lo que tengo allá porque hay un depósito allá tras.
+Todo lo que vimos ayer: agrupación de conductores, cañerías, todas esas cosas que vamos a hacer práctico, quería revisar lo que tengo allá porque hay un depósito allá tras, ese deposito quería ver que es lo que tenía, todavía no me trajieron la llave pero quiero saber que hay para poder comprar lo que falta, la idea es que trabajemos con la cañería, veamos el tema de los acoples todo lo que podamos hacer para que tengan en sus manos lo que el día de mañana puedan hacer el tema de cañería, entonces por lo menos conozcan las cajas, los conectores, vamos a hacer un trabajito por acá, **después haremos la próxima sobre la pared porque ahí requiere perforación**, después haremos.
+
+Luego veremos como doblamos los caños. Ahí dice una parte **¿cuál es el radio de curvatura mínimo en caso de que yo haga el doblez con los caños?**. Tengo que comprar para mañana a ver si tengo la posibilidad, a veces uno pide los materiales y las herramientas y dicen sí no hay problema hay ahí, pero a veces no hay nada por eso yo aproveché y conseguí los caños que están ahí. Bueno sigo ahí, eso que van a recibir ahora está todo acá en las normas, o sea que no hay otra parte, eso es lo importante para el tema de canalización.
+Cosa importante como regla general y esto habla la norma: **antes de instalar los caños se debe concluir con el montaje de la canalización incluido caja, caño, todo. Completado el trabajo de mampostería o sea que yo no puedo pasar los cables y la única fija capaz que esté la caja y los caños todo sin amurar, te está diciendo ahí hermano vos tenes que hacer lo que está acá**, yo a veces he discutido con algunos electricistas porque me hacían la cañería ponían los cables y los caños flotaban ahí, y ya estaba el conductor. Y acá te dice que es lo que tenes que hacer primero:
+
+##### Orden: Una vez que fijo acá la caja y los caños, termino la mampostería, recién hago el cableado.
+Leti Botolli: Puede ser con puntitos de sujección?
+Profesor(Espeche): Sí, que esté fijo bien fijo que no se mueva, porque ahí vos vas a pasar la **cinta pasacables no se tiene que mover eso**, ahí ya tiene que estar fijadas si o si las cajas, el caño puede tener puntos, siempre y cuando después el albañil venga y termine. 
+Bueno, ahí después les cuenta que tienen que dejar una medida prudencial: 0,15 cm para poder hacer los empalmes en caso de que se corten los cables, eso vamos a ir viendo.
+
+###### No se permite las uniones o derivaciones de cables en el interior de los caños. El que hace eso va en cana.
+Está prohibido dentro de la cañería tener empalmes, los empalmes se hacen en las cajas o cualquier elemento que uno tenga.
+Ayudante: Cualquier boca en donde uno pase, suele tener fase mantenimiento¿? (Hora 01:13:20)
+Profesor: Sí, ahí no más.
+
+Bueno, todo eso está en esta simple 4 hojitas que serían 3 para ustedes, así que le voy a seguir mandando cosas, el tema mío es que ese quilombo para que le sirve esto, fíjense que él tiene ahí la última parte que tiene los problemas, página 50 que ese que es la guía que está en colores para que ustedes vayan viendo que eso no se debe hacer. Miren.
+
+Todavía no tenemos el proyector, **había 2 proyectores antes, desapareció 1**.
+
+El tema de catálogo GENROD o sea que vamos a empezar a utilizar todo cañería PVC. Es importante que tengan en cuenta los materiales los dispositivos **como se unen los caños, las cajas, las curvas, los conectores, todo para que ustedes tengan idea de eso, no es difícil sino que miren constantemente esa parte, está en el catálogo también**, me gustaría sacar fotocopia todo en color y que tengan todo pero a veces cuesta, esa son hojas de oficio cualquier cosa le cortan abajo.
+
+\* Llega preceptora a tomar lista.
+
+Si son 3 fases ya tenes 4.
+Pelado(Refrigeración): O sea que 1 es neutro, y el resto es todo fase?
+Profesor: Esto lo que está acá, eso es fase el rojo, el neutro el azul.
+Pelado(Refrigeración): Siempre?
+Profesor: Siempre.
+Pelado(Refrigeración): Arriba va la fase?
+Profesor: Vos metes el cable así.
+Pelado(Refrigeración): O sea que si tengo un trifásico tengo 3 arriba y 1 abajo.
+Profesor: No no, están en escalera. Así mirá, están en escaleras así vos pones el cable.
+Benitez(Pelado/Refrigeración): Presente!
+Profesor: Esto va así, al revés, entonces vos conectas el cable acá, va a entrar acá y acá y es
+
+
 
 ---
 
-(Hora 01:08:52). 
+(Hora 01:16:37). 
