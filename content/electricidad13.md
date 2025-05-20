@@ -242,7 +242,8 @@ De esa misma forma, esto fue en otra escuela un tipo que hacía instalación el�
 
 A veces va un electricista y por solucionar el tema de por hoy, no calcula bien el NH y ocurren esos problemas.
 
-Tengo varias cositas para ver 
+Cuando vean esos elementos hay que tratar de analizar por qué esa calibración si este conductor es muy fino.
+Una vez una empresa constructora y le compra a un electricista una caja, las cajas creo que tienen 10 térmicas bipolares más o menos 8 lista nos traían entonces le compro una caja, me toca inspeccionar a mi lo 1ero que hago yo ya me acuerdo que hay iluminación hay toma corrientes y después algunos elementos especiales y aparte una instalación que va la parte de bombeo y todas esas cosas, **siempre que uno presenta a través de un proyecto el tablero le voy a mostrar uno, bueno había una parte de un tablero que se hacen en sistema de alarma unifilar**
 
 ---
 
