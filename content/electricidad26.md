@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 26: 6) Dos lámparas con llave combinación. 7) Dos lámparas. Una con llave combinación y otra con llave de 1 punto. Comenzamos ejercicio 8."
+title: "Electricidad / Clase 26: 6) Dos lámparas con llave combinación. 7) Dos lámparas. Una con llave combinación y otra con llave de 1 punto. Comenzamos ejercicio 8. En el exámen entra el diagrama unifilar de todo esto."
 date: 2025-05-19T22:06:18-03:00
 tags: [electricidad]
 ---
