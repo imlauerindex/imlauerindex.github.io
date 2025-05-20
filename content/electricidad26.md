@@ -20,4 +20,10 @@ https://www.youtube.com/embed/R2V3PACiUoU
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq9pGVB_R-NfOg1-f6_1x5lM25Rsq9Wt6gB7j2Qg_98V-9YwtjN21wRPfDFKwKVUuFFSTCdGJpJ118Jqy0RbyhnoOXQPmXbvBqrVGCrG689mJGWr_AplJYBqbHoJGpQH-ReYmgST00iGbH_Vov0UWB8MejKObXDdLgGedSvhbvAM1sfr3UHrHGFUBgRLk/s4160/IMG_20250519_202033785.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-vI-zGm1VTF9GOnuZZgzE_IQUHjj2NTlX1jKKyk10ls1YRTuEPiZ4hl6dJ9-knOCMFP4-gYcZjvihQzlYzq8gwtBgymjBqG7DJkvkLprrEfZtfa14sHfGbR_XyG3KuuaHtzjPKmWawohKYSvGHnty-jw2D9-X_IgcE4vxtvJiZORVTrOGy6ix62U2ZMM/s4160/IMG_20250519_203334764.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzu5poJnE2u75TZ3K3_eHp2LpK6NLlRVgMUpfDPcR2Ws8Qei2KASo2Cjgkrr8A0bU1TN-fhDk98m3FjSWMGyyxVRbEKzUm2ppi_E8yEpJykYoACD-tDhfB3GLVYPCguAe-gAWsPoWOvyBU_37AX-5mUXIh8dssEI7Yaku12HUjVXZgDW_WQzkmW_nRewY/s4160/IMG_20250519_215122711.jpg)
+### Hice mal. No hace falta una fase para el foco y otra fase para el toma corrientes, podes usar la misma fase de 2,5 mm^2 para ambos hacé un puente.
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9AAITWKroqzUF_x1-0O2oQI1L9aaeB_bPeKFviZuIO66Iy7RcIkZ8d-KyMGOeFbIjgrsitaA80zFzowrzo1y2hyphenhyphen17ALYcs1bHxMvy0cypAzk9fODg3GKvFAzcUVufeW_lhuwtBg3T0WRekZvj5tyuFaa17tNer4XMd2fMTxvO9zsMmC-FI01tSO3OLr0/s4160/IMG_20250519_215139860.jpg)
+
+### Acá esta bien comparto la fase porque solo es un foco pero si fueran 2 tomas tendría 1 fase para cada una.
+El cable de tierra es de 2,5 mm^2 el del neutro y la fase también y el de retorno 1mm^2
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9c5ZVsfrrKF9PvoWPhPi-xVB2IOctsbXMRDrzA82FpiDPYm2Fcsjc4dm3sU5CKd7EPTau_FmOsqsD61d0njpwltBA8VWT_AeDKdCuDTVHINclRpxGrlXGTWFQmfUtj6mmJOeTULpNajPofYacLf_Mix6nPdKHZ5mIPKkmJ8kEoEmXkDepNxhG06MeWqU/s4160/IMG_20250519_231731532.jpg)
