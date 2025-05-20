@@ -1,5 +1,6 @@
 ---
-title: "Electricidad / Clase 13. Siempre sacar una foto antes de tocar un tablero porque después te quieren echar la culpa. Catálogo INET cursos formación profesional. Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Si yo tengo una distancia menor que 5 metros directamente pongo disyuntor, sino tengo que poner un interruptor principal de cabecera porque hay una distancia muy grande y en ese trayecto puede haber un cortocircuito. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro. Transformadores TI para medir amperage. La puesta a tierra no es solo 1 conductor sino es todos los elementos la bornera el conductor que va abajo la jabalina, el acople, la cámara de inspección. Página 31 para allá. La fotocopia no tenía puesta a tierra. Empalmes por el suelo (botella de empalme) antes se hacía con gelatina hoy se saca del piso para hacer el empalme. Gente saca tapas costanera. Si yo tengo que unir un cable subterráneo lo tengo que unir pero mi caja de paso tendría que estar por lo menos a 30 cm del suelo y ahí hago la conexión con otro, no en la tierra. Electricista en vez de comprar un fusible NH nuevo, dejó 2 fases anduvo un tiempo hasta que se quemó."
+title: "Electricidad / Clase 13. Siempre sacar una foto antes de tocar un tablero porque después te quieren echar la culpa. Catálogo INET cursos formación profesional. Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Si yo tengo una distancia menor que 5 metros directamente pongo disyuntor, sino tengo que poner un interruptor principal de cabecera porque hay una distancia muy grande y en ese trayecto puede haber un cortocircuito. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro. Transformadores TI para medir amperage. La puesta a tierra no es solo 1 conductor sino es todos los elementos la bornera el conductor que va abajo la jabalina, el acople, la cámara de inspección. Página 31 para allá. La fotocopia no tenía puesta a tierra. Empalmes por el suelo (botella de empalme) antes se hacía con gelatina hoy se saca del piso para hacer el empalme. Gente saca tapas costanera. Si yo tengo que unir un cable subterráneo lo tengo que unir pero mi caja de paso tendría que estar por lo menos a 30 cm del suelo y ahí hago la conexión con otro, no en la tierra. Electricista en vez de comprar un fusible NH nuevo, dejó 2 fases anduvo un tiempo hasta que se quemó. 1,5mm^2 térmica de 10. 2,5mm^2 térmica de 16. 4mm^2 térmica de 20. A un electricista la empresa te dió todas térmicas de 20 amper y no protegían los cables, Espeche no lo aprobó. En ese caso hay que hacer firmar a la empresa que trajo térmicas incorrectas. Se usa barra peine porque sino el borner este me soporta las cargas de la suma de esta corriente más esta corriente. Ojo de buey. Térmica tetrapolar de 40 trifásica. Todos los cables que alimentan todas las térmicas de arriba son del mismo milímetro (2mm^2 o 4mm^2) y se hace en forma de bucle sin cortar el cable."
+
 date: 2025-04-15T22:15:25-03:00
 tags: [electricidad]
 ---
@@ -243,8 +244,62 @@ De esa misma forma, esto fue en otra escuela un tipo que hacía instalación el�
 A veces va un electricista y por solucionar el tema de por hoy, no calcula bien el NH y ocurren esos problemas.
 
 Cuando vean esos elementos hay que tratar de analizar por qué esa calibración si este conductor es muy fino.
-Una vez una empresa constructora y le compra a un electricista una caja, las cajas creo que tienen 10 térmicas bipolares más o menos 8 lista nos traían entonces le compro una caja, me toca inspeccionar a mi lo 1ero que hago yo ya me acuerdo que hay iluminación hay toma corrientes y después algunos elementos especiales y aparte una instalación que va la parte de bombeo y todas esas cosas, **siempre que uno presenta a través de un proyecto el tablero le voy a mostrar uno, bueno había una parte de un tablero que se hacen en sistema de alarma unifilar**
+Una vez una empresa constructora y le compra a un electricista una caja, las cajas creo que tienen 10 térmicas bipolares más o menos 8 lista nos traían entonces le compro una caja, me toca inspeccionar a mi lo 1ero que hago yo ya me acuerdo que hay iluminación hay toma corrientes y después algunos elementos especiales y aparte una instalación que va la parte de bombeo y todas esas cosas, **siempre que uno presenta a través de un proyecto el tablero le voy a mostrar uno, bueno había una parte de un tablero que se hacen en sistema de alarma unifilar** después la gente que va en forma ordenada le voy a pedir una gauchada a veces, yo soy un tipo desordenado.
+
+La gente que tiene ordenada y más o menos encaminado el tema de la fotocopia si me pasan por si me olvidé alguna porque yo tanto hago macana que a veces mando cosas y a veces ya para que el que le falte imprimir, necesito tener una idea exacta, no ahora sino mañana o pasado así voy armando la carpeta de fotocopia para que algún día quede allá.
+
+Hay un diagrama que es el diagrama este, esto que está acá es un tablero seccional es un diagrama unifilar estamos? Este es para una obra que estamos haciendo una escuela y cada interruptor o cada parte que ustedes ven acá es la simbología del interruptor termomagnético y son estos, a veces lo que pasa es que **hay una empresa que le entregó al electricista todos los interruptores de la misma calibración, el puso todo de 20 amper y protegía solo la parte de los aires acondicionados porque el conductor que estaba acá era de 4mm^2 después tenía 1,5mm^2 y 2,5mm^2 y acá en 1,5mm^2 tengo que poner de 10(la térmica) y el de 2,5 tengo que poner 16(la térmica)**.
+
+Profesor le dice al electricista: No está aprobado, está mal.
+Electricista: Sí, pero la empresa me dió y yo tengo que poner lo que me dió la empresa.
+Profesor: Perfecto! Pero está mal, es un tablero que no protege a los conductores. No se aprobó, espero que se haya arreglado porque yo no puedo ir todos los días encima algunos lugares que son bastante lejos, me manda una foto y bueno a veces **me manda la foto y ni se ve las características y la nomenclatura yo supongo que está bien**.
+
+A lo que voy es que hay que prestar atención, nosotros somos los electricistas y los montadores si instalamos solo para que emprolijemos los cables y después el día de mañana cambiemos perfecto, entonces el tipo o el instalador ya me dice eso no está terminado se puso directamente para ver como queda terminado el tablero, **pero las protecciones no son adecuadas, si me dice eso está perfecto, yo NO le certifico ese tablero está en incógnita y la próxima**, entienden ¿como es? Si yo apruebo algo que está mal, no sirve. Y si digo dentro de poco lo va a arreglar, tampoco me sirve porque hoy eso está mal, y si yo sigo aprobando porque **hay gente que quiere la certificación porque así empieza su forma de tratar de cobrar esa parte** entonces le estoy aceptando que está mal, si nunca el tipo cambia las termomagnéticas el problema es mío, ¿entienden?
+
+En síntesis si a ustedes les toca esa posibilidad el tipo le trae toda una marca linda y tiene todas las mismas características y no protege el conductor... Hermano... **O hagan firmar usted me trajo esta térmica, ud. me dió esto, esto no protege el conductor**. De vez en cuando los conductores se funden y los interruptores siguen contentos y no pasó nada y se fundió el...
+
+Veamos algo importante. **Si yo saco de 1,5mm^2 acá, de 2,5mm^2 o de 4mm^2 el mínimo conductor que alimenta por arriba el interruptor principal es de 4mm^2 si yo pongo más fino puede haber una corriente este no funciona y me quema el conductor acá, por más que esta barrita me permita a mi tener la posibilidad de tener 100 amper acá en la barrita**.
+Gustavo Barrientos: La bornera es solo para trifásico digamos?
+Profesor: No, este es el monofásico y hay trifásico en aquel.
+Gustavo Barrientos: Qué función cumple porque como está...
+Ayudante: Es para no hacer los puentes, los bucles de ahí arriba 
+Profesor: Hay una forma de hacer los bucles que permite la norma es hasta 2, o sea de acá 1,2 más que eso no. Después le voy a decir como se hacen los bucles todo ese tema. Y 2do como esto es un interruptor diferencial **hay gente que saca de acá no más entonces esto es un elemento de protección contra la vida humana entonces no me sirve sacar de acá porque voy a tener 3 o 4 salida ahí y me va a perjudicar mi interruptor está flojo lo que sea**. La idea acá es que esto: **la barra soporte las cargas, no este tampoco porque acá si yo hago bucle bucle acá este que está acá, el borner este me soporta las cargas de la suma de esta corriente más esta corriente, después vamos a ver mejor pero por eso aparecen los famosos peines que es como una regleta que va arriba que van en distintas fases y entonces vos le das alimentación a 1 térmica y le podes colocar el peine**. 
+
+Hay muchos elementos que me permiten hacer un buen tablero todo sale plata. 
+Cuanto más cosas y me facilite la instalación, mejor. Traeme un pedazo de cable.
+
+Pelado(Refrigeración): Te puedo hacer una preguntita? Hay como una mini bornera ahí después de la última térmica a la derecha, ¿qué es?
+Ayudante: Eso se llama **ojo de buey**.
+Pelado(Refrigeración): Ah para el neutro? (No).
+Profesor: Una bornera para que esto cuando yo ponga sepa que acá llega energía, entonces si vos metes el dedo por lo menos tenes cuidado, a veces hay... Pelame un poquito (al ayudante), a veces hay exposiciones y aparecen chicos de cualquier lado de cualquier escuela y quieren ver y la gente a veces toca, a esto le falta un plástico acá. Entonces la idea es que si tienen energía ya sepan que... Hay gente que le gusta meter la mano.
+Ayudante: Es curiosa.
+
+Bueno, ahi vamos. Si esto, él puede hacer un bucle. Fíjense viene la alimentación de acá, este es el principal vamos a abrirle acá un poquito, la idea acá principalmente es hacerlo fíjense ajusta acá, ahí no más entonces otra vez el puede hacer esa forma y le vamos a unir para que vean los bucles, esto no es lo mismo coso sino que es distinto para que ustedes vean como se hace un bucle.
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz-he3XRS0VXEkZSlTrRXSrk4psL9JQ1AF1saGbRoOnAVjAQn4gnOgk7n7jg-6QX0BAQqwMilnCgICmq4f7MX3MFsUV9_PCM5X2RPnzHkwOyhURqfGh_MNV0rACKPERCz3QIVnZcjjRjL4xNFDRyqWoJqyT4-Yl0Gf5tgCHqeL4pQsGm8kbL0uQoDKSv0/s4160/IMG_20250415_193247963.jpg)
+Pelado(Refrigeración): Sin bornera.
+Profesor(Espeche): Sin bornera, entonces lo que tengo que hacer es: coloco acá, coloco acá y coloco acá abajo, viene la alimentación de acá el interruptor diferencial va acá y hace el puente ahí, pero el puente tiene que estar unido así.
+Pelado(Refrigeración): No tiene que estar apartado.
+Profesor: No tiene que estar apartado. A veces vos ajustás...
+Pelado(Refrigeración): Dejas todo sobre la 1era.
+Sebastián Melgarejo: En la guía hay un bucle puede ser?
+Profesor: Sí, sí sí.
+Sebastián Melgajero: en el apartado de los NO hay muchísimos bucles más de 2 serían
+###### Los bucles tienen que estar continuos, podes hacer separados pero corres el riesgo 
+Profesor: Sí, eso es para que vean nada más que **si yo hago de esa forma los bucles tienen que estar continuos entonces apretan juntos y podés hacer separado pero tenes la posibilidad de que eso no ajuste bien entonces puede estar flojo tu bornera alimentando la otra parte** vos vas a hacer lo que está acá, entonces esa bornera puede estar floja y el elemento acá puede producir un impacto fluctuante que haga saltar el interruptor diferencial por eso  se hace de esa forma.
+Pelado(Refrigeración): **Todos los cables que alimentan todas las térmicas son del mismo milimetrage enttonces? Son todo de 4mm^2 ahí?
+Ayudante: Exactamente.
+Profesor: Yo le pongo todo 2**.
+Pelado(Refrigeración): **Y abajo va saliendo de acuerdo al conductor que yo necesito.
+Profesor: Exactamente. Yo hago así, el tablero lo hago directamente.**
+Pelado(Refrigeración): Que era? 4mm^2 para aires y 2,5mm^2 normal para...
+Profesor: 2,5mm^2 es para toma corrientes de uso general, y después para iluminación 1,5mm^2 porque consume menos **pero eso está simulado no más**.
+Ayudante: **Eso está simulado, eso tiene que ser térmicas separadas porque sino hace PUM**.
+Sebastián Melgajero: Claro. Esta es una térmica de 40.
+Ayudante: Eso es una térmica tetrapolar de 40.
+Profesor: Trifásica, lo que estoy tratando de que ustedes vean es como se hace el bucle sin cortar el cable. Siempre y cuando el cable también tenga un cierto grosor porque soporta todas las cargas el cable y trata de alimentación acá, **siempre tratan de que la salida del interruptor diferencial o de cualquier térmica sea solo un conductor** (Hora 01:08:52).
+
+Todo lo que vimos ayer: agrupación de conductores, cañerías, todas esas cosas que vamos a hacer práctico, quería revisar lo que tengo allá porque hay un depósito allá tras.
 
 ---
 
-Minuto 49
+(Hora 01:08:52). 
