@@ -7,6 +7,7 @@ tags: [electricidad]
 ###### Audio en Vocaroo:
 https://vocaroo.com/12GLRDtU5Q3l
 ###### Audio en Archive.org: 
+https://archive.org/details/record-130
 ###### Audio en YouTube:
 https://www.youtube.com/watch?v=RGpyUyUOR3I
 ###### Video produciendo un corto circuito en la clase y cortando la luz(salta el disyuntor):
