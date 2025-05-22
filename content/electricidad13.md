@@ -22,7 +22,7 @@ https://archive.org/details/aea-770
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_UXMuiyLP783LHQnNpmTFIH6ntcYBlPxPXAOAwaJRFa7-9Syb1ETA_zqI9I0myqGAss0Z-4jzlEvJchyGDh2j7nzKGLzRJ74sjIp7DH4PDBI7yyfC94Hzm5ujuscK8Xa7MKvnKfiSx7mAyIeYTP0Yp9wgaJLprSPdfeARRBvGLe8WPlpWOTSN67PN2DI/s4160/IMG_20250415_194559822.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwUl1X5evLowOWEUQBCQ4X7GxqylBu-f-8g2OvLTvvKoZjkw59gCejGIbaJ_yoVEes5N_slzIONmv1kySzRZSs62T4yVeT5-QnPrh9s4UkgqS7IQuXKzOUEnVRq63lIeBmnOPpS335VA_52G5mZ7AaS58EOX8tma5t7Ammo4D5qri9FJWzlaeCxyAHamw/s4160/IMG_20250415_194547801.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz-he3XRS0VXEkZSlTrRXSrk4psL9JQ1AF1saGbRoOnAVjAQn4gnOgk7n7jg-6QX0BAQqwMilnCgICmq4f7MX3MFsUV9_PCM5X2RPnzHkwOyhURqfGh_MNV0rACKPERCz3QIVnZcjjRjL4xNFDRyqWoJqyT4-Yl0Gf5tgCHqeL4pQsGm8kbL0uQoDKSv0/s4160/IMG_20250415_193247963.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOgaz7CIfG9pX3L86-dG-qJ100rXsS1KwRmEsuCsOs42c3au7GTvCW0LjMcq2yvedTnK4v1FN8KNWoHsfhHWzP26X-Q5QgJqE6H41miAOUiNY3p0u8dQrX7OMrntr42Lex7tKen0ftv04hx2osrJ2RnjeDT7PVhCXQdW3sF_UVRFlHmQBDXmoO8t62cTo/s4160/IMG-20250415-WA0007.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjomWoTcj_ySbkdOhOeMFTSxt-vXnRwZjw6Ic_THs0EcW8VM0EO9kiCi-c0-Hnbf_BaMKYYPWdKu3ywrKVP_0FZLoFTQ83rUygt3fp2XTsk1m9hn-OX8v-G8qCbjAlvUZ5nMzDfyEwYMuMwHYFuUBZIghRKjxvpc2l_IIbxlq9P3PUAcer8OtxWPyQZ0Zw/s1600/IMG-20250415-WA0007.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeoPnlZ-5vPcM4XBSVV2ryQumYWiEndT__i-5SGIgboEnFhj6M01KfpM8ClLJFiWn2IN81d6SHKqrm_9wxVbACuansiJVs3tUPJQn-3jUnKTsoLAcFDIX344RF-D9uBiavPjhol835S1QbMTK646SH0iTgf-P22Z_YRFyMrm6jZG9wkeS6ROrxH_XXZf8/s4160/IMG_20250415_200803401_flipped_leiva.jpg)
 
 #### Transcripción
@@ -355,9 +355,26 @@ Profesor: No, se pone cable canal ya ranurado acá en esta parte, después le vo
 Ayudante(Alejandro): Se usa este cable canal pero tiene todos. Todo esto gris que vos ves, todo esto es cable canal.
 
 \* Ayudante y profesor hablan juntos a la vez y no se entiende (Hora 01:21)
+###### Habla sobre las térmicas de su casa, no escribí todo porque es irrelevante (Hora 01:23) 
 Alumna: Una consulta para una casa. ¿Cuántas térmicas?
 Profesor: Vos lo que tenes que saber lo mínimo, uno para iluminación, otro para toma corrientes que va a estar allá, uno para aires acondicionado o toma especiales, otro para ducha eléctrica.
+Alumna: Dentro de mi casa tengo el pabellón digamos atrás del medidor tiene una térmica.
+Profesor: Ese es el tablero general.
+Alumna: Bueno. O sea solo eso tiene ahí atrás y después como el medidor ya está en la esquina de mi casa. ¿?Ruido (Hora 01:22). El medidor no llega adentro y por ejemplo atrás del medidor tiene solo la... Y después arriba en el cieloraso ahí devuelta 1 que al bajar esa corto la iluminación de lo que es ¿?. Y después tengo otra llave (térmica) que es solo para la ducha y después cocina le pusieron de vuelta otra llave más que corta, yo bajo esa llave corta todo.
+Profesor: La cocina. Vos tenes arriba del tablero 
 
+
+Yo: Dejame ver la foto:
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjomWoTcj_ySbkdOhOeMFTSxt-vXnRwZjw6Ic_THs0EcW8VM0EO9kiCi-c0-Hnbf_BaMKYYPWdKu3ywrKVP_0FZLoFTQ83rUygt3fp2XTsk1m9hn-OX8v-G8qCbjAlvUZ5nMzDfyEwYMuMwHYFuUBZIghRKjxvpc2l_IIbxlq9P3PUAcer8OtxWPyQZ0Zw/s1600/IMG-20250415-WA0007.jpg)
+Ayudante: Estos grises son los que van adentro de los tableros.
+Yo: Ah, en vez de todo eso?
+Ayudante: No, eso está dentro de esto.
+Yo: Ah, entiendo.
+Ayudante: Pero como este está todo ranurado permite una correcta circulación tanto por abajo como arriba.
+Sebastián: Claro, tiene la tapita?
+Ayudante(Ale): Sí, vos sacas la tapa y ves eso y como ves acá bajo está todo ranurado, acá tiene una bornera de distribución, esto es otro elemento que se llama contactor y acá está el ¿? (Hora 01:25) y el seccionador, esto ya vimos
+Sebastian: Para ponerle luz?
+Ayudante: Esto es un tablero 
 
 
 
