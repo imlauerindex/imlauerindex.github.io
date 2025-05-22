@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 13. Siempre sacar una foto antes de tocar un tablero porque después te quieren echar la culpa. Catálogo INET cursos formación profesional. Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Si yo tengo una distancia menor que 5 metros directamente pongo disyuntor, sino tengo que poner un interruptor principal de cabecera porque hay una distancia muy grande y en ese trayecto puede haber un cortocircuito. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro. Transformadores TI para medir amperage. La puesta a tierra no es solo 1 conductor sino es todos los elementos la bornera el conductor que va abajo la jabalina, el acople, la cámara de inspección. Página 31 para allá. La fotocopia no tenía puesta a tierra. Empalmes por el suelo (botella de empalme) antes se hacía con gelatina hoy se saca del piso para hacer el empalme. Gente saca tapas costanera. Si yo tengo que unir un cable subterráneo lo tengo que unir pero mi caja de paso tendría que estar por lo menos a 30 cm del suelo y ahí hago la conexión con otro, no en la tierra. Electricista en vez de comprar un fusible NH nuevo, dejó 2 fases anduvo un tiempo hasta que se quemó. 1,5mm^2 térmica de 10. 2,5mm^2 térmica de 16. 4mm^2 térmica de 20. A un electricista la empresa te dió todas térmicas de 20 amper y no protegían los cables, Espeche no lo aprobó. En ese caso hay que hacer firmar a la empresa que trajo térmicas incorrectas. Se usa barra peine porque sino el borner este me soporta las cargas de la suma de esta corriente más esta corriente. Ojo de buey. Térmica tetrapolar de 40 trifásica. Todos los cables que alimentan todas las térmicas de arriba son del mismo milímetro (2mm^2 o 4mm^2) y se hace en forma de bucle sin cortar el cable. El radio por norma al hacer el doblez de los caños.  Una vez que fijo acá la caja y los caños, termino la mampostería, recién hago el cableado. No se permite las uniones o derivaciones de cables en el interior de los caños. Bornera de distribución."
+title: "Electricidad / Clase 13. Siempre sacar una foto antes de tocar un tablero porque después te quieren echar la culpa. Catálogo INET cursos formación profesional. Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Si yo tengo una distancia menor que 5 metros directamente pongo disyuntor, sino tengo que poner un interruptor principal de cabecera porque hay una distancia muy grande y en ese trayecto puede haber un cortocircuito. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro. Transformadores TI para medir amperage. La puesta a tierra no es solo 1 conductor sino es todos los elementos la bornera el conductor que va abajo la jabalina, el acople, la cámara de inspección. Página 31 para allá. La fotocopia no tenía puesta a tierra. Empalmes por el suelo (botella de empalme) antes se hacía con gelatina hoy se saca del piso para hacer el empalme. Gente saca tapas costanera. Si yo tengo que unir un cable subterráneo lo tengo que unir pero mi caja de paso tendría que estar por lo menos a 30 cm del suelo y ahí hago la conexión con otro, no en la tierra. Electricista en vez de comprar un fusible NH nuevo, dejó 2 fases anduvo un tiempo hasta que se quemó. 1,5mm^2 térmica de 10. 2,5mm^2 térmica de 16. 4mm^2 térmica de 20. A un electricista la empresa te dió todas térmicas de 20 amper y no protegían los cables, Espeche no lo aprobó. En ese caso hay que hacer firmar a la empresa que trajo térmicas incorrectas. Se usa barra peine porque sino el borner este me soporta las cargas de la suma de esta corriente más esta corriente. Ojo de buey. Térmica tetrapolar de 40 trifásica. Todos los cables que alimentan todas las térmicas de arriba son del mismo milímetro (2mm^2 o 4mm^2) y se hace en forma de bucle sin cortar el cable. El radio por norma al hacer el doblez de los caños.  Una vez que fijo acá la caja y los caños, termino la mampostería, recién hago el cableado. No se permite las uniones o derivaciones de cables en el interior de los caños. Bornera de distribución. Alumna pregunta sobre como mejorar instalación de su casa."
 date: 2025-04-15T22:15:25-03:00
 tags: [electricidad]
 ---
@@ -355,7 +355,7 @@ Profesor: No, se pone cable canal ya ranurado acá en esta parte, después le vo
 Ayudante(Alejandro): Se usa este cable canal pero tiene todos. Todo esto gris que vos ves, todo esto es cable canal.
 
 \* Ayudante y profesor hablan juntos a la vez y no se entiende (Hora 01:21)
-###### Habla sobre las térmicas de su casa, no escribí todo porque es irrelevante (Hora 01:23) 
+###### Habla sobre las térmicas de su casa, no escribí todo porque es irrelevante y no se escucha bien (Hora 01:23). Más abajo está la síntesis hecha por el profesor.
 Alumna: Una consulta para una casa. ¿Cuántas térmicas?
 Profesor: Vos lo que tenes que saber lo mínimo, uno para iluminación, otro para toma corrientes que va a estar allá, uno para aires acondicionado o toma especiales, otro para ducha eléctrica.
 Alumna: Dentro de mi casa tengo el pabellón digamos atrás del medidor tiene una térmica.
@@ -363,6 +363,7 @@ Profesor: Ese es el tablero general.
 Alumna: Bueno. O sea solo eso tiene ahí atrás y después como el medidor ya está en la esquina de mi casa. ¿?Ruido (Hora 01:22). El medidor no llega adentro y por ejemplo atrás del medidor tiene solo la... Y después arriba en el cieloraso ahí devuelta 1 que al bajar esa corto la iluminación de lo que es ¿?. Y después tengo otra llave (térmica) que es solo para la ducha y después cocina le pusieron de vuelta otra llave más que corta, yo bajo esa llave corta todo.
 Profesor: La cocina. Vos tenes arriba del tablero 
 
+---
 
 Yo: Dejame ver la foto:
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjomWoTcj_ySbkdOhOeMFTSxt-vXnRwZjw6Ic_THs0EcW8VM0EO9kiCi-c0-Hnbf_BaMKYYPWdKu3ywrKVP_0FZLoFTQ83rUygt3fp2XTsk1m9hn-OX8v-G8qCbjAlvUZ5nMzDfyEwYMuMwHYFuUBZIghRKjxvpc2l_IIbxlq9P3PUAcer8OtxWPyQZ0Zw/s1600/IMG-20250415-WA0007.jpg)
@@ -374,10 +375,123 @@ Ayudante: Pero como este está todo ranurado permite una correcta circulación t
 Sebastián: Claro, tiene la tapita?
 Ayudante(Ale): Sí, vos sacas la tapa y ves eso y como ves acá bajo está todo ranurado, acá tiene una bornera de distribución, esto es otro elemento que se llama contactor y acá está el ¿? (Hora 01:25) y el seccionador, esto ya vimos
 Sebastian: Para ponerle luz?
-Ayudante: Esto es un tablero 
+Ayudante: Esto es un tablero cerrado con ¿? (Hora 01:25:54)
+
+Acá hay un pequeño problema (Hora 01:26:30) a ver como le podemos resolver a la señora eso.
+Daniela: Estas térmicas son para circuito 
+Profesor: Para circuito. El cuadradito ese, ahí se diferencia interruptor termomagnético de un diferencial el cuadradito ese. Vamos por partes, acá tenemos una compañera con un problema un poquito grave. Como lo resolvemos?
+
+---
+
+###### Profesor vuelve hablar de casa Daniela (como mejorar su instalación): Yo haré una síntesis de lo que ella me contó, después ella me va a decir si hablé de más.
+Ella tiene un medidor y atrás del medidor que tiene una pared tiene el tablero general dentro de la casa. Está? O sea que el tablero general, una termomagnética acá, después tiene... ¿Para la iluminación está arriba o donde?
+Daniela: Si arriba en el cielo raso.
+Profesor: Arriba del cieloraso que sería como este, colocó una térmica. Alguien le hizo eso que protege o que apaga eso y apaga la iluminación de una pieza y que más era?
+Daniela: La pieza y la sala.
+Profesor: La sala.
+**Gustavo Barrientos**: Alquilaban la pieza capaz jeje.
+Profesor: No, no.
+Ayudante(Alejandro): Ud. está hablando de procesar la información
+**Gustavo Barrientos**: No pagaban y le cortaban la luz.
+Profesor: Bueno, tiene una térmica acá arriba del coso y vos cortas y corta iluminación y sigo. Llega a la cocina que está acá y tiene otra térmica, capaz que está arriba también, protege la cocina. Un poquito más abajo?
+Daniela: Sí.
+Ayudante(Alejandro): O sea esa si se puede llegar?
+Daniela: Sí esa sí.
+Profesor: Bueno, esa protege o sea corta toda la cocina. 
+Ayudante(Alejandro): Todo, todito? Luces todo?
+Daniela: Sí, de la cocina, solo la cocina.
+**Gustavo Barrientos**: Un plomero le hizo.
+Profesor: Después sigue sigue sigue, **se va al baño y tiene una térmica que corta la ducha**.
+**Gustavo Barrientos**: Como llave de paso no es? Un plomero le hizo profe.
+Benavidez(Pelado/Refrigeración): La de la térmica de la ducha es re común.
+Profesor: Vamos a ver como corregimos eso. Como debería hacer ella la instalación 1ero antes de avanzar en eso tenemos que ver, como tengo la iluminación si tengo cañería o así con cableado no más?
+Daniela: No, solo cableado.
+Profesor: Solo cable no más?
+Daniela: Sí.
+Ayudante(Alejandro): Ahí ya estamos en problemas.
+Profesor: No, me preocupa...
+Ayudante(Alejandro): Los roedores.
+Profesor: No, me preocupa principalmente el esfuerzo que voy a tener va a ser ducha acá, si está esto es machimbre lo que sea y puede haber una sobrecarga, si tengo solo cables ahí arriba y una sobre carga o algo que pase ahí arriba.
+Benavidez(Pelado/Refrigeración): El empalme en el machimbre.
+Daniela: Por ejemplo yo mandé a cambiar todo, el sector de lo que es ducha porque tenía todo con cable de 2,5mm^2 yo mandé a cambiar todo 4mm^2
+Profesor: De donde?
+Daniela: Desde el pilar.
+Benavidez(Pelado/Refrigeración): **Pero ahí va la llave, no en el baño sino no te cuida la línea.**
+Profesor: Sí, por eso.
+Daniela: Bueno, pero el resto está con cable de 2,5mm^2
+Profesor: Podemos mejorar cuando vos ves no hay problema.
+###### Daniela quiere cambiar todo a 4mm^2 pero no es necesario.
+Daniela: Mi intensión es... Yo compré ahora ya la mitad de lo que más o menos me dijieron la cantidad de cables que tengo que comprar de 4mm^2, o sea mi idea es hacer toda la instalación con cable de 4mm^2 o es mucho?
+Profesor: Es mucho. Si queres pone pero no te sirve de nada. Lo que sí me interesaría, **vamos a suponer que el tipo tiene acá el tablero seccional o el tablero principal detrás del medidor y este yo saco alimentación a la ducha allá y a la salida de ese de 4mm^2 tenga la térmica eso para tu ducha que proteja todo ese trayecto porque si está allá arriba, está allá arriba va a estar al lado de la ducha ahí, ¿qué pasa ahí?**.
+Benavidez(Pelado/Refrigeración): Toda la línea queda descubierto.
+Profesor: Esa línea no va a tener sobrecarga pero acá lo único que te sirve es para parar y prender la ducha eléctrica en caso de que yo quiera cambiar nada más, no me sirve para nada. O sea esta sección necesito proteger, y si no tengo cañería puedo tener un problema, se puede incendiar.
+###### Por lo menos usar cable taller para esconder los cables
+Benavidez(Pelado/Refrigeración): Cable taller de 4.
+Profesor: Sí, cualquier cosa pero no UNIPOLAR.
+Leticia Botolli: O un corrugado blanco (es más caro).
+Profesor: O lo que sea.
+Ayudante(Alejandro): **Algo que separe tu cableado de tu cieloraso**.
+Profesor: De tu cieloraso, esa es la idea. Eso primero, siempre hay que pensar el punto más critico y donde yo puedo tener una sobrecarga más rápido que cualquier otro lado de la instalación, estamos?
+Benavidez(Pelado/Refrigeración): La ducha. La cocina.
+Profesor: La ducha eléctrica. Seguimos, si vos tenes todo separado los circuitos y tengo las térmicas acá arriba, no sé como voy a apagar en caso de emergencia, voy a tener que traer una escoba porque tengo que subir rápido no puedo tener ahí (arriba), como te puedo decir.
+Ayudante: Un elemento crucial de seguridad, algo que te protege a vos y a tu casa no puede quedar.
+Profesor: Es peligroso. **O sino poné una escalera cerca ya**.
+Benavidez(Pelado/Refrigeración): Y la humedad del baño.
+Profesor: Ese es la parte de iluminación de 1 dormitorio y el comedor y después me queda el tema de la cocina lo ideal es que todo ese tablero o toda la alimentación esté acá.
+Leti Botolli: Todo en un mismo lado.
+Profesor: todo en un mismo lado, por eso lo ideal es después hacer el tema de canalización, cualquier problema que vos tengas y cajas de paso en caso que tengas derivación tengo una caja ahí para poder hacer los empalmes lo que sea si vos tenes todos los cables por arriba y no tenes la posibilidad de tener tipo una entrada de hombre ahí porque yo te digo si dejo los cables arriba así como está en principio puedo tener sobrecarga, tengo peligro también, puede haber una rata también ahí arriba, entonces lo mínimo que trataría de hacer, con menos gasto posible y **compro un corrugado de 3/4 o 7/8 que viene en rollo de 100 pongo arriba y después paso el conductor no sé como tengas las cajas acá**, traeme una cajita.
+Leiva: Pero lo que pasa es si ya está el cieloraso es difícil sacar el cieloraso o sacar el techo(XD) para meter el corrugado.
+Profesor: No, está bien.
+Benavidez(Pelado/Refrigeración): Como te metes a laburar?
+Profesor: No, no por eso te digo.
+Leiva: Y la otra esa que es aplastadita? 
+Profesor: Ese es cable canal, pero antes de poner eso yo prefiero poner el rígido.
+Leiva: El corrugado?
+Profesor: No, el caño rígido.
+Benavidez(Pelado/Refrigeración): Para la ducha?
+Profesor y ayudante: No, para todo.
+Profesor: Para todo porque toda la instalación de ella está con ese problema antes que sigamos, me gustaría esto no es en forma despreciativa pero a veces para **solucionar un problema tratá de que todas las partes importantes sacar una foto y después vemos**. Yo te voy a enseñar como bosquejar aunque sea con cuadraditos para que veamos como está la alimentación entonces podemos bosquejar y hacer a través de un bosquejo lo que se debería hacer. A veces es importante que todos tengamos una idea y una visión de que es lo que necesitamos para mejorar esa instalación nada más que eso, no es para criticar porque uno nunca puede saber como está otra casa. Igual que tenía el tablero él, la idea acá es que todos veamos la solución y pensemos cuál es la solución más económica siempre y lo más segura. 
+###### Sacá la foto y después y te voy a enseñar a como a través de un simple rectángulo empezas a ver la pieza.
+Es decir, yo tengo la línea municipal acá y puede estar tu casa sea cuadrada lo que sea, acá puede estar el medidor y acá tu tablero general. Después tengo que ver si esto es dormitorio, el otro el living lo que sea, y después tengo que ver el baño, la cocina , todo en forma solo esquemática uno ya va averiguando como es la instalación y como podíamos mejorar eso, sacá la foto y vamos a hacerlo. Y ustedes pueden ser contratados por una persona para que le solucione ese tema, de acuerdo a la economía uno puede hacer por partes, pero siempre tratando de centralizar toda la parte de protección, yo pongo por separado y... No sé lo que pasa ahí arriba pero yo sé que sale de acá con este elemento de protección, tengo la seguridad de que por lo menos cualquier problema de sobrecarga por cortocircuito esto salta.
+Mandá en el grupo de WhatsApp, agarrá un papel y escribí más o menos.
+Benavidez: Como es el plano de la casa.
+Profesor: Claro, así tipo bosquejo porque eso de tener el interruptor allá arriba es problemático.
+Ayudante: Eso si no ví todavía, excepto la ducha.
+Profesor: **Fíjense después cuando veamos tablero lo ideal es que cualquier tablero que se coloque esté al alcance del ser humano** y no voy a dar medidas, porque la norma te da medidas, pero la visión es que este tablero mi visión sea la mitad de mi tablero entonces yo puedo mirar para arriba y para abajo, si esto está muy alto tengo que buscar un elemento para subir.
+Botolli: yo decido bajar esa térmica, ahí ¿tengo que hacer un empalme tengo que poner una cajita para hacer el empalme?
+Profesor: Tengo que tratar de centralizar todo los tableros cerca, acá.
+Botolli: O sea tengo 2 opciones o en la bajo (que ya es chamamé también) o hago un empalme con una cajita, ¿puede ser una cajita empotrada y ahí hago el empalme?
+Profesor: Sí, pero tenes que traer la alimentación acá acordate que ella tiene 3 lugares, 3 térmicas diferentes o sea acá en la cocina y allá. Si vos haces todo lo mismo en ese sentido bajas lo que sea, lo ideal es que todo eso se centralice acá.
+Daniela: Por ejemplo si compro corrugado para ponerlo, **yo puedo anular digamos los cables que van para arriba, el corrido que va por arriba del cieloraso sería y eso sacar uno nuevo pero digamos...**
+Benavidez(Pelado/Refrigeración): Por abajo. 
+Ayudante: Con cañería a la vista?
+Daniela: Anulando el que está arriba que no tengo la menor idea de como está hecho.
+Profesor: Claro, si si.
+Maru: Por afuera.
+Daniela: No, no no. Digamos así sería va por debajo pero por debajo pero con corrugado.
+Benavidez(Pelado/Refrigeración): De una. Por abajo.
+Profesor: École se puede, solo que **el corrugado lo que vas a tener que hacer es tratar de tensarlo lo más posible para hacerlo lo más prolijo**.
+Ayudante: Porque sino se forma mucha panza.
+Profesor: Que no quede tipo guirlanda. Es lo más barato.
+Botolli: Si vas a hacer exterior te conviene PVC.
+Profesor: Porque te va a quedar tipo guirnalda. Hay distintas formas de resolver estas problemáticas **la idea principal es que esa instalación esté protegida**. Ustedes cuando tengan el problema después van a tener que pensar como solucionar con el mínimo costo. **Lo ideal es que aprendan siempre de que todos esos elementos que ella tiene por separado esté en un lugar fijo y de ahí comande toda la instalación, eso es lo 1ero**.
+Una vez que ella **tenga todo definido después se ve si ella tiene entrada ahí arriba o no (entrada de hombre) si no tenes entrada** en algunos casos hay entrada de hombre, acá yo tengo entrada de hombre tiene una diferencia de casi 1,50 metros que uno puede ir gateando para allá.
+Benavidez: Te aguanta?
+Ayudante: Depende de tus clavadores, si tus clavador te aguanta, vos podes ir con extremo cuidado porque sino te vas para abajo.
+Benavidez: Uno que pese 30 kilos?
+Profesor: No, no a 80.
+Benavidez: Eh!?
+Profesor: Apostamos.
+
+
+
+
+ 
+
+
 
 
 
 ---
 
-(Hora 01:16:37). 
+(Hora 01:38:09)
