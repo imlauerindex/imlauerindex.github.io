@@ -10,7 +10,7 @@ https://vocaroo.com/1kU19ki9zqAq
 https://archive.org/details/record-116    
 https://ia801706.us.archive.org/27/items/record-116/Record-116.m4a   
 ###### Audio en YouTube:
-https://www.youtube.com/watch?v=WM68NVAzhX4
+https://www.youtube.com/embed/WM68NVAzhX4
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS5G2yZj1nnpafTdYAOA3ECcRbDrAoa7nVMtA6Yv43_7bNRsAI8NQRw0nBFYHnRgqI8tBFQFwAjFELbuDte-Fe7EYAOjVzZIOwtR_u-YfcRi71VMTEhxI0l9aRVg2Bqb9TGzNhyv-WXjQY_Xh8vxZwbHw7KqPbKxI818Vqb7ODa-k4k3xlTh0baloJqQ0/s4160/IMG_20250512_202932386.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcPSId_IOMci3xL-NrrPoIUeUfXyNSUs39cY5_JFscUEKRF1_k7o4np_Sz76fZhWJBIKRBlf3poy8JtGn6XBnmfy4Jlnt9Fcr6Nob9lVIdJU0WxPsoRXKeOn4i-K7JYV03_x1h21430CvV3eKXcywFJCbHpR5FJC3lx3_zAMaBJ3ymVG_5mIygnKR2XSs/s4160/IMG_20250512_202925091.jpg)

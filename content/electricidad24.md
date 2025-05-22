@@ -11,7 +11,7 @@ https://archive.org/details/record-120
 https://archive.org/download/record-120/Esquema_electrico_basicos.pdf     
 https://archive.org/download/record-120/Record-120.m4a     
 ###### Audio en YouTube:
-https://www.youtube.com/watch?v=7A9KfRLb5Gg    
+https://www.youtube.com/embed/7A9KfRLb5Gg    
 
 Esto según el profesor Espeche es lo que no se debe hacer: un puente. **Mejor pelá el cable de la fase arriba y luego hacé una unión T para darle la fase al interruptor de abajo**.
 

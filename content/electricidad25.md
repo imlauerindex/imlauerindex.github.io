@@ -9,7 +9,7 @@ https://vocaroo.com/1oFkLIlf3v25
 ###### Audio en Archive:
 https://archive.org/details/record-123
 ###### Audio en YouTube:
-https://www.youtube.com/watch?v=tqZWy7K2TGA
+https://www.youtube.com/embed/tqZWy7K2TGA
 
 ###### Pasado por WhatsApp: Sistema de conexión eléctrica monofásico
 https://www.facebook.com/reel/996396798946461     
