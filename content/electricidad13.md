@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 13. Siempre sacar una foto antes de tocar un tablero porque después te quieren echar la culpa. Catálogo INET cursos formación profesional. Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Si yo tengo una distancia menor que 5 metros directamente pongo disyuntor, sino tengo que poner un interruptor principal de cabecera porque hay una distancia muy grande y en ese trayecto puede haber un cortocircuito. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro. Transformadores TI para medir amperage. La puesta a tierra no es solo 1 conductor sino es todos los elementos la bornera el conductor que va abajo la jabalina, el acople, la cámara de inspección. Página 31 para allá. La fotocopia no tenía puesta a tierra. Empalmes por el suelo (botella de empalme) antes se hacía con gelatina hoy se saca del piso para hacer el empalme. Gente saca tapas costanera. Si yo tengo que unir un cable subterráneo lo tengo que unir pero mi caja de paso tendría que estar por lo menos a 30 cm del suelo y ahí hago la conexión con otro, no en la tierra. Electricista en vez de comprar un fusible NH nuevo, dejó 2 fases anduvo un tiempo hasta que se quemó. 1,5mm^2 térmica de 10. 2,5mm^2 térmica de 16. 4mm^2 térmica de 20. A un electricista la empresa te dió todas térmicas de 20 amper y no protegían los cables, Espeche no lo aprobó. En ese caso hay que hacer firmar a la empresa que trajo térmicas incorrectas. Se usa barra peine porque sino el borner este me soporta las cargas de la suma de esta corriente más esta corriente. Ojo de buey. Térmica tetrapolar de 40 trifásica. Todos los cables que alimentan todas las térmicas de arriba son del mismo milímetro (2mm^2 o 4mm^2) y se hace en forma de bucle sin cortar el cable. El radio por norma al hacer el doblez de los caños.  Una vez que fijo acá la caja y los caños, termino la mampostería, recién hago el cableado. No se permite las uniones o derivaciones de cables en el interior de los caños."
+title: "Electricidad / Clase 13. Siempre sacar una foto antes de tocar un tablero porque después te quieren echar la culpa. Catálogo INET cursos formación profesional. Usar el tester para saber cuál es el neutro si es del medio o el de afuera en el medidor monofásico. Si yo tengo una distancia menor que 5 metros directamente pongo disyuntor, sino tengo que poner un interruptor principal de cabecera porque hay una distancia muy grande y en ese trayecto puede haber un cortocircuito. Tiene 4: 2 entradas y 2 salidas. Entra hasta 35 mm^2 de diámetro. Transformadores TI para medir amperage. La puesta a tierra no es solo 1 conductor sino es todos los elementos la bornera el conductor que va abajo la jabalina, el acople, la cámara de inspección. Página 31 para allá. La fotocopia no tenía puesta a tierra. Empalmes por el suelo (botella de empalme) antes se hacía con gelatina hoy se saca del piso para hacer el empalme. Gente saca tapas costanera. Si yo tengo que unir un cable subterráneo lo tengo que unir pero mi caja de paso tendría que estar por lo menos a 30 cm del suelo y ahí hago la conexión con otro, no en la tierra. Electricista en vez de comprar un fusible NH nuevo, dejó 2 fases anduvo un tiempo hasta que se quemó. 1,5mm^2 térmica de 10. 2,5mm^2 térmica de 16. 4mm^2 térmica de 20. A un electricista la empresa te dió todas térmicas de 20 amper y no protegían los cables, Espeche no lo aprobó. En ese caso hay que hacer firmar a la empresa que trajo térmicas incorrectas. Se usa barra peine porque sino el borner este me soporta las cargas de la suma de esta corriente más esta corriente. Ojo de buey. Térmica tetrapolar de 40 trifásica. Todos los cables que alimentan todas las térmicas de arriba son del mismo milímetro (2mm^2 o 4mm^2) y se hace en forma de bucle sin cortar el cable. El radio por norma al hacer el doblez de los caños.  Una vez que fijo acá la caja y los caños, termino la mampostería, recién hago el cableado. No se permite las uniones o derivaciones de cables en el interior de los caños. Bornera de distribución."
 date: 2025-04-15T22:15:25-03:00
 tags: [electricidad]
 ---
@@ -330,7 +330,34 @@ Profesor: Vos metes el cable así.
 Pelado(Refrigeración): O sea que si tengo un trifásico tengo 3 arriba y 1 abajo.
 Profesor: No no, están en escalera. Así mirá, están en escaleras así vos pones el cable.
 Benitez(Pelado/Refrigeración): Presente!
-Profesor: Esto va así, al revés, entonces vos conectas el cable acá, va a entrar acá y acá y es
+Profesor: Esto va así, al revés, entonces vos conectas el cable acá, va a entrar acá y acá y es casi en el neutro.
+Benitez(Pelado/Refrigeración): Tiene que laburar una resistencia a la vez.
+Profesor: Así todo, esta barrita puede llegar hasta 100 amper por eso es que el más grande, ahora vamos a ver acá va a tener alimentación, derivación, tiene 6c estos son los 7 módulos, que acá vos podes sacar, 6 alimentaciones.
+Benitez(Pelado/Refrigeración): Para 1,5mm^2 
+Profesor: 10 (térmica)
+Benitez(Pelado/Refrigeración): Para 2,5mm^2 
+Profesor: 16 (térmica)
+Benitez(Pelado/Refrigeración): Para 4mm^2 
+Profesor: 25 (térmica)
+
+Bueno, siempre la idea mía es que cualquier pregunta que me hagan yo respondo para todos aparte para el señor.
+
+##### Bornera de distribución: Alimentar por abajo y salir por abajo, está en escalera para que pueda introducir el cable, en este caso tiene un terminal TIF ahí vaya por abajo y pueda sujetar.
+Para que ustedes vean esto es un distribuidor monofásico, fase y neutro y este es un trifásico: 3 fases y neutro sería el de arriba, siempre van a ver este 1 de 7 polos o sea que tiene 7 agujeros acá, el medio es de mayor diámetro porque siempre es alimentación, alimentación que mide en algunos casos un interruptor diferencial si ustedes ven allá también, un interruptor diferencial. **Siempre este es una bornera distribuidora(distribuidor) entra por abajo y sale por abajo** si ustedes ven el error ahí (una foto al fondo de la clase) el tipo que hizo fíjense donde está el quilombo acá: alimentó por arriba (esto está prohibido), **TIENE QUE ALIMENTAR POR ABAJO Y SALIR POR ABAJO y están en escalera, las escaleras de la bornera sirve para que yo pueda introducir el cable en este caso tiene ya un terminal TIF ahí, vaya por abajo y pueda sujetar**, tengo la posibilidad de entrar el cable ponerle ahí y ahí y después el último entra. Es lo que ven allá, para que vean como se usa, en otras palabras para que vean de atrás como está o sea que esto está fijado en RIEL LINK pongo soporte y tengo que colocar. A veces trabajo con...
+Rubén Leiva: Eso servía como bornera no más?
+Profesor: Como bornera es un **distribuidor se llama**.
+Rubén Leiva: Ahí ud. bornera para monofásico y para trifásico
+Profesor: **Distribuidor**. Entonces vos podes tener la alimentación principal que sale generalmente un interruptor diferencial, y después tengo 3 orificios de un lado y 3 orificios del otro para alimentar mis térmicas que yo quiera. Esto en gran escala pero yo quiero mostrarle es que tengo un elemento que me puede hacer de uso factible y poner la alimentación para cada termomagnética.
+
+Si uno quiere trabajar en forma no tan prolija pone cable canal ahí.
+Benavidez(Refrigeración): Pero y la temperatura? 
+Profesor: No, se pone cable canal ya ranurado acá en esta parte, después le voy a mandar un tablero con esas características. Acá por ejemplo, entonces directamente va abre el cable canal y va poniendo los conductores ahí.
+Ayudante(Alejandro): Se usa este cable canal pero tiene todos. Todo esto gris que vos ves, todo esto es cable canal.
+
+\* Ayudante y profesor hablan juntos a la vez y no se entiende (Hora 01:21)
+Alumna: Una consulta para una casa. ¿Cuántas térmicas?
+Profesor: Vos lo que tenes que saber lo mínimo, uno para iluminación, otro para toma corrientes que va a estar allá, uno para aires acondicionado o toma especiales, otro para ducha eléctrica.
+
 
 
 
