@@ -109,8 +109,10 @@ sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
 ```
 
 ```bash
-pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks qtbittorrent v4l-utils unrar unzip qbittorrent kdenlive extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric texlive-fontsextra extra/texlive-fontsrecommended evince extra/texlive-langspanish cacafire dolphin kio-gdrive wget acpi telegram-desktop festival espeak-ng speech-dispatcher libreoffice tree
+pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks qtbittorrent v4l-utils unrar unzip qbittorrent kdenlive extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric texlive-fontsextra extra/texlive-fontsrecommended evince extra/texlive-langspanish wget acpi telegram-desktop festival espeak-ng speech-dispatcher libreoffice tree rclone inetutils zram-generator bc
 ```
+###### Para ver todos los paquetes instalados 
+https://github.com/rezadoz/pacdump/
 
 En el archivo (Control+Alt+R para leer texto desde Firefox).
 ```bash
@@ -1037,3 +1039,10 @@ More information: <[https://man.archlinux.org/man/pacman.8](https://man.archlinu
 ### Eliminar paquetes hérfanos
 `sudo pacman -Qdtq | sudo pacman -Rns -`
 
+---
+
+### Ver todos los paquetes instalados
+ pacman -Qe
+
+
+Estos son todos mis paquetes (mezclando AUR y repositorio oficial): `acpi aichat alsa-utils base base-devel bc bridge-utils btop chawan-git dnsmasq dosfstools efibootmgr espeak-ng evince fastfetch festival fim firefox fish floorp-bin foot freetube-bin gimp git grim grub hugo imagemagick inetutils iptables-nft irssi jq kdenlive lib32-mesa libguestfs libreoffice-fresh libvirt linux linux-firmware man-db man-pages mpv mtools neomutt networkmanager noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra obs-studio os-prober pipewire pipewire-pulse plocate python-pip qbittorrent qemu-full qt5-wayland qt6-wayland rclone samba smtube speech-dispatcher sway telegram-desktop texlive-fontsextra texlive-fontsrecommended texlive-langspanish texlive-latex texlive-latexextra texlive-plaingeneric thunderbird tmux tor tor-browser-bin torsocks translate-shell tree unrar unzip v4l-utils vim virt-manager w3m wget wine wl-clipboard wmenu xdg-desktop-portal xdg-desktop-portal-wlr yay yay-debug yt-dlp zram-generator`
