@@ -1046,3 +1046,5 @@ More information: <[https://man.archlinux.org/man/pacman.8](https://man.archlinu
 
 
 Estos son todos mis paquetes (mezclando AUR y repositorio oficial): `acpi aichat alsa-utils base base-devel bc bridge-utils btop chawan-git dnsmasq dosfstools efibootmgr espeak-ng evince fastfetch festival fim firefox fish floorp-bin foot freetube-bin gimp git grim grub hugo imagemagick inetutils iptables-nft irssi jq kdenlive lib32-mesa libguestfs libreoffice-fresh libvirt linux linux-firmware man-db man-pages mpv mtools neomutt networkmanager noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra obs-studio os-prober pipewire pipewire-pulse plocate python-pip qbittorrent qemu-full qt5-wayland qt6-wayland rclone samba smtube speech-dispatcher sway telegram-desktop texlive-fontsextra texlive-fontsrecommended texlive-langspanish texlive-latex texlive-latexextra texlive-plaingeneric thunderbird tmux tor tor-browser-bin torsocks translate-shell tree unrar unzip v4l-utils vim virt-manager w3m wget wine wl-clipboard wmenu xdg-desktop-portal xdg-desktop-portal-wlr yay yay-debug yt-dlp zram-generator`
+
+https://github.com/familyfriendlymikey/mpv-cut
