@@ -7,6 +7,7 @@ tags: [electricidad]
 ###### Audio en Vocaroo:
 https://vocaroo.com/1kdaJ3BdGrCz
 ###### Audio en Archive.org: 
+https://archive.org/details/record-136
 ###### Audio en YouTube:
 https://www.youtube.com/embed/_ZEMCV9rZlM
 
