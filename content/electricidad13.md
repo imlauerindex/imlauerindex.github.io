@@ -592,9 +592,24 @@ Hablan de los cables.
     
 Botolli: Profe le cambié la fase por el neutro y anda mi potenciómetro del ventilador.
 Sebastián: Cortaste toda la zona 1ero?
-Botolli: Siempre. Ahora anda el potenciómetro. Igual es muy sutil capaz que ya está jodiendo el potenciómetr.
+Botolli: Siempre, siempre. Ahora anda el potenciómetro. Igual es muy sutil capaz que ya está jodiendo el potenciómetro.
 Sebastián: Capaz compras una barato.
-Botolli: Sí sale 5000 
+Botolli: Sí sale 5000 creo, como se llama el modelo? Carteno algo así
+Profesor: Hay unos que son modulares
+Botolli: Ese si ese es.
+Profesor: Después el otro que tiene ese es electrónica, después tiene el otro en la cajita.
+Botolli: No, ese ya no tiene.
+Profesor: Después se cambia la resistencia
+Yo: Ese plástico(del potenciómetro del ventilador) se me derritió porque siempre lo uso a baja velocidad.
+Profesor: Claro, porque vos estás usando con la mayor cantidad de resistencia posible y si es generalmente chino eso tiene una carcasa ahí y si vos pones tu puño apretas ese potenciómetro no se tiene que mover tiene que ser fijo, y hay unos chinos que vos apretas y se va para adentro. Estos son de 4 paletas y los que vendían en la placita y ahí en Paraguay eran de 3 paletas y algunos una época eran solo acojinetes de bronce, estos algunos son los rodamientos entonces cuando es a **rodamiento el rulemán**.
+Botolli: Tuve que hacer cambiar los rulemanes, de 2 ventiladores un montón de plata.
+Profesor: Una época era solo con jinete de bronce entonces eso se desformaba y no había forma de reemplazarlo entonces giraba todo, **pero el mejor es a rodamiento**.
+Botolli: Si tenes que la posibilidad de cambiar.
+Profesor: La idea es tratar de solucionar eso y dar distintas formas de tratar de solucionar eso, ya sea con poca con mucha plata pero la idea es que todos piensen como se puede solucionar de la mejor manera posible. A qué voy yo? Yo siempre meto esto más adelante que a medida que vayamos avanzando la gente de su opinión de como podemos mejorar, y hay casos muy especiales para el sexo femenino, una vez estábamos en un lugar y yo siempre llevo a la gente que cada uno trate de buscar la mejor manera de como solucionar, yo explico 1ero que es lo que necesito hacer y la gente da su opinión y de todo ese grupo, era 8/9 lo que sea, y una señora dió en la tecla la forma más práctica de resolver un problema, a veces puede ser alguien callado pero prestando atención y después cuando ve un problema real se explaya y da una solución bastante buena, entonces eso me satisface explicar con más ímpetu algunas cosas. ¡Me sorprendió! Esa chica realmente porque pensé que no iba a dar en la tecla la solución, lo mismo que yo pensaba a ella se le ocurrió, todos podemos ver algunos o distintos problemas, la idea es conversar cuál es la solución más práctica, tarde o temprano se van a encontrar con algo parecido. 
+
+Yo no les puedo decir: "esto se hace así", se debería de hacer de esta forma aplicando las normas o dar una solución más práctica pero cada uno tiene su forma de pensar y su forma de resolverlo y más si es propietario tiene la forma de como resolverlo de apoco, en esos casos que yo tengo ahí los casos puntuales ¿dónde trato de resolver primero? **Los de mayor consumo, ¿dónde tengo el mayor consumo? En los calefones, en la ducha eléctrica, entonces ahí trato de resolver primero porque son los de mayor consumo.** Tarde o temprano ese circuito me va a ocasionar trastornos 
+
+
 
     
      
