@@ -111,9 +111,20 @@ sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
 ```bash
 pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks qtbittorrent v4l-utils unrar unzip qbittorrent kdenlive extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric texlive-fontsextra extra/texlive-fontsrecommended evince extra/texlive-langspanish wget acpi telegram-desktop festival espeak-ng speech-dispatcher libreoffice tree rclone inetutils zram-generator bc
 
+#### Neomutt
 sudo pacman --needed -S neomutt curl isync msmtp pass ca-certificates gettext goimapnotify lynx notmuch cronie mpop
-
 yay -S abook urlview pam-gnupg
+
+#### VirtualBox
+[I] esotericwarfare@arch ~> sudo pacman -S virtualbox
+resolving dependencies...
+:: There are 3 providers available for VIRTUALBOX-HOST-MODULES:
+:: Repository extra
+   1) virtualbox-host-dkms  2) virtualbox-host-modules-arch  3) virtualbox-host-modules-lts
+
+Enter a number (default=1): 2
+sudo pacman -S virtualbox-host-modules-arch
+
 ```
 ###### Para ver todos los paquetes instalados 
 https://github.com/rezadoz/pacdump/

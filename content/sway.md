@@ -27,6 +27,20 @@ exec --no-startup-id dbus-update-activation-environment --systemd WAYLAND_DISPLA
 exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DISPLAY
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway 
 
+assign [app_id="falkon"] → 3
+assign [app_id="telegram-desktop"] → 3
+assign [app_id="whatsie"] → 2
+assign [app_id="smtube"] → 2
+assign [app_id="thunderbird"] → 4
+
+exec falkon
+exec telegram-desktop
+exec smtube
+exec whatsie
+exec thunderbird
+
+
+
 
 bindsym --locked XF86HomePage exec firefox
 bindsym --locked XF86AudioPlay exec smtube
