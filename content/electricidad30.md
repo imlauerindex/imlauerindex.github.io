@@ -7,6 +7,7 @@ tags: [electricidad]
 ###### Audio en Vocaroo:
 https://vocaroo.com/1iHHSbiUXgm1 (hay partes en mute¿?)
 ###### Audio en Archive.org:
+https://archive.org/details/output_20250528
 ###### Audio en YouTube:
 https://www.youtube.com/watch?v=G2pvBLeibvw
 
