@@ -1,28 +1,7 @@
-[submodule "imlauera/public"]
-	path = imlauera/public
+[submodule "public"]
+	path = public
 	url = git@github.com:imlauera/imlauera.github.io.git
 	branch = master
-[submodule "imlauera/themes/themes/hugo-theme-stack"]
-	path = imlauera/themes/themes/hugo-theme-stack
-	url = https://github.com/CaiJimmy/hugo-theme-stack
-[submodule "imlauera/themes/hugo-theme-stack"]
-	path = imlauera/themes/hugo-theme-stack
-	url = https://github.com/CaiJimmy/hugo-theme-stack
-[submodule "imlauera/themes/themes/bare"]
-	path = imlauera/themes/themes/bare
-	url = git@github.com:imlauera/bare-hugo-theme.git
 [submodule "themes/bare"]
 	path = themes/bare
-	url = https://github.com/orf/bare-hugo-theme
-[submodule "imlauera/themes/bare"]
-	path = imlauera/themes/bare
 	url = git@github.com:imlauera/bare-hugo-theme.git
-[submodule "imlauera/bare-hugo-theme"]
-	path = imlauera/bare-hugo-theme
-	url = git@github.com:imlauera/bare-hugo-theme.git
-[submodule "imlauera/themes/themes/hugo-texify3"]
-	path = imlauera/themes/themes/hugo-texify3
-	url = https://github.com/michaelneuper/hugo-texify3.git
-[submodule "imlauera/themes/kidlat"]
-	path = imlauera/themes/kidlat
-	url = https://github.com/kidlat2024/kidlat
