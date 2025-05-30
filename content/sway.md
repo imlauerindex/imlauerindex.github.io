@@ -34,6 +34,7 @@ assign [app_id="smtube"] → 2
 assign [app_id="thunderbird"] → 4
 
 exec falkon
+exec foot
 exec telegram-desktop
 exec smtube
 exec whatsie

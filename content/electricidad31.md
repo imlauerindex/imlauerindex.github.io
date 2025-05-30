@@ -10,6 +10,9 @@ https://archive.org/details/record-139
 ###### Audio en YouTube:
 https://www.youtube.com/watch?v=K4Vo2P9882Q
 
+###### Documentos enviados a través de WhatsApp
+https://archive.org/details/2.-diagrmas-de-instalaciones-electricas
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMAb8SuwzJVR9k5031HzA5aNezrqV9Nyd8Jb81fUAcTKY9Nv-Xv3qk6HwmkDnY5BGHnOcgde1wTSCmPHhVRBFQBnU6OZ2DfaUAqAnB0CyUxWB-jrB9EqsNjfZt_4LvRyZJ-0j7LwOIM-ZMfCFDYAwz2UA_DPRUEDPATEicqMthr0kpgNubtjiFQsnJKCE/s4160/IMG_20250528_194938530.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUhfZ49To2WPY49tCOQJwqEbW5V0dza49adJb4qaH3VbV9Jr46Uub6xaBSojtBwgENUmXBLpIydntYdlhOufDgvdG3FCmtHevMUk-76_gENczxWIqyg4B66rsITpVz3us0M6GS6plDdFzOQugJhh90WvYbe_9YdcQPKkvAYqP43TgsTBMwZaqcSrGh8fY/s4160/IMG_20250528_200106007.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij4FyKbt8NxHZFRQQYrKoYHNupV6kE2QK2CU5XkkKOSF7IrXV1j52SejETrft7bxcy0z62D6FEAXThlKDdLrAHlzD-aYIIipNTFGrcoj_5eRvV8JAd0AV07NRuRHazHyE6s5qh-nOujQANwEB2G6K69W9Biy5B-rXjxMWU7Lp0te5rBERRVBDonoxHcwM/s4160/IMG_20250528_200117620.jpg)

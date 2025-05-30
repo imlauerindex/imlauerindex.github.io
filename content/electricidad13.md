@@ -607,7 +607,14 @@ Profesor: Una época era solo con jinete de bronce entonces eso se desformaba y 
 Botolli: Si tenes que la posibilidad de cambiar.
 Profesor: La idea es tratar de solucionar eso y dar distintas formas de tratar de solucionar eso, ya sea con poca con mucha plata pero la idea es que todos piensen como se puede solucionar de la mejor manera posible. A qué voy yo? Yo siempre meto esto más adelante que a medida que vayamos avanzando la gente de su opinión de como podemos mejorar, y hay casos muy especiales para el sexo femenino, una vez estábamos en un lugar y yo siempre llevo a la gente que cada uno trate de buscar la mejor manera de como solucionar, yo explico 1ero que es lo que necesito hacer y la gente da su opinión y de todo ese grupo, era 8/9 lo que sea, y una señora dió en la tecla la forma más práctica de resolver un problema, a veces puede ser alguien callado pero prestando atención y después cuando ve un problema real se explaya y da una solución bastante buena, entonces eso me satisface explicar con más ímpetu algunas cosas. ¡Me sorprendió! Esa chica realmente porque pensé que no iba a dar en la tecla la solución, lo mismo que yo pensaba a ella se le ocurrió, todos podemos ver algunos o distintos problemas, la idea es conversar cuál es la solución más práctica, tarde o temprano se van a encontrar con algo parecido. 
 
-Yo no les puedo decir: "esto se hace así", se debería de hacer de esta forma aplicando las normas o dar una solución más práctica pero cada uno tiene su forma de pensar y su forma de resolverlo y más si es propietario tiene la forma de como resolverlo de apoco, en esos casos que yo tengo ahí los casos puntuales ¿dónde trato de resolver primero? **Los de mayor consumo, ¿dónde tengo el mayor consumo? En los calefones, en la ducha eléctrica, entonces ahí trato de resolver primero porque son los de mayor consumo.** Tarde o temprano ese circuito me va a ocasionar trastornos 
+Yo no les puedo decir: "esto se hace así", se debería de hacer de esta forma aplicando las normas o dar una solución más práctica pero cada uno tiene su forma de pensar y su forma de resolverlo y más si es propietario tiene la forma de como resolverlo de apoco, en esos casos que yo tengo ahí los casos puntuales ¿dónde trato de resolver primero? **Los de mayor consumo, ¿dónde tengo el mayor consumo? En los calefones, en la ducha eléctrica, entonces ahí trato de resolver primero porque son los de mayor consumo.** Tarde o temprano ese circuito me va a ocasionar trastornos que ojalá que no sean de peligro, entonces ahí tengo que tratar de solucionar siempre depende de que plata dispongo. Todo eso me encanta cualquier problema vamos a tratar de resolverlo, manden fotos.
+
+Daniela: Antes yo no tomaba mucha conciencia del peligro, si sabes que puede prenderse fuego, justo le estaba comentando que en barrio nuestro hace 3 meses se quemó un supermercado grande del barrio completamente por un cortocircuito y ahí es cuando te das cuenta si uno entiende uno se amaña para hacer una conexión, pero teniendo más conocimiento te das cuenta de que tenes más conocimiento te das cuenta de que sí hay riesgo y ¿cuál es el riesgo? Hoy se te prende fuego la casa y te quedas sin nada y el conocimiento más nada en decir si hay riesgo, no es que paso el cable así no más y ya está. Hay riesgo en incendio, hay riesgo en que se queda alguien electrocutado, son cosas que uno no toma noción, no les prestas atención más que nada.
+Maru: A veces también es también por desconocimiento porque las veces que venía el (electricista) y hablaba en chino y cuando vienen a arreglar...
+Benavidez(Belado/Refrigeración): Google.
+Maru: Si pero yo siempre es bueno: me recomendó fulano y es mengano.
+Benavidez(Belado/Refrigeración): Pero no entendes una goma.
+Maru: No, no. Electricidad es una materia pendiente que tenía, o sea yo vengo acá y estoy así y ahora no llegué a leer bien muchas cosas pero no voy a estar ahí molestando a gente, pero uno no sabe qué preguntar más cuando no tenes mucho conocimiento.
 
 
 
@@ -619,4 +626,4 @@ Yo no les puedo decir: "esto se hace así", se debería de hacer de esta forma a
     
     
 ---    
-(Hora 01:47:30)    
+(Hora 02:03:00)    
