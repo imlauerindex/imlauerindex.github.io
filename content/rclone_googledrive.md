@@ -7,10 +7,10 @@ Una forma mucho más fácil y rápida de acceder a tu Google Drive es usando `rc
 
 https://rclone.org/drive/#making-your-own-client-id
 
-https://www.youtube.com/watch?v=f8K-V3HHDA0
+https://www.youtube.com/embed/f8K-V3HHDA0
 
 ###### Cifrar tus archivos de google drive:
-https://www.youtube.com/watch?v=bMfz0xT22-Y
+https://www.youtube.com/embed/_YnHU0dJn1E
 
 ```bash
 mkdir gdrive
