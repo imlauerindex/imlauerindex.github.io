@@ -3,6 +3,23 @@ title: "W3m uno de los mejores navegadores basados en texto con soporte de imág
 date: 2024-11-15T10:10:07-03:00
 tags: ['w3m']
 ---
+Agrega soporte sixel para poder ver imágenes con foot en wayland:
+1. Install dependencies:  
+`sudo pacman -S base-devel git libsixel`
+
+2. Clone the w3m repo:  
+`git clone https://github.com/tats/w3m.git && cd w3m`
+
+3. Configure with sixel:  
+`./configure --enable-image --with-imagelib=sixel`
+
+4. Build and install:  
+`make && sudo make install`
+
+Now you can run w3m -sixel to view images in foot.  
+Want a quick copy-paste script for all the steps? 😃
+
+---
 
 No tiene soporte de JavaScript, se puede usar con las vim keys.
 Si tenés instalado elinks, y w3m podés navegar a través de varias páginas sin problemas.
