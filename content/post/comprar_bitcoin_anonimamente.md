@@ -55,7 +55,7 @@ Es decir tenés que asegurarte que:
 1. El estado no tiene que saber que esa plata es tuya, si comprás a través de bancos online como binance, binance te pide datos personales para darselos al estado y cobrarte impuestos.
 2. Comprar en bancos está mal porque el banco tiene el poder de retener tu plata y el bitcoin se creó con el objetivo de destruir eso.
 3. La forma más anónima de comprar es comprarle a una persona usando efectivo o podés usar una tarjeta de débito/crédito pero es menos anónimo porque el banco puede ver que mandaste tanta plata a una cuenta bancaria.
-4. Tenés que ser muy cuidadoso la comprar por eso Monero es una mejor alternativa.
+4. Tenés que ser muy cuidadoso al comprar por eso Monero es una mejor alternativa.
 
 
 Según algunas personas el bitcoin es la medición de la estupidez humana, porque el bitcoin no está respaldado en ORO. Todas las personas creyeron el cuento sin fundamentos de que el bitcoin era una forma rápida de hacerse millonarios. El bitcoin vale mucho porque la gente compra y retiene, retienen porque creen que se harán millonarios pero esa creencia es la que hace que el valor suba.

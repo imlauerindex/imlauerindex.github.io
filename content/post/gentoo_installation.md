@@ -20,7 +20,7 @@ fdisk -l
 ```
 Hacemos el particionado con `cfdisk /dev/sda` o usando `fdisk /dev/sda`.
 
-Explicación sobre MBR(DOS) y GPT : https://youtube.com/watch?v=Ch9f7i0hj90 Basicamente si tenes un disco duro de mas de 3 gigas usa GPT pero si es de menos usa DOS, para UEFI tenes que usar GPT.
+Explicación sobre MBR(DOS) y GPT : https://youtube.com/watch?v=Ch9f7i0hj90 Basicamente si tenes un disco duro de mas de 3 teras usa GPT pero si es de menos usa DOS, para UEFI tenes que usar GPT.
 
 **Crea una particion de efi de por lo menos 300 megas, otra de swap de 4gb, y el espacio que sobra para ext4**
 

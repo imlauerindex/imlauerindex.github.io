@@ -1,5 +1,5 @@
 ---
-title: "¿PC lenta? Consejos"
+title: "Software y consejos al usar una PC de hace 20 años"
 date: 2025-05-29T17:45:24-03:00
 tags: ['informatica']
 ---
