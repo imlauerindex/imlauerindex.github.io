@@ -3,8 +3,8 @@ title: "Bisq2 en Arch"
 date: 2025-06-01T19:20:38-03:00
 tags: ['bitcoin']
 ---
-`yay -S bisq2` me da este eroror:
-```
+`yay -S bisq2` me da este eroror: **Falla porque necesitas la versión 21 de jdk** podes mirar la versión en uso con `archlinux-java status`
+```console
 Configuring project user
 
 > Configure project :daemon
