@@ -113,7 +113,12 @@ pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu 
 
 #### Neomutt
 sudo pacman --needed -S neomutt curl isync msmtp pass ca-certificates gettext goimapnotify lynx notmuch cronie mpop
-yay -S abook urlview pam-gnupg
+yay -S abook urlview pam-gnupg gallery-dl
+
+También instalá chawan (explicado en la guía de Gentoo).
+
+##### Letras para chawan.
+sudo pacman -S ttf-nerd-fonts-symbols ttf-font-awesome ttf-jetbrains-mono-nerd
 
 #### VirtualBox
 [I] esotericwarfare@arch ~> sudo pacman -S virtualbox

@@ -7,6 +7,28 @@ El setup mas minimalista que encontre:
 
 En `.bashrc` o `.zshrc` o `.config/fish/config.fish`:
 
+###### Usá w3m con `-sixel` para ver imágenes con foot.
+```bash
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
+
+
+set -U fish_greeting
+export QT_QPA_PLATFORM=wayland
+alias dgg 'w3m -sixel dgg.gg'
+alias f1 'bash scripts/f1exposure.sh'
+alias google 'cha -V google.com'
+alias 3dgames 'cha -V foros.3dgames.com.ar'
+alias wgoogle 'w3m -sixel google.com'
+alias tdgg 'w3m -sixel dgg.gg'
+alias imlauera 'w3m -sixel imlauera.github.io'
+alias cimlauera 'cha -V imlauera.github.io'
+alias invidious 'w3m -sixel https://inv.nadeko.net/feed/subscriptions'
+alias cinvidious 'cha -V https://inv.nadeko.net/feed/subscriptions'
+```
+
+
 ```bash
 alias upwork="falkon upwork.com"
 alias linkedin="falkon linkedin.com"
