@@ -11,7 +11,7 @@ https://archive.org/details/record-89
 ###### Audio en YouTube
 https://www.youtube.com/embed/4DZGSrwLy4o
 
-###### Leímos el catálogo GENROID en un Televisor
+###### Leímos el catálogo GENROD en un Televisor
 https://archive.org/details/catalogo-tubelectric
 
 ---
@@ -209,6 +209,7 @@ Esto está en todos que tienen celular. Fíjense lo que quiero mostrarle rápida
 Fíjense el tema de los accesorios como son las cuplas, las curvas, que utilizamos me permiten a mi, mostrame el resorte, cada caño tiene su resorte, el resorte debe ser 40 cm para doblar. Si puedo yo voy a comprar uno para que tengamos ahí, es para darle forma. **Eso trabaja en frío, eso es exclusivamente para caño LIVIANO si es caño grueso es difícil doblar, pero es para eso**.
 
 **Cajas de embutir.**
+
 Ahí le da la característica todas estas cajas que ustedes ven para embutir tienen este es para que no se quiebre, todas las pestañas tiene, esto son los **conectores que también tiene su correspondiente para cada caño**.
 **Las cajas estanco** es parecida a la caja cuadradas pero dominan estanco porque esto está en la interperie y tiene tipo un burlete directamente para que no pase el agua, por eso se dice estanco. Es para exteriores exclusivamente, hay gente que compró de más y lo hace internamente. 
 Ayudante: Allá por ejemplo hay una. La cuadradita allá arriba es una caja escanco.
@@ -216,11 +217,86 @@ Profesor: Mmmmm no.
 Ayudante: No?
 Profesor: No, generalmente cuando ustedes ven una caja escanco y es exterior fíjense que no tiene perforación.
 Leiva: No tiene la gomita porque está exterior.
+Profesor: Aquel **tiene perforación o sea la caja estanco generalmente es sellado entonces depende como tenga o para que necesiten ustedes a veces se hace los agujeros por abajo, entra el conductor y sale por abajo también entonces eso se utiliza para hacer estanco**.
+Maru: Eso es en encastre así o cavando?
+Profesor: NO esta hay que fijar, fijación ahí a la pared o donde quieras, o también se puede hacer tipo embutido.
+Maru: pero la tapa digamos es así?
+###### Cajas de estanco
+Profesor: **Si, se encastra primero y después se ajusta y después son los burletes que nos permiten que entre la...**
+Maru: para que quede aislada.
+Profesor: Exactamente, bueno sigamos no más. Arriba fíjense, nosotros generalmente cuando utilizamos tipos gabinete utilizamos mecha de copa, mecha de copa tiene distinto diámetro y nos permite a nosotros hacer los agujeros correspondiente a cada salida que tengamos, vamos a suponer aquello es un **gabinete tipo metálico entonces eso necesito si o si mecha de copa**. 
+
+La particularidad de este sistema de PVC es que tengo un tipo mecha triangular con distintas medidas icónico, entonces con ese mismo elemento yo puedo perforar distintos diámetros con una sola mecha y encima el material que estamos usando es PVC o sea que no hay ningún elemento que pueda perturbar porque hay gente que en algunos casos para la parte metálica y dura poco para 1 o 2 agujeros.
+
+Torres: En esa gotita es para pegar los...
+Profesor: Ese pegamento es para colocar, famoso poner una curva o un conector, este es el pegamento que queda duro. Ellos venden también este para fijación. Esta es unión entre 2 caños, fíjense esta es la cupla la unión y este es el conector que va directamente a una caja. 
+Samuel: Ese lleva pegamento la cupla o no?
+###### Las cajas no se tienen que mover ni para arriba ni para al costado. El profesor cuando inspecciona la obra golpea la caja si cerraron el cielo raso.
+###### Empujo si para arriba no sube es porque ya está fijo y si para el costado tampoco es porque está fijo*
+Profesor: La cupla no necesita pero podes hacerlo si queres, si vos fijaste tu boca o tu caja acá y tu caja acá no se va a mover entonces vos pones el conector pone el caño correspondiente para que no se mueva. Si vos no fijas tu caja es probable que... Para que ustedes entiendan **voy yo inspector de obra fijó la caja y ya me cerraron acá lo que hago es esto (toca la caja con un palo), la caja no se tiene que mover ni en este sentido ni en el sentido contrario**. Golpeo de arriba, me tiene que sujetar. Agarro cualquier palo porque a veces ya está cerrado el cielo raso de PVC entonces tengo que probar la caja como está, entonces **empujo si para arriba no sube es porque ya está fijo y si para el costado tampoco es porque está fijo**. A veces más cuando trabajamos con tema de cañería de hierro, vos hacías ese movimiento y se salía y quedaba el cable colgado ahí raspando entonces.... **TENÉS QUE FIJAR LAS CAJAS.** 
+###### TENES QUE FIJAR LAS CAJAS
+
+Hay distintas medidas de cajas de paso depende de lo que yo necesite. Vamos a ese **instalación integral, instalación eléctrica.** 
+En cualquier lugar de venta de materiales Genrod le dan todas las posibilidades para que ustedes más o menos tengan idea como se hace una instalación, tablero, bueno acá tiene el medidor pero el tablero principal y de ahí sale la alimentación fíjense toma por ejemplo, iluminación, ellos ponen esta medida como les puedo decir separada pero la realidad es que **yo puedo hacer las mismas cañerías y después hacer la distribución de conductores a los tomes no teniendo en cuenta distintas cañerías sino que por la misma cañería yo puedo pasar ahora cuando ustedes lean esa parte que le mandé por último YO PUEDO PASAR HASTA 3 CIRCUITOS POR CAÑERÍA ENTONCES PUEDO IR POR ARRIBA  Y BAJAR**. Acá lo que está mostrando directamente es donde tengo los tomas fíjense el tema de la sobremesada está un poco exagerado pero para que ustedes vean que tengo las bocas, cajas octogonales ahí y tengo el encendido miren, encendido acá aire acondicionado, mostrame un cachito ahí fíjense sigue sigue sigue, esto puede ser como caja de paso y este aire acondicionado.
+Samuel: Ahí está dividido el circuito para especial, cablevisión, tomacorriente.
+Profesor: École. Ahí también ellos especifican que el tablero que ellos tienen es de PVC. 
+Torres: NO dice ahí el presupuesto?
+Ayudante: Enfocate en el conocimiento 1ero, después la plata.
+Torres: Es para saber nada más Profe.
+Profesor: No, pero...
+Samuel: Cuando termina de aprender ya va a aumentar de vuelta.
+Torres: si por eso.
+Gustavo Barrientos: Yo puse en el grupo los presupuestos de los caños 
+###### Como calcular precio de instalación eléctrica (entrando en ElectroMisiones)
+Profesor: Si, acá **lo que hacemos 1ero es la lista de materiales y la lista de materiales es muy fácil entren en ElectroMisiones si yo sé que una caja octogonal lo único que no puedo ponerle ahí es decir no yo quiero una boca de iluminación, mentira es una caja octogonal esto**. Entonces si yo sé los materiales, entro ahí ya sé el precio de cada cajita, lo mismo sé los precios de la caja 5x10 entrando en ElectroMisiones ellos le van a dar precio consumidor final así que automáticamente con ese precio pueden ir sumando y le va a dar lo que sale la instalación eléctrica en materiales después mano de obra ya es distinto, encima tiene precio autorizado.
+
+Este sería otro tablero acá está el baño **a veces necesito un toma acá en el baño lo que quieran**, ahora está de moda esto: Fíjense acá esto es un espejo, ahora hay espejos con luces y vienen al tacto, **vos tocas el espejo y se prende**, todo moderno. 
+
+_Anecdota_: La otra vez estábamos haciendo un edificio y ya salió la decoradora: "yo quiero una boca ahí" y le digo ¿para qué? Entonces empiezo a leer que el espejo necesita una alimentación 220 la idea era siempre ponerlo arriba acá a 210 de donde tiene para poder ponerlo acá, ella también quería una boca acá y otra boca acá, pero de valde porque si pones esta boca puedo alimentar el espejo acá.
+
+Torres: Como está ahí, ahí tiene una boca arriba del espejo. Y arriba hay otra o no?
+Profesor: Acá. Este. Pero he visto eso, es algo moderno.
+Sebastián: Pero sería visible si tenemos la boca ahí que está embutida, ella quería por atrás (del espejo), pero podía ser así, seguramente no quería a la vista.
+Ayudante: Obvio que no.
+Profesor: Pero bueno ese, el tema es así el proyectista puede hacerlo de diferente manera yo no creo que todos si hay 20 departamentos todos tengan espejo (con luces), yo pondría otro espejo. O sea mi teoría en vez de un espejo invertiría en otra cosa, en un **lavatorio por ejemplo o un inodoro**, si ella quiere invertir en un espejo bueno es cuestión de uno.
+Maru: Por ahí un departamento para mujeres porque las mujeres necesitamos espejos.
+Profesor: No está bien no digo nada, pero con luces.
+Samuel: El tema es que el arquitecto presenta un proyecto y ese mismo proyecto lo replica en todos lados y ahí.
+Profesor: Ah che, ya pienso que es moderno entonces iba a tocar con el dedo no más.
+Ríen.
+Maru: Y el otro gabinete que está en el garage que posibilidad tiene? (Imágen de la presentación).
+Profesor: Está mostrando otro tipo de gabinete fíjense esto tiene la posibilidad de tener un vidrio, ustedes miran así en vez de tener el plástico que no se ve tiene un vidrio, entonces directamente la alimentación usted sabe sin abrir que interruptor está comandando la cocina, el otro el garage pero es para que vean que hay otros tipos de gabinetes, estos son metálicos, los otros son de plástico de PVC, que es el que está allá esos son de PVC.
+
+###### Hablan de las líneas de conductores de la imagen
+Es la misma característica con más cosas y esto que ven acá en rojo sería no es telefonía sino el portero comisor 
+Torres: Profe y el verde?
+Profesor: ese está mostrando toda la parte de tomacorrientes, está diferenciando los colores para que ustedes vean cuál es toma corriente cuál es iluminación. 
+
+**Hay tubos pero generalmente es caño, cuando ustedes vean tubos es caño** entonces ahí está EXTRAPESADO donde se usa con hormigón lo que sea, acá **semipesado ellos utilizan cuando tengo ladrillo hueco fíjense**
+Maru: puso la misma caladura de ladrillo, ahí le deja...
+Profesor: claro y trata de hacer más grande para poder hacer el sistema.
+Torres: Re prolijito.
+Profesor: Es cuestión de ahí se trabaja con computadora...No. Lo que quiero decir que en este caso uno marca y **con amoladora le puede hacer tranquilamente la ranura y después sacar la parte interna**
+Maru: Tiene que sacar solamente la parte de afuera, la otra ya tiene el ladrillo.
+Profesor: Claro, lo que pasa es que si yo no tengo un elemento eléctrico para hacer esto. Hay gente que tiene...
+Torres: Masa y cortahierro.
+Profesor: Masa y cortahierro. Entonces esto va a quedar todo medio un nido de ratas.
+Samuel: NO va a ser tan prolijo.
+Profesor: a veces sin querer pasa para allá porque le pegó tan fuerte que rompió el caño 
+Torres: Y después te dice pero si vos me mostraste una foto que iba a quedar así
+Samuel: Ahí te faltó mojar el ladrillo, por eso se abrió.
+Profesor: Si yo quiero hacer a la vista, ahí se ve perfectamente que hay grmapa de sujección fíjense a veces de diámetro 8 pero generalmente es de 6 o 8 el que está acá, si yo tengo que colocar esto a mi nunca me gustó más o menos porque yo perforo y después el capuchón o el tornillo de PVC se adhiere a la mampostería y ajusta pero para mí no es una buena sujección porque tampoco tengo el otro sistema el tarugo, esto no tiene tarugo. **Con taguro para mi es mucho mejor, esto directamente uno perfora y lo va metiendo y a veces se expande**.
+Maru: Pero en ese caso por ejemplo porque el ladrillo hueco es re vos le hacés así ya fue ya. Ahí presenta como para que por ejemplo le va a tener que terminar poniendo mezcla.
+Profesor: **Cuando terminamos el revoque grueso ahí recién entra la cañería de PVC sino entra la cañería para pasar la parte eléctrica, generalmente se hace la faja.** Entonces ya ponen la faja de un lado y del otro hasta un sector al otro y ya tengo donde tiene que ir cada cajita, y ahí puedo hacer el sistema.
+Profesor: Pero como fijo? La fijación más segura con ese tipo de grampa teniendo este sistema, o sea tengo que terminar la pared 
+Gustavo Barrientos: Ese para se va a ir exteriores.
+Profesor: Exterior. Ahora si encuentro una casa que hicieron tan perfecta el sistema de ladrillo a la vista de esa característica.
 
 
 
 
----
+
+--
 
 
 Minuto 46
