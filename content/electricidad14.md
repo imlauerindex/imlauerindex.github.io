@@ -285,12 +285,27 @@ Samuel: NO va a ser tan prolijo.
 Profesor: a veces sin querer pasa para allá porque le pegó tan fuerte que rompió el caño 
 Torres: Y después te dice pero si vos me mostraste una foto que iba a quedar así
 Samuel: Ahí te faltó mojar el ladrillo, por eso se abrió.
-Profesor: Si yo quiero hacer a la vista, ahí se ve perfectamente que hay grmapa de sujección fíjense a veces de diámetro 8 pero generalmente es de 6 o 8 el que está acá, si yo tengo que colocar esto a mi nunca me gustó más o menos porque yo perforo y después el capuchón o el tornillo de PVC se adhiere a la mampostería y ajusta pero para mí no es una buena sujección porque tampoco tengo el otro sistema el tarugo, esto no tiene tarugo. **Con taguro para mi es mucho mejor, esto directamente uno perfora y lo va metiendo y a veces se expande**.
+Profesor: Si yo quiero hacer a la vista, ahí se ve perfectamente que hay grmapa de sujección fíjense a veces de diámetro 8 pero generalmente es de 6 o 8 el que está acá, si yo tengo que colocar esto a mi nunca me gustó más o menos porque yo perforo y después el capuchón o el tornillo de PVC se adhiere a la mampostería y ajusta pero para mí no es una buena sujección porque tampoco tengo el otro sistema el tarugo, esto no tiene tarugo. **Con tarugo para mi es mucho mejor, esto directamente uno perfora y lo va metiendo y a veces se expande**.
 Maru: Pero en ese caso por ejemplo porque el ladrillo hueco es re vos le hacés así ya fue ya. Ahí presenta como para que por ejemplo le va a tener que terminar poniendo mezcla.
 Profesor: **Cuando terminamos el revoque grueso ahí recién entra la cañería de PVC sino entra la cañería para pasar la parte eléctrica, generalmente se hace la faja.** Entonces ya ponen la faja de un lado y del otro hasta un sector al otro y ya tengo donde tiene que ir cada cajita, y ahí puedo hacer el sistema.
 Profesor: Pero como fijo? La fijación más segura con ese tipo de grampa teniendo este sistema, o sea tengo que terminar la pared 
 Gustavo Barrientos: Ese para se va a ir exteriores.
-Profesor: Exterior. Ahora si encuentro una casa que hicieron tan perfecta el sistema de ladrillo a la vista de esa característica.
+Profesor: Exterior. Ahora si encuentro una casa que hicieron tan perfecta el sistema de ladrillo a la vista de esa característica porque hay gente que hace ladrillo a la vista de esta característica y tengan que hacer la instalación afuera y ahí ya me conviene buscar la forma ahí tengo que poner otro sistema que este sistema acá va a quedar flojo, ese sistema que pusimos recién, eso que ven acá queda flojo.
+
+Entonces ahí ya va un **sistema de tarugo distinto para ladrillo hueco que uno perfora y se expande y queda sujeto** es otra solución.
+Ayudante: O sea este pernito de acá no está fijo a la grampa, eso se puede sacar y colocar un tornillo y en la pared un tarugo y ahí si va a quedar flojo.
+Maru: Ah viene un tornillo especial para ladrillo hueco.
+###### Tarugo para abrazar el ladrillo hueco.
+Ayudante(Ale): Viene un tarugo. El tarugo general que se usa en ladrillo común se expande esta manera el otro el tornillo tiene que ser más largo que el tarugo porque ese al llegar al final se aplasta y genera una presión entre la grampa y la pared, al aplastarse se exparse a los costado y eso hace que **abrace al ladrillo hueco y no se salga para afuera**.
+Maru: O sea que se puede poner ese sobre ladrillo hueco sí.
+Ayudante(Ale): Sobre el ladrillo hueco sí. Se puede. 
+Profesor: No. El tema es un poco más la sujección es distinta porque a veces hay hasta químicos para poder trabajar en eso.
+Maru: Ya está todo pensado.
+Profesor: Sí si no hay otra cosa. Hay veces que se pone un tarugo de 8 y justamente para ladrillo hueco ¿qué es lo que sea hace? Por más que uno ponga el tornillo ese se expande pero se expande en forma redondita nada más o sea el tarugo lo abre. Algunos que he visto en internet alguno siempre experimenta, al tarugo le ponen en la parte final un pedazo de alambre, le envuelve con alambre y le enrollan ahí entonces empieza a atornillar y este en vez de expandirse en forma lateral se empieza a abrir y forma tipo un tope. Prueben ese es interesante porque eso yo probé una vez y anduvo porque vos pones un tarugo después voy a buscar un tarugo, como se expande en vez de expandirse en forma lateral se empieza a abrir y quedar tipo un sistema de sujección más amplia de más radio. 
+
+
+
+
 
 
 

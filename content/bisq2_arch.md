@@ -3,7 +3,7 @@ title: "Bisq2 en Arch"
 date: 2025-06-01T19:20:38-03:00
 tags: ['bitcoin']
 ---
-`yay -S bisq2` me da este eroror: **Falla porque necesitas la versión 21 de jdk** podes mirar la versión en uso con `archlinux-java status`
+`yay -S bisq2` me da este eroror: **Falla porque necesitas la versión 22 de jdk** podes mirar la versión en uso con `archlinux-java status`
 ```console
 Configuring project user
 
@@ -31,4 +31,9 @@ BUILD FAILED in 10m 23s
 bisq2 - exit status 4
 ```
 
-Así que tuve que instalar `yay -S jdk21-openjdk` y ejecutar `sudo archlinux-java set java-21-openjdk`. Logré instalar el paquete bisq2.
+###### Así que tuve que instalar `yay -S jdk22-openjdk` y ejecutar `sudo archlinux-java set java-22-openjdk`. Logré instalar el paquete `bisq2`.
+```bash
+yay -S jdk22-openjdk
+sudo archlinux-java set java-22-openjdk
+yay -S bisq2
+```
