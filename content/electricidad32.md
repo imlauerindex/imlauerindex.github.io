@@ -10,6 +10,8 @@ https://vocaroo.com/1dNfZlpedJa6
 https://archive.org/details/record-142 
 ###### Audio en YouTube:
 https://www.youtube.com/embed/0ttXRieeraM
+##### Documento enviado por WhatsApp.
+https://archive.org/download/record-142/interruptores%20termomag.doc
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdgkihPegV7SY1XFdgZusMoWHHQKWA-_eV37iz3iyLE4bTkoYB1899L6bVxKz4foJNJ_PqJPnZQLtvuc9Y5kpn60pzspKGKol2CuSfZRjpWMMTYjMb4pnr5_Cq-HiBJa02KCvtWhG5a394-8jqH2AX5yH7Gzl2g5b5_qBRzg7DG2hVRGA3ljXqxKegcUs/s4160/IMG_20250602_184731391.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhc4eSxa_pq_T2t0zr8BCo_WAF4OUrF8sHUnxedhx-gROCkZPB_LzxxzCVQRGM5vpAqoyOqzyvauxVpH9s93lzsu6UshXAkVf9EKzDWecgHtWzChZjVKGqHlwjlUL_clDh_rXDE9-jitm3JNZpREHuaW-awAoKJtjmqhxJ5CeDT0eHVpSpVULKrPtyd9Ng/s4160/IMG_20250602_184908994_BURST000_COVER_TOP.jpg)
