@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 28: Tester. Multímetro. Vacuación. Preguntas exámen." 
+title: "Electricidad / Clase 28: Tester. Multímetro. Vacunación. Preguntas exámen." 
 date: 2025-05-22T10:29:07-03:00
 tags: [electricidad]
 ---

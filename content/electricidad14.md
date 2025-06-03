@@ -303,6 +303,8 @@ Profesor: No. El tema es un poco más la sujección es distinta porque a veces h
 Maru: Ya está todo pensado.
 Profesor: Sí si no hay otra cosa. Hay veces que se pone un tarugo de 8 y justamente para ladrillo hueco ¿qué es lo que sea hace? Por más que uno ponga el tornillo ese se expande pero se expande en forma redondita nada más o sea el tarugo lo abre. Algunos que he visto en internet alguno siempre experimenta, al tarugo le ponen en la parte final un pedazo de alambre, le envuelve con alambre y le enrollan ahí entonces empieza a atornillar y este en vez de expandirse en forma lateral se empieza a abrir y forma tipo un tope. Prueben ese es interesante porque eso yo probé una vez y anduvo porque vos pones un tarugo después voy a buscar un tarugo, como se expande en vez de expandirse en forma lateral se empieza a abrir y quedar tipo un sistema de sujección más amplia de más radio. 
 
+Cuando uno trabaja y encuentra los problemas después 
+
 
 
 
@@ -314,4 +316,4 @@ Profesor: Sí si no hay otra cosa. Hay veces que se pone un tarugo de 8 y justam
 --
 
 
-Minuto 46
+Hora 1
