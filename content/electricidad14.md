@@ -530,10 +530,46 @@ Profesor: Desde que yo hacía proyectos hacía de esa forma.
 Maru: No porque hasta que llegas hasta abajo peor todavía te matas.
 ###### Profesor: Claro, tenes que ir hasta abajo, lo ideal es que por piso se maneje ahí y se evita cualquier...
 Maru: Ahora voy a meterme en la construcción porque todavía no terminaron mi casa la están haciendo todavía, así que voy a ir ahí.
+Profesor: Vayan mirando por eso mismo le dije a la señora allá, todos los problemas que tenga saque foto y manden al (grupo).
+Maru: Lo 1ero que pregunté: ¿de qué color es el caño de los corrugados? Ahí me dijieron que eran blanquitos.
+Profesor: Después vos tenes que decirle que estabas usando liviano, semipesado o pesado?
+Maru: Si. 
+Samuel: No viene la semana que viene.
+Profesor: Ahí dice una cosa muy interesante. Todavía no empezamos a ver el tema del tablero los recintos en donde se ubican los tableros deben disponer de iluminación artificial adecuada que permita ver y operar en forma segura y efectiva de dispositivos de maniobra y leer instrumentos con facilidad para que ustedes entiendan en algunos lugares en donde tengo mayor tránsito se colocan luces de emergencia. Vamos a suponer acá no tenemos todavía pero si hay un problema ahí en el pasillo debería haber varias luces de emergencia que indiquen la salida lo mismo ocurren en un tablero si yo tengo un problema con un tablero tengo que tener la posibilidad de tener aunque sea una luz artificial acá en ese caso luz de emergencia para que la persona que va a revisar el tablero tenga suficiente luz.
+Lo otro hacemos solamente cuando hay edificios tablero general tiene que estar con iluminación para poder...
+Maru: pero ese es en el caso de vivienda multifamiliar de edificios
+Profesor: YO antes ponía lo que pasa como la luz de emergencia tiene una batería con el tiempo se deteriora y quedó solo el artefacto. Tengo que cambiar la batería.
+Maru: Yo pensaba y como terminamos haciendo ahí estar ahí con el celular.
+Profesor: Claro por eso te digo a veces es difícil con el celular yo en algunos tableros de vez en cuando ponía al lado del tablero un toma porque a veces llega alimentación acá tengo un problema interno yo pongo un artefacto para iluminar.
+###### Alumno(Alejandro): Linterna minera.
+Profesor: Con eso se puede trabajar trabajar en la oscuridad es lo peor que hay yo necesito la mano.
+Leiva: Ya sabías de que íbamos a hablar hoy.
+Alumno: No siempre vengo de mi casa, hay muchas veces que vengo de lugares en donde estoy trabajando.
+Profesor: Después a fin de año rifa (chiste). 
+Samuel: Sino poné una cinta aisladora con el celular.
 
+**La iluminación del recinto se ubica en tableros debe permitir una fácil lectura operación de esto con nivel de iluminación 200 luz a un metro del nivel del piso**, estos 200 luz es como si yo tuviera acá esta iluminación o sea que tenga en otras palabras suficiente iluminación para poder hacer cualquier reparación dentro del tablero pero este es iluminación de 12, nosotros trabajamos 12 a 500 lumen.
+Sino si tuviera poca luz, a veces la gente no cree pero generalmente las escuelas a veces cambian un fluorescente y meten una lámpara común esa que ustedes hicieron, le ponen un foco y listo, portalámpara con ese foco y listo pero ¿que pasa? Si tuviera iluminación natural abre la ventana y eso con otro se complementan pero si tiene solo iluminación artificial que es este caso por ejemplo tengo que tener buena iluminación porque sino el día de mañana las personas los chicos van a tener que usar anteojos porque se le va a gastar la vista.
+
+Lo último ya.
+
+**El piso no debe tener desniveles**: si yo tengo un tablero ahí y voy en la oscuridad a buscar el tablero, no debe tener desniveles porque es muy probable que pegue un mal paso y caiga. También dice que no debo tener ningún elemento o mueble encima porque si acá hay un mueble yo quiero entrar a mirar y no voy a encontrar, y más si estoy en oscuro. **El lugar no tiene que tener humedad**. Todas esas cosas es interesante cuando se hacen los proyectos ya aunque ustedes no crean a veces se hace tablero de bombeo, tanque de sistema, tanque elevado, y esa parte de abajo el recinto es húmedo porque a veces la cisterna es tipo una pile que está a nivel de piso más abajo y hay temporadas que el **agua calienta o el agua fría tira vapor y ese vapor empieza a humedecer en caso la parte metálica y se oxida, entonces a veces conviene meter un tablero de PVC**.
+
+Seguimos y felices fiestas a todos 
+
+**Cumplir con las indicaciones, dimensiones y número de salida mínima que se indican en la figura entonces ustedes van teniendo en cuenta**, pasá rápido, estas son todo como debe estar la instalación como salida y entrada a los tableros estas son más especificaciones de dibujo, ventilación a qué altura tiene que ir, como debe abrir el tablero, todas esas cositas y acá está la parte de reglamentación aparece otra vez como está el tablero principal, tablero general, tablero seccional y puede haber más tableros seccionales y después los consumos de cada circuito. Es un esquema.
+Esto es lo que vimos al principio: **esquema unifilar**, lo básico de como es un sistema de alimentación para una vivienda y está todo eso. Sencillo. Tiene información por eso me interesa que miren esto para que tengan idea que es una reglamentación que tiene cantidad de hojas y letras y a veces ustedes leyendo no entienden hasta que por lo menos tienen un dibujo que les facilita la interpretación de las cosas, miren eso cuando se metan en la computadora.
+Gustavo Barrientos: Eso usted mando? (chiste)
+Profesor: Sí, creo.
+
+Que pasen bien, nos vemos el lunes.
+
+Alumno: Qué significa esto PSI?
+Profesor: PSI = Tableros seccionales independientes porque 1,2,3.
+Torres: Esa sería aquel allá en la foto aquella.
+Profesor: Ese si pero ahí después vos podes tener otro en el quincho tener otro tablero seccional puede tener otro más ahí atras otro tablero seccional. Vamos a suponer la señora que tiene 3 o 4 pisos en su casa entonces puede tener 1 en cada piso, tablero seccional primero después tiene PSI.
 
 
 --
 
-
-Hora 1:53:48
+Fin

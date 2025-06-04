@@ -5,6 +5,8 @@ tags: ['linux']
 ---
 Agregar a sway en `/etc/sway/config` para moverse al último workspace
 
+Una vez dejaron de andar los shortcuts de sway por `xdg-desktop-portal`, así que si te pasa eso borralo de `/etc/sway/config` y reiniciá la PC (reinciando sway no funciona).
+
 # Toggle workspaces
 ### Para grabar la pantalla en OBS.
 ```bash
