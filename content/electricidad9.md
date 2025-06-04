@@ -428,7 +428,7 @@ Alumno: Y el plástico también?
 Profesor: No el plástico no. (Hace un gesto que le pega con el caño) Esa es la desventaja que tengo en este sentido, por eso quería decirles si uso esto yo todavía tengo la suerte de que me hacen caso pero algún día me van a echar a la mierda. Yo trabajo para el ministerio de la educación entonces los caños en todas las obras son a través de cañería de hierro todavía hasta que venga uno y me diga poné esta (PVC).    
     
 PREGUNTAR    
-###### Me trajieron tengo 2 carpetas de gerlock¿? (Hora 01:39:06) para que yo revise y vea. Le dije que todavía no probé con cañería de coso (PVC).    
+###### Me trajeron tengo 2 carpetas de gerlock¿? (Hora 01:39:06) para que yo revise y vea. Le dije que todavía no probé con cañería de coso (PVC).    
     
 ##### Acuérdense que todas las cajas esmaltadas, esta para ahí no porque se oxidó ya pero estas son esmaltadas generalmente porque todas las cañerías sobre todo la parte de hierro acuérdense con CEMENTO y arena NO CON LA CAL PORQUE ME CORROE.    
 ##### Y el acero puede ser liviano para que ustedes entiendan la cañería puede ser liviana, semipesada y pesada. Las dos primeras son las que más se utilizan en instalación domiciliaria, pesada ya es en forma insdustrial. En qué varía eso? En el espesor. El espesor de los caños es más liviano ¿? (Hora 01:40:16)     

@@ -5,6 +5,8 @@ sudo systemctl start smb
 # youtube-upload
 ### Agregar para detectar tmux
 firefox blogger.com
+firefox vocaroo.com/upload
+firefox archive.org/upload
 echo "Ingresa la URL del articulo que creaste"
 read URL
 echo "Ingresa el titulo del articulo que creaste sin espacios (electricidad4)"

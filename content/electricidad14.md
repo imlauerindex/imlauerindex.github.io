@@ -258,7 +258,7 @@ Torres: Como está ahí, ahí tiene una boca arriba del espejo. Y arriba hay otr
 Profesor: Acá. Este. Pero he visto eso, es algo moderno.
 Sebastián: Pero sería visible si tenemos la boca ahí que está embutida, ella quería por atrás (del espejo), pero podía ser así, seguramente no quería a la vista.
 Ayudante: Obvio que no.
-Profesor: Pero bueno ese, el tema es así el proyectista puede hacerlo de diferente manera yo no creo que todos si hay 20 departamentos todos tengan espejo (con luces), yo pondría otro espejo. O sea mi teoría en vez de un espejo invertiría en otra cosa, en un **lavatorio por ejemplo o un inodoro**, si ella quiere invertir en un espejo bueno es cuestión de uno.
+Profesor: Pero bueno ese, el tema es así el proyectista puede hacerlo de diferente manera yo no creo que todos si hay 20 departamentos todos tengan espejo (con luces), **yo pondría otro espejo**. O sea mi teoría en vez de un espejo invertiría en otra cosa, en un **lavatorio por ejemplo o un inodoro**, si ella quiere invertir en un espejo bueno es cuestión de uno.
 Maru: Por ahí un departamento para mujeres porque las mujeres necesitamos espejos.
 Profesor: No está bien no digo nada, pero con luces.
 Samuel: El tema es que el arquitecto presenta un proyecto y ese mismo proyecto lo replica en todos lados y ahí.
@@ -285,7 +285,7 @@ Samuel: NO va a ser tan prolijo.
 Profesor: a veces sin querer pasa para allá porque le pegó tan fuerte que rompió el caño 
 Torres: Y después te dice pero si vos me mostraste una foto que iba a quedar así
 Samuel: Ahí te faltó mojar el ladrillo, por eso se abrió.
-Profesor: Si yo quiero hacer a la vista, ahí se ve perfectamente que hay grmapa de sujección fíjense a veces de diámetro 8 pero generalmente es de 6 o 8 el que está acá, si yo tengo que colocar esto a mi nunca me gustó más o menos porque yo perforo y después el capuchón o el tornillo de PVC se adhiere a la mampostería y ajusta pero para mí no es una buena sujección porque tampoco tengo el otro sistema el tarugo, esto no tiene tarugo. **Con tarugo para mi es mucho mejor, esto directamente uno perfora y lo va metiendo y a veces se expande**.
+Profesor: Si yo quiero hacer a la vista, ahí se ve perfectamente que hay grmapa de sujeción fíjense a veces de diámetro 8 pero generalmente es de 6 o 8 el que está acá, si yo tengo que colocar esto a mi nunca me gustó más o menos porque yo perforo y después el capuchón o el tornillo de PVC se adhiere a la mampostería y ajusta pero para mí no es una buena sujeción porque tampoco tengo el otro sistema el tarugo, esto no tiene tarugo. **Con tarugo para mi es mucho mejor, esto directamente uno perfora y lo va metiendo y a veces se expande**.
 Maru: Pero en ese caso por ejemplo porque el ladrillo hueco es re vos le hacés así ya fue ya. Ahí presenta como para que por ejemplo le va a tener que terminar poniendo mezcla.
 Profesor: **Cuando terminamos el revoque grueso ahí recién entra la cañería de PVC sino entra la cañería para pasar la parte eléctrica, generalmente se hace la faja.** Entonces ya ponen la faja de un lado y del otro hasta un sector al otro y ya tengo donde tiene que ir cada cajita, y ahí puedo hacer el sistema.
 Profesor: Pero como fijo? La fijación más segura con ese tipo de grampa teniendo este sistema, o sea tengo que terminar la pared 
@@ -295,25 +295,245 @@ Profesor: Exterior. Ahora si encuentro una casa que hicieron tan perfecta el sis
 Entonces ahí ya va un **sistema de tarugo distinto para ladrillo hueco que uno perfora y se expande y queda sujeto** es otra solución.
 Ayudante: O sea este pernito de acá no está fijo a la grampa, eso se puede sacar y colocar un tornillo y en la pared un tarugo y ahí si va a quedar flojo.
 Maru: Ah viene un tornillo especial para ladrillo hueco.
-###### Tarugo para abrazar el ladrillo hueco.
+###### Tarugo para abrazar el ladrillo hueco. Ponerle un alambre para que se abra.
 Ayudante(Ale): Viene un tarugo. El tarugo general que se usa en ladrillo común se expande esta manera el otro el tornillo tiene que ser más largo que el tarugo porque ese al llegar al final se aplasta y genera una presión entre la grampa y la pared, al aplastarse se exparse a los costado y eso hace que **abrace al ladrillo hueco y no se salga para afuera**.
 Maru: O sea que se puede poner ese sobre ladrillo hueco sí.
 Ayudante(Ale): Sobre el ladrillo hueco sí. Se puede. 
-Profesor: No. El tema es un poco más la sujección es distinta porque a veces hay hasta químicos para poder trabajar en eso.
+Profesor: No. El tema es un poco más la sujeción es distinta porque a veces hay hasta químicos para poder trabajar en eso.
 Maru: Ya está todo pensado.
-Profesor: Sí si no hay otra cosa. Hay veces que se pone un tarugo de 8 y justamente para ladrillo hueco ¿qué es lo que sea hace? Por más que uno ponga el tornillo ese se expande pero se expande en forma redondita nada más o sea el tarugo lo abre. Algunos que he visto en internet alguno siempre experimenta, al tarugo le ponen en la parte final un pedazo de alambre, le envuelve con alambre y le enrollan ahí entonces empieza a atornillar y este en vez de expandirse en forma lateral se empieza a abrir y forma tipo un tope. Prueben ese es interesante porque eso yo probé una vez y anduvo porque vos pones un tarugo después voy a buscar un tarugo, como se expande en vez de expandirse en forma lateral se empieza a abrir y quedar tipo un sistema de sujección más amplia de más radio. 
+Profesor: Sí si no hay otra cosa. Hay veces que se pone un tarugo de 8 y justamente para ladrillo hueco ¿qué es lo que sea hace? Por más que uno ponga el tornillo ese se expande pero se expande en forma redondita nada más o sea el tarugo lo abre. Algunos que he visto en internet alguno siempre experimenta, **al tarugo le ponen en la parte final un pedazo de alambre, le envuelve con alambre y le enrollan ahí entonces empieza a atornillar y este en vez de expandirse en forma lateral se empieza a abrir y forma tipo un tope**. Prueben ese es interesante porque eso yo probé una vez y anduvo porque vos pones un tarugo después voy a buscar un tarugo, como se expande en vez de expandirse en forma lateral se empieza a abrir y quedar tipo un sistema de sujeción más amplia de más radio. 
 
-Cuando uno trabaja y encuentra los problemas después 
+Cuando uno trabaja y encuentra los problemas después uno va pensando como mejorar eso, porque hay partes en el reglamento dicen como también tengo que sujetar los caños para que esto no tenga deformación y aparte tenga una fijación segura, el va encontrando cosas.
+###### La pipeta sirve para que el agua que se desliza por el conductor no entre adentro.
+**Un poquito más grande es la pipeta que va a fuera lo que quiero mostrarles que esa pipeta es para entrada de preensamblado que entra a la casa y ahí hay que hacer una argolla**, porque ahí tiene una pinza de anclaje el conductor va a hacer esto, eso sirve para que el agua que se desliza por el conductor no entre adentro.
+Lo que estaba diciendo es que este conductor, esta es una pipeta para cualquier cable que uno entre a una vivienda o lo que sea necesito una pipeta no puede entrar el conductor directamente a la pared y entra, **ESTO VA A LA PIPETA entonces este conductor entra acá pero tiene que hacer como tiene una pinza de anclaje porque esto es muy duro entonces el agua se desliza, entonces hay que dejarle un bucle para que el agua que entra por arriba que pasa por el conductor que viene arriba no entre directamente, eso se hace**
+Gustavo Barrientos: Y eso en una pared de 20?
+Profesor: Y aca bajo otro caño? Un caño más grueso.
+Gustavo Barrientos: Ah le ponemos, le acomplamos?
+Profesor: Claro o sea le acoplas acá y te vas y podes llegar hasta acá y bajá a tu caja, o sea que no podes bajar sin caño todo eso baja directamente. **Si no tengo la posibilidad de bajar directamente ahí llego hasta una caja de paso acá por ejemplo y ahí bajo ya en forma unipolar sería, hago otro esto puede llegar a una bornera y esa bornera va directamente al...**. O sea hay diferentes formas todo depende de quién haga la mano de obra.
 
+Un día cuando ustedes empiecen a hacer una instalación eléctrica, ahí se van a encontrar con los problemas. O si ustedes miran como trabaja un señor ustedes ya pueden discernir si está bien o está mal lo que está haciendo. O cuál es la mejor forma para hacerlo. 
+Aunque estén en la facultad, todo lo que le enseñan es para que ustedes tengan una base. Después en el trabajo o en la realidad es distinta, pero si yo tengo y sé algunas cosas como se hace, es mucho más fácil por eso le estoy dando todas las pautas para que ustedes tengan la suficiente idea, ojalá yo tuviera que hacer toda la instalación nueva con ustedes ahí van a ver como realmente se trabaja, podemos cortar todo y hacer devuelta.
+Torres: Profe como se llama el ganchito ese que es así y la rosquita acá abajo, el ganchito ese.
+Profesor: El gancho U?
+Torres: Y el otro que es cerradito?
+Gustavo Barrientos(chiste): O
+###### Torres: Yo le pregunté al de cablevisión por qué ponía así en forma de V y me dijo eso es para que el agua no... No viene así el caño y le pone un ganchito acá, otro acá y otro acá. Entonces queda así y ahí entra a la casa y con un precinto, o sea ese ganchito el redondito.
+Profesor: Claro. 
+###### Ayudante(Alejandro): El que los pitones decís vos?
+Torres: Ese, ese, ese. 3 pitones. Y ahí le pasa con un precinto los cables y ahí entra. 
+Profesor: **De lo que está hablando él es de TV por cable, entonces la entrada hace lo mismo no directamente sino a través**.
+Torres: Claro, y yo le dije por qué no le metes así no más? Técnico: No porque así el agua cae así gotea y no entra agua.
+Profesor: Y más si tengo este sistema eléctrico o sea.
+**Samuel: Cuando el caño el tubo está embutido en el ladrillo como vemos ahí, también lleva la lampara de sujeción o solo mezcla.
+Profesor: No, no no. Ese mezcla, la grampa solo se usa exterior**. Este también es otro sistema de sujeción pero es medio ambeo ¿? (Hora 01:14), en este caso es para caño de hierro pero también puedo usar para este caño, ¿qué ventajas tengo esto? Que tengo que ver como coloco acá, **acá pico los caños el tarugo de acá abajo para que el caño no vaya para abajo a veces pongo arriba está flojo alguien apoya y se va para abajo pero acá no**, apenas que se afloje pero es muy difícil.
+Ayudante: Ríe.
+Profesor: Seguimos. Después tenemos video que habla pero vamos a dejar para otro día esas cosas. Fijense lo que vimos a través del sistema, vuelvo a recalcar esto es medidor y tablero general detrás del medidor ahí, esto es lo que quería mostrar, **ese es el caño que viene ahora doble aislación fíjense bien PVC, garbanizado y PVC que es este caño, o sea que reemplaza el caño garbanizado por ese tipo de PVC con una estructura interna metálica para que eso no tenga deformación porque solo PVC es probable que con el calor y el esfuerzo se doble**.
+Ayudante(Alejandro): Aparte el preensamblado es pesado.
+###### 50mm son 2 pulgadas
+Profesor: Fíjense dice 50mm, 50mm son 2 pulgadas. 2 pulgadas, doble aislación, o sea que si alguien toca no voy a tener problemas.
 
+###### Les doy el catálogo de GENROD porque esto es lo que se viene ahora.
+Ustedes vieron lo último actualizado para este sistema.
 
+###### Configuración
+Gabinete de medidores, caños y pipeta arriba, fíjense pipeta arriba, esto es el sistema de como entra al medidor y acá es el tablero general que puede estar al costado o atrás o donde sea, pero este es la simbología vamos a suponer que ustedes no saben como instalar o aparte del coso de EMSA que tienen ahí el catálogo está todo acá. Y esto que está que ustedes ven ahí todavía no ¿?
+Gustavo Barrientos: Ah la puesta a tierra?
+Profesor: La puesta a tierra. Eso lo que me aparece en el...
+Torres: Y la puesta a tierra es cuando el gabinete de plástico va con una bornera o no? 
+###### Profesor: Algunos van con una bornera, pero ya va de acá a acá y acá tiene que pasar si esto va en forma subterránea van juntos sino directamente hace acá, y después se une esta jabalina con la jabalina del tablero seccional que está allá.
+Sebastián: Esa línea que va del tablero hacia la casa la amarilla, ¿esa tiene una altura especial?
+Profesor: No. Ese depende de que característica tenga tu medianera.
+Torres: Claro ahí está por el muro.
+Ayudante: Pero vos decís altura del piso?
+Sebastián: No, por ejemplo que está embutida y alguien quiere romper o algo?
+Profesor: No, no. 
+###### Ayudante: Vos de la medianera tenes la mitad siempre, así que si alguien pase esa mitad va a tener problemas.
+###### Profesor: A veces eso está prohibido aprovechan esta es tu entrada a tu casa para iluminar y usan las cajas de paso de iluminación para eso, no sirve, porque esto tiene que ir directamente allá y después sacar para las otras iluminación.
+Sebastián: O el verde en todo caso.
+Profesor: Exactamente.
+Samuel: Digamos esa línea amarilla es la que va al preensamblado.
+Profesor: École, va al tablero seccional. Seguimos.
+###### AlumnoX(Silva o Selva no recuerdo): Siempre van dos jabalinas una en el medidor y otra en el seccional?
+Profesor: NO. Si está bien hecha la puesta a tierra se aconseja de llevarle juntamente con el conductor que va de alimentación otro conductor que generalmente, que después vamos a ver, igual al conductor de entrada para la puesta a tierra. De ahí se saca otra alimentación al tablero seccional, lo que pasa es que hay veces hay gente como una distancia mucho muy grande a veces pongo otra jabalina allá. **Y esa jabalina tiene que estar unida**.
+Sebastián: Tiene que estar unida.
+Profesor: **PARA ESO SIRVE PORQUE ESO SIEMPRE RECALCO ESO SINO DIRECTAMENTE TOMÁS DE ACÁ Y LLEVAS PARA ALLÁ. Cuando más jabalina tenga es mucho mejor tu sistema de puesta a tierra**.
+Leiva: Y si pones solo de la caja seccional, la puesta a tierra sirve igual?
+Profesor: Sí.
+Leiva: Viste que algunos colocan la ducha y de la ducha saca y mete un hierro, ¿eso no sirve no es cierto?
+Sebastián: Un hierro de cera con un alambre atado, ese tenía mi heladera.
+Leiva: **Como usted había dicho que si había una descarga eléctrica, por ejemplo por la ducha va a ir por la tierra y va a entrar devuelta por la jabalina que está en el seccional.**
+Profesor: Si no está unido. Porque pide ahí la nueva norma que tenga iguales potenciales, igual descarga.
+Torres: Vió que usted dijo que puede salir una iluminación ahí desde el pilar, o sea, bueno el mío.... No se vayan a reír... Pero de ahí sale para la ducha. Ahí sale para la ducha antes de llegar a la seccional. Y la ducha tiene térmica.
+Profesor: No, la ducha tiene la térmica esa sirve solo para encender y apagar no más, tu conductor ahí el único que está trabajando.
+Torres: Bueno pero tiene por eso le digo estaba comentando que tiene: sale para la ducha y sale para el aire de la pieza de los chicos de ahí afuera sin llegar a la térmica de la seccional sería.
+Ayudante: Yo no quiero ir a tu casa.
+Profesor: **A ver lo que está haciendo es tomar la parte de mayor carga que son la ducha y el aire acondicionado todo del medidor pero el medidor no está protegiendo porque el medidor del tablero general protege toda la instalación no esos 2 elementos nada más, entonces tarde o temprano habrá problemas con la ducha y va a quedar sin luz la casa**.
+Torres: Claro, pero ahí ya voy a terminar el curso.
+Ayudante(Alejandro): Si si (se hace el pesado, triste). (Hora 01:21:30)
+Profesor: Lo que ustedes ven acá es cámara de inspección, la caja de inspección esa que después tengo por ahí una tirada le voy a mostrar y ahí está la jabalina para **que se utiliza la caja de inspección para medir la puesta a tierra** después vamos a ver un **estelurímetro se mide la puesta a tierra** (nadie usa eso).
+Y esto que está acá es un gabinete del edificio. Acá van los medidores generalmente esto es medidores monofásico y este trifásico y fíjense lo que digo, allá arriba están los interruptores de cada medidor, acá va a tener que decir departamento 1, dpto 2, dpto 3 o sea todo esto que está acá tiene que estar acá. Todo lo que está acá tiene que cortarse con acá. Lo mismo acá y este lo mismo acá.
 
+Eso es algo distinto de lo que estaba previsto antiguamente que teníamos el gabinete acá y el interruptor acá al lado por cada gabinete medidor y el interruptor acá al lado, teníamos eso con el sistema viejo ahora no: marca arriba. **Y después tengo la salida tengo 3 departamentos por cada departamento tengo 3 caños: uno por cada alimentación, uno para cada acometida, si o si no puedo meter este en el otro lado**. **Tiene que ir directamente de esta alimentación o este caño directamente al departamento puede pasar por la misma caja de paso pero el conductor que va dentro de los caños tiene que ser único de acá hasta el departamento**.
+Maru: Porque ese es el mismo porque ese va a la línea, o sea de cada departamento...
+Profesor: No. La línea entra por acá abajo después hace la distribución y esto va al departamento.
+Maru: ah ese es el que va al departamento 
+Profesor: Eso son las acometidas del departamento para cada departamento.
+Sebastián: Fase, neutro y tierra por cada caño?
+Profesor: Sí.
+Sebastián: O sea son 9 cables que llegan a...
+###### Profesor: Y depende si es monofásico: 2 fase, neutro y tierra. Si es trifásico ya hay 3 fases neutro y tierra, pero eso está calculado.
+Ayudante: Ahí son 5.
+Sebastián: Ah
+Profesor: **Ahí están dando los tipos de gabinete cuando van a ver distintos tipos y estas son las bocas, cada boca es un módulo cada interruptor depende si es monofásico esto es monofásico tiene 2 módulos. 1 módulo es solo una parte por eso cuando ustedes quieran comprar un tablero dice necesito 1 tablero que tangan vamos a suponer en este caso que vimos ahí que tengo iluminación, tomacorrientes, aire acondicionado y ducha tengo 8 ahí, 4/8/10/12 y 2 de arriba tengo 16**. Ese tablero que está ahí entonces el gabinete tiene que ser mínimo de 20 módulos vieron.
 
+Esto es un gabinete y **como se elije un gabinete de acuerdo a la cantidad de circuitos que tenga cada circuito representa en este caso como son monofásico un interruptor bipolar, pero la suma de todo esto, acá tengo 2 módulos, 4, 6, 8, 10, 12** este es un módulo una parte chiquita es un módulo. **Entonces ustedes van a ver acá necesito un tablero de embutir de póngale de 24 módulos, de 16 lo que sea y le da la característica**.
+Lo que quiero decirles es como se elije un tablero.
+Gustavo Barrientos: **O sea una llave bipolar.
+Ayudante y profesor: Son 2 módulos.**
+Profesor: Pero generalmente cuando la que ponemos atrás del medidor como son 2 módulos y necesitamos tener un espacio suficiente para poner los conductores generalmente es de 4 o 6 módulos lo ponemos atrás del medidor para que sea más amplio y poder trabajar tranquilo. 
 
+Les digo esto porque en los catálogos aparece embutir de 36, embutible de 24, embutir de 12¿? (Hora 01:26) sector todas las características que yo tengo en los tableros seccionales, aquello que ustedes ven son de 8.
+###### Tablero que está en el aula son de 8 módulos.
+Estos son de 8 módulos, 2,4,6,8. 
+2: el interruptor diferencial y después 2,4,6.
+Torres: Del aire y del...
+Profesor: Sí, 2,4,6,8 módulos tiene este tablero y si tengo más circuitos acá tengo 2 tableros de la misma característica le puse acá por lo menos, tengo que conseguir entonces puedo poner más cosas acá.
+###### Como dividir los aires en el tablero.
+Maru: Del lado izquierdo es de los aires?
+Profesor: Sí de los aires. Esto es de los aires, y esto es directamente la instalación de todos los tomas, ventilación todo esto acá.
+Leiva: Ahí tiene 12 módulos aquel lado.
+Profesor: 8, 10, 12 sí.
+Leiva: **Claro, en ese caso tiene que comprar una caja para 12 módulos para no poner 2 cajas juntas.**
+Profesor: **Si pero se puede hacer de esta forma también porque vos estás dividiendo los aires. Cualquier problema decís bueno desconectá los dos aires acá y tengo la posibilidad independizo los aires** que son 2 aires, pero bueno a qué voy yo. Todo lo que ustedes proyecten hagan o no, depende de los materiales que yo pueda comprar. 
+
+Yo no trabajo con Genrod pero ahora que se viene la forma de todos estos materiales es interesante que ustedes vean para que sirven.
+Sebastián: Siempre la competencia va a tener algo parecido.
+Profesor: La competencia va a tener algo parecido, pero estos catálogos es lo que a ustedes les sirve el día de mañana hasta cuando hago un cálculo digo necesito un gabinete para tantos circuitos y ahí me fijo en una tabla acá en este caso sería esto pero en una tabla de valores que yo quiero o consigo el tablero que yo necesito entonces voy mirando ahí y me da la característica 30x30, 40x40 entonces ya tengo la idea.
+Maru: Este es un catálogo con las descripciones del producto
+Profesor: École.
+Maru: Entonces acá usted va viendo las imágenes y la descripción de las características propias de cada uno ya no puede tener precio porque sino ya sería la página de la venta.
+Profesor: Pero ustedes sabiendo esto van a ElectroMisiones entran en tablero dicen tantos módulos le muestra el dibujito dice precio al lado, consumidor final.
+Maru: Sí, pero acá tiene la imagen tiene las característica ya es otra forma de ver bien el producto y ver cuál es su necesidad.
+Profesor: Exactamente, y vamos a suponer al revés. Que usted tengan algo de conocimiento viene un electricista y le da los materiales entonces ya saben que tipo de materiales es por lo menos. **El día de mañana van a hacer ustedes la lista de materiales en ese caso el electricista que viene le va a decir que es lo que necesita, entonces están las curvas, los caños**.
+
+Y esto lo que está acá es lo que le mostré por último que estos son de otro nivel de otra categoría de chapa todo lo que ustedes quieran acá sale un poquito más caro porque son de vidrio se ven a simple vista las térmicas y están con una nomenclatura que dice que este es el circuito que va o protege el rango por ejemplo otro dormitorio y así...
+Maru: Es el mismo que tenía ahí lado del medidor pero con otra o sea más cara más lindo.
+Profesor: Claro, que tenga otra característica. Seguimos entonces a ver si no hay más nada 76%.
+
+Bueno.
+Acá muestra **como se embuten las cajas octogonal como puedo sacar las distintas derivación como tengo la posibilidad de embutir una caja rectangular esto es lo que le dije la chapa con el durlock fíjense**, acá le ponen arriba y abajo para que quede más sujeto.
+
+**Como doblo los caños, acá tengo el resorte, fíjense hay una parte de la tabla que dice que radio yo necesito para poder hacer esa cobertura**
+Ayudante: Esta mas abajo
+Profesor: Tengo el material como se utiliza, el pegamento fíjense para que quede fijo, todo eso que están ahí los soporte grampa de sujeción de fijación como tengo la mecha para usar.
+Sebastián: Mecha para plástico.
+Profesor: Para plástico, o sea tenemos un catálogo que te da la posibilidad que ustedes no se pierdan cuando hagan lista de materiales entonces después cualquier información le dice la instalación: **"perforar con mecha de 6"** estamos?
+###### Samuel: Las grampas van a cada 1 metro o cada cuánto van?
+Profesor: **Después te voy a leer la parte de reglamentación. No, lo que dice normalmente si yo tengo un caño de hierro que es de 3 metros yo tengo que fijar más o menos este caño a 1 metro acá y 1 metro acá el caño de hierro fijo acá y acá**, si yo tengo un caño de PVC en vez de poner 2 grampas pongo 3 grampas mínimo.
+Samuel: Ah en 1 metro metemos 3 entonces.
+###### Gustavo Barrientos: No, en 3 metros 3 (grampas).
+Profesor: Sí, en 3 metros 3. O sea le hago una imagen más o menos pero como el caño de hierro es rígido yo puedo poner ahí que te da la distancia de acá hasta acá 1 metro o 0,70 y de acá a acá lo que te sobra el caño de hierro, y el otro pretende que en vez de colocar 2 grampas en un caño de hierro, mínimamente sean 3 o más depende de que característica es tu caño, **acuérdense ese caño liviano los 1eros caños livianos con memoria este es ya un poco semipesado tiene la particularidad de que no sufría deformación hasta temperatura de 60 grados, los nuevos con más espesor tienen la particularidad de que esa temperatura recién a los 90 grados se producía una deformación**
+Se produce la deformación porque tiene calor peso del conductor y depende de la sujeción que yo tenga esto se desforma algunos lugares que he visto, se desformó.
+Gustavo Barrientos: Sí, yo ví también más la parte que está cerca del techo.
+###### Profesor: Entonces uno va sabiendo ya que tipo de caño utilizar, pero eso que vinieron por último ahora hasta 90 grados sin producirse ninguna formación es interesante o sea puedo ir reemplazando los caños de hierro, sale más caro que los comunes y los livianos.
+
+Esto que ustedes vena acá aparece otra vez, este es el esquema básico y aparece en todos lados hasta en los reglamentos, distribución pública de la red trifásica entra sistema monofásico caja de toma dice esto generalmente se pone en algunos casos más si yo tengo una alimentación, si ustedes ven ahí en Itaembé Mini cada medidor abajo tiene una alimentación una caja de paso porque viene en forma subterránea abajo del transformador tiene una caja pero ahí llega la alimentación de ahí va a cada caja en Itaembé Guazú y abajo del medidor tiene una caja de toma se llama porque viene el conductor subterráneo y llega a esa cajita y ahí podes hacer la alimentación a tu medidor tiene una caja de toma porque viene el conductor subterráneo y llega a esa cajita y ahí vos podes hacer directamente la alimentación a tu medidor ahí, pero esto es un esquema básico. **Siempre en cualquier lugar y en cualquier evaluación uno trata de pedir que me haga el esquema básico para que ustedes tengan idea como es la red pública la acometida que esto acá, esta línea principal es la línea de alimentación y después el medidor de energía y de acá para acá acuérdense que empieza toda la reglamentación de la AEA, a partir de acá de la línea municipal todo para acá es la línea de reglamentación de la AEA, o sea que ahí intervenimos nosotros ahí somos nosotros los instaladores tenemos que tener en cuenta toda la reglamentación**.
+
+Eso están en los catálogos, las fotocopias, quiere decir que todos hablamos el mismo idioma, todo lo que ustedes ven acá son cajas: caja seccional, caja principal, gabinete, caja de toma, todas esas cosas, esto sería el medidor fíjense las cajas ustedes ya saben cuando piden y mandé una parte que ya es reglamentario hasta los códigos para pedir cuando ustedes van a comprar, vamos a suponer ElectroMisiones el código de un gabinete para medidor monofásico las cajas para medidor monofásico que característica tiene así que ya está ahí en el celular.
+
+###### Elementos unifilar
+Ahí empezamos otra vez lo mismo que vimos fíjense pero tengo la línea de distribución caja y aparece ya los gabinetes, esto que ustedes ven acá en forma simbólica son trabajando en forma con **elementos unifilar significa que es una sola línea ustedes están representando con 2 el neutro y la fase**. El pedacito de, o sea acá tengo 2 rayas la chiquita es neutro ahí y la otra la fase, para que ustedes vayan mirando ya una instalación todo esto ahí dice tierra, puesta a tierra, neutro, fase, neutro y el elemento de protección siempre va a hacer la tierra, todo puesta a tierra, puesta a tierra.
+
+Esto es lo que se viene fíjense lo que vimos la otra vez anterior acá está fase y neutro y acá están los interruptores de salida y **supuestamente en algunos casos de acuerdo a la distancia ya ponen el interruptor principal por cada gabinete más el disyuntor, ahí lo que tiene ahí arriba es disyuntor, gabinete un interruptor principal de corte, un disyuntor que va al departamento** ¿vieron como es el sistema? Esto vamos a ver más adelante.
+Maru: Ese es de edificio.
+Profesor: Es de edificio. 
+Ayudante(Ale): Le dicen multifamiliar.
+Profesor: La acometida multifamiliar es un edificio cuando habla así, lo ideal acá es que tenemos un catálogo de lo que se viene y que los arreglos que hizo EMSA para tratar de introducir esto en el mercado y están todas las especificaciones entonces nos dan la posibilidad de que tengan información, que hoy en día aparte de lo que pide el bosquejo la gente de EMSA ustedes ya tienen de donde sacar la información, de que material estoy por utilizar ya no es que están a ciegas, ustedes van a ir a pedir una característica: "No sé quiero un medidor...." NO ahora tienen las características. Entendieron? **Cualquier cosa miren**
+
+Maru: Este es el catálogo de esta marca Genrod pero usted mandó esto no? Sí.
+\* Profesor sonríe.
+Profesor: Está todo mandado. **TubicElectric era lo anterior y después está esto o sea que las 2 cosas son iguales, solo que pasa que esto es lo que ya ellos arreglaron hicieron un acuerdo con la gente de EMSA entonces toda la aplicación trajeron la reglamentación para que esto ya sea habilitado**. Antes vos podías poner esto, que ya vino hace 4 5 años atrás pero eso no te aprobaba, antes. Ahora hicieron un cambio rotundo y exigen esto.
+Ayudante(Ale): Que al profe no le gusta.
+Profesor: O sea que ahora hicieron un acuerdo entonces hacen o sea todas las multinaciones tienen la posibilidad de llegar a un acuerdo en común, las cooperativas en este caso, una cooperativa de energía es EMSA.
+Maru: Pero que adaptaron los productos a la reglamentación?
+Samuel: No la reglamentación a los productos.
+Profesor: A los productos que eran de otro lado, o sea esto ya estaba se introdujo ahí en 1era instancia en Gran Buenos Aires, después en Córdoba y bueno todas las provincias de allá pero eso es lo que se viene y ya tienen, yo lo que quiero mostrarles es de donde sale y qué característica tiene para que ustedes no se pierdan.
+Maru: Se modernizó digamos todo la reglamentación?
+Profesor: Sí, se modernizó, la reglamentación se va modernizando para seguridad.
+Torres: Mi instalación no se modernizó profe.
+Sebastián: Tu tesis sobre tu casa.
+Profesor: Todos los tableros principales esta es la característica de peligro entonces los tableros generalmente que se colocan en algunos lugares principalmente en lugares en donde hay movimiento como un Shopping o una escuela siempre tiene que tener este significa o esta lucesita que sale por ahí en algún lugar, hay un sticker que es exclusivamente para su tablero para que nadie toque. Que sea solo revisado por personal idóneo o que es entendido en el tema para evitar cualquier riesgo o accidente eléctrico, por eso **riesgo eléctrico**.
+
+**Se debe tener frente símbolo riesgo eléctrico IRAM, tatata una altura mínima de 40 mm porque hay de diferente tamaños esto, debe fijarse un símbolo relacionado con la línea indicativa en función del tablero de letra de 10mm sobre fondo amarillo (Hora 01:43) para que sea legible y ser visible a un instalador de lugar**, o sea que esto aparece en lugares estratégicos para que digan que eso que está ahí es riesgo eléctrico.
+
+Listo, dale no más.
+
+###### Criterios generales
+Esto es una cosa importante y voy a repetir cuando empecemos a ver tableros.
+Los tableros se instalarán en lugares secos, de fácil acceso y alejado de otras instalaciones gas, agua, etc.
+
+Soledad la preceptora llega.
+Profesor: Justo hicimos la hojita (de asistencia) no confiaron en voce dijo el brasilero.
+Preceptora(Soledad): No sabían si yo venía o no.
+
+\* Toma lista (hora 01:44)
+
+Profesor: Lo mismo que dice la norma es importante, ellos recalcan sobre sus elementos: **no se permite instalación de tableros dentro de muebles o de bajo mesada, abajo de la mesada, indiscutiblemente, es muy difícil tener un tablero** 
+Sebastián: Dentro de piscinas.
+Profesor: Aunque ustedes no crean, yo tuve que reparar un tablero de bombeo tipo puesta a tierra, porque pusieron abajo en lugar para no se moje pero yo tenía que haber entrado como puesta a tierra o sea agachado y arreglar ahí también le cobré bastante porque no se puede poner, o sea uno tiene que buscar la forma...
+
+Hablando de eso hablé con un tipo que saca bombas de pozo perforado y había un desnivel y él generalmente no podía poner el camión me dice que iba a cobrar más caro y yo le dije: "y bueno que queres que te diga, mientras soluciones, cobrá lo que quieras pero queremos soluciones" 
+Ayudante(Alejandro): Usted cobre pero queremos soluciones no problemas.
+Profesor: Que llegue agua a la escuela y solucioná, después veremos...
+
+**En lugares húmedos o mojados a la interperie o polvorito debe tener un grado IP adeacudo**. 
+###### ¿Qué significa IP? Hay materiales tipo un gabinete que tenga un burlete que no tengan posibilidad de cualquier problema de agua no penetre directamente al tablero porque ahí está la parte más riesgosa si llega a entrar agua por X o por 10 o por 20 motivos entonces hay que hacer un desagote en algún lugar del tablero para evitar que el agua se acumule acá y que pueda llegar a cualquier interruptor que está acá. Se hace eso. 
+He visto en algunos lugares en donde se hace parte del edificio de un tablero en un subsuelo y hay filtraciones de agua, entonces esas **filtraciones de agua a veces puede ocasionar sin querer porque los caños generalmente salen por arriba puede haber filtraciones de agua**, mientras no se acumule agua no hay problema pasan derecho y listo. Para solventar, algún día hay que tapar esa filtración.
+
+Pero es lindo cuando se hace un **edificio porque la napa de agua empieza a gotar y generalmente en el subsuelo se hacen los garages y hay vehículos entonces se hace un alisado con pendiente para un determinado lado**.
+
+###### Vieron a traer tortas para pascuas.
+A la pucha fíjense no me digan que traen cables...
+Ayudante2: Algo más rico. Chicos desde el centro de formación le vamos a hacer regalito para la pascua para que puedan compartir con su familia.
+Ayudante: Ruido (Hora 01:49)
+Ayudante2: Que la pasen bien.
+Profesor: Trajo para todos por las dudas.
+**Gustavo Barrientos: Profe cuando pasan esas inundaciones así como Bahía Blanca o La Plata.
+###### Bocha heladera entra agua.
+Profesor: Lo 1ero que se debe es cortar la energía generalmente el alumbrado público y todas esas cosas**. Ahora si tu alimentación llego a hacerlo a nivel, vos tenes que cortar tu entrada ese no corta nada afuera y sigue creando inundación lo que se controla es tu nivel de la caja, cuando pasa 40 cm ya corta, **o sino en una heladera, la heladera tiene una bocha esa bocha entra agua vos tenes que cortar o desenchufar porque empieza a entrar y se propaga**. El agua es un elemento conductor automáticamente tengo problemas y tenes que....
+
+¡QUE GRANDE! (Recibe la torta de pascuas) No te saludo porque tengo olor.
+Maru: Y después está el señor que se fue al baño.
+Profesor: El chiquitito ese, como se llamaba?
+Sebastián: Leiva.
+Profesor: Leiva! Gracias muy amable, felices pascuas.
+Sebastián: Gracias, gracias.
+Profesor: Ya me dió ganas de comer boludo.
+
+Todo está en la reglamentación pero esto es sintético lo mismo que yo hago de vez en cuando es lo mismo de esto, entonces ya tienen lugar en donde mirar algo de vez en cuando.
+
+**Como los inmuebles comandan planta debe tener un tablero seccional como mínimo por cada planta**. 
+###### Que significa eso, si yo tengo un duple por ejemplo o una casa de 2 pisos un duple entonces la norma te pide que yo tenga un tablero acá y otro tablero en el otro piso, cualquier problema el otro que está allá arriba comanda todos los circuitos de allá arriba, y el de abajo más el de arriba porque tengo que tener un lugar que corte todo puede hacer abajo, pero allá protege la parte de arriba cualquier problema que tenga arriba es independiente al de abajo, o sea que ese te pide ya.
+Maru: Serían 2 seccionales? 2 tableros seccionales?
+Profesor: Sí. 1 tablero abajo 1er piso y el otro arriba.
+Maru: Y el otro sería el de la...
+Profesor: El de la entrada al medidor.
+Maru: El principal?
+Profesor: **Claro. Estás entendiendo, de apoco se entiende la gente. Es así te pide el reglamento que uno tenga en el otro piso otro tablero para que comande toda la otra parte en caso de que uno tenga una pérdida salta el disyuntor allá arriba no acá abajo**, quede sin luz allá arriba no abajo.
+Alumno(Silva o selva): Los 2 tableros se alimentan desde el general?
+Profesor: **Lo ideal es: desde el general va a 1 tablero y si yo tengo por ejemplo el tablero a mi entrada yo pongo de ese tablero un corte principal porque tiene un corte principal acá abajo y de acá voy arriba cualquier cosa este de abajo corta todo el otro general generalmente se usa por caso que yo tenga o vamos a suponer vengan los bomberos porque abajo del pilar ya corta y listo**.
+Maru: O sea sería 1 por piso? Porque por ejemplo yo tengo abajo, tengo otro piso y otro piso. O sea 1 por cada.
+Profesor: École. O sea 1 por cada ambiente. École. Si si por cada piso.
+Samuel: Eso ahora o siempre fue así?
+Profesor: Desde que yo hacía proyectos hacía de esa forma. 
+Maru: No porque hasta que llegas hasta abajo peor todavía te matas.
+###### Profesor: Claro, tenes que ir hasta abajo, lo ideal es que por piso se maneje ahí y se evita cualquier...
+Maru: Ahora voy a meterme en la construcción porque todavía no terminaron mi casa la están haciendo todavía, así que voy a ir ahí.
 
 
 
 --
 
 
-Hora 1
+Hora 1:53:48
