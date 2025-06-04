@@ -18,3 +18,17 @@ https://www.youtube.com/embed/5z4CWtm1z_A
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrIfGwN0rOeZotqdaWT2IjZ3bns3wPPmJRWdmWKM6XDKhe_ufqAcPJwQjLKPjkAfhY068vp2xXthFshJ3olfPjgFNaqOiyyrusKMaLiOY5A8G26s1wjNtRy3FkOoZXOCltSp0LzQ88kO74IRHq3BTSGRtST8vxHv0_GQ0UBcGh09eEMAfe2dQyxMZ2K8s/s1599/WhatsApp%20Image%202025-04-17%20at%2010.16.59%20AM.jpeg)
 
 Acá están todas las notas que tomé hasta ahora (son una cagada) con el audio y las fotos te debería bastar: https://imlauer.blogspot.com/2025/04/notas-de-mierda-del-curso-de.html
+
+---
+
+###### Transcripción
+Minuto 1: Se saludan.
+
+Profesor: Vamos a ver si mi ayudante va a venir. 
+
+
+
+
+---
+
+Minuto 00
