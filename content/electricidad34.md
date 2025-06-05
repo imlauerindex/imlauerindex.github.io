@@ -1,5 +1,5 @@
 ---
-title: "Electricidad34"
+title: "Electricidad / Clase 34: Interruptor Diferencial (Disyuntor)"
 date: 2025-06-04T21:34:35-03:00
 tags: [electricidad]
 ---
