@@ -59,6 +59,11 @@ input * {
 }
 ```
 
+Y en reemplazá el `status_command` por la siguiente línea para que muestre información sobre la batería:
+```bash
+status_command while true; do echo "Battery: $(cat /sys/class/power_supply/BAT1/capacity)% $(date +'%Y-%m-%d %X')"; sleep 1; done
+```
+
 https://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols
 
 ###### Actions                                                                                                                                     

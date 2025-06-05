@@ -92,6 +92,135 @@ O vamos a empezar a hacer las cosas sobre pupitre y después haremos en pared y 
 
 Qué radio tiene que ser mínimo ahí? Radio de milímetros para que tengamos la idea, pero la idea principalmente es esto van a ver muy de seguido vamos a reemplazar o esta curva o esta curva a través de un **caño que sea LIVIANO**. Caño LIVIANO porque el otro es más duro y será difícil doblar y si es pesado peor todavía, **ahí si o si hay que usar curva, si es pesado es muy probable que se saquen parte de la rodilla menisco pero no van a poder doblar**.
 ###### Se puede doblar siempre y cuando el caño sea LIVIANO
+Lo que vamos a hacer es un pedazo para cada uno (de caño) y que ellos intenten doblar, la idea principalmente que intenten doblar para que tengan la idea. Empezá de aquel lado vos y yo de este lado, así tomamos un pedacito más o menos igual. Este es de él le voy a dar que él ocupe su herramienta porque sino vamos a tener problemas porque si está doblado, **acuérdense que siempre tienen que apoyar en algún lugar para poder cortar, PVC no hay problema es livianito**.
+Ayudante(Alejandro): El tema es cuando cortas cañería de metal.
+Profesor(Espeche): Cañería de metal es mucho más difícil.
+
+\* Cortan.
+Profesor(Espeche): Por lo menos de a 2, vieron porque no quería usar la de él por las dudas.
+Maru: Vamos a fabricar una curva.
+Profesor: École, por las dudas 3/4 nada más.
+Gustavo Barrientos: El caño 3/4 sería 20 mm
+Profesor: **20 mm, caño de PVC 20 mm**
+Gustavo Barrientos: Pero estuve mirando algunos no dice 
+Profesor: Este por las dudas mirá este es bien pesado, todos son pesados?
+Ayudante(Ale): No, el que usted tenía en la mano es semipesado, este no.
+Profesor: Bueno, por las dudas el de semipesado no vamos a tocar, pero por el diámetro del espesor que tiene estamos metiendo la pata ahí, se van a cansar de doblar.
+Ayudante(Ale): No creo.
+Profesor: Por el espesor uno se da cuenta que caño es, por las dudas, el espesor me va a indicar que caño es, y estamos metiendo la pata en el sentido de que **si usaron pesado es más difícil poder doblar**.
+Ayudante(Ale): Se puede pero es más difícil (la clase pasada dijo que te ibas a romper la rodilla el profesor).
+Profesor: **Viste cuando uno afana no sabe cuál afana, ese es el tema.**
+Gustavo Barrientos: No tiene ninguna, porque generalmente están escritos no dice nada como haciendo referencia al semipesado liviano?
+Profesor: No, recién el que yo tenía en la mano que yo traje hoy decía semipesado.
+Gustavo Barrientos: Porque yo había visto uno que decía 20 mm
+Profesor: No, y algunos dicen semipesado, a ver este, pero acuérdense el tema es que este es liviano, es exclusivamente para hacer... **No, a veces uno afana y afana mal** (Minuto 38:30). 
+
+La característica principal acuérdense siempre es el espesor cuando más espesor tengo más difícil. El espesor me va a indicar las posibilidades, vamos a intentar hacer 1ero.
+
+###### Discuten sobre radio de doblez del caño 3/4 al parecer es 47,5mm
+Profesor: Para 3/4 fijate que radio dice ahí
+Ayudante(ale): **47 mm es el mínimo que se puede doblar.**
+Profesor: 47 mm?
+Ayudante(ale): Si.
+Profesor: Será 47 mm no? Será?
+Ayudante(ale): 47,5mm el radio.
+Profesor: El radio. Ponele 5 entonces de 3/4?
+Ayudante(ale): Acá dice 56. 
+Profesor: **Acuérdense 56 es el radio (el mínimo) entonces si yo tengo...**
+Ayudante(Ale): Me parece que no hay liviano, o sea más allá de estos.
+Profesor: No ese no.
+Ayudante(Ale): No, este es semipesado.
+Profesor: No, este este dale ahí, dale ahí que vayan tocando los materiales, **depende de la rodilla que tenga uno pero generalmente siempre la idea principalmente es tratar de doblarlos de apoco, si yo tengo el soporte ahí lo 1ero que hago es tratar de doblarlo fíjense que esto más o menos es la rodilla de uno**. Probá ahí, despacito no más, si se rompió la rodilla es porque es semipesado.
+Ayudante(Ale): No, ese es liviano, ese no es semipesado.
+AlumnoX: Medio cortina(corto) parece.
+Profesor: No, está bien o sea medio cortina sí pero por lo menos para que vea. 
+AlumnoX: **No llegar a 90 digamos?**
+Profesor: **Claro, pero a ver yo tengo que reemplazar la curva. La curva a veces sale 90 grados porque ya es de como les puedo decir... Fíjense que esta curva ¿cómo tiene 90 grados?, no es que el doblez le va...**.
+Benavidez: Claro, no está derecho.
+Cardozo: Un redondo.
+Profesor: Sí. Yo siempre tengo que **tratar de moldearlo a través de sistema de rodilla XD**, despacito no más.
+Ayudante: Saca el resorte.
+Sebastián: Acá hay un semicírculo si quieren saber si hay 90 grados.
+Profesor: **No, tiene que ser mayor de 90 grados**, llevale a la gente que vaya probando para que tengan idea de como se dobla un caño, hay gente que tiene maña y hay lugares en donde yo tengo **distinto nivel y tengo que hacer tipo una S**
+Leonardo: Si o si hay que tener resorte se llama?
+Ayudante(Ale): Sí.
+###### Para crear una curva con caños si o si hay que usar resorte para doblar caños sino el caño se estrangula queda sin formellado como una manguera. Solo con el resorte no se caliente, se hace en frío en caños de PVC con memoria.
+Profesor: **Resorte para doblar caños**, eso que vimos el miércoles.
+Leonardo: Y así solo de por sí, no se puede doblar? 
+Ayudante(Ale): Se te va a estrangular los caños.
+Profesor: **Se te va a quedar sin formellado así.**
+Leonardo: Se marca?
+Ayudante(Ale): Se estrangula como una manguera.
+Sebastián: Pierde la forma del caño sería?
+Ayudante: Porque los caños se aplastan cuando vos le doblas.
+Profesor: Lo que pasa es que estos caños son tipo memoria yo puedo seguir doblando pero estoy trabajando en doblez en frío.
+\* Profesor y ayudante hablan a la misma vez
+Maru: Con el resorte no más le dobla?
+Profesor: Con el resorte, no se calienta esa es la ventaja que tiene esto en caños de PVC con memoria se llama, o sea si vos queres podes volverlo otra vez a su doblez original.
+Maru: Pero ya queda marcado?
+Profesor: Depende, pero esa **es la idea de como reemplazar una curva a través de un simple dobles, generalmente siempre trato de ahí**. Hasta cuando uno hace cañería de hierro.
+Ayudante(Ale): La de hierro dolía.
+Maru: Y el de hierro si es el del como se llama amolador?
+Profesor: Amolador de caños, mañana si encuentro creo que vi arriba del depósito 
+Maru: Y el del metal calienta el metal o no? 
+Profesor: No, hay un elemento que se llama doblador de caño yo tengo hasta 3/4, 1 pulgada 
+Ayudante(Ale): Bastante bien.
+Profesor: Sí sí.
+Ayudante(Ale): Está duro?
+Profesor: Por eso suelo poner una soga de un lado para poder estirar eso
+Ayudante(Ale): Porque a veces el resorte queda dentro del caño y la idea que uno pueda sacar.
+Profesor: Porque a veces los caños son acuérdense puedo tener una medida de 2 metros 1 metro y medio ya esto ya me vuelve loco, tengo que sacar después, saco con un hilo, para eso es esto.
+Ayudante(Ale): Algunas de las damas quiere probar?
+Profesor: No es difícil, pero acuérdense siempre esto sirve para poder reemplazar despacito no más.
+\* Maru intenta doblar el caño.
+Profesor: Ahora después queda sin rodilla culpa tuya.
+
+Hay gente que se acostumbra tanto al doblez de los caños que no necesita ni las curvas es cuestión de la forma en que trabajen.
+
+Gustavo Barrientos: Ese resorte usted compró ahora? Cuánto le salió?
+Profesor: Sí, 19 y pico.
+###### Como romper el resorte
+**Sebastián: Y sirve para mucho trabajos?
+Profesor: Y depende si ustedes rompen en seguida no me dura ni 1 día, a veces sacan mal y el resorte tiene que mantener su elasticidad y a veces hay gente que deja lleno de tierra a veces de cal la propia forma le oxida y va quedando así**, o sea es todo un elemento.
+Botolli: Profe y si yo estoy usando cañería de 3/4 el caño que va a hacer la curva de 1 pulgada pongo?
+Profesor: No, de 3/4.
+Botolli: Ah, es el mismo caño.
+Profesor: Claro, lo único que haces es esto el mismo caño lo único que haces es tener una unión.
+Botolli: Ah una cupla.
+Profesor: Una cupla, unión perfecto. Ahí pongo otra cupla unión y sigo mi trayectoria.
+Sebastián: Este arria del techo pasa así.
+###### Vicios ocultos en la obra
+Profesor: Hace una curva, una curva o un doblez les digo esto porque a veces hay gente que no tiene ganas y algunas veces **he visto obras que dejaron la curva ahí después los cables colgados arriba así sin protección, eso está mal**. Pero uno se da cuenta después que saca los artefactos hay veces que vos no estás en obra y **bueno cerraron todo el cielo raso y te quedaste sin ver y observar como estaba la instalación son vicios ocultos se llama**.
+Y es muy de seguido que hacen eso entonces vos tenes que estar en contacto.
+Sigan probando esto porque es necesario que ustedes aprendan eso, como hay de 3/4 hay de 1 pulgada y de 7/8.
+Botolli: El resorte que se usa es el mismo, no cambia el diámetro del resorte?
+###### Profesor: Por cada caño hay un resorte distinto porque sino vamos a suponer que vos tengas de 1 pulgada este te baila todo, entonces la forma de curvatura no será la misma.
+Botolli: O sea que tenes que tener 3 mínimo.
+Profesor: Es negocio ellos venden sus productos, aparte de sus productos venden sus resortes y venden todo, por eso que...
+Sebastián: Si hay una obra el electricista tiene que llevar su propio resorte
+Profesor: Depende. El tema es así si vos contratas electricista el tiene que tener todas las herramientas.
+Gustavo Barrientos: Cobra más, un tipo que hablaba de un edificio y decía los precios que cobraban los ayudantes si llevaba herramientas te cobraba más.
+###### Te cobran más si electricista lleva herramientas.
+Profesor: Claro, una cosa que vos tengas todas tus herramientas, eso significa que la producción que vos hagas para descubrir, parte de la herramienta se puede romper descomponer o a su vez vos queres cambiar entonces tenes que buscar un monto de esa mano de obra que sirva para que vos puedas el día de mañana reponer ese elemento que estas usando.
+###### Vamos al revés si tengo una empresa constructora y la empresa constructora contrata al electricista y ellos consiguen las herramientas lo 1ero que te hacen es que vos firmes, te van a comprar y te dan las herramientas para que vos utilices, vos terminas la obra si no devolves no vas cobrar.
+Hay veces que una empresa compraba para una determinada obra vamos a suponer perforadora y amoladora y terminaba la obra, el tipo porque está el encargado de obra, **el encargado de obra no sabe que herramienta usa el fulano de tal, pero lo que contrata la empresa tendría que el administrador antes de hacer la liquidación fijarse que herramienta llevó**.
+###### Yo he peleado con gente de la empresa porque digo la pucha se compró para esta obra y desaparecieron todas las herramientas. Hay nos olvidamos dicen. La pérdida es de ustedes no mía.
+Después para otra obra van a tener que conseguir otra vez herramientas.
+Botolli: Qué pasa si el operario rompe la herramienta?
+###### Al profesor Espeche le quemaron una perforadora con percutor porque apretaban y palanquean en vez de acompañarla, solo hay que apoyarla o sino palanquean están apurados no dejan que trabajen y le van palanqueando tuercen.
+
+Profesor: Si es casa fortuita y vos le repones, ahora si hizo por mal uso tiene que pagar porque yo a veces presto mi herramienta pero por muy poco, **quemó una perforadora que perfora hormigón lo que sea pero tiene un percutor que ella misma vos te apoyas y ella...
+Sebastián: Rotomartillo.
+Profesor: No, es un percutor, pero es automático el sistema, vos apretas y quemás**
+Gustavo Barrientos: No lo tenes que apretar tenes que dejarlo ahí, eso tiene un pistón adentro.
+Profesor: Sí, ella misma te hace tuc-tuc-tuc, vos tenes que apoyar nada más.
+Gustavo Barrientos: Tenes que acompañarle
+Profesor: **Hay otra gente que le apoya y empuja entonces y se quema**, yo una vez tuve que mandar arreglar en resistencia que había la marca esa una SPIT me demoró una semana, no, un mes me duró llegó allá volvé pagás y después te mandan, pero está mal hecho eso.
+Gustavo Barrientos: Sí, o sino palanquean están apurados no dejan que trabajen y le van palanqueando tuercen.
+Profesor: Y sí, **las herramientas si no es de uno es muy probable que el tipo que lo utilice la utilice mal porque no va a cuidarla**.
+
+
+
 
 
 
@@ -101,4 +230,4 @@ Qué radio tiene que ser mínimo ahí? Radio de milímetros para que tengamos la
 
 ---
 
-Minuto 32
+Minuto 51:18
