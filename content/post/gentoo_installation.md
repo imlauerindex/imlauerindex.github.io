@@ -89,7 +89,7 @@ echo "KEYMAP=es" > /etc/vconsole.conf
 ##### Mirá en el directorio /usr/share/consolefonts/ para ver tus letras disponibles
 ```bash
 echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf
-echo "arch" > /etc/hostname
+echo "gentoo" > /etc/hostname
 ```
 
 #### Agregá o reemplazá
@@ -97,7 +97,7 @@ echo "arch" > /etc/hostname
 ```bash
 127.0.0.1       localhost
 ::1 localhost
-127.0.0.1       arch.localdomain        arch
+127.0.0.1       gentoo.localdomain        gentoo
 ```
 #### Cambiamos contraseña root y sincronizamos
 ```bash
@@ -827,4 +827,3 @@ rc-service display-manager start
 Tenés que crear el .xinitrc y start XD
 
 ```
-
