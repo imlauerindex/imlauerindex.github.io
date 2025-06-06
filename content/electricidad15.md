@@ -359,7 +359,10 @@ En lugares en donde había vigas de madera y arriba estaba el machimbre algunos 
 Maru: Pero fijó las bocas a las vigas?
 Profesor: No, el recorrido de los caños, puede fijar a las vigas. Fíjense yo acá pongo el artefacto no se ve pero este es una viga y esta otra viga, en vez de hacer todo el recorrido por arriba o por abajo, el tipo puso el caño pasando por la viga de una a la obra, me quedó un espacio así entre el cielo raso y el otro. Estéticamente horrible.
 Benavidez: Una ganas de laburar. 
-Profesor: Una vez me tocó hacer en Tacurú ahí tiene el comedor, el comedor en esa época tenía unas vigas. Y teníamos que esconder las luces ahí pusimos cañería de hierro y las vigas vamos a suponer que esta era la viga de madera salían así, **tratábamos de esconder todas las cañerías por el costado de las vigas, cosa que la persona que venga de frente no vea el caño**
+Profesor: Una vez me tocó hacer en Tacurú ahí tiene el comedor, el comedor en esa época tenía unas vigas. Y teníamos que esconder las luces ahí pusimos cañería de hierro y las vigas vamos a suponer que esta era la viga de madera salían así, 
+##### tratábamos de esconder todas las cañerías por el costado de las vigas, cosa que la persona que venga de frente no vea el caño ahí poníamos las bocas lindo quedó es mucho laburo
+Pero si queda bien y te pagan bien no importa vos haces el laburo bien.
+A mi me tocó recorrer algunas escuelas con ese **sistema de viga a la vista** generalmente en lugares en donde está más retirado parece que **el profesional en este caso eléctrico no le da importancia y le mete cañería por todos lados tiene luz pero lo que estaba lindo antes estéticamente queda feo**.
 
 
 

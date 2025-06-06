@@ -3,7 +3,8 @@ title: "Páginas bloqueadas por personal, claro, movistar"
 date: 2025-01-30T15:36:13-03:00
 tags: ['blocked']
 ---
-Bloquean sitios por DNS, solución: [cambiar las DNS](/personal_bloquea_sitios).
+Bloquean sitios por DNS, solución: [cambiar las DNS](/personal_bloquea_sitios) o otra solución es navegar directamente usando Tor o el navegador Tor si usas el navegador Tor vas a tener que habilitar, sino podes usar Firefox pero usa a tor: `localhost:9050` como proxy.
+
 La gente dejó de pagar los paquetes de canales "plus", así que se pusieron a censurar todo.
 
 Lista de sitios bloqueados: 

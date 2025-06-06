@@ -1,5 +1,5 @@
 ---
-title: "Virtualbox"
+title: "VirtualBox"
 date: 2025-06-06T14:09:41-03:00
 tags: ['VMs']
 ---
