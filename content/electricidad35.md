@@ -9,7 +9,7 @@ https://vocaroo.com/1cTonDaIf9VT
 ###### Audio en Archive:
 https://archive.org/details/record-152 
 ###### Audio en YouTube:
-https://www.youtube.com/watch?v=Wgl4s89aA_k
+https://www.youtube.com/embed/Wgl4s89aA_k
 ###### Preguntas de examen
 Hora 01:06 y hora 01:25
 
