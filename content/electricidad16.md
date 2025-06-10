@@ -25,3 +25,38 @@ https://www.youtube.com/embed/rDrnbLd95v0
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoud0D-JHHsRk9yMoIB9-ef9k4LflQZWYSfb335zfjKMabD-W5bArvplvbQavBSgNq14YjykPQI5bPXhY35V3AdHAacJMDgRZcQ9G9p5NEfPS9KEAq0pZbet2CKRgHBoq0VV3YsdN2x9TZSlV5y4rkeOR5oiIJp2WGi49-TtKkYmwZbeL-CbV2zNA8Dts/s4160/IMG_20250422_193647351.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwTXttw23odhZRenzZHBZDw5E2ygHu7p9O_x9OGGtM2uZD_CmRqWrQxKjx8wjG2Y2-itsA-cwFVOa5PcSHM7dSW239VIBTXhGIEVRmuCB8IDNRFyegIz8iwql-DZlBA60nL_f0wUZBSD_GyBDqbtiIxiSsUtDVfc-0fClpG6QSkxln21irOZtsDYBy6FQ/s4160/IMG_20250422_194847117.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbZgWpGel-DJMjC6eSJ9MMRp59r-sFfCIGBWwy8jPB_bcXTvq8Oil0bIw0BwJDUdX3FLRE6R-ay5VitXZczg1p8hgacF7HG2AOBgwR0QAyZQs7j2LL0qyJZxRbux8H24vbYd-DIgbjwznIXmlOxLtlp1FJvDmh-2zK2wzYQ40JgdVYVq-sbGViLRblVr8/s4160/IMG_20250422_195630553.jpg)
+
+---
+
+##### Transcripción 
+Imlauer vos vas a elegir ir para aquel lado o ir para este lado, hay 4 atrás, 3 chicas y el señor ahí y acá tengo 3 y 3. Dónde vos quieras elegí porque vamos a tratar de hacer de a 4.
+Así va a ser mucho más fácil.
+
+Minuto 
+Mi hermanos en los años 90 iban a la industrian y para cancelar las clases puenteaban fase y neutro y salteaba la instalación.
+
+Profesor: Acá vino mi ayudante, vamos a ver si esto sirve la idea principalmente para que ustedes entiendan es tener un sistema de bastidor en la cuál cada uno puede hacer después una instalación interna con cableado o lo que sea, como no tenemos la madera. Yo pedí madera para que cada uno tenga su propio tablerito individual para hacer las conexiones, hoy tenemos 3 filas, cada fila hará como si tuvieramos un sistema parecido a eso.
+¿En qué consiste? 
+No sé por qué me faltan cosas pero bueno, ahí le conté al director que me sacaron yo había afanado.
+Sebastián: 100 años de perdón (ladrón que roba a ladrón)
+Profesor: Siempre digo lo mismo pero es para que tengan idea de que es lo que están por hacer: si yo tengo 1 o 2 bocas arriba probablemente yo necesito en algún lugar una caja de paso, caja de paso esta es de `10x10` lo que encontremos ahí le vamos a dar, si no tenemos cajas de paso vamos a poner una caja octogonal **está siempre está en la pared esta caja** puesta ahí como ustedes ven allá entonces tomo la alimentación y en algún lado esto alimenta esto y acá va a haber otra caja `10x5` rectangular que es eso, y acá las cajas octogonales. 
+Este es el estema que ustedes ven de planta, la idea principalmente **hoy vamos a utilizar cañerías de 3/4** nosotros para poder tener una idea exacta **cualquier esquema va a tener siempre una caja de paso en el medio y ahí podes hacer derivaciones para un lado o para otro, acá ponemos una caja octogonal** y acá vamos a poner una caja `5x10` esto es sencillo ustedes van a tratar de utilizar todo lo que se pueda.
+Vamos a suponer que yo soy ustedes, **yo le voy a dar una caja ustedes van a tener ya sea cable lo que ustedes quieran, como hay caños todavía por suerte compré 2 caños y afané otro ustedes tiene una cierta longitud acá también entonces lo que van a hacer CAJA, CAJA OCTOGONAL y 2 de estos**, no sé donde quedó la otra. Si puedo conseguir todo para que tengan la idea suficiente, ustedes van a hacer la conexión, van a tener los conectores que serán estos, **acá mucho más fácil porque ustedes ya saben que el conector que van a usar es `3/4` el caño que van a usar es `3/4`** entonces tienen que desarrollar lo mismo que está ahí, algo parecido a esto que ustedes van a representarlo sobre este banquito, no sé si él trajo si elemento de corte pero cualquier cosa vamos a facilitar.
+Entonces aplicamos todo lo que vimos, cuando tengan un lápiz ustedes lo único que van a hacer es, no le vamos a abulonar a la mesa pero por lo menos ustedes le marcan donde será fijo esto, capaz **lo máximo le doy un tornillo para que tengan un punto de referencia** a partir de ahí igual que esta, **un tornillo total un tornillo a estas mesas no le va a hacer nada, después sacamos**.
+Cada uno va armar va a poner los conectores, **si quiere puede agrandar y poner una curva**, que hay curvas también, pueden llegar hasta acá poner una curva acá y hacen el sistema acá, cualquier cosa está bien hecha siempre y cuando respeten y tengan idea que esto esta caja es la alimentación principal que viene del tablero principal alimenta la caja y hago la distribución, estamos?
+o
+
+
+
+Minuto 55: Y yo te pregunto vos a una pared vas a cortar el caño en la pared? O vas a sacar el caño y vas a cortar?
+Vos le hablas bien te habla mal este boludo con razón el pelado no lo quiere.
+
+Algo importante en 01:01
+Octogonales se usa para iluminación y paso
+Estos son para tomas y puntos
+1 metro 50.
+El cuadrado a 30 centímetros.
+
+---
+
+Minuto 15:30

@@ -65,7 +65,7 @@ pero nada de otro mundo.
 #### Airgeddon captura handshakes rotos es mejor usar hcxdumptool
 Quizás en un futuro mejore, pero hasta ahora es así.
 
-Bajate BlackArch, KaliLinux o si tenés Arch agregale el repo de BlackArch.
+Bajate BlackArch, KaliLinux o si tenés Arch agregale el repo de BlackArch. (Si no queres el repo de BlackArch podes instalar las depedencias del AUR)
 Instalá wifite, airgeddon, fluxion.
 
 Si querés usar airgeddon sin interfaz gráfica: 
@@ -74,6 +74,13 @@ sudo su
 export AIRGEDDON_WINDOWS_HANDLING=tmux
 airgeddon
 ```
+
+###### En ArchLinux instalar `airgeddon`:
+```bash
+yay -S airgeddon crunch asleap beef-xss hostapd-wpe
+pacman -S hostapd lighttpd hcxtools bettercap ettercap bully pixiewps  hashcat tcpdump ettercap wireshark-cli mdk4 hcxdumptool reaver  john dhcp
+```
+
 Más info acá: https://github.com/v1s1t0r1sh3r3/airgeddon/wiki/Options
 
 

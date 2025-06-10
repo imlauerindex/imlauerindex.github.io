@@ -16,3 +16,20 @@ https://www.youtube.com/embed/CjxdRc7iQsw
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWU4xTKIlzRPxELMk-kIfgAJpVmyLM7T_CRgy60n0_hUuLLQ775geleJbNk4ZnvK-840km_2gG6vLqA36cDTWtDcmvVhIgmmahpVbgoGISPA-3adPk3atP3ylaM4eno9O4ieszp7hReTOyiXi7yFKu8yfWHxqp26KY9hjr4Da0Xlab6ALhLrWNBzAvZr0/s4160/IMG_20250423_195309687.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ1aDXxW2p2JZhPRco9p6YCxztoVpqhKgPzcVQySRrZnbF_YKVMat0sBD04ZeTc9ClnGuLq855PU2JE4dYtKdF11Uchrs54lpWybprv85iGxFG1oLfWj0MqMZTiJCHCOVa1n3K1s41gsHaNIrwkR7ADaYZ2RX9km3Gv0ZouazFfcCIy295AJbtZOPjcLE/s1080/IMG-20250423-WA0001.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvGuXJ_Ex58mbcw6lOHECmh0qOgQ6eHXkhoyXzq5UN2hXa0wUH4HnpIDFq-df0P7K1o1IjJgBK1tM_Z0hfW8cfh3OEqhYtyFIJtOHTDp6tp4g25Xp9-Wr96kBElNpZJdZkkzCDMvRfMDjKUQt0uzh6tDVyHAL9nOWTa-2ltHFgrOG6z4M9mdMwl7FWPWM/s774/IMG-20250423-WA0002.jpg)
+
+---
+
+###### Transcripción
+
+Gustavo Barrientos: No vas a encontrar justo un cuadrado (una maqueta). El otro día yo pasé frente del Mitre terminaban haciendo una obra y tiraban toda la madera, yo tenía que ir para otro lado cuando volví ya habían llevado todo.
+Leiva: Si, llevan todo.
+Antonio Cardozo: Llevan para ellos.
+Gustavo Barrientos: Sí o para otra obra. Yo veo un contenedor y ya me quedó.
+Leiva: Sí si, siempre hay algo.
+Gustavo Barrientos: El otro día fui a llevar un trompito ahí cerca de la panadería Tacuarí y se ve que le echaron a un loco y había un contenedor y un montón de cosas tirada y yo tengo una tía, mi vieja hacen manualidades entonces vienen esos botellones Dama Juana de antes: ah voy a llevar para que ellos pinten. Empiezo a mirar encuentro un cargadorcito de 12 voltios, freídora a gas todo abandonada una mugre adentro pero le guardé, una tele 20 pulgadas.
+Sebastián Melgarejo: Ese está bueno para video juegos videos.
+Gustavo Barrientos: Le dí a un compinche que arregla y vendió y fuimos a media. Y vendí 50 mil pesos la freidora, dije freidora era de mi viejo estaba guardada hace años vino un vago y llevó, después el otro día iba en la moto hace 3/4 meses por Santa Catalina bien en frente del motel viste que hay 2 moteles creo que es Dutra la calle esa antes de Almirante Brown, miro así al lado de un basurero un taladro de banco¿? (Minuto 02:07) 
+
+25:45 Saul Kuperman es el director de la escuela me acompaña Darío Vallejos él es el secretario de la escuela, Soledad es la preceptora que viene a tomar la asistencia y colabora con la parte administrativa, básicamente agradecerle por habernos elegido que nos conozcan que sepan que estamos a disposición más allá del docente que obviamente es el que está en frente al aula y es el que va a estar en contacto permanente con ustedes, parte del equipo nuestro es una psicóloga Gissel Benegas que tenemos un sector de... No me sale el nombre...
+Secretario **ó** Sebastián Melgajero: Gabinete
+Saul Kuperman: Gabinetes psicológico que está a disposición de ustedes no sé si pasó por el curso, es un área para nosotros importante que aparte de trabajar la parte específica del oficio la escuela pretende darle 

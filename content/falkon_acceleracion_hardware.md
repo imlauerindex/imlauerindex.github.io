@@ -11,6 +11,11 @@ export QT_QPA_PLATFORM=linuxfb:size=1000x1000
 export QT_QPA_FB_DRM=1
 ```
 
+#### Si no aparece el mouse ejecutá:
+```bash
+sudo chmod 666 /dev/input/event*
+```
+
 Ejecuté este comando y rompí pipewire-pulse XDD porque buscaba la carpeta /pulse en lotro lado. Lo borré.
 ```bash
 export XDG_RUNTIME_DIR=/tmp

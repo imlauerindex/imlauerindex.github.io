@@ -159,6 +159,7 @@ equery uses dwm
 ```
 
 ### Ahora instalá todos estos paquetes (si usaste dwm borrá sway):
+Para instalar OBS tenes que habilitar las banderas antes sino no funcionará cámara.
 ```bash
 emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
 
