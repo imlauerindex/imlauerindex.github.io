@@ -3,8 +3,30 @@ title: "Preguntas de exámen: Auxiliar electricista "
 tags: ['electricidad']
 ---
 El examen es a carpeta abierta.   
+
+###### Preguntas:   
+**Clase 36**: 35:27, 01:28, 01:30:30, 01:35
+1. Escribir TAL CUAL: Era fotocopia de EMSA: el inicio de ustedes por si se llegan a equivocar: La instalación eléctrica es segura y confiable cuando ha sido concebida realizada por un instalador electricista HABILITADO, no le dice matriculado porque algunos ponen matriculado que ha aplicado la reglamentación para la ejecución instalación eléctrica en inmueble ahí en algunos casos sería interesante que pongan de la AEA porque se sabe que es lo mismo pero pongan AEA y ha utilizado material normalizado IRAM, eso es el inicio del curso, cualquier cosa por qué hacen este curso por esta cosa. Una vez vino la ministra de trabajo.... No tenemos matrícula.
+1. Símbolos más usados: Tablero seccional, tablero general, llave.
+2. Diferencia entre neutro y tierra.
+3. Qué es interruptor diferencial y puesta a tiera?
+3. 3 elementos de protección que debo de tener dentro de una instalación domiciliaria, entonces empezamos con interruptor termomagnético, el diferencial y la puesta a tierra. Como actúa el interruptor y esas cosas. No me gusta que copien, si leen lo mas importante, los conceptos. 
+3. Esquema que también habla de la reglamentación que empieza la acometida, la línea municipal, el medidor y todo, es interesante esa parte porque con simple dibujito con cuadradito da a entender como es nuestro sistema de donde tomamos la alimentación para que sirve y después aparece algunas preguntas sobre. Ahí empieza nuestra parte teórica y hay una pregunta de la parte práctica que siempre yo repito acá y 
+3. Que ustedes la secuencia que tienen que hacer o qué elementos utilizan herramientas especial para comprobar como está la instalación si está: empezamos con el buscapolo primero vemos la fase, si no tengo la fase yo sé que en algún lado necesito la lámpara de prueba, si no tengo lámpara de prueba, tengo que tener un probador de tensión, si no tengo probador de tensión paso al tester. Es interesante la secuencia como trabajo.
+3. Esquema eléctrico de luces: llave combinada. Voy a ver como interpretan una llave de punto, lámpara lo que sea, esquema eléctrico.
+3. Parte de conductores: preguntas de canalización.
+4. Fotocopia agrupación de conductores, ahí dice la parte de cañería como debo conectar si lo mismo que pregunto acá hago en las obras: ¿como tienen que estar las bocas de iluminación? Si están suspendidas tiene que estar fija a la estructura de la cubierta, hoy están haciendo todo el sistema con cieloraso suspedido entonces si yo uno todo mi boca al cieloraso entra viento y esto hace este movimiento muy probable que provoque que las cañerías se descogoten entonces te pide: 1ero que estén fijas las bocas. 2do que si tengo una boca y a otra tengo que unir con conectores, esas cosas es importante.
+4. Conexión con conectores.
+5. ¿Interruptores que es un interruptor que es un diferencial? ¿Qué es la puesta a tierra? Vamos a utilizar la fórmula de potencia.
+6. Magnitudes ¿qué es tal cosa? Qué es potencia, que es corriente y que es resistencia, que se mide y qué unidad tiene. NO hay otra cosa grande.
+7. Algún trabajo práctico.
+8. Realizar el esquema eléctrico de 2 artefactos y 2 llaves combinadas, siempre partiendo de un lugar en donde yo tomo la fase y el neutro en este caso ustedes saben que siempre tomo una caja de paso, y a partir de ahí veo donde está el neutro y después como hago, el día de mañana cuando estén más duchos puede aparecer la fotocélula.
+9. Como coloco disyuntor en un tablero: siempre atrás de mi interruptor termomagnético de igual o mayor amperage. Bipolar y esas cosas.
+
+
+---
+
    
-Preguntas:   
 1. ¿Qué diferencia entre interruptor diferencial e interruptor termomagnético?    
 ###### Todo sobre la 2da fotocopia: ¿qué es línea de alimentación, tablero seccional, principal?, y demás definiciones.   
 2. Y la línea de alimentación principal es del morceto hasta el medidor, la acometida es todo lo que constituye protección con caño garbanizado, pipeta morceto fusible aéreo. El otro es mi alimentación principal.    
