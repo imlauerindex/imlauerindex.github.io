@@ -2,8 +2,53 @@
 title: "Preguntas de exámen: Auxiliar electricista "
 tags: ['electricidad']
 ---
+Armar esquema eléctrico no esquema de montaje.
+
 El examen es a carpeta abierta.   
 
+###### Clase 37:
+17 de junio es el examen teórico. Martes y miércoles si tienen alguna duda pueden seguir el otro día.
+Yo trato de meter la mayor cantidad de preguntas, pero siempre referida al tema.
+Puedo meter varias preguntas y la idea es tener un concepto bien claro que es lo que saben ustedes, esa es la idea.
+Hay recuperatorio.
+
+Símbolos que más se usan en una instalación domiciliaria: caño, boca, de iluminación, llave de 1 punto, es interesante vamos a suponer que ustedes tengan una caja de paso por ahí esto venga acá y esto venga acá, que ustedes sepan que ahí dice parte de la norma si yo tengo unión entre una caja ya sea caja de paso o una caja octogonal en el caso representa una boca iluminación está conectado con un conductor con un caño ya sea de PVC o de hierro ese caño tiene que estar unido con conectores. **Eso es fundamental** y esto que esté fijo, todos estos son conectores o sea que esto son preguntas chiquitas pero que ustedes tienen que saber, al armar cualquier cañería hay que fijarse **que estén los conectores, sin los conectores está mal**.
+**Y esta boca si está suspendida aparte de estar fija tiene que tener Gancho U sirve para colocar cualquier artefacto porque la boca estará fija, entonces yo puedo fijar cualquier artefacto pesado liviano pero de ahí**
+Es importante la fijación de la boca y del gancho U porque generalmente hoy se está reemplazando el machimbre y utilizando el PVC, entonces ese PVC por suerte para nosotros que estamos en la parte de escuela ponemos artefactos dobles antes era artefactos fluorescente y tenía un balasto ese balasto era pesado y se recalentaba y calentaba la chapa, todo es de chapa y la gente en vez de fijar a la boca. **El gancho U fijaban al PVC y solo con tornillo, con el tiempo recalentaba la chapa el tornillo de plástico y después se venía para abajo el aparato entonces exigían que por lo menos pongan un tarugo ahí**. El tarugo era otro elemento más flexible y por el calor no tenía problema, después había otro método para poder sujetar eso, lo mismo con los durlocks.
+
+###### Esquema de acometida toma (Minuto 47:20) - Clase 37
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU3b44UDyboY1fm1GypoLGfzh5lfnJeNyejHskICKr4ExT2siVNT6vkmDZqh9BMKk8fFfKOuZ1k61NQ9ZOKTKzA0_6vh-qoeNdLFuVRMdsLgaec25hNof-EIpwzTBSlL3XfZ0cLZpGu8fiwdzdS_brWSE_cNwfpDs1gpPiWL4Q9PjsfN3PvfKzMep-yIA/s4160/IMG_20250611_202545439_BURST000_COVER_TOP.jpg)
+
+¿Qué valores cuál es la línea principal? Está en la fotocopia
+1. cuál es la línea principal
+2. cuál es línea seccional
+3. que es el tablero general.
+Sobre este aspecto es donde empezamos nuestro análisis de donde nosotros tenemos ingerencia.
+4. Como conecto esto a la red?
+5. Esto es un esquema unifilar y para saber que es monofásico tengo esta caractersítica puede ser la línea trifásicasica tengo esto y el neutro.
+6. Qué es linea principal, secundaria o lo que sea.
+7. Esquema general de instalaciones (copia en la hoja)
+8. Símbolos simbología, esquemas.
+9. Minuto 58: como es el interruptor termomagnético que es lo que se lee en el frente, para que sirve y qué es lo que se lee. En el frente es como si yo miro de frente acá , acuérdense que es importante porque arriba de esto hay una **tapa un contrafrente** se llama para que nadie pueda tocar ningún borner vivo, entonces hay un contrafrente y lo único que aparece son las partes legibles acá. Es interesante que ustedes sepan que dice 30 porque ustedes van a revisar el tablero, van a decir este tablero tal característica que calibración para que sirve, en algunos casos no está identificado de que circuito es. Ahora cuando veamos el tema del tablero se aconseja un buen tablero que tenga, esto son tipos gabinetes acá tienen la tapa entonces en la contratapa se exige que esté el diagrama unifilar, eso que ustedes van a dominar después, ese diagrama unifilar indica todo el sistema de conexionado con una simple raya la simbología, **como acá hay un contrafrente es importante que sepan para que sirve y que es lo que dice el contrafrente**.
+10. Hay una tabla que ustedes saben que hay una corriente cada sección de conductor tiene una corriente máxima entonces le voy a dar 4/5 lo más usado, el tema de conductores ustedes lo que tienen que poner **es la corriente máxima de cada conductor y con que interruptor yo protejo eso, no me interesa no vamos a poner que sea bipolar, tetrapolar ni nada por el estilo**. Quiero saber si ustedes entienden que el elemento que protege el conductor que es el interruptor termomagnético tiene que ser para sección de conductor tal.
+11. ¿Qué se lee en el frente del Interruptor Termomagnético? Amperage, Curva C algunos puede ser B, línea de ruptura de 4500, 6/16 Amper o sea que ese interruptor por mirarlo es como mira a alguien yo por mirarlo se que este tipo es bipolar porque tiene 2 polos, la calibración que **viene arriba es curva C 16 amper, para ser eso de 16 significa que ese interruptor termomagnético protege un conductor de 2,5mm^2 de sección y ¿donde se usa? En tomacorrientes**.
+12. Hay 2 partes o dos preguntas: como yo en la parte práctica compruebo que está pasando con mi instalación que elemento utilizo pero ya vimos eso: buscapolo, lampara de prueba, probador de tensión, tester o cualquier elemento que tenga para medir la tensión.
+13. Como yo identifico o con qué letra figura dice como no dicen tensión sino diferencia de potencial pero en realidad es tensión entonces hay que ver. **A mi lo que me interesa que como yo en esa nomenclatura en un instrumento de medición como yo leo eso y la lectura que me da el equipo en qué unidad entonces si es tensión tiene que ser voltios, si mido la corriente tiene que ser amper, si mido resistencia tiene que ser ohm**. 
+14. Bueno ahora saben que la tensión tiene esta nomclatura y esta unidad y ¿te pregunta como mido? Con el tester pruebo en los dos polos, si es monofásico en fase y neutro tengo 2 polos de un interruptor termomagnético en un tablero, está conectado evidentemente pruebo en un tomacorriente fase y neutro y en algunos casos dice donde está la fase? La fase siempre a la derecha con respecto al otro borner de la tierra.
+15. En cualquier obra que tengan para hacer el cálculo lo importante en una instalación es saber que corriente está consumiendo cualquier equipo, con cualquier fórmula principalmente en la **fórmula WATT** ustedes saquen que cualquier elemento cualquier dispositivo cualquier motor, **figura una plata que va a figurar con la letra P, ese es potencia**. Esa placa va a tener un valor de potencia determinada (Potencia eléctrica, en refrigeración hay potencia frigorífica y es distinto a la potencia eléctrica hay que multiplicar por un valor o dividir por 800 y algo y para que de la potencia eléctrica). Es distinto, aparece otra potencia divido por la tensión para hacer rápido y tengo una corriente **esa corriente en amper me permite a mi a través de una tabla, saber que sección de conductor utilizo si sé que sección de conductor utilizo voy a elegir mi interruptor termomagnético para proteger ese conductor**.
+Yo automáticamente uso la tabla y lo que me dice el reglamento que conductores deben ir en cada elemento si es toma de usos generales, toma especiales y iluminación yo eso ya ni calculo yo hago el recalculo para saber cuando tengo dudas. **Siempre el conductor que yo coloque tiene que ser mayor a la capacidad que me permite la fórmula o el elemento.**
+16. Conocer la corriente es lo que importa en la instalación eléctrica. 
+17. Aparecerá realice un esquema eléctrico de tal cosa, hay gente que hizo el esquema así. Hoy es cosa sensilla ustedes agarran un esquema el día de mañana van a leer un poquito más complicado.
+18. Cuando estén más duchos más avanzados ahí le voy a pedir fácil: la planta, los caños y de ahí ya aparece esquema en planta, después cuando tengamos para hacer los caños vamos a poner que es lo que dice arriba y acá vamos a suponer 2x1,5 + Tierra hasta acá y arriba que tipo de caño, eso vamos a hacer después no se vayan a apurar, **ahora quiero el esquema eléctrico**.
+19. La corriente se representa con la letra I y la unidad es el amper y aparece donde mido eso como mido la corriente: A través de un instrumento que se denomina pinza amperométrica tomando uno de los cables si mido los 2 da 0, con un tester también puedo medir la corriente ahí coloco en serie tiene que pasar por el tester, tiene que ser corriente pequeña si es grande me quema el equipo. Cualquiera de los cables pero 1 a la vez. Pasa la corriente, la corriente genera un campo magnético ese campo magnético es lo que entra hay tipo un imán adentro del sistema y eso transforma.
+20. Diferencia entre fusible e interruptor termomagnetico: los dos protegen el conductor. El ITM es reutilizable, el fusible se rompe se corta.La diferencia principal es que el fusible es un dispositivo de un solo uso: cuando hay una sobrecarga, su filamento se funde y hay que reemplazarlo. En cambio, el ITM (Interruptor Termomagnético, también llamado breaker) se puede rearmar fácilmente después de un corte, ya que solo se "bota" y no se daña permanentemente. 
+21.  El interruptor termomagnético protege el conductor y no la carga, yo calculo el interruptor por el conductor que voy a colocar.
+
+
+
+
+
+   
 ###### Preguntas:   
 **Clase 36**: 35:27, 01:28, 01:30:30, 01:35
 1. Escribir TAL CUAL: Era fotocopia de EMSA: el inicio de ustedes por si se llegan a equivocar: La instalación eléctrica es segura y confiable cuando ha sido concebida realizada por un instalador electricista HABILITADO, no le dice matriculado porque algunos ponen matriculado que ha aplicado la reglamentación para la ejecución instalación eléctrica en inmueble ahí en algunos casos sería interesante que pongan de la AEA porque se sabe que es lo mismo pero pongan AEA y ha utilizado material normalizado IRAM, eso es el inicio del curso, cualquier cosa por qué hacen este curso por esta cosa. Una vez vino la ministra de trabajo.... No tenemos matrícula.

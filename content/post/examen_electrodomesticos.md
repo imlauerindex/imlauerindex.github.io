@@ -5,7 +5,7 @@ tags: ['electrodomesticos']
 ---
 ![](/img/clase16electro/IMG_20241017_140539215.jpg)
 ![](/img/clase16electro/IMG_20241017_140508685.jpg)
-   
+
 1. Concepto de electrodomésticos   
 1. ¿Qué es línea marrón?   
 1. ¿Qué es línea blanca?   

@@ -32,3 +32,9 @@ WebUI\Password_PBKDF2="@ByteArray(ARQ77eY1NUZaQsuDHbIMCA==:0WMRkYTUWVT9wVvdDtHAj
 ```
 
 Que establece la contraseña por defecto como adminadmin para no tener que estar copiando y pegando la contraseña temporal que te genera cada vez que abrís el programa.
+
+###### Para instalar jackett en Arch usando el `AUR`:
+```bash
+yay -S jackett-bin
+sudo systemctl start jackett
+```
