@@ -46,8 +46,6 @@ Yo automáticamente uso la tabla y lo que me dice el reglamento que conductores 
 
 
 
-
-
    
 ###### Preguntas:   
 **Clase 36**: 35:27, 01:28, 01:30:30, 01:35
