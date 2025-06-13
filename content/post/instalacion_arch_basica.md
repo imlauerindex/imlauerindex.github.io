@@ -1068,3 +1068,36 @@ More information: <[https://man.archlinux.org/man/pacman.8](https://man.archlinu
 Estos son todos mis paquetes (mezclando AUR y repositorio oficial): `acpi aichat alsa-utils base base-devel bc bridge-utils btop chawan-git dnsmasq dosfstools efibootmgr espeak-ng evince fastfetch festival fim firefox fish floorp-bin foot freetube-bin gimp git grim grub hugo imagemagick inetutils iptables-nft irssi jq kdenlive lib32-mesa libguestfs libreoffice-fresh libvirt linux linux-firmware man-db man-pages mpv mtools neomutt networkmanager noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra obs-studio os-prober pipewire pipewire-pulse plocate python-pip qbittorrent qemu-full qt5-wayland qt6-wayland rclone samba smtube speech-dispatcher sway telegram-desktop texlive-fontsextra texlive-fontsrecommended texlive-langspanish texlive-latex texlive-latexextra texlive-plaingeneric thunderbird tmux tor tor-browser-bin torsocks translate-shell tree unrar unzip v4l-utils vim virt-manager w3m wget wine wl-clipboard wmenu xdg-desktop-portal xdg-desktop-portal-wlr yay yay-debug yt-dlp `
 
 https://github.com/familyfriendlymikey/mpv-cut
+
+
+##### Cifrar disco duro
+```bash
+cryptsetup luksFormat /dev/sda1 (root)
+cryptsetup open /dev/sda1 cryptroot
+lsblk
+mkfs.ext4 /dev/mapper/cryptroot
+mount /dev/mapper/cryptroot /mnt
+mkdir /mnt/boot
+mount /dev/sda1 /mnt/boot
+pacstrap... todo lo mismo 
+vim /etc/mkinitcpio.conf
+Agregá en HOOKS: HOOKS=(encrypt lvm2)
+mkinitcpio -P
+```
+###### Para instalar el grub tenes que saber el UUID del disco duro
+```bash
+blkid -o value -s UUID /dev/sda1 >> /etc/default/grub
+blkid -o value -s UUID /dev/mapper/cryptroot >> /etc/default/grub
+vim /etc/default/grub
+```
+Pegá el primer UUID al final de la línea que dice dice `CMDLINE_LINUX_DEFAULT` y 
+###### Ambos deben estar en una línea y separadas por un espacio.
+```bash
+cryptdevice=UUID=dejá el primer UUID:cryptroot (dev mapper particion) root=UUID=dejá el 2do UUID y nada más 
+grub-mkconfig -o /boot/grub/grub.cfg (antes ejecutar grub-install)
+systemctl enable NetworkManager ...
+reboot..
+sudo vim /lib/systemd/system/getty\@.service
+```
+En la línea ExecStart eliminá -o 
+
