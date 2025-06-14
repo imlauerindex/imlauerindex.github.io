@@ -101,7 +101,7 @@ vim /etc/hosts
 ```bash
 passwd # cambiar la clave del root
 pacman -S grub networkmanager alsa-utils 
-```bash
+```
 
 ##### Fonts
 ```bash
@@ -110,17 +110,29 @@ sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
 
 ```bash
 pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks qtbittorrent v4l-utils unrar unzip qbittorrent kdenlive extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric texlive-fontsextra extra/texlive-fontsrecommended evince extra/texlive-langspanish wget acpi telegram-desktop festival espeak-ng speech-dispatcher libreoffice tree rclone inetutils bc xorg-xwayland feh chromium newsboat 
+```
 
 #### Neomutt
+```bash
 sudo pacman --needed -S neomutt curl isync msmtp pass ca-certificates gettext goimapnotify lynx notmuch cronie mpop
 yay -S abook urlview pam-gnupg gallery-dl jackett-bin factorio
+```
+
+###### Todos los paquetes de yay se instalan en `/opt`
+```bash
+yay -Ql package para saber que binarios instaló
+pacman -Ql nombre_del_paquete
+```
 
 También instalá chawan (explicado en la guía de Gentoo).
 
 ##### Letras para chawan.
+```bash
 sudo pacman -S ttf-nerd-fonts-symbols ttf-font-awesome ttf-jetbrains-mono-nerd
+```
 
 #### VirtualBox
+```bash
 [I] esotericwarfare@arch ~> sudo pacman -S virtualbox
 resolving dependencies...
 :: There are 3 providers available for VIRTUALBOX-HOST-MODULES:
@@ -129,8 +141,8 @@ resolving dependencies...
 
 Enter a number (default=1): 2
 sudo pacman -S virtualbox-host-modules-arch
-
 ```
+
 ###### Para ver todos los paquetes instalados 
 https://github.com/rezadoz/pacdump/
 
@@ -1099,5 +1111,8 @@ systemctl enable NetworkManager ...
 reboot..
 sudo vim /lib/systemd/system/getty\@.service
 ```
-En la línea ExecStart eliminá -o 
+En la línea `ExecStart=-/sbin/agetty` eliminá `-o '-p -- \\u'` reemplazalo por `-a esotericwarfare`:
+```bash
+sudo reboot
+```
 

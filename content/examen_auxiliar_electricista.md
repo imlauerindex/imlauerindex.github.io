@@ -20,9 +20,20 @@ Es importante la fijación de la boca y del gancho U porque generalmente hoy se 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU3b44UDyboY1fm1GypoLGfzh5lfnJeNyejHskICKr4ExT2siVNT6vkmDZqh9BMKk8fFfKOuZ1k61NQ9ZOKTKzA0_6vh-qoeNdLFuVRMdsLgaec25hNof-EIpwzTBSlL3XfZ0cLZpGu8fiwdzdS_brWSE_cNwfpDs1gpPiWL4Q9PjsfN3PvfKzMep-yIA/s4160/IMG_20250611_202545439_BURST000_COVER_TOP.jpg)    
     
 ¿Qué valores cuál es la línea principal? Está en la fotocopia    
-1. cuál es la línea principal    
-2. cuál es línea seccional    
-3. que es el tablero general.    
+1. ¿cuál es la línea principal?    
+
+Línea de alimentación es la que vincula la red de la empresa distribuidora con los borners del medidor de carga. Acometida se llama así al conjunto de elementos que se utiliza para hacer la conexión entre la red alimentación y el medidor: cable, fusible y morceto. La otra es línea de distribución principal hay una línea que se llama línea principal esta línea que va del medidor al tablero general se llama línea principal para que ustedes entiendan aunque esté detrás del medidor yo del medidor saco una alimentación que va al tablero general o principal del medidor saco una línea que va al tablero general esa línea se llama línea principal.
+
+Esta línea que va del medidor al tablero general se llama línea principal
+
+
+1. ¿cuál es la línea de alimentación?
+Es fácil es la línea de alimentación que viene se conecta de la red hasta el medidor la línea principal.
+
+
+
+2. ¿cuál es línea seccional?    
+3. ¿que es el tablero general o principal?   
 Sobre este aspecto es donde empezamos nuestro análisis de donde nosotros tenemos ingerencia.    
 4. Como conecto esto a la red?    
 5. Esto es un esquema unifilar y para saber que es monofásico tengo esta caractersítica puede ser la línea trifásicasica tengo esto y el neutro.    
