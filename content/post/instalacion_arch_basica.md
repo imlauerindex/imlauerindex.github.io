@@ -115,7 +115,7 @@ pacman -S pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu 
 #### Neomutt
 ```bash
 sudo pacman --needed -S neomutt curl isync msmtp pass ca-certificates gettext goimapnotify lynx notmuch cronie mpop
-yay -S abook urlview pam-gnupg gallery-dl jackett-bin factorio
+yay -S abook urlview pam-gnupg gallery-dl jackett-bin factorio i2p-bin 
 ```
 
 ###### Todos los paquetes de yay se instalan en `/opt`
