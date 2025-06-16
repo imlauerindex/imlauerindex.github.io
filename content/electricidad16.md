@@ -52,10 +52,21 @@ Minuto 55: Y yo te pregunto vos a una pared vas a cortar el caño en la pared? O
 Vos le hablas bien te habla mal este boludo con razón el pelado no lo quiere.
 
 Algo importante en 01:01
+Estas son de paso estas siempre están en la pared a 30 cm del cielo raso. 
+
 Octogonales se usa para iluminación y paso
+
 Estos son para tomas y puntos
 1 metro 50.
 El cuadrado a 30 centímetros.
+
+
+Hora 01:04:30
+
+Octogonal 
+El cuadrado a 30 cm pero si usas este como si el octogonal como si fuera la caja de paso también, pero sino este va en el techo.
+Octogonal va en el techo, la caja de paso nunca va en el techo.
+Este `5x10` es para extender a 1,20 y si es para enchufar de los que están en el piso a 40 cm del nivel del piso.
 
 ---
 

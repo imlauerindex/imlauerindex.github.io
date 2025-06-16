@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 36: Puesta a tierra. Disyuntor igual o mayor a térmica. Preguntas examen."
+title: "Electricidad / Clase 36: Puesta a tierra. Jabalina. Disyuntor igual o mayor a térmica. Preguntas examen."
 date: 2025-06-11T09:45:52-03:00
 tags: [electricidad]
 ---

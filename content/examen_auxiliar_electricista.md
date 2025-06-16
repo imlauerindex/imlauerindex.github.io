@@ -72,6 +72,21 @@ Yo automáticamente uso la tabla y lo que me dice el reglamento que conductores 
 1. Escribir TAL CUAL: Era fotocopia de EMSA: el inicio de ustedes por si se llegan a equivocar: La instalación eléctrica es segura y confiable cuando ha sido concebida realizada por un instalador electricista HABILITADO, no le dice matriculado porque algunos ponen matriculado que ha aplicado la reglamentación para la ejecución instalación eléctrica en inmueble ahí en algunos casos sería interesante que pongan de la AEA porque se sabe que es lo mismo pero pongan AEA y ha utilizado material normalizado IRAM, eso es el inicio del curso, cualquier cosa por qué hacen este curso por esta cosa. Una vez vino la ministra de trabajo.... No tenemos matrícula.    
 1. Símbolos más usados: Tablero seccional, tablero general, llave.    
 2. Diferencia entre neutro y tierra.    
+El neutro se utiliza para cerrar el circuito. Es por donde pasa la corriente de regreso hacia el proveedor eléctrico.
+* Tierra: para protección contra fugas y descargas no deseada. Son independientes. Una no debe reemplazar a la otra.
+
+30 mA de sensibilidad en viviendas.
+Se mejora el funcionamiento del disyuntor con una PAT.
+
+###### Puesta a tierra (dispersor)
+La sección del conductor de PAT debe ser igual al conductor de entrada.   
+El sistema de PAT no se compone sólo de la jabalina: jabalina - tomacable - cámara de inspección.   
+Por cada circuito se debe usar un conductor de 2,5mm^2 para la PAT (de color verde-amarillo).
+Si hay más de una jabalina o pararrayos, deben estar unidos mediante un conductor.
+
+###### Jabalina
+Cuando es vertical se debe poder medir desde la caja. Se puede poner horizontal, pero a los 0,5 m de la superficie como mínimo.
+Se puede colocar a 45º si nos encontramos con alguna obstrucción.
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwD9LkOquMJUJUiW8P6CkfK7FuxizxoAG0iNEYJpAqJChC_ZyaOBNK34ZOWgxf-deYdzB8Od0xmiu5jgK8L9pI86F-Xy3DXoRFDJv5WyizeWp_b24x6WSn9DeyizRToDgeiHm6mAc-VwmpgSQY8igeKd53XWtonpX6zwE8DfdR_N3N_OZGr6Ju1mBSmXs/s4160/IMG_20250611_183019653.jpg)
 
@@ -174,6 +189,13 @@ Distancia del cielo raso caja octogonal, caja de paso, etc.
 * Caja 5x10: siempre con respecto a nivel del piso TERMINADO! Hay un rango para la altura que es 1-20, 1-30, 1-40
 * caja 5x10: Entonces yo tengo un rango de 0,90 a 1,30 que puedo colocar la caja y me interesa como instalador que yo tome esta distancia como distancia para toda la casa: 1,10 1,20 puedo tomar directamente acá si quiero 1,10 y hago todo con ese criterio coloco la caja todo a 1,10 con respecto al nivel del piso pero eso depende 1ero: del cliente, 2do el arquitecto y ustedes si no aparece nada en el plano colocan de acuerdo a lo que ustedes pretendan. Ahora si van a una casa y tengo tipos que son arriba de 1,80 ahí ya le pongo 1,20 o 1,25.
 
+* Estas son de paso estas siempre están en la pared a 30 cm del cielo raso. 
+* Octogonales se usa para iluminación y paso
+* Las cajas `5x10` son para tomas y puntos 1 metro 50.
+* El cuadrado(caja de paso) a 30 centímetros.
+* Octogonal: El cuadrado a 30 cm pero si usas este como si el octogonal como si fuera la caja de paso también, pero sino este va en el techo.
+* Octogonal va en el techo, la caja de paso NUNCA va en el techo.
+* Este `5x10` es para extender a 1,20 y si es para enchufar de los que están en el piso a 40 cm del nivel del piso.
 
 
 ###### Un circuito mixto es cuando yo tengo en el mismo circuito tengo tomacorriente e iluminación, ahí como tenes poquitas bocas podes ponerlo, pero va una térmica para esos circuitos acorde al conductor más chico.  Vos pones para proteger el conductor más chico y el conductor más chico va a ser el de 1,5 mm^2 de iluminación.
