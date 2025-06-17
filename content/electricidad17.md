@@ -149,8 +149,11 @@ Yo antes me dedicaba a eso pero a veces uno tiene amigos que trabajan juntos y d
 
 Lo que pasa es que hoy ya se abarataron los precios antiguamente una de las alamas más caras era X28 y la gente no quería pagar. 
 
-Nosotros le decíamos este equipo vale tanto y la instalación tanto, de acuerdo a la cantidad de detectores de equipamientos todo lo que ustedes tengan. Se cobra también tipo boca, hay lugares en donde muestran tantas sirenas, tanta magnético cobra
+Nosotros le decíamos este equipo vale tanto y la instalación tanto, de acuerdo a la cantidad de detectores de equipamientos todo lo que ustedes tengan. Se cobra también tipo boca, hay lugares en donde muestran tantas sirenas, tanta magnético cobra yo tengo un catálogo que me había dado la gente X28 si consigo le voy a traer para que ustedes tengan idea de todos los elementos que van ahí por ejemplo ustedes saben que tienen o le provee esa cantidad de cosas que tienen, 1 2 o 3 lo que quieran elegir. 
 
+Pero lo ideal es que ustedes sepan una tipo plano este está hecho tipo un dibujo entonces hasta en algunos casos que me estoy acordando en **los garages ya ponen una barrera infrarroja, desactiva la barrera infrarroja en caso de que vos cortes empieza a sonar la alarma**.
+
+Cada alarma tiene distintos elementos que uno son opcionales por supuesto y que uno puede agregar para mayor seguridad pero hay lugares yo necesitaba por ejemplo colocar justo en la cochera sino justo en el pasillo de entrada también se pone una **barrera que está fija la otra móvil allá pasa un haz de luz, esa luz no se ve pero ustedes cortan eso y automáticamente se activa la alarma y esto es para que sirve la sirena para que lo interiores es para que el tipo que está adentro salga rápido(entre en pánico) y la exteriores es en caso de que pase algún vecino**.
 
 
 
