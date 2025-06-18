@@ -11,3 +11,20 @@ sudo i2prouter start
 http://localhost:7657
 ```
 
+
+Usar w3m con i2p:
+```bash
+w3m -o http_proxy=http://127.0.0.1:4444 http://notbob.i2p
+```
+
+---
+
+Usar chawan con i2p en ArchLinux:
+```bash
+sudo pacman -S proxychains-ng
+sudo vim /etc/proxychains.conf o sudo vim /etc/proxychains4.conf o 
+```
+Agregá al final: `socks4 127.0.0.1 4444`
+
+
+Luego: `proxychains cha http://notbob.i2p`
