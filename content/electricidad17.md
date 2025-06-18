@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 17: Alarmas. Guardar cable pasante con manguera o caño corrugado. Página 47 GUIA AEA.  Saul Kuperman (director de la escuela) viene a darnos la bienvenida. Si yo no tengo un soporte los peer¿? tienen la posibilidad de tener un rango de 90 grados. Profeosr trabajó con alarma X28, trabajó en eso pero no ganaba mucho. Yo se abarataron mucho los precios, la alarma más cara era X28, la gente no quiería pagar."
+title: "Electricidad / Clase 17: Alarmas. Guardar cable pasante con manguera o caño corrugado. Página 47 GUIA AEA.  Saul Kuperman (director de la escuela) viene a darnos la bienvenida, habla de la vestimenta, tarjeta ieric. Si yo no tengo un soporte los peer¿? tienen la posibilidad de tener un rango de 90 grados. Profeosr trabajó con alarma X28, trabajó en eso pero no ganaba mucho. Yo se abarataron mucho los precios, la alarma más cara era X28, la gente no quiería pagar. Hay alarmas que graban a partir de algún movimiento y graba todo."
 date: 2025-04-23T21:16:50-03:00
 tags: [electricidad]
 ---
@@ -20,144 +20,152 @@ https://www.youtube.com/embed/CjxdRc7iQsw
 ---
 
 ###### Transcripción
+    
+Gustavo Barrientos: No vas a encontrar justo un cuadrado (una maqueta). El otro día yo pasé frente del Mitre terminaban haciendo una obra y tiraban toda la madera, yo tenía que ir para otro lado cuando volví ya habían llevado todo.    
+Leiva: Si, llevan todo.    
+Antonio Cardozo: Llevan para ellos.    
+Gustavo Barrientos: Sí o para otra obra. Yo veo un contenedor y ya me quedó.    
+Leiva: Sí si, siempre hay algo.    
+Gustavo Barrientos: El otro día fui a llevar un trompito ahí cerca de la panadería Tacuarí y se ve que le echaron a un loco y había un contenedor y un montón de cosas tirada y yo tengo una tía, mi vieja hacen manualidades entonces vienen esos botellones Dama Juana de antes: ah voy a llevar para que ellos pinten. Empiezo a mirar encuentro un cargadorcito de 12 voltios, freídora a gas todo abandonada una mugre adentro pero le guardé, una tele 20 pulgadas.    
+Sebastián Melgarejo: Ese está bueno para video juegos videos.    
+Gustavo Barrientos: Le dí a un compinche que arregla y vendió y fuimos a media. Y vendí 50 mil pesos la freidora, dije freidora era de mi viejo estaba guardada hace años quedó con el aceite todo y vino un vago y llevó, después el otro día iba en la moto viste?     
+VoySebastián Melgajero: Es como encontrar 50 mil pesos en la calle.    
+Gustavo Barrientos: Sí, el otro día iba en la moto viste hace 3/4 meses por ahí, me iba por Santa Catalina bien en frente del motel viste que hay 2 moteles creo que es Dutra la calle esa, antes de Almirante Brown, miro así al lado de un basurero un taladro de banco verde viste, frené ahí di la vuelta y decí que tiene una linga viste ese plástico ese le enganché y me fui y así le saqué una foto a reparar 50 mil llevaron, 50 mil o permuto por una garrafa y vino un vago y me pagó los 50 mil (Minuto 02:07).    
+Sebastián Melgarejo: Ese de banco pero a motor no es a mano.    
+Gustavo Barrientos: **A motor, es de banco pero chiquito porque después está el de pie que es alto, este es de banco, es de mandril de 3 sería.**    
+Leiva: Muchas cosas que sirven podes encontrar en un contenedor si la gente tira no más.    
+Gustavo Barrientos: Y el cargadorcito ese llegué y enfuché, el cargador de batería, una batería de auto 6 voltios 12 voltios así chiquitito, de 10, hasta hoy uso, tarda un poquito para auto tiene que cargar una noche.    
+Leiva: Y publicaron ¿? Ruido (Minuto 03:21)    
+Gustavo Barrientos: A mi me gusta las Eco, tengo 2 jeep, los jeeps viejos y ese cuando queres arrancar tenes que poner la batería...    
+Habla Antonio Cardozo y Samuel de un accidente al parecer.    
+Sebastián Melgajero: Capaz estiramos la mesa y se desarma todo (tablero armado clase anterior), separamos las 2 mesas así. Decí que nadie tocó. Esto haces en una primaria y te... Ni se puede hacer directamente.    
+Leticia Botolli: No.    
+Habla Antonio Cardozo y Samuel de un accidente al parecer.    
+Leticia Botolli: No llega Internet ni para ver el reporte del tiempo, yo me conectaba el año pasado pero parece que hasta acá no llega.    
+\* Llegan las chicas (Margarita y Daniela)    
+Profesor: Como andan, yo soy el cachero así que no se preocupen. Bueno vamos a hacer algo por la patria. Yo sé que otra compañera envió un manual...    
+Botolli: Ah si, imprimí las hojas más importantes profe.    
+Profesor: Ahora vamos a mirar un poco, voy a esquematizar algo rápido y después vemos ahí.    
+Botolli: Me pidió que instale eso ¿?(Minuto 10) de una amiga, con ayuda se compró una alarma y ahora... Voy a probar    
+Profesor: Ahí vi que están haciendo ahí adelante la radio así que.    
+Ayudante(Alejandro): En donde desaparecieron caños se ¿?     
+Profesor: Eso se habrán desaparecido los caños, pero lo que vamos a hacer es ir a mirar para ver como hace la otra gente, ellos supuestamente cobran por eso así que... Le voy a pedir la llave ahí que me abra espero que la puerta esa por lo menos    
+Ayudante(Alejandro): Ya esté instalada.    
+Profesor: Claro, porque ahora viste que instalaron ayer no vaya ser que justo tocamos nosotros y se cae, entonces espero que ellos abran primero y ahí trabajaremos nosotros en ese sistema ahí.    
+    
+Bueno, eso que está explicando es malo si no tenes plantas ¿? (Minuto 11:23) antes que nada siempre busco cosas y encuentro: este es soporte para ventilar pásense después esto a veces viene más cerrado más abierto y depende de que característica tenga.    
+Gustavo Barrientos: Ese va en el negrontol¿?¿?¿ (Minuto 11:30)    
+Profesor: Eso podes colocar en cualquier lado, este soporte para hacer y colocar acá la goma que ellos tienen acá para que absorba todo las vibraciones entonces esto va fijo acá se pone un tornillo y acá se pone un tornillo, ese que yo me olvidé de traer la otra vez pero esto trabaja así, no vayan a.... Ese es el mecanismo, **puede ir en una caja octogonal no hay problemas, pero generalmente puede ser exterior si en una caja octogonal yo ya tengo el gancho U entonces para que voy a colocar eso**.    
+    
+Vamos a ver algo 1ero: hay partes que también hacemos nosotros que es la parte de... Ya que estás vamos a sacar ese, me acordé de algo. Creo que hay 2 cintas, traeme la cinta más chica pasacables después, la cinta pasacables más chica más fina para mostrarle rápido no más, para que... Hoy va a llover no va a llover no sé que pasa.    
+Botolli: Mañana.    
+Profesor: Yo por eso pienso si viajo con o sin equipo o algo por el estilo dice. Espero que hayan entendido algo, esto en gran parte depende del esquema que tengamos, o el plano que tengamos y esto es lo que se hace no hay otra forma tiene que estar lo mejor sujeto posible para que no se mueva si está embutido tenemos que embutir bien, ver todas las posibilidades para que quede lo mejor posible eso, no es difícil uno ve que al principio es como si, no sé si alguna vez cuando era chico yo en mi época jugaba al rasting que van armando cositas ahí esto es lo mismo.    
+    
+Bueno, ustedes vieron que a veces es complicado el sistema esto en el arrollamiento todo lo que ustedes quieran. A ver vamos a cortar este. Cortame acá más o menos. Hay veces que es importante llevarlo de un lugar a otro transportarlo y después volverlo a guardar porque uno con el trabajo **(están hablando de guardar la cinta pasacables dentro de un caño corrugado)**, esto está nuevo pero a veces con el tiempo se enrolla mal pierde la rigidez o la forma entonces lo que se hace que todo esto, no sé si va a entrar bien pero yo tengo un poquito más grande esto, se pone acá dentro (del caño), esto va a apoyado así hacé pasar todo esto, hacele pasar y que gire y va enrollando entonces uno tiene constantemente, **esto lo ideal sería hacer no con un corrugado sino con una manguera**, una medida factible para trabajar entonces uno llega y transporta sin problemas y no, esto a veces está ¿?(Minuto 15:39) de tanto trabajo o se ensucia lo que sea, yo necesito que esto esté funcionando el día de mañana y no se enriede(enrede), entonces él le va a mostrar ahí (mete la cinta pasacables dentro del caño corrugado).    
+Para que tengan no más, la idea es que cuando tengan herramientas que tengan la posibilidad de cuidarlo almacenarlo y llevarlo y transportarlo de un lugar a otro sin tener problemas después cuando quiero utilizar, **este lo ideal es una manguera ustedes fíjense que tiene corrugado ahí**.    
+Ayudante(Ale): Corrugado cuesta más.    
+Profesor: Sí. El corrugado cuesta. La idea es que yo pueda trabajarlo, en casa tengo una manguera pero al no tener manguera o nada la idea es que ustedes sepan como trabajarlo.    
+    
+Bueno, yo no leí los textos de la señora nada por el estilo, tengo un catálogo de alarmas.     
+Voy a prender la luz allá porque van a pensar que nunca estamos acá después... ¿? (Minuto 17:09)    
+Y uno de los temas fundamentales que están NO de moda, debido a la inseguridad la gente pone más o presta más atención el tema de las alarmas entonces no es muy difícil hay gente que son instaladores eléctricos o montadores electricista pero no quieren meterse en el tema de las alarmas, pero nosotros podemos hacer hasta la instalación después se puede ver si hacen la parte de programación, no es muy difícil pero hay que poner el código todas esas cosas, **lo ideal es que tengan una goma para que ustedes vean, lo que quiero mostrarle es que una simple manguera póngale de 40cm me puede ayudar constantemente a cuidar mi cinta pasacables yo no traje la mía porque dije voy a encontrar acá un...** Tiene que haber un corrugado más grande.    
+Y el tema de la instalación de alarmas no es muy complejo porque generalmente.    
+Ayudante(Ale): Sería una idea (habla del pasacables dentro del caño corrugado). La idea es que entre todo en este caso no se puede.    
+Profesor: Claro, entonces que hace con este sistema uno puede desarrollar o enrollarlo otra vez, tiene que ser un poco más grande por lo menos 1 pulgada y `1/4` más porque esta cinta mínimamente tiene 12 metros o 10, después vamos a mirar eso. La idea es eso tener un elemento que me permita enrollar y desenrollar tranquilamente la cinta pasacables y no se enreda sino, entonces no tengo necesidad **a veces la gente pone cinta aisladora y después queda el pegamento se ensucia y otra vez me cuesta pasar entonces tengo que tener las cosas limpias para poder trabajar**    
+    
+###### Alarma instalación    
+Bueno, ya que nadie le gustó esto voy a agarrar para mi no más (el gancho U). Algo va a salir.    
+Ayudante(Ale): Para un ventilador.    
+Profesor: Bueno, la compañera pasó el tema del catálogo era?    
+Botolli: Sí, el manual de instalación.    
+Profesor: El manual de instalación, yo no tuve tiempo lastimosamente.    
+Botolli: Pero era inalámbrico todo profe.    
+Profesor: Bueno pero en algún lado vas a tener que alimentarlo.    
+Botolli: Sí, parece que tiene un enchufe.    
+Profesor: Bueno pero lo correcto vamos a hacer un esquema rápido este es el tablero seccional de la casa entonces si o si por más inalámbrica que sea la alarma siempre tiene que tener una central esta central de alarma depende de donde esté hay gente que quiere tenerla escondida depende de que característica tenga yo tengo que llevar instalación directamente yo directamente vamos a hacerle directamente de acá a acá, ¿por qué le pongo 2 cables? Porque esto es fase y neutro para alimentar a la... **Del tablero acá se coloca o se debe colocar una térmica de `2x6 amper` y saco todo lo que yo pongo nuevo ya sea alarma de incendio, lo que tenga. Necesito sacar del tablero principal, el tablero principal va la alimentación a la central de alarma que está en algún lugar acuérdense que esto tiene una batería en el caso de que se corte yo tengo que saber, o tiene algún problema yo tengo desenchufar eso ya es otro, yo no haría un enchufe no más. No puede estar desenchufando, viene un tipo y desenchufa no es lógico.**. O sea enchufá y desenchufá un tipo va desenchufa la alarma y ya no tenes más alimentación. Entienden?    
+Botolli: Claro.    
+Profesor: Pero bueno, este cable tiene que estar escondido y acá entra 220 tiene un transformador adentro y sale 24 voltios, esto si es inalámbrico va a tener normalmente vamos a suponer que tengo 2 o 3 habitaciones tengo detectores de movimiento, **ella lo que me mostró era apertura unos imanes que son la apertura y cierra de puerta, son imanes uno está conectado: esta en la parte fija y esta en la parte móvil. Acá atornillo esto y mientras estoy conectado o sea no es que perforo todo puedo perforar el marco y ahí en caso de madera o ponerle arriba no hay problema entonces eso hace contacto y directamente abre y cierra el circuito**.     
+    
+###### Vamos a suponer que venga un ladrón y esté cerrado eso, intenta abrir o abre tiene que sonar la alarma, lo que tiene principalmente acá, que de acá sale par telefónico lo que sea a veces son 4 cables y va a un lugar que tengo generalmente una sirena exterior tiene bastantes decibeles eso depende de que característica tenga, y después tengo otro que va a una parte interna y tenúa si es del interior¿? (Minuto 23:37).    
+Ya estoy teniendo los dos elementos auditivos que me hace que vea el sistema, esta también puede ir antes ahora tenemos todos celulares pero puede tener un sistema de activación telefónica ahora con este sistema antes tenía un módulo que iba directamente a 4/5 teléfono y eso, uno de esos teléfono era la policía. Siempre y cuando vos tenes que hablar con ellos todo ese tema, o sino la gente que hace el recorrido de seguridad. Ese de seguridad tenes que pagar.     
+    
+Tiene una batería interna ahí que me permite el uso en caso de que se corte no tenga luz que esto siga activado, el sistema telefónico hay unos terminales que me indican que es lo que tengo que hacer, que es lo que tengo que conectar y hay distintas zonas que yo puedo tener para poder comandar la parte de adelante, la parte de atrás al costado izquierdo lo que sea, si tengo una casa bastante grande 1er piso 2do piso lo que sea.    
+**Botolli: Los detectores de movimientos, y los sensores de la puerta y la sirena cada uno cuenta con una batería?    
+Profesor: Una pila.**    
+Botolli: Una pila?    
+###### Profesor: Sí, si es inalámbrico tiene una pila redondita ahí que después tiene una relación de 1 o 2 años y ahí hay que cambiar.    
+Profesor: Hay que cambiar, mantenimiento.    
+Profesor: Entonces eso implica en algunos casos....     
+    
+Buenas y pase dijo....    
+Director del colegio: Permiso Buenas Noches.    
+\* Saludan     
+Profesor: Director Kuperman, nuestro director.    
+Saul Kuperman: Le vamos a robar un segundo de tiempo. Buenas noches me voy a presentar mi nombre es Saul Kuperman soy el director de la escuela me acompaña Darío Vallejos él es el secretario de la escuela, Soledad es la preceptora que viene a tomar la asistencia y colabora con la parte administrativa, básicamente agradecerle por habernos elegido que nos conozcan que sepan que estamos a disposición más allá del docente que obviamente es el que está en frente al aula y es el que va a estar en contacto permanente con ustedes, parte del equipo nuestro es una psicóloga Gissel Benegas que tenemos un sector de... No me sale el nombre...    
+Secretario(Darío): Gabinete    
+Saul Kuperman: Gabinetes psicológico que está a disposición de ustedes no sé si pasó por el curso, es un área para nosotros importante que aparte de trabajar la parte específica del oficio la escuela pretende darle interversidad a los alumnos, así que está a disposición esta señora para los que quieran hacer una consulta se comunican con el docente o la secretaría y ponernos a disposición sabemos que son épocas complejas le pedimos que asistan, el gran desafío de la educación aparte de estudiar por supuesto es la asistencia. Hay dos componentes claves dentro de lo que el profesor va a evaluar: el conocimiento a través de las discusiones a través del aprendizaje de ustedes, la práctica pero también la asistencia. Hay un mínimo necesario que ustedes tienen que asistir y es importante porque la asistencia le permite estar diariamente en lo que ustedes eligieron y esta es una 1era etapa lo que quieran continuar pueden hacer otra 2da etapa en donde los profesionaliza aún más, así que piensen en darle continuidad. Los que quieran por supuesto, no obstante eso ustedes van a tener una certificación intermedia y a fin de año la certificación de montador, siempre digo nosotros tenemos 2 jefes o 2 patrones:     
+1. El consejo de educación porque esta es una escuela común y corriente solamente que es de adulto y de oficio     
+2. La fundación UOCRA.    
+Nosotros somos parte de una gran red de escuelas de la UOCRA, la UOCRA es el sindicado de los obreros de la construcción fue diseñada esta escuela y peleada en su momento para que se habilite hace 3 años que estamos en la Ciudad de Posadas, tenemos una sede en Itaembé Guazú por nuestro secretario general que es Héctor Vallejos y que es el que heredó esta modalidad educativa un tema que destacamos **el tema de la indumentaria, sabemos que no les podemos dar una vestimenta acorde al oficio que ustedes están estudiando lo que sería una ropa de trabajo, un zapato de trabajo, no podemos lamentablemente, pero si le pedimos que vengan con un atuendo mínimo necesario para que en algunas prácticas que ustedes hacen NO tengan un accidente, o si lo tienen que sea lo más benévolo posible**.    
+    
+###### Qué se trata la vestimenta?    
+1. Un pantalón largo.    
+2. Un zapato cerrado.    
+Decimos esto porque muchas veces se va a trabajar con alguna estrategia que puede generar riesgo y es importante que ustedes vengan con ese atuendo.     
+    
+Un tema que no es menor que no sé si hay algunos interesados estamos trabajando el pasaje gratuito quiero decirles que lamentablemente nosotros como centro de formación, ningún centro de la ciudad de Posadas ni del Interior ningún centro tiene pasaje gratuito, no obstante eso todos los años con algunos convenios que hemos hecho con algunas instituciones hemos conseguido si no vino va a venir después la preceptora y lo que tengan un interés en ese tema se anota por favor.    
+    
+Lo que sí le voy a recalcar es una probabilidad hoy por hoy, estamos trabajando con 2 instituciones a ver si nos facilitan ese beneficio va a depender del número, va a depender de la voluntad de 3eros y obviamente si conseguimos la gestión mínima que tienen que hacer ustedes como algunos sabrán hay que hacer para conseguir los pasajes pero siempre le voy a recalcar es una probabilidad estamos haciendo la gestión, por eso tenemos que en breve generar ese listado de los interesados como para transmitirle a estas instituciones cosas que nos digan es viable no es viable, si es viable van a saber porque vamos a avisar, **y si no es viable le vamos a transmitir: NO SE CONSIGUIÓ FORMALIZAR EL ACUERDO**, porque me parece que es un tema importante necesario no sé si todos pero sé que hay gente que se movilizan con moto otros otra plataforma pero el pasaje siempre fue importante para resolver el translado. Eeehh, tu tema.    
+Secretario(Darío): Sí, también está disponible a partir del 1ero de abril el progresar trabajo por ahí los que están interesado nosotros estamos en el progresar trabajo como CFP17 UOCRA ahí tienen que elegir el curso de electricidad si no está pueden elegir otro y nosotros igual le certificamos tiene que cumplir con los requisitos que pide el ANSES que creo que es de 18 a 24 años y se extiende hasta 34 a las personas que no tienen trabajo ahora en blanco así que es un ingreso que pueden obtener un beneficio que pueden aprovechar que mediante si no sale el boleto eso por ahí puede ayudar un poquito, así que no hay problemas nosotros le certificamos ustedes nos avisan y nosotros le damos de alta en el sistema, pero cumpliendo con los requisitos que tiene ANSES, así que cualquier duda estamos en secretaría si necesitan algo.    
+Saul Kuperman: Un tema que les compete, esto que les decía de la doble pertenencia que tenemos nosotros al finalizar el curso aprobar el curso obviamente, nosotros otorgamos la tarjeta IERIC no sé si todos saben la tarjeta IERI no sé si todos saben la tarjeta Ieric es una tarjeta magnética que reemplaza hace muchos años ya la libreta de Soy Constructor eso le habilitaría a ingresar a las empresas de construcción también eso le permite cursos que hagan vinculados a la industria a cargarlos en ese perfil automáticamente los que aprueban nosotros mandamos a Buenos Aires, demora reconocemos que tiene su tiempo porque es un trámite administrativo bastante engorroso ¿? pero llega eso le va a permitir incorporar no solo los cursos sino los que ingresen a la empresa de construcción tener todos sus antecedentes laborales dentro de esa tarjeta magnética que es como una tarjeta de crédito una tarjeta de débito.    
+Leiva: Y los que ya tienen? Se carga no más en la tarjeta?    
+Secretario(Darío): El que ya tiene sí, automáticamente.    
+Saul Kuperman: El que ya tiene, porque la tarjeta es única para una persona si ustedes hacen el curso cuando se manda a Buenos Aires se carga en la misma tarjeta el oficio que ustedes hicieron.    
+Leiva: Pero hay que traer?    
+Saul Kuperman: No no no. Eso se manda a Buenos Aires y cargan del sistema.    
+Secretario(Darío): Por ahí si vos presentas la tarjeta y no está cargado tu curso, vos tenes el certificado que te abala entonces ahí si por las dudas le pasas para que carguen al sistema.    
+Saul Kuperman: Cual duda cualquier situación. Vengan, asistan, tienen un excelente profesor, muy dedicado.    
+Secretario(Darío): Pinchabocas.    
+Saul Kuperman: Eso hace hay que exprimirlo al profesor, tratar de sacar el mayor provecho en lo educativo porque cuando uno salga a la profesión ahí empiezan muchas dudas, entonces es importante aprovechar no solamente el conocimiento técnico científico de un docente sino de la experiencia porque es una persona que está en la experiencia diaria y eso lleva a que uno sea mejor profesional y eso se hace viniendo (a clases) a parte le permitirá incorporar conocimiento esta es una 1era etapa y en la 2da etapa que se pone quizás más denso porque tiene otro volumen otra dificultad, esta es la base y la base hace que sea más fácil transitar la 2da etapa. Así que le agradezco le pido disculpas el tiempo que le robamos y cualquier cosa a la órden.    
+Leticia Botolli: Gracias.    
+Profesor: Este es el verdadero parece.    
+    
+Vos tenes una copia ahí, quiero ver la partesita esto.    
+Botolli: Eso es todo lo que tiene.    
+Profesor: Ah todo lo que ella tiene. Bueno había una caja con varias condiciones ahí un panel de control que ponen el código lo que sea algunas tienen en forma remota detector de movimiento fíjense ellos le ponen PIRRE¿? (Minuto 36:40) detecta cuando alguien camina o se acerca esa ¿qué particularidad tiene ese sustento? **Si yo no tengo un soporte los peer¿? tienen la posibilidad de tener un rango de 90 grados**, 90 grados, 90 grados, 90 grados. Entonces tengo que ver la apertura que yo necesito para proteger en ese sentido entonces lo más correcto o pongo acá a mi me conviene poner acá el peer ese, vamos a poner como dice ahí...    
+Botolli: ¿En oposición a la puerta de ingreso sería?    
+Profesor: Claro. Acá tengo la ventana acá yo pondría acá, entonces tiene apertura de 90 grados justo en el rincón tengo que hacer, si pongo en el medio sigo teniendo 90 grados ero tengo que ver si protejo esas 2. Tengo que buscar la forma de que ese peer me banque todas las necesidades o las aperturas principales si yo pongo allá puedo tener la particularidad pero voy a tener que poner a un rincón de tal forma de que me banque todos esos sectores pero no sé si me va abarcar ese tengo que tengo ¿qué buscar que altura? Y más o menos 2 metros, **2,10 metros más o menos un poquito más arriba de 2 metros porque la apertura siempre son 2 metros entonces tengo que poner un poco más arriba**.    
+    
+Tiene un sistema de inclinación adentro se regula para que indique que **longitud o que distancia yo necesito proteger es igual que el detector de movimiento para las luces** tenes que ver que distancia tengo. Si este es sistema inalámbrico no necesita ningún cable la otra vez le mostré que hay una pipeta generalmente se pone la pipeta ahí al costado y si lo hace todo el sistema de cableado va a aparecer solo el agujerito de la pipeta para hacer las conexiones ahí generalmente van 4 pares telefónicos NO.     
+    
+El de 2 pares telefónicos son 4 cablecitos, 2 para el que dee la señal recibe la señal con 24 voltios lo que sea, y después los otros 2 son de protección si alguien corta la alimentación esto como no tiene cable es inalámbrico así que pero el otro sistema de cableado tiene 4 cablecitos entonces **2 son de protección y los otros 2 para que haga el sistema de apertura y cierra del circuito**.    
+    
+¿Qué problema tiene? Llegan a cortar la alimentación a ese peer y activa la sirena, este es inalámbrico, el inalámbrico tiene solo una batería ahí adentro. Una batería y tipo una antenita que hace que la central comande todo ese sistema, no hay otra cosa también tiene este: el panel y etiqueta remota control remoto sensor de puerta, eso sensor de puerta que les dije son **2 imanes uno fijo y otro móvil**.    
+    
+Fijo: Seguramente estarán la antena inalámbrica para detectar todo ese movimiento, serena estermos¿?, sirena inalámbrica opcional dice, suena cuando suena la alarma, y después tiene todo adentro: corriente, soporte, cubierta interior, tornillo y todo lo que ustedes puedan necesitar para esto, pero no es difícil pero vamos a lo nuestro nosotros somos instaladores electricista y tenemos que canalizar eso de vez en cuando, vamos a suponer que no tenemos la alarma de este tipo la alarma inalámbrica es interesante cuando yo tengo una construcción ya realizada y no quiero pasar ni los cables por arriba ni que se vean nada por el estilo, entonces lo único que hago es hacer esta partesita nada más y en algunos casos ya puedo tener la opción de hacer inalámbrica la sirena o a su vez cablearlo eso depende de qué característica tenga el equipo pero tengo la posibilidad de hacer eso,    
+    
+¿qué tiene la sirena exterior? También tiene un switch es tipo un forzador **en caso de que quieran desarmar también activa la alarma** o sea todos los sistemas y hay centrales que permite a través de un sistema de video, control de video entonces puedo esa misma alarma hacer un sistema opcional con cámaras en distintos lugares y activar y desactivar con el control del celular. Es un programa que se pone y directamente vos controlas si tenes 2 o 3 alarmas te van distintos sectores y vos podes controlarlo en un mismo cuadro los 4, 5, 6 cámaras que están colocadas, la gente que se dedica a eso es bueno (plata).    
+Yo antes me dedicaba a eso pero a veces uno tiene amigos que trabajan juntos y después la cantidad de trabajo a veces no es en proporción lo que uno quiere ganar, entonces dejamos 1 no más que se encargue del tema de la alarma. Aprendimos a hacer el curso siempre con la alarma **X28** y para nosotros no sé si fue la mejor pero tenía un sistema de capacitación a todos los instaladores y daba la posibilidad de qué cuando se actualizaba la central y nos mandamos información y asistíamos cursos acá y allá en Corrientes, Resistencia lo que sea y tenía respaldo en caso de que mandaba los equipos y tenía algún problema en seguida te mandaban otro la central por ejemplo entonces teníamos un cierto apoyo de ellos.    
+    
+Lo que pasa es que hoy ya se abarataron los precios antiguamente una de las alamas más caras era X28 y la gente no quería pagar.     
+    
+Nosotros le decíamos este equipo vale tanto y la instalación tanto, de acuerdo a la cantidad de detectores de equipamientos todo lo que ustedes tengan. Se cobra también tipo boca, hay lugares en donde muestran tantas sirenas, tanta magnético cobra yo tengo un catálogo que me había dado la gente X28 si consigo le voy a traer para que ustedes tengan idea de todos los elementos que van ahí por ejemplo ustedes saben que tienen o le provee esa cantidad de cosas que tienen, 1 2 o 3 lo que quieran elegir.     
+    
+Pero lo ideal es que ustedes sepan una tipo plano este está hecho tipo un dibujo entonces hasta en algunos casos que me estoy acordando en **los garages ya ponen una barrera infrarroja, desactiva la barrera infrarroja en caso de que vos cortes empieza a sonar la alarma**.    
+    
+Cada alarma tiene distintos elementos que uno son opcionales por supuesto y que uno puede agregar para mayor seguridad pero hay lugares yo necesitaba por ejemplo colocar justo en la cochera sino justo en el pasillo de entrada también se pone una **barrera que está fija la otra móvil allá pasa un haz de luz, esa luz no se ve pero ustedes cortan eso y automáticamente se activa la alarma y esto es para que sirve la sirena para que lo interiores es para que el tipo que está adentro salga rápido(entre en pánico) y la exteriores es en caso de que pase algún vecino y sepa que está activada la alarma.**     
 
-Gustavo Barrientos: No vas a encontrar justo un cuadrado (una maqueta). El otro día yo pasé frente del Mitre terminaban haciendo una obra y tiraban toda la madera, yo tenía que ir para otro lado cuando volví ya habían llevado todo.
-Leiva: Si, llevan todo.
-Antonio Cardozo: Llevan para ellos.
-Gustavo Barrientos: Sí o para otra obra. Yo veo un contenedor y ya me quedó.
-Leiva: Sí si, siempre hay algo.
-Gustavo Barrientos: El otro día fui a llevar un trompito ahí cerca de la panadería Tacuarí y se ve que le echaron a un loco y había un contenedor y un montón de cosas tirada y yo tengo una tía, mi vieja hacen manualidades entonces vienen esos botellones Dama Juana de antes: ah voy a llevar para que ellos pinten. Empiezo a mirar encuentro un cargadorcito de 12 voltios, freídora a gas todo abandonada una mugre adentro pero le guardé, una tele 20 pulgadas.
-Sebastián Melgarejo: Ese está bueno para video juegos videos.
-Gustavo Barrientos: Le dí a un compinche que arregla y vendió y fuimos a media. Y vendí 50 mil pesos la freidora, dije freidora era de mi viejo estaba guardada hace años quedó con el aceite todo y vino un vago y llevó, después el otro día iba en la moto viste? 
-VoySebastián Melgajero: Es como encontrar 50 mil pesos en la calle.
-Gustavo Barrientos: Sí, el otro día iba en la moto viste hace 3/4 meses por ahí, me iba por Santa Catalina bien en frente del motel viste que hay 2 moteles creo que es Dutra la calle esa, antes de Almirante Brown, miro así al lado de un basurero un taladro de banco verde viste, frené ahí di la vuelta y decí que tiene una linga viste ese plástico ese le enganché y me fui y así le saqué una foto a reparar 50 mil llevaron, 50 mil o permuto por una garrafa y vino un vago y me pagó los 50 mil (Minuto 02:07).
-Sebastián Melgarejo: Ese de banco pero a motor no es a mano.
-Gustavo Barrientos: **A motor, es de banco pero chiquito porque después está el de pie que es alto, este es de banco, es de mandril de 3 sería.**
-Leiva: Muchas cosas que sirven podes encontrar en un contenedor si la gente tira no más.
-Gustavo Barrientos: Y el cargadorcito ese llegué y enfuché, el cargador de batería, una batería de auto 6 voltios 12 voltios así chiquitito, de 10, hasta hoy uso, tarda un poquito para auto tiene que cargar una noche.
-Leiva: Y publicaron ¿? Ruido (Minuto 03:21)
-Gustavo Barrientos: A mi me gusta las Eco, tengo 2 jeep, los jeeps viejos y ese cuando queres arrancar tenes que poner la batería...
-Habla Antonio Cardozo y Samuel de un accidente al parecer.
-Sebastián Melgajero: Capaz estiramos la mesa y se desarma todo (tablero armado clase anterior), separamos las 2 mesas así. Decí que nadie tocó. Esto haces en una primaria y te... Ni se puede hacer directamente.
-Leticia Botolli: No.
-Habla Antonio Cardozo y Samuel de un accidente al parecer.
-Leticia Botolli: No llega Internet ni para ver el reporte del tiempo, yo me conectaba el año pasado pero parece que hasta acá no llega.
-\* Llegan las chicas (Margarita y Daniela)
-Profesor: Como andan, yo soy el cachero así que no se preocupen. Bueno vamos a hacer algo por la patria. Yo sé que otra compañera envió un manual...
-Botolli: Ah si, imprimí las hojas más importantes profe.
-Profesor: Ahora vamos a mirar un poco, voy a esquematizar algo rápido y después vemos ahí.
-Botolli: Me pidió que instale eso ¿?(Minuto 10) de una amiga, con ayuda se compró una alarma y ahora... Voy a probar
-Profesor: Ahí vi que están haciendo ahí adelante la radio así que.
-Ayudante(Alejandro): En donde desaparecieron caños se ¿? 
-Profesor: Eso se habrán desaparecido los caños, pero lo que vamos a hacer es ir a mirar para ver como hace la otra gente, ellos supuestamente cobran por eso así que... Le voy a pedir la llave ahí que me abra espero que la puerta esa por lo menos
-Ayudante(Alejandro): Ya esté instalada.
-Profesor: Claro, porque ahora viste que instalaron ayer no vaya ser que justo tocamos nosotros y se cae, entonces espero que ellos abran primero y ahí trabajaremos nosotros en ese sistema ahí.
+A veces sin querer una rata puede activar la alarma entonces es interesante hay muchas maneras yo he visto algunos lugares aparentemente casas recién terminadas no sé si es interesante pero no sé si vienen en la medianera los rollos de alambre esos que parecen campos de concentración evidentemente alguien ya le estuvo pasando la... 
+Samuel: Ya le saltó.
+Profesor: Ya saltó entonces eso incomoda porque como es arriba tenes que saltar o lo que sea y te **incomoda** y hay gente que levantaron el muro con más de 2 metros y pico igual pasaron entonces es interesante el tema más ahora que tenemos bastante tecnología que tranquilamente te suene tu celular ya estás mirando ahí que es lo que está pasando, y **hay lugares que vos activas y hay un video y directamente activa hasta que las personas tiene una computadora y de acuerdo a la cantidad de memoria que tiene te graba todo lo que pasa ahí en ese momento más si hay gente, peor todavía**
+    
+La otra vez estaba mirando una casa que entraron a robar y estaba la cámara no tenía alarmas sino que tenía alarma, ellos entraron sabían que no había nadie reventaron la entrada del garage y entraron a la casa al departamento  tenía solo la cámara y la cámara sola no sirve porque el tipo vaya a saber donde estaba demoraron robaron todo lo que quisieron y tampoco se ve bien porque estaba con la gorra encapuchado solo saben que salieron en auto Toyota pero capaz que era robado también así que...
 
-Bueno, eso que está explicando es malo si no tenes plantas ¿? (Minuto 11:23) antes que nada siempre busco cosas y encuentro: este es soporte para ventilar pásense después esto a veces viene más cerrado más abierto y depende de que característica tenga.
-Gustavo Barrientos: Ese va en el negrontol¿?¿?¿ (Minuto 11:30)
-Profesor: Eso podes colocar en cualquier lado, este soporte para hacer y colocar acá la goma que ellos tienen acá para que absorba todo las vibraciones entonces esto va fijo acá se pone un tornillo y acá se pone un tornillo, ese que yo me olvidé de traer la otra vez pero esto trabaja así, no vayan a.... Ese es el mecanismo, **puede ir en una caja octogonal no hay problemas, pero generalmente puede ser exterior si en una caja octogonal yo ya tengo el gancho U entonces para que voy a colocar eso**.
+Vamos a ver algo que me interesa a mí que ustedes sepan ya vimos algo aparte de canalización vimos y empezamos a ver conductores subterráneos y también el tema de las bandejas acuérdense que yo puedo tener un sistema de canalización aparte de lo que vimos con conductores subterráneos, estos conductores que ustedes ven que saqué del.... Esto estaba lleno de... Pero le lavé un poco.
 
-Vamos a ver algo 1ero: hay partes que también hacemos nosotros que es la parte de... Ya que estás vamos a sacar ese, me acordé de algo. Creo que hay 2 cintas, traeme la cinta más chica pasacables después, la cinta pasacables más chica más fina para mostrarle rápido no más, para que... Hoy va a llover no va a llover no sé que pasa.
-Botolli: Mañana.
-Profesor: Yo por eso pienso si viajo con o sin equipo o algo por el estilo dice. Espero que hayan entendido algo, esto en gran parte depende del esquema que tengamos, o el plano que tengamos y esto es lo que se hace no hay otra forma tiene que estar lo mejor sujeto posible para que no se mueva si está embutido tenemos que embutir bien, ver todas las posibilidades para que quede lo mejor posible eso, no es difícil uno ve que al principio es como si, no sé si alguna vez cuando era chico yo en mi época jugaba al rasting que van armando cositas ahí esto es lo mismo.
-
-Bueno, ustedes vieron que a veces es complicado el sistema esto en el arrollamiento todo lo que ustedes quieran. A ver vamos a cortar este. Cortame acá más o menos. Hay veces que es importante llevarlo de un lugar a otro transportarlo y después volverlo a guardar porque uno con el trabajo **(están hablando de guardar la cinta pasacables dentro de un caño corrugado)**, esto está nuevo pero a veces con el tiempo se enrolla mal pierde la rigidez o la forma entonces lo que se hace que todo esto, no sé si va a entrar bien pero yo tengo un poquito más grande esto, se pone acá dentro (del caño), esto va a apoyado así hacé pasar todo esto, hacele pasar y que gire y va enrollando entonces uno tiene constantemente, **esto lo ideal sería hacer no con un corrugado sino con una manguera**, una medida factible para trabajar entonces uno llega y transporta sin problemas y no, esto a veces está ¿?(Minuto 15:39) de tanto trabajo o se ensucia lo que sea, yo necesito que esto esté funcionando el día de mañana y no se enriede(enrede), entonces él le va a mostrar ahí (mete la cinta pasacables dentro del caño corrugado).
-Para que tengan no más, la idea es que cuando tengan herramientas que tengan la posibilidad de cuidarlo almacenarlo y llevarlo y transportarlo de un lugar a otro sin tener problemas después cuando quiero utilizar, **este lo ideal es una manguera ustedes fíjense que tiene corrugado ahí**.
-Ayudante(Ale): Corrugado cuesta más.
-Profesor: Sí. El corrugado cuesta. La idea es que yo pueda trabajarlo, en casa tengo una manguera pero al no tener manguera o nada la idea es que ustedes sepan como trabajarlo.
-
-Bueno, yo no leí los textos de la señora nada por el estilo, tengo un catálogo de alarmas. 
-Voy a prender la luz allá porque van a pensar que nunca estamos acá después... ¿? (Minuto 17:09)
-Y uno de los temas fundamentales que están NO de moda, debido a la inseguridad la gente pone más o presta más atención el tema de las alarmas entonces no es muy difícil hay gente que son instaladores eléctricos o montadores electricista pero no quieren meterse en el tema de las alarmas, pero nosotros podemos hacer hasta la instalación después se puede ver si hacen la parte de programación, no es muy difícil pero hay que poner el código todas esas cosas, **lo ideal es que tengan una goma para que ustedes vean, lo que quiero mostrarle es que una simple manguera póngale de 40cm me puede ayudar constantemente a cuidar mi cinta pasacables yo no traje la mía porque dije voy a encontrar acá un...** Tiene que haber un corrugado más grande.
-Y el tema de la instalación de alarmas no es muy complejo porque generalmente.
-Ayudante(Ale): Sería una idea (habla del pasacables dentro del caño corrugado). La idea es que entre todo en este caso no se puede.
-Profesor: Claro, entonces que hace con este sistema uno puede desarrollar o enrollarlo otra vez, tiene que ser un poco más grande por lo menos 1 pulgada y `1/4` más porque esta cinta mínimamente tiene 12 metros o 10, después vamos a mirar eso. La idea es eso tener un elemento que me permita enrollar y desenrollar tranquilamente la cinta pasacables y no se enreda sino, entonces no tengo necesidad **a veces la gente pone cinta aisladora y después queda el pegamento se ensucia y otra vez me cuesta pasar entonces tengo que tener las cosas limpias para poder trabajar**
-
-###### Alarma instalación
-Bueno, ya que nadie le gustó esto voy a agarrar para mi no más (el gancho U). Algo va a salir.
-Ayudante(Ale): Para un ventilador.
-Profesor: Bueno, la compañera pasó el tema del catálogo era?
-Botolli: Sí, el manual de instalación.
-Profesor: El manual de instalación, yo no tuve tiempo lastimosamente.
-Botolli: Pero era inalámbrico todo profe.
-Profesor: Bueno pero en algún lado vas a tener que alimentarlo.
-Botolli: Sí, parece que tiene un enchufe.
-Profesor: Bueno pero lo correcto vamos a hacer un esquema rápido este es el tablero seccional de la casa entonces si o si por más inalámbrica que sea la alarma siempre tiene que tener una central esta central de alarma depende de donde esté hay gente que quiere tenerla escondida depende de que característica tenga yo tengo que llevar instalación directamente yo directamente vamos a hacerle directamente de acá a acá, ¿por qué le pongo 2 cables? Porque esto es fase y neutro para alimentar a la... **Del tablero acá se coloca o se debe colocar una térmica de `2x6 amper` y saco todo lo que yo pongo nuevo ya sea alarma de incendio, lo que tenga. Necesito sacar del tablero principal, el tablero principal va la alimentación a la central de alarma que está en algún lugar acuérdense que esto tiene una batería en el caso de que se corte yo tengo que saber, o tiene algún problema yo tengo desenchufar eso ya es otro, yo no haría un enchufe no más. No puede estar desenchufando, viene un tipo y desenchufa no es lógico.**. O sea enchufá y desenchufá un tipo va desenchufa la alarma y ya no tenes más alimentación. Entienden?
-Botolli: Claro.
-Profesor: Pero bueno, este cable tiene que estar escondido y acá entra 220 tiene un transformador adentro y sale 24 voltios, esto si es inalámbrico va a tener normalmente vamos a suponer que tengo 2 o 3 habitaciones tengo detectores de movimiento, **ella lo que me mostró era apertura unos imanes que son la apertura y cierra de puerta, son imanes uno está conectado: esta en la parte fija y esta en la parte móvil. Acá atornillo esto y mientras estoy conectado o sea no es que perforo todo puedo perforar el marco y ahí en caso de madera o ponerle arriba no hay problema entonces eso hace contacto y directamente abre y cierra el circuito**. 
-
-###### Vamos a suponer que venga un ladrón y esté cerrado eso, intenta abrir o abre tiene que sonar la alarma, lo que tiene principalmente acá, que de acá sale par telefónico lo que sea a veces son 4 cables y va a un lugar que tengo generalmente una sirena exterior tiene bastantes decibeles eso depende de que característica tenga, y después tengo otro que va a una parte interna y tenúa si es del interior¿? (Minuto 23:37).
-Ya estoy teniendo los dos elementos auditivos que me hace que vea el sistema, esta también puede ir antes ahora tenemos todos celulares pero puede tener un sistema de activación telefónica ahora con este sistema antes tenía un módulo que iba directamente a 4/5 teléfono y eso, uno de esos teléfono era la policía. Siempre y cuando vos tenes que hablar con ellos todo ese tema, o sino la gente que hace el recorrido de seguridad. Ese de seguridad tenes que pagar. 
-
-Tiene una batería interna ahí que me permite el uso en caso de que se corte no tenga luz que esto siga activado, el sistema telefónico hay unos terminales que me indican que es lo que tengo que hacer, que es lo que tengo que conectar y hay distintas zonas que yo puedo tener para poder comandar la parte de adelante, la parte de atrás al costado izquierdo lo que sea, si tengo una casa bastante grande 1er piso 2do piso lo que sea.
-**Botolli: Los detectores de movimientos, y los sensores de la puerta y la sirena cada uno cuenta con una batería?
-Profesor: Una pila.**
-Botolli: Una pila?
-###### Profesor: Sí, si es inalámbrico tiene una pila redondita ahí que después tiene una relación de 1 o 2 años y ahí hay que cambiar.
-Profesor: Hay que cambiar, mantenimiento.
-Profesor: Entonces eso implica en algunos casos.... 
-
-Buenas y pase dijo....
-Director del colegio: Permiso Buenas Noches.
-\* Saludan 
-Profesor: Director Kuperman, nuestro director.
-Saul Kuperman: Le vamos a robar un segundo de tiempo. Buenas noches me voy a presentar mi nombre es Saul Kuperman soy el director de la escuela me acompaña Darío Vallejos él es el secretario de la escuela, Soledad es la preceptora que viene a tomar la asistencia y colabora con la parte administrativa, básicamente agradecerle por habernos elegido que nos conozcan que sepan que estamos a disposición más allá del docente que obviamente es el que está en frente al aula y es el que va a estar en contacto permanente con ustedes, parte del equipo nuestro es una psicóloga Gissel Benegas que tenemos un sector de... No me sale el nombre...
-Secretario(Darío): Gabinete
-Saul Kuperman: Gabinetes psicológico que está a disposición de ustedes no sé si pasó por el curso, es un área para nosotros importante que aparte de trabajar la parte específica del oficio la escuela pretende darle interversidad a los alumnos, así que está a disposición esta señora para los que quieran hacer una consulta se comunican con el docente o la secretaría y ponernos a disposición sabemos que son épocas complejas le pedimos que asistan, el gran desafío de la educación aparte de estudiar por supuesto es la asistencia. Hay dos componentes claves dentro de lo que el profesor va a evaluar: el conocimiento a través de las discusiones a través del aprendizaje de ustedes, la práctica pero también la asistencia. Hay un mínimo necesario que ustedes tienen que asistir y es importante porque la asistencia le permite estar diariamente en lo que ustedes eligieron y esta es una 1era etapa lo que quieran continuar pueden hacer otra 2da etapa en donde los profesionaliza aún más, así que piensen en darle continuidad. Los que quieran por supuesto, no obstante eso ustedes van a tener una certificación intermedia y a fin de año la certificación de montador, siempre digo nosotros tenemos 2 jefes o 2 patrones: 
-1. El consejo de educación porque esta es una escuela común y corriente solamente que es de adulto y de oficio 
-2. La fundación UOCRA.
-Nosotros somos parte de una gran red de escuelas de la UOCRA, la UOCRA es el sindicado de los obreros de la construcción fue diseñada esta escuela y peleada en su momento para que se habilite hace 3 años que estamos en la Ciudad de Posadas, tenemos una sede en Itaembé Guazú por nuestro secretario general que es Héctor Vallejos y que es el que heredó esta modalidad educativa un tema que destacamos **el tema de la indumentaria, sabemos que no les podemos dar una vestimenta acorde al oficio que ustedes están estudiando lo que sería una ropa de trabajo, un zapato de trabajo, no podemos lamentablemente, pero si le pedimos que vengan con un atuendo mínimo necesario para que en algunas prácticas que ustedes hacen NO tengan un accidente, o si lo tienen que sea lo más benévolo posible**.
-
-###### Qué se trata la vestimenta?
-1. Un pantalón largo.
-2. Un zapato cerrado.
-Decimos esto porque muchas veces se va a trabajar con alguna estrategia que puede generar riesgo y es importante que ustedes vengan con ese atuendo. 
-
-Un tema que no es menor que no sé si hay algunos interesados estamos trabajando el pasaje gratuito quiero decirles que lamentablemente nosotros como centro de formación, ningún centro de la ciudad de Posadas ni del Interior ningún centro tiene pasaje gratuito, no obstante eso todos los años con algunos convenios que hemos hecho con algunas instituciones hemos conseguido si no vino va a venir después la preceptora y lo que tengan un interés en ese tema se anota por favor.
-
-Lo que sí le voy a recalcar es una probabilidad hoy por hoy, estamos trabajando con 2 instituciones a ver si nos facilitan ese beneficio va a depender del número, va a depender de la voluntad de 3eros y obviamente si conseguimos la gestión mínima que tienen que hacer ustedes como algunos sabrán hay que hacer para conseguir los pasajes pero siempre le voy a recalcar es una probabilidad estamos haciendo la gestión, por eso tenemos que en breve generar ese listado de los interesados como para transmitirle a estas instituciones cosas que nos digan es viable no es viable, si es viable van a saber porque vamos a avisar, **y si no es viable le vamos a transmitir: NO SE CONSIGUIÓ FORMALIZAR EL ACUERDO**, porque me parece que es un tema importante necesario no sé si todos pero sé que hay gente que se movilizan con moto otros otra plataforma pero el pasaje siempre fue importante para resolver el translado. Eeehh, tu tema.
-Secretario(Darío): Sí, también está disponible a partir del 1ero de abril el progresar trabajo por ahí los que están interesado nosotros estamos en el progresar trabajo como CFP17 UOCRA ahí tienen que elegir el curso de electricidad si no está pueden elegir otro y nosotros igual le certificamos tiene que cumplir con los requisitos que pide el ANSES que creo que es de 18 a 24 años y se extiende hasta 34 a las personas que no tienen trabajo ahora en blanco así que es un ingreso que pueden obtener un beneficio que pueden aprovechar que mediante si no sale el boleto eso por ahí puede ayudar un poquito, así que no hay problemas nosotros le certificamos ustedes nos avisan y nosotros le damos de alta en el sistema, pero cumpliendo con los requisitos que tiene ANSES, así que cualquier duda estamos en secretaría si necesitan algo.
-Saul Kuperman: Un tema que les compete, esto que les decía de la doble pertenencia que tenemos nosotros al finalizar el curso aprobar el curso obviamente, nosotros otorgamos la tarjeta IERIC no sé si todos saben la tarjeta IERI no sé si todos saben la tarjeta Ieric es una tarjeta magnética que reemplaza hace muchos años ya la libreta de Soy Constructor eso le habilitaría a ingresar a las empresas de construcción también eso le permite cursos que hagan vinculados a la industria a cargarlos en ese perfil automáticamente los que aprueban nosotros mandamos a Buenos Aires, demora reconocemos que tiene su tiempo porque es un trámite administrativo bastante engorroso ¿? pero llega eso le va a permitir incorporar no solo los cursos sino los que ingresen a la empresa de construcción tener todos sus antecedentes laborales dentro de esa tarjeta magnética que es como una tarjeta de crédito una tarjeta de débito.
-Leiva: Y los que ya tienen? Se carga no más en la tarjeta?
-Secretario(Darío): El que ya tiene sí, automáticamente.
-Saul Kuperman: El que ya tiene, porque la tarjeta es única para una persona si ustedes hacen el curso cuando se manda a Buenos Aires se carga en la misma tarjeta el oficio que ustedes hicieron.
-Leiva: Pero hay que traer?
-Saul Kuperman: No no no. Eso se manda a Buenos Aires y cargan del sistema.
-Secretario(Darío): Por ahí si vos presentas la tarjeta y no está cargado tu curso, vos tenes el certificado que te abala entonces ahí si por las dudas le pasas para que carguen al sistema.
-Saul Kuperman: Cual duda cualquier situación. Vengan, asistan, tienen un excelente profesor, muy dedicado.
-Secretario(Darío): Pinchabocas.
-Saul Kuperman: Eso hace hay que exprimirlo al profesor, tratar de sacar el mayor provecho en lo educativo porque cuando uno salga a la profesión ahí empiezan muchas dudas, entonces es importante aprovechar no solamente el conocimiento técnico científico de un docente sino de la experiencia porque es una persona que está en la experiencia diaria y eso lleva a que uno sea mejor profesional y eso se hace viniendo (a clases) a parte le permitirá incorporar conocimiento esta es una 1era etapa y en la 2da etapa que se pone quizás más denso porque tiene otro volumen otra dificultad, esta es la base y la base hace que sea más fácil transitar la 2da etapa. Así que le agradezco le pido disculpas el tiempo que le robamos y cualquier cosa a la órden.
-Leticia Botolli: Gracias.
-Profesor: Este es el verdadero parece.
-
-Vos tenes una copia ahí, quiero ver la partesita esto.
-Botolli: Eso es todo lo que tiene.
-Profesor: Ah todo lo que ella tiene. Bueno había una caja con varias condiciones ahí un panel de control que ponen el código lo que sea algunas tienen en forma remota detector de movimiento fíjense ellos le ponen PIRRE¿? (Minuto 36:40) detecta cuando alguien camina o se acerca esa ¿qué particularidad tiene ese sustento? **Si yo no tengo un soporte los peer¿? tienen la posibilidad de tener un rango de 90 grados**, 90 grados, 90 grados, 90 grados. Entonces tengo que ver la apertura que yo necesito para proteger en ese sentido entonces lo más correcto o pongo acá a mi me conviene poner acá el peer ese, vamos a poner como dice ahí...
-Botolli: ¿En oposición a la puerta de ingreso sería?
-Profesor: Claro. Acá tengo la ventana acá yo pondría acá, entonces tiene apertura de 90 grados justo en el rincón tengo que hacer, si pongo en el medio sigo teniendo 90 grados ero tengo que ver si protejo esas 2. Tengo que buscar la forma de que ese peer me banque todas las necesidades o las aperturas principales si yo pongo allá puedo tener la particularidad pero voy a tener que poner a un rincón de tal forma de que me banque todos esos sectores pero no sé si me va abarcar ese tengo que tengo ¿qué buscar que altura? Y más o menos 2 metros, **2,10 metros más o menos un poquito más arriba de 2 metros porque la apertura siempre son 2 metros entonces tengo que poner un poco más arriba**.
-
-Tiene un sistema de inclinación adentro se regula para que indique que **longitud o que distancia yo necesito proteger es igual que el detector de movimiento para las luces** tenes que ver que distancia tengo. Si este es sistema inalámbrico no necesita ningún cable la otra vez le mostré que hay una pipeta generalmente se pone la pipeta ahí al costado y si lo hace todo el sistema de cableado va a aparecer solo el agujerito de la pipeta para hacer las conexiones ahí generalmente van 4 pares telefónicos NO. 
-
-El de 2 pares telefónicos son 4 cablecitos, 2 para el que dee la señal recibe la señal con 24 voltios lo que sea, y después los otros 2 son de protección si alguien corta la alimentación esto como no tiene cable es inalámbrico así que pero el otro sistema de cableado tiene 4 cablecitos entonces **2 son de protección y los otros 2 para que haga el sistema de apertura y cierra del circuito**.
-
-¿Qué problema tiene? Llegan a cortar la alimentación a ese peer y activa la sirena, este es inalámbrico, el inalámbrico tiene solo una batería ahí adentro. Una batería y tipo una antenita que hace que la central comande todo ese sistema, no hay otra cosa también tiene este: el panel y etiqueta remota control remoto sensor de puerta, eso sensor de puerta que les dije son **2 imanes uno fijo y otro móvil**.
-
-Fijo: Seguramente estarán la antena inalámbrica para detectar todo ese movimiento, serena estermos¿?, sirena inalámbrica opcional dice, suena cuando suena la alarma, y después tiene todo adentro: corriente, soporte, cubierta interior, tornillo y todo lo que ustedes puedan necesitar para esto, pero no es difícil pero vamos a lo nuestro nosotros somos instaladores electricista y tenemos que canalizar eso de vez en cuando, vamos a suponer que no tenemos la alarma de este tipo la alarma inalámbrica es interesante cuando yo tengo una construcción ya realizada y no quiero pasar ni los cables por arriba ni que se vean nada por el estilo, entonces lo único que hago es hacer esta partesita nada más y en algunos casos ya puedo tener la opción de hacer inalámbrica la sirena o a su vez cablearlo eso depende de qué característica tenga el equipo pero tengo la posibilidad de hacer eso,
-
-¿qué tiene la sirena exterior? También tiene un switch es tipo un forzador **en caso de que quieran desarmar también activa la alarma** o sea todos los sistemas y hay centrales que permite a través de un sistema de video, control de video entonces puedo esa misma alarma hacer un sistema opcional con cámaras en distintos lugares y activar y desactivar con el control del celular. Es un programa que se pone y directamente vos controlas si tenes 2 o 3 alarmas te van distintos sectores y vos podes controlarlo en un mismo cuadro los 4, 5, 6 cámaras que están colocadas, la gente que se dedica a eso es bueno (plata).
-Yo antes me dedicaba a eso pero a veces uno tiene amigos que trabajan juntos y después la cantidad de trabajo a veces no es en proporción lo que uno quiere ganar, entonces dejamos 1 no más que se encargue del tema de la alarma. Aprendimos a hacer el curso siempre con la alarma **X28** y para nosotros no sé si fue la mejor pero tenía un sistema de capacitación a todos los instaladores y daba la posibilidad de qué cuando se actualizaba la central y nos mandamos información y asistíamos cursos acá y allá en Corrientes, Resistencia lo que sea y tenía respaldo en caso de que mandaba los equipos y tenía algún problema en seguida te mandaban otro la central por ejemplo entonces teníamos un cierto apoyo de ellos.
-
-Lo que pasa es que hoy ya se abarataron los precios antiguamente una de las alamas más caras era X28 y la gente no quería pagar. 
-
-Nosotros le decíamos este equipo vale tanto y la instalación tanto, de acuerdo a la cantidad de detectores de equipamientos todo lo que ustedes tengan. Se cobra también tipo boca, hay lugares en donde muestran tantas sirenas, tanta magnético cobra yo tengo un catálogo que me había dado la gente X28 si consigo le voy a traer para que ustedes tengan idea de todos los elementos que van ahí por ejemplo ustedes saben que tienen o le provee esa cantidad de cosas que tienen, 1 2 o 3 lo que quieran elegir. 
-
-Pero lo ideal es que ustedes sepan una tipo plano este está hecho tipo un dibujo entonces hasta en algunos casos que me estoy acordando en **los garages ya ponen una barrera infrarroja, desactiva la barrera infrarroja en caso de que vos cortes empieza a sonar la alarma**.
-
-Cada alarma tiene distintos elementos que uno son opcionales por supuesto y que uno puede agregar para mayor seguridad pero hay lugares yo necesitaba por ejemplo colocar justo en la cochera sino justo en el pasillo de entrada también se pone una **barrera que está fija la otra móvil allá pasa un haz de luz, esa luz no se ve pero ustedes cortan eso y automáticamente se activa la alarma y esto es para que sirve la sirena para que lo interiores es para que el tipo que está adentro salga rápido(entre en pánico) y la exteriores es en caso de que pase algún vecino**.
-
-
-
-
----
-
-Minuto 41:18
+Hay distintos tipos de subterráneo pero yo le voy a pasar importante que ustedes vean como es el sistema de protector de los conductores, fíjense que es bastante reforzado.
+    
+    
+---    
+    
+Minuto 41:18    
