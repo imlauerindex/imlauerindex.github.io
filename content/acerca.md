@@ -2,7 +2,7 @@
 title: "Acerca de Mi"
 date: 2024-07-27T03:01:07-03:00
 ---
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj36jr6xdaMM-Yiqeji-9Fag-ddAqzc5fs6QE1TNAyy8-pmTefzI0Uk0usuvJ-v9YJF2yVWsmXWC86aRB1AMS7P70IwwSlWK64WRpUW_aEL1KHYKq3ilfYaQVHCbazgWJ-Vs8xyeOefsUEdR2r_9chRv7MHqgtRDsBwM5w_ht5dSHd3cQ6NSvK_K1FX8L2L/s1280/feeling_cute.png)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibTZpY6ITsc94shzmAKaxA53An4idXekKS6G863WLyAZNNn4G-hGVICzACVOIBvrOdbAOpYxJDhdCwQ7Io2ABRv_Gtw-bnbwK598ZLhaW0X3X3W7NNY18B_4-kDjiVyMAvFaJSlm5vQZq7TS3BOOi06_6oBS4hU0GdnOlP5Ai4yToasV65US5GWlzIGIVV/s1080/me.png)
 
 Todo lo que necesitás saber sobre mi está en https://imlauerandres.github.io  
 
