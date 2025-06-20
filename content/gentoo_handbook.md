@@ -3,6 +3,9 @@ title: "Gentoo handbook: Definiciones"
 date: 2025-06-19T04:23:59-03:00
 tags: ['linux']
 ---
+https://wiki.gentoo.org/index.php?title=Handbook:AMD64/Full/Installation&printable=yes    
+https://wiki.gentoo.org/index.php?title=Handbook:AMD64/Full/Installation
+
 **inode:**
 
 ```bash
