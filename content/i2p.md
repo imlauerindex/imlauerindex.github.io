@@ -28,3 +28,7 @@ Agregá al final: `socks4 127.0.0.1 4444`
 
 
 Luego: `proxychains cha http://notbob.i2p`
+
+Podes buscar nodos de salida en `http://notbob.i2p` buscando por `outproxy`.
+
+To change the exit node (outproxy) in I2P, just go to the Hidden Services Manager in your I2P router console and update the "Outproxies" and "SSL Outproxies" fields to your preferred outproxy address (for example, exit.stormycloud.i2p is a popular one now). After making the change, scroll down and hit "Save"—that’s it, your traffic will now exit through the new outproxy!
