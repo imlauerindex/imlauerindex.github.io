@@ -30,3 +30,9 @@ cp --reflink=always archivo_original copia_reflink
 * Ambos archivos compartirán los mismos bloques de datos hasta que modifiques alguno; solo entonces XFS hace una copia real de los bloques cambiados (esto es el CoW).
 * Esto ahorra muchísimo espacio y tiempo, especialmente útil para backups, snapshots, o clonar imágenes de máquinas virtuales.
 
+
+
+```bash
+nameserver 9.9.9.9
+nameserver 149.112.112.112
+```
