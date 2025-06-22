@@ -46,10 +46,24 @@ alias cimlauera='cha -V https://imlauera.github.io'
 alias yewtube='cha -V https://yewtu.be'
 alias invidious='w3m -sixel https://inv.nadeko.net/feed/subscriptions'
 alias cinvidious='cha -V https://inv.nadeko.net/feed/subscriptions'
-set -o vi
 
 PS1='[\u@\h \W]\$ '
 source /usr/share/bash-completion/bash_completion
 eval "$(fzf --bash)"
 ```
 
+### Para limpiar la terminal cuando tenés seteado el set -o vi
+Esto va en el archivo .inputrc
+```bash
+set editing-mode vi
+$if mode=vi
+
+set keymap vi-command
+# these are for vi-command mode
+Control-l: clear-screen
+
+set keymap vi-insert
+# these are for vi-insert mode
+Control-l: clear-screen 
+$endif
+```
