@@ -36,3 +36,18 @@ cp --reflink=always archivo_original copia_reflink
 nameserver 9.9.9.9
 nameserver 149.112.112.112
 ```
+
+###### how to connect to a WPA2 WiFi network using either iwd 
+
+With `iwd`:
+1. Make sure wpa_supplicant is not running: `rc-service wpa_supplicant stop`
+2. Start iwd: `rc-service iwd start`
+3. Enter the interactive shell: `iwctl`
+4. List devices: `device list`
+5. Scan and connect:
+```bash
+station <device> scan
+station <device> get-networks
+station <device> connect <SSID>
+```
+(It’ll ask for your password if needed.)

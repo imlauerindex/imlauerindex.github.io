@@ -93,3 +93,19 @@ https://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols
 
 ###### Resize mode
 To resize windows, you must enter resize mode, with the Mod + R keybinding. After you enter resize mode you can resize windows with Left/Right/Up/Down keys, and press enter or escape to return to default mode.                                                                                            
+
+---
+
+https://wiki.gentoo.org/wiki/Sway
+
+Sway (abreviado de SirCmpwn's Wayland compositor) es un compositor de Wayland basado en wlroots de código abierto que está diseñado para ser compatible con el gestor de ventanas i3.
+
+##### USE flags (banderas)
+###### for gui-wm/sway
+* +filecaps: Use Linux file capabilities to control privilege rather than set\*id (this is orthogonal to USE=caps which uses capabilities at runtime e.g. libcap) 
+* +man: Build and install man pages 
+* +swaybar: Install 'swaybar': sway's status bar component 
+* +swaynag: Install 'swaynag': shows a message with buttons 
+* X: Enable support for X11 applications (XWayland) 
+* tray: Enable support for StatusNotifierItem tray specification
+* wallpapers: Install sway's default wallpaper image
