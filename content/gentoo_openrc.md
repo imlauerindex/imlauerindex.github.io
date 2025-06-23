@@ -311,7 +311,10 @@ Y ahora:
 grub-mkconfig -o /boot/grub/grub.cfg   
 ```   
 En el handbook sugería usar: `grub-mkconfig -o /efi/EFI/Gentoo/grub.cfg` pero yo usé la partición `/boot` (explicado anteriormente).   
-   
+
+Hay una discusión sobre esto:
+> Edit: 2024-04-19 20:09 (UTC) Handbook > GRUB > UEFI systems grub-install --efi-directory=/efi installs all files except grubx64.efi in /boot rather than /efi. Is that not a dangerous configuration, that will break for most? I propose recommending grub-install --efi-directory=/efi --boot-directory=/efi instead. grub-mkconfig -o /efi/grub/grub.cfg doesn't run without symlinking /boot into /efi. I also had to update that command from the wiki provided version using -o /boot/grub/grub.cfg
+
 #### Agregando un usuario.   
 El handbook fue muy puto acá: me recomendó un comando para crear el usuario pero sin el grupo `video` y estuve peleando un poco para iniciar `sway`.   
    
