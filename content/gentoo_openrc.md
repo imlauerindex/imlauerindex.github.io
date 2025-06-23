@@ -68,7 +68,8 @@ USE="dist-kernel"
 ```   
    
 nano /etc/resolv.conf   
-Borrá todo y poné las DNS de Cloudflare o Quad9   
+
+**Borrá todo y poné las DNS de Cloudflare o Quad9**. Las DNS de Personal, Claro, Movistar bloquean sitios como: https://librefutbol.su, https://thepiratebay.org, https://example.com, etc
 ```   
 # Cloudflare   
 nameserver 1.1.1.1   
@@ -352,4 +353,10 @@ Podes consultar cualquier duda en el canal de IRC en LiberaChat: `#gentoo` o en 
    
 Cualquier bug: https://bugs.gentoo.org   
 
-### TODO agregar una lista de todos los paquetes que instalé.
+### Lista de programas que instalé luego 
+```bash
+### Binarios
+sudo emerge -G sys-devel/bc btop evince falkon gimp imagemagick jq neomutt pcmanfm-qt samba translate-shell wget wl-clipboard xhost xwayland libreoffice mpv git nim thunderbird grim
+
+sudo emerge yt-dlp xdg-desktop-portal-wlr xdg-desktop-portal-wlr vim firefox-bin wmenu telegram-desktop-bin qbittorent tor rclone proxychains unrar unzip tor torsocks os-prober
+```
