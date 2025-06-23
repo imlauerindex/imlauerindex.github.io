@@ -3,6 +3,20 @@ title: "Leer correos desde la terminal: Neomutt y mutt-wizard"
 date: 2024-07-10T03:12:27-03:00
 tags: ['neomutt','correo','terminal','mutt-wizard']
 ---
+NeoMutt por defecto usa `POP` es decir que descarga todo tu correo a tu disco duro, si queres que tu correo no se descargue y quede en el servidor tenes que usar `IMAP`.
+
+Para usar IMAP en NeoMutt y evitar que descargue todos tus correos como hace POP, solo tienes que configurar tu archivo de configuración (~/.neomuttrc o similar) con tu servidor IMAP. Ejemplo básico:
+
+```bash
+set folder = "imaps://usuario@imap.tuservidor.com/"
+set spoolfile = "+INBOX"
+set imap_user = "usuario"
+set imap_pass = "tu_contraseña"
+```
+Así NeoMutt solo sincroniza los correos y carpetas que ves, **sin descargarlos todos localmente.**
+
+---
+
 ```bash
 sudo apt install -y neomutt
 sudo apt install -y lynx notmuch abook urlview cronie curl isync msmtp pass ca-certificates gettext libpam0g-dev mpop
