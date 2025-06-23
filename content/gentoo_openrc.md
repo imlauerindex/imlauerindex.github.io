@@ -18,6 +18,9 @@ Es decir los binarios vienen con la mínima cantidad de banderas posibles, a dif
    
 ###### Handbook AMD64 FULL: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation   
 https://wiki.gentoo.org/wiki/Handbook:AMD64/Full   
+
+**AVISO: Esta guía no incluye la creación del pendrive con Gentoo ni el particionado**. Esta guía comienza después el particionado para adelante.   
+**Como hacer crear el pendrive y el particionado están bien descriptos en el handbook**.
    
 Instalé gentoo guíandome con el handbook: Usé XFS, OpenRC, Grub y agregué el binary host.   
    
@@ -83,10 +86,10 @@ cp --dereference /etc/resolv.conf /mnt/gentoo/etc` # se usa --dereference para q
 arch-chroot /mnt/gentoo` o podes montar uno por uno como está en el Handbook   
 source /etc/profile   
 export PS1="(chroot) ${PS1}"   
-emerge-webrsync   
+emerge-webrsync # Baja una snapshot de los títulos de los paquetes disponibles, sirve si estás detrás de un firewall (se actualiza cada 24 horas)
 emerge --verbose --oneshot app-portage/mirrorselect   
 mirrorselect -i -o >> /etc/portage/make.conf   
-emerge --sync # No hace falta porque emerge-webrsync está bastante actualizado.   
+emerge --sync # Lo mismo que emerge-webrsync pero más actualizado. No hace falta porque emerge-webrsync está bastante actualizado.   
 eselect news list   
 eselect news read   
 eselect profile list   
@@ -313,7 +316,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 En el handbook sugería usar: `grub-mkconfig -o /efi/EFI/Gentoo/grub.cfg` pero yo usé la partición `/boot` (explicado anteriormente).   
 
 Hay una discusión sobre esto:
-> Edit: 2024-04-19 20:09 (UTC) Handbook > GRUB > UEFI systems grub-install --efi-directory=/efi installs all files except grubx64.efi in /boot rather than /efi. Is that not a dangerous configuration, that will break for most? I propose recommending grub-install --efi-directory=/efi --boot-directory=/efi instead. grub-mkconfig -o /efi/grub/grub.cfg doesn't run without symlinking /boot into /efi. I also had to update that command from the wiki provided version using -o /boot/grub/grub.cfg
+> Edit: 2024-04-19 20:09 (UTC) Handbook > GRUB > UEFI systems grub-install --efi-directory=/efi installs all files except grubx64.efi in /boot rather than /efi. Is that not a dangerous configuration, that will break for most? I propose recommending `grub-install --efi-directory=/efi --boot-directory=/efi` instead. `grub-mkconfig -o /efi/grub/grub.cfg` doesn't run without symlinking /boot into /efi. I also had to update that command from the wiki provided version using -o /boot/grub/grub.cfg
 
 #### Agregando un usuario.   
 El handbook fue muy puto acá: me recomendó un comando para crear el usuario pero sin el grupo `video` y estuve peleando un poco para iniciar `sway`.   
