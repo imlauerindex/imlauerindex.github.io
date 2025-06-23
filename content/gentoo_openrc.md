@@ -17,7 +17,7 @@ Es decir los binarios vienen con la mínima cantidad de banderas posibles, a dif
    
 ---   
    
-Handbook AMD64 FULL: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation   
+###### Handbook AMD64 FULL: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation   
 https://wiki.gentoo.org/wiki/Handbook:AMD64/Full   
    
 Instalé gentoo guíandome con el handbook: Usé XFS, OpenRC, Grub y agregué el binary host.   
@@ -44,31 +44,28 @@ tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner -C /mnt/gentoo
 nano `/mnt/gentoo/etc/portage/make.conf`   
    
 ```bash   
-COMMON_FLAGS="-O2 -pipe"   
-CFLAGS="${COMMON_FLAGS}"   
-CXXFLAGS="${COMMON_FLAGS}"   
-FCFLAGS="${COMMON_FLAGS}"   
-FFLAGS="${COMMON_FLAGS}"   
-   
-# NOTE: This stage was built with the bindist USE flag enabled   
-   
-# This sets the language of build output to English.   
-# Please keep this setting intact when reporting bugs.   
-LC_MESSAGES=C.utf8   
-COMMON_FLAGS="-march=native -O2"   
-CFLAGS="${COMMON_FLAGS}"   
-CXXFLAGS="${COMMON_FLAGS}"   
-RUSTFLAGS="${RUSTFLAGS} -C target-cpu=native"   
-MAKEOPTS="-j2 -l3"   
-   
-GENTOO_MIRRORS="https://gentoo.zero.com.ar/gentoo/ \   
-    rsync://gentoo.zero.com.ar/gentoo"   
-   
-FEATURES="${FEATURES} getbinpkg"   
-FEATURES="${FEATURES} binpkg-request-signature"   
-USE=""   
-ACCEPT_LICENSE="*"   
-USE="dist-kernel"   
+COMMON_FLAGS="-march=native -O2"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+RUSTFLAGS="${RUSTFLAGS} -C target-cpu=native"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+
+# NOTE: This stage was built with the bindist USE flag enabled
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C.utf8
+MAKEOPTS="-j2 -l3"
+
+GENTOO_MIRRORS="https://gentoo.zero.com.ar/gentoo/ \
+    rsync://gentoo.zero.com.ar/gentoo"
+
+FEATURES="${FEATURES} getbinpkg"
+FEATURES="${FEATURES} binpkg-request-signature"
+USE=""
+ACCEPT_LICENSE="*"
+USE="dist-kernel"
 ```   
    
 nano /etc/resolv.conf   
@@ -195,7 +192,10 @@ Usá `sys-apps/pciutils` que contiene el comando `lspci` para obtener más infor
 En el handbook explica como compilar el kernel cosa que no lo vamos a hacer.   
    
 **Información sobre sistema de archivos**:   
-Ejecutá `blkid` para obtener el UUID para construir el `/etc/fstab` o simplemente ejecutá en otra TTY: `genfstab /mnt/gentoo >> /mnt/gentoo/etc/fstab`   
+Ejecutá `blkid` para obtener el UUID para construir el `/etc/fstab` o simplemente ejecutá en otra TTY:
+```bash
+genfstab /mnt/gentoo >> /mnt/gentoo/etc/fstab
+```   
 En el handbook explica que es cada propiedad del archivo `/etc/fstab`.   
    
 Podes agregar `noatime` para mejorar el rendimiento en la partición de raiz (XFS): `defaults,noatime` en `/etc/fstab`.   
@@ -220,7 +220,7 @@ Explicado en el handbook: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Insta
    
 ###### Cambiá la contraseña de `root`:    
 ```bash   
-root # passwd   
+passwd   
 ```   
    
 Cuando usas OpenRC con Gentoo el archivo `/etc/rc.conf` configura los servicios, inicio y apagado de un sistema. Abrí el archivo `/etc/rc.conf` y disfrutá de todos los comentarios en el archivo. Observá las configuraciones y cambia lo que necesitás.   
@@ -317,8 +317,8 @@ El handbook fue muy puto acá: me recomendó un comando para crear el usuario pe
    
 **Acá está el comando con el grupo video agregado.**   
 ```bash   
-# useradd -m -G users,wheel,audio -s /bin/bash esotericwarfare   
-# passwd esotericwarfare   
+useradd -m -G users,wheel,audio -s /bin/bash esotericwarfare   
+passwd esotericwarfare   
 ```   
    
 ##### Reiniciando el sistema:   
@@ -337,13 +337,13 @@ esotericwarfare ALL=(ALL:ALL) NOPASSWD:ALL
 ```     
 Y ahora eliminamos la contraseña del usuario `root` por seguridad:   
 ```bash   
-# passwd -l root   
-# passwd -dl root   
+passwd -l root   
+passwd -dl root   
 ```     
 ##### Eliminamos los artifactos de instalación.   
 ```bash   
-# cd /   
-# rm stage3-*   
+cd /   
+rm stage3-*   
 ```   
    
 Podes consultar cualquier duda en el canal de IRC en LiberaChat: `#gentoo` o en los foros: https://forums.gentoo.org   
