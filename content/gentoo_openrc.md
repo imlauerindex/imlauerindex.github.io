@@ -3,6 +3,71 @@ title: "Nueva instalación binaria de Gentoo con OpenRC, XFS y Sway (Los binario
 date: 2025-06-22T22:25:52-03:00
 tags: ['gentoo']
 ---
+**Clásicos momentos usando Gentoo:**  
+Instalé `OBS Studio` en Gentoo sin mirar las banderas (USE Flags) cuando ejecuté `obs` no podía agregar la cámara, y tampoco podía compartir la pantalla.  
+Con el comando `emerge -pv obs-studio` pude ver las banderas y leyendo la Wiki de Gentoo de OBS me dí cuenta que tengo que habilitar las siguientes banderas para tener esas funcionalidades:  
+```bash  
+[ebuild   R    ] media-video/obs-studio-31.0.3-r2::gentoo  USE="alsa truetype wayland -browser -decklink -fdk -jack -lua (-mpegts) -nvenc -pipewire -pulseaudio -python -qsv -sndio -speex -test-input -v4l -vlc -websocket" LUA_SINGLE_TARGET="luajit" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14" 0 KiB  
+```  
+Ahí se pueden ver las banderas DESHABILITADAS (las que comienzan con un signo `-`)  
+  
+Según la Wiki de OBS de Gentoo: https://wiki.gentoo.org/wiki/OBS_Studio estas son las banderas disponibles:  
+```bash  
++alsa      Add support for media-libs/alsa-lib (Advanced Linux Sound Architecture)  
+browser    Enable browser source support via (precompiled) CEF.  
+decklink   Build the Decklink plugin.  
+fdk        Build with LibFDK AAC support.  
+jack       Add support for the JACK Audio Connection Kit  
+lua        Enable Lua scripting support  
+mpegts     Enable native SRT/RIST mpegts output.  
+nvenc      Add support for NVIDIA Encoder/Decoder (NVENC/NVDEC) API for hardware accelerated encoding  
+           and decoding on NVIDIA cards (requires x11-drivers/nvidia-drivers)  
+pipewire   Build with PipeWire support.  
+pulseaudio Add sound server support via media-libs/libpulse (may be PulseAudio or PipeWire)  
+python     Build with scripting support for Python 3.  
+qsv        Build with Intel Quick Sync Video support.  
+sndio      Build with sndio support.  
+speex      Build with Speex noise suppression filter support.  
+test-input Build and install input sources used for testing.  
+truetype   Add support for FreeType and/or FreeType2 fonts  
+v4l        Enable support for video4linux (using linux-headers or userspace libv4l libraries)  
+vlc        Build with VLC media source support.  
+wayland    Enable dev-libs/wayland backend  
+websocket  Build with WebSocket API support.  
+```  
+  
+Entonces para que nos funcione la **cámara y podamos compartir pantalla** necesitamos:   
+* `v4l`  
+* `browser` para poder cargar elementos programados con Javascript, HTML y CSS.  
+* `pipewire` para captura de audio  
+* `truetype` letras  
+* `websocket`   
+  
+Para saber donde escribimos estas banderas tenemos que leer lo básico de como usar Portage: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Portage  
+  
+Within `/etc/portage/` users can create the following files:  
+* `package.mask which` lists the packages that Portage should never try to install  
+* `package.unmask` which lists the packages Portage should be able to install even though the Gentoo developers highly discourage users from emerging them  
+* `package.accept_keywords` which lists the packages Portage should be able to install even though the package hasn't been found suitable for the system or architecture (yet)  
+* **`package.use` which lists the USE flags to use for certain packages without having the entire system use those USE flags**  
+  
+Entonces todas esas banderas las escribiremos en el archivo `/etc/portage/package.use/obs` de la siguiente manera:  
+```bash  
+media-video/obs-studio v4l browser pipewire truetype websocket  
+```  
+Y ahora recompilemos  
+```bash  
+emerge -av --quiet obs-studio  
+```  
+Debería aparecer en **verde las nuevas banderas con un asterisco**.  
+```bash
+[ebuild   R   ] media-video/obs-studio-31.0.3-r2  USE="alsa browser* pipewire* truetype v4l* wayland websocket* -decklink -fdk -jack -lua (-mpegts) -nvenc -pulseaudio -python -qsv -sndio -speex -test-input -vlc" LUA_SINGLE_TARGET="luajit" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14"
+```
+  
+Como estoy en Wayland (Sway) para compartir la pantalla debo seguir los siguientes pasos: https://imlauera.github.io/sway/  
+
+---
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHABzk8ar7MZ6s1NvBGSu_y54LtiYr0Igp7Fl9Q21Xniedh6_OT9l7EjHF5E6CCvWOBb-e8f5C4WnfbwhnDDtSmKsBi_vT1YnubrS8zB00axT48yUHrUv09CTyL_LeAQ2RBbSB5juTTqCHydiP-bpJoQmWD5dNnUEoVEVSrNVWWJsFGgmkGm2ef0S4F96w/s1366/reddit.png)
 
 
@@ -16,7 +81,13 @@ Es decir los binarios vienen con la mínima cantidad de banderas posibles, a dif
    
 ---   
    
-###### Handbook AMD64 FULL: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation   
+###### Handbook AMD64 FULL: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full
+1. Instalación: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation
+2. Como usar emerge: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Working
+3. Portage: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Portage
+4. Configurando la red en OpenRC: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Networking
+
+
 https://wiki.gentoo.org/wiki/Handbook:AMD64/Full   
 
 **AVISO: Esta guía no incluye la creación del pendrive con Gentoo ni el particionado**. Esta guía comienza después el particionado para adelante.   
@@ -65,9 +136,9 @@ GENTOO_MIRRORS="https://gentoo.zero.com.ar/gentoo/ \
 
 FEATURES="${FEATURES} getbinpkg"
 FEATURES="${FEATURES} binpkg-request-signature"
-USE=""
 ACCEPT_LICENSE="*"
 USE="dist-kernel"
+ACCEPT_KEYWORDS="~amd64"
 ```   
    
 nano /etc/resolv.conf   
@@ -78,7 +149,8 @@ nano /etc/resolv.conf
 nameserver 1.1.1.1   
 nameserver 1.0.0.1   
 # Quad9   
-nameserver 9.9.9.9   
+9.9.9.9
+149.112.112.112
 ```   
    
 ```bash   
