@@ -7,6 +7,22 @@ Descargá VIM plug:
 
 curl -O https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+
+
+###### Corrector ortográfico
+```bash
+mkdir -p ~/.vim/spell
+cd ~/.vim/spell
+
+
+wget --no-check-certificate https://ftp.nluug.nl/vim/runtime/spell/es.latin1.spl
+wget --no-check-certificate https://ftp.nluug.nl/vim/runtime/spell/es.latin1.sug
+wget --no-check-certificate https://ftp.nluug.nl/vim/runtime/spell/es.utf-8.spl
+wget --no-check-certificate https://ftp.nluug.nl/vim/runtime/spell/es.utf-8.sug
+```
+
+
+
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

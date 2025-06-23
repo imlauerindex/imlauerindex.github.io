@@ -134,7 +134,7 @@ En el archivo: `/etc/portage/package.use/00video_cards`
 ##### Aceptá la licencia (ya lo hice antes en el `make.conf`)   
 Para ver la licencia actual: `portageq envvar ACCEPT_LICENSE`   
 Yo usé `ACCEPT_LICENCE="*"` se puede aceptar licencia por cada paquete usando el archivo `/etc/portage/package.license/kernel`.   
-Para actualizar: `emerge --ask --verbose --update --deep --newuse --getbinpkg @world`   
+Para actualizar: `emerge --ask --verbose --update --deep --newuse --getbinpkg @world --quiet`   
    
 Eliminar paquetes obsoletos te muestra una lista: `emerge --ask --pretend --depclean` # Si le sacas `--pretend` los borra.   
    
@@ -323,7 +323,7 @@ El handbook fue muy puto acá: me recomendó un comando para crear el usuario pe
    
 **Acá está el comando con el grupo video agregado.**   
 ```bash   
-useradd -m -G users,wheel,audio -s /bin/bash esotericwarfare   
+useradd -m -G users,video,wheel,audio -s /bin/bash esotericwarfare   
 passwd esotericwarfare   
 ```   
    
@@ -355,6 +355,17 @@ rm stage3-*
 Podes consultar cualquier duda en el canal de IRC en LiberaChat: `#gentoo` o en los foros: https://forums.gentoo.org   
    
 Cualquier bug: https://bugs.gentoo.org   
+
+##### Para buscar paquetes
+```bash
+emerge -s hola
+```
+O con `eix`:
+```bash
+sudo emerge eix
+sudo eix-update
+eix wifite
+```
 
 ### Lista de programas que instalé luego 
 ```bash
