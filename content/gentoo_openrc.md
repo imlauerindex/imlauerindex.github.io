@@ -9,11 +9,10 @@ tags: ['gentoo']
 Ya había hecho una guía anteriromente sobre instalar Gentoo: https://imlauera.github.io/post/gentoo_installation/
 
 
-Los binarios en Gentoo no son como yo creía   
-   
+###### Binarios
 Si instalas el binario del grub en Gentoo no es lo mismo que el binario en ArchLinux.   
-El binario de GRUB no viene con la bandera mount habilitada por lo tanto si quiero usar OS-PROBER estoy obligado a compilar el GRUB porque el binario de GRUB en Gentoo no tiene la bandera mount activada entonces tengo que compilarlo para poder usar OS-PROBER.   
-Es decir los binarios vienen con la mínima cantidad de banderas posibles, a diferencia de ArchLinux que vienen con todas las banderas posibles activadas.   
+El binario de GRUB no viene con la bandera `mount (USE Flag)` habilitada por lo tanto si quiero usar `OS-PROBER` estoy obligado a compilar el GRUB porque **el binario de GRUB en Gentoo no tiene la bandera mount activada** entonces tengo que compilarlo para poder usar `OS-PROBER`.   
+Es decir los binarios vienen con la mínima cantidad de banderas posibles, a diferencia de ArchLinux que vienen con la máxima cantidad de banderas posibles activadas.   
    
 ---   
    
