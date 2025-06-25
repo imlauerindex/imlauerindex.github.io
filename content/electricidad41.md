@@ -10,7 +10,7 @@ https://vocaroo.com/1jU2gVFOUp8s
 ###### Audio en Archive:
 https://archive.org/details/record-164 
 ###### Audio en YouTube:
-//www.youtube.com/embed/WiGkgFy_1Rg
+https://www.youtube.com/embed/WiGkgFy_1Rg
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis_T31YlKVBdeIikaXZxgr43CTgWQOMRSBQc2M7CbJvcqqbySmYizBvPIJWkI2YWX42j-cAIJEJozDJ_AfUw3PjAaU0Y21189Dk0KQQFrtf5eAppQGl7hiCGiTEDh7TQ0_3BQ8wJeM7_hsQJW2hU2QvPYSi_Uw5pG_LbeEIvsGHjUsGxHJjc2BcDNbgv4/s4160/IMG_20250624_201423579.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgec1Tb7cAHNYSU49SdUtlOGGjwUd5pKseYBP16boPZphNgr52W_g04AMCAvYvCME8NO5BEuF1Y6D8KBUhxGVHHi7FhsK_KAxZTx_vCK805vaRKV1VPv8gSiXkvzriJ7CgtOaOkbG5WK0dH98jCgz1e66ge6ZTSUU7g0jeg6RqZr8kC44T64yS62CEkoYc/s4160/IMG_20250624_201035822.jpg)
