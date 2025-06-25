@@ -46,7 +46,7 @@ Entonces para que nos funcione la **cámara y podamos compartir pantalla** neces
 Para saber donde escribimos estas banderas tenemos que leer lo básico de como usar Portage: https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Portage  
   
 Within `/etc/portage/` users can create the following files:  
-* `package.mask which` lists the packages that Portage should never try to install  
+* `package.mask` which lists the packages that Portage should never try to install  
 * `package.unmask` which lists the packages Portage should be able to install even though the Gentoo developers highly discourage users from emerging them  
 * `package.accept_keywords` which lists the packages Portage should be able to install even though the package hasn't been found suitable for the system or architecture (yet)  
 * **`package.use` which lists the USE flags to use for certain packages without having the entire system use those USE flags**  
