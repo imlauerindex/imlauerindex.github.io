@@ -1,5 +1,5 @@
 ---
-title: "Kiss Linux"
+title: "Kiss Linux (compilar kernel manualmente)"
 date: 2025-06-25T02:43:44-03:00
 tags: ['linux']
 ---
