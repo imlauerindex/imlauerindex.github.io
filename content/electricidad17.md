@@ -163,9 +163,21 @@ La otra vez estaba mirando una casa que entraron a robar y estaba la cámara no 
 
 Vamos a ver algo que me interesa a mí que ustedes sepan ya vimos algo aparte de canalización vimos y empezamos a ver conductores subterráneos y también el tema de las bandejas acuérdense que yo puedo tener un sistema de canalización aparte de lo que vimos con conductores subterráneos, estos conductores que ustedes ven que saqué del.... Esto estaba lleno de... Pero le lavé un poco.
 
-Hay distintos tipos de subterráneo pero yo le voy a pasar importante que ustedes vean como es el sistema de protector de los conductores, fíjense que es bastante reforzado.
-    
+Hay distintos tipos de subterráneo pero yo le voy a pasar importante que ustedes vean como es el sistema de protector de los conductores, fíjense que es bastante reforzado pero igual sufre deterioro si le meto varias paladas encima este es de un conductor de 2,5mm^2 subterráneo todos estos conductores pueden estar enterrados directamente en la tierra, no hay problema. Yo le voy a mostrar la distancia la distancia la altura que tiene que tener el pozo para que ustedes puedan ver y voy a mostrarles si me queda todavía, 
+
+Puedo enterrarlo directamente en la tierra o pasar a través de un caño camisa todo depende que dimensiones tenga el caño y generalmente trabajamos con 1 pulgada y media 2 depende de que tipo de conductor subterráneo y en algunos casos, no es que yo puedo hacer una cierta cantidad de metros subterráneos tengo que poner unas **cámaras de paso** que de acuerdo al recorrido que tenga yo puedo profundizarlo y llevarlo hasta esa cámara de paso.
+
+Una época la gente hacía esas cámaras de paso de mampostería, si yo tengo un sistema canalización y se rompe mampostería muy probable que se llene de agua, la idea es que la tierra absorba el agua, yo pongo ahí se forma tipo una pileta mientras el conductor sea solo **cámara de inspección o cámara de paso no hay problema porque es lo mismo que está ahí**, este conductor va a pasar por la cámara de paso y no va a sufrir ningún empalme mientras no sufra ningún empalme esto está previsto hasta trabajar en el agua **MIENTRAS NO ESTÉ CORTADO**.
+
+Esto creo que es de 10, 10 o 16, vamos a suponer que es de 10 o 16 ustedes van a ver que a medida que **va aumentando la sección de los conductores esto es subterráneo, las 3 fases generalmente son de sección iguales y el neutro es distinto, es de menor sección**. Este es igual porque son... Este es de 10.
+
+Ahí dice 4x16 o sea estos conductores son de 16, estos son de 25 y este que está acá el neutro es de 16mm^2, sistema trifásico este de 2,5mm^2 para que vayan viendo que diferencia hay entre uno y otro.
+Pero siempre la protección es igual tiene un forro tiene otro sistema de aislación y es muy difícil que a un simple golpe... **Porque a veces dicen que: ¡ay! Un simple golpe se rompió bueno... Tiene que ser un poquito más fuerte**, por qué traje ahora voy a hacer el dibujito para que ustedes vean, que esto aunque este a 0,70 a nivel del piso de la zanja y esto esté sobre tierra arriba a una distancia de 20 cm ahora vamos a ver de acuerdo a las normas **tengo que colocar un elemento de protección mecánica**.
+
+Entonces ladrillo o algunos lugares entonces sacamos la teja pusimos la teja o cualquier elemento que sirva para que cualquier esfuerzo que haga directamente no llegue al conductor, vamos a hacer el dibujo primeramente agua y pozo fíjense la pala viene de 20x25, la pala de punta. Hoy en día ese es el obrero simple pero generalmente las empresas tienen su retrocavadora chiquitita en un rato hace todo siempre y cuando no tenga piedra porque sino rompe todo cuando es pozo común o tierra común no hay problema. 
+Alumno: Tosca.
+Profesor: Tosca, entonces que es lo que hacen 1ero? Y se hace en cualquier momento si ustedes van a Itaembé Guazú verán a gran escala.
     
 ---    
     
-Minuto 41:18    
+Minuto 50

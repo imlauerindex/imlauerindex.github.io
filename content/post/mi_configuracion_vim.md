@@ -101,7 +101,6 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'nanotech/jellybeans.vim'
 " Theme
 Plug 'nightsense/carbonized'
-Plug 'preservim/nerdtree'
 " Theme
 "Plug 'ajmwagar/vim-deus'
 Plug 'Badacadabra/vim-archery'
@@ -121,7 +120,6 @@ colorscheme slate
 "colorscheme delek
 "colorscheme murphy
 "colorscheme carbonized-dark
-autocmd VimEnter * NERDTree
 set mouse=a
 ```
 

@@ -139,10 +139,10 @@ make menuconfig
 / (slash)
 CONFIG_PATA_ACPI
 ```
-Te dice `[=n]` y abajo en `Selects: [=n]` (esa tenes que seleccionarlo y habilitarlo con `*`)
+Te dice `[=n]` y abajo en `Depends: ` y en `Selects: [=n]` (esa tenes que seleccionarlo y habilitarlo con `*` para que quede todo en `[=y]`)
 
 Si apretás el número lo podes convertir como `core` si lo pones con `*`(asterisco) - Save - Exit - Exit
-```
+
 Ahora ejecutá:
 ```bash
 make localyesconfig
