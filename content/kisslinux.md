@@ -70,10 +70,10 @@ vi `/etc/profile.d/kiss_path.sh`:
 ```bash
 export REPOS_DIR='/var/db/kiss'
 export KISS_PATH=''
-KISS_PATH=KISS_PATH:$REPOS_DIR/repo/core
-KISS_PATH=KISS_PATH:$REPOS_DIR/repo/extra
-KISS_PATH=KISS_PATH:$REPOS_DIR/repo/wayland
-KISS_PATH=KISS_PATH:$REPOS_DIR/community/community
+KISS_PATH=$KISS_PATH:$REPOS_DIR/repo/core
+KISS_PATH=$KISS_PATH:$REPOS_DIR/repo/extra
+KISS_PATH=$KISS_PATH:$REPOS_DIR/repo/wayland
+KISS_PATH=$KISS_PATH:$REPOS_DIR/community/community
 
 export CFLAGS="-O2 -march=native"
 export CXXFLAGS="$CFLAGS"
@@ -85,7 +85,7 @@ export KISS_SU=su
 Cargamos las variables:
 ```bash
 cp /etc/profile.d/kiss_path.sh .profile
-source .profile
+source ~/.profile
 echo $KISS_PATH
 cd /var/db/kiss
 git clone https://codeberg.org/kiss-community/repo
