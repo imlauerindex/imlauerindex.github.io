@@ -184,7 +184,6 @@ En `filesystem` debería estar habilitado `ext4`.
 
 ```bash
 make -j $(nproc)
-make INSTALL_MOD_STRIP=1 modules_install   
 # Ignorá el mensaje Cannot find LILO 
 make install  
 mv /boot/vmlinuz    /boot/vmlinuz-VERSION  

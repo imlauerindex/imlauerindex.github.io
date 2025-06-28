@@ -178,6 +178,46 @@ Entonces ladrillo o algunos lugares entonces sacamos la teja pusimos la teja o c
 Alumno: Tosca.
 Profesor: Tosca, entonces que es lo que hacen 1ero? Y se hace en cualquier momento si ustedes van a Itaembé Guazú verán a gran escala.
     
+Verán a gran escala por cada hay un caño camisa que sale en algunos casos diría que es por cada inmueble un conductor alla está hecho todo por sistema monofásico exceptuando algunos lugares en donde los consumos supuestamente previstos ya son mayores de los 6000 o 5500 kilowatts entonces ya le ponen sistema subterráneo, póngale tipo una galería o un supermercado que estaba previsto pero si es una casa normal con conductores de 2 de 10 monofásico ya hace un recorrido de 10 metros. 
+
+Vamos a leer un poco la norma, siempre esa chica anda por todos lados.
+
+Después le voy a pasar información.
+
+Adrián Torres: Profe y ahí no se puede plantar árboles en Itaembé, por las raíces.
+Profesor: Para que las raíces de un árbol, a ver. Vas a tener que tener el árbol bastante años y ser muy fuerte hay excepciones y he visto 2 o 3 problemas que tuvimos la alimentación o la acometida principalmente la propia raíz le pero para mi hubo algo más fíjense para que la raíz perfore esto no es lógico, porque yo voy a pasar para que vean ahí, mostrale ahí a la gente ese conductor tiene que ser de una buena raíz.
+
+Hay un caño camisa por eso no va a tocar. Si ese caño camisa está.
+
+Vamos a hacerle de frente 1ero este es el nivel de piso mínimamente pone 0,70 metros no es 1 metro o 70 cm es la distancia de acá hasta ahí.
+Cualquier conductor que ustedes vean ahí depende de que característica de sección tenga vamos a suponer que tengo que hacer la canalización vamos a dejarle el hueco por las dudas.
+
+Y la medida que me piden 0,70 del nivel del piso el ancho ustedes me dicen **¿como hago el ancho?** Y depende de que elemento estoy utilizando pero generalmente la mayoría de los obreros que he visto hacen con pala y esas palas deben tener 20 como máximo.
+Rubén Leiva: Es bajo tierra pero como la pared depende del caño que tenes, cuando es dentro de la pared, como usted dijo, si va a ser un caño de 110.
+Profesor: Claro, primero vamos a hacer un sistema sin caño camisa, entonces lo 1ero que se hace es el hueco, ponele que esto tenga para que vos de vez en cuando puedas agacharte porque sino vas a trabajar ahí abajo vas a estar arrodillado la idea a veces depende de que tipo de conductor tenes hay un rodillo de cantidad de cables suficiente entonces hay que hacer y transportar.
+
+Entonces no es tan fácil tirar no más el conductor, **lo 1ero que se hace la base ponen arena.**
+###### La arena sirve para apoyar el coso este y no tenga ningún elemento cortante.
+Vos apoyas un poco de arena.
+Martín: Ah yo pensé que era por si otro venía después en el futuro y estaba 
+Profesor: Acá la norma te pide protección mecánica el ladrillo ese que está venimos acá, acá vamos a poner conductor ya sea con 3, 4 conductores esto es conductor subterráneo.
+
+Gustavo Barrientos: Todo el trayecto?
+Profesor: Todo el trayecto. 
+
+###### Primero ponemos arena
+Si no tengo junto la arena ahí y después empieza a colocar el conductor.
+Gustavo Barrientos: Arriba o acá?
+Profesor: Arriba de la arena gira el conductor ahí, el de metálico no tiene mucho cortante no arrastra ni la aislación ni nada por el estilo entonces tiene la posibilidad de eso. Una vez que tengo ahí hay gente que le dice bueno empiezo a poner la 
+###### 1er puse arena y después pongo tierra con arena otra vez, hasta cubrir directamente todo el conductor o sea ahí ya pongo la tierra con parte de arena hay veces que trabajan ¿? o sino directamente tierra con arena.
+Desde ahí o sea de ese conductor yo tengo 10cm de ahí pongo el ladrillo ese ladrillo que ustedes generalmente, el común. Hacen recorrido en toda su longitud vamos a suponer que ahí tengo el sistema y el ladrillo va en toda su longitud, estamos?
+Más vale que pone el ladrillo acá y no acá, pongan arriba del conductor porque hay cada uno también.
+
+
+
+
+
+
 ---    
     
 Minuto 50
