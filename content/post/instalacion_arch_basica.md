@@ -952,8 +952,8 @@ sudo usermod -aG docker $USER
 
 **Si instalás OBS y usás wayland con sway:**
 
+##### Para tener audio con PipeWire y OBS hay que instalar: `yay -S obs-pipewire-audio-capture`
 ```bash
-
 export QT_QPA_PLATFORM=wayland
 sudo pacman -S qt6-wayland
 ```
