@@ -95,7 +95,7 @@ git config gpg.ssh.allowedSignersFile .allowed_signers
 git config merge.verifySignatures true
 kiss update
 cd /var/db/kiss/installed && kiss build *  
-kiss b e2fsprogs dosfsprogs xfsprogs util-linux dhcpcd libelf ncurses perl 
+kiss b e2fsprogs dosfsprogs xfsprogs util-linux dhcpcd libelf ncurses perl baseinit
 # Quedó obsoleto eudev
 mkdir -p /etc/rc.d
 echo "dhcpcd 2> /dev/null" > /etc/rc.d/dhcpcd.boot
@@ -131,6 +131,9 @@ Encontrarás un argumento llamado `localyesconfig (update current config convert
 ```bash
 make localyesconfig
 ```
+
+Sacale una foto o una screenshot a la salida de ese comando para buscar uno por uno más rápido.
+
 Ese comando convierte lo que está en memoria cargado con ArchLinux pero se da cuenta de que no está configurado todavía, así que no puedo convertirlo lo que significa que lo necesito.
 Parece mucho pero hay varios `sub-modulos`.
 Ejemplo: `pata_acpi` si copiás `CONFIG_PATA_ACPI` (podes copiar si habilitas el mouse systemctl start gpm en otra consola lo pegas con botón derecho).
@@ -173,7 +176,7 @@ make menuconfig
 ``` 
 Si vez `Kernel .config support` con un `<M>` 
 
-Deshabilitá el `Initial RAM filesystem and RAM disk (initramfs/initrd) support`  
+Deshabilitá en `General Setup - Initial RAM filesystem and RAM disk (initramfs/initrd) support`  
 En `Processor type and features - Processor family` seleccioná `Core 2/newer Xeon`.
 En `General setup - Default hostname - kiss` 
 En `device drives - USB support`
@@ -189,27 +192,45 @@ mv /boot/System.map /boot/System.map-VERSION
 # Fijate que esté bien el fstab
 cat /etc/fstab
 kiss b grub
-#### legacy boot
+Legacy BOOT
+Desde KISS Linux
 sudo grub-install /dev/sda --recheck
 grub-mkconfig -o /boot/grub/grub.cfg
-kiss b baseinit
+Desde ArchLinux
+grub-install --boot-directory=/mnt/boot /dev/sda --recheck
+```
+
+Descargá el `linux-firwamre`:
+```bash
+cd /usr/lib
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+```
+
+Si estás en VirtualBox abrí la configuración en Experto y en Display poné `Graphics Controller` en `VBoxsSVGA`
+.
+Ahora en el archivo `/etc/default/grub` agregamos en la línea `GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet nomodeset"`
+
+```bash
+vi /etc/default/grub
++GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet nomodeset # (no carga los drivers de video)
+grub-mkconfig -o /boot/grub/grub.cfg
 passwd
 adduser esotericwarfare
-addgroup esotericwarfare audio
-addgroup esotericwarfare video
 exit
 exit
 reboot
 ```
 
-Con `lspci -k` podes ver lo que cargó.
+Con `lspci -k` podes ver que módulos cargó.
 
 ```bash
+dhcpcd # Levantar network
 cd /var/db/kiss/community/community - Paquetes disponibles en el repositorio
 ls 
 ```
 
 Probamos si podemos instalar un paquete.
 ```bash
-kiss b lz4
+kiss b neofetch
+neofetch
 ```
