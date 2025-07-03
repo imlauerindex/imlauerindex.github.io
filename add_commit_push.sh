@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 if [ $# -eq 0 ]
   then
     echo "Poné el mensaje del commit como primer argumento"

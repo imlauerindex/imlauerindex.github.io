@@ -215,6 +215,9 @@ vi /etc/default/grub
 grub-mkconfig -o /boot/grub/grub.cfg
 passwd
 adduser esotericwarfare
+addgroup esotericwarfare audio
+addgroup esotericwarfare video
+addgroup esotericwarfare input
 exit
 exit
 reboot
@@ -232,4 +235,96 @@ Probamos si podemos instalar un paquete.
 ```bash
 kiss b neofetch
 neofetch
+```
+
+---
+
+Agregado.
+
+
+Tecla combinada / bastidor para la cocina
+Dos tomas un bastidor con 2 tomas para no usar adaptador.
+
+El built me tardo 10 horas
+Desde ArchLinux
+```bash
+root@archiso ~ # grub-install --efi-directory=/mnt/boot --boot-directory=/mnt/boot --target=x86_64-efi --bootloader-id=grub_uefi  --removable
+```
+Agrega `kiss b grub lm-sensors elinks` al comienzo
+
+2:42 AM
+
+La compilacion del kernel me tardo 2 horas y 40 minutos
+
+El `linux-firmware` pesa 4g
+
+```bash
+mount --mkdir /dev/sda5 /mnt/mnt/mx
+```
+
+Habilita todos estos y nodemodeset en el `GRUB_CMDLINE`
+```bash
+CONFIG_FB 
+CONFIG_FRAMEBUFFER_CONSOLE
+CONFIG_FB_EFI
+CONFIG_FB_VESA
+```
+
+Los primeros paquetes que instale despues de iniciar Linux.
+##### Es mejor compilar los paquetes uno por uno porque recien los instala luego de compilarlo, si compilas varios paquetes recien los instalara cuando termine de compilar el ultimo paquete.
+```
+kiss b openssh imagemagick qpdf lm-sensors links vis vim mpv swayfx swagbg firefox-privacy
+(root) pip install yt-dlp
+```
+###### Estuvo 3 dias 12 horas horas compilando LLVM y Clang SPIRV tools para instalar 2 paquetes: mpv y sway!! En una Intel Celeron N2806 Dual Core 1.6GHz
+```bash
+addgroup esotericwarfare audio
+addgroup esotericwarfare video
+addgroup esotericwarfare input
+```
+
+
+Clang 04:09 AM - 38%
+
+
+
+
+
+
+
+
+Estos son los paquetes que estan en el repositorio de `community`:
+
+```bash
+9base abduco aerc age amfora aml android-tools appstream apulse aria2 asciinema autoconf autoconf-archive automake axel bandwhich bash bat bc bemenu birch
+bit-bin boost bottom brlaser brotli btop btrfs-progs bubblewrap cantarell-fonts catgirl cava ccrypt cfm chicken cloc cmark-gfm cmus containerd coreutils
+cproc crosstool-ng cryptsetup ctags cups cups-filters curlpp darkhttpd dash dejavu-ttf delta dialog discount diskonaut djvulibre dmidecode docker docker-buildx
+docker-compose-bin dogefetch dvtm ecl elinks emacs emacs-compat emacs-kiss-git emacs-tsort entr erlang evremap evtest exa execline exfatprogs exiftool
+extra-cmake-modules falkon fdk-aac fdm fff fftw file flac flatpak fmt fnf fortune fossil freeglut fuse fuse2 fzy gawk gc gcompat gdb ghostscript girara github-cli
+globe-cli glorytun glow-bin gnu-netcat gnupg1 gnupg2 gnutls go go-bootstrap go-ipfs goimports gopls gperf gpgme gphoto2 groff gron-git gsl gspt gt5 gtar gtest
+guile3 guile3-fibers-git gumbo-parser hack hexyl hostapd htop hugo hummingbird-git icu idmap imagemagick imath inih iniparser init-hooks iosevka-nerd-fonts
+iperf iproute2 iptables isync iw jbig2dec jo jq json-glib kak-lsp-bin kakoune kexec-tools keyutils kfc kiss-find kmod lcms ldns less libaio libarchive
+libassuan libatomic_ops libbpf libburn libcap libconfig libcupsfilters libdvdcss libedit libev libevent libexif libgcrypt libgpg-error libgphoto2 libisoburn
+libisofs libjpeg libksba libmupdf libnl libpcap libportaudio2 libppd libpsl libseccomp libsixel libslirp libsndfile libsodium libssh libtermkey libtool libtorrent
+libunistring liburing libusb libutemper libuv libvncserver libwebsockets libxdp libxml2 libxmlb libxslt libyaml limine links lm-sensors lpeg lsof lua luajit lux lvm2
+lz4 lzo mblaze mdev-usb mediainfo mg minikube mksh mosh msgpack-c msmtp mtools mtpaint mtr nano nawk-git ncdu1 neatvnc neofetch neomutt neovim nettle nmap npth
+nq nsd ntfs-3g numactl oksh openjpeg2 openntpd optipng ostree ox pandoc-bin pash patch patchelf pciutils perl pfetch pick pinentry pipewire pkcs11-helper pmount
+poppler poppler-data popt pounce powertop pqiv procps-ng protobuf protobuf-c pv pybind11 pystring qbe qemu qpdf qrencode qt5 qt5-declarative qt5-svg qt5-wayland
+qt5-webchannel qt5-webengine ranger readline reptyr retrogram-rtlsdr ripgrep rsync rtorrent ruby runc runit rustup-bin s6 s6-linux-init s6-rc sane sbase sbcl sc
+sc-im sccache scenefx scrcpy scroll scryer-prolog sdl2 secret sed sed-i senpai sfeed sgt-puzzles shellcheck-bin shepherd shfm shfmt-bin shinit sinit slang slides
+slirp4netns smu-karlb spotify-player spotifyd squashfs-tools sudo swappy swaybg swayfx swayidle swaylock swww syncthing sysmgr tcc tdb tea terminus-font tiff tig
+tinygo-bin tinyramfs-git tiv tmate tmux tokei totp transmission tre tree ttf-font-awesome ttf-jetbrains-mono ttyd tuitube twemoji-color-font typescript-language-server
+uacme ubase ugrep umurmur unbound unzip uthash virglrenderer vis viu vmwh vundle wayvnc wireguard-tools wireless_tools wl-clipboard wl-screenrec wlr-randr
+wmenu xxd yajl yarn yash yasm yt-dlp ytfzf zathura zathura-cb zathura-djvu zathura-pdf-mupdf zathura-pdf-poppler zig-bin zip zls-bin zsh zzz
+```
+
+Paquetes que esta en el repo de `repo/extra` (tiene 2 mas: core y wayland)
+```
+adwaita-icon-theme alsa-lib alsa-utils bkeymaps cairo cbindgen ccache clang cmake cyrus-sasl dhcpcd dosfstools e2fsprogs efibootmgr efivar eiwd expat
+ffmpeg firefox firefox-privacy fontconfig freetype-harfbuzz gdk-pixbuf glib gnugrep gtk+3 hicolor-icon-theme hwdata intel-vaapi-driver json-c kirc lame
+libass libclc libdisplay-info libelf libepoxy libffi libjpeg-turbo libnl-tiny libogg libplacebo libpng libretls libtheora libudev-zero libva
+libva-utils libvorbis libvpx libwebp llvm man-pages mandoc mdevd mesa meson mold mpv mutt nasm ncurses nodejs nspr nss opendoas openresolv openssh opus
+pango pcre2 pkgconf python python-docutils python-flit-core python-glad python-gpep517 python-installer python-jinja2 python-mako python-markupsafe
+python-packaging python-setuptools python-wheel python-yaml rust samurai scdoc skalibs spirv-headers spirv-llvm-translator spirv-tools sqlite ssu
+strace ttf-croscore tzdata util-linux vim wpa_supplicant x264 x265 xvidcore zstd
 ```

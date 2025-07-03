@@ -1,5 +1,126 @@
 # Bulma Changelog
 
+## 1.0.4
+
+### New Features
+
+- #3937: Add .has-text-weight-extrabold as a typography class.
+- #3906 fixes #3895: Make variables root configurable
+
+### Bug Fixes
+
+- #3963: Improve colour loading versions of outlined buttons
+- #3950: Correct the syntax in hero is-bold colour variants
+
+### Documentation Fixes
+
+- #3916 Fixed .skeleton-toggler issues
+
+## 1.0.3
+
+### Bug Fixes
+
+- Fix #3842: restore use of `$easing`, `$radius-rounded` and `$speed` Sass variables
+- Fix #3920: migrate code to avoid Sass 1.80 deprecation warning of global built-in functions
+- Fix #3945: add `$duration` Sass variable
+- Fix #3822: Non-minified version of bulma-prefixed was missing
+- Fix #3805: helper classes were missing prefix
+
+### Documentation Fixes
+
+- Fix #3904, #3884: fix website horizontal overflow
+- Fix #3849: fix Light Mode color swatches in Dark Mode
+- Fix #3918: broken placeholder images
+- Fix #3926: broken documentation hero
+
+## 1.0.2
+
+### Improvements
+
+- Smart Grid `is-col-min` now goes up to `32` (Fixes #3829)
+- Remove need for `is-variable` modifier for Column gaps
+- You can have a list of radio buttons or checkboxes with the `radios` and `checkboxes` classes respectively
+- Add `is-max-tablet` modifier to the Container element
+- Add `currentColor` and `inherit` as possible values for the color and background helpers
+- The Section can now have a minimum height of `100vh` with the `is-fullheight` modifier
+- Add more SCSS variables:
+  - `$input-border-style`
+  - `$input-border-width`
+  - `$label-spacing`
+  - `$field-block-spacing`
+- Add more CSS variables:
+  - `--bulma-input-border-style`
+  - `--bulma-input-border-width`
+  - `--bulma-label-color`
+  - `--bulma-label-spacing`
+  - `--bulma-label-weight`
+  - `--bulma-help-size`
+  - `--bulma-field-block-spacing`
+
+### Bug fixes
+
+- Fix #3824: ability to override `$scheme-h`, `$scheme-s`, `$dark-l` and `$light-l` Sass variables
+- Fix #3830: add remaining logical properties
+- Fix #3743: make sure 12 columns system take up whole width
+- Fix #3799: restore variable columns
+- Fix #3846: restore `--bulma-column-gap` CSS variable
+- Fix #3775: `has-background` helpers should only affect element it's applied to
+- Fix #3856: Sass nested rule deprecation warning
+- Fix #3757: restore use of `$navbar-burger-color`
+
+## 1.0.1
+
+### Bug fixes
+
+- Fix #3755: `.select` colors
+- Fix #3736: include helpers in "No Dark Mode" version
+- Fix #3744: build non-minified versions
+- Fix #3747: ability to nest fixed grids
+- Fix #3759: remove unused `.skeleton` class
+- Fix #3786: fix horizontal padding of rounded buttons
+
+### Documentation fixes
+
+- Fix #3725
+- Fix #3720
+- Update online documentation link in README
+- Update `migrating-to-v1.html`
+- Fix #3735
+- Fix #3729: explain how to use Bulma in a modular way
+- Fix #3785: make use of the `@prefers-reduced-motion` setting
+- Fix #3758: broken links for `0.9.4` version
+- Fix #3760: fix form controls typo
+
+### Improvements
+
+- Fix #3737: Move `sass` to `devDependencies`
+
+## 1.0.0
+
+Bulma v1 is a **full rewrite** of the framework using [**Dart Sass**](https://sass-lang.com/dart-sass/), which is the the primary implementation of Sass. While this affects a few development details, everything has been done to make the transition **as easy as possible**.
+
+## What remains the same
+
+**All HTML snippets are the same**. This means you don't need to update your markup. **This is important** because it means, if you're using Bulma straight "out of the box", you don't need to change anything.
+
+You can just swap `bulma@0.9.4/css/bulma.min.css` with `bulma@1.0.0/css/bulma.min.css` and everything will work. Things will look slightly different, but they will still work.
+
+## What changes
+
+* [**Dart Sass**](https://sass-lang.com/dart-sass/) is used to build Bulma
+  * if you use the `sass` npm package, you're already using Dart Sass
+* [**CSS Variables**](https://bulma.io/documentation/features/css-variables/) are used instead of literals: `color: var(--bulma-primary);` instead of `color: hsl(171deg, 100%, 41%);`, which means you can customize Bulma with CSS only (without using Sass)
+* Customization by setting your own value for Sass variables works differently. See [how to customize Bulma with Sass](https://bulma.io/documentation/customize/).
+
+## What's new (i.e. did not exist before)
+
+* The notion of [**Themes**](https://bulma.io/documentation/features/themes/) is introduced: a theme is a collection of CSS variables within a context, and is the best approach to customize Bulma
+* As a result, a Theme for [**Dark Mode**](https://bulma.io/documentation/features/dark-mode/) is included
+* [**Color Palettes**](https://bulma.io/documentation/features/color-palettes/) are created for each of the 7 primary colors
+* [**Skeleton loaders**](https://bulma.io/documentation/features/skeletons/) exist as standalone components but also as variants of other components
+* You can add a **prefix** to all your Bulma classes so that `.button` becomes `.my-prefix-button`
+  * a pre-built prefixed version exists as one of the [**alternative versions**](https://bulma.io/documentation/start/alternative-versions/)
+
 ## 0.9.4
 
 ### New features
@@ -59,7 +180,7 @@ The Sass placeholders are:
 - `%loader`
 - `%overlay`
 
-If you were importing them directly from `utilities/mixins`, you'll need to import `utilities/extends` instead.  
+If you were importing them directly from `utilities/mixins`, you'll need to import `utilities/extends` instead.
 If you were importing `utilities/_all` or even `bulma.sass` directly, no change is required.
 
 ### New features
