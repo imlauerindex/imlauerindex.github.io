@@ -66,7 +66,7 @@ bin/kiss-chroot .
 ```
 En el archivo `/etc/profile.d/kiss_path.sh` 
 
-vi `/etc/profile.d/kiss_path.sh`:
+vi `/etc/profile.d/kiss_path.sh`: 
 ```bash
 export REPOS_DIR='/var/db/kiss'
 export KISS_PATH=''
@@ -289,6 +289,17 @@ Clang 04:09 AM - 38%
 
 
 
+Para instalar el driver `i915`: 
+```bash
+su
+git clone ...linux-firware /usr/bin/firmware
+cd /var/db/kiss/linux-VERSION
+make menuconfig
+Device Driver
+Generic Driver Options
+Firmware loader
+```
+Ahi en `Firmware blobs root directory` agregue: `/lib/firmware` y en `Build named firmware blobs into the kernel binary` puse `*` (Aunque no deberia hacer eso sino elegir una por una la que tengo que usar.)
 
 
 

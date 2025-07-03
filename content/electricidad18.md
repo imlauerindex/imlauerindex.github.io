@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 18: Espa;a apagon. Ultima parte canalizacion. Silicon. Alimentacion subterranea. Conductores, no conductores o aislantes, semiconductores. Sistema alarmas. Materia esta constituida por atomos. Proton: positivo, electrones: negativo y neutron: neutro que equilibra el nucleo. Como se genera la corriente electrica: Los electrones me generan la I(intensidad de corriente electrica). La potencia es watts y la intensidad es amper. Ley de watt: PxVxcos(Fi). Ley de Ohm. Como se genera la corriente alterna. Como funcinoa represa."
+title: "Electricidad / Clase 18: Espa;a apagon. Ultima parte canalizacion. Silicon. Alimentacion subterranea. Conductores, no conductores o aislantes, semiconductores. Sistema alarmas. Materia esta constituida por atomos. Proton: positivo, electrones: negativo y neutron: neutro que equilibra el nucleo. Como se genera la corriente electrica: Los electrones me generan la I(intensidad de corriente electrica). La potencia es watts y la intensidad es amper. Ley de watt: PxVxcos(Fi). Ley de Ohm. Como se genera la corriente alterna. Como funcinoa represa. Definicion transformador. Como se genera el neutro."
 date: 2025-04-30T03:38:22-03:00
 tags: [electricidad]
 ---
@@ -154,8 +154,68 @@ Maru: Con el movimiento del agua.
 ##### Profesor: Claro, el agua mueve las turbinas las turbinas tienen un eje que arriba tiene tipo un bobinado con imanes y despues tiene una carcasa con el estator porque ese es el rotor. La bobina mueve el rotor del generador. Y el estator esta parado ahi entonces va girando a medida que va girando produce energia porque va cortando los campos magneticos.
 Fisicamente es asi despues vamos a ver por que pasa es bastante largo el sistema.
 Maru: Claro y esa energia ya sale de la represa no es que la pueden almacenar
-Profesor: Exactamente, sale y va a una linea en nuestro caso de 500 volts de tension seria alta tension sistema de distribucion
+Profesor: Exactamente, sale y va a una linea en nuestro caso de 500 volts de tension seria alta tension sistema de distribucion y eso va a una red que va a Rosario y Buenos Aires y despues viene para El Dorado. Todo el sistema.
+
+Por que va alla? Porque tiene mayor consumo, mayores empresas mayor cantidad de gente mayor cantidad de abastecimiento.
+Maru: Pero tambien es un encarecimiento del sistema porque se podria hacer lo mas bien aca si hacemos un convenio con Paraguay, porque va hasta alla y despues vuelve o sea el excedente nosotros
+Profesor: Claro, nosotros recibimos energia, pero como el consumo que genera es muy grande entonces tratan de que el consumo primero vaya alla y despues venga aca, o se podria hacer una red que venga para aca pero bueno los convenios son internacionales.
+Maru: Claro por eso les decia, no quiero tener ninguna controvercia.
+Profesor: No no no, nosotros antes comprabamos energia al Paraguay. Yo estuve ahi al lado del puente hay unos tendidos de linea, de vez en cuando...
+Gustavo Barrientos: Todavia.
+Profesor: Le compramos todavia energia cuando entra por al costado, hubo como 10 mil empresas para hacer la distribucion por el rio. Yo me acuerdo una epoca que estaba trabajando en las torres ibamos con un fonton se llama y llevaba todos los perfiles, hubo una inundacion y vos veias las vacas flotando, pero como todas cosas siempre hay ese acuerdo economico y esas cosas.
+
+###### Pero bueno esas lineas de vez en cuando, cuando estamos muy apretados falta de energia Paraguay nos vende, no se que tan bien algo reproducible porque ellos reciben energia de Yacyreta y despues el exceso venden: nos venden a nosotros otra vez y venden a Brazil.
+Fijate que tambien **Itaepu hace lo mismo genera energia y como tiene un convenio con Paraguay tambien ellos siguen vendiendo no ponen nada de guita, y siguen vendiendo para Brazil** de vuelta, o sea que seimpre ganan guita, los paraguayos son vivos no hacen nada pero...
+Botolli: Son inteligentes
+Profesor: Son inteligentes. Ya te vamos a dar el rio y listo. 
+
+Esa energia va arriba y vuelve para abajo, siempre en linea de alta tension porque siempre se habla de alta tension porque **si yo o alguien quisiera transportar esa energia en baja tension el conductor que necesitaria seria muy grande por la longitud, entonces cuando es alta tension hacen al reves**.
+###### Alta tension y conductor mas chico eso que transmite ahi despues hay determinado campo magnetico las lineas generalmente son todas desnudas
+Maru: Esa es la que es de aluminio?
+Profesor: Ecole.
+Maru: Porque esta primero la de alta tension puede ser, despues esta la de aluminio y despues esta la que viene aca. Son diferentes?
+###### Profesor: No la linea de alta tension, son de mayor diametro nada mas y tiene otra tension pero genera un campo magnetico que en algunos casos llega a la tierra entonces hacen el tendido va para alla y vuelve para aca, despues entra aca en la tablada, y de ahi va a Tomas Guido(132 kilovoltios) y ahi sale en 13,2 kilovoltios y en 13,2 en la linea urbana ya veo gente perdida 
+Alejandro Ramirez: Jejeje
+Profesor: Bueno pero es parte de la energia, entonces sale en 13,2 media tension distribuye aca en el sistema urbano y en cada sector de bajada hay un transformador ese transformador tiene un enrollamiento primario despues vamos a ver que es un transformador: Enrrollamiento primario secundario entra la media tension en el primario despues sale en la parte secundaria sale la tension 220/380 en la cual nosotros nos tenemos que prender, eso que ustedes ven por ahi ese es el preensamblado 220/380 ya salido del transformador. Y la tierra se saca... **El neutro se saca de la tierra y va a un sistema de estrella y ese es lo que genera mi alimentacion del neutro, tengo los 3 vivos**. Yo estoy generando pero estoy generando fase, lo que va alla y genera el alternador es fase, no genera un neutro como es trifasico 3 lineas distintas pero el generador me esta dando 3 fases. 
+
+Cuando ustedes vean, no se si alguien visito Yacyreta. Yo visite Yacyreta pero cuando estaban construyendo la parte civil, la parte mecanica ya no mire pero bueno, es interesante ver habia una epoca que llevaba de aca a Yacyreta y le mostraba todo hacia pasajes por las turbinas yo ya no fui porque ya fui a Itaipu entonces Itaipu tambien te mostraba los generadores la parte de control.
+\* Llega preceptora
+Maru: Hasta hace poco se hacia en las escuelas, no se unos a;os atras se hacia.
+Profesor: Claro para conocer.
+Maru: Las personas que fueron yo no fui, solo por videos vi son cosas a escala muy grande, la potencia que tiene el agua el movimiento.
+Profesor: No se si hay 38 o 43 turbinas funcionando, o sea cada una generando.
+
+\* Preceptora toma lista y habla sobre la SUBE.
+
+Profesor: Antes que nada tengo una duda yo tenia un alumno Gacher del a;o pasado. (Minuto 51)
+Margarita Gacher: Gacher? Es Arturo Eugenia?
+Profesor: No se, se el apellido no mas yo.
+Margarita Gacher: Si el llego a Misiones. Son hijos de parte del padre.
+Profesor: Ah no porque me parecia parecido por eso quise preguntar nada mas. Yo tenia un alumno por eso, esas cosas que me acuerdo todavia despues empece a preguntar los apellidos porque de los apellidos es de lo que mas me acuerdo de los nombres...
+
+Bueno. Antes de seguir esto porque despues ya guardo.
+
+#### Como se genera el neutro
+Sebastian Melgarejo: Profe cuando dice que el neutro sale de la tierra, en cada esquina que vemos un transformador sale 
+Profesor: Entra en el transformador en el primario y sale en estrella, estrella es asi entonces **la tierra va al nucleo de la estrella y ahi sale. No es que sale directamente de ahi, va al secundario del transformador que esta unido en estrella en la union ahi se prende el neutro y sale va para alla**
+Ayudante: Si son 2 es una sola imagen(fotocopia)
+Adrian Torres: Pero ese se ve no? Que baja asi.
+Profesor: No, se ve que baja pero no ves porque esta tapado.
+###### Ayudante(Alejandro): Se ve si. Tiene la carcasa aparte tiene un liquido adentro.
+Profesor: Si ese, aceite. (Minuto 53)
+Sebastian Melgajero: Ah ese es lo que gotea?
+Profesor: Si ese, ese que es... No es un goteador, **lo que pasa es que es un refrigerante que hace para** (ruido)
+Ayudante: Porque tambien eso genera calor
+Profesor: Antes que me olvide lo que ven ahi son 2 partes generalmente fijense donde empieza nuestra central de alarma. **La central de alarmas tiene una bateria** ese en algunos lados para 24/48 horas en caso de que se corte energia. Entonces uno esta trabajando tiene otra cosa importante, vamos a empezar por la parte de adelante vieron ahi el cartel de protegido en algunos casos me acuerdo que habia gente que no queria apagar la alarma entonces lo unico que me pedian es que le pongamos el cartel.
+Maru: No visible.
+Profesor: No no, el cartel visible porque ahi decia, ahi dice cartel protegido por X28
+
+Bueno.
+
+
+
+
 
 ---
 
-Minuto 43
+Minuto 52
