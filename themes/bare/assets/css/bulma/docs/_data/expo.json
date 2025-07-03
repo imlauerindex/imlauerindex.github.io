@@ -1,11 +1,5 @@
 {
   "by_id": {
-    "mullvad": {
-      "name": "mullvad",
-      "url": "https://mullvad.net/",
-      "highlighted": true,
-      "date": "6 Jan 2021"
-    },
     "klevgrand": {
       "name": "klevgrand",
       "url": "https://klevgrand.com/products/kleverb",
@@ -418,7 +412,6 @@
   "lists": {
     "home": ["signal", "getbedtimestories", "counternetwork", "Gustav"],
     "expo": [
-      "mullvad",
       "klevgrand",
       "starbucks-concept",
       "signal",

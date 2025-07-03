@@ -1,150 +1,125 @@
 {
-  "sass-vars": [
-    {
-      "name": "title-color",
-      "value": "var(--bulma-text-strong)",
-      "css-var": "title-color"
+  "by_name": {
+    "$title-color": {
+      "name": "$title-color",
+      "value": "$text-strong",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 21%)"
     },
-    {
-      "name": "title-family",
+    "$title-family": {
+      "name": "$title-family",
       "value": "false",
-      "css-var": "title-family"
+      "type": "boolean"
     },
-    {
-      "name": "title-size",
-      "value": "var(--bulma-size-3)",
-      "css-var": "title-size"
+    "$title-size": {
+      "name": "$title-size",
+      "value": "$size-3",
+      "type": "variable",
+      "computed_type": "size",
+      "computed_value": "2rem"
     },
-    {
-      "name": "title-weight",
-      "value": "var(--bulma-weight-extrabold)",
-      "css-var": "title-weight"
+    "$title-weight": {
+      "name": "$title-weight",
+      "value": "$weight-semibold",
+      "type": "variable",
+      "computed_type": "font-weight",
+      "computed_value": "600"
     },
-    {
-      "name": "title-line-height",
+    "$title-line-height": {
+      "name": "$title-line-height",
       "value": "1.125",
-      "css-var": "title-line-height"
+      "type": "unitless"
     },
-    {
-      "name": "title-strong-color",
+    "$title-strong-color": {
+      "name": "$title-strong-color",
       "value": "inherit",
-      "css-var": "title-strong-color"
+      "type": "string"
     },
-    {
-      "name": "title-strong-weight",
+    "$title-strong-weight": {
+      "name": "$title-strong-weight",
       "value": "inherit",
-      "css-var": "title-strong-weight"
+      "type": "string"
     },
-    {
-      "name": "title-sub-size",
+    "$title-sub-size": {
+      "name": "$title-sub-size",
       "value": "0.75em",
-      "css-var": "title-sub-size"
+      "type": "size"
     },
-    {
-      "name": "title-sup-size",
+    "$title-sup-size": {
+      "name": "$title-sup-size",
       "value": "0.75em",
-      "css-var": "title-sup-size"
+      "type": "size"
     },
-    {
-      "name": "subtitle-color",
-      "value": "var(--bulma-text)",
-      "css-var": "subtitle-color"
+    "$subtitle-color": {
+      "name": "$subtitle-color",
+      "value": "$text",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 29%)"
     },
-    {
-      "name": "subtitle-family",
+    "$subtitle-family": {
+      "name": "$subtitle-family",
       "value": "false",
-      "css-var": "subtitle-family"
+      "type": "boolean"
     },
-    {
-      "name": "subtitle-size",
-      "value": "var(--bulma-size-5)",
-      "css-var": "subtitle-size"
+    "$subtitle-size": {
+      "name": "$subtitle-size",
+      "value": "$size-5",
+      "type": "variable",
+      "computed_type": "size",
+      "computed_value": "1.25rem"
     },
-    {
-      "name": "subtitle-weight",
-      "value": "var(--bulma-weight-normal)",
-      "css-var": "subtitle-weight"
+    "$subtitle-weight": {
+      "name": "$subtitle-weight",
+      "value": "$weight-normal",
+      "type": "variable",
+      "computed_type": "font-weight",
+      "computed_value": "400"
     },
-    {
-      "name": "subtitle-line-height",
+    "$subtitle-line-height": {
+      "name": "$subtitle-line-height",
       "value": "1.25",
-      "css-var": "subtitle-line-height"
+      "type": "unitless"
     },
-    {
-      "name": "subtitle-strong-color",
-      "value": "var(--bulma-text-strong)",
-      "css-var": "subtitle-strong-color"
+    "$subtitle-strong-color": {
+      "name": "$subtitle-strong-color",
+      "value": "$text-strong",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 21%)"
     },
-    {
-      "name": "subtitle-strong-weight",
-      "value": "var(--bulma-weight-semibold)",
-      "css-var": "subtitle-strong-weight"
+    "$subtitle-strong-weight": {
+      "name": "$subtitle-strong-weight",
+      "value": "$weight-semibold",
+      "type": "variable",
+      "computed_type": "font-weight",
+      "computed_value": "600"
+    },
+    "$subtitle-negative-margin": {
+      "name": "$subtitle-negative-margin",
+      "value": "-1.25rem",
+      "type": "size"
     }
+  },
+  "list": [
+    "$title-color",
+    "$title-family",
+    "$title-size",
+    "$title-weight",
+    "$title-line-height",
+    "$title-strong-color",
+    "$title-strong-weight",
+    "$title-sub-size",
+    "$title-sup-size",
+    "$subtitle-color",
+    "$subtitle-family",
+    "$subtitle-size",
+    "$subtitle-weight",
+    "$subtitle-line-height",
+    "$subtitle-strong-color",
+    "$subtitle-strong-weight",
+    "$subtitle-negative-margin"
   ],
-  "css-vars": [
-    {
-      "name": "title-color",
-      "value": "var(--bulma-text-strong)"
-    },
-    {
-      "name": "title-family",
-      "value": "false"
-    },
-    {
-      "name": "title-size",
-      "value": "var(--bulma-size-3)"
-    },
-    {
-      "name": "title-weight",
-      "value": "var(--bulma-weight-extrabold)"
-    },
-    {
-      "name": "title-line-height",
-      "value": "1.125"
-    },
-    {
-      "name": "title-strong-color",
-      "value": "inherit"
-    },
-    {
-      "name": "title-strong-weight",
-      "value": "inherit"
-    },
-    {
-      "name": "title-sub-size",
-      "value": "0.75em"
-    },
-    {
-      "name": "title-sup-size",
-      "value": "0.75em"
-    },
-    {
-      "name": "subtitle-color",
-      "value": "var(--bulma-text)"
-    },
-    {
-      "name": "subtitle-family",
-      "value": "false"
-    },
-    {
-      "name": "subtitle-size",
-      "value": "var(--bulma-size-5)"
-    },
-    {
-      "name": "subtitle-weight",
-      "value": "var(--bulma-weight-normal)"
-    },
-    {
-      "name": "subtitle-line-height",
-      "value": "1.25"
-    },
-    {
-      "name": "subtitle-strong-color",
-      "value": "var(--bulma-text-strong)"
-    },
-    {
-      "name": "subtitle-strong-weight",
-      "value": "var(--bulma-weight-semibold)"
-    }
-  ]
+  "file_path": "elements/title.sass"
 }

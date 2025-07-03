@@ -1,271 +1,251 @@
 {
-  "sass-vars": [
-    {
-      "name": "button-weight",
-      "value": "var(--bulma-weight-medium)",
-      "css-var": "button-weight"
+  "by_name": {
+    "$button-color": {
+      "name": "$button-color",
+      "value": "$text-strong",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 21%)"
     },
-    {
-      "name": "button-family",
+    "$button-background-color": {
+      "name": "$button-background-color",
+      "value": "$scheme-main",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 100%)"
+    },
+    "$button-family": {
+      "name": "$button-family",
       "value": "false",
-      "css-var": "button-family"
+      "type": "boolean"
     },
-    {
-      "name": "button-border-color",
-      "value": "var(--bulma-border)",
-      "css-var": "button-border-color"
+    "$button-border-color": {
+      "name": "$button-border-color",
+      "value": "$border",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 86%)"
     },
-    {
-      "name": "button-border-style",
-      "value": "solid",
-      "css-var": "button-border-style"
+    "$button-border-width": {
+      "name": "$button-border-width",
+      "value": "$control-border-width",
+      "type": "variable"
     },
-    {
-      "name": "button-border-width",
-      "value": "var(--bulma-control-border-width)",
-      "css-var": "button-border-width"
+    "$button-padding-vertical": {
+      "name": "$button-padding-vertical",
+      "value": "calc(0.5em - #{$button-border-width})",
+      "type": "size"
     },
-    {
-      "name": "button-padding-vertical",
-      "value": "0.5em",
-      "css-var": "button-padding-vertical"
-    },
-    {
-      "name": "button-padding-horizontal",
+    "$button-padding-horizontal": {
+      "name": "$button-padding-horizontal",
       "value": "1em",
-      "css-var": "button-padding-horizontal"
+      "type": "size"
     },
-    {
-      "name": "button-focus-border-color",
-      "value": "var(--bulma-link-focus-border)",
-      "css-var": "button-focus-border-color"
+    "$button-hover-color": {
+      "name": "$button-hover-color",
+      "value": "$link-hover",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 21%)"
     },
-    {
-      "name": "button-focus-box-shadow-size",
+    "$button-hover-border-color": {
+      "name": "$button-hover-border-color",
+      "value": "$link-hover-border",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 71%)"
+    },
+    "$button-focus-color": {
+      "name": "$button-focus-color",
+      "value": "$link-focus",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 21%)"
+    },
+    "$button-focus-border-color": {
+      "name": "$button-focus-border-color",
+      "value": "$link-focus-border",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(229, 53%,  53%)"
+    },
+    "$button-focus-box-shadow-size": {
+      "name": "$button-focus-box-shadow-size",
       "value": "0 0 0 0.125em",
-      "css-var": "button-focus-box-shadow-size"
+      "type": "size"
     },
-    {
-      "name": "button-focus-box-shadow-color",
-      "value": "hsla(\n  var(--bulma-link-h),\n  var(--bulma-link-s),\n  var(--bulma-link-on-scheme-l),\n  0.25\n)",
-      "css-var": "button-focus-box-shadow-color"
+    "$button-focus-box-shadow-color": {
+      "name": "$button-focus-box-shadow-color",
+      "value": "bulmaRgba($link, 0.25)",
+      "type": "compound"
     },
-    {
-      "name": "button-active-color",
-      "value": "var(--bulma-link-active)",
-      "css-var": "button-active-color"
+    "$button-active-color": {
+      "name": "$button-active-color",
+      "value": "$link-active",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 21%)"
     },
-    {
-      "name": "button-active-border-color",
-      "value": "var(--bulma-link-active-border)",
-      "css-var": "button-active-border-color"
+    "$button-active-border-color": {
+      "name": "$button-active-border-color",
+      "value": "$link-active-border",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 29%)"
     },
-    {
-      "name": "button-text-color",
-      "value": "var(--bulma-text)",
-      "css-var": "button-text-color"
+    "$button-text-color": {
+      "name": "$button-text-color",
+      "value": "$text",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 29%)"
     },
-    {
-      "name": "button-text-decoration",
+    "$button-text-decoration": {
+      "name": "$button-text-decoration",
       "value": "underline",
-      "css-var": "button-text-decoration"
+      "type": "string"
     },
-    {
-      "name": "button-text-hover-background-color",
-      "value": "var(--bulma-background)",
-      "css-var": "button-text-hover-background-color"
+    "$button-text-hover-background-color": {
+      "name": "$button-text-hover-background-color",
+      "value": "$background",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 96%)"
     },
-    {
-      "name": "button-text-hover-color",
-      "value": "var(--bulma-text-strong)",
-      "css-var": "button-text-hover-color"
+    "$button-text-hover-color": {
+      "name": "$button-text-hover-color",
+      "value": "$text-strong",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 21%)"
     },
-    {
-      "name": "button-ghost-background",
+    "$button-ghost-background": {
+      "name": "$button-ghost-background",
       "value": "none",
-      "css-var": "button-ghost-background"
+      "type": "string"
     },
-    {
-      "name": "button-ghost-border-color",
+    "$button-ghost-border-color": {
+      "name": "$button-ghost-border-color",
       "value": "transparent",
-      "css-var": "button-ghost-border-color"
+      "type": "string"
     },
-    {
-      "name": "button-ghost-color",
-      "value": "var(--bulma-link-text)",
-      "css-var": "button-ghost-color"
+    "$button-ghost-color": {
+      "name": "$button-ghost-color",
+      "value": "$link",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(229, 53%,  53%)"
     },
-    {
-      "name": "button-ghost-decoration",
+    "$button-ghost-decoration": {
+      "name": "$button-ghost-decoration",
       "value": "none",
-      "css-var": "button-ghost-decoration"
+      "type": "string"
     },
-    {
-      "name": "button-ghost-hover-color",
-      "value": "var(--bulma-link)",
-      "css-var": "button-ghost-hover-color"
+    "$button-ghost-hover-color": {
+      "name": "$button-ghost-hover-color",
+      "value": "$link",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(229, 53%,  53%)"
     },
-    {
-      "name": "button-ghost-hover-decoration",
+    "$button-ghost-hover-decoration": {
+      "name": "$button-ghost-hover-decoration",
       "value": "underline",
-      "css-var": "button-ghost-hover-decoration"
+      "type": "string"
     },
-    {
-      "name": "button-disabled-background-color",
-      "value": "var(--bulma-scheme-main)",
-      "css-var": "button-disabled-background-color"
+    "$button-disabled-background-color": {
+      "name": "$button-disabled-background-color",
+      "value": "$scheme-main",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 100%)"
     },
-    {
-      "name": "button-disabled-border-color",
-      "value": "var(--bulma-border)",
-      "css-var": "button-disabled-border-color"
+    "$button-disabled-border-color": {
+      "name": "$button-disabled-border-color",
+      "value": "$border",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 86%)"
     },
-    {
-      "name": "button-disabled-shadow",
+    "$button-disabled-shadow": {
+      "name": "$button-disabled-shadow",
       "value": "none",
-      "css-var": "button-disabled-shadow"
+      "type": "shadow"
     },
-    {
-      "name": "button-disabled-opacity",
+    "$button-disabled-opacity": {
+      "name": "$button-disabled-opacity",
       "value": "0.5",
-      "css-var": "button-disabled-opacity"
+      "type": "unitless"
     },
-    {
-      "name": "button-static-color",
-      "value": "var(--bulma-text-weak)",
-      "css-var": "button-static-color"
+    "$button-static-color": {
+      "name": "$button-static-color",
+      "value": "$text-light",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 48%)"
     },
-    {
-      "name": "button-static-background-color",
-      "value": "var(--bulma-scheme-main-ter)",
-      "css-var": "button-static-background-color"
+    "$button-static-background-color": {
+      "name": "$button-static-background-color",
+      "value": "$scheme-main-ter",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 96%)"
     },
-    {
-      "name": "button-static-border-color",
-      "value": "var(--bulma-border)",
-      "css-var": "button-static-border-color"
+    "$button-static-border-color": {
+      "name": "$button-static-border-color",
+      "value": "$border",
+      "type": "variable",
+      "computed_type": "color",
+      "computed_value": "hsl(0, 0%, 86%)"
     },
-    {
-      "name": "button-colors",
-      "value": "dv.$colors"
+    "$button-colors": {
+      "name": "$button-colors",
+      "value": "$colors",
+      "type": "variable",
+      "computed_type": "map",
+      "computed_value": "Bulma colors"
+    },
+    "$button-responsive-sizes": {
+      "name": "$button-responsive-sizes",
+      "value": "(\"mobile\": (\"small\": ($size-small * 0.75), \"normal\": ($size-small * 0.875), \"medium\": $size-small, \"large\": $size-normal), \"tablet-only\": (\"small\": ($size-small * 0.875), \"normal\": ($size-small), \"medium\": $size-normal, \"large\": $size-medium))",
+      "type": "compound"
     }
+  },
+  "list": [
+    "$button-color",
+    "$button-background-color",
+    "$button-family",
+    "$button-border-color",
+    "$button-border-width",
+    "$button-padding-vertical",
+    "$button-padding-horizontal",
+    "$button-hover-color",
+    "$button-hover-border-color",
+    "$button-focus-color",
+    "$button-focus-border-color",
+    "$button-focus-box-shadow-size",
+    "$button-focus-box-shadow-color",
+    "$button-active-color",
+    "$button-active-border-color",
+    "$button-text-color",
+    "$button-text-decoration",
+    "$button-text-hover-background-color",
+    "$button-text-hover-color",
+    "$button-ghost-background",
+    "$button-ghost-border-color",
+    "$button-ghost-color",
+    "$button-ghost-decoration",
+    "$button-ghost-hover-color",
+    "$button-ghost-hover-decoration",
+    "$button-disabled-background-color",
+    "$button-disabled-border-color",
+    "$button-disabled-shadow",
+    "$button-disabled-opacity",
+    "$button-static-color",
+    "$button-static-background-color",
+    "$button-static-border-color",
+    "$button-colors",
+    "$button-responsive-sizes"
   ],
-  "css-vars": [
-    {
-      "name": "button-family",
-      "value": "false"
-    },
-    {
-      "name": "button-weight",
-      "value": "var(--bulma-weight-medium)"
-    },
-    {
-      "name": "button-border-color",
-      "value": "var(--bulma-border)"
-    },
-    {
-      "name": "button-border-style",
-      "value": "solid"
-    },
-    {
-      "name": "button-border-width",
-      "value": "var(--bulma-control-border-width)"
-    },
-    {
-      "name": "button-padding-vertical",
-      "value": "0.5em"
-    },
-    {
-      "name": "button-padding-horizontal",
-      "value": "1em"
-    },
-    {
-      "name": "button-focus-border-color",
-      "value": "var(--bulma-link-focus-border)"
-    },
-    {
-      "name": "button-focus-box-shadow-size",
-      "value": "0 0 0 0.125em"
-    },
-    {
-      "name": "button-focus-box-shadow-color",
-      "value": "hsla(\n  var(--bulma-link-h),\n  var(--bulma-link-s),\n  var(--bulma-link-on-scheme-l),\n  0.25\n)"
-    },
-    {
-      "name": "button-active-color",
-      "value": "var(--bulma-link-active)"
-    },
-    {
-      "name": "button-active-border-color",
-      "value": "var(--bulma-link-active-border)"
-    },
-    {
-      "name": "button-text-color",
-      "value": "var(--bulma-text)"
-    },
-    {
-      "name": "button-text-decoration",
-      "value": "underline"
-    },
-    {
-      "name": "button-text-hover-background-color",
-      "value": "var(--bulma-background)"
-    },
-    {
-      "name": "button-text-hover-color",
-      "value": "var(--bulma-text-strong)"
-    },
-    {
-      "name": "button-ghost-background",
-      "value": "none"
-    },
-    {
-      "name": "button-ghost-border-color",
-      "value": "transparent"
-    },
-    {
-      "name": "button-ghost-color",
-      "value": "var(--bulma-link-text)"
-    },
-    {
-      "name": "button-ghost-decoration",
-      "value": "none"
-    },
-    {
-      "name": "button-ghost-hover-color",
-      "value": "var(--bulma-link)"
-    },
-    {
-      "name": "button-ghost-hover-decoration",
-      "value": "underline"
-    },
-    {
-      "name": "button-disabled-background-color",
-      "value": "var(--bulma-scheme-main)"
-    },
-    {
-      "name": "button-disabled-border-color",
-      "value": "var(--bulma-border)"
-    },
-    {
-      "name": "button-disabled-shadow",
-      "value": "none"
-    },
-    {
-      "name": "button-disabled-opacity",
-      "value": "0.5"
-    },
-    {
-      "name": "button-static-color",
-      "value": "var(--bulma-text-weak)"
-    },
-    {
-      "name": "button-static-background-color",
-      "value": "var(--bulma-scheme-main-ter)"
-    },
-    {
-      "name": "button-static-border-color",
-      "value": "var(--bulma-border)"
-    }
-  ]
+  "file_path": "elements/button.sass"
 }

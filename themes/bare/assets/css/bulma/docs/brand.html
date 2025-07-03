@@ -1,18 +1,20 @@
 ---
 title: "Brand assets of Bulma"
 layout: default
-theme: primary
 route: brand
 breadcrumb:
   - home
   - brand
 ---
-{% include global/header.html %}
+
+{% include global/navbar.html id="Brand" %}
 
 {%
-  include docs/hero.html
-  title="The Bulma brand"
-  subtitle="Download the official Bulma logo."
+  include components/hero.html
+  color="primary"
+  icon="fas fa-medal"
+  title="The Bulma **Brand**"
+  subtitle="Download the official Bulma logo"
 %}
 
 <div class="bd-brand">
@@ -22,18 +24,18 @@ breadcrumb:
     </p>
 
     {%
-      include docs/components/logos-item.html
+      include components/logos-item.html
       asset="Bulma Icon"
     %}
 
     {%
-      include docs/components/logos-item.html
+      include components/logos-item.html
       unsplash="fxvpCFZgTe4"
       asset="Bulma Icon Black"
     %}
 
     {%
-      include docs/components/logos-item.html
+      include components/logos-item.html
       unsplash="4TKFpJPnyU8"
       asset="Bulma Icon White"
     %}
@@ -43,18 +45,18 @@ breadcrumb:
     </p>
 
     {%
-      include docs/components/logos-item.html
+      include components/logos-item.html
       asset="Bulma Wordmark"
     %}
 
     {%
-      include docs/components/logos-item.html
+      include components/logos-item.html
       unsplash="KjWMGF0PYuE"
       asset="Bulma Wordmark"
     %}
 
     {%
-      include docs/components/logos-item.html
+      include components/logos-item.html
       unsplash="qsnfSvCdec4"
       asset="Bulma Wordmark White"
     %}
@@ -64,18 +66,18 @@ breadcrumb:
     </p>
 
     {%
-      include docs/components/logos-item.html
+      include components/logos-item.html
       asset="Bulma Logo"
     %}
 
     {%
-      include docs/components/logos-item.html
+      include components/logos-item.html
       unsplash="8tA3ZSY9Iic"
       asset="Bulma Logo Black"
     %}
 
     {%
-      include docs/components/logos-item.html
+      include components/logos-item.html
       unsplash="RMypptC8-B0"
       asset="Bulma Logo White"
     %}

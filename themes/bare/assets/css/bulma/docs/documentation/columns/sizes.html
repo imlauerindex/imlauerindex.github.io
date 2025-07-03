@@ -1,16 +1,15 @@
 ---
 title: Column sizes
-layout: docs
-theme: library
-doc-library: true
+layout: documentation
 doc-tab: columns
 doc-subtab: sizes
 breadcrumb:
-  - home
-  - documentation
-  - columns
-  - columns-sizes
+- home
+- documentation
+- columns
+- columns-sizes
 ---
+
 {% capture columns_sizes %}
 <div class="columns">
   <div class="column is-four-fifths">is-four-fifths</div>
@@ -66,6 +65,7 @@ breadcrumb:
   <div class="column">Auto</div>
 </div>
 {% endcapture %}
+
 {% capture columns_offset %}
 <div class="columns is-mobile">
   <div class="column is-half is-offset-one-quarter"></div>
@@ -83,10 +83,11 @@ breadcrumb:
   <div class="column is-11 is-offset-1"></div>
 </div>
 {% endcapture %}
+
 {% capture columns_narrow %}
 <div class="columns">
   <div class="column is-narrow">
-    <div class="box" style="width: 200px">
+    <div class="box" style="width: 200px;">
       <p class="title is-5">Narrow column</p>
       <p class="subtitle">This column is only 200px wide.</p>
     </div>
@@ -94,9 +95,7 @@ breadcrumb:
   <div class="column">
     <div class="box">
       <p class="title is-5">Flexible column</p>
-      <p class="subtitle">
-        This column will take up the remaining space available.
-      </p>
+      <p class="subtitle">This column will take up the remaining space available.</p>
     </div>
   </div>
 </div>
@@ -160,10 +159,10 @@ breadcrumb:
     </p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-fojeisj">Auto</p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-wajofij">Auto</p>
   </div>
 </div>
 
@@ -174,10 +173,10 @@ breadcrumb:
     </p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-fojeisj">Auto</p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-wajofij">Auto</p>
   </div>
 </div>
 
@@ -188,10 +187,10 @@ breadcrumb:
     </p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-fojeisj">Auto</p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-wajofij">Auto</p>
   </div>
 </div>
 
@@ -202,10 +201,10 @@ breadcrumb:
     </p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-fojeisj">Auto</p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-wajofij">Auto</p>
   </div>
 </div>
 
@@ -216,10 +215,10 @@ breadcrumb:
     </p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-fojeisj">Auto</p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-wajofij">Auto</p>
   </div>
 </div>
 
@@ -230,10 +229,10 @@ breadcrumb:
     </p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-fojeisj">Auto</p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-wajofij">Auto</p>
   </div>
 </div>
 
@@ -244,10 +243,10 @@ breadcrumb:
     </p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-fojeisj">Auto</p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-wajofij">Auto</p>
   </div>
 </div>
 
@@ -258,10 +257,10 @@ breadcrumb:
     </p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-fojeisj">Auto</p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-wajofij">Auto</p>
   </div>
 </div>
 
@@ -272,20 +271,18 @@ breadcrumb:
     </p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-fojeisj">Auto</p>
   </div>
   <div class="column">
-    <p class="bd-notification">Auto</p>
+    <p class="bd-notification is-wajofij">Auto</p>
   </div>
 </div>
 
 <div class="bd-highlight-full">
-  {% highlight html -%}
-  {{- columns_sizes -}}
-  {%- endhighlight %}
+  {% highlight html %}{{ columns_sizes }}{% endhighlight %}
 </div>
 
-{% include docs/elements/anchor.html name="12 columns system" %}
+{% include elements/anchor.html name="12 columns system" %}
 
 <div class="content">
   <p>As the grid can be divided into <strong>12</strong> columns, there are size classes for each division:</p>
@@ -307,10 +304,7 @@ breadcrumb:
 
 <div class="message is-info">
   <p class="message-header">Naming convention</p>
-  <p class="message-body">
-    Each modifier class is named after
-    <strong>how many columns you want out of 12</strong>. So if you want 7 columns out of 12, use <code>is-7</code>.
-  </p>
+  <p class="message-body">Each modifier class is named after <strong>how many columns you want out of 12</strong>. So if you want 7 columns out of 12, use <code>is-7</code>.</p>
 </div>
 <div class="columns">
   <div class="column is-1">
@@ -355,34 +349,34 @@ breadcrumb:
     <p class="bd-notification is-primary"><code>is-2</code></p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
 </div>
 <div class="columns">
@@ -390,31 +384,31 @@ breadcrumb:
     <p class="bd-notification is-primary"><code>is-3</code></p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
 </div>
 <div class="columns">
@@ -422,28 +416,28 @@ breadcrumb:
     <p class="bd-notification is-primary"><code>is-4</code></p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
 </div>
 <div class="columns">
@@ -451,25 +445,25 @@ breadcrumb:
     <p class="bd-notification is-primary"><code>is-5</code></p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
 </div>
 <div class="columns">
@@ -477,22 +471,22 @@ breadcrumb:
     <p class="bd-notification is-primary"><code>is-6</code></p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
 </div>
 <div class="columns">
@@ -500,19 +494,19 @@ breadcrumb:
     <p class="bd-notification is-primary"><code>is-7</code></p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
 </div>
 <div class="columns">
@@ -520,16 +514,16 @@ breadcrumb:
     <p class="bd-notification is-primary"><code>is-8</code></p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
 </div>
 <div class="columns">
@@ -537,13 +531,13 @@ breadcrumb:
     <p class="bd-notification is-primary"><code>is-9</code></p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
 </div>
 <div class="columns">
@@ -551,10 +545,10 @@ breadcrumb:
     <p class="bd-notification is-primary"><code>is-10</code></p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
   </div>
 </div>
 <div class="columns">
@@ -562,7 +556,7 @@ breadcrumb:
     <p class="bd-notification is-primary"><code>is-11</code></p>
   </div>
   <div class="column">
-    <p class="bd-notification has-text-centered">1</p>
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
   </div>
 </div>
 <div class="columns">
@@ -571,13 +565,11 @@ breadcrumb:
   </div>
 </div>
 
-{% include docs/elements/anchor.html name="Offset" %}
+{% include elements/anchor.html name="Offset" %}
 
 <div class="content">
   <p>
-    While you can use <em>empty columns</em> (like <code>&lt;div class="column"&gt;&lt;/div&gt;</code>) to create
-    horizontal space around <code>.column</code> elements, you can also use <strong>offset</strong> modifiers like
-    <code>.is-offset-x</code>:
+    While you can use <em>empty columns</em> (like <code>&lt;div class="column"&gt;&lt;/div&gt;</code>) to create horizontal space around <code>.column</code> elements, you can also use <strong>offset</strong> modifiers like <code>.is-offset-x</code>:
   </p>
 </div>
 
@@ -618,23 +610,18 @@ breadcrumb:
 </div>
 
 <div class="bd-highlight-full">
-  {% highlight html -%}
-  {{- columns_offset -}}
-  {%- endhighlight %}
+  {% highlight html %}{{ columns_offset }}{% endhighlight %}
 </div>
 
-{% include docs/elements/anchor.html name="Narrow column" %}
+{% include elements/anchor.html name="Narrow column" %}
 
 <div class="content">
-  <p>
-    If you want a column to only take the <strong>space it needs</strong>, use the <code>is-narrow</code> modifier. The
-    other column(s) will fill up the remaining space.
-  </p>
+  <p>If you want a column to only take the <strong>space it needs</strong>, use the <code>is-narrow</code> modifier. The other column(s) will fill up the remaining space.</p>
 </div>
 
 <div class="columns">
   <div class="column is-narrow">
-    <div class="box" style="width: 200px">
+    <div class="box" style="width: 200px;">
       <p class="title is-5">Narrow column</p>
       <p class="subtitle">This column is only 200px wide.</p>
     </div>
@@ -648,16 +635,11 @@ breadcrumb:
 </div>
 
 <div class="bd-highlight-full">
-  {% highlight html -%}
-  {{- columns_narrow -}}
-  {%- endhighlight %}
+  {% highlight html %}{{ columns_narrow }}{% endhighlight %}
 </div>
 
 <div class="content">
-  <p>
-    As for the size modifiers, you can have narrow columns for different
-    <strong>breakpoints</strong>:
-  </p>
+  <p>As for the size modifiers, you can have narrow columns for different <strong>breakpoints</strong>:</p>
   <ul>
     <li>
       <code>.is-narrow-mobile</code>

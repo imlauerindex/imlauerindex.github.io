@@ -1,7 +1,6 @@
 ---
 title: Extensions
 layout: default
-theme: customize
 route: extensions
 breadcrumb:
 - home
@@ -142,17 +141,16 @@ extensions:
   slug: bulma-list
   width: 1186
   height: 480
-- name: bulma-jumbo-tiny
-  url: https://thirstyape.github.io/Bulma-Jumbo-Tiny/index.html
-  slug: bulma-jumbo-tiny
 ---
 
-{% include global/header.html %}
+{% include global/navbar.html id="Extensions" %}
 
 {%
-  include docs/hero.html
-  title="Bulma extensions"
-  subtitle="Side projects to enhance your Bulma experience."
+  include components/hero.html
+  color="extensions"
+  icon="fas fa-plug"
+  title="Bulma **extensions**"
+  subtitle="Side projects to **enhance** your Bulma **experience**"
 %}
 
 {% capture call_button %}
@@ -169,31 +167,31 @@ extensions:
 {% endcapture %}
 
 {%
-  include docs/components/call.html
+  include components/call.html
   color="extensions"
   text='Have an <strong>extension</strong> to <strong>share</strong> with the community?'
   button=call_button
 %}
 
-<section class="section">
-  <div class="fixed-grid has-1-cols-mobile">
-  <div class="grid is-gap-6">
-    {% for extension in page.extensions %}
-      <a class="cell" href="{{ extension.url }}" target="_blank" rel="nofollow">
-        <div class="block">
-          <h3 class="title is-5">
-            {{ extension.name }}
-          </h3>
-          <div class="subtitle is-6">
-            {{ extension.url | remove:'http://' | remove:'https://' | remove:'www.' }}
+<div class="bd-posts">
+  {% for extension in page.extensions %}
+    <div class="bd-post bd-is-extension">
+      <a class="bd-post-link" href="{{ extension.url }}" target="_blank" rel="nofollow">
+        <div class="bd-post-body">
+          <div class="bd-post-content">
+            <h2 class="title">
+              {{ extension.name }}
+            </h2>
+            <div class="subtitle">
+              {{ extension.url | remove:'http://' | remove:'https://' | remove:'www.' }}
+            </div>
           </div>
         </div>
 
-        <figure class="has-background is-flex is-justify-content-center p-3 has-radius">
-          <img src="{{site.url}}/assets/images/extensions/{{ extension.slug }}.png" width="{{ extension.width }}" height="{{ extension.height }}">
+        <figure class="bd-post-screenshot">
+          <img src="{{site.url}}/images/extensions/{{ extension.slug }}.png" width="{{ extension.width }}" height="{{ extension.height }}">
         </figure>
       </a>
-    {% endfor %}
-  </div>
-  </div>
-</section>
+    </div>
+  {% endfor %}
+</div>

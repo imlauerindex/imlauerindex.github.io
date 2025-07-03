@@ -1,9 +1,13 @@
 {
-  "sass-vars": [
-    {
-      "name": "dimensions",
-      "value": "16 24 32 48 64 96 128"
+  "by_name": {
+    "$dimensions": {
+      "name": "$dimensions",
+      "value": "16 24 32 48 64 96 128",
+      "type": "string"
     }
+  },
+  "list": [
+    "$dimensions"
   ],
-  "css-vars": []
+  "file_path": "elements/image.sass"
 }

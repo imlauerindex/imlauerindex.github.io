@@ -1,51 +1,37 @@
 {
-  "sass-vars": [
-    {
-      "name": "icon-dimensions",
+  "by_name": {
+    "$icon-dimensions": {
+      "name": "$icon-dimensions",
       "value": "1.5rem",
-      "css-var": "icon-dimensions"
+      "type": "size"
     },
-    {
-      "name": "icon-dimensions-small",
+    "$icon-dimensions-small": {
+      "name": "$icon-dimensions-small",
       "value": "1rem",
-      "css-var": "icon-dimensions-small"
+      "type": "size"
     },
-    {
-      "name": "icon-dimensions-medium",
+    "$icon-dimensions-medium": {
+      "name": "$icon-dimensions-medium",
       "value": "2rem",
-      "css-var": "icon-dimensions-medium"
+      "type": "size"
     },
-    {
-      "name": "icon-dimensions-large",
+    "$icon-dimensions-large": {
+      "name": "$icon-dimensions-large",
       "value": "3rem",
-      "css-var": "icon-dimensions-large"
+      "type": "size"
     },
-    {
-      "name": "icon-text-spacing",
+    "$icon-text-spacing": {
+      "name": "$icon-text-spacing",
       "value": "0.25em",
-      "css-var": "icon-text-spacing"
+      "type": "size"
     }
+  },
+  "list": [
+    "$icon-dimensions",
+    "$icon-dimensions-small",
+    "$icon-dimensions-medium",
+    "$icon-dimensions-large",
+    "$icon-text-spacing"
   ],
-  "css-vars": [
-    {
-      "name": "icon-dimensions",
-      "value": "1.5rem"
-    },
-    {
-      "name": "icon-dimensions-small",
-      "value": "1rem"
-    },
-    {
-      "name": "icon-dimensions-medium",
-      "value": "2rem"
-    },
-    {
-      "name": "icon-dimensions-large",
-      "value": "3rem"
-    },
-    {
-      "name": "icon-text-spacing",
-      "value": "0.25em"
-    }
-  ]
+  "file_path": "elements/icon.sass"
 }

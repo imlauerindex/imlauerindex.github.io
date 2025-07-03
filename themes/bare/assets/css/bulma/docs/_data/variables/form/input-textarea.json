@@ -1,42 +1,31 @@
 {
-  "sass-vars": [
-    {
-      "name": "textarea-padding",
-      "value": "var(--bulma-control-padding-horizontal)"
+  "by_name": {
+    "$textarea-padding": {
+      "name": "$textarea-padding",
+      "value": "$control-padding-horizontal",
+      "type": "variable"
     },
-    {
-      "name": "textarea-max-height",
-      "value": "40em"
+    "$textarea-max-height": {
+      "name": "$textarea-max-height",
+      "value": "40em",
+      "type": "size"
     },
-    {
-      "name": "textarea-min-height",
-      "value": "8em"
+    "$textarea-min-height": {
+      "name": "$textarea-min-height",
+      "value": "8em",
+      "type": "size"
     },
-    {
-      "name": "textarea-colors",
-      "value": "shared.$form-colors"
+    "$textarea-colors": {
+      "name": "$textarea-colors",
+      "value": "$form-colors",
+      "type": "variable"
     }
+  },
+  "list": [
+    "$textarea-padding",
+    "$textarea-max-height",
+    "$textarea-min-height",
+    "$textarea-colors"
   ],
-  "css-vars": [
-    {
-      "name": "input-h",
-      "value": "#{cv.getVar(\"scheme-h\")},"
-    },
-    {
-      "name": "input-s",
-      "value": "#{cv.getVar(\"scheme-s\")},"
-    },
-    {
-      "name": "input-border-style",
-      "value": "solid,"
-    },
-    {
-      "name": "input-border-width",
-      "value": "1px,"
-    },
-    {
-      "name": "input-border-l",
-      "value": "#{cv.getVar(\"border-l\")},"
-    }
-  ]
+  "file_path": "form/input-textarea.sass"
 }

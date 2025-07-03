@@ -13,10 +13,9 @@ While this update is mainly focused on a massive [website redesign](/2018/04/13/
 
 These variable changes are documented here, so you can edit or revert them if needed.
 
-{% include docs/elements/anchor.html name="Updated default values" %}
+{% include elements/anchor.html name="Updated default values" %}
 
 {% for item in site.data.blog.migratingv070.updated %}
-
   <table class="table is-bordered">
     <tbody>
       <tr>
@@ -47,10 +46,9 @@ These variable changes are documented here, so you can edit or revert them if ne
   </table>
 {% endfor %}
 
-{% include docs/elements/anchor.html name="New variables" %}
+{% include elements/anchor.html name="New variables" %}
 
 {% for item in site.data.blog.migratingv070.new %}
-
   <table class="table is-bordered">
     <tbody>
       <tr>
@@ -77,7 +75,7 @@ These variable changes are documented here, so you can edit or revert them if ne
   </table>
 {% endfor %}
 
-{% include docs/elements/anchor.html name="Removed variables" %}
+{% include elements/anchor.html name="Removed variables" %}
 
 <table class="table is-bordered">
   <thead>

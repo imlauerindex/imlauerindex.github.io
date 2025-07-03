@@ -6,11 +6,13 @@ breadcrumb:
 - blog
 ---
 
+{% include global/navbar.html id="Blog" %}
+
 {% capture hero_content %}
-{% include docs/elements/rss-button.html %}
+{% include elements/rss-button.html %}
 {% endcapture %}
 {%
-  include docs/components/hero.html
+  include components/hero.html
   color="primary"
   icon="fas fa-rss"
   title="The **official** Bulma **blog**"
@@ -22,7 +24,7 @@ breadcrumb:
   <div class="bd-posts">
     {% for post in site.posts %}
       {%
-        include docs/elements/post.html
+        include elements/post.html
         post=post
       %}
     {% endfor %}

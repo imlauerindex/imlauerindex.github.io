@@ -13,8 +13,10 @@ breadcrumb:
   - bulma-start
 ---
 
+{% include global/navbar.html id="MadeWithBulma" %}
+
 {%
-  include docs/components/hero.html
+  include components/hero.html
   color="success"
   icon="fas fa-rocket"
   title="The `bulma-start` package"
@@ -79,7 +81,7 @@ breadcrumb:
       </div>
     </div>
 
-    {% include docs/elements/anchor.html name="Install" %}
+    {% include elements/anchor.html name="Install" %}
 
     <div class="content">
       <p>
@@ -95,7 +97,7 @@ breadcrumb:
       >bulma-start README on Github.</a
     >
 
-    {% include docs/elements/anchor.html name="What’s included" %}
+    {% include elements/anchor.html name="What’s included" %}
 
     <div class="content">
       <p>

@@ -1,42 +1,31 @@
 {
-  "sass-vars": [
-    {
-      "name": "section-padding",
+  "by_name": {
+    "$section-padding": {
+      "name": "$section-padding",
       "value": "3rem 1.5rem",
-      "css-var": "section-padding"
+      "type": "size"
     },
-    {
-      "name": "section-padding-desktop",
+    "$section-padding-desktop": {
+      "name": "$section-padding-desktop",
       "value": "3rem 3rem",
-      "css-var": "section-padding-desktop"
+      "type": "size"
     },
-    {
-      "name": "section-padding-medium",
+    "$section-padding-medium": {
+      "name": "$section-padding-medium",
       "value": "9rem 4.5rem",
-      "css-var": "section-padding-medium"
+      "type": "size"
     },
-    {
-      "name": "section-padding-large",
+    "$section-padding-large": {
+      "name": "$section-padding-large",
       "value": "18rem 6rem",
-      "css-var": "section-padding-large"
+      "type": "size"
     }
+  },
+  "list": [
+    "$section-padding",
+    "$section-padding-desktop",
+    "$section-padding-medium",
+    "$section-padding-large"
   ],
-  "css-vars": [
-    {
-      "name": "section-padding",
-      "value": "3rem 1.5rem"
-    },
-    {
-      "name": "section-padding-desktop",
-      "value": "3rem 3rem"
-    },
-    {
-      "name": "section-padding-medium",
-      "value": "9rem 4.5rem"
-    },
-    {
-      "name": "section-padding-large",
-      "value": "18rem 6rem"
-    }
-  ]
+  "file_path": "layout/section.sass"
 }

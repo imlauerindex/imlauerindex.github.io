@@ -56,8 +56,10 @@ bootstrap:
   content: "Bulma has introduced some support for accessibility, but Bootstrap has strong and pervasive compatibility with **WCAG 2.0** guidelines."
 ---
 
+{% include global/navbar.html id="AlternativeToBootstrap" %}
+
 {%
-  include docs/components/hero.html
+  include components/hero.html
   color="bootstrap"
   icon="fas fa-exchange-alt"
   title="Bulma: an **alternative** to Bootstrap"
@@ -65,7 +67,7 @@ bootstrap:
 %}
 
 {%
-  include docs/components/call.html
+  include components/call.html
   color="primary"
   text='Both Bulma and Bootstrap are <strong>CSS frameworks</strong> that allow developers to quickly <strong>build web interfaces</strong> with ease. While they have fairly similar features, they still differ in some ways, and you might wonder why you should choose one framework over the other. This page is here to help answer that.'
 %}
@@ -83,7 +85,7 @@ bootstrap:
       <div class="bd-pros-list">
         {% for pro in page.bulma %}
           {%
-            include docs/content/pro.html
+            include content/pro.html
             type=pro.type
             icon=pro.icon
             icon_brand=pro.icon_brand
@@ -104,7 +106,7 @@ bootstrap:
       <div class="bd-pros-list">
         {% for pro in page.bootstrap %}
           {%
-            include docs/content/pro.html
+            include content/pro.html
             type=pro.type
             icon=pro.icon
             icon_brand=pro.icon_brand
@@ -140,7 +142,7 @@ bootstrap:
       </tr>
     </tfoot>
     <tbody>
-      {% include docs/content/comparison.html %}
+      {% include content/comparison.html %}
     </tbody>
   </table>
 </div>
