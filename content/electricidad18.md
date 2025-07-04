@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 18: España apagon. Ultima parte canalizacion. Silicon. Alimentacion subterranea. Conductores, no conductores o aislantes, semiconductores. Sistema alarmas. Materia esta constituida por atomos. Proton: positivo, electrones: negativo y neutron: neutro que equilibra el nucleo. Como se genera la corriente electrica: Los electrones me generan la I(intensidad de corriente electrica). La potencia es watts y la intensidad es amper. Ley de watt: PxVxcos(Fi). Ley de Ohm. Como se genera la corriente alterna. Como funcinoa represa. Definicion transformador. Como se genera el neutro."
+title: "Electricidad / Clase 18: España apagon. Ultima parte canalizacion. Silicon. Alimentacion subterranea. Conductores, no conductores o aislantes, semiconductores. Sistema alarmas. Materia esta constituida por atomos. Proton: positivo, electrones: negativo y neutron: neutro que equilibra el nucleo. Como se genera la corriente electrica: Los electrones me generan la I(intensidad de corriente electrica). La potencia es watts y la intensidad es amper. Ley de watt: PxVxcos(Fi). Ley de Ohm. Como se genera la corriente alterna. Como funcinoa represa. Definicion transformador. Como se genera el neutro: transformador tiene refrigerante por eso gotea, entra en triangulo bobina primaria secundaria. A veces pedían instalar el cartel de la alarma pero no tenian la alarma. Alarma de 2 pisos. Detector de movimiento infrarojo. Detector de rutura de vidrio. Aislate: goma(caucho), plastico, madera. Semiconductores: la mitad conduce y la otra no (un diodo por ejemplo). Emallado para que nadie pase."
 date: 2025-04-30T03:38:22-03:00
 tags: [electricidad]
 ---
@@ -208,14 +208,93 @@ Profesor: Si ese, ese que es... No es un goteador, **lo que pasa es que es un re
 Ayudante: Porque tambien eso genera calor
 Profesor: Antes que me olvide lo que ven ahi son 2 partes generalmente fijense donde empieza nuestra central de alarma. **La central de alarmas tiene una bateria** ese en algunos lados para 24/48 horas en caso de que se corte energia. Entonces uno esta trabajando tiene otra cosa importante, vamos a empezar por la parte de adelante vieron ahi el cartel de protegido en algunos casos me acuerdo que habia gente que no queria apagar la alarma entonces lo unico que me pedian es que le pongamos el cartel.
 Maru: No visible.
-Profesor: No no, el cartel visible porque ahi decia, ahi dice cartel protegido por X28
+###### Profesor: No no, el cartel visible porque ahi decia, ahi dice cartel protegido por X28 ampliamente no se que por su gran poder visuacivo (existe esa palabra ¿?)
+Ruben Leiva: Pero no tenía instalado.
+Profesor: No tenia la alarma, era engaña pichanga pero nos pedían a veces consiganme tanto un cartel de plástico se ponía.
+Ruben Leiva: Para la foto.
+Profesor: Detector magnético de apertura, eso es lo que mostró la señora, ya sea en las ventanas o en las puertas que tiene una parte magnética una móvil y otra fija que va en algunos lugares. Esto es todo acuérdense la señora presentó una alarma inalámbrica y esto es todo **cableado**
+Sebastián Melgajero: Cableado.
+###### Profesor: Estamos? El otro ese tiene una batería cada elemento asi que en un sistema de conexión a través de un sistema de antena recibe... Actúa como receptor la alarma y recibe todas las señales.
 
-Bueno.
+Bueno. Fijense entro en la vivienda abro la puerta y tengo un panel de control no se si ustedes vean ahí.
 
+Ese panel de control tiene distinta característica puedo poner el dedo puedo poner un código o directamente control remoto inalámbrico todas esas cosas puedo usar para activar y desactivar la alarma.
+
+¿Qué características tiene? Que yo ese control lo puedo regular de acuerdo a la forma que tenga de apertura mi puerta porque a veces puedo tener un cerramiento o una llave o doble llave entonces entro y necesito tener cerrar lo que sea o poner un pasador para que nadie me siga atrás y voy y desconecto todo depende.
+
+Estamos ahi mas o menos?
+
+La parte de colocar el tema de la alarma eso se capacita hay gente que ya sabe, le dan un catálogo y también se puede hacer uno demora mas pero se hace, la gente que coloca ya tiene cancha te pide el código directamente y listo. No es difícil pero a veces tenes que estar TACTACTAC tenes que tener paciencia porque a veces le errás un número y le tenes que volver a ingresar.
+Ayudante(Alejandro Ramirez): Es engorroso.
+###### Profesor: Bueno. Tiene un sisteam exterior con baliza y por voz también. Eso va afuera tiene un efecto estrevoscópico a veces empieza la sirena a estrellar en algunos casos la mas moderna ahora, está el teclado remoto. A veces tenía la posibilidad casas grandes de tener 2 lugartes de control o si no tengo sistema inalámbrico otro lugar de teclado remoto que yo pueda deshabilitar vamos a suponer que tengo 2 pisos, voy arriba y activo la alarma cuando me acuesto entonces puedo tener todo. Y desconecto cuando voy abajo, un sistema de 2 pisos.
+
+Puedo hacer eso, activar y desactivar por partes por zona tengo que tener todas las condiciones lo importante es que voy arriba: desconecto o conecto, toda mi casa está protegida cualquier cosa se activa.
+
+###### Detector de movimiento infrarojo pasivo.
+Eso que lo dije generalmente fijense eso que me interesa la ubicación como tiene 90 grados donde generalmente se debe colocar, tdoo está ubicado en un sistema esquinero, por eso es importante que tengan idea para mi lo mas rapido posible para saber, despues le voy a sacar una foto y mandaselo por lo menos ven ahi.
+
+Hay un detector de movimiento... Ah sirena interior: esa **sirena interior** tiene la posibilidad de que si llega a entrar un individuo empieza a activar y te daje loco el tipo se va a querer ir: suena la de afuera, suena de la de adentro y se va a tener que pegar antes que venga la policia.
+
+Y después tenes **movimientos para exteriores** generalmente tengo un patio exterior o al costado lo que sea tengo la posibildad de activar con un sensor o un detector de movimientos infrarojo y eso detecta con luces a veces tengo varios lugares y se enciende 2 o 3 lugares.
+
+No se si ustedes ven películas.
+Maru: Es como la luz de advertencia.
+Profesor: Sí, o **empieza estabas entrando vos en la oscuridad y empieza a prenderse todas las luces, el tipo está... Lo 1ero que hace es tratar de huir**. 
+
+###### Detector de rotura de vidrio.
+Ese yo no conocía una vez probé, para ver si era cierto. 
+Una veces pasaba la mano y... Pero generalmente se coloca y el propio rudio tiene un decibel que detecta el... Se coloca eso, **pero se trata siempre de hacer ruido con un elemento metálico una llavecita**, golpea así vas a vecr como enseguida se activa la alarma.
+Es interesante porque hay lugares en donde generalmente más en un lugar en donde tengo galerías y tengo ventana de vidrio igual por lo menos esa rotura le va a activar la alarma.
+
+###### Detector de humo 
+###### Llamador controlador personal telefónico.
+Acá esta alarma todavía en esa época no usábamos esto tiene más años que yo pero no importa es un ejemplo clásico de alarma X28 (saca la foto) a esto también se le puede adosar sistema de video, hay ahora alarmas con sistema de video y todo así que está todo activado.
+
+Es lindo, interesante.
+Cuando tengan un problema, tengan la posibilidad de colocar la alarma no tengan miedo sino directamente sepan **yo ya le dije la otra vez que en esos casos los detectores de movimiento 2,10 más o menos y generalmente en un rincón entonces me abarca 90 grados**, hay otros que ponen detectores de movimiento 360 grados, está bien.
+
+Salió a colación esto del sistema de alarma. Ya que salió a colación esto del sistema de alarma, la idea era que también tengan conocimiento así que saqué la carpeta de montador y le traje a ustedes.
+
+Bueno. Hay una cosa que es muy sencilla el tema de los átomos.
+
+No todos los átomos tienen la misma facilidad para que los electrones de sus órbitas de originar una corriente eléctrica hay distintos materiales que podemos clasificar de la siguiente manera entonces:
+
+###### Tenemos materiales que son conductores.
+Yo hablo mucho voy a tratar de escribir mejor. Cuando hablo mucho la mente no va con el músculo entonces escribo como si fuera hablando no más.
+
+###### Los conductores estamos hablando siempre de la corriente eléctrica o aislantes y vamos a borrar un poco ahi.
+Martín(Alumno buteado en la clase siguiente): No, no copié.
+Profesor: Y problema tuyo heramno, ya sos grande para no copiar.
+Leticia Botolli: Ni birome tiene.
+Profesor: Sí, ahí tenes que acordarte no más. **Antes en la secundaria decían no copie y yo tenía que copiar y veía que no copiaban nada me estan tomando el pelo, secundaria cuando más tiempo demoraban mucho mejor para ellos entonces jodían que "no copié"
+Ayudante(Alejandro Ramirez): Inentendible A pelarse parece que dice(Hora 01:04)
+Profesor: Vamos a leer esta partecita así no.
+
+####### Los conductores son cuerpos como los metales tengo cobre, plata, hierro, etc donde los electrones se mueven con facilidad, todos los elementos metálicos son conductores uno con más característica que otra puedo tener cobre, aluminio lo que sea, cualquier metal es conductor de electricidad o sea que la corriente pasa puede pasar por ¿? Eso son conductores. 
+
+###### No conductores o aislantes.
+Ahí aparece otro tipo de material... Vamos a preguntar ya.
+¿Qué elemento les parece que es aislate?
+Sebastián Melgajero: La goma.
+Ayudante(Alejandro Ramirez): La goma, el plástico, la madera.
+Profesor: École. 
+Gustavo Barrientos: Cerámica, porcelana.
+Profesor: Tú que dijiste?
+Adrián Torres: Goma.
+Profesor: Goma, si caucho es lo mismo.
+
+Todo lo que sea **madera, plástico y caucho** tiene mucha dificultad para conductor los electrones, o sea tengo un sistema en donde tengo elementos aislates que no me permite el paso libre de los electrones. Sistema aislante.
+
+Y después aparece una 3era clase que son los semiconductores.
+Rubén Leiva: Silicio.
+Profesor: Y en esos casos generalmente son composición química pero lo encontramos generalmente en sistemas de electrónica, o sea que esto como nosotros no damos electrónica acá descartamos.
+
+####### Qué quiere decir que son semiconductores? La mitad conduce y la otra no. Un diodo por ejemplo.
+Lo más importante que ustedes tengan esto: conductores y no conductores. Eso tengan en la cabeza porque a veces necesito o estamos trabajando en algún y **tenemos que hacer una instalación o arreglar un tablero se hace un emallado para que nadie pase y en algunos casos o cerca del tablero que tengo que desarmar lo que sea **
 
 
 
 
 ---
 
-Minuto 52
+Hora 01:01

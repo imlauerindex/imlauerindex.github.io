@@ -180,7 +180,7 @@ Sebastián Melgajero(Anteojos con barba negra): Es telefónico?
 Profesor: Sí, par telefónico. Fijate si le podés desarmar con este. Este tiene una trabita, a ver si tengo otro más, ese está amurado ahí justo la base par telefónico, acá hay uno, acá hay otro. Tiene una trabita fijate ahí sino ahí... Total este .... En el otro centro de formación desarmamos eso. Bueno vamos a ir viendo despacito ahí empezamos. Vieron que problema tuvo España todavía no saqué mi posición.       
 Barrientos(Vendedor): Siguen igual o se arregló?      
 Profesor: No ya arreglaron ya, gran parte creo que esta mañana se iba a solucionar.      
-Alumno(que hizo enojar al profesor): Parece que tenían una térmica SICA.      
+Martin(que hizo enojar al profesor): Parece que tenían una térmica SICA.      
 Profesor: No hablen pavadas porque después la gente escucha y ustedes después... AVOGADRO dijo el vago, de donde salió eso. Hay teorías.      
 Torres: Se me mezclaron.      
 Profesor: Se me mezclaron.      
@@ -191,11 +191,11 @@ Profesor: Ahora vas a prestar atención porque todo lo que vos digas, será dich
 ###### tiene un elemento que es en caso de que uno toque directamente o quiera desarmar esto se active entonces normalmente siempre está cerrado      
 ###### Regular alarmas: como ubicar el ángulo como regular, hay soportes. Hay otros que se pueden subir y bajar.      
 Para que ustedes vean esto internamente es un detector de movimiento, que se usa en alarmas principalmente tengo 3 borneras siempre cualquier equipo que uno tenga para activar, necesito positivo negativo en este caso. Después tengo 2 cablecitos más que directamente unen es **normalmente abierto y normalmente cerrado** esto significa que el normalmente cerrado exclusivamente en caso de que esto tiene un elemento que es en caso de que uno toque directamente o quiera desarmar esto se active entonces normalmente siempre está cerrado, pero en caso de que yo desconecto eso empieza a sonar la alarma. Es interesante en este caso para que ustedes entiendan no es que yo no comparta el tema de sistema inalámbrico pero para mi me dió más resultado esta característica o esta forma de activarlos, así que ...      
-Alumno(que hizo enojar al profesor): Pasa que van buscando la forma de eliminar el instalador, de que la instalación sea más...      
+Martin(que hizo enojar al profesor): Pasa que van buscando la forma de eliminar el instalador, de que la instalación sea más...      
 Profesor: La idea es... Lo que yo entiendo es tratar de hacerlo todo más fácil y más rápido entonces no contratar un tipo como ustedes que hagan instalación.      
-Alumno(que hizo enojar al profesor): Claro instala el dueño de la casa no más.      
+Martin(que hizo enojar al profesor): Claro instala el dueño de la casa no más.      
 Barrientos(Vendedor): Claro para vender más.      
-Alumno(que hizo enojar al profesor): Más rápido vendés.       
+Martin(que hizo enojar al profesor): Más rápido vendés.       
 ###### Las cámaras nuevas vienen como un foquito. Las alarmas tienen soporte y se puede regular si sube o baja. Al verificar una instalación veremos que si esto está activado, siempre va a tener una lucesita para ver que está el infrarojo.      
 ##### Depende del nicho que agarren y la prestación, ustedes tienen un amplio rango de trabajo.       
 Barrientos(Vendedor): Viste ahora, las cámaras que vienen como un foquito.      
@@ -230,7 +230,7 @@ Para entender bien esta parte física y teórica, como se genera electricidad, l
 La materia está formado por una cantidad de átomos y a partir de ahí hace toda la introducción como se meuven los electrones para generar la corriente eléctrica. Todo ese problema es una mención no más que hacemos, a mi esa parte me interesa las magnitudes, entonces si aprenden bien las magnitudes tarde o temprano cuando leen algo, "ah esto hay que hacer". Entienden como es el sistema?      
       
 ###### Primera advertencia al alumno que lo hizo enojar y al tipo que dijo número de avogadro. Hablan sobre graficar un circuito en el pizarrón.      
-Alumno(que hizo enojar al profesor): La primer patada ay esto es potencia activa que es consumo      
+Martin(que hizo enojar al profesor): La primer patada ay esto es potencia activa que es consumo      
 Profesor: Me va a dar un infarto si siguen hablando así **(la primera advertencia)** (Minuto 36)      
 El otro con el tema de avogadro.       
 Torres(avogadro): Ah ni dije nada todavía profe.      
@@ -250,12 +250,12 @@ Ayudante: Piénselo.
 Profesor: Vamos a revisar. Haceme un circuito como hicimos ayer, entonces poné... El dibujo lo tengo en la mente. A ver si tengo acá... Ahora te das cuenta porque... Creo que tenía en esta carpeta.... Buscando dibujo... Se complica porque... Pero hacelo com te hice ayer. La idea principal es que vos veas y podemos marcar las magnitudes, esto a ver hacelo así mirá. École esto es así pero poné fusible conector y todas esas cosas para explicar las partes constitutivas de un circuito eléctrico. Acuérdense, yo puedo tener ... Lo importante que vos tengas acá que la gente.... Tiene un alternador porque es alternador porque en corriente alterna el que genera es un alternador, y si esto no está directamente tengo la alimentación de la línea 220. Entonces eso es lo importante que... Este es más moderno si se llega a quemar ya sabemos por qué un elemento de protección que en este caso proteje...      
       
 Que protege el fusible? La línea.      
-Alumno(que hizo enojar al profesor): Ese es el fusible aéreo.      
+Martin(que hizo enojar al profesor): Ese es el fusible aéreo.      
       
 Cuando es fusible un elemento que actúa por fusión,       
 ###### ¿qué es la fusión? Que un metal entra en rojo y se funde, entonces se dice fusión.      
       
-Alumno(que hizo enojar al profesor): Aaaahhh, aaauummm dijo él....      
+Martin(que hizo enojar al profesor): Aaaahhh, aaauummm dijo él....      
 Profesor: Ese es fusible. Un elemento en ese caso 1 hilo que pasa una cierta corriente esa corriente hace que si está calibrado se corta a un determinado amperage.       
 ###### El fusible es un alambre calibrado si supera se corta, se corta a un determinado amperage.      
 Barrientos(Vendedor): Si supera.      
@@ -334,7 +334,7 @@ Profesor: Claro pero vamos a suponer esto se reemplaza ahora por una lámpara de
 ###### Como se halla el consumo total y que valor tiene 1 kilowatt/hora   
 Normalmente esto es en este instante porque esta lámpara puede estar prendida 1 hora entonces me va a dar la potencia en kilowatt/hora. Eso vamos a ver más adelante lo importante es que empiecen a entender las **magnitudes físicas** para que veamos. Vamos a ver allá.   
       
-Alumno(que hizo enojar al profesor): Entonces potencia es igual a watt y watt es igual a consumo.   
+Martin(que hizo enojar al profesor): Entonces potencia es igual a watt y watt es igual a consumo.   
 Profesor: Sí. Ese es una, fíjense esa de ¿cuánto es?    
 Ayudante: De 100   
 Profesor: Acá también está de 100 no le vamos, por las dudas para que no pierda esto (plástico protector de las puntas de la lámpara de prueba)   
@@ -358,14 +358,14 @@ Profesor: 224. O sea la tensión siempre es V mayúscula para que ustedes entien
    
 #### Escribí las fórmulas que está en el pizarrón también en el resumen.   
    
-Alumno(que hizo enojar al profesor): Esa la unidad de medida de voltios de tensión de tensión?   
+Martin(que hizo enojar al profesor): Esa la unidad de medida de voltios de tensión de tensión?   
 Profesor: Voltios. Donde yo tengo la tensión? Acá en los extremos, yo mido de acá a acá entre fase y neutro estoy midiendo la tensión con el equipo ahí.    
 Sebastián Melgajero: 181,44 da VxI    
 Profesor: No. Entonces lo que vos tenés que hacer de cuenta es que vos ya tenés la potencia que son las dos lámparas, lo que yo quiero sacar es que este valor sacado de forma analítica sea algo parecido a lo que dió la pinza amperométrica, entonces ya tenemos ahí **I = P/V**, P es 200 watts y acá tengo 224 voltios también el valor este tiene que ser algo parecido porque sino un equipo puede estar fallando. Entende dijo el brasilero. (Toma mate)   
    
 Profesor: La idea acá principlamente vmaos a ir viendo yo después le voy a ir pasando las fórmulas no se preocupen lo que yo quiero mostrarles es que... Cuánto dió?    
 Sebastián Melgajero: 0,89   
-Alumno(que hizo enojar al profesor): Pero era el 224....   
+Martin(que hizo enojar al profesor): Pero era el 224....   
 Profesor: 0,89 ¿qué significa eso? Fíjense acuérdense que esto es una corriente alterna y en un instante puede variar puede medir tener otra variación de tensión ahí en ese momento. Lo importante que ustedes vean que esto es una pequeña corriente hay diferencia de 8 miliamper pero es algo parecido y a nosotros como instaladores si teniendo ....   
    
 ##### Tengo un circuito conformado por alternador o si es continua puede ser la batería un conductor y un elemento receptor y en algún lado tengo que tener un interruptor para prender y apagar el circuito.   
@@ -398,9 +398,9 @@ Profesor: No importa. Con el tiempo te vas a dar cuenta mientras funcione.
    
 ###### Conviene invertir en un megómetro?   
 La idea acá es demostrarle a ver si se puede porque esto porque tiene un consumo muy bajo a veces es difícil que la pinza pueda detectar pero vamos a probarlo.    
-Alumno(que hizo enojar al profesor): Profe en esos casos hay otro, croe que el megómetro sería mejor para medir o no?   
+Martin(que hizo enojar al profesor): Profe en esos casos hay otro, croe que el megómetro sería mejor para medir o no?   
 Profesor: Si vos tenés puede.    
-Alumno(que hizo enojar al profesor): Pero es conveniente hacer una inversión en un megómetro.   
+Martin(que hizo enojar al profesor): Pero es conveniente hacer una inversión en un megómetro.   
 ###### La diferencia de consumo entre LED y incandescente: 0,89 y ahora es 0,083 (10 veces menos).   
 Profesor: Depende de que uso tengas. Yo no tengo porque lo.... Bueno fíjense todas las 2 lámparas de LED me indican ahí que esa lámpara de LED que más o menos tienen 10 watts de consumo, es 0,083. Fijense miren lo que era antes 0,89 y ahora es 0,083 **o sea 10 veces menos**.   
    
@@ -451,9 +451,9 @@ Ayudante: De protección.
 Profesor: De protección. Entonces la cooperativa o EMSA en este caso la proveedora de energía dice que pueda ocurrir un cortocircuito en la línea y que ese cortocircuito mínimamente sea al reddor de 3000 amper entonces te dice si vos tenés un equipo de 3000 amper andará a lo justo entonces lo que es conveniente atrás del medidor en **el tablero general coloco un interruptor que tenga hasta 4500 no ponga 3000 sino directamente ponga 4500 o 6000 hay hastas 10.000**. O sea que...   
 Sebastián Melgajero: Aguantaría un rayo.   
 Profesor: Claro por eso. Pero eso es lo que quiero que entiendan después aparecerá por eso que empezamos con los circuitos después aparecerá **cuál conductor ponemos y que tipo de interruptor termomagnético necesito para cada sección de conductor que utilicemos** , eso vamos a ver un poco más adelante.   
-Alumno(que hizo enojar al profesor): Eso según el consumo    
+Martin(que hizo enojar al profesor): Eso según el consumo    
 Profesor: Según el consumo pero cuando yo proyecto, yo proyecto como la época vieja cortando 100 watts por boca.   
-Alumno(que hizo enojar al profesor): No 10    
+Martin(que hizo enojar al profesor): No 10    
 Profesor: Yo no doy 10. El día de mañana, yo ya pongo con esa. Entoncse toda la instalación la hago como si fuera a ocupar un elemento de mayor potencia y es beneficio para todo. **NO VOY A PONER 4MM^2 1,5MM^2 ya es suficiente**   
 Alumna: Ese es la sección del conductor?   
 Profesor: Sí, pero eso vamos viendo de apoco no se preocupen. Los circuitos podemos hacer o tener el circuito en serie o en paralelo, no voy a contar más nada ahí porque vamos a hacer el trabajo práctico y ustedes van a sacar conclusiones. Traé tu lámpara incandescente yo también traje más porque en lámpara incandescente se ve mejor el fenómeno. Vamos a armar en grupos de 4 por ejemplo, un grupo armará circuito en serie **y otro en paralelo, entonces con 1 interruptor y vamos a tomar las medidas de corriente vamos a ver el efecto lumínico y que pasa en un caso y en el otro.** La idea acá no es contarle todo lo que pasa el fenómeno físico todo. Sino directamente que hagamos la prueba y saquemos la conclusión en grupo sino no sirve. Entiende?   
@@ -502,21 +502,21 @@ Profesor: Las cosas principales tenemos 3 magnitudes características en un circ
 ###### Ley de OHM: relaciona el voltaje, la resistencia y la corriente.   
 Y ahí aparece una ley importate que relaciona el voltaje la resistencia y la corriente que es la LEY DE OHM.   
    
-Alumno(que hizo enojar al profesor): Ese es OHHMMMMMM.   
+Martin(que hizo enojar al profesor): Ese es OHHMMMMMM.   
 ###### Profesor: La ley de Ohm es la relación que existe entre tensión, resistencia y corriente.   
 Le voy a leer y después le voy a escribir algo, y ese que dijo va a ir a explicar acá. Claro, si sabe mucho que explique.   
    
 La ley expresa que la intensidad de corriente.   
-Alumno(que hizo enojar al profesor): No, no copié.   
+Martin(que hizo enojar al profesor): No, no copié.   
 Profesor: Ese va a salir acá...    
    
 #### Ley de OHM: Expresa que la intesidad de corriente, es directamente proporcional al voltaje a través del circuto prazi ¿? (Hora 01:37) V=RxI , o sea tensión ...    
 Y ahí tengo una fórmula que me implica **V = RxI** yo tengo una relación esta... Estamos esta relación equivale a la ley de ohm. Yo puedo transformarla de cualquier forma si tengo la resistencia de conductor y tengo la tensión yo puedo saber que corriente pasa por eso.   
    
-Alumno(que hizo enojar al profesor): Claro le hacés una ecuación, un despeje.   
+Martin(que hizo enojar al profesor): Claro le hacés una ecuación, un despeje.   
 ###### Torres(Avogadro): Voltaje = Resistencia por Intesidad.   
 Profesor: y por eso para mi es imporante ahora escribí abajo la otra fórmula de potencia para que tengan en cuenta cuál es la que yo puedo utilizar de acuerdo a eso aplicar lo que yo necesito, entonces es imporatnte que tengan en cuenta eso para saber nosotros acá **cálculo de resistencia es muy difícil que necesitemos para una instalación eléctrica**.   
-Alumno(que hizo enojar al profesor): Eso es más para eléctronica?   
+Martin(que hizo enojar al profesor): Eso es más para eléctronica?   
 Profesor: Fijate ese conductor cuánta resistencia tenía. El conductor ese primero que viste ahí el largo, para saber.   
 Ayudante: Ese no sé donde está.   
 Leiva: Firmaste ya?   
@@ -544,7 +544,7 @@ Pero si yo divido eso por 220 me dará un valor de amper o sea de corriente que 
    
 Pero si pongo una alimentación de un tablero que está a una distancia de 15 o 20 metros y este valor de 4 mm^2 puede pasar a 6 o 10 mm^2 depende que fórmula tengo, y después se comprueba con el tema de la pinza amperométrica.   
 ##### Por eso es imporante: La sección del conductor y que caída de tensión de acuerdo a la longitud.   
-Alumno(que hizo enojar al profesor): Entre el tablero principal y el tablero seccional también hay una caída de tensión según la distancia?   
+Martin(que hizo enojar al profesor): Entre el tablero principal y el tablero seccional también hay una caída de tensión según la distancia?   
 Profesor: Según la distancia pero se calcula de acuerdo al consumo que vos tengas internamente. Por eso es interesante esta lámpara de 100 amper¿? (100 watts quizo decir) anteriormente nosotros hacíamos el **cálculo tomando la cantidad de bocas y poniendo 100 watts por cada luminaria entonces la suma de todas esas luminaria que está en esta habitación me daba un valor de potencia y dividíamos por la longitud verificamos que la sección de conductor correspondiente para esta parte iluminaria sea la correcta.**   
 Barrientos(Vendedor): Eso para calcular el conductor y la llave termoagnética?   
 Ayudante: Eso es para calcular el conductor. La termomagnética vos ponés de acuerdo a qué sección de conductor usas.   
@@ -557,11 +557,11 @@ Ayudante: Tenés que aumentar.
    
 #### Puteada (Hora 01:46)   
 Eso se hace pero yo no quiero complicar yo quiero empezar por acá 1ero.   
-Alumno(que hizo enojar al profesor): No, pero igual podemos profe.   
+Martin(que hizo enojar al profesor): No, pero igual podemos profe.   
 Profesor: No no no no, no empecés a hablar porque te voy a echar.   
-Alumno(que hizo enojar al profesor): Tenga fé en nosotros.    
+Martin(que hizo enojar al profesor): Tenga fé en nosotros.    
 Profesor: Te voy a empezar a echar porque no quiero que hables, la gente recién empieza, y si vos sabés algo me interesa, pero si decís pavadas no me gusta. Me estoy enojando porque acá la gente viene a aprender no vienen a... No me gusta que digas cada cosa, no me resulta interesante lo que decís eso te digo la verdad. Y si no te gusta te pido que te retires esa es la única solución que te doy.    
-Alumno(que hizo enojar al profesor): No profe estaba jodiendo...   
+Martin(que hizo enojar al profesor): No profe estaba jodiendo...   
 Profesor: No no, por eso no me gusta los chistes porque la gente viene a aprender y va a escuchar cosas y capaz que le queja lo que vos dijiste y eso está mal. Entienden? No es que te quiera joder pero a veces queda lo otro y no lo REAL. Si ellos supieran todo estén en el mismo nivel SÍ. Pero las chicas allá están perdidas entonces tengo que tener en cuenta que hay gente que recién empieza entonces no me vengas a decir cualquier cosa. Igual que este tipo (avogadro), levanten la mano yo voy a responder lo que ustedes quieran pero no me empiecen a joder así porque a mi no me gusta, soy sincero yo vengo acá a enseñar dar todo lo que pueda para que ustedes aprendan ahora si vienen a hacer CHACOTA acá yo no sirvo, soy sincero. (Hora 01:47:40)   
    
 Alumna: Mañna qué podemos traer?   

@@ -70,10 +70,10 @@ Rubén Leiva: Igual yo mandé mensaje no sé si vió.
 Profesor: Si yo miro mensajes es porque estoy tan (al pedo), algún día cuando tengamos proyector le voy a traer un... El arquitecto y si puedo ya miro vemos ahí algunos catálogos que quiero que ustedes vean para que tengan idea.    
 Rubén Leiva: Térmica por las dudas no tiene?     
 Profesor: No queres cable también, podemos conseguir eso no hay problema. Ya quiere todo, de última ya vamos a hacer la práctica en tu casa ya. Vos preparas el asado no más.    
-Entró las cosas, los catálogos en su celular? Cualquier cosa hablen. Samuel ¿recibiste información o no?.     
+Entró las cosas, los catálogos en su celular? Cualquier cosa hablen. Martin ¿recibiste información o no?.     
     
 Minuto 12:38 conseguí algo para que vayan viendo más o menos, estos son los perfiles que forman para el sistema de durlock y para hacer divisiones, este va a hacer como no vino la chica esta es la hoja de asistencia entonces leahorramos ahí a la gente ahí, eso es lo que me dió recién así que. Ya vamos a empezar.    
-Samuel: Profe, vió que ud. me agregó al grupo pero va a tener que reenviar la información si puede porque como entré nuevo.    
+Martin: Profe, vió que ud. me agregó al grupo pero va a tener que reenviar la información si puede porque como entré nuevo.    
 Profesor: Te voy a mandar solo a vos, no voy a reenviar al grupo. Sino voy a volver a repetir todo. Eso de tener un proyector, no tener televisor... Aunque me podrían prestar el televisor aunque sea parece que no me quieren. Si tenemos suerte el arquitecto viene temprano hoy y me da la posibilidad de que podamos arreglar ahí. Lo que ustedes vieron ahí en el sería en lo último que se mandó ahí del **pilar medidor monofásico** es parecido a esto pero acuérdense que acá tenemos bajada entrada y salida para el tablero general después hay otro **como hay dos caños uno es para la salida, uno entrada entra al medidor, del medidor va al tablero general y después tengo otro para la salida eso es para que tengan en cuenta** porque **siempre y cuando sea aérea si no es aérea solo pongo 1 caño**, bajo voy al medidor del medidor va al tablero general, del tablero general va en forma subterránea.    
     
 ###### Si es aérea son 2 caños, sino ponemos solo 1 caño: bajo voy al medidor del medidor va al tablero general, del tablero general va en forma subterránea.    
@@ -101,7 +101,7 @@ Maru: Eso para que se cumpla de que esté fijo?
 Profesor: De que esté fijo, esto está en forma.    
 Maru: No hay otra forma de fijar al durlock la única forma más segura es decir ponerlo...    
 Profesor: A la estructura. Eso quiero decir, **a la estructura de durlock**. O sea que la gente que va a trabajar que va a hacer vamos a suponer que esta sea la placa, **la placa de durlock van a hacer los perfiles y le va a emplacar este lado, emplaca solo este lado**, y le va a quedar toda la estructura adentro, entonces una vez que terminen esto queda fijo a este sistema que ustedes le van a anclar con la tijera cortachapa fijan bien y después fijan esto al perfil este, una vez que terminan van caño para arriba o para el costado a donde quieran ustedes la instalación perfecto, **una vez que termina la instalación recién el otro tipo viene y le hace la otra placa y le hace la mueca para que esto quede**. Esto es lindo verlo y hacerlo, pero es fácil.    
-Samuel: O sea el ¿? (Minuto 25:44) se encarga de hacer el corte?    
+Martin: O sea el ¿? (Minuto 25:44) se encarga de hacer el corte?    
 Profesor: El corte? Sí, automáticamente ellos hacen así, así que nosotros esa parte le dejamos tenemos que armar nosotros la instalación y fijar eso que no se mueva, que quede bien fija y una vez que está ellos entran y hacen lo que tienen que hacer. Hay gente que después tiene también la posibilidad de fijar de otra forma depende de como tengo el perfil, pero lo ideal es siempre arriba. Eso apoya ahí y esto esté fijo, eso vamos a ir viendo, me tengo que juntar con la chica allá para que me den una **pared simulada y le metemos 2 o 3**. ¿Estamos?    
 Maru: Conductor preensamblado ese va...    
 Profesor: Arriba, aéreo.    
@@ -155,7 +155,7 @@ Profesor: Dice que el arquitecto tiene una computadora y tiene un proyector chiq
 Maru: Me parece que si está en la esquina.    
 Ayudante: vos podes preguntar todo lo que quieras nadie nació sabiendo, cualquier duda se pregunta y se contesta.    
 Maru: Habla de la ferretería     
-Samuel: Que onda el megómetro?    
+Martin: Que onda el megómetro?    
 Ayudante: ESo se usa para medir puesta a tierra, que tan fuerte es tu puesta a tierra.    
 ###### Una forma alternativa de medir puesta a tierra: La medición entre fase y tu puesta a tierra tiene que ser lo más cercana a lo que es tu fase y tu neutro, esas 2 mediciones tienen que estar lo más cerca posible y ahí te das cuenta que tenes una buena puesta a tierra sin usar megómetro.    
 ##### Nota: Eso es con tensión, hay tester en tensión y tiene que haber consumo, si no hay consumo siempre va a dar 220. El problema es cuando hay consumo. (No es bueno ese método porque no hay corriente por la tierra vos podes tener 220 pero cuando pones una lamparita LED se va a 100 voltios). Lo que hacían antes probá con un foco de 100 vatios una lámpara entre fase y neutro y fase y tierra.    
@@ -176,7 +176,7 @@ Ayudante: Sí, se usa para electricidad, electrónica.
 Gustavo Barrientos: Refrigeración porque ese mide capacímetro.    
 Ayudante: Las pinza amperométrica también tiene capacímetro     
 Gustavo Barrientos: No, la que yo tengo no tiene que ser bastante sobrecargada.    
-Samuel: Cuánto ronda un megómetro?    
+Martin: Cuánto ronda un megómetro?    
 Ayudante: Esta es mía y tiene capacimetro, el multitester y la pinza amperométrica no están exclusivamente dedicadas a una sola área se pueden usar los dos en ambos campos.    
 La diferencia más notable es que esto te mide el consumo de los cables por esta pinza. Vos colocas esto así agarrando un cable a la vez y sabes cuando está consumiendo ese cable en amperios.    
 Sebastián: Podemos ver cuanto está consumiendo el aire a 23 ahí?    
@@ -230,7 +230,7 @@ La particularidad de este sistema de PVC es que tengo un tipo mecha triangular c
     
 Torres: En esa gotita es para pegar los...    
 Profesor: Ese pegamento es para colocar, famoso poner una curva o un conector, este es el pegamento que queda duro. Ellos venden también este para fijación. Esta es unión entre 2 caños, fíjense esta es la cupla la unión y este es el conector que va directamente a una caja.     
-Samuel: Ese lleva pegamento la cupla o no?    
+Martin: Ese lleva pegamento la cupla o no?    
 ###### Las cajas no se tienen que mover ni para arriba ni para al costado. El profesor cuando inspecciona la obra golpea la caja si cerraron el cielo raso.    
 ###### Empujo si para arriba no sube es porque ya está fijo y si para el costado tampoco es porque está fijo*    
 Profesor: La cupla no necesita pero podes hacerlo si queres, si vos fijaste tu boca o tu caja acá y tu caja acá no se va a mover entonces vos pones el conector pone el caño correspondiente para que no se mueva. Si vos no fijas tu caja es probable que... Para que ustedes entiendan **voy yo inspector de obra fijó la caja y ya me cerraron acá lo que hago es esto (toca la caja con un palo), la caja no se tiene que mover ni en este sentido ni en el sentido contrario**. Golpeo de arriba, me tiene que sujetar. Agarro cualquier palo porque a veces ya está cerrado el cielo raso de PVC entonces tengo que probar la caja como está, entonces **empujo si para arriba no sube es porque ya está fijo y si para el costado tampoco es porque está fijo**. A veces más cuando trabajamos con tema de cañería de hierro, vos hacías ese movimiento y se salía y quedaba el cable colgado ahí raspando entonces.... **TENÉS QUE FIJAR LAS CAJAS.**     
@@ -238,13 +238,13 @@ Profesor: La cupla no necesita pero podes hacerlo si queres, si vos fijaste tu b
     
 Hay distintas medidas de cajas de paso depende de lo que yo necesite. Vamos a ese **instalación integral, instalación eléctrica.**     
 En cualquier lugar de venta de materiales Genrod le dan todas las posibilidades para que ustedes más o menos tengan idea como se hace una instalación, tablero, bueno acá tiene el medidor pero el tablero principal y de ahí sale la alimentación fíjense toma por ejemplo, iluminación, ellos ponen esta medida como les puedo decir separada pero la realidad es que **yo puedo hacer las mismas cañerías y después hacer la distribución de conductores a los tomes no teniendo en cuenta distintas cañerías sino que por la misma cañería yo puedo pasar ahora cuando ustedes lean esa parte que le mandé por último YO PUEDO PASAR HASTA 3 CIRCUITOS POR CAÑERÍA ENTONCES PUEDO IR POR ARRIBA  Y BAJAR**. Acá lo que está mostrando directamente es donde tengo los tomas fíjense el tema de la sobremesada está un poco exagerado pero para que ustedes vean que tengo las bocas, cajas octogonales ahí y tengo el encendido miren, encendido acá aire acondicionado, mostrame un cachito ahí fíjense sigue sigue sigue, esto puede ser como caja de paso y este aire acondicionado.    
-Samuel: Ahí está dividido el circuito para especial, cablevisión, tomacorriente.    
+Martin: Ahí está dividido el circuito para especial, cablevisión, tomacorriente.    
 Profesor: École. Ahí también ellos especifican que el tablero que ellos tienen es de PVC.     
 Torres: NO dice ahí el presupuesto?    
 Ayudante: Enfocate en el conocimiento 1ero, después la plata.    
 Torres: Es para saber nada más Profe.    
 Profesor: No, pero...    
-Samuel: Cuando termina de aprender ya va a aumentar de vuelta.    
+Martin: Cuando termina de aprender ya va a aumentar de vuelta.    
 Torres: si por eso.    
 Gustavo Barrientos: Yo puse en el grupo los presupuestos de los caños     
 ###### Como calcular precio de instalación eléctrica (entrando en ElectroMisiones)    
@@ -261,7 +261,7 @@ Ayudante: Obvio que no.
 Profesor: Pero bueno ese, el tema es así el proyectista puede hacerlo de diferente manera yo no creo que todos si hay 20 departamentos todos tengan espejo (con luces), **yo pondría otro espejo**. O sea mi teoría en vez de un espejo invertiría en otra cosa, en un **lavatorio por ejemplo o un inodoro**, si ella quiere invertir en un espejo bueno es cuestión de uno.    
 Maru: Por ahí un departamento para mujeres porque las mujeres necesitamos espejos.    
 Profesor: No está bien no digo nada, pero con luces.    
-Samuel: El tema es que el arquitecto presenta un proyecto y ese mismo proyecto lo replica en todos lados y ahí.    
+Martin: El tema es que el arquitecto presenta un proyecto y ese mismo proyecto lo replica en todos lados y ahí.    
 Profesor: Ah che, ya pienso que es moderno entonces iba a tocar con el dedo no más.    
 Ríen.    
 Maru: Y el otro gabinete que está en el garage que posibilidad tiene? (Imágen de la presentación).    
@@ -281,10 +281,10 @@ Maru: Tiene que sacar solamente la parte de afuera, la otra ya tiene el ladrillo
 Profesor: Claro, lo que pasa es que si yo no tengo un elemento eléctrico para hacer esto. Hay gente que tiene...    
 Torres: Masa y cortahierro.    
 Profesor: Masa y cortahierro. Entonces esto va a quedar todo medio un nido de ratas.    
-Samuel: NO va a ser tan prolijo.    
+Martin: NO va a ser tan prolijo.    
 Profesor: a veces sin querer pasa para allá porque le pegó tan fuerte que rompió el caño     
 Torres: Y después te dice pero si vos me mostraste una foto que iba a quedar así    
-Samuel: Ahí te faltó mojar el ladrillo, por eso se abrió.    
+Martin: Ahí te faltó mojar el ladrillo, por eso se abrió.    
 Profesor: Si yo quiero hacer a la vista, ahí se ve perfectamente que hay grmapa de sujeción fíjense a veces de diámetro 8 pero generalmente es de 6 o 8 el que está acá, si yo tengo que colocar esto a mi nunca me gustó más o menos porque yo perforo y después el capuchón o el tornillo de PVC se adhiere a la mampostería y ajusta pero para mí no es una buena sujeción porque tampoco tengo el otro sistema el tarugo, esto no tiene tarugo. **Con tarugo para mi es mucho mejor, esto directamente uno perfora y lo va metiendo y a veces se expande**.    
 Maru: Pero en ese caso por ejemplo porque el ladrillo hueco es re vos le hacés así ya fue ya. Ahí presenta como para que por ejemplo le va a tener que terminar poniendo mezcla.    
 Profesor: **Cuando terminamos el revoque grueso ahí recién entra la cañería de PVC sino entra la cañería para pasar la parte eléctrica, generalmente se hace la faja.** Entonces ya ponen la faja de un lado y del otro hasta un sector al otro y ya tengo donde tiene que ir cada cajita, y ahí puedo hacer el sistema.    
@@ -325,7 +325,7 @@ Torres: Ese, ese, ese. 3 pitones. Y ahí le pasa con un precinto los cables y ah
 Profesor: **De lo que está hablando él es de TV por cable, entonces la entrada hace lo mismo no directamente sino a través**.    
 Torres: Claro, y yo le dije por qué no le metes así no más? Técnico: No porque así el agua cae así gotea y no entra agua.    
 Profesor: Y más si tengo este sistema eléctrico o sea.    
-**Samuel: Cuando el caño el tubo está embutido en el ladrillo como vemos ahí, también lleva la lampara de sujeción o solo mezcla.    
+**Martin: Cuando el caño el tubo está embutido en el ladrillo como vemos ahí, también lleva la lampara de sujeción o solo mezcla.    
 Profesor: No, no no. Ese mezcla, la grampa solo se usa exterior**. Este también es otro sistema de sujeción pero es medio ambeo ¿? (Hora 01:14), en este caso es para caño de hierro pero también puedo usar para este caño, ¿qué ventajas tengo esto? Que tengo que ver como coloco acá, **acá pico los caños el tarugo de acá abajo para que el caño no vaya para abajo a veces pongo arriba está flojo alguien apoya y se va para abajo pero acá no**, apenas que se afloje pero es muy difícil.    
 Ayudante: Ríe.    
 Profesor: Seguimos. Después tenemos video que habla pero vamos a dejar para otro día esas cosas. Fijense lo que vimos a través del sistema, vuelvo a recalcar esto es medidor y tablero general detrás del medidor ahí, esto es lo que quería mostrar, **ese es el caño que viene ahora doble aislación fíjense bien PVC, garbanizado y PVC que es este caño, o sea que reemplaza el caño garbanizado por ese tipo de PVC con una estructura interna metálica para que eso no tenga deformación porque solo PVC es probable que con el calor y el esfuerzo se doble**.    
@@ -352,7 +352,7 @@ Profesor: No, no.
 ###### Profesor: A veces eso está prohibido aprovechan esta es tu entrada a tu casa para iluminar y usan las cajas de paso de iluminación para eso, no sirve, porque esto tiene que ir directamente allá y después sacar para las otras iluminación.    
 Sebastián: O el verde en todo caso.    
 Profesor: Exactamente.    
-Samuel: Digamos esa línea amarilla es la que va al preensamblado.    
+Martin: Digamos esa línea amarilla es la que va al preensamblado.    
 Profesor: École, va al tablero seccional. Seguimos.    
 ###### AlumnoX(Selva no recuerdo): Siempre van dos jabalinas una en el medidor y otra en el seccional?    
 Profesor: NO. Si está bien hecha la puesta a tierra se aconseja de llevarle juntamente con el conductor que va de alimentación otro conductor que generalmente, que después vamos a ver, igual al conductor de entrada para la puesta a tierra. De ahí se saca otra alimentación al tablero seccional, lo que pasa es que hay veces hay gente como una distancia mucho muy grande a veces pongo otra jabalina allá. **Y esa jabalina tiene que estar unida**.    
@@ -429,9 +429,9 @@ Ayudante: Esta mas abajo
 Profesor: Tengo el material como se utiliza, el pegamento fíjense para que quede fijo, todo eso que están ahí los soporte grampa de sujeción de fijación como tengo la mecha para usar.    
 Sebastián: Mecha para plástico.    
 Profesor: Para plástico, o sea tenemos un catálogo que te da la posibilidad que ustedes no se pierdan cuando hagan lista de materiales entonces después cualquier información le dice la instalación: **"perforar con mecha de 6"** estamos?    
-###### Samuel: Las grampas van a cada 1 metro o cada cuánto van?    
+###### Martin: Las grampas van a cada 1 metro o cada cuánto van?    
 Profesor: **Después te voy a leer la parte de reglamentación. No, lo que dice normalmente si yo tengo un caño de hierro que es de 3 metros yo tengo que fijar más o menos este caño a 1 metro acá y 1 metro acá el caño de hierro fijo acá y acá**, si yo tengo un caño de PVC en vez de poner 2 grampas pongo 3 grampas mínimo.    
-Samuel: Ah en 1 metro metemos 3 entonces.    
+Martin: Ah en 1 metro metemos 3 entonces.    
 ###### Gustavo Barrientos: No, en 3 metros 3 (grampas).    
 Profesor: Sí, en 3 metros 3. O sea le hago una imagen más o menos pero como el caño de hierro es rígido yo puedo poner ahí que te da la distancia de acá hasta acá 1 metro o 0,70 y de acá a acá lo que te sobra el caño de hierro, y el otro pretende que en vez de colocar 2 grampas en un caño de hierro, mínimamente sean 3 o más depende de que característica es tu caño, **acuérdense ese caño liviano los 1eros caños livianos con memoria este es ya un poco semipesado tiene la particularidad de que no sufría deformación hasta temperatura de 60 grados, los nuevos con más espesor tienen la particularidad de que esa temperatura recién a los 90 grados se producía una deformación**    
 Se produce la deformación porque tiene calor peso del conductor y depende de la sujeción que yo tenga esto se desforma algunos lugares que he visto, se desformó.    
@@ -457,7 +457,7 @@ Profesor: Está todo mandado. **TubicElectric era lo anterior y después está e
 Ayudante(Ale): Que al profe no le gusta.    
 Profesor: O sea que ahora hicieron un acuerdo entonces hacen o sea todas las multinaciones tienen la posibilidad de llegar a un acuerdo en común, las cooperativas en este caso, una cooperativa de energía es EMSA.    
 Maru: Pero que adaptaron los productos a la reglamentación?    
-Samuel: No la reglamentación a los productos.    
+Martin: No la reglamentación a los productos.    
 Profesor: A los productos que eran de otro lado, o sea esto ya estaba se introdujo ahí en 1era instancia en Gran Buenos Aires, después en Córdoba y bueno todas las provincias de allá pero eso es lo que se viene y ya tienen, yo lo que quiero mostrarles es de donde sale y qué característica tiene para que ustedes no se pierdan.    
 Maru: Se modernizó digamos todo la reglamentación?    
 Profesor: Sí, se modernizó, la reglamentación se va modernizando para seguridad.    
@@ -525,7 +525,7 @@ Alumno(selva): Los 2 tableros se alimentan desde el general?
 Profesor: **Lo ideal es: desde el general va a 1 tablero y si yo tengo por ejemplo el tablero a mi entrada yo pongo de ese tablero un corte principal porque tiene un corte principal acá abajo y de acá voy arriba cualquier cosa este de abajo corta todo el otro general generalmente se usa por caso que yo tenga o vamos a suponer vengan los bomberos porque abajo del pilar ya corta y listo**.    
 Maru: O sea sería 1 por piso? Porque por ejemplo yo tengo abajo, tengo otro piso y otro piso. O sea 1 por cada.    
 Profesor: École. O sea 1 por cada ambiente. École. Si si por cada piso.    
-Samuel: Eso ahora o siempre fue así?    
+Martin: Eso ahora o siempre fue así?    
 Profesor: Desde que yo hacía proyectos hacía de esa forma.     
 Maru: No porque hasta que llegas hasta abajo peor todavía te matas.    
 ###### Profesor: Claro, tenes que ir hasta abajo, lo ideal es que por piso se maneje ahí y se evita cualquier...    
@@ -534,7 +534,7 @@ Profesor: Vayan mirando por eso mismo le dije a la señora allá, todos los prob
 Maru: Lo 1ero que pregunté: ¿de qué color es el caño de los corrugados? Ahí me dijieron que eran blanquitos.    
 Profesor: Después vos tenes que decirle que estabas usando liviano, semipesado o pesado?    
 Maru: Si.     
-Samuel: No viene la semana que viene.    
+Martin: No viene la semana que viene.    
 Profesor: Ahí dice una cosa muy interesante. Todavía no empezamos a ver el tema del tablero los recintos en donde se ubican los tableros deben disponer de iluminación artificial adecuada que permita ver y operar en forma segura y efectiva de dispositivos de maniobra y leer instrumentos con facilidad para que ustedes entiendan en algunos lugares en donde tengo mayor tránsito se colocan luces de emergencia. Vamos a suponer acá no tenemos todavía pero si hay un problema ahí en el pasillo debería haber varias luces de emergencia que indiquen la salida lo mismo ocurren en un tablero si yo tengo un problema con un tablero tengo que tener la posibilidad de tener aunque sea una luz artificial acá en ese caso luz de emergencia para que la persona que va a revisar el tablero tenga suficiente luz.    
 Lo otro hacemos solamente cuando hay edificios tablero general tiene que estar con iluminación para poder...    
 Maru: pero ese es en el caso de vivienda multifamiliar de edificios    
@@ -546,7 +546,7 @@ Profesor: Con eso se puede trabajar trabajar en la oscuridad es lo peor que hay 
 Leiva: Ya sabías de que íbamos a hablar hoy.    
 Alumno: No siempre vengo de mi casa, hay muchas veces que vengo de lugares en donde estoy trabajando.    
 Profesor: Después a fin de año rifa (chiste).     
-Samuel: Sino poné una cinta aisladora con el celular.    
+Martin: Sino poné una cinta aisladora con el celular.    
     
 **La iluminación del recinto se ubica en tableros debe permitir una fácil lectura operación de esto con nivel de iluminación 200 luz a un metro del nivel del piso**, estos 200 luz es como si yo tuviera acá esta iluminación o sea que tenga en otras palabras suficiente iluminación para poder hacer cualquier reparación dentro del tablero pero este es iluminación de 12, nosotros trabajamos 12 a 500 lumen.    
 Sino si tuviera poca luz, a veces la gente no cree pero generalmente las escuelas a veces cambian un fluorescente y meten una lámpara común esa que ustedes hicieron, le ponen un foco y listo, portalámpara con ese foco y listo pero ¿que pasa? Si tuviera iluminación natural abre la ventana y eso con otro se complementan pero si tiene solo iluminación artificial que es este caso por ejemplo tengo que tener buena iluminación porque sino el día de mañana las personas los chicos van a tener que usar anteojos porque se le va a gastar la vista.    

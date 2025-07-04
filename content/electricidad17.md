@@ -37,10 +37,10 @@ Leiva: Muchas cosas que sirven podes encontrar en un contenedor si la gente tira
 Gustavo Barrientos: Y el cargadorcito ese llegué y enfuché, el cargador de batería, una batería de auto 6 voltios 12 voltios así chiquitito, de 10, hasta hoy uso, tarda un poquito para auto tiene que cargar una noche.      
 Leiva: Y publicaron ¿? Ruido (Minuto 03:21)      
 Gustavo Barrientos: A mi me gusta las Eco, tengo 2 jeep, los jeeps viejos y ese cuando queres arrancar tenes que poner la batería...      
-Habla Antonio Cardozo y Samuel de un accidente al parecer.      
+Habla Antonio Cardozo y Martin de un accidente al parecer.      
 Sebastián Melgajero: Capaz estiramos la mesa y se desarma todo (tablero armado clase anterior), separamos las 2 mesas así. Decí que nadie tocó. Esto haces en una primaria y te... Ni se puede hacer directamente.      
 Leticia Botolli: No.      
-Habla Antonio Cardozo y Samuel de un accidente al parecer.      
+Habla Antonio Cardozo y Martin de un accidente al parecer.      
 Leticia Botolli: No llega Internet ni para ver el reporte del tiempo, yo me conectaba el año pasado pero parece que hasta acá no llega.      
 \* Llegan las chicas (Margarita y Daniela)      
 Profesor: Como andan, yo soy el cachero así que no se preocupen. Bueno vamos a hacer algo por la patria. Yo sé que otra compañera envió un manual...      
@@ -156,7 +156,7 @@ Pero lo ideal es que ustedes sepan una tipo plano este está hecho tipo un dibuj
 Cada alarma tiene distintos elementos que uno son opcionales por supuesto y que uno puede agregar para mayor seguridad pero hay lugares yo necesitaba por ejemplo colocar justo en la cochera sino justo en el pasillo de entrada también se pone una **barrera que está fija la otra móvil allá pasa un haz de luz, esa luz no se ve pero ustedes cortan eso y automáticamente se activa la alarma y esto es para que sirve la sirena para que lo interiores es para que el tipo que está adentro salga rápido(entre en pánico) y la exteriores es en caso de que pase algún vecino y sepa que está activada la alarma.**       
   
 A veces sin querer una rata puede activar la alarma entonces es interesante hay muchas maneras yo he visto algunos lugares aparentemente casas recién terminadas no sé si es interesante pero no sé si vienen en la medianera los rollos de alambre esos que parecen campos de concentración evidentemente alguien ya le estuvo pasando la...   
-Samuel: Ya le saltó.  
+Martin: Ya le saltó.  
 Profesor: Ya saltó entonces eso incomoda porque como es arriba tenes que saltar o lo que sea y te **incomoda** y hay gente que levantaron el muro con más de 2 metros y pico igual pasaron entonces es interesante el tema más ahora que tenemos bastante tecnología que tranquilamente te suene tu celular ya estás mirando ahí que es lo que está pasando, y **hay lugares que vos activas y hay un video y directamente activa hasta que las personas tiene una computadora y de acuerdo a la cantidad de memoria que tiene te graba todo lo que pasa ahí en ese momento más si hay gente, peor todavía**  
       
 La otra vez estaba mirando una casa que entraron a robar y estaba la cámara no tenía alarmas sino que tenía alarma, ellos entraron sabían que no había nadie reventaron la entrada del garage y entraron a la casa al departamento  tenía solo la cámara y la cámara sola no sirve porque el tipo vaya a saber donde estaba demoraron robaron todo lo que quisieron y tampoco se ve bien porque estaba con la gorra encapuchado solo saben que salieron en auto Toyota pero capaz que era robado también así que...  

@@ -272,7 +272,7 @@ CONFIG_FB_EFI
 CONFIG_FB_VESA
 ```
 
-Cuando bootee no tenia imagen pero igual podia escribir usuario: root y la clave y apagar mi computadora o pude ver videos con mpv e iniciar el entorno grafico con `seatd-launch sway`
+Cuando bootee no tenia imagen pero igual podia escribir usuario: root y la clave y apagar mi computadora o pude ver videos con mpv e iniciar el entorno grafico con `seatd-launch sway` esto lo hice despues de bootear la máquina usando `nomodeset` e instalar los siguientes paquetes:
 
 
 Los primeros paquetes que instale despues de iniciar Linux.
