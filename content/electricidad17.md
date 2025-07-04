@@ -253,19 +253,19 @@ Gustavo Barrientos: Ah por si alguien cable.
 Ayudante: Si para que vos sepas que si seguis cabando te vas a encontrar con un cable.  
 Profesor: Manda la foto pue chamigo ya que tenes celular. Para que ustedes vean ahi la canalizacion el sistema. Aca tengo otro ayudante tecnologico.  
   
-Esto es todo subterraneo puede ir en un sistema de tierra, sin un ca;o camisa un ca;o de proteccion lo que sea, porque tambien en algunos lados habia   
-ahi ahi ahi. Generalmente usamos, nosotros somos los vivios y trratamos de usar los ca;os de PVC que estan en el desague lo que sea, entonces usamos  
-como todo ca;o de PVC tambien tiene distinta caracteristica o sea mayor espesor mayor lo que ustedes quieran.  
+Esto es todo subterraneo puede ir en un sistema de tierra, sin un caño camisa un caño de proteccion lo que sea, porque tambien en algunos lados habia   
+ahi ahi ahi. Generalmente usamos, nosotros somos los vivios y trratamos de usar los caños de PVC que estan en el desague lo que sea, entonces usamos  
+como todo caño de PVC tambien tiene distinta caracteristica o sea mayor espesor mayor lo que ustedes quieran.  
   
 Entonces tratamos que no pase esto no mas pero sirva para proteger el sistema, lo unico que no mantemos en el sistema por ejemplo normalizado es cuando  
-tenemos que pasar un piso de hormigon o piso de mamposteria ahi si o si tenemos que pasar con un ca;o camisa, si va enterrado a una distancia no es  
-necesario estar tan bajo sino directamente depende de que caracteristica tenga pasamos un ca;o camisa.  
+tenemos que pasar un piso de hormigon o piso de mamposteria ahi si o si tenemos que pasar con un caño camisa, si va enterrado a una distancia no es  
+necesario estar tan bajo sino directamente depende de que caracteristica tenga pasamos un caño camisa.  
   
-Sobre ese ca;o camisa vamos a suponer que esto sea mi entrada y este sea el piso de mamposteria, pasa el ca;o camisa y el conductor, este ca;o tiene que  
+Sobre ese caño camisa vamos a suponer que esto sea mi entrada y este sea el piso de mamposteria, pasa el caño camisa y el conductor, este caño tiene que  
 por supuesto pasar 10cm para alla y 10cm para alla del caminito del piso.   
 Ayudante: Del piso.  
 Profesor: Del piso porque hay piso de hormigon pobre lo que sea, entonces me sirve para que en caso de que yo tenga que reemplazar hubo un problema electrico  
-o sin querer entro una descarga muy grande al conductor pueda remplazar porque este ca;o camisa va a estar aca abajo del piso, entonces puedo deslizarme  
+o sin querer entro una descarga muy grande al conductor pueda remplazar porque este caño camisa va a estar aca abajo del piso, entonces puedo deslizarme  
 aca no hay problema porque yo ya hice el pozo tengo solo tierra y esto desentierro y se cambia.  
 Ayudante: Ahora si le cargas hormigon arriba esta dificil que saques.  
 Profesor: Si la gente tiene un buen inspector de obra enseguida le va a dar los puntos que ellos quieren para ejecutar eso y esta cinta de seguridad siempre es interesante  
@@ -277,9 +277,9 @@ Profesor: Claro ahi va a llegar aca y ahi directamente te va a decir no hermano,
 porque probablemente llegue a un elemento que transporte energia y si transporta energia es muy probable que....  
   
 Mande una gente ahi en Ituzaigo y estaban haciendo iluminacion perimetral de una casa de algun pobre seguramente, entonces estaban haciendo colocando los faroles  
-y en una de esas el tipo sigue cavando y hizo un peque;o cortocircuito. No tenia la cinta, tenia la alimentacion principal de la casa que iba directamente  
+y en una de esas el tipo sigue cavando y hizo un pequeño cortocircuito. No tenia la cinta, tenia la alimentacion principal de la casa que iba directamente  
 desde el medidor hasta aca subterraneo, no sabia a ciencia cierta porque era un sistema de pasto y no se veia nada y plantaron el pasto despues de haber colocado  
-los conductores el se;or queria tipo una farola perimetral hasta el lugar y los vagos para hacer la farola depende de que altura tenga, tengo que hacer una   
+los conductores el señor queria tipo una farola perimetral hasta el lugar y los vagos para hacer la farola depende de que altura tenga, tengo que hacer una   
 profundidad minima de casi 1 metro para poder.  
 Martin: Para la zapata.  
 Profesor: Si depende de que altura tenga entonces para que quede bien fijo y bueno en ese interin junto agarraron la conexion primero pensaron que era **tosca**  
@@ -287,7 +287,7 @@ tenia un elemento de proteccion parece tipo una teja golpea y bueno penso que er
 a el le salto.  
   
 ##### Cinta de seguridad  
-El a;o pasado mostraba en la television una gente que fue a robar un conductor subterraneo en el lugar entonces el entra al pozo a sacar el conductor  
+El año pasado mostraba en la television una gente que fue a robar un conductor subterraneo en el lugar entonces el entra al pozo a sacar el conductor  
 y empieza a cortar cuando corta el primero no habia problema porque tenia solo 1 tension este era aislante, corta los dos, cuando empieza a cortar el otro  
 conductor recibe la descarga, encima no era de baja tension sino era un conductor de media tension, recibe la descarga y lo 1ero que hace en esos momentos  
 la tension muy grande, entra la corriente a tu cuerpo y te quema, entonces que pasa el tipo del susto pudo salir ustedes veian todo el cuerpo quemado ya saliendo  
@@ -313,23 +313,23 @@ Despues puedo tener otro...
 ###### Maru: Esos 70 son del nivel de piso para abajo.  
 Profesor: Exactamente.  
 Maru: Eso viene **todo entero no se puede hacer un empalme**. Y cuanto seria del nivel del piso para arriba? Hay algun, yo pense que esos 70 era para hacer el empalme.  
-Profesor: Esto va en profundidad podes colocar a traves de un ca;o camisa o enterrado.  
+Profesor: Esto va en profundidad podes colocar a traves de un caño camisa o enterrado.  
   
 Vamos a suponer que yo tenga aca el tablero general atras del medidor estamos. Eso baja de el tablero general que esta generalmente a 1,40 metros  
 1,50 metros detras del medidor y tengo que unir de aca hasta alla y alla tengo otro tablero que vamos a suponer que sea seccional vengo con  
 el conductor aca que es lo que se hace normalmente? Tengo una distancia **mayor que 8 o 5 metros me conviene hacer una camara de paso 60x60 y alla la entrada la mamposteria otra camara de paso**  
 son camaras de paso ustedes van a ver que en algunos casos que el conductor tiene un enrollamiento ahi dentro de la camara de paso pero no esta cortado  
-entonces va directamente al tablero que va hasta ahi o sea viene sube a traves de un ca;o de PVC porque aca vos tenes la camara de paso ahi en profundidad.  
+entonces va directamente al tablero que va hasta ahi o sea viene sube a traves de un caño de PVC porque aca vos tenes la camara de paso ahi en profundidad.  
   
 Maru: Pero ese si o si tiene que tener los dos, la camara tiene que estar?  
 Profesor: Si vos tenes cerca en algun lado tenes que hacer una camara de paso, porque esto automaticamente si va enterrado vos podes hacerlo directamente por aca   
-por pared vas a tener que poner una canalizacion para poder meter esto, lo ideal siempre es hacer una camara de paso aca con una ca;eria de plastico mayor que  
+por pared vas a tener que poner una canalizacion para poder meter esto, lo ideal siempre es hacer una camara de paso aca con una cañeria de plastico mayor que  
 la seccion de conductor y esto va directamente a la camara de inspeccion externa.  
 Maru: Eso en el tablero seccional?  
-Profesor: Si entonces esto entra directamente llega a la camara puede ir enterrado llega a la camara aca y sube a traves de un ca;o y a un tablero y respeto  
+Profesor: Si entonces esto entra directamente llega a la camara puede ir enterrado llega a la camara aca y sube a traves de un caño y a un tablero y respeto  
 mi tablero.  
 Maru: La camara que es es un cuadrado?  
-Profesor: Es un cuadrado que tiene la misma caracteristica de profundidad que el pozo que vos hiciste, a veces vos venis con el ca;o camisa y tambien dejo ahi  
+Profesor: Es un cuadrado que tiene la misma caracteristica de profundidad que el pozo que vos hiciste, a veces vos venis con el caño camisa y tambien dejo ahi  
 porque esa camara de paso que esta aca que es 60x60 tiene una tapa arriba en algunos casos me permite colocar la jabalina para hacer puesta a tierra.  
   
 Maru: Esa camara de paso va cubierta por cemento como si fuera una rejilla de un desague?  
@@ -339,7 +339,7 @@ Maru: Desde el medidor hasta el tablero seccional?
 Profesor: Si.  
 Maru: Despues si usted quiere usar el mismo sistema por ejemplo para poner en un patio que vaya por tierra, canalizarlo que vaya por tierra tambien  
 se puede usar los mismos...  
-Profesor: Claro porque si encima tengo, si vos tenes un ca;o de entrada despues vamos a suponer que quiero llevar a ese sector (Ruido?),  
+Profesor: Claro porque si encima tengo, si vos tenes un caño de entrada despues vamos a suponer que quiero llevar a ese sector (Ruido?),  
 si vos seguis esta camara de paso haces otra bajada y directamente esa camara de paso lo uso para alla   
 Maru: En ese caso que venga de la parte de adelante?  
 Profesor: Claro  
@@ -347,7 +347,7 @@ Ruido?
 Maru: Pero si atraviesa o sea termina toda la para un quincho se hace lo mismo que se hizo del ...  
 Profesor: Claro no hay problema.  
 ###### Maru: Y ahi tiene que sacar desde el tablero seccional?  
-Profesor: Es lo ideal. Hay gente que tiene el ultimo toma alla en la pieza que alimenta el quincho pero a veces el quincho en algunos casos lo hacen con ba;o  
+Profesor: Es lo ideal. Hay gente que tiene el ultimo toma alla en la pieza que alimenta el quincho pero a veces el quincho en algunos casos lo hacen con baño  
 que lo quieren independizar porque viene gente y en algun lado le ponen un ...  
 Maru: pero ahi no seria otro tablero especial para la iluminacion exterior digamos?  
 Profesor: Claro, si si pero va a alimentar con el subterraneo.  
@@ -357,7 +357,7 @@ Maru: Claro por eso digo que termine primero la casa, yo no estoy pensando estoy
 entonces tomando todo eso queda mas prolijo si lo canaliza bien **y no tiene que estar picando pared**.  
 Leti Botolli: Vio que yo tenia subterraneo lo que alimentaban a mi suegra y no pudieron los muchachos sacar y agarron y hicieron eso con la pared y pusieron  
 ese de PVC que se revento con el...(Granizo) **si yo pongo un subterraneo me va a salir demasiado mas caro que comprar un PVC duro, semiduro o semipesado?**.  
-Profesor: En planta si, hoy si, claro porque vos vas a reemplazar ca;eria y ya tenes conductor, aca vos compras conductor y este conductor hoy en dia de esta  
+Profesor: En planta si, hoy si, claro porque vos vas a reemplazar cañeria y ya tenes conductor, aca vos compras conductor y este conductor hoy en dia de esta  
 caracteristica esta carisimo como 5000 y pico el metro, hay otro que esta mas caro todavia.  
 Leti Botolli: Ah no no es un poquito mas de 2,5.   
 Profesor: De 4 o 6 es. Hay otra cosa que quiero comentar.  
@@ -375,7 +375,7 @@ antes costaba soldar un conductor de cobre subterraneo porque eran unifilares.
   
 ###### Ayudante: Antes los conductores subterraneos eran unifilares era 1 solo alambre  
   
-Profesor: Entonces era mas dificil poder hacer las uniones y todo. Hablando de esos sistemas que dijo la se;ora, lo que usted esta diciendo es baja en forma  
+Profesor: Entonces era mas dificil poder hacer las uniones y todo. Hablando de esos sistemas que dijo la señora, lo que usted esta diciendo es baja en forma  
 subterranea por el piso y cuando tengo que llegar a un lugar por ejemplo si la caja no esta sobre una pared determinada sino esta mas adentro lo que sea  
 tengo que buscar un lugar donde porque no puedo mandar todo el subterraneo ahi.  
 1. Que tengo que poner una canalizacion mas grande para que pase porque esto una vez que entra en algun lugar tiene que tener superficie para poder doblarlo por  
@@ -384,12 +384,12 @@ llega a una caja de paso que puede estar vamos a suponer que esta es la parte qu
 hacer otra caja de este lado a **una altura minima de 30 cm**, entonces llego esa caja que esta ahi depende de que conductor tenga puede ser de 15x15 o 20x20  
 llego con el conductor subterraneo esta es la parte exterior llega a esta caja que esta de este lado, ahi yo hago la conexion puedo poner una bornera puedo hacer  
 un empalme cualquiera si es conductores de 4 mm^2 hago un empalme cualquiera o sino pongo la bornera y de ahi hago la union entre los conductores y ahi ya me  
-conviene a mi utilizar conductores unipolares hago la alimentacion de esa caja a traves de ca;eria y voy al tablero donde este el tablero seccional y hago ya  
+conviene a mi utilizar conductores unipolares hago la alimentacion de esa caja a traves de cañeria y voy al tablero donde este el tablero seccional y hago ya  
 con los conductores unipolares, la parte principal ya la hice llego hasta la camara de paso y ahi hago la conexion de ahi salgo con conductores unipolares a la   
 caja,  
 ###### generalmente cuando tengo que hacer una obra importante coloco subterraneo,trato de que el conductor subterraneo no se corte llege directamente al tablero  
 ###### general hasta el seccional sin cortarse porque la corriente maxima que soporta estos conductores es mayor que un conductor unipolar, unipolar es mas fino  
-hay otros conductores que son todos los conductores normales que necesitan ca;erias para su proteccion entonces la misma seccion de conductor son de corriente.  
+hay otros conductores que son todos los conductores normales que necesitan cañerias para su proteccion entonces la misma seccion de conductor son de corriente.  
   
 El conductor subterraneo tiene la particularidad de tener una corriente maxima que soporta el conductor es 10 veces mas que un conductor, corriente maxima admisible.  
 Si se cocina se derrite toda la baina y a veces suele quedar el cobre, o directamente se fusiona y se corta.  
@@ -406,8 +406,8 @@ la cola de rata ahi y sigo de largo. **Siempre la union se hace no en el piso po
 cualquier elemento por mas que tenga cinta aisladora tarde o temprano el agua entra ablanda la cinta y pasa energia y una vez que tengo ese problema no hay cosa que  
 explota. Autosoldante con el tiempo, dura un tiempo pero despues se ablanda con el agua.  
   
-La otra opcion que yo no tengo la posibilidad una es enterrado directamente y otra es a traves de ca;os, estos ca;os tambien estan a **esta altura tengo que hacer si o si el pozo a 0,70m pongo el ca;o**  
-y ahi paso el conductor por adentro, esto tiene un ca;o camisa es lo mismo que si yo hago canalizacion para un desague por ejemplo bueno, esa parte hago y sigo todo  
+La otra opcion que yo no tengo la posibilidad una es enterrado directamente y otra es a traves de caños, estos caños tambien estan a **esta altura tengo que hacer si o si el pozo a 0,70m pongo el caño**  
+y ahi paso el conductor por adentro, esto tiene un caño camisa es lo mismo que si yo hago canalizacion para un desague por ejemplo bueno, esa parte hago y sigo todo  
 mi trayectoria va a tener este sistema. Eso no implica que siga con los elementos de seguridad las proteccion mecanica sigue igual.   
   
 Fijense una palita le va a hacer, entonces tengo que tener los elementos de proteccion arriba para evitar cualquier problema y a su vez.  
@@ -439,7 +439,7 @@ para que la descarga se haga lo mas rapido posible.
 ###### Ayudante: Antes nosotros preparabamos 2 valdes de 20 con agua salada y eso vos tiras donde esta la jabalina y el agua salada aumenta la conductividad entonces la descarga se hace mucho mas rapido.  
 ##### Profesor: Despues hay una sustancia que se llama ventonita se compra tipo una bolsa de 10 kilos, se prepara todo el sistema lo mismo que hizo el. Se tira sal y otro se hace con sistema ventonita, pero las ventaja que tenemos es que si usamos jabalina generalmente la jabalina tiene que estar hincada, **la tierra nuestra por la gran cantidad de hierro que tiene no es buena conductora.**   
 ### La tierra niau es la mejor para hacer el sistema de puesta a tierra.  
-Pero eso no implica que uses otra tierra, hay metodos de mejoramiento y depende de que lugar yo tenga que proteger por ejemplo si tengo una sala de informatica y que las computadoras tienen una peque;a descarga si o si tengo que hacer una bvuena puesta a tierra.  
+Pero eso no implica que uses otra tierra, hay metodos de mejoramiento y depende de que lugar yo tenga que proteger por ejemplo si tengo una sala de informatica y que las computadoras tienen una pequeña descarga si o si tengo que hacer una bvuena puesta a tierra.  
 Maru:  Pero eso solamente se hace en el momento de instalar la jabalina y ya queda con esas propiedades la tierra?  
 Profesor: No, siempre lo ideal es que esa jabalina se coloque en un lugar humedo en donde le llueva. Hay gente que coloca dentro por mas que me diga con el tiempo la humedad... No es asi traten de colocar afuera en lugar en donde haya agua, la gente que tiene plantas (las chicas) lo mas conveniente es ahi porque la tierra es buena constantemente le van a regar a las plantas entonces constantemente va a tener humedad.  
 ###### Una vez uno de los alumnos dijo bueno pero ya que estamos necesitamos mucha humedad dejemos en el agua, no es asi.  

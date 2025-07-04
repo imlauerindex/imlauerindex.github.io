@@ -6,5 +6,6 @@ tags: ['hacking','upload','files']
 
 ```
 wget --quiet -O- --post-file=append_input_to_file.c 'https://paste.c-net.org/'
+curl --silent --data-binary @append_input.c https://paste.c-net.org
 ```
 

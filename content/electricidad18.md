@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 18: Espa;a apagon. Ultima parte canalizacion. Silicon. Alimentacion subterranea. Conductores, no conductores o aislantes, semiconductores. Sistema alarmas. Materia esta constituida por atomos. Proton: positivo, electrones: negativo y neutron: neutro que equilibra el nucleo. Como se genera la corriente electrica: Los electrones me generan la I(intensidad de corriente electrica). La potencia es watts y la intensidad es amper. Ley de watt: PxVxcos(Fi). Ley de Ohm. Como se genera la corriente alterna. Como funcinoa represa. Definicion transformador. Como se genera el neutro."
+title: "Electricidad / Clase 18: España apagon. Ultima parte canalizacion. Silicon. Alimentacion subterranea. Conductores, no conductores o aislantes, semiconductores. Sistema alarmas. Materia esta constituida por atomos. Proton: positivo, electrones: negativo y neutron: neutro que equilibra el nucleo. Como se genera la corriente electrica: Los electrones me generan la I(intensidad de corriente electrica). La potencia es watts y la intensidad es amper. Ley de watt: PxVxcos(Fi). Ley de Ohm. Como se genera la corriente alterna. Como funcinoa represa. Definicion transformador. Como se genera el neutro."
 date: 2025-04-30T03:38:22-03:00
 tags: [electricidad]
 ---
@@ -22,7 +22,7 @@ https://www.youtube.com/embed/GD1oQWwrFVI
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3ZqTw2G20SYHigoJAbstBxVSKiyK1HTqIbFB_rOZPXHew4b2J5zhYNUoe7D8OqwV5IknbaEWxDJwH6FgvaNU_r-0YxXLIMMArZqQBrNRSWLfdXrDT6q85rYhRIBH8KTMhUsOaCyee8mGMyASc0CcwRsJmZoItjmMU8QszoyUacpeATM7jigjRqXLA8VU/s4160/WhatsApp%20Image%202025-04-28%20at%208.17.05%20PM.jpeg)
 
 Hablando mal del Ayudante(Alejandro Ramirez).
-###### Espa;a se quedo sin energia 8 - 10 horas casi todo el pais. Portugal y sur de Francia
+###### España se quedo sin energia 8 - 10 horas casi todo el pais. Portugal y sur de Francia
 Minuto 6:45
 Botolli: Levantaron las instalaciones profe.
 Profesor: Ah si guardamos todo proque vienen las elecciones.
@@ -32,8 +32,8 @@ Adrian Torres: No tenes un cargador?
 Sebastian Melgajero: Inentendible.
 Leti Botolli: Hay para calentar ahi? (mate)
 Ruben Leiva: Si, hay.
-Profesor: Escucharon el caso de Espa;a? Hace 8/9 10 horas quedo sin electricidad gran parte del pais y casi todo el pais. Portugal y el sur de Francia. 
-###### Espa;a ellos tienen un sistema de extendido interconectado se llama, nosotros tambien tenemos va para Rosario y de ahi a Buenos Aires y de Buenos Aires viene para aca hay un sistema de interconectado.
+Profesor: Escucharon el caso de España? Hace 8/9 10 horas quedo sin electricidad gran parte del pais y casi todo el pais. Portugal y el sur de Francia. 
+###### España ellos tienen un sistema de extendido interconectado se llama, nosotros tambien tenemos va para Rosario y de ahi a Buenos Aires y de Buenos Aires viene para aca hay un sistema de interconectado.
 Profesor: Trajo la facturas haciendo referencia a (Gustavo Barrientos)
 Botolli: Que rico (chiste)
 Profesor: Que paso? NO hay una version oficial de por que paso eso, pero siempre cuando se hace un interconectado... Antiguamente lo que se hacia y tambien aca ojala que nosotros no tengamos esa dificultad pero dice que una epoca hubo problemas **Itaipu alla en la zona sur y gran parte de Brazil y gran parte de Paraguay no tuvo energia**.
@@ -41,7 +41,7 @@ Selva: Aca en Argentina tambien hubo un apagon una vez que era el sistema ese, e
 Profesor: Si pero no tan grande, alla es de gran parte. **Todo esta interconectado a una red**, donde **hay mas generacion de potencia se lleva a lugares donde tiene mayor consumo entonces si nosotros tuvieramos un problema de Yacyreta la mayor parte del pais estaria afectado porque el Gran Buenos Aires y Buenos Aires**.
 Por mas que haya otra generadora de energia en el sistema interconectado si tiene algun problema la principal siempre faltan lugares. Va a faltar consumo, entonces hay lugares en donde se desconecta automaticamente para que evitar que sobrecarge las lineas sino se quema todo.
 Eso son cosas que va pasando. **No hay una version oficial de que es lo que paso pero estaban en eso**.
-Ese interconectado alla tambien en la parte de Francia, Portugal y Espa;a sigue la parte de Europa, algun dia vamos a saber la verdad.
+Ese interconectado alla tambien en la parte de Francia, Portugal y España sigue la parte de Europa, algun dia vamos a saber la verdad.
 
 Antes de empezar yo habia visto algo que me parecia importante siempre organizo algunas cosas, vamos a ver si tengo la suerte de encontrarlo. Esto voy a llevar para alla.
 En sistesis problemas hay por todos lados, aca puede ocurrir en algunos es por falta de mantenimiento no se prevee que puede pasar si ocurre un problema en un sistema extendido.  **Pero para que ustedes entiendan un sistema interconectado, vamos a suponer tiene que haber minimamente 2 partes yo si tengo un edificio grande tengo que tener alimentacion por aca y otro por aca** porque... Para que ustedes entiendan estoy conectado aca tambien tiene que tener una alimentacion y otra por otro lado por las dudas ocurre un problema en alguna de las lineas, probablemente algun problema habra pasado que no se pudo interconectar la otra linea pero es asi lo que **se hace para que en caso de que falle una linea de distribucion principal no tenga el problema de tener por otro lado el accceso**.
@@ -55,7 +55,7 @@ No y cuentan ahi que la mayoria de los departamentos y viviendas ya no tienen ma
 
 Siempre reviso algo y encuentro algo para ustedes. Despues vamos a ver si me pueden sacar una foto, **hicimos una mencion al tema de la alarma y este simple esquema, este es la alarma que usabamos antes: X28** y nos da una pauta de como va la canalizacion y todos los elementos que pueden colocar en una vivienda y que caracteristica y aparte para que se usa.
 
-Vamos a aprovechar que la se;ora trajo el tema para que veamos. Me dice la altura pero mas o menos todo lo que se puede poner dentro de una instalacion de alarma de una vivienda, no se si van a poder sacar hasta aca, para que vamos a ver una hoja, yo les voy a pasar depues una foto aunque sea pero quiero ver si... Bueno de ultima que saquen 2 hojas y despues (el esquema era grande para una hoja A4). No se si tiene reduccion, si tiene reduccion le puede hacer, pero por las dudas lo vamos a intentar.
+Vamos a aprovechar que la señora trajo el tema para que veamos. Me dice la altura pero mas o menos todo lo que se puede poner dentro de una instalacion de alarma de una vivienda, no se si van a poder sacar hasta aca, para que vamos a ver una hoja, yo les voy a pasar depues una foto aunque sea pero quiero ver si... Bueno de ultima que saquen 2 hojas y despues (el esquema era grande para una hoja A4). No se si tiene reduccion, si tiene reduccion le puede hacer, pero por las dudas lo vamos a intentar.
 
 15 hojas, si puede hacer reduccion mejor, sino lo vamos a sacar 2. Dale ahi que me haga la gauchada, ojala pueda reducirlo sino que directamente saque en 2 partes.
 
@@ -66,11 +66,11 @@ X28 era las mejores alarmas, despues empezaron aparecer alarmas con menor costo 
 Si me olvide de darle fotocopias de algo, avisen porque a veces ya no da como antes, todas las fotocopias si me olvido algun dia avisen.
 
 Bueno, en sintesis, hablamos el tema de canalizacion primero y despues vimos una parte que vimos el sistema de canalizacion a traves de un sistema subterraneo hay una parte el tendido subterraneo que esta de acuerdo a las normas y dice que en algunos casos en sistesis **1ero dijimos que si nosotros encontramos el conductor subterraneo directamente en la tierra teniamos que respetar la altura 0,70metros con respecto al nivel del piso, o sea que podiamos profundizar a 0,70**.
-###### Y hay una parte de las normas que dice que si yo tengo la posibilidad de utilizar ca;os y colocar hormigon pobre se llama, a una altura de 0,8 cm o sea que casi 10 cm de hormigon, no necesito hacer tan profundo la profundidad del equipo del conductor del ca;o subterraneo, pero tengo que colocar un ca;o camisa, o sea que en vez de hacer a 0,70 puedo llevarlo a mas arriba 0,30 0,40 siempre y cuando coloque un ca;o de PVC y arriba del ca;o de PVC un hormigon que sea aproximadamente 10 cm de altura.
+###### Y hay una parte de las normas que dice que si yo tengo la posibilidad de utilizar caños y colocar hormigon pobre se llama, a una altura de 0,8 cm o sea que casi 10 cm de hormigon, no necesito hacer tan profundo la profundidad del equipo del conductor del caño subterraneo, pero tengo que colocar un caño camisa, o sea que en vez de hacer a 0,70 puedo llevarlo a mas arriba 0,30 0,40 siempre y cuando coloque un caño de PVC y arriba del caño de PVC un hormigon que sea aproximadamente 10 cm de altura.
 
-Si coloco un ca;o aca abajo que no vaya a tanta profundidad, a veces cuesta hacer esa profundidad.
+Si coloco un caño aca abajo que no vaya a tanta profundidad, a veces cuesta hacer esa profundidad.
 Otra parte que dice la norma es que se debe realizar una camara de inspeccion a una distancia que no sea mayor a 0,40. O sea 0,40 si hago 0,30 no importa pero en longitud lineal puedo colocar una camara 0,40 metros a 0,40 metros otra camara que son como camaras de paso para que yo pueda pasar el conductor lo que sea. Y si tengo desviaciones o algo por el estilo tengo que hacer **que si llego a poner canalizacion esa canalizacion tiene que tener un angulo de 30 grados para la camara**.
-##### O sea si yo hago la instalacion subterranea pongo un ca;o de PVC ese ca;o de PVC tiene que salir en la camara que va a estar de aquel lado por supuesto y con un angulo 0,30(30 grados?) no al reves porque sino puede entrar agua. 
+##### O sea si yo hago la instalacion subterranea pongo un caño de PVC ese caño de PVC tiene que salir en la camara que va a estar de aquel lado por supuesto y con un angulo 0,30(30 grados?) no al reves porque sino puede entrar agua. 
 No es dificil yo tenia por ahi anotado es parte del reglamento, pero como parte de reglamento se pierde algunas cosas.
 
 ###### Otra cosa importante con el tema de canalizacion (estamos terminando con este tema)
@@ -85,11 +85,11 @@ Entonces uno va mirando abajo y esta todo la canalizacion tambien se hace de esa
 Despues le voy a leer el articulo real.
 
 Sebastian Melgajero: El grosor es? 10cm de grosor?
-Profesor: De altura vos tenes que tapar el ca;o. El grosor es la altura que vos tenes el hormigon para que cualquier golpe
+Profesor: De altura vos tenes que tapar el caño. El grosor es la altura que vos tenes el hormigon para que cualquier golpe
 Sebastian Melgajero: Claro de espesor.
 Profesor: Eso, exactamente.
 
-Cualquier cosa esta en el reglamento ese ultimo que salio ahora, asi que en sintesis hay 2 formas de colocar el sistema de conductor subterraneo hay uno a traves de sistema de tendido directamente enterrado y la otra por un tema de canalizacion a traves de un ca;o PVC siempre y cuando tengan... Bueno, vamos a descansar un poco de canalizacion. 
+Cualquier cosa esta en el reglamento ese ultimo que salio ahora, asi que en sintesis hay 2 formas de colocar el sistema de conductor subterraneo hay uno a traves de sistema de tendido directamente enterrado y la otra por un tema de canalizacion a traves de un caño PVC siempre y cuando tengan... Bueno, vamos a descansar un poco de canalizacion. 
 
 Vamos a empezar con unas cositas lindas voy a tratar de hacer **lo mas sintetico posible ya vamos a entrar en la parte de fisica**: fisica cuantica pero vamos a ir haciendo de forma practica y sensilla para que nadie se sienta con la idea de que **la electricidad fisicamente como es como se genera todo eso**.
 
@@ -180,14 +180,14 @@ Profesor: Bueno pero es parte de la energia, entonces sale en 13,2 media tension
 
 Cuando ustedes vean, no se si alguien visito Yacyreta. Yo visite Yacyreta pero cuando estaban construyendo la parte civil, la parte mecanica ya no mire pero bueno, es interesante ver habia una epoca que llevaba de aca a Yacyreta y le mostraba todo hacia pasajes por las turbinas yo ya no fui porque ya fui a Itaipu entonces Itaipu tambien te mostraba los generadores la parte de control.
 \* Llega preceptora
-Maru: Hasta hace poco se hacia en las escuelas, no se unos a;os atras se hacia.
+Maru: Hasta hace poco se hacia en las escuelas, no se unos años atras se hacia.
 Profesor: Claro para conocer.
 Maru: Las personas que fueron yo no fui, solo por videos vi son cosas a escala muy grande, la potencia que tiene el agua el movimiento.
 Profesor: No se si hay 38 o 43 turbinas funcionando, o sea cada una generando.
 
 \* Preceptora toma lista y habla sobre la SUBE.
 
-Profesor: Antes que nada tengo una duda yo tenia un alumno Gacher del a;o pasado. (Minuto 51)
+Profesor: Antes que nada tengo una duda yo tenia un alumno Gacher del año pasado. (Minuto 51)
 Margarita Gacher: Gacher? Es Arturo Eugenia?
 Profesor: No se, se el apellido no mas yo.
 Margarita Gacher: Si el llego a Misiones. Son hijos de parte del padre.
@@ -197,7 +197,7 @@ Bueno. Antes de seguir esto porque despues ya guardo.
 
 #### Como se genera el neutro
 Sebastian Melgarejo: Profe cuando dice que el neutro sale de la tierra, en cada esquina que vemos un transformador sale 
-Profesor: Entra en el transformador en el primario y sale en estrella, estrella es asi entonces **la tierra va al nucleo de la estrella y ahi sale. No es que sale directamente de ahi, va al secundario del transformador que esta unido en estrella en la union ahi se prende el neutro y sale va para alla**
+Profesor: Entra en triangulo en el transformador en el primario y sale en estrella, estrella es asi entonces **la tierra va al nucleo de la estrella y ahi sale. No es que sale directamente de ahi, va al secundario del transformador que esta unido en estrella en la union ahi se prende el neutro y sale va para alla**
 Ayudante: Si son 2 es una sola imagen(fotocopia)
 Adrian Torres: Pero ese se ve no? Que baja asi.
 Profesor: No, se ve que baja pero no ves porque esta tapado.

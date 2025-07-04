@@ -132,6 +132,8 @@ Encontrarás un argumento llamado `localyesconfig (update current config convert
 make localyesconfig
 ```
 
+Hay que habilitar `CONFIG_FRAMEBUFFER_CONSOLE`
+
 Sacale una foto o una screenshot a la salida de ese comando para buscar uno por uno más rápido.
 
 Ese comando convierte lo que está en memoria cargado con ArchLinux pero se da cuenta de que no está configurado todavía, así que no puedo convertirlo lo que significa que lo necesito.
@@ -270,6 +272,9 @@ CONFIG_FB_EFI
 CONFIG_FB_VESA
 ```
 
+Cuando bootee no tenia imagen pero igual podia escribir usuario: root y la clave y apagar mi computadora o pude ver videos con mpv e iniciar el entorno grafico con `seatd-launch sway`
+
+
 Los primeros paquetes que instale despues de iniciar Linux.
 ##### Es mejor compilar los paquetes uno por uno porque recien los instala luego de compilarlo, si compilas varios paquetes recien los instalara cuando termine de compilar el ultimo paquete.
 ```
@@ -302,6 +307,13 @@ Firmware loader
 Ahi en `Firmware blobs root directory` agregue: `/lib/firmware` y en `Build named firmware blobs into the kernel binary` puse `*` (Aunque no deberia hacer eso sino elegir una por una la que tengo que usar.)
 
 
+### Como solucionar los problemas
+Si no funciona nada fijate si podes escribir el usuario y contraseña en ciego y ejecutar y luego bootealo con `nomodeset`.
+```bash
+dmesg > dmesg.txt
+```
+
+Para instalar las fonts de sway: `kiss b terminus-font`.
 
 
 Estos son los paquetes que estan en el repositorio de `community`:
