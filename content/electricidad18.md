@@ -338,7 +338,8 @@ Profesor: Bueno. Ahora vamos a empezar un poco con circuito.
 Todo lo que yo... Ah! La corriente alterna yo puedo tener 2 tipos de corriente alterna o corriente continua para que ustedes vean, voy generando, la corriente alterna tiene gráficos para que ustedes entiendan de acuerdo al ciclo generalmente tenemos 50 ciclos por segundo y en otro lugares tienen 60 ciclos por segundo. Todo en un sistema o diagramación... **Ya que estamos en un sistema cartesiano siempre parte de un 0 la corriente tiene máximo y un mínimo y se va generando con respecto al tiempo esto que está acá es 1 ciclo por segundo, fíjense que el sistema alternador gira 50 veces, tiene 50 ciclos por segundo que dijimos**, si esto es un ciclo hace CLICICLILC (Hora 01:14)
 El pulso se llama corriente alterna para que ustedes entiendan.
 Ponen CA en algunos casos. Esto es lo que genera el alternador.
-Martín(alumno buteado): Con eso 
+####### Martín(alumno buteado): Por eso no podemos decir en corriente alterna positivo negativo, tenemos que decir fase y neutro
+Profesor: École, fase y neutro porque esto tiene un ciclo.
 
 
 
