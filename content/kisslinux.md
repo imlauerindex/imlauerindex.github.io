@@ -244,25 +244,18 @@ neofetch
 Agregado.
 
 
-Tecla combinada / bastidor para la cocina
-Dos tomas un bastidor con 2 tomas para no usar adaptador.
-
 El built me tardo 10 horas
 Desde ArchLinux
 ```bash
 root@archiso ~ # grub-install --efi-directory=/mnt/boot --boot-directory=/mnt/boot --target=x86_64-efi --bootloader-id=grub_uefi  --removable
 ```
-Agrega `kiss b grub lm-sensors elinks` al comienzo
+Agrega `kiss b grub lm-sensors links` al comienzo
 
 2:42 AM
 
 La compilacion del kernel me tardo 2 horas y 40 minutos
 
-El `linux-firmware` pesa 4g
-
-```bash
-mount --mkdir /dev/sda5 /mnt/mnt/mx
-```
+El `linux-firmware` pesa 2.4g
 
 Habilita todos estos y nodemodeset en el `GRUB_CMDLINE`
 ```bash
@@ -278,9 +271,12 @@ Cuando bootee no tenia imagen pero igual podia escribir usuario: root y la clave
 Los primeros paquetes que instale despues de iniciar Linux.
 ##### Es mejor compilar los paquetes uno por uno porque recien los instala luego de compilarlo, si compilas varios paquetes recien los instalara cuando termine de compilar el ultimo paquete.
 ```
-kiss b openssh imagemagick qpdf lm-sensors links vis vim mpv swayfx swagbg firefox-privacy
+kiss b openssh imagemagick qpdf lm-sensors links vis vim mpv swayfx swagbg firefox-privacy links
 (root) pip install yt-dlp
 ```
+
+Tuve que compilar `irssi` desde la págian porque no estaa en el repo de kiss ni el de community.
+
 ###### Estuvo 3 dias 12 horas horas compilando LLVM y Clang SPIRV tools para instalar 2 paquetes: mpv y sway!! En una Intel Celeron N2806 Dual Core 1.6GHz
 ```bash
 addgroup esotericwarfare audio

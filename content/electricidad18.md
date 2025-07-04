@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 18: España apagon. Ultima parte canalizacion. Silicon. Alimentacion subterranea. Conductores, no conductores o aislantes, semiconductores. Sistema alarmas. Materia esta constituida por atomos. Proton: positivo, electrones: negativo y neutron: neutro que equilibra el nucleo. Como se genera la corriente electrica: Los electrones me generan la I(intensidad de corriente electrica). La potencia es watts y la intensidad es amper. Ley de watt: PxVxcos(Fi). Ley de Ohm. Como se genera la corriente alterna. Como funcinoa represa. Definicion transformador. Como se genera el neutro: transformador tiene refrigerante por eso gotea, entra en triangulo bobina primaria secundaria. A veces pedían instalar el cartel de la alarma pero no tenian la alarma. Alarma de 2 pisos. Detector de movimiento infrarojo. Detector de rutura de vidrio. Aislate: goma(caucho), plastico, madera. Semiconductores: la mitad conduce y la otra no (un diodo por ejemplo). Emallado para que nadie pase."
+title: "Electricidad / Clase 18: España apagon. Ultima parte canalizacion. Silicon. Alimentacion subterranea. Conductores, no conductores o aislantes, semiconductores. Sistema alarmas. Materia esta constituida por atomos. Proton: positivo, electrones: negativo y neutron: neutro que equilibra el nucleo. Como se genera la corriente electrica: Los electrones me generan la I(intensidad de corriente electrica). La potencia es watts y la intensidad es amper. Ley de watt: PxVxcos(Fi). Ley de Ohm. Como se genera la corriente alterna. Como funcinoa represa. Definicion transformador. Como se genera el neutro: transformador tiene refrigerante por eso gotea, entra en triangulo bobina primaria secundaria. A veces pedían instalar el cartel de la alarma pero no tenian la alarma. Alarma de 2 pisos. Detector de movimiento infrarojo. Detector de rutura de vidrio. Aislate: goma(caucho), plastico, madera. Semiconductores: la mitad conduce y la otra no (un diodo por ejemplo). Emallado para que nadie pase. Calzado de seguridad que tenga suela y que sea bieléctrico. Botín con punta de PVC, acostumbrarse si estas mucho tiempo en obra. Tipos de marca zapatos. Marca Senior, Boran, etc. Las empresas están obligadas a dar 2 equipos al año (nadie cumple: 1 si tenes suerte). En la Municipalidad te dan 1 equipo (ropa GRAFA y zapato olvidalo). Usted está preparando obreros en vez de preparar profesionales: la mentalidad fue cambiando y Janssen REMERITA."
 date: 2025-04-30T03:38:22-03:00
 tags: [electricidad]
 ---
@@ -290,11 +290,59 @@ Rubén Leiva: Silicio.
 Profesor: Y en esos casos generalmente son composición química pero lo encontramos generalmente en sistemas de electrónica, o sea que esto como nosotros no damos electrónica acá descartamos.
 
 ####### Qué quiere decir que son semiconductores? La mitad conduce y la otra no. Un diodo por ejemplo.
-Lo más importante que ustedes tengan esto: conductores y no conductores. Eso tengan en la cabeza porque a veces necesito o estamos trabajando en algún y **tenemos que hacer una instalación o arreglar un tablero se hace un emallado para que nadie pase y en algunos casos o cerca del tablero que tengo que desarmar lo que sea **
+Lo más importante que ustedes tengan esto: conductores y no conductores. Eso tengan en la cabeza porque a veces necesito o estamos trabajando en algún y **tenemos que hacer una instalación o arreglar un tablero se hace un emallado para que nadie pase y en algunos casos o cerca del tablero que tengo que desarmar lo que sea se pone elemento aislante para cualquier problema de descargas y sobre todas las cosas el calzado de seguridad, que tenga suela y en algunos casos que sean bieléctricos**.
+
+###### Yo todavía no estoy acostumbrado al tin de trabajo que tienen algunos casos una punta metálica, ahora empezaron a aparecer con punta de PVC, pero siempre es parte dura, pero ¿para que sirve la punta de PVC? Es por si llega a caerme algo y no me parta los dedos.
+Maru: Ese no es el que tiene la puntera de hierro
+Profesor: De hierro. Si si para que no te lastime.
+Maru: Pero es de hierro.
+Ayudante: Sí, pero ahora hay de PVC también. Es lo mismo pero otro material.
+Maru: Más liviano?
+###### Profesor: Sí, es más liviano lo que pasa es que como es duro el tema es que **hay que acostumbrarse si está mucho tiempo en obra aparte no tenés el botín tan... (botin con punta de PVC)**
+Maru: Más pesado?
+Profesor: No, es pesado, te cansa.
+Gustavo Barrientos: Depende el presupuesto.
+Profesor: El tema de estar todo el día en obra, siempre hay que tratar de colocar de comprar un poquito más grande de lo que uno tiene el pie porque esa parte que es metálica, constantemente si no calza bien la media constantemente va a estar raspando y vas a sentir. Entonces yo ahora me compré uno sin puntera pero solo de cuero. De lejos no se ve.
+Maru: Más fachero.
+Leticia Botolli: Hace trampa.
+Profesor: Pero es más fácil para poder andar.
+Gustavo Barrientos: El otro día estaba mirando no sé si conoce la marca Senior.
+Profeosr: Sí.
+Gustavo Barrientos: Se hace aca en Misiones tiene la fábrica acá en Monte Carlos.
+Maru: Ahora que el dólar va a estar más bajo puede comprar por Amazon importado y te iba mandar un comentario para la...
+Gustavo Barrientos: Después está la **marca Boran** que parece una zapatilla 
+Rubén Leiva: Está Boran está Regazo está Rene muchas hay. Ese ya depende de cada empresa, que te va a proveer.
+Profesor: Ahora salió Larringo cuero cuero
+Gustavo Barrientos: Bampero encima venden de Paraguay, vienen unos bamperos original ja!
+Maru: Bueno, pero es de la zona estás fortaleciendo el comercio regional.
+Leticia Botolli: Sí.
+Gustavo Barrientos: Ajá, pero no sabía que se fabricaban acá en Misiones eso, yo hice un Curso de Soldador Básico y ahí nos daban el marca Senior.
+Profesor: Sí. Nosotros antes cuando empezabamos teníamos fondo de nación y a todos los estudiantes le dábamos ropa, recibían un equipo de grafas y un botín (Hora 01:09). **Yo eso me acuerdo porque una vez probé y dale a los chicos no más**, pero había posibilidad y las empresas están obligadas a dar por lo menos 2 al año. 2 equipos al año y nadie cumple a veces 1 si tenes suerte. La gente que trabaja en la municipalidad también por lo menos 1 equipo al año te tienen que dar.
+Maru: Si pero se cambia mínimamente.
+Profesor: Sí. Yo antes...
+Ayudante(Alejandro Ramirez): En la Municipalidad tenes suerte, te lo digo yo como EX-empleado municipal si te dan uno.
+Profesor: Por año.
+Ayudante(Alejandro Ramirez): Y ese 1 y listo, zapato olvídalo. El mío hasta que no se fundió nunca me dieron repuesto y estaba todo pinchado.
+Profesor: Antes yo tenía un pequeño, lograba tener posibilidad de estar con la gente de la EPET lo último **no se si me daba bronca pero me daba una cierta intolerancia que exigían GRAFA, la ropa GRAFA y zapato adecuado para todo el día. Entonces un día le dije al director que estaba a cargo en ese momento: "Usted está preparando obreros no profesionales", porque vos veías a los chicos a veces venían con la misma camisa que hicieron el taller toda sucia para sacar arrollado, tenía sucio. El aspecto que daba era desastrozo entonces le digo: "Usted está preparando obreros en vez de preparar profesionales porque si va a una escuela técnica aparte de ser técnico uno quiere que sean profesionales pero con esa idea de que solo le exigían la parte de GRAFA y fíjense que después la mentalidad fue cambiando y Janssen REMERITA pantalón...
+Gustavo Barrientos: Así sufrimos porque mi hijo va al Janssen y cada vez que empieza el año un dinerillo.
+Ayudant(Alejandro Ramirez): La chomba.
+Profesor: Si. Va cambiando y antes cuando empezábamos la EPET teníamos ropa de GRAFA para taller y era guarda polvo, pero teníamos la posibilidad de poner guarda polvo con corbata y todo o sea que ahí...
+
+Bueno, pero son cosas que van pasando. Dicen que a veces es más importante el tema de la educación pero también el tema de la vestimenta da un aspecto más...
+Maru: Todo depende a veces, yo una vez entré a la obra tenía prohibido entrar, tenía mucho miedo de entrar por ahí porque yo soy media torpe. Y veo así este debe ser re coqueto no sé de donde salió estaba todo así clenge todo porque faltaba todavía armar las paredes pero había un espejito que no sé de donde sacaron que era un pedacito así le acomodaron para terminar, porque ellos cuando terminan todo tienen que salir a la calle.
+Profesor: Sí. De peinarse.
+Maru: Claro, entonces yo dije esto debe ser re coqueto, y había **2 clavitos que era para colgar la ropa y vos ves en los pequeños detalles digamos porque tenía 3 clavitos y yo decía NO NO puede ser, este señor hizo esto y yo todo un despelote**
+Profesor: Bueno. Ahora vamos a empezar un poco con circuito.
+
+
+Todo lo que yo... Ah! La corriente alterna yo puedo tener 2 tipos de corriente alterna o corriente continua para que ustedes vean, voy generando, la corriente alterna tiene gráficos para que ustedes entiendan de acuerdo al ciclo generalmente tenemos 50 ciclos por segundo y en otro lugares tienen 60 ciclos por segundo. Todo en un sistema o diagramación... **Ya que estamos en un sistema cartesiano siempre parte de un 0 la corriente tiene máximo y un mínimo y se va generando con respecto al tiempo esto que está acá es 1 ciclo por segundo, fíjense que el sistema alternador gira 50 veces, tiene 50 ciclos por segundo que dijimos**, si esto es un ciclo hace CLICICLILC (Hora 01:14)
+El pulso se llama corriente alterna para que ustedes entiendan.
+Ponen CA en algunos casos. Esto es lo que genera el alternador.
+Martín(alumno buteado): Con eso 
 
 
 
 
 ---
 
-Hora 01:01
+Hora 01:11
