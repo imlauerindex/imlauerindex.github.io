@@ -98,7 +98,19 @@ vim /etc/hosts
 127.0.0.1       arch.localdomain	arch
 ```
 
+###### Cambia las DNS porque las de Claro, Personal, Movistar bloquean páginas, yo uso las de Quad9:
+DNS de Quad9 https://en.wikipedia.org/wiki/Quad9
+
+sudo vim /etc/resolv.conf
 ```bash
+nameserver 9.9.9.11
+nameserver 149.112.112.11
+```
+
+---
+
+```bash
+sudo chattr +i /etc/resolv.conf # Para que networkmanager no sobreescriba.
 passwd # cambiar la clave del root
 pacman -S grub networkmanager alsa-utils 
 ```
