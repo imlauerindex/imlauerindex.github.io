@@ -23,10 +23,33 @@ wget --no-check-certificate https://ftp.nluug.nl/vim/runtime/spell/es.utf-8.sug
 
 
 
+##### Esta es mi configuración actual (sin plugins):
+```bash
+:setlocal spell spelllang=en,es
+syntax on
+set hlsearch    " highlight all search results set ignorecase  " do case insensitive search
+set incsearch   " show incremental search results as you type
+set noswapfile  " disable swap file
+set ignorecase
+color pablo
+
+
+set ai
+set ic
+```
+
+---
+##### Configuración vieja.
+
+
+vim plug:
+
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+
+---
 
 ```bash
 autocmd BufWritePost resume_spanish.tex !pdflatex /home/mistermac/projects/MiCV/pro/resume_spanish.tex

@@ -384,7 +384,9 @@ Profesor: Y todavía no saben que pasó nadie quiere decir, algún día se va a 
      
 Bueno. Todo eso que ustedes ven me dan inicio a como se genera un circuito eléctrico, ahora vamos a hacer un circuito eléctrico.     
 ###### Siempre dicen que un circuito eléctrico es parecido a un circuito hidráulico porque asemejan la corriente que pasa por un conductor que es el flujo de los electrones con el agua. Entonces que hace, si yo no tengo presión en el agua, es muy difícil que pueda de un lugar a otro, fijense que siempre un tanque de reserva por la altura tengo presión y ahí va recorre el agua, si no tengo presión es muy difícil que el agua se translade de un lugar a otro. Lo mismo ocurre con la corriente, necesito un generador, un elemento que haga producir este pasaje de electrones y que me genere la corriente, ese pasaje de electrones se hace a través de un elemento, puede ser generador o la energía que viene de Yacyretá o lo que sea o de la línea que es 220.
-En corriente continua tengo una batería o cualquier generador de corriente continua me puede generar también el movimiento de electrones, necesito para que me **produzca la corriente un generador**      
+En corriente continua tengo una batería o cualquier generador de corriente continua me puede generar también el movimiento de electrones, necesito para que me **produzca la corriente un generador** en este caso nosotros vamos a tener un solo elemento que es la tensión que viene de afuera, vamos para arriba.
+Maru: Entonces el pasaje de electrones es lo que produce la corriente?
+Profesor: La materia es todo lo que uno detecta, toca y ve, la mínima porción de la materia es el átomo.
 
 
 
