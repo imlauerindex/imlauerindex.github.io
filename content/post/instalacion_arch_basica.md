@@ -117,8 +117,14 @@ pacman -S grub networkmanager alsa-utils
 
 ##### Fonts
 ```bash
-sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra terminus-font
 ```
+Y en el `.config/foot/foot.ini` agregá:
+```bash
+font=Terminus:size=12
+```
+
+---
 
 ```bash
 pacman -S fzf bash-completion pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox irssi w3m samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks v4l-utils unrar unzip qbittorrent kdenlive extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric texlive-fontsextra extra/texlive-fontsrecommended evince extra/texlive-langspanish wget acpi telegram-desktop festival espeak-ng speech-dispatcher libreoffice tree rclone inetutils bc xorg-xwayland feh chromium newsboat telegram-desktop
