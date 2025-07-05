@@ -401,6 +401,7 @@ Profesor: Ese ya no, ese ya es calor.
 Ayudante(Alejandro Ramirez): Ese es un concepto que se llama termodinámica.
 
 
+
 ---
 
 Hora 01:11
