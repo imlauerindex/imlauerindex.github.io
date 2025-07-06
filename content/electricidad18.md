@@ -26,10 +26,10 @@ Hablando mal del Ayudante(Alejandro Ramirez).
 Minuto 6:45     
 Botolli: Levantaron las instalaciones profe.     
 Profesor: Ah si guardamos todo proque vienen las elecciones.     
-Sebastian Melgajero: Mantemos asi la mesa?     
+Sebastian Melgarejo: Mantemos asi la mesa?     
 Profesor: Ahora vamos a dar un poco de teoria para que ustedes se entretengan.     
 Adrian Torres: No tenes un cargador?     
-Sebastian Melgajero: Inentendible.     
+Sebastian Melgarejo: Inentendible.     
 Leti Botolli: Hay para calentar ahi? (mate)     
 Ruben Leiva: Si, hay.     
 Profesor: Escucharon el caso de España? Hace 8/9 10 horas quedo sin electricidad gran parte del pais y casi todo el pais. Portugal y el sur de Francia.      
@@ -84,9 +84,9 @@ Entonces uno va mirando abajo y esta todo la canalizacion tambien se hace de esa
 ##### Entonces no necesito una alimentacion subterranea tener esta profundidad siempre y cuando coloque casi 10cm de hormigon.     
 Despues le voy a leer el articulo real.     
      
-Sebastian Melgajero: El grosor es? 10cm de grosor?     
+Sebastian Melgarejo: El grosor es? 10cm de grosor?     
 Profesor: De altura vos tenes que tapar el caño. El grosor es la altura que vos tenes el hormigon para que cualquier golpe     
-Sebastian Melgajero: Claro de espesor.     
+Sebastian Melgarejo: Claro de espesor.     
 Profesor: Eso, exactamente.     
      
 Cualquier cosa esta en el reglamento ese ultimo que salio ahora, asi que en sintesis hay 2 formas de colocar el sistema de conductor subterraneo hay uno a traves de sistema de tendido directamente enterrado y la otra por un tema de canalizacion a traves de un caño PVC siempre y cuando tengan... Bueno, vamos a descansar un poco de canalizacion.      
@@ -101,7 +101,7 @@ Vamos a ver el principio de la fisica, no nos vamos a meter bien en la parte teo
 A ver yo prengunto: que es la materia?      
 Yo: Lo que contiene atomos.     
 Profesor: Todo lo que se puede tocar ver, eso es materia. Como esta constituida la materia? La minima porcion de la materia... Ustedes me dicen porque estudiaron fisica.     
-Sebastian Melgajero: Atomos.     
+Sebastian Melgarejo: Atomos.     
 Profesor: Atomos. Esa es la minima porcion de la materia para que ustedes entiendan y ese atomo... Vamos a empezar por la teoria fisica cuantitativa atomica vamos a hacer mas facil, entonces... Lo importante es que ustedes entiendan como se genera la electriciad.     
      
 ###### Ahora sabemos que la minima porcion de la materia es el atomo. El atomo esta compuesto por un nucleo ese nucleo contiene proton y neutron.     
@@ -123,7 +123,7 @@ Profesor: Si, algunos le llaman la corriente electrica intesidad de corriente, l
 Vamos a hacerle con mas grande I mayuscula lo que ustedes quieran.     
      
 Es importante la corriente electrica porque con la corriente electrica yo se que consumo tiene cualquier equipo.     
-Sebastian Melgajero: Los watts.     
+Sebastian Melgarejo: Los watts.     
 Profesor: No, eso es potencia. Ya que el hablo de watts, wua aprende wua apaga vamos a seguir yo no quiero que quede asi.     
      
 Potencia hay una formula: `V*I` en corriente alterna esto es coseno de fi ahi va a salir una unidad que es el Watt. Mas o menos esto es lo que tenemos en cualquier equipo va a aparecer la potencia y va aparecer no tan asi pero W vamos a suponer 250 watts ese en ese instante si hacemos esto en una hora va a ser watt por hora, pero este para que ustedes entiendan mas o menos aplique la formula rapido porque antes que se olvide y no se confundan esa es la idea.      
@@ -203,7 +203,7 @@ Adrian Torres: Pero ese se ve no? Que baja asi.
 Profesor: No, se ve que baja pero no ves porque esta tapado.     
 ###### Ayudante(Alejandro): Se ve si. Tiene la carcasa aparte tiene un liquido adentro.     
 Profesor: Si ese, aceite. (Minuto 53)     
-Sebastian Melgajero: Ah ese es lo que gotea?     
+Sebastian Melgarejo: Ah ese es lo que gotea?     
 Profesor: Si ese, ese que es... No es un goteador, **lo que pasa es que es un refrigerante que hace para** (ruido)     
 Ayudante: Porque tambien eso genera calor     
 Profesor: Antes que me olvide lo que ven ahi son 2 partes generalmente fijense donde empieza nuestra central de alarma. **La central de alarmas tiene una bateria** ese en algunos lados para 24/48 horas en caso de que se corte energia. Entonces uno esta trabajando tiene otra cosa importante, vamos a empezar por la parte de adelante vieron ahi el cartel de protegido en algunos casos me acuerdo que habia gente que no queria apagar la alarma entonces lo unico que me pedian es que le pongamos el cartel.     
@@ -213,7 +213,7 @@ Ruben Leiva: Pero no tenía instalado.
 Profesor: No tenia la alarma, era engaña pichanga pero nos pedían a veces consiganme tanto un cartel de plástico se ponía.     
 Ruben Leiva: Para la foto.     
 Profesor: Detector magnético de apertura, eso es lo que mostró la señora, ya sea en las ventanas o en las puertas que tiene una parte magnética una móvil y otra fija que va en algunos lugares. Esto es todo acuérdense la señora presentó una alarma inalámbrica y esto es todo **cableado**     
-Sebastián Melgajero: Cableado.     
+Sebastián Melgarejo: Cableado.     
 ###### Profesor: Estamos? El otro ese tiene una batería cada elemento asi que en un sistema de conexión a través de un sistema de antena recibe... Actúa como receptor la alarma y recibe todas las señales.     
      
 Bueno. Fijense entro en la vivienda abro la puerta y tengo un panel de control no se si ustedes vean ahí.     
@@ -275,7 +275,7 @@ Profesor: Vamos a leer esta partecita así no.
 ###### No conductores o aislantes.     
 Ahí aparece otro tipo de material... Vamos a preguntar ya.     
 ¿Qué elemento les parece que es aislate?     
-Sebastián Melgajero: La goma.     
+Sebastián Melgarejo: La goma.     
 Ayudante(Alejandro Ramirez): La goma, el plástico, la madera.     
 Profesor: École.      
 Gustavo Barrientos: Cerámica, porcelana.     
@@ -359,14 +359,14 @@ Bueno, eso que vieron ahí es interesante por eso le traigo porque en algunos lu
 Bueno, corriente alterna y que otra corriente tenemos?     
 Maru: Corriente continua.     
 Profesor: O sea CC (Corriente continua) o en algunos aparece CV (Hora 01:16)     
-Sebastian Melgajero: DC y AC     
+Sebastian Melgarejo: DC y AC     
 Profesor: En inglés, eso está en inglés     
 Ayudante: Eso está en Washinton.     
 Profesor: Entonces cuando aparece la corriente continua ustedes siempre tienen que tener la idea más fácil es una batería, la batería de un auto es una corriente continua genera positivo negativo hace todo el circuito una pila.      
-Sebastian Melgajero: El celular. La batería del celular.     
+Sebastian Melgarejo: El celular. La batería del celular.     
 Profesor: La que tiene adentro sí, pero vos le estás generando energía recargable sería a través de un transformador que vos metes ahí y cargas la batería, está bien tiene razón estoy pensando, en donde genero.     
 Una batería antes nosotros nos gustaba salir de noche con la bici con dinamo entonces ese dinamo generaba energía prendía las luces cuando más pedaleabas más luces tenía.      
-Sebastián Melgajero: Como las turbinas de Yacyretá.     
+Sebastián Melgarejo: Como las turbinas de Yacyretá.     
 Profesor: Era bueno el sistema.     
 Gustavo Barrientos: Parecido a una botellita?     
 Profesor: Sí, una botellita parece y giraba al lado de la rueda cuando giraba giraba constantemente prendía las luces.     
@@ -428,7 +428,7 @@ Pero eso es interesante, entonces todos esos procesos que ustedes ven y que se p
 ###### Otra cosa que me dijieron vamos a hacer,    
 Vamos a hacer, vamos a hacer parece político, y después te manda a hacer vos las cosas, el tema de los edificios inteligentes.   
 Botolli: Automaticación.   
-Sebastián Melgajero: Domótica.   
+Sebastián Melgarejo: Domótica.   
 Profesor: Vamos a suponer que yo preparo a 20 personas que sepan domótica y el nicho da para 1 solo por el tema de los materiales encuentra lugar a 1 persona solamente para hacerlo, para que sirve darle eso si hay veces que en toda su carrera no van a hacer 1 obra de eso. Entonces no sirve, que sepan sí, pero no sirve, para darle cosas que no sirve... Yo no soy de la idea esa, yo puedo mostrar video y todo eso, pero si no vas a utilizar, me gustaría tener convenio con gente que tenga centrales con esa característica y pueda ustedes ir capacitarse ellos y vean los productos con esos productos ustedes tengan comunicación constante si hay alguna posibilidad de conseguir algún cliente con esa característica tengan contacto directo con ellos, eso si me interesa pero para hacer acá no hay mercado.   
 Hay muchos lugares para cosas para aprender, **es lo mismo que yo le enseñe a proyectar algo eso podemos hacer y es viable porque tenemos materiales y algunos conocimientos pero hacer un proyecto grande un edificio por ejemplo, a mi no me sirve enseñar 1 edificio porque ya habrá otra persona con responsabilidad que hizo que ustedes son instaladores y sepan leer el plano y sepan ver los materiales y todos los procesos que implica el edificio, perfecto! Pero hacer un proyecto que entiendan lectura es así infinita.   
 Vamos a seguir.   
@@ -445,7 +445,7 @@ Adrian Torres: Bueno tengo que comprar una perforadora nueva. Y después me va a
 ###### Alejandro Ramirez: Para que queres la mecha, usa tornillo autoperforante.   
 Adrian Torres: Tengo que apagar cortar la luz no puedo. O puedo usar el taladro ese.   
 Rubén Leiva: O a mano jeje, pagate el asado vamos a arreglar.   
-Sebastian Melgajero: 80 lucas sale el asado.   
+Sebastian Melgarejo: 80 lucas sale el asado.   
 Rubén Leiva: Vamos todos.   
 Profesor: Bueno antes que me olvide acá, todo esto le recalco esto porque le dí una parte que es agrupamientos de conductores aislados en cañería parte de la norma después me mandan anexo actualizado a todo el sistema, para que ustedes vayan viendo y en la parte que dice la sección a colocar será mínima de 3/4 cuando yo hago el sistema, **por más que ustedes en la planilla esa que decía cantidad de conductores y la sección de los conductores que da que tipo de caño utilizo por más que haga de 5/8 la cañería mínima a colocar será de 3/4** Esto es ya actualizado o sea que eso que era media pulgada o 5/4 no va más.   
    
@@ -533,7 +533,7 @@ Ayudante(Alejandro Ramirez): Traigo el caño de 5/8 y le garrotemos con eso.
 Profesor: Fíjense lo que me dijo Ley de Avogadro.      
 Gustavo Barrientos: El número de avogadro, ese es el mol.      
 Adrian Torres: Ah viste algo cerca estaba.      
-Sebastián Melgajero: Ese mol por 6.023x10²³      
+Sebastián Melgarejo: Ese mol por 6.023x10²³      
 Profesor: Te das cuenta vos le decís, un día le voy a dar un tema para que lea y después venga acá y diga.      
 Ayudante(Alejandro Ramirez): Y dé lección.      
 Profesor: Claro porque todo hace acotaciones que no tienen nada que ver una cosa con la otra.      
@@ -566,7 +566,7 @@ Maru hace preguntas.
 Más fácil es trabajar con corriente alterna, ahí van a hacer en todo lo que vimos ahí la gente que hizo el tema de la canalización eso mismo vamos a repetir y vamos a darle energía acá y sobre esa misma energía ustedes van a ver la parte de medición y ahí aparece la lámpara de prueba, y van viendo cosas lo reales. Así que cualquier cosa tendrán la posibilidad de recibir una descarga porque llegan a tocar algo y... No, estoy cargando **vamos a ver todos los circuitos básicos de una vivienda de donde genero de la alimentación de allá va a un tablero, ese tablero tengo la instalación, después una vez que hagamos todos los circuitos tienen que saber con qué elementos protejo la instalación y los interruptores principales que necesito para poder proteger a cada circuito y eso es lo principal después ya van a poder hacer cualquier conexión**.   
    
 No es difícil, ahora cuando veamos escalas proyectos esas cosas es un poco más difícil pero hasta los materiales y después aparece otra cosa, cualquier cosa le mando información o entren en google y vean como se genera la corriente eléctrica hay distintas caricaturas y **va apareciendo el electrón como va girando saltando de un lugar a otro.  Lean y después cuéntenme, el que sabe más que charle a los alumnos.**   
-Sebastián Melgajero: Tengo un termotanque que cada 3/4 meses le tengo que cambiar este interruptor, y está consumiendo... Me fui.   
+Sebastián Melgarejo: Tengo un termotanque que cada 3/4 meses le tengo que cambiar este interruptor, y está consumiendo... Me fui.   
       
 ---      
       

@@ -46,3 +46,20 @@ https://www.youtube.com/embed/BEFGzbV5SE8
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJPmeUw0KXxpiGwE6g-yb9LAR8yZCO_uAdfGI2iqyrQxmmyWCXilnkN9dte3kjyOFJd0jZpQCfmlheu274qQHywJpZCBjij1mHopao1BWypwCK1Ro0w-YRlOE3CdWhHrEDxD5RrGinRHL51pR90RGSwt1The2u3k87e43y-_PiaE2p_HuPUe0_fqJGT4k/s4160/IMG_20250430_203224669.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUIpOTyXaLuWb4zSD6za1-Hr734SeZp01OAH0barkT3170_agcozpWNAc7UpuLSOjGH7NNzZ-RZoisucnFWGrs96ZkxpYA_sCkFFlVQVFhWTN0z-2KeJpcNd7Lvxscr_K4S-dYKd3Y3q51RwAlZEgquvo5gYppr1Zgm6XlYDdlp86LIEY1kQVfMbnDl7M/s4160/IMG_20250430_204733652_BURST001.jpg)
 
+---
+
+###### Transcripción
+Leiva: Los muchachitos que estaban ahí hace rato no venían (los hijos de Chuck Norris)
+Yo: Cuántas faltas podes tener?  Tiene que ser 70 horas.
+Leiva: 70 horas pero mínimo 50 horas, o sea que podes faltar, pero yo si quiero venir no me quiero perder, porque por ahí justo hace algo de práctica y te perdés, si llueve no me comprometo a venir.
+Yo: El tipo que se enojó.
+Leiva: Yo pensé que estaba medio jodiendo no más.
+Sebastián Melgarejo: El profe aguanta hasta que explota, no para el carro al toque. Yo apagué mi cerebro yo le escucho al profe no lo hago apropósito. 
+Leiva: El profesor dijo que no quiero mezclar todas las cosas porque no quiero forzar la mente de ustedes algo así.
+Sebastián Melgarejo: Al profe yo le entendí pero no le entendí al muchachito.
+
+Llega profesor
+Profesor: Está frezco, podés ir a comprar ese que te dije los focos, vamos a ver. 800 si están todavía, te doy para que compres 3 por lo menos, si está uno más te alcanza ahí hay 4.
+Sebastián Melgajero: Bueno. Listo. Me voy a la ferretería.
+Profesor: Sí, a ver si el otro me da la llave para ir a mirar allá, están por hacer asado ahí que lo parió chorizo van a hacer.
+Leiva: Sí, nos vamos para allá después.
