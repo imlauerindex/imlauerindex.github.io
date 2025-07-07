@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 20: Vimos una instalación eléctrica mal hecha. Conectamos 3 lámparas en serie y en paralelo."
+title: "Electricidad / Clase 20: Vimos una instalación eléctrica mal hecha. Conectamos 3 lámparas en serie y en paralelo. Profesor no quiere cajas de PVC porque se aplastan. Si usas cajas de PVC hay que poner 2 o 3 soporte para que no se aplaste. Como fijar cajas. Utilizan cajas de iluminación como caja de paso. Si las cajas no están fijas hay que volver a hacer. Caños de más, mal recorrido. Lo hicieron sin planos: ponemos una boca acá un toma acá y la llave de punto ahí y arreglate. Hay que tener cuidado con el plástico porque se desforma. Hay que poner madera para poder fijar las cajas. Con el alambre no sirve para fijar las cajas, no tiene que moverse para arriba ni para abajo. Con la manguera se saca nivel de agua. Las cajas con orejitas son para durlock. Las cajas tienen que tener 15 de distancia sino si enchufás algo no se puede abrir la puerta."
 date: 2025-05-02T20:28:09-03:00
 tags: [electricidad]
 ---
@@ -63,3 +63,139 @@ Profesor: Está frezco, podés ir a comprar ese que te dije los focos, vamos a v
 Sebastián Melgajero: Bueno. Listo. Me voy a la ferretería.
 Profesor: Sí, a ver si el otro me da la llave para ir a mirar allá, están por hacer asado ahí que lo parió chorizo van a hacer.
 Leiva: Sí, nos vamos para allá después.
+
+Salteado...
+###### Minuto 10:40 vamos a aprovechar ahí que me dieron la puerta.
+Leiva: Cada vez somos menos#.
+Profesor: Vamos a esperar que venga el chico ahí, nos abrieron por lo menos 10 minutos y después van a cerrar así que, yo voy a llevar para sacar foto. En principio la idea es que vean y después vean lo que yo le voy explicando.
+Sebastian Melgarejo: Alcanzó para 3 (lámparas incandecentes), subió a 1600 cada una.
+Profesor: A la pucha.
+Sebastian Melgarejo: Hay escacez.
+Profesor: Te debo guita?
+Sebastian Melgarejo: No no está bien así.
+Profesor: Bueno. Vamos a ir a ver la instalación, la idea es vamos a cerrar acá, traigan su celular por las dudas vamos a mirar el tema de instalación eléctrica esto es real ya no es nada ficticio nada por el estilo.
+Leiva: Puedo llevar el mate?
+Sebastian Melgarejo: Dejamos nuestras mochilas?
+Profesor: Si tengo que cerrar esto.
+Leiva: Es para mirar no mas no para...
+Yo: Ah es para mirar no más.
+Profesor: Nadie le va a afanar nada.
+Sebastian Melgarejo: Tenemos que hacer un asado ahí.
+Profesor: Pasen no más.
+Sebastian Melgarejo: Permiso.
+Yo: Permiso.
+Alumno(Selva?): No están fijas las cajas.
+Profesor: Vamos a empezar por partes, fíjense el tema es el siguiente de ese tablero que está allá tiene la alimentación allá siempre lo ideal pasame ese que está ahí atrás **cuando yo estoy colocando una caja de plástico así tengo que poner 2 o 3 soporte para que no me produzca esto: viste que se abrió todo acá (el plástico del tablero se aplastó) ESTÁ EN FOTOS**. Mirá como está hay que dejarle para que quede bien esto sino no sirve, por eso yo generalmente las cajas de PVC... YO no quiero.
+
+Bueno, viene la alimentación de allá fíjense este es el conductor más grande que tienen ahí, ahí le pusieron al disyuntor no más, la alimentación de allá al disyuntor que viene de allá este caño supuestamente que sería este que está acá tiene una alimentación ese que tablero seccional que está allá viene acá alimenta y ahí hace todo el recorrido.
+
+Vamos a empezar por partes.
+###### Seguramente acá tendría que hacer tipo un aire ahí porque las alturas u otra cosa, pero fíjense como están las alturas.
+##### Respetaron los colores y el conductor de protección.
+Esto respetaron por lo menos los colores, y el conductor de protección.
+Fíjense el tema esto yo les jodo con el tema siempre que **FIJEN LAS CAJAS**. 
+
+###### 1ero tengo que fijar las cajas, esto es para un cieloraso suspedido, pero no quiero ni tocar porque sino mirá como se desprende ahí
+Y donde fijaron acá. 
+###### Lo ideal es fijar las cajas esto no tiene que hacer este movimiento.
+Por eso se fija la caja.
+
+#### ¿Como fijo la caja?
+###### Lo ideal es hacer un soporte ahí arriba y uno que venga directamente acá y fije la caja que no se mueva, esa caja tiene que estar fija. 
+
+#### Usan cajas de iluminación como caja de paso.
+A ver que otro problema tiene: **ahí probablemente haya unión: hace la ramificación acá va para atrás acá seguramente ellos están utilizando todas las cajas de iluminación como caja de paso por eso la cantidad de ramificaciones de conductores que hay ahí entonces ponen iluminación y tomacorriente y le van distribuyendo después**. 
+Otra cosa: acá para que ustedes vean **todas las cajas están sin fijar**, todo no está fijo, entonces hay que volver a hacer.
+
+##### Picaron más de la cuenta, y hay que rellenar.
+Esto es la picada que a veces le digo que hay que tener en cuenta porque fíjense que acá pintaron más de la cuenta, **acá hay que rellenar de vuelta**.
+
+###### ¿Cómo se podría haber mejorado esto?
+Fíjense eso que está ahí prende con la luz que está ahí. ¿Por qué no puedo hacer ahí bajo y llego acá no más? Para que tengo que hacer todo este recorrido ahí, tomó la alimentación de ahí.
+Daniela: En teoría ya está marcado.
+Profesor: Claro pero vos ya estás marcando lo que vos ves ahí, pero acá lo ideal no es que esto venga de acá arriba la alimentación del toma corriente lo que sea ¿para que haces este recorrido? Si vos podes bajar por acá mirá y acá...
+Sebastián Melgarejo: Ahí está marcado para continuar el... Ahí está marcado se ve el...
+Profesor: No, pero está mal. Esto lo que hicieron ya está mal. Acá pusieron los caños acá y vuelve ahí y de acá, fíjate que tomo la alimentación y está ahí otra vez, o sea no es lógico lo que está haciendo.
+##### Leiva: Y como ellos están haciendo esto, ellos tienen un plano o así a lo Chamamé no más?
+Profesor: No me pidas, yo no voy a criticar a otra gente.
+Leiva: En qué se basan para hacer?
+###### Profesor: Y no sé si vos me decís puede ser que alguien le bosquejó acá va una boca, acá va un toma y después arreglate no tiene un recorrido real.
+Entienden lo que quiero decir? 
+Ahí lo que le habrán puesto es: **"ponemos la boca acá, un toma acá un toma acá y la llave de punto ahí, pero este caño está de más acá el recorrido"**
+Fíjense bien porque es importante que ustedes razonen también por eso yo no les quiero decir todo.
+Quiero que vean y que razonen que es lo que está bien y que está mal.
+La idea es que todos tengamos la visión de que es lo que no se debe hacer, o como mejorar la instalación, esa es la idea.
+
+Sebastián Melgarejo: Y ese caño que viene o va hacia allá, ese que está yendo hacia allá a través del...
+Profesor: Este debe ser algún toma o algo chiquito, después vamos a mirar de aquel lado, donde llega.
+Sebastián Melgarejo: Este llevá para allá.
+Profesor: No ese estaba de soporte, un soporte para que no vuelva esto todo para acá.
+Sebastián Melgarejo: Ah ok.
+Profesor: Pero bueno, vamos a ir viendo ahí.
+Voy a ir viendo quién está afanando.
+Sebastián Melgarejo: Esto si era en una escuela usted no le aprobaba profe.
+Profesor: No pero bueno, nosotros miramos acá, es para que ustedes vayan viendo ya saben que **la primer cosa es que no está fijada las cajas**, fíjense ahí si están fijadas las bocas o no.
+Esto debe ser baño o una cocina y otra cosa.
+###### Yo: Ahí tiene un alambre.
+###### Profesor: Ese tiene alambre pero lo ideal es que esté fijo ese.
+
+En principio ya saben la alimentación viene de allá hasta acá, **esto hay que tener cuidado porque se desforma hay que poner madera o lo que sea para poder fijar las cajas de ahí sale toda la alimentación ya sea toma o lo que ustedes quieran**.
+
+Bueno. 
+En principio para que ustedes tengan idea a veces ocurre acá había una pared **en principio entonces si hay una pared por lo tanto había una alimentación que ahora sacaron, por las dudas no vamos a tocar**.
+
+Fíjense todas las cosas que ustedes pueden ver es porque lo que está ahí se puede mejorar.
+Si llegan a ver una alimentación por el suelo, esto seguro que es toma pero está faltando un cable. Yo puedo hacer la alimentación acá poner un periscopio lo que sea pero fíjense donde sale. Ahí ya me está faltando el verde y amarillo.
+Antonio Cardozo: Claro, tierra profe.
+Selva: Acá tampoco.
+Profesor: Por eso digo, ustedes fíjense no más, **todo esto que ustedes ven se puede mejorar**. Alguien tiene que cantarle la justa para decir bueno esto está mal, esto está mal, pero es importante que vean esto ya es la instalación que se va a utilizar no es algo ficticio esto es lo que ustedes ven.
+
+###### Selva: Este si tiene alambre, no se si está bien eso o como tiene que estar.
+###### Profesor: No tiene que estar fijo, eso todo no se tiene que mover.
+Sebastián Melgarejo: De abajo para arriba **no se tiene que mover**.
+Profesor: Esto no puedo hacer (empuja la caja con un palo y se mueve). 
+###### Tengo que fijar la caja, ¿cómo fijo la caja? Tengo que buscar un elemento, un soporte que venga de arriba hasta acá y esto quede fijo, esto no sirve (se mueve).
+Por eso es importante que ustedes vean que hay que fijar las cajas ¿por qué? Por este motivo, y **allá la que se desprendió es porque no fijaron las cajas hizo así y..**
+Maru: Con el alambre no más le...?
+Profesor: No sirve. No sirve eso. Quiero mostrarle eso para que ustedes vean que hay gente que entiende mal que el soporte es tal cosa. Yo siempre le digo que es lo que soporta, **a veces se hace soporte tipo esto pero en gran escala: se fija una boca acá y el otro allá arriba pero todo con planchuela** cuesta más, en el sentido de que ustedes pueden demorar. Lo único bueno acá es que tienen el nivel de agua (de manguera) o sea que quiere decir que puede tener..
+Maru: Ese no es de agua? Ese de allá, el marrón, allá pasando allá, ahí.
+Leiva: Ah allá arriba.
+Ayudante(Alejandro Ramirez): Sí, hay un caño de agua.
+Profesor: Si debe ser porque ese es el baño.
+
+Esto es lo que es realidad, si está bien o mal la instalación ustedes se fijan, saquen la foto la mayoría de las cosas para que ustedes entiendan que la realidad a veces es otra pero nosotros estamos tratando de leer algo entiendan que podemos mejorar, cada uno tiene su criterio, pero hay veces que las cosas que están mal hay que verlas para mejorar, esa es la idea.
+
+Ya vamos a levantar esa cajita y ver que hago ahí¿? Ruido (Minuto 24:05)
+
+Fíjense otra cosa que la que tenía allá tenía no sé si vieron las **cajitas que teníamos ahí de PVC que tiene una oreja, esa son exclusivamente para trabajar con durlock perfilería**, estas son las que realmente uno puede utilizarlo como misma caja de mampostería y la misma caja que tiene ahí.
+Sebastián Melgarejo: Durlock.
+
+Si pones una caja al lado de la puerta:Bueno. Vamos a suponer que hay una puerta ahí, **no tengo el metro pero ahí no tiene 10, esto debe tener 15, arriba del marco debe tener más o menos 18 ahí**, si esto tiene 10 esto debe tener 18 acá hasta acá.
+Sebastián Melgarejo: 15 es el mínimo?
+Profesor: No, como máximo yo tengo que tener la posibilidad lo ideal sería entre 10 y 20 más de eso no, porque yo entro así y tengo que buscar la...
+Leonardo: Encima esta puerta seguro va a abrir así.
+Sebastián Melgarejo: Sí, por la apertura.
+Alejandro Ramirez: Se va a abrir hacia acá.
+Profesor: Y no tengo idea.
+Leonardo: Encima acá está la ventana.
+Profesor: Sí, hay que ver que función va a cumplir esa parte ahí.
+Leonardo: Claro, a no ser que sea corrediza. Si es corrediza...
+Leiva: Va a tapar igual.
+Profesor: Hay que ver si es una puerta o solo es un paso, porque como esto iba a ser una radio, acá iba a ser la parte de control acá iba a tener una ventana la gente iba a estar transmitiendo ahí para que esto esté...
+Maru: La pecera.
+Profesor: Sí, un sonido externo. Ahora se cambió todo pero para que ustedes vean no más, siempre ocurre que probablemente ahí iba a estar un aire acondicionado
+
+--- 
+Explicación personal:
+Cuando abrís la puerta ahí está la caja al lado de la puerta no puede estar a menos 15.
+###### Por si enchufás la afeitadora no se puede abrir la puerta por ejemplo.
+Es todo práctico tenes que ver si podes abrir la puerta.
+
+---
+
+
+
+
+---
+
+Minuto 25:50

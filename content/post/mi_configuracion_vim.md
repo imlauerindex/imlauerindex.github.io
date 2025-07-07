@@ -25,6 +25,7 @@ wget --no-check-certificate https://ftp.nluug.nl/vim/runtime/spell/es.utf-8.sug
 
 ##### Esta es mi configuración actual (sin plugins):
 ```bash
+xnoremap <silent> <C-@> :w !wl-copy<CR><CR> # Copiar en Wayland
 :setlocal spell spelllang=en,es
 syntax on
 set hlsearch    " highlight all search results set ignorecase  " do case insensitive search

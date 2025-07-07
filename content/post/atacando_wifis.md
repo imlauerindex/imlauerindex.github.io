@@ -84,7 +84,7 @@ pacman -S hostapd lighttpd hcxtools bettercap ettercap bully pixiewps  hashcat t
 Más info acá: https://github.com/v1s1t0r1sh3r3/airgeddon/wiki/Options
 
 
-```
+```bash
 sudo wifite
 sudo airgeddon
 ```
