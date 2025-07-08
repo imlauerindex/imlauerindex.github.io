@@ -3,6 +3,8 @@ title: "Mi Configuración de Vim"
 date: 2024-09-25T16:29:35-03:00
 tags: ['vim']
 ---
+Después de instalar ArchLinux configuro mi Vim así:
+
 Descargá VIM plug:
 
 curl -O https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -21,8 +23,6 @@ wget --no-check-certificate https://ftp.nluug.nl/vim/runtime/spell/es.utf-8.spl
 wget --no-check-certificate https://ftp.nluug.nl/vim/runtime/spell/es.utf-8.sug
 ```
 
-
-
 ##### Esta es mi configuración actual (sin plugins):
 ```bash
 xnoremap <silent> <C-@> :w !wl-copy<CR><CR> # Copiar en Wayland
@@ -40,7 +40,12 @@ set ic
 ```
 
 ---
-##### Configuración vieja.
+
+Acá está mi configuracion de w3m(en wayland tenes que usar sixel): https://imlauera.github.io/mi_configuracion_w3m/ (`w3m -sixel google.com`)
+Y acá está mi configuración de `config/fish/config.fish`: https://imlauera.github.io/tinywl_foot_tmux_w3m_falkon/
+
+
+##### Configuración vieja de `.vimrc`
 
 
 vim plug:
