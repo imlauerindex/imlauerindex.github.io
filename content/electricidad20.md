@@ -182,8 +182,6 @@ Profesor: Sí, hay que ver que función va a cumplir esa parte ahí.
 Leonardo: Claro, a no ser que sea corrediza. Si es corrediza...
 Leiva: Va a tapar igual.
 Profesor: Hay que ver si es una puerta o solo es un paso, porque como esto iba a ser una radio, acá iba a ser la parte de control acá iba a tener una ventana la gente iba a estar transmitiendo ahí para que esto esté...
-Maru: La pecera.
-Profesor: Sí, un sonido externo. Ahora se cambió todo pero para que ustedes vean no más, siempre ocurre que probablemente ahí iba a estar un aire acondicionado
 
 --- 
 Explicación personal:
@@ -193,7 +191,15 @@ Es todo práctico tenes que ver si podes abrir la puerta.
 
 ---
 
+Maru: La pecera.
+Profesor: Sí, un sonido externo. Ahora se cambió todo pero para que ustedes vean no más, siempre ocurre que probablemente ahí iba a estar un aire acondicionado ahora probablemente tengan otra posibilidad, ahí también se picó para poner otro aire acondicionado que en ese caso cuando estaba la divisoria ahí se iba a poner uno ahí y otro allá, o sea que va variando ahí. Ahí arriba ese cuadrado ahí.
+Leiva: Será que no sirve PVC como para seguir?
+Profesor: No, no creo lo 1ero que hace...
+Lo importante en principio algún día íbamos a hacer nosotros pero antes de esto hacen otra gente que el apuro es más rápido que lo que podamos hacer nosotros. Esto es importante que vean se acuerden de estas cosas. Vamos a ver otras soluciones, vamos a empezar por partes como vamos a mejorar.
 
+Ahí va un toma, acá otro toma, **a veces es contraproducente que ya por romper los encadenado vió** este seguro que baja acá y alimenta a este, más que seguro, pero siempre de la caja de ahí, pero acá hay algo redundante que no es lógico fíjense, yo salgo la alimentación por más que tenga las bocas y después hago la bajada ahí, perfecto. Bajo acá y puedo seguir allá, no, tengo otra bajada allá otra vez no sé si están viendo eso, tengo otra boca y otra bajada acá que viene acá 
+Sebastián Melgajero:
+Maru:
 
 
 ---
