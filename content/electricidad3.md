@@ -428,7 +428,9 @@ Un enchufe cualquiera el medio siempre es tierra, y la fase siempre a la derecha
 Me va a indicar si es o no la fase. Tiene que ser apoyado el buscapolo con el dedo arriba entonces ahí me cierra el circuito y está la fase y está todo con puesta tierra y ahí me indicará el LED **1er elemento** que utiliza el electricista.   
    
    
-2. 2do elemento de un electricista: lámpara de prueba.   
+2. 2do elemento de un electricista: lámpara de prueba. **(El tester te puede mentir)**.   
+
+##### Importante: El tester contra tierra me da 220 y una heladera con tierra no anda porque te das cuenta cuando pasa la corriente. El único que pasa amperage es la lámpara de prueba. El tester te puede mentir. La lámpara de prueba contra una chapa no prende, contra el marco. El tester te va a marcar 220, la lámpara de prueba por ahí prende pero quedará en 100 voltios (con menor intensidad de luz).
    
 Alumno: quién fue el que puenteó el disyuntor...     
 Profesor: después te voy a contar primero vamos por partes     
