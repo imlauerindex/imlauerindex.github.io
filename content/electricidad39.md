@@ -18,6 +18,14 @@ https://www.youtube.com/embed/a1zj3CIZGeE
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfYxIWDkggde_iMuu-Kg69GS00Bm1AlOrJDUt2xX3tvLmW31nEnq_JID7DKBoZj5Ye32j4PYohndPrS-SHIt5443Wg2vWnPit73wk1GnxrSIGFLujcH-N4mDzc-RImn3KRwbd3cwfPPar7qs7X9-2MKccPROSZ_EZfnbDUBM2TY3jc1LFp4mgOpqiQNLA/s4160/IMG_20250618_191408248.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6yY2NV8oOv-xQUq-zRkvKYGNtLmygXM2uG6T8f7_x4Ir70WDscy1E0GaNtF5LOUEnpCOhRMiYoUDlF2l6NI9BZVglX8dYY29X8HgAljyshv7Mzboutd4Au_F45Uer4BM832KPF2EGo2Bo1lNemSju6526zktYaKRP41wDWaWPGVyqEP8dm7RGvsJx4TY/s4160/IMG_20250618_191415451.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr8aETXP-infAv2I3G4ae8bWxbdby-tcj31izTGe13uZYV_KjMKh2lze7VpwYWv7LLWJdViR9gBCWJsPwRFocPaJYEt7K7n9H-qNlEU0FJcxuZw__veYLO179Q1kxZRA6cAK4onkPxKq0a4WJJCXPDlrImbOAuda-vYDnndlSeUv_F9LqKKQpTuzybzxY/s4160/IMG_20250618_191429002.jpg)
+Acá puse mal eso de los colores: `fase - rojo, neutro - azul, Tierra - verde`  estaba mal (lo corregí al siguiente) día en la fotocopia de agrupación de conductores más abajo estaba la norma de los colores de los cables.   
+Neutro: color celeste   
+Conductor de protección: bicolor verde-amarillo   
+Fase R: color castaño   
+Fase S: color negro   
+Fase T: color rojo   
+Para los conductores de las fases se admitirán otros colores, excepto el verde, amarillo o celeste.   
+Para el conductor de fase de las instalaciones monofásicas se podrá utilizar indistintamente cualquiera de los colores indicados para las fases pero se preferirá el castaño.   
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEbKUCQjHzlZRhuCzSh39LdFvFA257R9Ucgkxk9rV0N3FaEbeWN_fIJEV96GaGfpQtZZyRMidSwDL6FtQMmh5-lk_jYcFOExOlQ0IPUmRHt5fErtu9iQsCrWnAh47SCg99b8jNq94LfTiZsY5vd7ruElg6u8fwL5XY49alzSMxdE9O5pMa4M5QyqYGN_4/s4160/IMG_20250618_191438082.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEa2SAQeLHKhRlwRTejBnJ_GZNRxGEdMLtWbLTCOsaojW7rgEP8J2IhEikBqvjOxJs1F5sCmVU8fqn74UVmfUMnVXTnABG1723EWdmtHX3nAt8EA_Rn4OReBBYXUi70c8EDxVzson4IQzDJLm4xy8oxImk0LsE7J2W3yn-vZHlMn31tJrgyVUpY8bi4W8/s4160/IMG_20250618_191446187.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1MWgGZBIKRcYx-aLo_U3VBLa5wU7O5jhLN5hSSWYuL_gfeA3Ggka9XtnXZvoRfOSOjPn2vMryiXCQbeLQLFtizW22H0Kv_c_l82_g9MAQXBD0vUY_3EJdqY5rFTDY0oQ1FsGrLh1gjLpLtItibDr7bUX_5QQsZwIq12S9przhDX1SsdqyKXYyoY66E_E/s4160/IMG_20250618_191452042.jpg)
