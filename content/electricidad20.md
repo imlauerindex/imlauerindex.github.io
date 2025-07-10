@@ -15,7 +15,27 @@ La llave de 1 punto tienen solo 2 borners.
 La fase que ustedes va a la llave de 1 punto y el retorno sale del interruptor a la lámpara y este que es el neutro viene directamente de acá al portafoco(portalámparas).
 La 1era es siempre igual(conexión de serie/paralelo)
 El profesor Espeche hizo temblar a un estudiante cuando hacía el empalme. Consejo del profesor: pensar en las mujeres para no temblar.
+Los empalmes nunca se hacen en las cañerías.
+No hay que hacer empalme cola de rata hay que hacer empalme prolongación o western union
+Cinta aisladora doble.
+En el circuito en serie se puede mezclar colores.
+El profesor mandó a arreglar un ventilador que tenía 1 luz y en vez de colocar en paralelo lo colocaron en serie el ventilador con la luz si yo encendía solo el ventilador andaba bien, si encendía solo la luz andaba bien, si prendía los 2 andaba bien pero disminuía la intensidad.
+Los foquitos de navidad van en serie.
+No debe quedar bodoque cuando pones la cinta aisladora.
+Hay que poner la cinta en forma elecoidal en diagonal en vez de poner recto, hay que tratar de inclinarla.
+Hay que hacerle lo más fuerte posible el 1er empalme. La 1er cinta es para empalme entonces con la fuerza de tu cinta.
+La cinta aisladora tiene 2 funciones: 
+El 1ero es para que refuerce tu sujeción de cable.
+El 2do es para que aumente tu aislación.
+Esto tiene suficiente elasticidad para que vos hagas lo más fuerza posible, la 2da es para la aislación.
+Cuando tengo que comprar el alicate: tiene que fijarse que no tenga luz, o la mínima luz posible 
+Como comprobar una instalación eléctrica: buscapolo, lámpara de prueba, probador de tensión, tester.
+Al usar el tester: Acá tenemos DC AC. Si medimos corriente alterna tenes que saber más o menos cuanto voltaje vas a medir nosotros medimos 230 entonces yo tengo una escala lo ideal es que supere los 200.
+Entonces hago esto lo 1ero que tengo que hacer es activarlo tengo las puntas igual que tenía en el portalámparas.
+216 VOLTIOS (hay que acordarse de decir la unidad).
+Esto es un interruptor termomagnético esto es un disyuntor si yo quiero bajo todo sino directamente bajo el disyuntor.
 "
+
 
 
 date: 2025-05-02T20:28:09-03:00
@@ -627,15 +647,93 @@ Profesor: Está. Ahora vas vos. Entonces vos ya hiciste esto acá, colocaste aho
 1er Hijo de Chuck Norris(desaparecido): Claro, por que este va directo a la lámpara?
 Profesor: Y esta es la lámpara
 Sebastián Melgarejo: Sí, tenés que desarmar la lámpara.
-Profesor: Acá lo único malo es que, está bien dejalo ahí no más podes hacer por acá pero no importa va 1ero la unión acá, después cuando hagamos el otro sistema, vos de acá tenes que sacar el recorrido 
+Profesor: Acá lo único malo es que, está bien dejalo ahí no más podes hacer por acá pero no importa va 1ero la unión acá, después cuando hagamos el otro sistema, vos de acá tenes que sacar el recorrido, entonces no haces un empalme y queda desnudo entonces después va el empalme con este y con este. 
+Acuérdense que tienen que aplicar en serie ahí.
+Uno cada uno, quiero ver todos los empalmes.
+Tiene más anillos que yo esto, trabajas así en la parte de tablero.
 
+###### Hacemos los circuitos...
+Profesor: Entonces tu portalámparas acá, ahí vos agarras vamos a poner tu portalámparas ahí entonces siempre por más que yo quiera hacer fíjense que es lo que tengo que hacer, vamos a suponer que ustedes hicieron serie hicieron hasta acá, ahora hay que unir los otros 2 portalámparas, fíjense como va la parte del neutro.
+Sebastián Melgarejo: Sí, va al último.
+Profesor: Entonces que es lo que tienen que hacer quiero que ustedes vean.
+Sebastián Melgarejo: Nos conviene 1ero hacer el último.
+Profesor: Claro, esto va en serie. Entonces vos tenes acá y tenés ahí el tema. Acá tenes el encendido ahí esto recorre va acá, va acá fíjense, de acá sale va allá no sé si me están entendiendo, yo tengo el portalámparas ahí.
 
+###### Acá está mal como explicó el profesor, no es que el neutro va a la otra fase sino que no es el neutro ni fase.
+Yo tengo el portalámparas ahí, voy a la lámpara el neutro este va a la otra fase, el neutro este va a la otra fase y el neutro este cerra el recorrido.
+Si falta cables le doy, 1ero quiero que hagan el empalme para ver como hicieron, **es lo mismo en los 2 lados (serie/paralelo)**.
 
+Fíjense lo primero está de este que esta acá le pasamos a lo 2do pero están en serie, fíjense como están en serie nada más.
 
+##### Siguen discutiendo como armar la serie...
+Esto es lo que no se debe hacer en una instalación eléctrica de una casa. **(CIRCUITO EN SERIE)**.
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Zce9ZsIhn35EhT2mxAuaL5RHgA9g4hWjWbsjRGnmUWwdwYFxaWU5Yrno9ym4bCE7e92y261FAlLkLNnqEjwAtYuaUJ81mS4tFQY0yIwUKmZnXWcoqFsQnwFqIUMbKs0fQ9wb4xk37DH8vf9Qe4NK7ObsC1uUB5DcogZn8MDrNOHdX79dDKVZvn7TFEE/s311/unnamed.png)
+
+Al profesor le conectaron un ventilador con una luz 
+
+##### Hora 01:39
+Profesor: En un inmueble no van a tener eso, después le voy a explicar donde puede haber la idea acá es que ustedes sientan la diferencia porque a veces ocurre una cosa imuy importante 
+El profesor mandó a arreglar un ventilador que tenía 1 luz y en vez de colocar en paralelo lo colocaron en serie el ventilador con la luz si yo encendía solo el ventilador andaba bien, si encendía solo la luz andaba bien, si prendía los 2 andaba bien pero disminuía la intensidad.
+Sebastián Melgarejo: Disminuía la intensidad.
+Profesor: Essaaa es!
+Sebastián Melgarejo: Como vos dijiste.
+1er hijo de Chuck Norris(gordito remera blanca): Ahora voy a hacer todo en mi casa así (Chiste).
+
+Sebastián Melgarejo: Como se llama el empalme que hicimos hoy?
+Profesor: El 1ero es empalme prolongación o western union, siempre es tipo una X, está? Si vos tenes una X o vos empezás fijate hay gente que hace el enrollado acá queda esto bien fijo tipo S y después fijo acá pero ¿qué pasa? Acá lo ideal es que esté lo más plano posible porque vos vas a hacer así... Y vas a hacer así y después al final le vas a unir, si vos tenes esto bien fijo acá lo ideal es que tu empalme cuando ponga la cinta aisladora sea parecido a tu aislación, que no quede un bodoque.
+Al final lo que se hace es apretarlo y después le pasas.
+
+Es importante saber esto porque van a encontrar muy seguido. Los foquitos de navidad están en serie.
+
+La cinta aisladora tiene 2 funciones: 
+Hay que poner la cinta en forma elecoidal en diagonal en vez de poner recto, hay que tratar de inclinarla.
+¿Qué característica tiene?
+Hay que hacerle lo más fuerte posible el 1er empalme. La 1er cinta es para empalme entonces con la fuerza de tu cinta.
+
+La cinta aisladora tiene 2 funciones: 
+El 1ero es para que refuerce tu sujeción de cable.
+El 2do es para que aumente tu aislación.
+
+Profesor: Ya sé que vos queres tener una pulsera para tu novia pero...
+1er hijo de Chuck Norris(gordito remera blanca): Uh encima que se viene el cumpleaños ahora.
+Profesor: Auu que, decile esto es lo que aprendí ahí.
+
+Esto tiene suficiente elasticidad para que vos hagas lo más fuerza posible, la 2da es para la aislación.
+1er hijo de Chuck Norris(gordito remera blanca): Está bueno este alicate.
+
+Cuando tengo que comprar el alicate: tiene que fijarse que no tenga luz, o la mínima luz posible es porque el filo está bien hecho.
+
+Sebastián Melgarejo: Ese día hicimos 2 horas a mi me quedó un cayo por inútil
+
+Ustedes vieron el tema de como comprobar como está una instalación.
+Como a ellos no los veo muy seguido vamos a tratar le voy a dejar todos los instrumentos ahí y ellos nos van a explicar que aprendieron.
+
+Si no aprendieron le voy a explicar una sola vez, después si quieren faltar después no me interesa.
+Esto está todo apagado así que no hay problema, conecten ahí.
+
+Sebastián Melgarejo: Profe puedo probar este primero?
+Profesor: Sí, no hay problema. Los 2 juntos. Bueno le voy a explicar lo último.
+
+Yo tengo un circuito que tiene fase y neutro, el 1er elemento que tengo que tener yo en la mano: buscapolo (me indica donde está la fase).  Si yo no pongo el dedo acá no estoy haciendo la tierra, tengo este, acá fíjense que no pasa nada (el neutro).
+Esto me está indicando la fase no más, no me sirve de nada tener solo esto porque no sé si hay neutro, o como sabes si hay otro acá porque no sabes si estás neutro, entonces necesito otro elemento que me ayude en este caso un portalámparas por eso que tiene la lámpara de prueba.
+Mostrale ahí, acá la parte de entrada solo los dos primeros (poné el portalámparas)
+
+Fase y neutro ahora ya sé que tengo fase y neutro ahí porque esa lámpara si no tengo 220 no prende ahí, bueno antes sigo.
+Ahora ya me voy sofisticando si tengo un probador de tensión y tiene una cierta calibración 0,12,24,50 corriente alterna por supuesto 120, 230 y 400 y pico, son valores de tensión aproximada o sea que yo tengo que tratar de medir que pasa y si realmente la tensión que está entrando es al rededor de 220.
+
+1ero buscapolo. 2do portalámparas. 3ero probador de tensión.
+
+###### Explica como usar un tester
+Ya tengo un valor de tensión aproximada que era 30, entonces este ayer empezamos a ver con el tema de resistencia y esto es para mandar continuidad ahora lo que tienen que hacer. CV te indica tensión. DC es corriente continua (direct current) voltios, acá es AC(corriente alterna) pero también te indica voltaje, una alterna y otra continua **(SE EQUIVOCÓ ACÁ EL PROFE 01:54)**.
+
+Acá tenemos alterna la alterna es como nosotros medimos 230 entonces yo tengo una escala lo ideal es que supere los 200.
+Entonces hago esto lo 1ero que tengo que hacer es activarlo tengo las puntas igual que tenía en el portalámparas.
+216 VOLTIOS (hay que acordarse de decir la unidad).
+Esto es un interruptor termomagnético esto es un disyuntor si yo quiero bajo todo sino directamente bajo el disyuntor.
 
 
 
 
 ---
 
-Hora 1:18
+Hora 1:46
