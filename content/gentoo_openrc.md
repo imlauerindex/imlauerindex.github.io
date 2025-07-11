@@ -151,6 +151,9 @@ nameserver 1.0.0.1
 # Quad9   
 9.9.9.9
 149.112.112.112
+# Quad9 - Otra DNS (Esta uso)
+nameserver 9.9.9.11
+nameserver 149.112.112.11
 ```   
    
 ```bash   
