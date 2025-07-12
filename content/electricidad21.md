@@ -1,5 +1,35 @@
 ---
-title: "Electricidad / Clase 21: Clase práctica. Armarmos tablero paralelo. Conclusiones serie vs paralelo."
+title: "Electricidad / Clase 21: Clase práctica. Armarmos tablero paralelo. Conclusiones serie vs paralelo.
+Saul Kuperman el Lunes va a haber un grupo de gente de la obra social nuestra que es la UOCRA y salud pública a vacunar grande vacunación obviamente para adultos
+Ya partimos de esquemas eléctricos yo siempre hago un **esquema en plata como ubicar como si tuviéramos un plano en la mano** entonces a partir de ahí vamos a ver ahí ya trabajan por separado.
+
+##### Hay que dejar un bucle de 15 cm en la caja octogonal
+##### Los empalmes no pueden quedar dentro del caño
+##### Los hijos Chuck Norris(Selva) desarmaron el portalámparas y no había necesidad de hacer eso podían haber cortado el empalme (Minuto 43) (Hicieron eso porque pensaron que quedaba corto)
+##### Siempre el portalámparas independiente
+
+###### Lo 1ero que tengo que usar es el buscapolo(para identificar la polaridad de tu circuito), 2do lámpara de prueba(para identificar si llega fase y neutro y 220 voltios), 3ero probador de tensión(saber el voltaje aproximado que llega), 4to tester o multímetro o multitester(saber voltaje exacto y comprobar que el circuito no tenga continuidad con la LLAVE APAGADA si tiene continuidad es cortocircuito).
+Acá tenemos 2 cables. Los 2 son uno es vivo el otro es el retorno. De acá entra el vivo.
+El vivo va a tu interruptor.
+El vivo es el de la derecha.
+A cualquier lado le podes poner el vivo pero algunos tienen una marquita.
+Fijate ese trae 2 borners no más, no trae 3.
+Trae 1 acá y el otro acá, el 3ero viene vacío, el 3ero es para llave combinada.
+Retorno va a todas las lámparas.
+En el retorno tenes los empalmes: empalme 1, empalme 2 y empalme 3.
+El retorno le hizo con el mismo color porque es vivo.
+Adrian Torres: Viene tu principal y va a tu portalámparas
+
+Ahora sé que... Los hermanos cardozo.
+Estoy aprendiendo ya. Chamamecero de Ley.
+
+Profesor: Sabe algo por lo menos?
+Grandes tiempos en donde estaba Power
+Profesor: Power? El boliche bailable? Ah eso si para eso si.
+Importante que uno tome la posta yo quiero ver como trabaja cada uno.
+Después vamos a ir individual para ver como trabajan.
+
+"
 date: 2025-05-06T03:49:10-03:00
 tags: [electricidad]
 ---
@@ -21,7 +51,7 @@ https://www.youtube.com/embed/RjSsyycAPkk
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMHxssVLIAPOfYaBmf9pbAZpbZWK2bIqAph-Yq0FmAb6hcWjlpNG8jhpMlgn1_pJudL6CK6ndGak_bXtvR10XpenLBAe6n88obwz-Ea6C3X388yqZU6p7Bv9fgYFDpSHXmQjaGQ6_yQZlHhtD54RADlvq4yDzn7D7kymyjqhW-vWiYWOknAmACJoFZZK0/s4160/IMG_20250505_194959606_BURST001.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXoyuokRvr_YVb5_wbf1JrFAl7ojER_Wy2bRLfvGxZwVeLKDoePR_YiEv2H-1PHTlSxfjINIddt2EH8GVAc44RKFRg3rGYmFQc91v24SvEOXOX-2MWF96IPYveuJpJv9Gh2Kv1_-kdmTW3zU2t7mh7Fshs6LLhl0m3yrq-mFRa_9tchIzCZoK8BaJEvDI/s4160/IMG_20250505_194959606_BURST000_COVER_TOP.jpg)
 ###### Conexión en paralelo:
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf2ustbBbS50jvffIPk0kJrmY8Cl60TcuV-E8hlOqPmqB1XExkzHIsh2vZothRWwRPOc1PlFUa7mnwUVVaFXm5p_hymc3ywTxdr-VqxHMEeXFbSXOUnK1aqFyWtxP-anLruzUH6gvSvBxVmPp6HuCwFm31Wl_6tllcAS8iI-1uuRWZDqe_eW1yabIXEcU/s4160/IMG_20250505_193501682.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX8_NnKWWExWH3SnrGv0k8TVXmVbbXxbMS_aG9z_B_LTYRzxKs2xmIyLpkTDl_jjM9kQSGLLCQuig9grq9HBZWHrMWkZrdyZT6A2Q-2KQXAv2xEUBjOVHjySy-9ev3NWY-mrY5vlSAd60p9AuXL9bcURcMAibPCH_tqHXM7YuUb-xb4wDbyPngCmXYAU0/s4160/paralelo.jpg)
 ###### Conexión en serie: 
 El retorno va a la lámpara, el neutro de la lámpara va a la fase de la otra lámpara y el neutro de esa lámpara va a la fase de la otra lámpara, y así hasta la última lámpara en donde el neutro sale afuera.
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Zce9ZsIhn35EhT2mxAuaL5RHgA9g4hWjWbsjRGnmUWwdwYFxaWU5Yrno9ym4bCE7e92y261FAlLkLNnqEjwAtYuaUJ81mS4tFQY0yIwUKmZnXWcoqFsQnwFqIUMbKs0fQ9wb4xk37DH8vf9Qe4NK7ObsC1uUB5DcogZn8MDrNOHdX79dDKVZvn7TFEE/s311/unnamed.png)
@@ -89,7 +119,7 @@ Sebastián Melgarejo: El retorno siempre va a las lámparas
 Cable de tierra es el que sale del tablero?
 Sebastián Melgarejo: No.
 ###### \* Sebastián Empieza a dibujar en su hoja circuito paralelo
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf2ustbBbS50jvffIPk0kJrmY8Cl60TcuV-E8hlOqPmqB1XExkzHIsh2vZothRWwRPOc1PlFUa7mnwUVVaFXm5p_hymc3ywTxdr-VqxHMEeXFbSXOUnK1aqFyWtxP-anLruzUH6gvSvBxVmPp6HuCwFm31Wl_6tllcAS8iI-1uuRWZDqe_eW1yabIXEcU/s4160/IMG_20250505_193501682.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX8_NnKWWExWH3SnrGv0k8TVXmVbbXxbMS_aG9z_B_LTYRzxKs2xmIyLpkTDl_jjM9kQSGLLCQuig9grq9HBZWHrMWkZrdyZT6A2Q-2KQXAv2xEUBjOVHjySy-9ev3NWY-mrY5vlSAd60p9AuXL9bcURcMAibPCH_tqHXM7YuUb-xb4wDbyPngCmXYAU0/s4160/paralelo.jpg)
 Acá tenemos 2 cables. Los 2 son uno es vivo el otro es el retorno. De acá entra el vivo.
 El vivo va a tu interruptor.
 El vivo es el de la derecha.
@@ -107,3 +137,26 @@ Estoy aprendiendo ya. Chamamecero de Ley.
 Profesor: Sabe algo por lo menos?
 Grandes tiempos en donde estaba Power
 Profesor: Power? El boliche bailable? Ah eso si para eso si.
+Importante que uno tome la posta yo quiero ver como trabaja cada uno.
+Después vamos a ir individual para ver como trabajan.
+
+
+###### Lo 1ero que tengo que usar es el buscapolo, 2do lámpara de prueba, 3ero probador de tensión, 4to tester.
+
+Alejandro Ramirez: Bueno. Acá están las herramientas de prueba, qué vamos a mirar 1ero?
+Yo: El buscapolo en la entrada.
+Alejandro Ramirez: Ustedes ayudenle.
+1er Hijo de Chuck Norris: Claro, 1ero vos tenes que ver si tiene tensión acá, por eso tenes que hacerlo con este.
+2do Hijo de Chuck Norris: Acá?
+1er Hijo de Chuck Norris: Tocá con el dedo.
+Alejandro Ramirez: En tu entrada, esta es tu entrada tu entrada es donde viene tu alimentación esto simula lo que viene siendo la térmica de un pilar. Con el buscapolo vos identificas la polaridad de tu circuito.
+Si tu rojo viene tu fase... **No vayas a meter así el dedo porque yo no quiero ni ver el tablero de tu casa como sigue estando seguro ni arreglaste todavía y tu celeste no tiene nada pero no sabes si tenes neutro, con este vos identificas la polaridad**. 
+1er Hijo de Chuck Norris: Y con este vos identificas el neutro?
+Sebastián Melgarejo: Si llegas 220.
+Ayudante(Alejandro Ramirez): Identificas si llega fase y neutro.
+1er Hijo de Chuck Norris: Prueba la lámpara de prueba.
+Ayudante(Alejandro Ramirez): Ahí tengo 220, bueno sacale, esto es para probar eso no se mantiene conectado mucho tiempo porque sino este se jode.
+Sebastián Melgarejo: Es para saber aprox. cuánto voltaje aproximado llega.
+Ayudante: A ver quién va a decir el nombre de esto?
+Yo: Tester.
+Ayudante: Tester, multímetro, o multitester.
