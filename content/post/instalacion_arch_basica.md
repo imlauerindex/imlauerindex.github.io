@@ -98,6 +98,8 @@ vim /etc/hosts
 127.0.0.1       arch.localdomain	arch
 ```
 
+En este archivo también podes agregar al final el siguiente archivo para bloquear sitios de apuestas, pornografía, etc: https://github.com/StevenBlack/hosts
+
 ###### Cambia las DNS porque las de Claro, Personal, Movistar bloquean páginas, yo uso las de Quad9:
 DNS de Quad9 https://en.wikipedia.org/wiki/Quad9
 

@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 21: Armarmos tablero paralelo. Conclusiones serie vs paralelo."
+title: "Electricidad / Clase 21: Clase práctica. Armarmos tablero paralelo. Conclusiones serie vs paralelo."
 date: 2025-05-06T03:49:10-03:00
 tags: [electricidad]
 ---
@@ -32,3 +32,78 @@ https://cursosdeelectricidad.blogspot.com/2008/06/tema-14-conexin-de-2-o-ms-lmpa
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIkBq23aMiNmfA3ac9CHIceMfL2B87-wSrTUKVpunoEbxc_PII8PfqziPwOZ6Y9Py-qbjz7be2H7ZaLR6JhCJetsoMmIb84HMU9WwOeMGciGPaAgC2ClQsOijewy3-1l-I8-IuNnOhIz3ncWa8m6GOM3D80BspQdaYmRpVmnC_ZWFlFQMhrZnhPEHiaTA/s4160/IMG-20250505-WA0037.jpg)
 
 ##### Transcripción
+La idea principalmente que ustedes tengan en la cabeza fácil esquema de serie y paralelo para que después saquemos las conclusiones, voy a ir a mostrando algunas cositas. Quiero que aprendan el conexionado.
+
+Después sacamos las conclusiones.
+Una vez que saquemos las conclusiones y definimos la conexión serie y paralelo **después vamos a empezar con circuitos básicos de una instalación eléctrica**.
+
+Ya partimos de esquemas eléctricos yo siempre hago un **esquema en plata como ubicar como si tuviéramos un plano en la mano** entonces a partir de ahí vamos a ver ahí ya trabajan por separado.
+
+Ahora tengo que pedir materiales, capaz que cada vez hay menos.
+
+¿Entienden ahora? La serie hicieron ahí las 4 chicas y el chico.
+Todavía falta uno ahí y ¿ustedes hicieron los 4?
+Sebastián Melgarejo: No eran 2 muchachos que no vinieron y Imlauer.
+Yo: Eran 2 que no habían venido nunca XDDD
+Profesor: Ah! Los dos les puse los hijos de Chuck Norris. ¿Qué va a hacer? Bueno acá hay herramientas, quiero que hagan al revés para que tengan idea.
+Sebastián Melgarejo: Pelamos todo?
+Profesor: No, fíjense que pueden salvar. **Acuérdense que había una parte que era igual**
+
+Javier Cardozo: No vino el otro profesor? Chuck Norris(Se equivoca nunca lo llamó así)
+Sebastián Melgarejo: El viene menos cuarto por ahí
+Javier Cardozo: Viene para molestar no más.
+Sebastián Melgarejo: Viene para el título.
+Javier Cardozo: Y si no es que él estudio en la Industrial el muchacho?
+Sebastián Melgarejo: 2 años no se recibió ahí.
+Yo: El dijo que trabajaba para la municipalidad y que supuestamente lo echaron a todos los que no tenían título, los que no estaban matriculado.
+Javier Cardozo: Pero esto le no sirve tampoco.
+Sebastián Melgarejo: Si esto sirve.
+Javier Cardozo: Ah pero tiene que seguir montador. Justo falté la clase de empalmes.
+Sebastián Melgarejo: Igual no hicimos tan bien los empalmes, el profesor dijo que pongamos doble aislación.
+
+Minuto 17
+
+---
+
+Minuto 20: Tenes que saber de memoria: busco buscapolo, portalámpara, etc.
+
+---
+
+https://cursosdeelectricidad.blogspot.com/2008/06/tema-14-conexin-de-2-o-ms-lmparas-en.html
+
+#### Este es el circuito que hicimos.
+![](https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sPbK-kXJwSN10GQuSMwCsjWAwQbMmT58_r1IKZUxz62w04ZNHy8hHzqUmisfct_wZTdFtIA33uXgCwwalLPxAV1ckvLEqY7kgjVEMrutatcotQEGeTByGJZizpH-SVXuF3gJXARHgK=s0-d)
+
+Minuto 28: Saul Kuperman el Lunes va a haber un grupo de gente de la obra social nuestra que es la UOCRA y salud pública a vacunar grande vacunación obviamente para adultos así que están convocados invitados es voluntario contra la gripe, COVID refuerzo para eso se necesita que traigan la constancia de que vacuna tienen. O sino MiArgentina que figura que vacuna nos han puesto del COVID.
+
+Y estamos viendo a ver si habrá vacuna contra el dengue, eso no les puedo garantizar. Lunes de 17:30 19:30 cosa que los dos grupos que hay en esos horarios tengan la posibilidad de acceder a esa vacunación.
+
+Minuto 30: Estaba explicando serie: El neutro de este va con la fase del otro (está mal eso no es que juntas neutro con fase) si juntas neutro con fase explota. En realidad ese no es el neutro. Se equivocó.
+
+##### Hay que dejar un bucle de 15 cm en la caja octogonal
+##### Los empalmes no pueden quedar dentro del caño
+##### Los hijos Chuck Norris(Selva) desarmaron el portalámparas y no había necesidad de hacer eso podían haber cortado el empalme (Minuto 43) (Hicieron eso porque pensaron que quedaba corto)
+##### Siempre el portalámparas independiente
+
+Sebastián Melgarejo: El retorno siempre va a las lámparas
+Cable de tierra es el que sale del tablero?
+Sebastián Melgarejo: No.
+###### \* Sebastián Empieza a dibujar en su hoja circuito paralelo
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf2ustbBbS50jvffIPk0kJrmY8Cl60TcuV-E8hlOqPmqB1XExkzHIsh2vZothRWwRPOc1PlFUa7mnwUVVaFXm5p_hymc3ywTxdr-VqxHMEeXFbSXOUnK1aqFyWtxP-anLruzUH6gvSvBxVmPp6HuCwFm31Wl_6tllcAS8iI-1uuRWZDqe_eW1yabIXEcU/s4160/IMG_20250505_193501682.jpg)
+Acá tenemos 2 cables. Los 2 son uno es vivo el otro es el retorno. De acá entra el vivo.
+El vivo va a tu interruptor.
+El vivo es el de la derecha.
+A cualquier lado le podes poner el vivo pero algunos tienen una marquita.
+Fijate ese trae 2 borners no más, no trae 3.
+Trae 1 acá y el otro acá, el 3ero viene vacío, el 3ero es para llave combinada.
+Retorno va a todas las lámparas.
+En el retorno tenes los empalmes: empalme 1, empalme 2 y empalme 3.
+El retorno le hizo con el mismo color porque es vivo.
+Adrian Torres: Viene tu principal y va a tu portalámparas
+
+Ahora sé que... Los hermanos cardozo.
+Estoy aprendiendo ya. Chamamecero de Ley.
+
+Profesor: Sabe algo por lo menos?
+Grandes tiempos en donde estaba Power
+Profesor: Power? El boliche bailable? Ah eso si para eso si.

@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 16 / Armamos distribución"
+title: "Electricidad / Clase 16 / Clase práctica. Armamos distribución"
 date: 2025-04-23T13:43:51-03:00
 tags: [electricidad]
 ---
