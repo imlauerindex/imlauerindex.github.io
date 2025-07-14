@@ -266,9 +266,15 @@ Le explico al profesor mi circuito (Hora 01:06)
 Hay que cortar el sobrante debajo del interruptor.
 
 Profesor: Como anda doña?
-Ayudante: Ella trajo su herramienta, su cable, todo trajo.
+Ayudante: Ella trajo su herramienta, su cable, todo trajo, todo ya hizo.
+Profesor: Siempre viene la alimentación de arriba, vos estás mirando en cualquier lado. 
+Botolli: No, yo solo corrí.
+Profesor: No, está bien tiene sentido.
+Botolli: Está con ganas de pelear.
+Profesor: Yo trato de corregir, no se preocupe mi forma de ser, es ser fuerte.
 
-##### Comenzamos a probar los tableros.
+
+##### Comenzamos a probar los tableros (Hora 01:07)
 Bueno vamos a hacer fácil vamos a buscar un lado para que ustedes prueben.
 
 Antonio Cardozo: Hablando con Botolli (parece que están hablando de la vacuna) Inentendible (Hora 01:07:40)
@@ -281,7 +287,7 @@ Sebastián Melgarejo: Nosotros nos movemos de acá, nos ponemos ahí y acá tien
 Profesor: Bueno, perfecto plus cuan perfecto. Ganaste la lotería. Ganó la lotería no fue a buscar el premio.
 
 Acá tengo algo voy a traer mañana, me olvidé de afanar estaba haciendo otra cosa.
-
+(
 Antonio Locascio hablando con Botolli.
 Tomacorriente se conecta también abajo el tomacorriente.
 Gustavo Barrientos: Hay que hacer todo el protocolo ese? Buscapolo...

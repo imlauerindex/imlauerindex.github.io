@@ -63,3 +63,4 @@ git commit -m first
 git push ..... # etc, etc, etc   
 ```   
    
+El archivo `template.include` contiene los links del `navbar` ahí eliminá todos los links que no quieras también eliminá los links que no necesitás del `sitemap.md`
