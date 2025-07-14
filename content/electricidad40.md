@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 40: Fotocelula. Fotocontrol. Fotocélula siempre mirando al norte."
+title: "Electricidad / Clase 40: [FOTOCOPIA] Fotocelula. Fotocontrol. Fotocélula siempre mirando al norte."
 date: 2025-06-25T06:39:43-03:00
 tags: [electricidad]
 ---

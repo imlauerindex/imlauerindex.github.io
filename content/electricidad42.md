@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 42: Tableros"
+title: "Electricidad / Clase 42: Clase teórica: Tableros"
 date: 2025-06-25T22:49:18-03:00
 tags: [electricidad]
 ---

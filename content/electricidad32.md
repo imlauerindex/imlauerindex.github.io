@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 32: Leímos fotocopia interruptor termomagnético. Potencia nominal. Corriente máxima por sección de cable."
+title: "Electricidad / Clase 32: [FOTOCOPIA] Foto termomagnética. Leímos fotocopia interruptor termomagnético. Potencia nominal. Corriente máxima por sección de cable."
 date: 2025-06-02T22:30:44-03:00
 tags: [electricidad]
 ---

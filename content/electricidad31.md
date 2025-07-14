@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 31: Protecciones. Interruptor termomagnético. Fusibles. Repaso."
+title: "Electricidad / Clase 31: [FOTOCOPIA] Protecciones. Interruptor termomagnético. Fusibles. Repaso."
 date: 2025-05-28T22:19:52-03:00
 tags: [electricidad]
 ---

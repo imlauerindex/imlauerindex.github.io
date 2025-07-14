@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 41: Armamos tablero con fotocelula."
+title: "Electricidad / Clase 41: Clase práctica. Armamos tablero con fotocelula."
 date: 2025-06-25T06:44:28-03:00
 tags: [electricidad]
 ---

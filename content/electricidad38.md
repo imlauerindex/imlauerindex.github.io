@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 38: Examen teórico"
+title: "Electricidad / Clase 38: FOTO del Examen teórico"
 date: 2025-06-17T22:36:04-03:00
 tags: [electricidad]
 ---

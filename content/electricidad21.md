@@ -3,12 +3,12 @@ title: "Electricidad / Clase 21: Clase práctica. Armarmos tablero paralelo. Con
 Saul Kuperman el Lunes va a haber un grupo de gente de la obra social nuestra que es la UOCRA y salud pública a vacunar grande vacunación obviamente para adultos
 Ya partimos de esquemas eléctricos yo siempre hago un **esquema en plata como ubicar como si tuviéramos un plano en la mano** entonces a partir de ahí vamos a ver ahí ya trabajan por separado.
 
-##### Hay que dejar un bucle de 15 cm en la caja octogonal
-##### Los empalmes no pueden quedar dentro del caño
-##### Los hijos Chuck Norris(Selva) desarmaron el portalámparas y no había necesidad de hacer eso podían haber cortado el empalme (Minuto 43) (Hicieron eso porque pensaron que quedaba corto)
-##### Siempre el portalámparas independiente
+Hay que dejar un bucle de 15 cm en la caja octogonal
+Los empalmes no pueden quedar dentro del caño
+Los hijos Chuck Norris(Selva) desarmaron el portalámparas y no había necesidad de hacer eso podían haber cortado el empalme (Minuto 43) (Hicieron eso porque pensaron que quedaba corto)
+Siempre el portalámparas independiente
 
-###### Lo 1ero que tengo que usar es el buscapolo(para identificar la polaridad de tu circuito), 2do lámpara de prueba(para identificar si llega fase y neutro y 220 voltios), 3ero probador de tensión(saber el voltaje aproximado que llega), 4to tester o multímetro o multitester(saber voltaje exacto y comprobar que el circuito no tenga continuidad con la LLAVE APAGADA si tiene continuidad es cortocircuito).
+Lo 1ero que tengo que usar es el buscapolo(para identificar la polaridad de tu circuito), 2do lámpara de prueba(para identificar si llega fase y neutro y 220 voltios), 3ero probador de tensión(saber el voltaje aproximado que llega), 4to tester o multímetro o multitester(saber voltaje exacto y comprobar que el circuito no tenga continuidad con la LLAVE APAGADA si tiene continuidad es cortocircuito).
 Acá tenemos 2 cables. Los 2 son uno es vivo el otro es el retorno. De acá entra el vivo.
 El vivo va a tu interruptor.
 El vivo es el de la derecha.

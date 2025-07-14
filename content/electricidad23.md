@@ -11,12 +11,15 @@ Por bastidor: cada marca tiene su llave de punto diferente
 Tiene 3 ranuras cada ranura es para 1 solo módulo.
 Hay marcas que ya tienen esto dividen en 2 entonces en vez de tener 3 módulos llave de punto puedo tener hasta 6 módulos.
 Desde el hombro hasta el fin del brazo es 1 metro (pero a veces podes tener el brazo más corto)
-Como comprobar si funciona la llave de punto: Profesor: A mi no me gusta el Tic-Tac, si necesito probar tengo acá el tester, pruebo con el tester a ver si me da continuidad o no pero a mi ese Tic-Tac no me interesa porque se rompe el elemento. A partir de ahora el que tiene ganas de probar el interruptor viene acá y prueba no quiero ese Tic-Tac no me sirve.
+Como comprobar si funciona la llave de punto (y como verificar que parte del botón es encendido): Profesor: A mi no me gusta el Tic-Tac, si necesito probar tengo acá el tester, pruebo con el tester a ver si me da continuidad o no pero a mi ese Tic-Tac no me interesa porque se rompe el elemento. A partir de ahora el que tiene ganas de probar el interruptor viene acá y prueba no quiero ese Tic-Tac no me sirve.
 
 Ayudante: Ahí no te va a marcar continuidad porque vos para cerrar tu circuito tenes que poner en tu portalámparas un foco (o podes poner un destornillador y tocar la base).
 
 Como comprobar si funciona: Ahí vos probás en tu interruptor si sirve o no, el interruptor tiene 2 borners entonces poné ahí el tester y fijate cierra o abre, más que eso no. Eso Tic-Tac eso no sirve. Ya estamos con gente grande y se rompe. Hay que probar con el tester.
 Siempre hay que aislar empalme la cinta en forma diagonal.
+El profesor evalúa a medida que vas haciendo la práctica, y pone nota de concepto.
+Para probar la continuidad de todo el circuito tenes que poner los focos sino no cierra el circuito (los focos incandescentes deben estar funcionando sino no suena el pitido de continuidad)
+1ero era el buscapolo que tocamos en los borners de la termomagnética. Después la lámpara de prueba, después el probador de tensión, y después con el tester probamos que no haya continuidad.
 "
 date: 2025-05-13T05:21:44-03:00
 tags: [electricidad]
@@ -252,9 +255,54 @@ Ayudante: El que termina va aislando su empalme al que le falta cinta que pida.
    
 Sebastián Melgarejo puso la lámpara en la caja de paso en realidad iba en la caja octogonal.   
    
-   
-   
+Yo: Este botón indica encendido?
+
+##### Como probar si el interruptor funciona
+Profesor: Sí, hay algunos que tienen un LED ahí que vos pones y te va a indicar una lucesita, vos prendes vos apagas a mi lo que me interesa es que ustedes no tengan problema de usar el tester, esa es una de las cosas que tienen que saber para probar el interruptor.
+
+Ahora vas a probar y vas a explicar todo lo que yo te dije.
+
+Le explico al profesor mi circuito (Hora 01:06)
+Hay que cortar el sobrante debajo del interruptor.
+
+Profesor: Como anda doña?
+Ayudante: Ella trajo su herramienta, su cable, todo trajo.
+
+##### Comenzamos a probar los tableros.
+Bueno vamos a hacer fácil vamos a buscar un lado para que ustedes prueben.
+
+Antonio Cardozo: Hablando con Botolli (parece que están hablando de la vacuna) Inentendible (Hora 01:07:40)
+Botolli: El cargó en la Mac de la... 
+Apenas andaba, tampoco es que wow.
+
+
+Espera que vamos a buscar en donde puede ser.
+Sebastián Melgarejo: Nosotros nos movemos de acá, nos ponemos ahí y acá tienen un enchufe.
+Profesor: Bueno, perfecto plus cuan perfecto. Ganaste la lotería. Ganó la lotería no fue a buscar el premio.
+
+Acá tengo algo voy a traer mañana, me olvidé de afanar estaba haciendo otra cosa.
+
+Antonio Locascio hablando con Botolli.
+Tomacorriente se conecta también abajo el tomacorriente.
+Gustavo Barrientos: Hay que hacer todo el protocolo ese? Buscapolo...
+
+Acuérdense que ahora el tema es fácil, yo ya voy mirando ya voy teniendo concepto, no les voy a ir diciendo al principio.
+
+##### Hora 01:10 - Verificamos con el tester que prende en el lado del botón.
+Javier Cardozo: Calidad. Bien ahí, por lo menos no vamos a desaprobar. Querés que te ayude?
+Sonidito de Tiii.
+Javier Cardozo: ¡Que calidad!
+Yo: Hay que poner el foco
+
+##### Siguen preparando todo para probar Hora 01:12
+Javier Cardozo: Che la cinta?
+Yo: 1ero era el buscapolo que tocamos en los borners de la termomagnética. Después la lámpara de prueba, después el probador de tensión, y después con el tester probamos que no haya continuidad.
+
+
+
+
+
    
 ---   
    
-Minuto 43   
+Hora 01:07

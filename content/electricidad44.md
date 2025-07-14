@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 44: Riesgo eléctrico. Elementos de protección. Vimos videos en proyector."
+title: "Electricidad / Clase 44: Teoría. Riesgo eléctrico. Elementos de protección. Vimos videos en proyector."
 date: 2025-07-05T08:56:51-03:00
 tags: [electricidad]
 ---

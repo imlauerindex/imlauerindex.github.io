@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 35: Partes de un disyuntor. Preguntas de exámen."
+title: "Electricidad / Clase 35: [FOTO DE PUESTA A TIERRA] Partes de un disyuntor. Sistema de puesta a tierra. Preguntas de exámen."
 date: 2025-06-09T23:09:29-03:00
 tags: [electricidad]
 ---
