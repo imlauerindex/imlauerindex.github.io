@@ -10,8 +10,13 @@ La llave de punto va en el bastidor a presión.
 Por bastidor: cada marca tiene su llave de punto diferente
 Tiene 3 ranuras cada ranura es para 1 solo módulo.
 Hay marcas que ya tienen esto dividen en 2 entonces en vez de tener 3 módulos llave de punto puedo tener hasta 6 módulos.
+Desde el hombro hasta el fin del brazo es 1 metro (pero a veces podes tener el brazo más corto)
+Como comprobar si funciona la llave de punto: Profesor: A mi no me gusta el Tic-Tac, si necesito probar tengo acá el tester, pruebo con el tester a ver si me da continuidad o no pero a mi ese Tic-Tac no me interesa porque se rompe el elemento. A partir de ahora el que tiene ganas de probar el interruptor viene acá y prueba no quiero ese Tic-Tac no me sirve.
 
+Ayudante: Ahí no te va a marcar continuidad porque vos para cerrar tu circuito tenes que poner en tu portalámparas un foco (o podes poner un destornillador y tocar la base).
 
+Como comprobar si funciona: Ahí vos probás en tu interruptor si sirve o no, el interruptor tiene 2 borners entonces poné ahí el tester y fijate cierra o abre, más que eso no. Eso Tic-Tac eso no sirve. Ya estamos con gente grande y se rompe. Hay que probar con el tester.
+Siempre hay que aislar empalme la cinta en forma diagonal.
 "
 date: 2025-05-13T05:21:44-03:00
 tags: [electricidad]
@@ -149,11 +154,106 @@ Leiva: Cuánto es normal?
 Botolli: El mío fue 12,8
 Leiva: Normal?
 Ayudante(Alejandro Ramirez): Como para darte una referencia: de acá hasta este hombro tiene más o menos 1 metro, ese no podes errar.
-Leiva: Dice que esa teoría que es 1 metro ahí.
+Leiva: Dice que y si tenes el brazo más corto, dice que esa teoría que es 1 metro ahí.
 Ayudante(Alejandro Ramirez): Siempre fue 1 metro, probá.
+
+Fijate. Dale el azul ahí, que sea acá un poquito sale de acá ahí, un poquito sale bien acá y vas a hacer la prolongación, acá uno así o así. Ahí nomas, entonces el ya tiene el azul ahí, entonces ya tiene que unir ahí.
+
+Javier Cardozo: Chuck Norris(se refiere al ayudante pero se equivoca)
+
+Profesor: Tenemos ahí para...
+
+Botolli: Si está puesto este, este queda levantado, esta caja queda levantado, yo puedo sacar este?
+Profesor: No dejale ahí ese ya no sale más porque está fija, está todo fijo dejale por ahí no más por algún lado.
+Botolli: Y si me pasa en obra?
+Profesor: En obra generalmente se saca la pestaña depende de que vos tengas si vos tenes un módulo acá o el módulo acá o un módulo acá. Tenes 3 módulos, entonces uno de los módulos capaz que no vas a tener lugar si vos pones llave de 1 punto podes poner acá y acá una llave de 1 punto acá y una llave de 1 punto acá y el toma acá.
+Ayudante: El mismo neutro para todos.
+Botolli: Pero se levanta?
+Profesor: Se levanta exactamente.
+
+Ahí tengo los 2 y tengo los 3.
+Javier Cardozo: Para arriba es no es cierto? Para aquel lado?
+
+Profesor: Hoy tengo control porque a veces se me chispotean y sacan de más entonces después no tengo, hoy en día estoy pobre.
+Botolli: Yo tuve que ir a comprar el cajón nuevo para el ventilador porque justo es donde nosotros... Ruido.
+Javier: A ver este destornillador mas chiquito.
+Profesor: Anduvo o no anduvo?
+Botolli: Si tuve que comprar un cajón nuevo.
+
+El profesor Espeche me dió una llave combinada de 3 puntos porque el tornillo de la llave de 1 punto estaba floja.
+Profesor: Qué tenes ahí? 
+
+Leiva: Te vacunaste?
+Gustavo Barrientos: Sí, después me tomó la presión.
+Sebastián Melgarejo: Profe, paso al...
+Profesor: Sí pase ya.
+Gustavo Barrientos: Tiene la antigripal, la de para el tétato y neumonía puede ser.
+Profesor: Ese puede ser che, ese neumonía. Fijate que hay allá así desarmamos que sea chico no más.
+
+Yo: Creo que este indicaba prendido (la marquita en la tecla).
+Profesor: Voy a aprovechar, pueden hacer no más, después le voy a pasar el gráfico real.
+Tomá, llevale a los 2 o sino que vengan a buscar (cables).
+
+Adrián Torres: Qué hay que hacer?
+Le explicamos que había que hacer llave de 1 punto y 1 interruptor.
+
+El retorno de este se empalma acá (foco) y la fase va directo al interruptor y otro que va acá que se empalma acá.
+
+Javier Cardozo: Por qué va con el mismo color: retorno y fase?
+Botolli le ponía tierra.
+
+Profesor: Ahora ya tengo la presión, no sé si es normal o anormal.
+Adrián Torres: Antes tenía 180.
+Profesor: Yo tengo 120.
+Adrián Torres: De 100 a 120
+Botolli: Tiene que medirse después va a llegar a 14 más o menos después del trabajo práctico.
+Profesor: No no ustedes, cualquier cosa le doy la cinta pasacables. Yo no tengo tanta tierra no traje el royo de tierra.
+
+Ayudante: Después vamos a hacer todo con puesta a tierra, ahora concéntrence en el ejercicio.
+Profesor: Mañana voy a ver
+
+Quiero que todo sea igual hagan como si fuera que estén en obra, todo es lo mismo.
+Javier Cardozo: Viste? El color va a joder con eso.
+Yo: No pero él el retorno lo hizo en rojo, así que supongo que está bien.
+
+\* Seguimos trabajando en el tablero...
+
+Profesor: Si mañana no vengo es porque la vacuna me atacó.
+
+\* Seguimos trabajando en el tablero...
+
+Terminamos el tablero: Hora 01:01
+
+##### Después tenemos que desconectar eso, agregamos una lámpara y tenemos que cambiar el retorno tenemos que hacer que este prenda las 2 lámparas.
+#### Explicando el próximo ejercicio: 1 interruptor con 2 lámparas.
+Cardozo: Y se le da la unión acá no más?
+Yo: Sí.
+Javier Cardozo: Sí, ahí no más desconecto y lo unimos al retorno del otro.
+Yo: Estamos acá desconectamos este y conectamos al retorno a este, le unimos un cable.
+Javier Cardozo: No, de acá tenemos que unir un cable que vaya para allá. Ah no este es fase.
+Yo: No, de este retorno porque con este tenemos que prender las 2, entonces el retorno tiene que pasar por las 2, entonces tenemos que desconectar este o unirlo de acá.
+
+###### Hora 01:02
+Ayudante: Esa cinta tiene que quedar ajustada. Cortá tu sobrante (al hacer el empalme)
+Si le podes dejar lo mas al ras posible mejor.
+
+#### Como saber si funciona la llave de punto
+Profesor: A mi no me gusta el Tic-Tac, si necesito probar tengo acá el tester, pruebo con el tester a ver si me da continuidad o no pero a mi ese Tic-Tac no me interesa porque se rompe el elemento. A partir de ahora el que tiene ganas de probar el interruptor viene acá y prueba no quiero ese Tic-Tac no me sirve.
+
+Miden continuidad si no mide continuidad ahí es porque no funciona.
+Ayudante: Ahí no te va a marcar continuidad porque vos para cerrar tu circuito tenes que poner en tu portalámparas un foco (o podes poner un destornillador y tocar la base).
+Antonio Cardozo: Un foco.
+Ayudante: Probá en tu interruptor.
+Profesor: Ahí vos probás en tu interruptor si sirve o no, el interruptor tiene 2 borners entonces poné ahí el tester y fijate cierra o abre, más que eso no. Eso Tic-Tac eso no sirve.
+
+Javier Cardozo: Voy a pagar la cuota.
+Profesor: Y vaya mi hijo que querés que yo te acompañe? Vacunate ahí, aprovechá y que te miren en todos lados: el ojo, la ... Todo lo que pueda.
+Ayudante: El que termina va aislando su empalme al que le falta cinta que pida.
+
+Sebastián Melgarejo puso la lámpara en la caja de paso en realidad iba en la caja octogonal.
 
 
 
 ---
 
-Minuto 9 
+Minuto 43
