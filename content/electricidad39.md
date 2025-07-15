@@ -27,6 +27,8 @@ Fase S: color negro
 Fase T: color rojo   
 Para los conductores de las fases se admitirán otros colores, excepto el verde, amarillo o celeste.   
 Para el conductor de fase de las instalaciones monofásicas se podrá utilizar indistintamente cualquiera de los colores indicados para las fases pero se preferirá el castaño.   
+
+###### Otra cosa: En el caso que decía dispositivos de protección podría haber puesto protector de tensión.
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEbKUCQjHzlZRhuCzSh39LdFvFA257R9Ucgkxk9rV0N3FaEbeWN_fIJEV96GaGfpQtZZyRMidSwDL6FtQMmh5-lk_jYcFOExOlQ0IPUmRHt5fErtu9iQsCrWnAh47SCg99b8jNq94LfTiZsY5vd7ruElg6u8fwL5XY49alzSMxdE9O5pMa4M5QyqYGN_4/s4160/IMG_20250618_191438082.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEa2SAQeLHKhRlwRTejBnJ_GZNRxGEdMLtWbLTCOsaojW7rgEP8J2IhEikBqvjOxJs1F5sCmVU8fqn74UVmfUMnVXTnABG1723EWdmtHX3nAt8EA_Rn4OReBBYXUi70c8EDxVzson4IQzDJLm4xy8oxImk0LsE7J2W3yn-vZHlMn31tJrgyVUpY8bi4W8/s4160/IMG_20250618_191446187.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1MWgGZBIKRcYx-aLo_U3VBLa5wU7O5jhLN5hSSWYuL_gfeA3Ggka9XtnXZvoRfOSOjPn2vMryiXCQbeLQLFtizW22H0Kv_c_l82_g9MAQXBD0vUY_3EJdqY5rFTDY0oQ1FsGrLh1gjLpLtItibDr7bUX_5QQsZwIq12S9przhDX1SsdqyKXYyoY66E_E/s4160/IMG_20250618_191452042.jpg)

@@ -43,6 +43,7 @@ DOMAIN="https://cursoelectricidad.github.io/"
 BLOGDIR="" # leave as empty string if you want the blog to be the homepage   
 DEFAULTLANG="es"   
 ```   
+En el archivo `lang/en/strings.cfg` traduje el mensaje `"Return to Index"` a `"Volver al índice"` porque faltaba traducir eso.
    
 Ahora construímos el sitio desde la raíz del proyecto    
 ```bash   
@@ -64,3 +65,8 @@ git push ..... # etc, etc, etc
 ```   
    
 El archivo `template.include` contiene los links del `navbar` ahí eliminá todos los links que no quieras también eliminá los links que no necesitás del `sitemap.md`
+
+##### Archivo `MANIFEST`
+Place this file in the root of the directory where you want there to be a news section.
+The order of the file names dictate what order the links will appear in, on the news index that is automatically generated (see below).
+

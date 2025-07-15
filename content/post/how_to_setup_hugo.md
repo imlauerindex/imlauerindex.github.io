@@ -3,6 +3,8 @@ title: "Como configurar tu proyecto HUGO en una nueva PC"
 date: 2024-07-06T11:17:21-03:00
 tags: ['hugo']
 ---
+Lo más importante es no pushear imágenes porque quedan en el historial.
+
 Themes de hugo: https://demo.gethugothemes.com/
 
 Es recomendable tener 3 repositorios.
