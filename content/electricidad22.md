@@ -231,7 +231,7 @@ En algunos lados la iluminación no está ocupada en su totalidad entonces se ap
         
 El esquema de montaje fíjense ahora voy a hacer este esquema de montaje es lo mismo lo único que va a hacer diferente tiene unas alturas vmaos a suponer que nosotros acá tenemos el bastidor que van a recibir como premio a su constancia, este es el bastidor que ustedes van a tener y todo eso que está ahí van a hacer en el bastiddor y todo lo que van a hacer ahí van a hacer con prueba.        
         
-Hay gente que ya tuvo un portalámpara cada uno tiene su nombre, ya se comprobó que ese portalámpara no da cortocircuito no hace ningún problema, **después cuando agreguemos esto algunos van a recibir una lámpara ya hecha o directamente un portalámparas cualquiera, van a armar y bueno** hay gente los dos hermanos ahí que no vinieron Chuck Norris(los hijos de Chuck Norris).        
+Hay gente que ya tuvo un portalámpara cada uno tiene su nombre, ya se comprobó que ese portalámpara no da cortocircuito no hace ningún problema, **después cuando agreguemos esto algunos van a recibir una lámpara ya hecha o directamente un portalámparas cualquiera, van a armar y bueno** hay gente los dos hermanos ahí que no vinieron Chuck Norris(los Hermanos de Chuck Norris).        
 El profesor esta jodido de la garganta.        
         
 Vendedor: Eso el lunes?        

@@ -696,7 +696,7 @@ Alumno (refrigeración): Te tomás una uvita una chipita y 80 lucas (boludeces).
 Alumno (refrigeración): Hasta mañana gente. Va ir para arriba el millo (fútbol).     
 Yo: Nos vemos.     
 Alumno: A qué hora?     
-Alumno (refrigeración): Ahora.     
+Benavides (refrigeración): Ahora.     
      
      
 
