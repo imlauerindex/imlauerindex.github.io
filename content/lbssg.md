@@ -4,6 +4,8 @@ date: 2025-07-14T09:43:10-03:00
 tags: ['static','website','generator']
 ---
 Usa pandoc como dependencia.   
+
+Cree este sitio: https://cursoelectricidad.github.io
    
 Reposotorio: https://codeberg.org/libreboot/lbssg   
 Documentación: https://libreboot.org/docs/sitegen/   

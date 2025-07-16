@@ -1,9 +1,13 @@
 ---
-title: "Electricidad / Clase 24: Armamos tablero: 2)Dos lámparas y 2 interruptores en la misma caja. 3)Dos lámparas y 2 interruptores en distintas cajas.
+title: "Electricidad / Clase 24: Clase práctica. Armamos tablero: 2)Dos lámparas y 1 interruptor. 3)Dos lámparas y 2 interruptores en la misma caja.
 A Leiva un hombre le puso la vacuna cuando estaba lleno de chicas.
 La fase siempre es recomendable que esté en el medio (Hora 01:28)
-El circuito que hice no funcionó porque desarmé el portalámparas cuando saqué el foco. Pensamos que era la llave de punto la tuve que cambiar pero en realidad era el portalámparas que estaba mal armado.
+El circuito que hice no funcionó porque luego de probar el primer ejercicio desarmé el portalámparas cuando saqué el foco y ya no hacía contacto. El profesor en un comienzo pensó que era la llave de punto y me la hizo cambiar pero en realidad era el portalámparas que estaba flojo.
 Espeche se operó de las cataratas, al principio estaba contento a 1 metro veía bien todas las letras, ahora necesita anteojos.
+Estaba al reves pero lo importante es que de un lado vos podes manejar 2 bocas diferentes, prendes y apagas. NO te sulfures.
+Cuando vos tenes un disyuntor vos podes usar el boton de prueba para cortar toda la energía y después ya después bajar los demás.
+Conversación final con el belado Benavidez.
+No terminé todo porque es una clase práctica.
 "
 date: 2025-05-13T23:04:35-03:00
 tags: [electricidad]
@@ -89,8 +93,17 @@ Sebastián Melgarejo: Igual ellos cuando laburan de médicos no ponen eso.
 Gustavo Barrientos: Yo en mi época cuando salí de la secundaria fui a estudiar medicina a Rosario.
 
 
+Hora 01:59:45 El profesor se dió cuenta que el portalámparas estaba flojo.
 
 
+Alejandro a las chicas: Vos estás probando? Estás probando los bastidores porque no te vi pasar ninguna vez.
+Margarita: Sí pasé. Uno probé el otro no.
+Alejandro: Ella se está riendo o sea que eso ya es una mala señal.
+Margarita: Uno probé.
+Alejandro: Bueno, faltan 3 más 4 con el de mañana.
+Margarita: No, 2 probé o sea 1 ayer, 1 hoy.
+Alejandro: Falta 1, mañana vas a probar 2 entonces.
+Margarita: Me quedó este que está para probar.
 
 
 
