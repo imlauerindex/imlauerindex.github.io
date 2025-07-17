@@ -309,7 +309,13 @@ La neumococo que protege la neumonía, meningitis y la sepsis que es una infecci
 Profesor: Una pregunta la fiebre amarilla cada cuánto tiempo?
 Agustina: Es 1 dosis no más.
 Profesor: 1 dosis por año?
-Agustina: Es 1 por vida. 
+Agustina: Es 1 por vida. O sea cuando se fue creando la vacuna te tenías que poner cada 5 años un refuerzo pero hoy por hoy se sabe que es 1 vacuna 1 dosis y ya estás cubierto.
+Ana: Si van a viajar no se pongan 1 día antes, por lo menos 1 semana.
+Profesor: De por vida?
+Agustina: Sí, de por vida.
+
+Saben ya que estamos vamos a hacer un poco más dinámico.
+
 
 
 ---
