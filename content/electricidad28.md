@@ -21,6 +21,8 @@ Si tengo corrientes pequeñas puedo medir con el tester, pero siempre es recomen
 La pinza amperométrica tiene el común también y otra parte que dice V y OHM 
 Mi primer amor fue el tester analógico, algún día cuando tenga ganas voy a empezar a soldar, pero como no uso más y veo cada vez menos, si quiero ver esto tengo que ponerme el anteojos.
 Los números que te dan los testers digitales son más grandes mejor visión.
+Tipos de vacuna, como actúa y qué efectos secundarios te puede causar. El calendario nacional de vacunación.
+
 " 
 date: 2025-05-22T10:29:07-03:00
 tags: [electricidad]
@@ -264,7 +266,7 @@ Las vacunas son sustancias que se aplica en el cuerpo para tratar de prevenir la
 ##### Como funcionan?
 Las vacunas van a simular una infección leve y segura para que no nos afecte tanto cuando el virus ingresa a nuestro cuerpo, hace como que nos vamos a enfermar, pero no nos enfermamos nosotros en realidad nosotros estamos entrenando a nuestro sistema inmunológico para que sepa como defenderse ante ese virus.
 
-Las vacunas van a prevenir enfermedades como son la epatitis, el covid, el dengue, la gripe, protegen a la comunidad especialmente a quienes no tienen las suficientes defensas o ya se vuelven más susceptible como son los niños o las personas mayores a 65 años.
+Las vacunas van a prevenir enfermedades como son la hepatitis, el covid, el dengue, la gripe, protegen a la comunidad especialmente a quienes no tienen las suficientes defensas o ya se vuelven más susceptible como son los niños o las personas mayores a 65 años.
 
 Los niños tienen un sistema inmunológico que no está bien formado bien entrenado, tiene que terminar de desarrollarse bien como para poder defenderse de ciertas enfermedades, a ellos les afectará mucho más las enfermedades que a nosotros. Por ejemplo una gripe a nosotros no nos afecta tanto pero a los niños le afecta mucho más o le puede generar otro tipo de afección.
 
@@ -292,9 +294,15 @@ Agustina: Lo que todos saben los que son alérgicos al huevo tanto a la yema com
 
 4. **Vacunas con toxoide**: Que utilizan una toxina que es algo que fabrica el virus como tal y crean inmunidad de las partes del germen que causan esta enfermedad, al igual que las otras vacunas es posible que se necesiten refuerzo. 
 
-##### Estos son vacunas de niños
+##### Estos son vacunas de niños (muestra en pantalla) pero vamos a pasar porque nosotros nos enfocámos en los adultos.
+Cualquier duda pueden googlear el calendario nacional de vacunación que está bien escrito en la página del ministerio.
 
-
+#### Las vacunas de adulto las dividimos en 2 rangos:
+1. Adultos de 15 a 64 años y empezamos con el virus de la hepatitis B: Esta vacuna se da en los niños son 3 dosis a lo 0 al 1er mes y a los 6 meses pero si la persona no tiene si se le puede completar el esquema de adulto. Luego doble bacteriana que previene tétanos y ¿? (Hora 01:05:45) que es más conocida como antitetánica, esta se pone cada 10 años y si no se conoce si tenes o no tenes es mejor prevenir y colocársela igual.
+Triple viral: cubre sobre la sarampeón, la rubiola y la papera que se deberían de tener 2 dosis o si ya tuviste alguna de estas enfermedades no es necesario.
+Fiebre amarilla: Virus transmitido por un mosquito que nos tenemos que poner la gente que estamos en zona ¿? (Hora 01:06:14), nosotros deberíamos de tener por lo menos 1 dosis.
+2. Vacunación en adultos de más de 65 años: Que también es lo mismo: la hepatitis, la doble bacteriana y se agrega la antigripal que nos va a proteger de gripes de estación y es conveniente poner antes de que arranque el inverno.
+La neumococo que protege la neumonía, meningitis 
 
 
 ---
