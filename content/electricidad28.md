@@ -322,6 +322,8 @@ Tamara: Claro, va mutando el virus y justamente se van agregando a las vacunas e
 Gustavo Barrientos: Una vacuna.
 Profesor: Un chupetín. La señora acá un chupetín.
 
+También tenemos la **vacunación en embarazadas**: las embarazadas también se pueden vacunar pero algunas vacunas no todas. Las que se recomiendan son la antigripal, una dosis en cualquiera de los trimestres, después la triple bacteriana asegura que es una dosis en cada embarazo a partir de la semana 20 de gestación, y el virus sincicial respiratorio que es una dosis también en cada embarazo entre la semana 32 y 36 de gestación, hay vacunas que no se recomiendan en embarazas que son las de virus atenuados por ejemplo de sarampeón y la varicela porque son muy fuertes es como que básicamente la enfermedad esto puede afectar al bebé, entonces esas vacunas en mujeres embarazadas personas inmuno deprimidas y pacientes oncológicos no se las puede colocar porque son muy fuertes y su sistema inmune está debilitado.
+
 
 
 
