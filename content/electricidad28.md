@@ -315,6 +315,14 @@ Profesor: De por vida?
 Agustina: Sí, de por vida.
 
 Saben ya que estamos vamos a hacer un poco más dinámico.
+#### Por qué la antigripal se vacuna todos los años?
+Gustavo Barrientos: Porque muta.
+Sebastián Melgarejo: Porque muta.
+Tamara: Claro, va mutando el virus y justamente se van agregando a las vacunas estas nuevas sepas para proteger para el virus de este año, muy bien el señor se merece un... Pánsenle la cajita.
+Gustavo Barrientos: Una vacuna.
+Profesor: Un chupetín. La señora acá un chupetín.
+
+
 
 
 
