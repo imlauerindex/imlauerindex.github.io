@@ -302,7 +302,14 @@ Cualquier duda pueden googlear el calendario nacional de vacunación que está b
 Triple viral: cubre sobre la sarampeón, la rubiola y la papera que se deberían de tener 2 dosis o si ya tuviste alguna de estas enfermedades no es necesario.
 Fiebre amarilla: Virus transmitido por un mosquito que nos tenemos que poner la gente que estamos en zona ¿? (Hora 01:06:14), nosotros deberíamos de tener por lo menos 1 dosis.
 2. Vacunación en adultos de más de 65 años: Que también es lo mismo: la hepatitis, la doble bacteriana y se agrega la antigripal que nos va a proteger de gripes de estación y es conveniente poner antes de que arranque el inverno.
-La neumococo que protege la neumonía, meningitis 
+La neumococo que protege la neumonía, meningitis y la sepsis que es una infección generalizada va depender del médico de cabecera de cada persona porque hay médicos que la recomiendan según la necesidad o no del paciente.
+
+**Vacuna del dengue**: es más complicada porque cuesta conseguir, pero también es recomendable igual que la vacuna del COVID, pero como no están en el calendario no son obligatorias.
+
+Profesor: Una pregunta la fiebre amarilla cada cuánto tiempo?
+Agustina: Es 1 dosis no más.
+Profesor: 1 dosis por año?
+Agustina: Es 1 por vida. 
 
 
 ---
