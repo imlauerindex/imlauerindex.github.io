@@ -23,6 +23,11 @@ ffmpeg -f alsa -i pipewire -f fbdev -framerate 30 -i /dev/fb0 -f v4l2 -framerate
 ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /dev/fb0 -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k 
 ```
 
+#### Streamer solo la camara a resolucion hd podes ver la lista de resoluciones admisibles con el comando `v4l2-ctl --list-formats-ext`.
+```bash
+ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f v4l2 -framerate 60 -video_size 1280x720 -i /dev/video0 -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/354p-cjwx-h1se-5xvg-b88c
+```
+
 
 Leer el chat en vivo: 
 ```bash
@@ -45,3 +50,4 @@ ffmpeg -f alsa -i pipewire -f fbdev -framerate 30 -i /dev/fb0 -f v4l2 -framerate
 ffmpeg -device /dev/dri/card0 -f kmsgrab -framerate 30 -i - -vf 'hwdownload,format=bgr0' -c:v libx264 output.mkv
 
 ```
+

@@ -17,6 +17,24 @@ Después de 15 de junio habrá nota teórica y RCP.
 
 Pregunta de examen:
 ¿Cuál es la acometida? No es conductor de entrada solamente es todo el proceso desde la conexión de arriba: El morceto, el fusible, el conductor, si tiene depende de qué categoría tenga si tiene mayor consumo se pone un APR arriba y la pinza de anclaje, todo ese proceso que va desde la red hasta el medidor todos los elementos es la acometida.
+
+
+Le dije a esta decoradora que hace los muebles, perfecto vamos a hacer un mueble dejando la provisión para los tomas corrientes y dejando la posibilidad de poner sistema de cables que vienen de la línea, en algunos casos tenes que dejar para el modem para tener Internet todas esas cosas se va perdiendo hoy en día por suerte y nosotros que somos instaladores tenemos que saber en ese momento capaz que no está en el proyecto o en el plano pero nos conviene en algunos casos si tenemos confianza con el cliente **decir que equipamiento va y terminar las cosas antes de volver a picar o hacer el sistema a veces es la confianza pero para que ustedes entiendan**.
+Hay una chica que quiere hacer instalación electricista el cuatrimestre que viene y le digo yo te puedo dar toda la parte teórica pero no sé si te va a servir.
+
+Elementos:
+1. Interruptor termomagnético.
+2. Interruptor diferencial
+3. Puesta a tierra
+
+#### Los 3 principales elementos de protección
+Los principales que tenes que tener en tu casa: el que va detrás del pilar la primera termomagnética, el disyuntor y la puesta a tierra.
+
+La sección del conductor depende de la potencia pero si es iluminación tratamos de colocar siempre 1,5mm^2. Tomacorrientes de uso generales 2,5mm^2, toma especiales 4mm^2 y después puede haber otro equipamiento que eso depende de que característica tenga la instalación.
+
+Una época yo intenté hacer una carpeta de cada estudiante para promocionar y darle a la posibilidad a la empresa de que entre como candidato pasante entonces armé una lista y le daba, pero yo no tengo que comunicarme con la empresa la UOCRA que es la que tiene los servicios ellos tenían que tener contacto directo con las empresas y ofrecer y dar las condiciones, yo profesor que voy a ofrecer. He ofrecido gente, no me arrepiento tampoco pero he ofrecido pero lo que quiero decir es que a nivel institucional es importante que la gente o los directivos de la UOCRA tengan contacto directo con la empresa.
+Hay en una fotocopia en donde figura la corriente máxima de cada conductor.
+
 "
 date: 2025-05-27T07:06:42-03:00
 tags: [electricidad]
@@ -150,4 +168,67 @@ A veces no es problema nuestro que somos los instaladores sino del proyectista y
 Y llevar a veces hacen muebles especiales por la pared y llevar todo ese equipo ahí, **entonces si está embutida la cañería ya puesta y al no tener decisión fija porque antes se ponía solo 1 mueble y arriba del mueble el televisor ahora se cuelga** entonces es un quilombo, fácil nosotros colocamos para que veas uno a 0,40 el toma corriente y el otro ya a 1,50 metros.
 
 Sebastián Melgarejo: Para que esté atrás de la tele escondido.
-Profesor: Y ya tengan todo los los equipamientos hay otros que ya tienen 
+Profesor: Y ya tengan todo los los equipamientos hay otros que tienen soporte que son rotativos gira para ambos lados, si pones atrás. Esas cosas ocurren cuando por ejemplo va avanzando la tecnología y vas teniendo más equipamiento.
+
+Uno como proyectista capaz que proyectó ese plano hace 5 o 6 años, hoy el tipo tiene mayor posibilidad de comprar equipamiento.
+
+Le dije a esta decoradora que hace los muebles, perfecto vamos a hacer un mueble dejando la provisión para los tomas corrientes y dejando la posibilidad de poner sistema de cables que vienen de la línea, en algunos casos tenes que dejar para el modem para tener Internet todas esas cosas se va perdiendo hoy en día por suerte y nosotros que somos instaladores tenemos que saber en ese momento capaz que no está en el proyecto o en el plano pero nos conviene en algunos casos si tenemos confianza con el cliente **decir que equipamiento va y terminar las cosas antes de volver a picar o hacer el sistema a veces es la confianza pero para que ustedes entiendan**.
+
+Ahora voy a esconder la fibra, ando medio afónico pero ya vamos a mejorar.
+
+La otra vez viajé y me agarró una lluvia el viernes en interior y no era fácil, pensé que iba a aparecer lindo el día y uno cuando entra a la zona rural empieza a empeorar.
+
+Hay una chica que quiere hacer instalación electricista el cuatrimestre que viene y le digo yo te puedo dar toda la parte teórica pero no sé si te va a servir.
+
+Vamos a enumerar las protecciones eléctricas para que ustedes vayan teniendo en cuenta si encuentran algún video manden.
+
+Es importante protección e instalación eléctrica domiciliaria porque podemos hacer industrial y ahí tenes un rango un poquito más grande y ahí es más complicado porque la idea es 1ero hay que saber instalaciones domiciliaria y después tratar de meter eso a la industria.
+
+##### Alejandro Ramirez reparó probador de tensión y puntas.
+Antes que nada quiero agredecer al señor(Alejandro Ramirez) que se tomó la molestia de arreglar nuestro probador de tensión que se rompió todavía sigue alguno por ahí faltan algunas puntas que arregló también el tema de la cinta perométrica que se había colgado la resistencia entonces también quiere decir que el tipo tiene una cierta dedicación y restancia para solucionar los temas del equipamiento.
+Alejandro Ramirez: Gracias.
+
+El 1er elemento que ahora vamos a ver porque esos o el dispositivo de protección que nosotros utilizamos que ya nos pide la norma es el interruptor...
+
+Profesor busca marcadores... 
+
+Elementos:
+1. Interruptor termomagnético.
+2. Interruptor diferencial
+3. Puesta a tierra
+
+Ahora vamos a leer partes de las normas, que es lo que pide las normas para que ustedes tengan en cuenta cada dispostisivo...
+
+
+Encontré otro cablecito con el probador de tensión pero la punta no encontré.
+Alejandro Ramirez: Qué punta falta la que tiene el indicador o?
+Profesor: La otra
+Alejandro Ramirez: Bueno y hay uno también que le falta la punta o sea está todo con el armazón pero falta la punta del otro polo.
+Profesor: Sí, porque ellos agarraron y le gustaba sacar.
+Alejandro Ramirez: Así cortaron todos los fusibles.
+Profesor: Y sí, pero es porque quieren saber que es lo que tiene adentro.
+
+
+#### Los 3 principales elementos de protección
+Los principales que tenes que tener en tu casa: el que va detrás del pilar la primera termomagnética, el disyuntor y la puesta a tierra.
+
+Este no es interruptor termomagnético son varios en mi instalación para que ustedes entiendan decimos que
+
+La sección del conductor depende de la potencia pero si es iluminación tratamos de colocar siempre 1,5mm^2. Tomacorrientes de uso generales 2,5mm^2, toma especiales 4mm^2 y después puede haber otro equipamiento que eso depende de que característica tenga la instalación.
+
+Qué protege el interruptor termomagnético? El conductor, algunos le dicen cable.
+
+La sección del conductor varía de acuerdo a las características que tenga la instalación, es importante 2,5mm^2 4mm^2 y en algunos casos 6mm^2 y otros son para líneas principales o sino acometida, pero esto que es iluminación generalmente esto tomacorrientes tomas especiales.
+
+\* Llega secretario.
+Secretario: Queríamos informarles que a través de una gestión de la escuela y gerencia de empleo hay 3 vacantes para auxiliares albañiles que tengan entre 18-24 años el que por ahí tenga esa edad nos deja esos datos ahí en secretaría y nosotros le pasamos a gerencia de empleo para revisar el trabajo y ahí le informan bien de que se tratan.
+Profesor: Hoy es albañilería después puede ser un día electricidad o montador electricista.
+
+Una época yo intenté hacer una carpeta de cada estudiante para promocionar y darle a la posibilidad a la empresa de que entre como candidato pasante entonces armé una lista y le daba, pero yo no tengo que comunicarme con la empresa la UOCRA que es la que tiene los servicios ellos tenían que tener contacto directo con las empresas y ofrecer y dar las condiciones, yo profesor que voy a ofrecer. He ofrecido gente, no me arrepiento tampoco pero he ofrecido pero lo que quiero decir es que a nivel institucional es importante que la gente o los directivos de la UOCRA tengan contacto directo con la empresa.
+
+
+Hay en una fotocopia en donde figura la corriente máxima de cada conductor. Eso sale de las normas.
+
+---
+
+Minuto 59
