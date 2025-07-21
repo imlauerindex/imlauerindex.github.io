@@ -47,3 +47,4 @@ ffmpeg -device /dev/dri/card0 -f kmsgrab -framerate 30 -i - -vf 'hwdownload,form
 
 ```
 
+Para bajar el volumen del micrófono: bajá el volumen `Internal Mic B` en `alsamixer` y `Mic Boost` y `Mic`.
