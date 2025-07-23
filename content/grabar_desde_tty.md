@@ -41,10 +41,39 @@ ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /de
 ```
 
 
-##### Grabar video usando DRM (con kmscon), no lo uso.
+##### Grabar video usando DRM (con kmscon), lo uso para capturar un navegador o un juego.
 ```bash
-ffmpeg -device /dev/dri/card0 -f kmsgrab -framerate 30 -i - -vf 'hwdownload,format=bgr0' -c:v libx264 output.mkv
+ffmpeg -device /dev/dri/card1 -f kmsgrab -framerate 30 -i - -vf 'hwdownload,format=bgr0' -c:v libx264 output.mkv
+
+ffmpeg -device /dev/dri/card1 -f kmsgrab -framerate 30 -i - -vf 'hwmap=derive_device=vaapi,format=nv12,hwdownload,format=bgr0' -c:v libx264 output.mkv
+ffmpeg -device /dev/dri/card1 -f kmsgrab -framerate 30 -i - -vf 'hwmap=derive_device=vaapi,format=nv12,hwdownload,format=bgr0' -c:v libx264 output.mkv
+
+Si tu hardware soporta VAAPI, podés ganar rendimiento cambiando -c:v libx264 por -c:v h264_vaapi.
+
+sudo setcap cap_sys_admin+ep $(which ffmpeg)
+
+
 
 ```
 
 Para bajar el volumen del micrófono: bajá el volumen `Internal Mic B` en `alsamixer` y `Mic Boost` y `Mic`.
+
+##### Capturar pantalla desde Wayland y streamerlo a YouTube
+```bash
+ffmpeg -f pipewire -framerate 30 -video_size 1920x1080 -i @DEFAULT_VIDEOSOURCE@ \
+-f pulse -i default \
+-c:v libx264 -preset veryfast -b:v 4500k -c:a aac -b:a 128k -f flv \
+"rtmp://a.rtmp.youtube.com/live2/YOUR_STREAM_KEY"
+
+```
+
+#### Capturar pantalla con cámara.
+```bash
+ffmpeg -f pipewire -framerate 30 -video_size 1920x1080 -i @DEFAULT_VIDEOSOURCE@ \
+-f pulse -i default \
+-f v4l2 -framerate 60 -video_size 640x480 -i /dev/video0 
+-filter_complex "[2:v]scale=320:240[cam];[1:v][cam]overlay=main_w-overlay_w-10:main_h-overlay_h-10[outv]" -map "[outv]" -map 0:a 
+-c:v libx264 -preset veryfast -b:v 4500k -c:a aac -b:a 128k -f flv \
+"rtmp://a.rtmp.youtube.com/live2/YOUR_STREAM_KEY"
+
+``` 
