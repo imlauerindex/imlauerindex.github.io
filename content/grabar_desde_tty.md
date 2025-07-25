@@ -77,3 +77,5 @@ ffmpeg -f pipewire -framerate 30 -video_size 1920x1080 -i @DEFAULT_VIDEOSOURCE@ 
 "rtmp://a.rtmp.youtube.com/live2/YOUR_STREAM_KEY"
 
 ``` 
+
+###### Cuando arranco stream siempre tengo que bajar el Internal Mic desde alsamixer porque sino el micrófono se satura.
