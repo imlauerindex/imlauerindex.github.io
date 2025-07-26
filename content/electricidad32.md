@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 32: [FOTOCOPIA] Foto termomagnética. Leímos fotocopia interruptor termomagnético. Potencia nominal. Foto de Corriente máxima por sección de cable. Ley de Watt."
+title: "Electricidad / Clase 32: [FOTOCOPIA] Foto termomagnética. Leímos fotocopia interruptor termomagnético. Potencia nominal. Foto de Corriente máxima por sección de cable. Ley de Watt. PREGUNTA DE EXAMEN: Circuitos mixtos: poner 2 tipos de conductores puede empezar con 2,5mm^2 y después 1,5mm^2 pero protegíamos el conductor más chico que era 1,5mm^2 y todas las térmicas eran de 10 amper."
 date: 2025-06-02T22:30:44-03:00
 tags: [electricidad]
 ---
@@ -35,7 +35,7 @@ https://archive.org/download/record-142/interruptores%20termomag.doc
 
 Barrientos: Habla sobre plan de autos
 
-Llega profesor al minuto 9.
+Llega Profesor al minuto 9.
 
 Profesor a Antonio Cardozo: Y tu hermano ¿qué pasó?
 Antonio Cardozo: No sé profe.
@@ -97,7 +97,7 @@ Profesor: Eh! Apareció, dice que él no vive con vos y no sabe nada.
 Javier: Ríe.
 Profesor: Nada de la vida. Ahora vamos a ver el funcionamiento interno, después vamos a volver a la tabla esa que dice la cantidad, la sección de conductor que corriente máxima soporta.
 
-Profesor al ayudante: Trae uno de los que está todo reventado
+Profesor al Ayudante: Trae uno de los que está todo reventado
 
 Entonces internamente es esto, tiene una entrada y una salida generalmente piden que todas las conexiones sean por arriba normaliza a través de un sistema un período después del año 2000 tratan de que todos los...
 
@@ -269,7 +269,141 @@ I nominal = 21 amper.
 No es difícil pero a veces cuesta entender, a veces es interesante hacer la demostración y que el interruptor que se coloque porque si yo coloco un interruptor más chico supongamos de 16 amper yo puedo poner uno de 4 como salta en qué tiempo, ta lindo porque podemos poner una ducha o cualquier otro elemento, supongamos un horno eléctrico entonces yo saco la corriente nominal y coloco el conductor que yo necesito pero si quiero saber como funciona el interruptor y si está bien calculado tengo que probarlo **la única forma es darle su máxima corriente de consumo y ver si quiero probar con un interruptor de 10 y uno de 16 y otro de 20 para ver que pasa**. Se puede probar, no es que va a saltar enseguida, sino que demorará un poco por sobrecarga.
 
 
-Esto es importante en tema de la tabla.
+Esto es importante en tema de la tabla por eso que aparece.
+
+###### Ahí va a aparecer la sección de conductor, la corriente máxima admisible de cada conductor y qué ITM vas a tener que utilizar en ese caso, sale de la tabla, sale de un cálculo previo de la corriente nominal que uno tiene del equipo, la sección del conductor que uno va a colocar, y el interruptor que protege esa sección.
+No hay mucho cálculo no vamos a hacer un desarrollo tipo análisis matemático la idea es que aprendan rápidamente como calcular una corriente de consumo de cualquier equipo, acuérdense que ahí ya aparece si yo no sé o no tengo ninguna placa adecuada, 
+
+##### si tengo una pinza amperométrica puedo calcular la corriente de consumo del equipo y ahí puedo verificar si la sección que usé está bien o no.
+
+###### Yo proyectista cualquier equipo especial yo ya pongo 4mm^2 mínimo: horno eléctrico, aire, ducha eléctrica, termotanque, como es equipo especial directamente cuando proyecto ya pongo 4mm^2 y la sección del caño ya pongo 7/8 automáticamente no hago cálculos. Si trabajo con tomas de uso generales directamente pongo 2,5mm^2 y automáticamente ya sé que ese tomacorriente lleva un caño de 3/4. 1 termomagnética por cada circuito.
+
+Barrientos: Y de punta a punta independiente la fase?
+Profesor: No, en este caso ya hoy en día acuérdense que todos los ITM te pide que sea bipolar hoy ya unipolares la nueva norma ya no te permite.
+Barrientos: Claro pero por ejemplo si yo hago una instalación del tablero saco de a 1
+Ayudante: Para cada instrumento su térmica.
+Barrientos: Claro, completo.
+Ayudante: Este es el tablero, fase y neutro a cada equipo cada uno tiene una térmica diferente.
+Profesor: Toma especiales va independiente.
+###### Barrientos: Iluminación si puedo puentear todo? Profesor: Sí, sí.
+###### Profesor: Pero toma especiales directamente desde el tablero.
+Ayudante: el tema es que si vos ya pusiste un tema especiales es porque ya está cerca del consumo si vos ya le puenteas 2 tu térmica saltará cada rato.
+Barrientos: Claro.
+###### Profesor: Fui a inspeccionar una escuela y tenía todos los tomas de aire de 4500 frigorías de cada aula tenía sacada de los tomacorriente, mientras que sea split no había tanto problema, pero había uno de ventana bastante grande de 5000 frigorías viejo, entonces lo primero que provocó fue un fogonazo dejó negro ahí la salida donde tomó el cable de alimentación porque tomó de un toma. Entonces qué problema hay ahora? Yo tengo que intervenir pero tengo que intervenir en todos los aires. La directora dice que ella contrató un personal idóneo.
+Barrientos: Ah, el que era pariente.
+Profesor: Si ese mismo, ahora me está llamando que hacemos dice y yo tengo que hacer una lista enorme de problemas que ella hizo mal, porque ella contrató ese personal.
+
+###### Problema escuela: Quién es responsable ahí? Nosotros como ministerio no. Si ella contrató pagó al tipo, y ahora hay problema entonces algo tengo que escribirle, no porque es buena voy a arreglar todo.
+
+Barrientos: Yo el otro día le vendí a una escuela una manguera 3/4 pagó la cooperadora.
+Profesor: Rojo?
+Barrientos: Pinchada.
+Ayudante: Ríe.
+Barrientos: Y pagó la cooperadora capaz que ellos sacaron plata de la cooperadora le pagaron al pariente y ahora quieren que ustedes le cubran.
+###### Profesor: Ahora quiere que nosotros solucionemos el problema de chispazo ese consumo, engresimiento del toma ese que está yo directamente le dije que está mal colocá un tablero independiente en toda la escuela y ahí empezá armar a cada aire.
+Barrientos: Pero ese costo 
+Profesor: Y sí, pero cuando haya plata, ahora esta semana será problemática ya están pidiendo artefactos focos quieren que los cuartos que eran cuartos oscuros quieren que esté bien iluminado, y de ¿dónde sacamos la guita?.
+Esa escuela ya recibió plata el año pasado, y ella pagó o sea pagó y presentó la factura a la nación y estaba mal, o sea que nadie revisó eso.
+
+Cuando me toca a mi yo tengo que tratar de solucionar, que espere un poquito esta semana.
+
+###### El otro que me preocupa el tema de la tensión alta, esa que la fase llega a 245 tengo que averiguar un estabilizador a ver cuánto sale para ese consumo por lo menos en ese sector poner un estabilizador pero tengo que poner trifásico porque está todo hecho con 3 fases entonces hay que ver como queda, sino que ella se tome el trabajo de ir a EMSA y mostrarle la foto esa que en ese consumo la tensión es tanto.
+Artefacto de lámpara normales de foco de LED, no llega a mi a 12 o 20 watts como máximo es lo que estaba provocando ese problema, va cambiando y cada 2 o 3 semanas corta.
+
+Aparecerá tensión máxima y todo lo que ustedes quieran, lo importante es que ustedes tengan entendido que lo que figura acá como sección de conductor es lo que realmente da el reglamento, y todos los fabricantes usan esta misma característica, la misma calibración porque con eso uno puede ver que en cualquier catálogo de interruptores siempre aparecerá lo mismo cualquier catálogo que ustedes revisen aparecerá la misma característica, los mismos nomenclatura de los interruptores.
+###### no hay interruptores que puede ser de 22 o 23 o sea va directamente una cierta calibración que es lo que se usa normalmente.
+Cuando ustedes verifiquen por ahí aparecerá un interruptor de 6 amper el más chico, (completando la tabla)
+Barrientos: Eso se hace todo en base a la normativa?
+###### Profesor: Normativa y fabricación, pero también está a nivel mundial o sea que no, la IEC nosotros generalmente todas nuestras normas se copió a nivel internacional, o sea que un convenio de allá España, Estados Unidos y la gran parte de Alemania. Todas las IEC son internacionales nuestras normas AEA se basan en eso. Mejoran pero tienen algunas condiciones a nivel internacional si van a España, o Italia va a tener que aparecer un conductor y va a tener la misma característica de un interrputor, o sea a nivel mundial siempre igual. Las mejores termomagnéticas son de afuera.
+16 amper acá, 20 amper acá, 25 amper, 32 amper (mirar foto dependiendo la sección del conductor).
+2,5mm^2 - 16 amper
+4mm^2   - 20 amper
+etc.
+
+###### Aparece la de 40 amper también que es la que generalmente es un interruptor de cabecera que aparece curva B detrás del pilar, lo que ustedes ven ahí es lo mismo que está acá.
+
+Dame el papel ese de la regleta al Ayudante.
+
+Vamos a suponer que yo quiero saber cuánto consume una sección de interruptor de 6mm^2 y acá directamente tiene corriente máxima 31 amper, y allá abajo dice fusible que sería el interruptor y aparece 25 amper, o sea que ya está normalizado esto ya tiene más años que yo. Acá tengo más o menos hasta 120 amper una línea de distribución por ejemplo.
+
+##### 120m^2 es la sección de conductor generalmente son las líneas de prensamblado o sino de 95mm^2 pero aparece una corriente máxima admisible 207 amper y el fusible o el ITM es de 200 amper.
+##### O sea que cualquier conductor que yo conozca acá tengo el diámetro interno externo puedo medir con un calibre el diámetro entonces automáticamente miro esta tabla y sé que tipo de conductor.
+##### Melgarejo: Se mide con la aislación?
+##### Profesor: Sí
+Ayudante: En realidad el diámetro interno es menos, porque el diámetro que te marca el mercado es 4mm^2 es 4mm^2 con el aislante.
+Profesor: Acá te pide ya, diámetro exterior aproximado.
+###### Esto es interesante porque si vos estás en una instalación no vas a pelar el cable para poder medir el diámetro interno, entonces te da con aislación y todo, entonces con ese diámetro aproximado vos podes saber que sección es la del conductor y si el ITM que está protegiendo a ese conductor está bien.
+Esto es más rápido pero empiecen ustedes a relacionar cualquier interruptor que tengan y vean que conductor tiene para proteger eso.
+
+###### En algunos casos utilizo en algunas escuelas conductor de 4 que entre y que salga conductor de 4 por más que sea de iluminación porque los padres dicen (erróneamente) "ay que fino el conductor", entonces pongo una caja de paso ahí arriba y ahí hago todo el cambio, ellos no van a ver la caja de paso.
+###### Tengo que tratar de suavizar a la gente que mira el tablero (o el cuadro los Españoles dicen así) para que el conductor de buena imagen a la gente que cree que algunos problemas eléctricos son producidos porque el conductor es fino (cosa que no es cierto porque si se usa para iluminación está bien, antes de cuestionar si el conductor es fino hay que saber para que se usa ese conductor), yo le tengo que dar seguridad y si dar seguridad significa que yo engañe de acá hasta ahí ponga el conductor real es para evitar problemas. La gente que no entiende cree que el cable finito está mal calculado, en realidad está bien.
+Barrientos: Ah usted dice de un toma le saca de 4 hasta la caja.
+Profesor: No, del tablero. Miren por ejemplo esto es todo 4mm^2 (mirar foto de imagen) yo abro el contrafrente y me reclaman hay que fino son los conductores le saco todo el cuadro cuando son escuelas problemáticas cuando hago una instalación nueva y sé que la escuela es problemática pongo una caja de paso ahí de 20x20 o 25x20 y pongo 4 y 10 y hago la unión.
+Barrientos: Y si por ejemplo si allá usted tiene un toma para un tomacorriente común de 2,5mm^2 saca de 4mm^2 y después le pone de 2,5mm^2.
+Profesor: Sí.
+Barrientos: Y usted conecta un horno eléctrico por ejemplo, si calienta ese conductor de 4mm^2 salta igual? Por más que tenga de 4mm^2 la salida?
+Ayudante: El tema es que le pusiste una térmica apta para un cable de 2,5mm^2 cuando llegue al amperage va a cortar.
+###### Melgarejo: Si en mi casa yo me sobró un rollo de 10mm^2 no tengo que ir a comprar uno de 4mm^2 sino que le pongo el toma correspondiente al del aire.
+Profesor: Claro.
+Ayudante: Si queres, si queres usa uno de 20.
+Melgarejo: No pasa nada poner uno de 10?
+###### Ayudante: Cuando tu interruptor cuando llega al consumo establecido ahí dispara, no importa que tan grueso sea tu cable.
+Melgarejo: perfecto.
+### PREGUNTA DE EXAMEN: Profesor: Por eso es importante antes hacíamos circuitos mixtos, o sea poner 2 tipos de conductores puede empezar con 2,5mm^2 y después 1,5mm^2 pero protegíamos el conductor más chico que era 1,5mm^2 y todas las térmicas eran de 10 amper.
+Barrientos: O sea yo compré mal el cable, no importa de la caja le saco al toma corriente de 2,5mm^2 me quedaron de 10mm^2 y hago de 10mm^2 hasta la caja.
+Ayudante: Si tu térmica protege al cable de 2,5mm^2 va a disparar cuando llegue al amperage.
+Profesor: A 2,5 el otro es reforzaste no hay problema te salió más caro, pero no importa. Lo importante es que vos protegas tu conductor de uso.
+Esta tabla les resultará útil útil tuve que hacer una vez para que entiendan como proteger el conductor, el interruptor adecuado entonces me tomé el trabajo porque a veces uno explica y explica y da muchas vueltas.
+
+###### La ideal principal acá: La I de protección que corresponde al interruptor termomagnético siempre está en el medio, estoy acá en el medio, acá al lado tengo la corriente nominal y acá la corriente máxima de la sección de conductor que estoy colocando.
+###### Luego veremos como calcular la sección de conductor de acuerdo a la caída de tensión y el consumo y todas esas cosas.
+
+Acá estamos viendo directamente una fórmula fácil de acuerdo al consumo que tiene el equipo, estamos consumo que tiene el equipo acá en este momento acá, **no hablamos de la longitud ni de la caída de tensión**. Eso veremos más adelante.
+
+##### Esto es acá en el equipo acá, una longitud muy corta.
+A veces me toca a mi hacer un informe y vienen los directores piden que le autorice a colocar los aires. Yo no soy el dueño del consejo yo le digo que debe instalar los aires de acuerdo a las normas y pido que el interruptor que se debe colocar, las secciones mínimas son de 4mm^2, pero también le hago una salvedad que de acuerdo a cierta longitud, no sé si 10 o 15 metros si pasa esa cantidad de metros se pasa automáticamente en vez de ser de 4mm^2 es de 6mm^2
+
+###### 10 o 15 metros si pasa esa cantidad de metros se pasa automáticamente en vez de ser de 4mm^2 es de 6mm^2 por la caída de tensión y cada aire acondicionado debe estar como es toma especial el circuito debe venir a un tablero, ese tablero tiene que tener las condiciones para cada aire acondicionado independiente al tablero existente en la escuela.
+Todos lo que hagan ellos coloquen un tablero saquen la alimentación de la parte principal, pero este tablero que está acá, de toma corriente e iluminación, **y algunas cosas más que es de la escuela no debe ser tocado, si tocan solo la alimentación no hay problema, si tocan todo ellos serán responsables del tablero**.
+
+##### Los colegios deben hacer un tablero independiente solo para aires acondicionado.
+Melgarejo: Sacarían del pilar?
+###### Profesor: No, del tablero principal de la escuela un tablero seccional que tiene iluminación toma corriente, iluminación del pasillo, cantidad de circuitos independientes **al lado se pone el tablero exclusivamente para aires acondicionados**.
+
+###### Si tengo 10 aulas va 10 circuitos a cada aire por cada interruptor.
+###### Barrientos: Eso es todo cañería independiente?
+###### Profesor: Sí, hoy en día la mayoría de las escuelas nuevas se hicieron con PVC y arriba del PVC tengo perfil, no se puede subir arriba. Acá si se puede me aguanta pero el otro no se viene abajo entonces hay que hacer por fuera.
+
+Tengo que buscar la forma en algunos casos trato de **juntar 2 aulas, vamos a suponer que este sea la divisoria de 2 aulas trato hago hasta acá la alimentación llevo por el mismo caño vamos a suponer de 1 pulgada 2 circuitos de aire, entonces llego acá y ahí divido por acá y por allá, pero de la misma fase**.
+
+#### Como no poner tantos caños.
+###### Pongo un aire acá y otro aire acá 2 circuitos y la misma fase van directamente al tablero y así voy haciendo para **no poner un circuito por cada aire y llenar de caños**, porque puedo tener 10 aulas. 10 aulas serian 10 caños. Entonces hago trifásica y en algunos casos pongo un caño mas grueso y divido eso entienden?
+Colocar un aire acondicionado a un equipo de una instalación existente requiere otra forma de proceder, **tengo que tener una idea de qué equipo colocar, qué conductor voy a colocar y que tablero voy a hacer: hago un tablero independiente directamente** 
+Melgarejo: Y las escuelas que se hacen de 0 ya tienen un tablero especial para aire
+Profesor: Directamente las escuelas nuevas lo que nosotros hacemos es dejar el toma de aire acondicionado con el equipo de 4000 o 4500 y eso va alimentado directamente al tablero seccional ahí ya tenemos hecho la instalación hay que colocar el equipo, pero ya proyectamos nosotros el conductor y todo, ahí no hay problema.
+
+Lo que se tienen que encargar las escuelas es de colocar el equipo si quieren.
+Hay temporadas que tenían un fondo para colocar cualquier equipo, heladera lo que sea entonces la gente compraba perfecto! pero después no quería pagar la instalación. Que se arregle el ministerio decían, ¿con qué plata?
+###### Nosotros como ministerio salvamos la emergencia puede ser de un equipo instalación mal hecha, está en cortocircuito, entra el agua salta el disyuntor.
+###### Esas cosas son emergencia o cae un rayo y se desliga el neutro y en vez de entrar el neutro, entra por el neutro otra fase en vez de tener 220 tiene 380 voltios eso sucede.
+Qué hay que hacer ahí? En ese caso hay que revisar toda la instalación y si está pelado los cables, entonces posiblemente el neutro ese se haya pegado en algún lugar, está en cortocircuito.
+
+\* Llega soledad (hora 01:29) toma lista.
+
+Seguimos esta parte.
+
+Recién vimos como se calcula... Lee la fotocopia.
+
+### Vamos a leer como funciona la parte térmica del interruptor
+
+###### Leiva: La parte térmica actúa cuando el circuito se encuentra sobrecargado es decir cuando circula por el mismo más corriente de la que admite el conductor, está formado por un elemento bimetálico y un contacto móvil que permanece cerrado mientras circula la corriente, **este par bimetálico está calculado de acuerdo a una corriente nominal**.
+
+##### Profesor: Actúa por sobrecarga como es un elemento bimetálico (son 2 metales de distinto coeficiente de dilatación) que están calibrados de acuerdo a la corriente nominal.
+##### Esa corriente nominal produce calor, ese calor produce dilatación como son 2 metales distintos tiene 2 coeficientes distintos entonces hace que 1 se desprenda antes que el otro y hace que se desconecta puede curvarse lo que sea.
+
+#### Margarita: Cuando circula una corriente superior a esta (In) este par bimetálico comienza a desformarse hasta que el contacto se abre y por lo tanto se corta la circulación de la corriente cuando el par recupera la temperatura ambiente se puede cerrar nuevamente el interruptor y circulará nuevamente la corriente.
+
+
 
 
 
