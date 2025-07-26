@@ -19,3 +19,7 @@ https://www.youtube.com/embed/9RiomY_RwkE
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_MQY1CdgQJNyGtsTCcOcsCwjnFa2OA1o1bWk5AgSJ7VH30KKUCFl6sQjF_mo1S_Huee7i7W1XEZh3G0uxM0hmMLY9w-Z2Cxo0eKzoArgjt9CcycZqi82pCwJl33L4VBAsFb2cD999ncAkviF5WJdpHrtY6NnSvEG7t2WJGR4UvJNBagIX_I1gkYuuaAE/s4160/IMG_20250603_202229643.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDkUReleOLUDXQkNq798pmyICYfa9HOqyLns4n1i4UwLUWQUS611Uq09G0EMdlaGAbE2_H1LN6F-a18hCZbcSy10mNV0XommyxldBD4m_MVid6q3pYaK2JX3e3gKFLEkq5onkEfVBAgxRiCO3BIzF1RdBvLLlTaCRjRb0da2Z0rP_jc4SF_ajtQTsgAMk/s4160/IMG_20250603_202238185.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVruSKIKxkXXuSAr9LSW1ogbJwPx7Q3Jr3cTrLQN94BG2TzSrN9F0jKERNg9cHT73avTnT2T_eOxtS5rtKrt7RhFdEif3xFEI6WreSMRsEWVajMVOULLV4mFgt4jn1qzRUbxRw3oG2nALICmbA02nMVrjiHhWyyfmDWVPHrDAHm0zG1hRAK8V7IsArKnQ/s4160/IMG_20250603_202242016.jpg)
+
+---
+
+###### Transcripción.
