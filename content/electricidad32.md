@@ -403,12 +403,86 @@ Recién vimos como se calcula... Lee la fotocopia.
 
 #### Margarita: Cuando circula una corriente superior a esta (In) este par bimetálico comienza a desformarse hasta que el contacto se abre y por lo tanto se corta la circulación de la corriente cuando el par recupera la temperatura ambiente se puede cerrar nuevamente el interruptor y circulará nuevamente la corriente.
 
+Profesor: O sea si esto se deforma se desconecta el interruptor, pero te dice querés conectar de vuelta? Esperá, porque esta deformación cuando se empieza a enfriar vuelve a su forma original, ahí recién vuelvo a levantar el interruptor, este es una cosa que ustedes tienen que entender que cuando salta el interruptor la persona que acciona lo acciona manualmente.
+
+##### Es importante que entiendan eso: sobrecarga desconecta espero enfrío un poquito
+Por eso les dije cuando le corto el interruptor a mi hija, espero un ratito que se enfría y después levanto para que por lo menos entiendan eso porque sino se va a prender toda la instalación.
+
+Daniela: El tiempo que tarda en abrirse el interruptor depende de la sobrecarga que se encuentre el circuito a mayor carga menor será el tiempo que tardará en abrirse el interruptor.
+
+Profesor: fíjense que es interesante porque dijimos que la sobrecarga demora un tiempo cuando mayor es la sobrecarga o mayor es la corriente que pasa, corta más rápido y si es menos siempre acuérdense que eso está calibrado a un determinado amperage si es menos tiempo o menos la corriente nominal que pasa ahí directamente va a demorar más la sobrecarga puede ser que con el tiempo recién en un periodo bastante grande corte.
+
+A veces ocurre y te llaman a vos y preguntan, está saltando el ITM entonces vos le preguntás ¿instantáneo? .
+Cliente: No después de 1 hora.
+Entonces lo 1ero que dicen es que el interruptor termomagnético no anda.
+Profesor: Como que no anda? Está trabajando hay que medir el consumo (con la pinza amperométrica).
+Lo primero que dice el electricista es que hay que cambiar.
+Nosotros sabemos porque medimos la corriente, ahí voy a saber si ese equipo funciona o no, si en un tiempo determinado corta no es que anda mal el equipo.
+
+###### A veces en algunos lugares un electricista dice llega están los conductores antiguos sistema unipolar corta solo la fase, viene un electricista mira eso en el tablero y dice que está todo mal hay que hacer toda la instalación de vuelva, el propietario se asusta y pregunta por qué.
+###### Electricista: No porque ahora todos los circuitos son bipolares, eso está mal no existe más.
+###### Profesor: No mentira, uno tiene que decir: se puede mejorar haciendo circuito bipolares pero se puede mejorar por partes, y ahí le explican por qué esto ya no tiene actualizada, no es que el sistema estaba mal, sino que el sistema era viejo, se usaba el neutro como un sistema común y hoy se está trabajando que todos los circuitos sean bipolares y que corte fase y neutro directamente del tablero.
+Pero no digan que está mal, porque ese es un punto en contra.
+Leiva: El otro día fui a lo de mi hermana e instalaron la ducha pero de todo el circuito que está en la casa no más sacaron los cables de 4mm^2 y le pusieron la térmica a 1 metro de la ducha.
+Profesor: No sirve para ñaca.
+Ayudante: Ese sí está mal.
+Profesor: Porque encima este va a hacer solo para que corte y cambies, algún día se te quema la ducha eléctrica y cambies ese no más.
+Leiva: Claro, que corte la fase nada más.
+Ayudante: Ah y es bipolar?
+###### Leiva: Sí, pero no tiene una térmica de 20 amper solo para la ducha, no, conectó el circuito de la casa, le sacó el cable lo llevó al baño y puso la térmica bipolar.
+Ayudante: Ahí va a aumentar el consumo en el circuito ya existente y se va a disparar cada rato que estés usando la ducha.
+Profesor: Encima va a quemar en la unión en el empalme.
+Barrientos: La gente cree que eso sirve, y si no le pones también putea, dicen: "ah pero no tenes una térmica acá al lado de la ducha"
+Ayudante: No, no tiene que estar en la ducha.
+Barrientos: Está mal enseñado digamos.
+Profesor: Por eso es importante que el tipo que vaya a hacer la instalación explique, ¿quién quiere que la casa se queme? Nadie. 
+Barrientos: O le suelen poner también en el aire.
+Profesor: Y ahí tampoco sirve, podes poner ahí pero poneme allá también.
+Ayudante: Hay 2 formas de convencer a la gente: la del incendio y la otra es: si usted se está electrocutando usted no va a cortar la térmica tiene que cortar alguien de afuera y ahí rápido quieren sacar la térmica del baño.
 
 
+###### Para hablar de protección hay mucho y sobre todo por el tema de ITM la idea acá es que ustedes aprendan lo más importante esa parte, y el cálculo acuérdense que es esto, después más adelante les voy a dar secciones o formas de hallar la sección del conductor de acuerdo a la caída de la tensión y una potencia determinada acá y la longitud cuando mayor longitud tengo que ver que caída de tensión necesito hay un parámetro de 3% como máximo de la entrada allá hasta acá de caída de tensión, eso se considera como máximo, yo puedo empezar allá con 220 y llegar acá 217 ponele, 3% como máximo y después voy jugando o el proyectista o el instalador con qué porcentaje me resulta más fácil tener una acometida más gruesa, porque eso es la acometida hasta acá entonces puedo poner 0,5% allá arriba porque tengo que poner todo a una sección más grande y después de acá hasta acá qué conductor pongo, eso es la caída de tensión siempre y cuando tenga instalaciones domiciliarias hasta un 3% y si yo tengo una industria me dan la posibilidad de poner hasta un 5% (motores).
 
+Sin tanto cálculo saber que sección yo debo colocar, de memoria tienen que saber:
 
+```console
+Retorno = 1mm^2
+Iluminación = 1,5mm^2
+Toma general = 2,5mm^2
+Toma especiales = 4mm^2
+```
 
+Eso directamente la persona que está trabajando en la parte de electricidad y a su vez hace instalación tiene que saber que eso son secciones normalizadas que se utilizan en una casa, después puede haber otra variedad de secciones más grandes pero no incluye el instalador electricista domiciliario, así que no vamos a hacer una fábrica podemos hacer un edificio pero acuérdense que el edificio son varias casitas o varios departamentos o sea que es lo mismo como si estuviéramos trabajando en un sistema domiciliario.
+
+Es lo mismo solo que después ahí varía a alimentación troncal principal y otras cosas, pero...
+
+Más o menos lean, mañana seguimos después el miércoles comenzamos con disyuntores y la semana que viene puesta a tierra y después una semana 2 días vamos a hacer algún repaso teórico para que tengan idea y después viene la teoría.
+
+Barrientos: Práctica de armar tableros?
+Profesor: Sí, pero eso vamos a hacer después porque el auxiliar no puede saber todo ya, tiene que ir despacio, vamos a suponer que vengan fines de Junio venga la gente que quieren ser montadores que supuestamente tienen algo de conocimiento, pero yo tengo que saber que es lo que ellos saben, si viene un tipo.
+Barrientos: Antes de julio supuestamente vamos a saber un tablerito para la casa?
+Profesor: No no, no hay tiempo.
+
+Después armaremos tableros.
+
+Después aparece la lectura de los planos, no es que ustedes van a recibir la térmica y van a armar directamente, van a tener que leer un **diagrama unifilar** le junto les tiro ahí las térmicas ustedes van a ver por qué es eso.
+###### Tienen que saber como armar el diagrama unifilar van a tener que traducirlo a un tablerito.
+##### Ayudante: El esquema unifilar es todo simbología.
+Profesor: Entonces el montador tiene que saber qué materiales utiliza, el cálculo de los materiales, leer el plano o sea que ya vamos a entrar en otra etapa hasta la escala del dibujo como uno toma las medidas para hacer la instalación, pero no es que acá vamos e instalamos un tablero, vamos a hacer el tablero pero tienen que saber por qué se usan los tableros y por qué leo el esquema unifilar y qué característica.
+
+###### Por eso les recalco el cuadradito acá que es la corriente de ruptura del interruptor termomagnético porque hay gente que no presta atención a esto y cuando yo hago los proyectos, vamos a suponer 6000 el interruptor principal de corte ahí atrás del medidor, 4500 dentro del tablero seccional e internamente acá abajo 3000 puede ser. Pero hasta ahí 4500 y la gente cuando compra compra directamente 3000 porque sale más barato, tiene que saber por qué.
+Por algo uno proyecta con esas condiciones, todo eso van a ver algunos catálogos.
+
+Este es el mejor que me mandaron la empresa, me da para que ustedes entiendan hay distintos tipos de grados de electrificación en una vivienda mínima puede ser, después aparece una media y otra que es superior.
+###### Grado de electrificación interna dentro de una vivienda: de acuerdo a eso yo también hago proyecto, de acuerdo a la característica que va a tener esa vivienda y le da los consejos mínimos o los interruptores que debo instalar para cada caso particular, o sea la instalación mínima y te dice más o menos, ustedes tienen que entender que en una habitación 3x3 tengo 1 llave de 1 punto y 1 enchufe y una luz arriba, eso es mínimo. Después media puede ser que ese lugar en vez de tener 1 luz tenga 2 luces y 2 tomas, va variando. Y si es superior puede tener 4 luces allá en vez de tener 2 tomas tiene 4 tomas y va aumentando.
+
+###### A mi me interesa que entiendan la parte de cañería y la parte de protecciones: como se calcula y como se utiliza, y después comenzaremos con interruptores diferenciales(disyuntores) y luego puesta a tierra. Todos conceptos básicos 1ero.
+
+###### El montador ya va a hasta dirigir la obra, va a agarrar un plano y van a decir fijate vos te vas a encargar de esta parte, vas a hacer 2 tomas y después el otro... Eso se hace en obra si uno tiene una cuadrilla decís bueno yo agarro un piso acá te doy esto, haceme esta habitación lo que sea después agarro lo otro. Yo ya me sacó la idea de que tengo que marcar la cajita, el tipo ya sabe más o menos después pregunta y ya voy dando lugares, un capataz de obra yo hablo con él, cuando vengo no le veo a los 4/5 obreros directamente hablo con el capataz: "che ¿por qué está mal conectado ahí?", "¿por qué tanto caño encimado?", yo pregunto. "No, porque no había material y dejaron", Profesor: Está bien la próxima haceme bien, yo vengo.
+Mañana tengo que ver una obra, no tengo muchas ganas pero vamos a ver.
+
+Vayan leyendo, protección es importante.
 
 ---
 
-Hora 1
+FIN
