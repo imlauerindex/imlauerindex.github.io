@@ -23,3 +23,26 @@ https://www.youtube.com/embed/9RiomY_RwkE
 ---
 
 ###### Transcripción.
+
+Leiva está trabajando de obrero en el barrio de Gustavo Barrientos en un edificio de 20 pisos.
+Antonio Cardozo: Villa sarita?
+Leiva: Ahí en frente, al costado de la cámara de representantes.
+Apertura de aluminio salvó.
+
+Los que venden el vidrio.
+Pero seguramente el premarzo lo matricula en otro lado y la cadena de vidrio en otro, no sé como sería.
+Barrientos: Yo los edificios que veía son de la empresa Boldú construcción en seco.
+Antonio Cardozo: Ah boldú construcción en seco sí.
+Barrientos: Uno por alvear pasando un poquito san lorenzo piso flotante, lote. Agarran esos edificios y se 
+Leiva: Son 20 pisos y agarró todo ElectroMisisiones para proveer los caños todo, el laburo hacen ellos.
+Barrientos: Claro, ElectroMisiones sí.
+Leiva: Tiene 5/6 vagos que laburan.
+Barrientos: Sí, porque ese es de barrio y capaz que tienen el hijo sabía que tenía un hijo ahí que laburaba.
+Antonio Cardozo: Pero ahí hacen todo instalaciones de luz?
+Leiva: hay de otras.
+Barrientos: Fijate el tester ese que compré que tiene el profe ese es como que le vende el ministerio no sé, tiene tipo un número como que es un inventario le venden a toda la provincia.
+
+###### Barrientos: Yo tengo una amigo que labura en la parte de informática de la UNAM del Campus, y él también cuando hay que renovar computadoras llaman a licitación y siempre gana ElectroMisiones, inclusive estaban hablando con un vago de Buenos Aires, uno de Electro lo llamó a mi amigo che como podemos hacer con una comisión si nos aceptan la licitación. Mi compinche como ganan bien ellos no le importa, mirá por eso no más te voy a rechazar, por eso no más no te voy a tener en cuenta tu licitación. Como no vas a decir que sí le digo boludo (chiste).
+Acá en Misiones si te hiciste plata es por la mano de la política(narco), o empresas amigas del Estado, tengo un primo que él hace serigrafía y le hace para el gobierno, fortuna tiene, millonario, le hace remeras.
+Leiva: Fijate esta aplicación que es del hospital, alegramed.
+
