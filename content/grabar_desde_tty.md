@@ -79,3 +79,17 @@ ffmpeg -f pipewire -framerate 30 -video_size 1920x1080 -i @DEFAULT_VIDEOSOURCE@ 
 ``` 
 
 ###### Cuando arranco stream siempre tengo que bajar el Internal Mic desde alsamixer porque sino el micrófono se satura.
+
+
+#### Este es el script que uso para streamear desde la TTY.
+```bash
+#!/bin/bash
+sudo chmod 666 /dev/input/event*
+amixer set 'Internal Mic Boost' 50%-
+
+
+falkon "https://www.youtube.com/live_dashboard"
+### Solo tty
+ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /dev/fb0 -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/STREAM_KEY 2> /dev/null
+
+```

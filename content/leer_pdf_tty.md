@@ -11,7 +11,14 @@ Esta es mi actual configuración de `/etc/mpv/mpv.conf`:
 [I] esotericwarfare@arch ~> cat /etc/mpv/mpv.conf
 --ytdl-raw-options="format=bestvideo[height<=?360]+bestaudio/best[height<=?360]/bestvideo[height<=?480]+bestaudio/best[height<=?480],write-auto-sub=,sub-lang=[en,ru],write-sub="
 #--vo=drm
-[I] esotericwarfare@arch ~>
+--profile=fast
+--sub-auto=all
+--ytdl-raw-options="format=233+230,write-auto-sub=,write-sub=,sub-lang=[en,ru]"
+--volume-max=600
+--save-position-on-quit
+--mute=yes
+--untimed
+--profile=low-latency
 ```
 Y este es mi `/etc/yt-dlp.conf`:
 
