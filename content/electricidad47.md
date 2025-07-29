@@ -19,7 +19,7 @@ Repasamos conceptos viejos porque hay nuevos alumnos.
 Escala - metro patron.   
 Metro unidad patrón, podemos tener cinta carpintero.   
 Lo más importante es la canalización.   
-* Ubicación de las cajas octogonales.   
+Ubicación de las cajas octogonales.   
 Planta eléctrico = es como si se le saca el techo.   
 Montante eléctrico en un edificio hay tensiones bajas, internet, incendio. Detectores de humo pasillo,    
 Sacar gas hacer con energía eléctrica   

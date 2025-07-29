@@ -145,13 +145,13 @@ nano /etc/resolv.conf
 
 **Borrá todo y poné las DNS de Cloudflare o Quad9**. Las DNS de Personal, Claro, Movistar bloquean sitios como: https://librefutbol.su, https://thepiratebay.org, https://example.com, etc
 ```   
-# Cloudflare   
+# Cloudflare (no uso porque reporta como Malware sitios para aprender reversing)  
 nameserver 1.1.1.1   
 nameserver 1.0.0.1   
 # Quad9   
 9.9.9.9
 149.112.112.112
-# Quad9 - Otra DNS (Esta uso)
+# Quad9 - Otra DNS (Esta uso) (no uso más porque bloquea digdeeper.love)
 nameserver 9.9.9.11
 nameserver 149.112.112.11
 ```   
