@@ -464,4 +464,4 @@ Profesor: École, ahí poné APR aunque sea **monofásico** poné APR allá arri
      
 ---
 
-En realidad esta era la 4ta clase porque falté la primer clase: https://imlauer.blogspot.com/2025/03/electricista-clase-3.html
+En realidad esta era la 5ta clase porque falté las 2 primeras clases: https://imlauer.blogspot.com/2025/03/electricista-clase-3.html
