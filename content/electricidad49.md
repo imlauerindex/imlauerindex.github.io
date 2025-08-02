@@ -34,12 +34,14 @@ Me compré la chomba y no es que me gustó mucho, atrás parece de esos jugadore
 Casi tuvieron suerte, me fui a comprar esto y la idea era sacar fotocopia justo no tenía la nueva fotocopia para la semana que viene me voy a dedicar a que todos tengan información por lo menos, eso vamos a hacer.
 Ahí veo caras nuevas, espero que no vengan más porque sino vamos a quedar atrasados otra vez.
 
-Aguántenme porque no vinieron.
+Aguantenme porque no vinieron.
 
 Al comienzo le da la introducción a los nuevos estudiantes son 8 nuevos, por lo menos 5 que vengan. Dará clases 30 minutos antes para ponerlo al día con nosotros.
 Hacemos electricidad domiciliaria, no industrial porque electricidad industrial requiere equipos más importantes como motores, tableros de grandes proporciones todas esas cosas que van a ser muy difícil conseguir.
 
 La parte de eléctrica domiciliaria es la más demandada en estos momentos, hay posibilidad de hacer muchos trabajos, también el centro de formación está ligado a una cooperativa acá en la esquina de la empresa constructora, después habrá una cooperativa de trabajo que hace vivienda y siempre lleva gente de acá, depende de la característica que tenga la persona y de la necesidad de la obra, todo eso empezamos a 
+
+
 
 
 ---
