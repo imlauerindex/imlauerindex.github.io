@@ -100,7 +100,7 @@ vim /etc/hosts
 
 En este archivo también podes agregar al final el siguiente archivo para bloquear sitios de apuestas, pornografía, etc: https://github.com/StevenBlack/hosts
 
-###### Cambia las DNS porque las de Claro, Personal, Movistar bloquean páginas, yo uso las de Quad9 ( una vez no resolvía https://digdeeper.love luego se solucionó ) uso las DNS de Google.
+###### Cambia las DNS porque las de Claro, Personal, Movistar bloquean páginas, yo uso las de Quad9 ( https://digdeeper.love está bloqueado por Quad9 ) así que ahora uso las DNS de Google.
 
 DNS de Quad9 https://en.wikipedia.org/wiki/Quad9
 

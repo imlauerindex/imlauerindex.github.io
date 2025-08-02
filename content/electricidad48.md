@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 48: Plano. Dibujo a escala."
+title: "Electricidad / Clase 48: Plano. Dibujo a escala. Pedir foto plano escala."
 date: 2025-07-29T22:58:32-03:00
 tags: [electricidad]
 ---
@@ -33,8 +33,6 @@ https://www.youtube.com/watch?v=MlWojvyrz4Y
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQK8qgmpDDVpwz9i73o1dGBWlm5CA3tN8TJ4SobMwG2VbyQG93Cr054A7sS2uIX4KjVo89X2uP2C1gw6I4zE19aBrp-m-xJeO7NGq-tc1RRcv-fZoebf_nz8GhLRu4nLImCdTeX2JxGRunvgJhiUOSXFDzOhDzmxmenTn_-0pIfkUfN4Gbc90sZ_xZEJ0/s4160/IMG_20250729_202453950.jpg)
 
 ##### Transcripción
-Botolli habla sobre final de obra.
-Botolli insiste con venir 30 minutos después.
 
 Minuto 12.
 
@@ -93,7 +91,7 @@ Es importante tener en cuenta, nosotros generalmente esta hoy en día no la util
 Antes detallábamos todo en los pliegos paso por paso en qué consistía que tipo de material que altura, qué tablero, que característica tenía, cuánto es el monto, cuántas dimensiones todo y después llegaba la obra y ponían cualquier cosa.
 
 Entonces preguntábamos al electricista, ¿de dónde tomaste? 
-Electricista: "Ví en el plano"
+Electricista: "Vi en el plano"
 Pero en el plano no decía nada, estaba todo en el pliegue.
 Entonces ahora tratamos de introducir toda la característica en el plano, o sea que la persona que lee el plano, bueno, si es hecho por nosotros si es otro tiene otras condiciones.
 
@@ -114,7 +112,7 @@ La idea principalmente es para que ustedes entiendan que a veces no es necesario
 Yo les voy a repartir una hoja cuadriculada a cada uno.
 La idea principalmente varios dibujos ahí, pero yo quiero que entiendan por qué es interesante la hoja cuadriculada,
 Alumno: Rivadavia.
-Profesor: Todavía después va a ser Sarmiento, San Martín, Rivadavia, Belgrano, Laprida.
+Profesor: Todavía después va a ser Sarmiento, San Martín, Rivadavia, Belgrano, Laprida (chiste)
 La prida una época traje esa, también.
 Bueno, hay una parte que ustedes van a leer ahí que es esta parte, me gustaría que lean así es más interesante.
 
@@ -132,6 +130,294 @@ Profesor: Capaz que alguien no sabe cuál es el denominador.
 ###### Esto es escala: es una fracción el numerador es lo de arriba, el denominador es lo de abajo.
 Ahora vamos a tener que conseguir leeme ahí el que dice el denominador.
 
-Alumno: La escala es una relación aritmética en la cual **el denominador es la medida del segmento a dibujar y el numerador es la longitud real del segmento**.
+###### Alumno: La escala es una relación aritmética en la cual **el denominador es la medida del segmento a dibujar y el numerador es la longitud real del segmento**.
 
-Profesor: Fíjense que interesante porque acá pusimos `1:100` 1 metro 100 centímetros
+###### Profesor: Fíjense que interesante porque acá pusimos `1:100` 1 metro 100 centímetros
+
+Llega Soledad. (Minuto 37:30)
+
+O sea lo que significa que todo lo real la medida real está divido en 100 partes. Ahora vemos después. 
+Es un poco complicado porque es aritmética, ahora vamos a hacer el dibujo acá y van a ver por qué.
+
+###### Chomba nueva
+
+###### Ahora volvemos a la hoja cuadriculada, cada 2 cuadritos es 1 centímetro. No necesito tener una regla para poder ejecutar cualquier esquema, siempre y cuando tenga escala 1:100 entonces ahí le hago 2 cuadritos 1 cm. 
+
+Supongamos que tenemos una superficie puede ser un dormitorio te daré las dimensiones para que vayas dibujando. El que no tenga lápiz traje por las dudas.
+
+Supongamos que tenemos una habitación y directamente pueden ponerlo así porque esto va ser primero escala 1:100 después veremos que diferencia hay entre escala 1:100 y 1:50, entonces necesito que ustedes tengan idea.
+
+##### Dijimos que 2 cuadritos es 1cm en la regla y equivale a 1 metro.
+###### Si yo tengo una habitación cualquiera fíjense que primero yo puedo tener una cierta longitud acá le podemos poner 4 metros esto es si estoy acotando las medidas por 4 metros por 6 metros. Esto está dado en metros para que vean, directamente en un plano no se pone 4 metros 6 metros. Igual que cuando hacemos el tema de las cañerías acuérdense que ponemos directamente caño tal característica y abajo 2 conductores de 2,5 por ejemplo más tierra, nunca ponemos milímetros cuadrados de sección.
+Porque ya se sabe eso, porque sino el plano estaría lleno de escritura, y hay cosas que perjudica la visión directamente en obra ya sabes que es un conductor de sección tanta característica.
+
+Esto es solo la parte interna pero también puedo dibujar en algunos casos depende de qué característica tenga, esto es como si yo hago un corte acá, que característica tenga la pared puede ser de 10 
+##### Esto es solo la parte interna pero también puedo dibujar en algunos casos depende de qué característica tenga, que característica tenga la pared puede ser de 10, 15, 20. Hay paredes exteriores que son en las escuelas quinquenales que son de 30 de espesor.
+###### Usaban una pared de 30 por aislación, cuando la pared es más grande el viento, el aire, el sol afecta menos.
+Fíjense la característica que los tipos pensaban directamente una pared de 30 por la aislación, cuando la pared es más grande la acción del viento, del aire, y del sol y a veces el tema también de los cielorasos.
+###### Las escuelas quinquenales son de 1950. Con amplios cielo raso y del cielo raso a la parte de estructura del techo tiene más o menos 2,50 metros/2,80 metros, o sea que hay una cámara de aire que sirve de aislación térmica.
+
+###### Ahora se baja todo: cielo raso, los techos son con menor superficie, menos caída, uno que economiza las paredes en algunas se hace de 15 y se pone un sistema de aislación y se hace una pared de 10. Se pone un sistema de aislación en el medio.
+
+###### Hasta la nueva metodología construcción en seco steel frame todas esas cosas también le pone un sistema de aislación para que la temperatura exterior no invada el interior.
+
+El elemento que uno coloca elemento de aire tengan menor performance.
+¿Quién gasta más luz las nuevas o las viejas?
+###### Profesor: Las nuevas gastan más luz por las características de construcción, las viejas no necesitaban ni aire acondicionado y algunas escuelas no tenían ni ventiladores.
+Empezamos a colocar ventiladores, ustedes me dicen si porque probablemente en esa época las temperaturas no eran tanto como ahora, el cambio climático ocasionó en algunos lugares que la temperatura fuera distinta.
+###### El caso más presente en el tema del cambio son las playas de Brazil antes no se usaba aire acondicionado, después de una época comenzaron a meter en todos lados.
+Ahí era la idea de que la gente de acá, nosotros tuvimos 1ero la idea de colocar aire acondicionado íbamos allá y nos encontrábamos que no tenía aire, alquilaba departamento sin aire pero a la noche refrescaba, no había problema.
+
+Después comenzó el problema de calor todo el día y hubo una invasión de equipos de aire.
+###### En algunos lugares como son los tipos también ya que vamos a poner ahí construcciones nuevas de edificio hacían tipo un tabique triangular de frente mirabas, el tabique estaba de este lado sería así de tabique triangular, acá sería el frente del edificio con todos los ventanales y ahí comenzaron a colocar todos los aires.
+
+Y como es la característica? De lejos no veías y después cuando veías de acostado por un solo lugar, veías todo acomodado como ya van pensando nosotros hay edificio que estamos arreglando y no saben ni como llevar los aires. Como vamos a romper dicen, si este es el terreno del vecino, como vamos a poner un aire ahí.
+###### Después pone un aire acá y el recorrido mayor de 5/6 metros la cañería porque el equipo (el split) está acá y el equipo principal está a 5/6 metros a 7 a veces, eso es porque no se piensa.
+Lo ideal es agarrar un proyecto desde el inicio entonces se trabaja con el arquitecto ellos buscan la forma para que los aires se puedan colocar, entonces es mucho más llevadero.
+
+###### Tenemos 4 metros y 6 metros, habíamos dicho que esto es una planta. La planta es una parte visible en donde directamente sacamos el techo y ahí hacemos un corte, sin techo y sin cielo raso, el corte se hace a 1,80 metro con respecto a nivel de piso porque ahí es abertura todas las aberturas. Vamos a poner abertura acá, otra abertura acá y la puerta.
+Por eso se hace el corte a 1,80 con respecto a nivel del piso, siempre es importante en todas las plantas definir todas las aberturas.
+
+##### No se necesita regla solo hoja cuadriculada. Dijimos que 1cm equivale a 1metro (escala 1:100). 8 cuadritos.
+Vamos a hacer ese dibujo en planta, entonces empiezo y luego cierro el rectángulo.
+##### Escala 1:100 o sea que la medida real está dividido 100 veces, para que pueda entrar en un plano. La medida real o sea esos 6 metros y los 4 metros están divididos y están en un rectángulo, y ahí podemos hacer las paredes y tomamos las aberturas. Generalmente las aberturas son de 0,80 0,90 y esto es 1,20 metro pero vamos a ponerle 1,50 metro.
+###### Fíjense si esta abertura es 1,50 a cuánto equivaldría ahí(escala 1:100): 3 cuadritos (1,50 cm)
+###### La representación de una ventana en un plano directamente es un rectángulo y después esto es una simbología de una ventana.
+Alumno: Una línea.
+Es una simbología para que ustedes entiendan en un plano cualquiera cuando reciban un plano, una casa por ejemplo sepan que acá por ejemplo
+###### estoy mintiendo porque esta puerta es doble vamos a suponer y esa puerta doble tendría más o menos 1,50 metros también. Tengo 1,50 y 1,50 acá, y acá tengo 50.
+Para que ustedes entiendan como se hace un proyecto.
+###### Yo tomo la medida interna que sería 6 metros, la mitad es 3 metros entonces de esos 3 metros ahí dejo es como si tuviera acá la mitad, dejo 1,50 metros pongo 1,50 metros y ahí... 1,50 metros.
+No me interesa mucho la parte de arquitectura, no soy arquitecto pero tampoco quiero que sean maestro mayor de obra, sino que intenten
+###### cuando hacen un bosquejo es importante que lleven una hoja, entonces a partir de ahí ustedes hacen la ventana 3 y 3 este va en el medio, acá tengo 1 y medio son 3 también (3 cuadritos).
+La medida real está dividida en 100 veces, o sea que yo en el dibujo tengo el plano en planta de una casa que está dividido en 100 veces para que pueda entrar acá, o sino yo hago medida real, es difícil fíjense la cantidad de hojas que tenía que hacer para hacer esto no hay posibilidad para que ustedes vean también los planos o
+###### los planos de recorrido o terreno también se hace en escala, la escala ahí ya es mayor en proporción a los kilómetros, cuánto es 1km le dicen 12 mil kilómetros equivaldría a un pedacito y que 1 cm sería el kilómetro, para que ustedes lean los mapas, pero ahora con el sistema de Google ya saben cuánto falta, cuántos kilómetros.
+Cualquiera recibe un plano y ese plano les da la posibilidad a ustedes de poder leer lo que realmente necesitan, este está en escala `1:50` que después vamos a ver.
+
+##### Hasta ahí vimos escala 1:100 ahora vamos a hacer escala 1:50. ¿Qué significa eso?
+##### En escala 1:100 1cm son 2 cuadraditos.
+###### Acuérdense que siempre se habla en centímetro teniendo en cuenta que el elemento patrón nuestro es 1 metro, entonces 1 metro = 100 centímetros, **constantemente no voy a poner 1 metro, 1 metro, 1 metro sino directamente 100 centímetros**, pero acá en este caso son 50 centímetros.
+##### En escala 1:100 1cm son 2 cuadraditos, que es 1 metro.
+##### En escala 1:50, 4 cuadritos es igual a 1 centímetro.
+##### En escala 1:50, 4 cuadritos es igual a 1 metro.
+
+Hacemos el mismo rectángulo pero en 1:50.
+
+###### Es decir en escala 1:50, 16 cuadraditos = 8 centímetros = 4 metros. 1 metro = 4 cuadritos. (es mejor hacerlo con la regla).
+###### Es decir en escala 1:50, 24 cuadraditos = 6 centímetros = 6 metros. 1 metro = 4 cuadritos. (es mejor hacerlo con la regla).
+
+###### Si tengo la otra medida directamente el doble, o sea que si yo tenía en escala 1:100 6 centímetros que era 6 metros directamente 12 centímetros acá es igual a escala 1:50 para no estar marcando cuadrito por cuadrito.
+
+El profesor habla de 8 cm y el alumno habla de 16 cuadraditos, 8 cm = 16 cuadraditos = 4 metros en escala 1:50.
+
+###### La ventana sería 6 cuadritos en escala 1:50.
+###### Alumna: La pared se cuenta para adentro?
+###### Las medidas principalmente y después la pared va afuera, acuérdense que siempre dijimos nosotros que trabajamos la parte eléctrica directamente tomamos la parte interna ahora cuando empecemos a marcar las hojas.
+
+Mate con mandarina? (Hora 1)
+Yo decía que fuerte el mate.
+Yo tenía una compañera de trabajo que agarraba llevaba el pomelo que hacía ahí y tomaba mate.
+
+Ayudante: Volví a la secundaria.
+Profesor: Esto es para que ustedes vayan viendo directamente y conociendo el tema de las escalas, acuérdense hay otros tipos de escala que después vamos a ir viendo pero 
+
+###### quiero que se centren en `1:100` y `1:50` que en la parte eléctrica es lo que hago yo.
+
+###### Las ventanas que antes ocupaban 3 cuadritos en escala 1:100 ahora van a ocupar 6 cuadritos en escala 1:50 (con la regla es más fácil).
+Acuérdense es un trabajo sin ningún elemento medible con una regla es mucho más fácil. Los cuadraditos es para tener una referencia si no tenes regla, si se encuentran sin nada pueden usar cualquier cosa que tenga una referencia.
+
+Ingeniero Imlauer (Hora 01:02)
+Firmado por un ingeniero Imlauer.
+Espeche: Imlauer dice ahí? Y si no. Seguro. Ese es pariente de él, Fernando Imlauer.
+Yo: Fernando? Mi tío.
+Espeche: El tío de él, si el viejo también es ingeniero.
+Ayudante: De ahí sale el potencial.
+Yo: Ponele.
+Espeche: Después va a firmar él ya.
+Ayudante: Tenete un poco más de fé.
+Espeche: Claro vos decís que sos vos no más, que vos acá estás incógnito y trabajas para esa empresa.
+
+Avisen cuando terminaron así ya empezamos a ver algunas partes de iluminación como colocamos las bocas.
+
+Ayudante: Gabriel y Améndula no le suenan de algo?
+Profesor: Améndula sí, es profesor de acá.
+Ayudante: Él fue uno de mis profesores, y Tomas que hincha bola que era.
+Profesor: Améndula fue profesor de mi hijo de dibujo, yo trabajo con la mujer de él ahí en el ministerio.
+Alumna: Cristina, somos pocos nos conocemos muchos.
+Ayudante: Si no aprobabas con ese profesor, era para saltar del 2do piso de cabeza.
+Profesor: Era bueno en el tema de que si vos estabas flojo.
+Ayudante: El te daba un plano más y tenías que hacer 2 cortes, la perspectiva y si te faltaba mucho te hacía hacer los planos de agua y el plano de techo.
+Profesor: Él empezó acá también el gas natural empezó a dar contratado por la fundación.
+Ayudante: No sé que hice con mis carpetas, perdí todas mis carpetas.
+Profesor: Y habrás dejado en la casa de las chicas.
+Alumna: Hiciste escuela técnica?
+Ayudante: 3 años con Améndula dibujé un montón de planos, hasta el plano de mi propia casa.
+Alumno: En un plano de éstos la cañería por ejemplo no dice nada, por ejemplo dice escala 1,50metros.
+
+Profesor: Ahí dice la 16, y es 3/4.
+###### Alumno: No pero yo digo la distancia eso con la regla. En la escala 1:50 sería 1 cm sería 50 centímetros en 1:50.
+###### Claro, lo que pasa es que acá por ejemplo tengo esta boca y esta boca esto es una dibujo nada más para que se lea bien pero directamente cuando vos tomas la característica el tema es así te vas acá 5,5 y esto tenes que dividir por 2, en realidad es 2,75 escala 1:50 esto sería divido 2, porque está en ampliado.
+
+###### Acá en este caso por eso te dije cuando vos haces el dibujito ahí en el plano ahí te das cuenta fíjate que es 6, 4 esto sería el doble si vos tomas la medida real de este dibujo tal, tomas de esta boca y esta boca en vez de ser el doble sería la mitad, acá es 5,5 metros sería la mitad.
+###### Para eso sirve el escalímetro en obra ahora buscamos 1 en 50 fíjense toma esta medida ahí 2,75 metros para eso sirve el plano, seguimos.
+
+###### Acuérdense que esto es tipo rectángulo si yo quiero tomar el centro de esto hago una diagonal. Si pongo solo 1 boca trazo la diagonal y tengo 1 boca acá. Vamos a hacer 2 bocas porque si yo hago una boca es muy fácil. Vamos a hacer 2 bocas. Vamos a suponer que quiero colocar 2 bocas ¿como hago? Lo mismo que hice recién pero a la mitad, dividimos la mitad y ahí trazo la diagonal.
+###### En el dibujo que quieran, porque las 2 son medibles, voy a colocar una boca acá y otra boca acá, esto es boca iluminación eso es con diagonales o sea que es fácil meter las bocas ahí, acuérdense que ustedes no rayen fuerte, la idea es principalmente son líneas auxiliares para las diagonales, porque después viene la canalización.
+
+###### Alumna: Las bocas son más chiquitos que 4 cuadraditos? Las bocas no importa mucho en un plano. Lo importante es que se vea. No hay una medida de escala, lo importante es que sepas que ahí está la boca.
+
+Las bocas no importa mucho en un plano he proyectado y sale algo chiquitito entonces lo importante es que vos puedas ver, este es escala de 1:100, fijate 1:50 tenes 1:50 por ahí? 
+
+Este es 1:50 lo que te quiero decir es que el redondito es para que sea visible 
+
+###### Como estamos trabajando con este ambiente este espacio fíjense vamos a hacer 2 bocas no más me interesa que sepan la escala y que sepan las escalas principales, pero vamos a suponer que no tenemos tablero entonces siempre habrá una caja de paso por ahí, caja de paso, que está por fuera de la pared.
+O hay veces que vos le podes presentar así tomando como punto de referencia el eje, generalmente presentamos o hacemos para que se vea, acuérdense hay veces que algunos planos.
+
+###### O sea los elementos de electricidad no van a guardar la escala, solo bosquejo.
+###### Cualquier esquema que yo haga, o caja por ejemplo fíjense necesito que se vea pero acá hay una cosa interesante sería esta parte, yo puedo hacer línea recta o directamente quebrada lo importante es que sepan donde están las bocas, después cuando tomo la alimentación o cuando ya defino la longitud del caño ya tomo así: en línea recta, el caño no va a ir a toda la vuelta, el caño va a ir de boca en boca.
+Alumna: Lo que pasa es que acá sí porque está la puerta, el caño va pasar más arriba de la puerta.
+###### Profesor: Claro, uno es para que se vea directamente acá esto va siempre acotado que tipo de caño va y abajo el tipo de conductor entonces se puede hacer curva quebrada, recta o curva acá entre boca y boca, es una representación no tiene que ser exactamente, entonces yo sigo y tomo la medida de boca en boca. Acá busco la eficiencia de material y pongo 1 solo caño.
+##### Esto es representación para que se vea, hay veces que hay planos con muchas palabras entonces la idea es que desviemos esto porque sino queda todo amontonado a veces tenemos conductores vamos a suponer una llave combinada, y metemos un tomacorriente entonces tenemos que tratar de que esto en escala 1:50 se ve bien, pero si tienen escala 1:100 entonces la idea principalmente es que los planos estén visibles.
+
+Dúo mandarina: Profe nos puede mostrar la verdad es que no estamos entendiendo.
+Profesor: Bueno te vamos a mostrar este plano porque ese plano está original de obra, tengo escala 1:100 todo esto que ustedes ven acá fíjense son las bocas, ventiladores, esto es una copia holográfica entonces no sale bien pero esto para que ustedes vean es una escala 1:100 va toda la simbología son escuelas. Acá tenes otro en escala uno más grande 1:50 y está definida las aulas qué característica tiene, si ustedes miden ahí con regla o lo que sea,
+##### fíjense los extremos del aula son, esto es un aula y más o menos son 7x7 o 6 y pico toma la medida con un escalímetro ahí agarrá y fijate 1:50 y fijate que las dimensiones del aula esa son 7x7 o 7x6 y pico.
+###### Alumna: en la referencia habla de la canalización dice CU PVC.
+###### Profesor: Bueno, lee esto porque fijate esta es la superficie esto es exterior, esto es subterráneo `4x1,5mm^2` CU de cobre de PVC. Este es conductor subterráneo ahí dice en caño de PVC sería el negro ese de 1 pulgada entonces ahí va el conductor y va alimentado al tanque de reserva.
+Alumno: Profe estas recomendaciones al instalador, las puso usted?
+Profesor: De vez en cuando sí, lo que te dije ahora antes iba a los pliegos, entonces ahora ya pongo todas las cosas importante para que me pregunten sino trato de que la gente que vaya o la empresa antes de empezar la obra me presente al electricista y ahí le cuento entonces cualquier cosa él, que dice acá o me manda por celular necesito saber que información tiene, entonces es más fácil es solo el plano leer.
+
+###### Hay muchos planos que después le voy a regalar a fin de año, no se preocupen.
+
+###### Hasta acá metimos las 2 bocas, la caja de paso esa caja de paso puede ser 10x10 y tiene un espesor igual a esto: 5, generalmente la más usada pero la idea principalmente es poner 15x10x7 ahí tiene 10x10x8 pero tengo una caja de paso ahí.
+
+###### Supongamos que en vez de colocar la llave que está cerca del tablero, vamos a colocar acá de este lado, así no amontonamos tanto, acá vamos a poner 1 y 2 y acá ponemos con la simbología la llave de 2 puntos o sea 2 módulos. Uno es cuadradito y el otro es (ver foto), las 2 son una llave de punto 2 módulos.
+
+###### Lo importante es que entiendan que están trabajando en escala, lo que significa que ustedes pueden calcular cañería, viene un propietario y les dice yo necesito ampliar acá y colocar la cantidad de bocas que necesite entonces el tipo le dice necesito colocar 4 bocas, un ventilador también de paso y aparte del ventilador 5 tomas, y dónde coloco los tomas? Y donde coloco los tomas? A veces te dicen acá quiero poner un equipo un televisor un equipo de música, estamos hablando de living, después la cocina ya es otra cosa y ahí le va indicando en algunos lugares donde quiere las cosas, ustedes con 1 simple cuaderno o una birome ya hicieron las medidas y colocan las bocas, para que les sirve la ubicación de las bocas, los tomas, y bocas de iluminación acuérdense que estoy poniendo lo que me está pidiendo el tipo.
+
+##### acuérdense que estoy poniendo lo que me está pidiendo el tipo. Con eso yo sé después cuánto puedo cobrarle de mano de obra, porque ya hice un esquema sobre ese esquema pongo las bocas, esas bocas después especifico las cantidades eso vamos a ver también para hacer el presupuesto de la mano de obra entonces yo le presento al tipo las cantidades 7 bocas de tomacorriente, 7 bocas iluminación, llave lo que sea, aire acondicionado y hago el presupuesto y entrego al tipo usted va a hacer esto, esto le va a salir tantos pesos, después vamos a ver, entonces ya está definido lo que van a hacer, distinto es si el tipo le dice si yo quiero 5 bocas, iluminación, tomacorrientes cuánto me va a salir?
+
+#### Porque enseguida te aprieta y te va a decir, ¿cuánto me va a salir esto? Ustedes tienen que decirle, mañana le paso, voy a revisar voy a tomar las medidas voy a ver bien cuánto me cuesta revisar esto, una cosa es que yo pique la pared otra cosa es que yo haga todo exterior, si pico la pared lleva más tiempo, si pico la pared luego tengo que embutir, si yo no embuto tengo que contratar a otra persona para que haga el cerramiento, o sea por eso es importante no decir el precio, si dijiste el precio sin hacer un estudio previo posiblemente hayas perdido.
+
+##### Si dijiste el precio sin hacer un estudio previo posiblemente hayas perdido, por eso se hace un esquema.
+
+Ahora estamos con esta característica y vamos a poner tomacorrientes, acuérdense que el tomacorriente era medio circulo tac, por eso es importante vamos a poner 2, acá ponemos 1 si quieren, tomacorriente, acá podemos poner directamente centrado y este llevarlo directamente la misma característica que está la boca.
+
+Alumna: Depende de donde vas a poner los muebles
+##### Profesor: Para que tengan idea más fácil para poder solucionar, es interesante vamos a poner por acá, un toma para aire acondicionado fíjense que lo único que estamos haciendo es poniendo lo que va del plano ese, directamente. 
+##### Alumna: Ese va a ir hasta 1,50 metros? 
+Profesor: Ahora después le explico, aire acondicionado se abrevia AA.
+
+Estamos más o menos? Aquel está perdido (Hora 01:23) yo le voy a cortar el cogote venga a sentarse acá ahora, si está perdido venga acá, la idea es que entiendan, fijate ahí porque tiene una cara de perdido, dice pero "esto no era electricidad?"
+###### En algún lado tenemos que tener un papel que diga que es lo que estamos por hacer nosotros, después van a saber leer el plano de memoria.
+
+###### Qué aprendimos en el tema de ubicación las alturas? Alumno: Por general acá se hace a 40cm del piso el tomacorrientes 0,4. Entonces se pone acá altura 0,4 , altura 0,4 (height se representa con h).
+
+###### Profesor: A qué altura ponemos los toma los hermanos mandarina?  Hermanos mandarina: 0,45 cm.
+###### Profesor: 0,40 no mas pero no importa.
+Hermanos mandarina: El 0,45 cm porque se levanta hasta la mitad del artefacto.
+###### Profesor: Hay una parte de las normas que te dice que vos podes colocar de 0,15 a 0,90 vos elegís o el arquitecto, yo no te aconsejo que vos pongas a 0,45 porque a veces podes usar un metro de carpintero y ya cortas y ya tenes 0,40 entonces tomas del nivel de acá hasta la cajita esa. Hay que tomar número exacta, número redondo y grande. Entonces si vos sos mi secretario yo te digo 0,40 entonces ya sabe de acá hasta allá, tengo nivel de piso perfecto 0,40. 0,40 y ahí va la cajita, a la base de la caja. A la base porque si vos necesitas un nivel para acomodar entonces es más fácil apoyar entonces vos sabes si está torcido lo que sea con un nivel hay veces que vienen unos niveles chiquititos imantados que vos pones acá y tranquilamente te va.
+
+###### Ahora si vos sos montador y vos el montador y tenes un laburante auxiliar vos le marcas. Lo 1ero que se hace acuérdense una vez que tengo las cajas ubico. Hay que buscar número exacto para poder trabajar tranquilo.
+###### Y si vos le decis 0,45 es para complicarle la vida porque le estas diciendo al eje y es un quilombo.
+
+##### Tengo la altura acá este qué hacemos? que habíamos dicho 0,90, 1,30, 1,40.
+##### Alumno: 1,40 metros.
+###### Profesor: No, es 1,20 si la persona es muy alta y si es una persona media normal 1,10 pero eso decide el arquitecto cuánto tiene ahí la medida o sino directamente mantenemos todas las características. 1,20 metros ponele. 
+###### Ese hubo que hacer de acuerdo a las característica que ya estaba hecha ya por eso tenemos que mantener el nivel ahí, mantuvimos el nivel porque la idea principalmente si tengo un tablero esto tiene que estar a igual, tengo que ubicar una forma de ubicarlo que estén todos iguales, no voy a poner en el medio esto queda horrible, acá la idea principalmente hicieron más o menos parecido que esté a mismo nivel pero esta caja sobresale los bastidores y todo sobresalen los bastidores y todo sobresalen entonces de lejos se ve que está descentrado pero a nivel de caja y tiene que venir a nivel del coso ese, porque da una buena impresión que esté todo a nivel, acá esta caja debe tener 20 por ejemplo, y esto tiene 20, 25 y este tiene 10, tengo que buscar la forma de que todo esté parejo para arriba, ustedes cuando vayan viendo o revisen cualquier obra enseguida van a notar si está bien o más o menos, los ojos lo delatan si es a la vista mucho peor todavía, lo interesante acá es que primero coloquen las bocas de acuerdo a lo planeado acá ponemos altura 1,20. 1,10 - 1,20 de altura. Se usa la h para altura, la A se usa para área.
+
+Estamos tratando de ver las medidas porque ya dijimos que esto es un plano en planta sacamos el techo sacamos el cielo raso y empezamos a ubicar las bocas, entonces necesitamos tener las alturas porque si yo hago la instalación y hago por arriba ahora después le voy a dar las medidas del cielo raso, voy por arriba y después tengo que bajar
+###### acuérdense que se trata siempre de hacer instalación por arriba no por el suelo porque si haces por el suelo tenes que picar la pared y picar el piso entonces, porque hay gente que es así después vemos que por el piso tiene problemas como humedad, antes el reglamento que se hizo a través de normas IRAM y el reglamento AEA(Asociación Electrotécnico Argentino) los elementos que usamos era todo hierro entonces si me tiran por abajo y depende de qué característica tenía el suelo, a veces se humedecía se oxidaba y había problemas. 
+
+Alumno: La altura de la caja de paso después de tener el nivel del cielo raso? Vamos a poner?
+##### Profesor: La altura de la caja de paso 0,30 del nivel del cielo raso, a veces cuando hago los proyectos 0,30 del nivel del cielo raso para abajo, 
+Alumna: Como se representa eso?
+###### Profesor: En algún lado hice altura cielo raso y te da supongamos 2,80 metros podemos hacer más fácil redondear para poder calcular más fácil 3 metros. 
+###### Alumna: O sea que la tapa estaría a 2,70 metros, la base.
+Entonces la base estaría a 0,30 del nivel del cielo raso.
+Alumna: Yo hubiera colocado a 0,30 la parte de arriba.
+Ayudante: hubiese quedado bastante más abajo
+Profesor: Acuérdense por qué era? Por la visera para que esté a la vista. Exactamente o sino tengo que estar arriba, aparte fíjense acá cuánto tengo yo
+
+###### \* Profesor se mide la frente 15 cm sin casco, con el casco tengo 0,30.
+Alumna: Frente grande.
+
+Por eso las normas te dice a 0,30 a nivel del piso, hay otros que tiene algo que sobresale y ahí es jodido el casco ahí (cuernos)(chiste).
+
+La altura de un equipo fíjense puedo colocar el toma ahí arriba depende de qué característica tenga pero esto allá, esto está un poquito más abajo de 2 metros pero generalmente depende de qué característica tenga, si es una casa o directamente 2,10 a 2,20 colocamos el toma, este está más alto porque la altura de acá se supone que tiene 2,50-2,60 metros por ahí. 
+
+\* Profesor se sube en una silla y mira el aire acondicionado.
+Generalmente este equipo de aire tiene 35 a 40 cm la altura del aire acondicionado.
+Fíjense siempre aconsejan dejar una con respecto al cielo raso entre 15 y 20 cm (el aire acondicionado) tengo ese más la medida esa directamente esto yo trato de poner acá lo más cerca posible o sea si tengo 0,40 directamente esto yo trato de poner acá lo más cerca posible o sea si tengo 0,40 más póngale 20 más 0,60 o sea que 2,10 estaría bien, una casa 2,10 estaría bien entonces pongo el equipo directamente lo más cerca posible después sale para afuera para el costado lo que quiera, esa es la idea.
+
+###### bueno vamos a suponer elijan la altura del aire: 2,20 metros
+Hasta ahí están ubicados los equipos ustedes necesitan las bocas lo que sea.
+###### ahora vamos a hacer las cañerías, caja de paso siempre la caja de paso ahí nace nuestro sistema, si es un sistema monofásico sigo trazando, y acá sigo trazando es importante tener las paredes definidas porque la cañería va llega a la pared el toma está a 0,40 y tengo que bajar ahí tengo una curva, llega hasta allá bajo y llego al tomacorriente en ese dibujo, por eso es importante las alturas, si no tuviera las alturas me es un poco difícil después calcular la longitud la cantidad de cañerías que necesito.
+Alumna: Y para el aire necesito una canalización especial porque es un circuito especial, y lo saco de la caja de paso acá dividimos y colocamos los tableros en cada aula para evitar cualquier problema.
+Alumna: Y el toma ahí entre medio de la ?
+Profesor: Acá no más, ese 0,40 no más porque es como si estuviera colocado el toma acá puedo bajar directamente por el tablero coloco el toma acá o hago por arriba eso deciden ustedes pero directamente puedo hacerlo por arriba y bajar acá no hay problema. La idea principalmente de todo esto es que estamos trabajando en escala y diagramamos todavía tenemos tiempo.
+
+Lean un poco después el tema de... Si no entienden vamos a volver a repasar el tema de escala, porque es importante cuando yo agarro un plano defino la lectura, hago el presupuesto, elijo la cantidad de materiales, pero todo en escala porque sino no me sirve, después vamos a ver cuando no tenemos escala y nos dan un bosquejo cualquiera que es lo que hacemos, que necesitamos hacer. 
+
+Estamos?
+
+Alumna: Ah y este, ah de la boca.
+Alumno: Yo no entendí.
+Profesor: y desde lejos te estoy viendo, vení al lado mío te dije.
+Alumno: pregunta por una fotocopia de símbolos.
+Profesor: eso le voy a dar, mañana le preparo.
+
+Vamos a empezar por partes. 16(cuadraditos) acá tenemos una escala 1:50 es 8, 4 acá no tenes 16 tenes 8 bldo, está bien pero esto es 4 y acá pusiste en vez de tener 6 tenes 8 metros, no importa lo importante es que vos.
+
+Esta es tu escala, la escala que vos estas trabajando es 1:50 que significa 1:50 que tenes cada 2 centímetros que sería 4 cuadraditos es 1 metro, cada 4 cuadraditos es 1 metro, vos tenes que hacer así: 1,2,3,4 4 cuadraditos es 1 metro, entonces 4 y acá tenías 6. Te voy a dar la hoja y hacé de vuelta, este es escala 1:50.
+Hacé devuelta eso y marca las bocas, la mitad de esto de 6 es 3, y ahí hace la diagonal acá y acá y ahí poné un toma acá, después pone otro toma acá, otro toma acá, acá si queres hacer la ¿? (ruido).
+
+Lo que vas a llevar será esa regla, vos tenes 1:50 acá está la escala 1:50 (en el escalímetro) 
+
+Explican lo mismo a los demás alumnos.
+
+##### Buteada a alumno que estaban hablando.
+Profesor: Así vos queres arreglar tu casa?
+Alumno: No entendí como era.
+Profesor: No entendiste porque estuviste jodiendo con él, mañana te sentas al lado conmigo, aquel habla demasiado, no te metas con un tipo que sabe, porque te va a...
+Alumno2: Ah profe yo no sé nada.
+Alumno: No hice nada.
+Profesor: Mirá yo les digo una cosa, la idea acá es que aprendan para venir a perder el tiempo quédense en sus casas, la semana que viene voy a venir 30 minutos antes para tratar de que ustedes nivelen, pero si así ustedes están ahora acá voy a venir 4 horas antes. Yo quiero que aprendan pero así no me sirve de nada.
+Les digo porque hay gente que después dice no entendí nada, perfecto yo le puedo dar todo lo que ustedes quieran pero, el tema es así para que entiendan quiero que aprendan si no entienden levanten la mano y repito, para qué les hice el triangulito ese.
+Manaña hacé de vuelta, te voy a dar otra hoja y vas a ir a tu casa y vas a hacer.
+Alumno: Me podes explicar de cuánto sería?
+###### Profesor: Y qué le expliqué 2 cuadraditos = 1 metro en escala de 1:100 y hacé bien las dos. 
+Así no tiene gracia, yo necesito que ustedes aprendan no estamos en la primaria ni en la secundaria, acá la idea es que salgan con un oficio.
+Alumno: Una consulta: desde la caja de paso al aire acondicionado va directo.
+Profesor: Va directamente hasta allá, vos tenes 7/8 ¿? (Hora 01:43:40)
+
+Alumna: Podemos hacer los 2 así o de acá a acá.
+Profesor: Claro bajá uno acá y subí uno.
+
+Acuérdense importante que ustedes vean este, supongamos que este es escala en 1:100 ahí tengo 8 perfecto, y acá tengo 8 divido 2 tengo 4 metros. Y acá tiene que tener 16 `6x2 = 12` estamos? Eso es importante que entiendan.
+
+Acordate que estás haciendo en escala 1:50 y 1:100 anota eso y fijate.
+
+Alumno: Esto es el diámetro de la cañería?
+Profesor: Sí. 16, ese sería 16. Ahí dijimos que cuando está solo el número allá es 16, es 15,4 pero es 16. 18,5 sería 22 porque el diámetro interno es 19.
+
+Alumno: pero y en pulgadas que sería?
+Profesor: todos los planos están hechos en unidades métricas, tienen estas características pero ponele que sea 19 acá, acá 16 diámetro interno. 
+
+Sí en algunos lados figura.
+
+Ahora les daré una hoja y practiquen, me interesa que esta parte entiendan bien.
+
+Alumno: De la caja de paso hacia el toma que está en la misma pared que en la caja de paso. Hay que diferenciar uno con otro.
+###### Profesor: No, no, es importante a veces para hacer una mejor distribución nosotros aplicamos color rojo la cañería.
+Hay otros que hacen la parte de plomería en otros colores.
+
+Alumna: Miren la cantidad de conductores que hay acá impresionante. Es una bandeja?
+Profesor: No, es una columna horizontal montante y acá va la distribución un circuito acá y otro circuito acá.
+17 indica se solo el diámetro interno.
+17 sería 3/4 diámetro interno.
+Hay en algunos planos que figura la referencia del tipo de caño para que la gente vea, eso que está ahí es todo cañería de hierro hasta ahora en algunos aparece y especifica ahí si es cañería rígida de PVC o lo que sea.
+
+Y si es 2 bocas toma el medio acá haces la diagonal hacé una boca acá y otra boca acá estamos? Generalmente cuando trazo la diagonal lo hago con lapiz para no marcar porque cuando tengamos que hacer la cañerías se va a armar un quilombo ahí, entonces te voy a traer un lápiz mañana, lo importante es que vos entiendas que esto es una escala 1:100 y esto en 1:50
+
+Me fui.
