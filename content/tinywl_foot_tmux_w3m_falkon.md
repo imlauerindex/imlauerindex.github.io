@@ -86,6 +86,25 @@ end
 
 `sudo pacman -S tinywl foot tmux w3m qutebrowser` y `yay -S falkon`
 
+##### Como bloquear publicidad en Falkon no es tan eficiente como Firefox con uBlock pero corre en el framebuffer:
+
+Essentially, you need to do three things:
+
+ 1. Goto AdBlock settings, and add all non-regional lists (EasyPrivacy, NoCoin List,
+    Anti-Adblock Killer, Peter Lowe's List etc).
+
+ 2. Go to Settings -> Extensions, and check the box for GreaseMonkey.
+
+ 3. Go to https://greasyfork.org/en/scripts/459541-youtube� � � -youtube-ad-blocker,
+    and click Install this script, then click install anyway. This is the Youtube
+    Adblocker.
+
+Now your Falkon should be able to block all the ads.
+
+Test its abilities here: https://d3ward.github.io/toolz/adblock
+
+
+
 **Cambiar el tamaño de la letra en foot, descomentá las lineas:**
 
 ```bash
