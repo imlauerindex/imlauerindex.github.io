@@ -786,7 +786,7 @@ Botolli: 221, 223 midiendo 700!
 Ayudante: No tiene que estar bien en el fondo, ahí se estabiliza.
 Adrián Torres: Qué pasa si te da menos que 100 voltios?
 Ayudante: Tenes baja tensión, te falta neutro.
-Benavidez: Y cada cuánto metro de cable más o menos tiene un poco de pérdida.
+Benitez: Y cada cuánto metro de cable más o menos tiene un poco de pérdida.
 Profesor: No no ese es por el sistema...
 Ayudante: No estoy para comprar una pinza amperométrica, gracias.
 Profesor: bueno medí ahí tú dijo
@@ -796,7 +796,7 @@ Ricardo Selva: Uno de los cables lo tenes que abrazar (con la pinza amperométri
 Ayudante: El término usado más común se dice medir consumo. ¿Quién más quiere pasar?
 Profesor: Allá!
 Ayudante: Alguien más quiere pasar acá, quién más quiere pasar?
-Benavidez: En qué varía la pérdida?
+Benitez: En qué varía la pérdida?
 Profesor: Depende de la distancia que vos tengas porque la tensión de entrada, acá tenes que tener lo mismo.
 
 Fijate bien no más el sistema ahí, ¡al revés!
@@ -807,7 +807,7 @@ Vos estás probando la instalación que está hecha y estás verificando si la t
 Siguen haciendo las pruebas...
 
 Cuando termine él ahí que deje preparado, entonces queda la medición ya puesta ahí.
-Benavidez: Igual oscila un poquito 224 223
+Benitez: Igual oscila un poquito 224 223
 Profesor: Alterna no te va a ser exacto nunca, al menos que tengas más suerte que la... Bueno apagá no más ese y ahora vamos a otra cosa. Tenemos 10 minutos hoy así que o 5.
 Ayudante: Ajustalo bien a los costados (las puntas)
 Profesor: Aprendimos 2 cosas: tensión alterna, tensión continua y como medirlo.

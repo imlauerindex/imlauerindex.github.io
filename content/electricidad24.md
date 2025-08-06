@@ -6,7 +6,7 @@ El circuito que hice no funcionó porque luego de probar el primer ejercicio des
 Espeche se operó de las cataratas, al principio estaba contento a 1 metro veía bien todas las letras, ahora necesita anteojos.
 Estaba al reves pero lo importante es que de un lado vos podes manejar 2 bocas diferentes, prendes y apagas. NO te sulfures.
 Cuando vos tenes un disyuntor vos podes usar el boton de prueba para cortar toda la energía y después ya después bajar los demás.
-Conversación final con el belado Benavidez.
+Conversación final con el belado Benitez.
 No terminé todo porque es una clase práctica.
 "
 date: 2025-05-13T23:04:35-03:00

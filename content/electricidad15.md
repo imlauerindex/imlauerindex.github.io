@@ -136,7 +136,7 @@ AlumnoX: Medio cortina(corto) parece.
 Profesor: No, está bien o sea medio cortina sí pero por lo menos para que vea.         
 AlumnoX: **No llegar a 90 digamos?**        
 Profesor: **Claro, pero a ver yo tengo que reemplazar la curva. La curva a veces sale 90 grados porque ya es de como les puedo decir... Fíjense que esta curva ¿cómo tiene 90 grados?, no es que el doblez le va...**.        
-Benavidez: Claro, no está derecho.        
+Benitez: Claro, no está derecho.        
 Cardozo: Un redondo.        
 Profesor: Sí. Yo siempre tengo que **tratar de moldearlo a través de sistema de rodilla XD**, despacito no más.        
 Ayudante: Saca el resorte.        
@@ -252,10 +252,10 @@ Hay gente que no vio pero no importa, está en el celular en video ese de todos 
 ###### Si me encuentro con cañería pesada es muy probable que me cueste doblar o no doble.        
 Ahí tengo que usar elementos auxiliares.        
 Botolli: Dos cuplas cuanto salen en comparación con una curva? No es más o menos el mismo costo?        
-Benavidez: Chilora        
+Benitez: Chilora        
 Profesor: Sí, poco.         
 Gustavo Barrientos: No, el tema es usted había dicho que las curvas nosotros podemos usar como máximo 2 y estas dobladas así?        
-Benavidez: También.        
+Benitez: También.        
 Profesor: Estas dobladas te permiten a vos reemplazar las curvas y hay lugares en donde yo puedo hacer que... Esto es generalmente cuando **yo tengo distintos niveles vamos a suponer que empiezo las cañerías tengo que bajar tipo una S para otra superficie y para evitar poner CURVA y CONTRACURVA que yo les dije a veces es interesante hacer un doblez tenes que saber hacer la famosa S cuesta**. Yo no quiero ni hacer antes hacíamos los caños de hierro y a veces la S cuando empezábamos a hacer 1ero en vez de salir de un nivel a otro, salia un nivel pero el otro salía otra forma o sea que no salía en forma recta, salía medio desfasado costaba es la forma de como está el caño y a veces **el caño de hierro tiene una determinada costura y si la costura está justo con el doblez**, todo se aprende.        
 ###### el caño de hierro tiene una determinada costura y si la costura está justo con el doblez        
         
@@ -264,9 +264,9 @@ Vamos a suponer que tenía la costura, acá no había problemas si yo tenía una
 Fíjense este es una cupla con rosca entonces yo tranquilamente si va todo bien.        
 Maru: Es más chico        
 Profesor: No, es lo mismo pero esto como estaba oxidado es bastante difícil, en síntesis esto hay que roscarlo, se rosca ahí y tengo la posibilidad de seguir armando mi cañerías tengo que tener la posibilidad esto también tiene rosca así que.        
-###### \* Benavidez no quiere doblar el caño y el ayudante le dice que todos tiene que probar.        
+###### \* Benitez no quiere doblar el caño y el ayudante le dice que todos tiene que probar.        
 Ayudante(Ale): Todos ya probaron a vos te falta.         
-Benavidez: No.        
+Benitez: No.        
 Ayudante(Ale): Todos tienen que probar, la idea es que todos practiquemos.        
 Profesor: Y cuando no tengo rosca automáticamente yo tengo una unión, esta es una unión bastante grande, esta unión es bastante chica y ahí pongo pasame.        
 Gustavo Barrientos: Ese es el que dice radio de 56mm que sería la luz?        
@@ -358,7 +358,7 @@ Esta viga algunos tienen 10 o 15 de espesor hay que hacer recorrido y volver de 
 En lugares en donde había vigas de madera y arriba estaba el machimbre algunos electricista en vez de hacer todo un recorrido un poco más algo para poder en algunos casos hasta esconder la boca hicieron ese pasaje.    
 Maru: Pero fijó las bocas a las vigas?    
 Profesor: No, el recorrido de los caños, puede fijar a las vigas. Fíjense yo acá pongo el artefacto no se ve pero este es una viga y esta otra viga, en vez de hacer todo el recorrido por arriba o por abajo, el tipo puso el caño pasando por la viga de una a la obra, me quedó un espacio así entre el cielo raso y el otro. Estéticamente horrible.    
-Benavidez: Una ganas de laburar.     
+Benitez: Una ganas de laburar.     
 Profesor: Una vez me tocó hacer en Tacurú ahí tiene el comedor, el comedor en esa época tenía unas vigas. Y teníamos que esconder las luces ahí pusimos cañería de hierro y las vigas vamos a suponer que esta era la viga de madera salían así,     
 ##### tratábamos de esconder todas las cañerías por el costado de las vigas, cosa que la persona que venga de frente no vea el caño ahí poníamos las bocas lindo quedó es mucho laburo    
 Pero si queda bien y te pagan bien no importa vos haces el laburo bien.    
@@ -391,7 +391,7 @@ Maru: Quedaría más por la pared ... Inentendible ... ¿Cómo para que quede al
 Profesor: Claro, al ras de la pared vos fijas este y vos fijas este vos tenes que buscar la forma de que esta canalización entre acá pero tiene que quedar la forma una curvatura. Tiene que ser así, hacer tipo una S y después.    
 Ayudante(Ale): Si porque si no no podes meter el caño derecho así torcido.    
 Maru: Sí, sí. NO y tampoco no podes porque no baja.    
-Benavidez(chiste): Le pones un corrugado anaranjado.    
+Benitez(chiste): Le pones un corrugado anaranjado.    
 Profesor: Estéticamente he visto algunos supermercados importantes esto tiene la ventaja que también vienen de a color azul, rojo, amarillo, entonces si uno **ya piensa con el arquitecto como va a ir pintado esto tranquilamente el color, hacen del color de la pared y listo**.    
 Botolli: Yo he visto que le ponen como enredaderas o plantas para disimular la bandeja.    
 Profesor: De todo se hace, hay lugares queda muy bien, estéticamente también depende mucho del arquitecto el razonamiento que tenga.     
@@ -419,11 +419,11 @@ Ayudante(Ale): En corrientes yo entré a una ferretería como California,
 Profesor: Es lo mismo que cuando si ven ahí algunos tipos que hacen algunos videos de Ciudad del Este distintas ferreterías distintas cosas y novedades para herramientas y hasta la gente que trabaja en refrigeración tiene unos kits no sale ni 250k y es un equipo completo con el manómetro y todo eso la bomba de vacío todas esas cosas que uno acá probablemente valga 2 o 3 veces más.    
 Gustavo Barrientos: O no hay directamente    
 Profesor: Uno mirando esas cosas y pudiendo pasar se ahorra herramientas, yo me tengo que pegar una vuelta en ciudad del este. Lo único malo es a veces cuando va en vehículo ya empiezan los tipos y uno tiene una cierta como le puedo decir, no sabe si dejar el vehículo ahí porque los tipos son medio árabes ahí.    
-Benavidez: Ciudad del este es re picante ahí.    
+Benitez: Ciudad del este es re picante ahí.    
 Profesor: Entonces tienen cierto miedo, yo fui varias veces    
-Benavidez: 4 de la tarde, 5 listo.    
+Benitez: 4 de la tarde, 5 listo.    
 Profesor: Cuesta un poquito pero tiene buenos precios, eso es según lo que he averiguado a nivel internacional, ciudad del este es uno de los centros de América del Sur que todos los países importantes de fabricación Chico, Árabe lo que sea vienen en avión y traen ahí    
-Benavidez: 0 impuestos.    
+Benitez: 0 impuestos.    
 Profesor: 0 impuestos, y acá distribuyen Brazil, Argentina, Uruguay, Paraguay a todos esos. Increíble, pero ellos ahí tienen el coso por eso a veces uno sin querer escucha el tema esto de Estados Unidos por qué está interesado en la triple frontera porque todo lo que se trae ahí es para vender y se vende de todo. Entonces tiene distinto lugares ahí la gente que conoce ciudad del este y barrio cerrado y están los árabes, con mucha plata y hacen de todo, son los dueños. Entonces para nosotros que tenemos algún esqueleto para algunas cosas de más ahí podemos conseguir,    
     
 ---    
@@ -439,7 +439,7 @@ Gustavo Barrientos: Se consigue buenos precios acá en Encarnación.
 Profesor: Sí, pero la otra vez me enteré que si vos pasas 2 o 3 veces al mes ya tenes tarjeta ya te anotan en la computadora y la 2da vez o 3era ya te revisan todo el auto.    
 Maru: Visitante recurrente.    
 Profesor: Aparece en la computadora entones te revisan que es lo que tenes, ese es nuestro sistema ojalá tendríamos mercado libre nosotros con Paraguay, tengamos mejor precio.    
-Belado Benavidez: Mercosur.    
+Belado Benitez: Mercosur.    
 Profesor: Claro y podamos tener la posibilidad de...    
 Maru: Igual a veces es porque están los que están los pasero cada casa tiene su pasero y te conviene a veces con pasero y todo y más seguridad, igual te conviene comparado con los precios de acá.    
 ###### Gustavo Barrientos: Mi hermano tiene ferretería a la calle, y vienen los paseros hay un tipo que le trae y el tipo compra viene y le cobra creo que estaba 30% pero vos ni siquiera tenes que darle la plata el tipo compra vende los taladros, compra 1 taladro viene y te cobra.    
@@ -453,11 +453,11 @@ Profesor: Traemos cosas de allá y lo ideal sería tener un mercado más o menos
 A mi me dicen sí pero como puede ser que un diputado o senador gane 20 millones de pesos por mes y a veces no va 2 o 3 secciones al mes y ellos se ponen esos sueldos,     
 ###### Profesor: ¿como uno trabaja para que los otros no hagan nada y tengan un buen pasar?.    
 ###### Ellos dicen: No, pero ellos nos dirigen pero con qué idea? Yo directamente estoy...    
-Belado Benavidez: Filosofía y letras de repente.    
+Belado Benitez: Filosofía y letras de repente.    
 ###### Profesor: No, yo no no tengo la idea de que el político hace cosas por nosotros para mi no. Por más que somos un país democrático esos sueldos que tienen ellos son inalcanzables.    
 Maru: Hay muchos representantes que no representan.    
 Profesor: Es que nadie, es así.    
-Benavidez: Obvio, ahora supuestamente hay que exponer el patrimonio no tenes que tener cuotri ¿? etc (Hora 01:55). Son los tiempos que se vienen supuestamente vamos a ver si se depura un poco. Con que hayan amistad estamos dijo. ¿?    
+Benitez: Obvio, ahora supuestamente hay que exponer el patrimonio no tenes que tener cuotri ¿? etc (Hora 01:55). Son los tiempos que se vienen supuestamente vamos a ver si se depura un poco. Con que hayan amistad estamos dijo. ¿?    
 Profesor: Estamos ahí y vamos a ver que pasa, pero estoy demasiado desilusionado con la política.    
 Gustavo Barrientos: En Brazil es abismal los millonarios que hay allá no existe casi la clase media es millonario gente rica y después el laburante los pobres. Uno se va se va de vacaciones y uno ve el edificio que está construyendo que te alquila generalmente vos alquilas un departamento muchísimo más lindo de lo que vos vivís acá.    
 Profesor: Sí, si si.    
@@ -470,31 +470,31 @@ Profesor: Ese es lo bueno que tienen. Bueno le agradezco que estén bien que hay
 La otra puede venir para acá y de esa bajo allá porque está más cerca de esa boca bajo ahí, total hago un circuito mixto, mixto en el sentido de la cañería **pongo 2 circuitos de toma corrientes y uno de iluminación entonces yo puedo ir bajando sin problemas**, eso quiero que vean después porque a veces uno va a la obra y ve cosas que no están bien y es porque la gente tiene un tipo que le dice hay que colocar esta caja, esta caja, esta caja, le ubica y se va entonces vienen y ya está colocada la caja. Ah terminaste! No le interesa como terminó nada por el estilo, y **siempre el mejor electricista tiene que seguir una determinada estética porque después ese mismo tipo puede ser recomendado para otro trabajo y si el trabajo de él es más o menos y yo le contrato a él (otro) por como trabaja, entienden como es el sistema? Hay cosas que no se ven porque una vez que está todo iluminado todo prendido es todo igual pero si hago una forma bien adecuada después ese tipo será recomendado para otra obra, es así**.    
 
 Profesor: Esto me quedó para que ustedes sigan utilizando (resorte)?
-Benavidez: 20 luquitas?
+Benitez: 20 luquitas?
 Profesor: Voy a guardar yo en el bolsillo. Un kilo y medio de asado.
-Benavidez: Uh lo que nos perdimos, vamos a tirarle a la parri hoy. Comprate tuberías también?    
+Benitez: Uh lo que nos perdimos, vamos a tirarle a la parri hoy. Comprate tuberías también?    
 Profesor: Si tenía y después compré hace rato pero siempre voy comprando cositas. Ese es la S que tiene que la... Pero bueno es cuestión de práctica la 1era vez hasta a mi me costaba así que no...
-Benavidez: A mi me quedó una pregunta porque yo laburé también en la parte de durlock vos comentaste como montar la cajita donde están los perfiles 
+Benitez: A mi me quedó una pregunta porque yo laburé también en la parte de durlock vos comentaste como montar la cajita donde están los perfiles 
 Profesor: Si 1ero yo tengo perfiles verticales ahí está todo.
-Benavidez: Sí si si si.
+Benitez: Sí si si si.
 Profesor: Si hasta ahí vamos?
-Benavidez: Pero cuando tenes una boca en el medio de la placa y no tenes como acá y viste que la otra va con mortero pero con nosotros que le ponen? Enduído? En el medio de la placa, no te digo donde apoyan los perfiles que soportan.
+Benitez: Pero cuando tenes una boca en el medio de la placa y no tenes como acá y viste que la otra va con mortero pero con nosotros que le ponen? Enduído? En el medio de la placa, no te digo donde apoyan los perfiles que soportan.
 Profesor: Bueno en el medio pero tengo que tomar en otro soporte un soporte.
-Benavidez: Ah, o sea que le pego uno a otro y ahí 
+Benitez: Ah, o sea que le pego uno a otro y ahí 
 Profesor: Corto acá le corto acá y sujeto esto lo hago bien a nivel una vez que yo fijé este es el otro ya, coloco la caja arriba, **tengo que fijar la caja hay gente que ¿vos sabés que hacía?** 
-Benavidez: Y atornillaba a la placa y no podes no vale el tornillo aparte **yo vi muchas obras con durlock que adentro no van tuberías adentro le mandan corrugado no más y a la mierda.**
-Benavidez: Total va la placa arriba le hacemos una boca¿? (Hora 02:01)
+Benitez: Y atornillaba a la placa y no podes no vale el tornillo aparte **yo vi muchas obras con durlock que adentro no van tuberías adentro le mandan corrugado no más y a la mierda.**
+Benitez: Total va la placa arriba le hacemos una boca¿? (Hora 02:01)
 Profesor: No, no por eso digo.
-Benavidez: Le puedo pasar cinta pasacables y reventar todo y tirar a la mierda.
+Benitez: Le puedo pasar cinta pasacables y reventar todo y tirar a la mierda.
 Profesor: **Claro y fíjate que hay gente que le pone esto atornillado a la placa.**
-Benavidez: No y seguramente porque como es ignífuga eso se ¿? Ruido.
+Benitez: No y seguramente porque como es ignífuga eso se ¿? Ruido.
 Maru: Chau.
 Profesor: Entonces yo le aconsejo a la gente que con una tijeta acá esto va a los perfiles que más ¿?¿? (Hora 01:01:40)
-Benavidez: Al montador.
+Benitez: Al montador.
 Profesor: Este queda y loco coloco fijo esto acá, o acá y en algunos casos si quiero más seguridad fijo otro acá y listo esto queda bien fijo y no se mueve y después pongo la placa, fijate que tengo lugar para la placa.
-Benavidez: Claro
+Benitez: Claro
 Profesor: Tranquilamente, no eso se hace eeeh listo.
-Benavidez: Y esto?
+Benitez: Y esto?
 Profesor: Esos son los... 
 Yo: **Me fui**
 

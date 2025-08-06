@@ -291,7 +291,7 @@ Profesor: Je! Media hora de ducha, entonces yo de vez en cuando cuando pasa la m
 Botolli: En Brasil tienen en los hoteles, 10 minutos te cortan, chau, en el hostel no en el hotel.    
 Profesor: No se si vieron la ducha eléctrica hay una que tiene un regulador tipo una varilla y eso es tipo electrónico porque vas regulando despacito no más, yo quise traer acá y salía bastante caro.    
     
-\* Llega Benavidez.    
+\* Llega Benitez.    
 Profesor: Vino del polo sur ahí, vamos a tener que darle la hoja, a ver si hay una hoja más.    
 Melgarejo: Esa es la de fusible y tabla    
     

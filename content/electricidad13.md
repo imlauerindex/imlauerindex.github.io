@@ -350,7 +350,7 @@ Rubén Leiva: Ahí ud. bornera para monofásico y para trifásico
 Profesor: **Distribuidor**. Entonces vos podes tener la alimentación principal que sale generalmente un interruptor diferencial, y después tengo 3 orificios de un lado y 3 orificios del otro para alimentar mis térmicas que yo quiera. Esto en gran escala pero yo quiero mostrarle es que tengo un elemento que me puede hacer de uso factible y poner la alimentación para cada termomagnética.        
         
 Si uno quiere trabajar en forma no tan prolija pone cable canal ahí.        
-Benavidez(Refrigeración): Pero y la temperatura?         
+Benitez(Refrigeración): Pero y la temperatura?         
 Profesor: No, se pone cable canal ya ranurado acá en esta parte, después le voy a mandar un tablero con esas características. Acá por ejemplo, entonces directamente va abre el cable canal y va poniendo los conductores ahí.        
 Ayudante(Alejandro): Se usa este cable canal pero tiene todos. Todo esto gris que vos ves, todo esto es cable canal.        
         
@@ -403,7 +403,7 @@ Daniela: Sí, de la cocina, solo la cocina.
 **Gustavo Barrientos**: Un plomero le hizo.        
 Profesor: Después sigue sigue sigue, **se va al baño y tiene una térmica que corta la ducha**.        
 **Gustavo Barrientos**: Como llave de paso no es? Un plomero le hizo profe.        
-Benavidez(Pelado/Refrigeración): La de la térmica de la ducha es re común.        
+Benitez(Pelado/Refrigeración): La de la térmica de la ducha es re común.        
 Profesor: Vamos a ver como corregimos eso. Como debería hacer ella la instalación 1ero antes de avanzar en eso tenemos que ver, como tengo la iluminación si tengo cañería o así con cableado no más?        
 Daniela: No, solo cableado.        
 Profesor: Solo cable no más?        
@@ -412,49 +412,49 @@ Ayudante(Alejandro): Ahí ya estamos en problemas.
 Profesor: No, me preocupa...        
 Ayudante(Alejandro): Los roedores.        
 Profesor: No, me preocupa principalmente el esfuerzo que voy a tener va a ser ducha acá, si está esto es machimbre lo que sea y puede haber una sobrecarga, si tengo solo cables ahí arriba y una sobre carga o algo que pase ahí arriba.        
-Benavidez(Pelado/Refrigeración): El empalme en el machimbre.        
+Benitez(Pelado/Refrigeración): El empalme en el machimbre.        
 Daniela: Por ejemplo yo mandé a cambiar todo, el sector de lo que es ducha porque tenía todo con cable de 2,5mm^2 yo mandé a cambiar todo 4mm^2        
 Profesor: De donde?        
 Daniela: Desde el pilar.        
-Benavidez(Pelado/Refrigeración): **Pero ahí va la llave, no en el baño sino no te cuida la línea.**        
+Benitez(Pelado/Refrigeración): **Pero ahí va la llave, no en el baño sino no te cuida la línea.**        
 Profesor: Sí, por eso.        
 Daniela: Bueno, pero el resto está con cable de 2,5mm^2        
 Profesor: Podemos mejorar cuando vos ves no hay problema.        
 ###### Daniela quiere cambiar todo a 4mm^2 pero no es necesario.        
 Daniela: Mi intensión es... Yo compré ahora ya la mitad de lo que más o menos me dijieron la cantidad de cables que tengo que comprar de 4mm^2, o sea mi idea es hacer toda la instalación con cable de 4mm^2 o es mucho?        
 Profesor: Es mucho. Si queres pone pero no te sirve de nada. Lo que sí me interesaría, **vamos a suponer que el tipo tiene acá el tablero seccional o el tablero principal detrás del medidor y este yo saco alimentación a la ducha allá y a la salida de ese de 4mm^2 tenga la térmica eso para tu ducha que proteja todo ese trayecto porque si está allá arriba, está allá arriba va a estar al lado de la ducha ahí, ¿qué pasa ahí?**.        
-Benavidez(Pelado/Refrigeración): Toda la línea queda descubierto.        
+Benitez(Pelado/Refrigeración): Toda la línea queda descubierto.        
 Profesor: Esa línea no va a tener sobrecarga pero acá lo único que te sirve es para parar y prender la ducha eléctrica en caso de que yo quiera cambiar nada más, no me sirve para nada. O sea esta sección necesito proteger, y si no tengo cañería puedo tener un problema, se puede incendiar.        
 ###### Por lo menos usar cable taller para esconder los cables        
-Benavidez(Pelado/Refrigeración): Cable taller de 4.        
+Benitez(Pelado/Refrigeración): Cable taller de 4.        
 Profesor: Sí, cualquier cosa pero no UNIPOLAR.        
 Leticia Botolli: O un corrugado blanco (es más caro).        
 Profesor: O lo que sea.        
 Ayudante(Alejandro): **Algo que separe tu cableado de tu cieloraso**.        
 Profesor: De tu cieloraso, esa es la idea. Eso primero, siempre hay que pensar el punto más critico y donde yo puedo tener una sobrecarga más rápido que cualquier otro lado de la instalación, estamos?        
-Benavidez(Pelado/Refrigeración): La ducha. La cocina.        
+Benitez(Pelado/Refrigeración): La ducha. La cocina.        
 Profesor: La ducha eléctrica. Seguimos, si vos tenes todo separado los circuitos y tengo las térmicas acá arriba, no sé como voy a apagar en caso de emergencia, voy a tener que traer una escoba porque tengo que subir rápido no puedo tener ahí (arriba), como te puedo decir.        
 Ayudante: Un elemento crucial de seguridad, algo que te protege a vos y a tu casa no puede quedar.        
 Profesor: Es peligroso. **O sino poné una escalera cerca ya**.        
-Benavidez(Pelado/Refrigeración): Y la humedad del baño.        
+Benitez(Pelado/Refrigeración): Y la humedad del baño.        
 Profesor: Ese es la parte de iluminación de 1 dormitorio y el comedor y después me queda el tema de la cocina lo ideal es que todo ese tablero o toda la alimentación esté acá.        
 Leti Botolli: Todo en un mismo lado.        
 Profesor: todo en un mismo lado, por eso lo ideal es después hacer el tema de canalización, cualquier problema que vos tengas y cajas de paso en caso que tengas derivación tengo una caja ahí para poder hacer los empalmes lo que sea si vos tenes todos los cables por arriba y no tenes la posibilidad de tener tipo una entrada de hombre ahí porque yo te digo si dejo los cables arriba así como está en principio puedo tener sobrecarga, tengo peligro también, puede haber una rata también ahí arriba, entonces lo mínimo que trataría de hacer, con menos gasto posible y **compro un corrugado de 3/4 o 7/8 que viene en rollo de 100 pongo arriba y después paso el conductor no sé como tengas las cajas acá**, traeme una cajita.        
 Leiva: Pero lo que pasa es si ya está el cieloraso es difícil sacar el cieloraso o sacar el techo(XD) para meter el corrugado.        
 Profesor: No, está bien.        
-Benavidez(Pelado/Refrigeración): Como te metes a laburar?        
+Benitez(Pelado/Refrigeración): Como te metes a laburar?        
 Profesor: No, no por eso te digo.        
 Leiva: Y la otra esa que es aplastadita?         
 Profesor: Ese es cable canal, pero antes de poner eso yo prefiero poner el rígido.        
 Leiva: El corrugado?        
 Profesor: No, el caño rígido.        
-Benavidez(Pelado/Refrigeración): Para la ducha?        
+Benitez(Pelado/Refrigeración): Para la ducha?        
 Profesor y ayudante: No, para todo.        
 Profesor: Para todo porque toda la instalación de ella está con ese problema antes que sigamos, me gustaría esto no es en forma despreciativa pero a veces para **solucionar un problema tratá de que todas las partes importantes sacar una foto y después vemos**. Yo te voy a enseñar como bosquejar aunque sea con cuadraditos para que veamos como está la alimentación entonces podemos bosquejar y hacer a través de un bosquejo lo que se debería hacer. A veces es importante que todos tengamos una idea y una visión de que es lo que necesitamos para mejorar esa instalación nada más que eso, no es para criticar porque uno nunca puede saber como está otra casa. Igual que tenía el tablero él, la idea acá es que todos veamos la solución y pensemos cuál es la solución más económica siempre y lo más segura.         
 ###### Sacá la foto y después y te voy a enseñar a como a través de un simple rectángulo empezas a ver la pieza.        
 Es decir, yo tengo la línea municipal acá y puede estar tu casa sea cuadrada lo que sea, acá puede estar el medidor y acá tu tablero general. Después tengo que ver si esto es dormitorio, el otro el living lo que sea, y después tengo que ver el baño, la cocina , todo en forma solo esquemática uno ya va averiguando como es la instalación y como podíamos mejorar eso, sacá la foto y vamos a hacerlo. Y ustedes pueden ser contratados por una persona para que le solucione ese tema, de acuerdo a la economía uno puede hacer por partes, pero siempre tratando de centralizar toda la parte de protección, yo pongo por separado y... No sé lo que pasa ahí arriba pero yo sé que sale de acá con este elemento de protección, tengo la seguridad de que por lo menos cualquier problema de sobrecarga por cortocircuito esto salta.        
 Mandá en el grupo de WhatsApp, agarrá un papel y escribí más o menos.        
-Benavidez: Como es el plano de la casa.        
+Benitez: Como es el plano de la casa.        
 Profesor: Claro, así tipo bosquejo porque eso de tener el interruptor allá arriba es problemático.        
 Ayudante: Eso si no ví todavía, excepto la ducha.        
 Profesor: **Fíjense después cuando veamos tablero lo ideal es que cualquier tablero que se coloque esté al alcance del ser humano** y no voy a dar medidas, porque la norma te da medidas, pero la visión es que este tablero mi visión sea la mitad de mi tablero entonces yo puedo mirar para arriba y para abajo, si esto está muy alto tengo que buscar un elemento para subir.        
@@ -463,43 +463,43 @@ Profesor: Tengo que tratar de centralizar todo los tableros cerca, acá.
 Botolli: O sea tengo 2 opciones o en la bajo (que ya es chamamé también) o hago un empalme con una cajita, ¿puede ser una cajita empotrada y ahí hago el empalme?        
 Profesor: Sí, pero tenes que traer la alimentación acá acordate que ella tiene 3 lugares, 3 térmicas diferentes o sea acá en la cocina y allá. Si vos haces todo lo mismo en ese sentido bajas lo que sea, lo ideal es que todo eso se centralice acá.        
 Daniela: Por ejemplo si compro corrugado para ponerlo, **yo puedo anular digamos los cables que van para arriba, el corrido que va por arriba del cieloraso sería y eso sacar uno nuevo pero digamos...**        
-Benavidez(Pelado/Refrigeración): Por abajo.         
+Benitez(Pelado/Refrigeración): Por abajo.         
 Ayudante: Con cañería a la vista?        
 Daniela: Anulando el que está arriba que no tengo la menor idea de como está hecho.        
 Profesor: Claro, si si.        
 Maru: Por afuera.        
 Daniela: No, no no. Digamos así sería va por debajo pero por debajo pero con corrugado.        
-Benavidez(Pelado/Refrigeración): De una. Por abajo.        
+Benitez(Pelado/Refrigeración): De una. Por abajo.        
 Profesor: École se puede, solo que **el corrugado lo que vas a tener que hacer es tratar de tensarlo lo más posible para hacerlo lo más prolijo**.        
 Ayudante: Porque sino se forma mucha panza.        
 Profesor: No que no quede tipo guirlanda. Es lo más barato.        
 Botolli: Si vas a hacer exterior te conviene PVC.        
 Profesor: Porque te va a quedar tipo guirnalda. Hay distintas formas de resolver estas problemáticas **la idea principal es que esa instalación esté protegida**. Ustedes cuando tengan el problema después van a tener que pensar como solucionar con el mínimo costo. **Lo ideal es que aprendan siempre de que todos esos elementos que ella tiene por separado esté en un lugar fijo y de ahí comande toda la instalación, eso es lo 1ero**.        
 Una vez que ella **tenga todo definido después se ve si ella tiene entrada ahí arriba o no (entrada de hombre) si no tenes entrada** en algunos casos hay entrada de hombre, acá yo tengo entrada de hombre tiene una diferencia de casi 1,50 metros que uno puede ir gateando para allá.        
-Benavidez: Te aguanta?        
+Benitez: Te aguanta?        
 Ayudante: Depende de tus clavadores, si tus clavador te aguanta, vos podes ir con extremo cuidado porque sino te vas para abajo.        
-Benavidez: Uno que pese 30 kilos?        
+Benitez: Uno que pese 30 kilos?        
 Profesor: No, no a 80.        
-Benavidez: Eh!?        
+Benitez: Eh!?        
 Profesor: Apostamos, me subo allá arriba y vengo hasta acá        
-Benavidez: Yo en casa tengo ¿? (Hora 01:41:31) y nunca me animo porque **digo me vengo a la mierda con todo**.        
+Benitez: Yo en casa tengo ¿? (Hora 01:41:31) y nunca me animo porque **digo me vengo a la mierda con todo**.        
 Profesor: No no. Aguanta la madera aguanta, yo he hecho instalaciones de alarma de seguridad en lugares en donde había una distancia así no más gateando.        
-Benavidez: Y claro. Y 40, 50 cm nada más.        
+Benitez: Y claro. Y 40, 50 cm nada más.        
 Profesor: Gateando y iba y armaba todo porque la alarma no se debe ver los cables, entonces para no picar en ningún lado bajamos el detector de movimiento ahí pero tenía que ir todo por arriba.        
 Alumno(Sebastián): Caño de metal.        
 Ayudante y profesor hablan juntos y no se entiende.        
 Profesor:        
 Ayudante: Debe haber quedado clavadores más o menos de este grosor no más        
-Benavidez: 2 pulgadas.        
+Benitez: 2 pulgadas.        
 Ayudante: Aproximadamente, ponele 2 pulgadas. 1 pulgada y poquito más tuve que gatear todo por un cieloraso para corregir porque las cañerías metálicas se soltaron y se pelaron los cables, entonces no había forma de agrandar flor de agujero entonces abrí una boca empecé a subir tuve que ir gateando despacio sobre los clavadores para solucionar la falla.        
 Profesor: A veces el que no resiste son los machimbres porque son de distinto espesor, entonces como tiene los clavadores a veces ponemos una **madera ahí entre clavador y utilizamos eso**.        
 Ayudante: Entonces no está todo sobre un clavador, distribuímos el peso.        
 Profesor: No nos apoyamos sobre esto, podemos una madera entre los clavadores.        
-Benavidez: **Ah le mandas una tablita arriba de los clavadores**        
+Benitez: **Ah le mandas una tablita arriba de los clavadores**        
 Profesor: Claro, no sobre este.        
 Ayudante: Porque voce se para arriba del machimbre y voce ir para abajo (ayudante habla en Portugués imitando al profesor triste)        
 Profesor: El esfuerzo del machimbre es más jodido, el machimbre vos no sabes porque hay de media de 3/4 lo que sea entonces         
-Benavidez: El de media, el más barato de todos.        
+Benitez: El de media, el más barato de todos.        
 Profesor: Si por eso te digo, a veces hay de 3/4 depende de que características pero los clavadores te aguantan poniendo otra madera ahí y te deslizas.        
 ###### Leiva explica el dibujo de su casa (Hora 01:43:22)        
 Leiva: Ya que estamos hablando de desperfectos. Les quiero mostrar si ud. entiende acá de lo que pasa.        
@@ -510,7 +510,7 @@ Leiva: Sí, esto es el pilar. Bueno, va el cable de 6mm^2 que entra en esta caja
 Profesor: En la entrada. **Si no no, no sirve.**        
 Leiva: O sea está re mal porque no sale, tiene que salir de acá        
 Profesor: Claro porque tiene que salir de acá. No, de la alimentación estás tomando...        
-Benavidez: **Esta no va a saltar nunca si se pudre acá**.        
+Benitez: **Esta no va a saltar nunca si se pudre acá**.        
 Leiva: Claro por eso, acá tiene una de 40(térmica) pero no sale de la caja seccional.        
 Profesor: Claro, **el toma de la alimentación que entra a la casa**.        
 Leiva: Encima va al baño, que tiene una ducha, la cocina que hay un horno, una heladera está el lavadero, el lavarropa, y otra que traigo al fondo que tiene toma corrientes y todo cable de 4mm^2 que va por afuera.        
@@ -519,9 +519,9 @@ Leiva: Claro. O sea lo que yo puedo hacer es poner térmica acá, ponerle para l
 Profesor: Acá, que tenes acá? Una térmica no más?        
 Leiva: No, no. Acá hay una térmica, acá al lado hay un disyuntor.        
 Profesor: **Al pedo**.        
-Benavidez: El disyuntor al pedo porque no va a guardar nada (el belado Benavidez tiene el mismo ego que el ayudante habla arriba del profesor).        
+Benitez: El disyuntor al pedo porque no va a guardar nada (el belado Benitez tiene el mismo ego que el ayudante habla arriba del profesor).        
 Leiva: Claro. El mayor consumo tengo acá, en la cocina, el baño y el lavadero.        
-Benavidez: Te mandó 4 para allá, pero no tiene nada que salte.        
+Benitez: Te mandó 4 para allá, pero no tiene nada que salte.        
 Profesor: Te voy a hacer un cuadrito ahí. Acá tenes tu térmica principal, y acá tenes tu disyuntor que vos me dijiste ahí ese disyuntor un cuadradito. Lo que vos tenes que hacer ahí, si tenes otra posibilidad tenes: **1 térmica cocina. Otra térmica para tu baño y otro para esta caja**.        
 Leticia Botolli: Ahí van a ser mixtos.        
 Profesor: Entendés? Eso es lo mínimo que tenes que poner.        
@@ -530,18 +530,18 @@ Profesor: No sirve para nada.
 Leiva: ...Tienen que estar acá dentro **en una térmica?**        
 Profesor: Sí, sino no te protege nada. Claro.        
 Leticia Botolli: Pero van a ser mixtos es iluminación y toma.         
-Belado(Benavidez): Yo tenía igual la ducha de casa.        
+Belado(Benitez): Yo tenía igual la ducha de casa.        
 Leticia Botolli: Cocina e iluminación.        
 Profesor: Depende de como es el tema alimentado.        
 Leiva: Este es un dormitorio, este es otro dormitorio, y este es otro dormitorio. Acá tiene disyuntor y la térmica dentro de una caja.        
 Profesor: Claro, lo único que hace es proteger eso que está ahí protege esta parte no más.        
 Leiva: Claro. 2 dormitorios y la sala no más.        
-Benavidez(Belado/Refrigeración): Esta que es la parte más complicada no tiene protección.        
+Benitez(Belado/Refrigeración): Esta que es la parte más complicada no tiene protección.        
 Leiva: Claro y donde hay más consumo que es el baño, que está la ducha, la cocina que es un horno eléctrico.         
 Leticia Botolli: No puede hacer un seccional acá?        
-Benavidez(Belado/Refrigeración): Este empalme pispeale a ver como está, porque debe estar todo cocinado.        
+Benitez(Belado/Refrigeración): Este empalme pispeale a ver como está, porque debe estar todo cocinado.        
 Leiva: Y si está afuera en la luz y en el sol.        
-Benavidez(Belado/Refrigeración): No, es porque lo que consumo el baño lo que consume la corriente.        
+Benitez(Belado/Refrigeración): No, es porque lo que consumo el baño lo que consume la corriente.        
 Profesor: Vamos a suponer lo que dijo ella(Botolli) puede ser viable también: que yo tenga el tablero acá en el seccional y tomo la alimentación acá, **pero si yo pongo esto también tengo que tener estas condiciones: térmica, disyuntor y después hago la alimentación al baño, todo lo que sea**. Tengo que poner también para proteger todo este sector, porque ahí protege todo esto todo acá.        
 Leticia Botolli: Entonces saca los cables de acá y los tiene que meter en este?        
 Profesor: No. Hace como está siempre y cuando el conductor acá sea mínimo entre 4mm^2 y 6mm^2 lo que viene acá.        
@@ -550,12 +550,12 @@ Profesor: **Entonces después hace de este tablero la alimentación esta parte a
 Leticia Botolli: Es más prolijo, pero sino usas este vos podes poner los cables de acá ponerlos acá?        
 Profesor: Y ya vienen los cables ahí. Entran 2 cables ahí, **él saca de la alimentación que viene acá saca una línea que va para allá**.        
 Leticia Botolli: Pero esta línea no la podes meter en el tablero?        
-Benavidez(Belado/Refrigeración): Y es lo que le está diciendo que haga que está puenteado afuera.        
+Benitez(Belado/Refrigeración): Y es lo que le está diciendo que haga que está puenteado afuera.        
 Leiva: **Pero tenes que meter otra térmica acá, para no hacer eso hago acá una caja seccional**        
 Profesor: Claro, él tiene un tablero muy chico. Y él lo que dijo poner otro tablerito acá para poner la térmica para allá.        
-Benavidez(Belado/Refrigeración): Eliminá este empalme y baja a la caja. Y esto viene a la caja.        
+Benitez(Belado/Refrigeración): Eliminá este empalme y baja a la caja. Y esto viene a la caja.        
 Leiva: Claro.    
-Benavidez(Belado/Refrigeración): Sacá este empalme del exterior.    
+Benitez(Belado/Refrigeración): Sacá este empalme del exterior.    
 Profesor: O sea todos los problemas en el sentido de que     
 Leiva: Uno no tiene idea pero uno acá va mirando y dice bueh.    
 Botolli: A una caja de distribución tiene que venir acá.    
@@ -611,9 +611,9 @@ Yo no les puedo decir: "esto se hace así", se debería de hacer de esta forma a
     
 Daniela: Antes yo no tomaba mucha conciencia del peligro, si sabes que puede prenderse fuego, justo le estaba comentando que en barrio nuestro hace 3 meses se quemó un supermercado grande del barrio completamente por un cortocircuito y ahí es cuando te das cuenta si uno entiende uno se amaña para hacer una conexión, pero teniendo más conocimiento te das cuenta de que tenes más conocimiento te das cuenta de que sí hay riesgo y ¿cuál es el riesgo? Hoy se te prende fuego la casa y te quedas sin nada y el conocimiento más nada en decir si hay riesgo, no es que paso el cable así no más y ya está. Hay riesgo en incendio, hay riesgo en que se queda alguien electrocutado, son cosas que uno no toma noción, no les prestas atención más que nada.    
 Maru: A veces también es también por desconocimiento porque las veces que venía el (electricista) y hablaba en chino y cuando vienen a arreglar...    
-Benavidez(Belado/Refrigeración): Google.    
+Benitez(Belado/Refrigeración): Google.    
 Maru: Si pero yo siempre es bueno: me recomendó fulano y es mengano.    
-Benavidez(Belado/Refrigeración): Pero no entendes una goma.    
+Benitez(Belado/Refrigeración): Pero no entendes una goma.    
 Maru: No, no. Electricidad es una materia pendiente que tenía, o sea yo vengo acá y estoy así y ahora no llegué a leer bien muchas cosas pero no voy a estar ahí molestando a gente, pero uno no sabe qué preguntar más cuando no tenes mucho conocimiento.    
     
 Cualquier pregunta viene bien, vamos a suponer yo estoy en el lugar de ustedes puedo tener la idea y me puedo expresar mal pero uno sabiendo más o menos algunas cosas yo voy a intentar interpretar lo que ustedes digan, a mi no me importa que se equivoquen hasta para hablar de tal cosa, me interesa que ustedes tengan la idea o ese problema y puedan resolverlo. O sea que no tengas verguenza, todos vamos a aprender, nadie nació sabiendo.    
@@ -626,28 +626,28 @@ Bueno, eso vamos a ver más adelante la parte del tablero pero para que ustedes 
 Otra cosa importante: Si yo tengo una maraña de cables tratar de que los conductores que salgan acá estén aunque sea precintados para que no se muevan, yo sé que estos 2 conductores va a un circuito, que esté todo bien acomodados entonces ya tengo la idea necesaria. Otra cosa importante: respetar los colores, entonces sabemos cuál es la fase y neutro. Acá por ejemplo toda la alimentación es por arriba y todas las salidas son por abajo, o sea que eso si o si y después los colores si se aplicó bien y saben los colores es muy difícil que se equivoquen por eso que siempre cuando hacen las prácticas después sigo con el tema del **boscapolo, lámpara de prueba, constantemente que son los elementos que yo tengo que tener para poder tener idea que es lo que está pasando dentro**. Por ejemplo la otra vez mandé a un ayudante se fue a la escuela y tenía **alimentación trifásica la bomba era trifásica y no andaba porque faltaba una fase**, o sea de la alimentación de entrada probablemente de arriba o la termomagnética que estaba detrás del medidor era trifásica y faltaba una fase entonces la bomba no arrancaba. Todavía no sé si cambiaron, porque cuando yo le digo haceme el informe mandar a una empresa ahí me desligo.    
 Maru: Pero faltaba porque estaba mal, o sea le faltaba eso desde el principio.    
 Profesor: Del principio, école, de ahí la línea porque si falta la línea, vamos a suponer que entra     
-Benavidez(Belado): Pero en algún momento anduvo?    
+Benitez(Belado): Pero en algún momento anduvo?    
 Profesor: Y sí, andaba. Probablemente siempre puede haber una falta de fase de la línea de afuera entonces entra a tu medidor y no sale las 3 fases y sale 2 no más, entonces ahí tenes que llamar a EMSA para que te conecte primero. O la otra puede ser que llegue tu alimentación al medidor, las 3 fases y el neutro, cuando vos tengas detrás de tu sistema acá llegue a tu interruptor principal de corte llegue las 3 fases pero cuando vos levantes una fase no pasa, puede haber un contacto interno dentro que es una sobrecarga y explotó y vos levantas y no pasa.    
-Benavidez(Belado): Aah, ahí ya sería la llave.    
+Benitez(Belado): Aah, ahí ya sería la llave.    
 Ayudante: Ahí tenes que cambiar la térmica.    
 Profesor: Ahí tenes que cambiar la llave porque si vos tenes bien cuando levantas tenes que tener continuidad acá, continuidad acá y continuidad acá.    
-Benavidez(Belado): Eso sacas al toque con el buscapolo ni bien abrís ya miras cual es.    
+Benitez(Belado): Eso sacas al toque con el buscapolo ni bien abrís ya miras cual es.    
 Profesor: Claro, pero a veces vos ves levantas esto y con el buscapolo detectas que está la fase, ¿qué pasa cuando?    
-Benavidez(Belado): **A ver hasta donde hay corriente, ahí vas buscando adonde se corta**    
+Benitez(Belado): **A ver hasta donde hay corriente, ahí vas buscando adonde se corta**    
 Profesor: Claro, y a veces ocurre que cuando vos levantas un equipo, levantas toda la luz, tu fase no te da. Porque internamente **hay un contacto que es en forma en serie esté dañado** entonces cuando levantas y hay mucho consumo no agarra puede suceder entonces tenes que cambiar la termomagnética porque internamente vos no podes arreglar lo que hay adentro. Todas esas cosas después vamos a verlo así que no se preocupen, vamos a jugar un poquito para que ustedes tengan la idea que instrumento necesito para ese caso. ¿Estamos? Todo lo que vean por ahí, mañana vamos a ver si hacemos algo, la gente que no hizo el tema de las lámparas va a hacer el práctico no sé quién más. Pero tranquilo es para que empiecen a practicar, vamos a empezar a hacer con cañería, los empalmes ya vas a empezar a hacer, que hicimos en la práctica.    
 Ayudante: Los portalámparas que se armaron se probaron todos en los tableros.    
 Maru: Los que están ahí en la fotocopia.    
 Profesor: Y van a hacer los empalmes acá yo voy a estar cerca así que no... Es práctica, la idea es que ya tengan, la mayoría ya hizo algo entonces sigan haciendo práctica para poder ver los materiales y como realmente trabajo.    
 Maru: Tengo que traer algo?    
 Profesor: Nada nada, por ahora no.    
-Benavidez(Belado): ¿?    
+Benitez(Belado): ¿?    
 Ayudante: Por ahora con las ganas ya es suficiente.    
 Profesor: Por ahora nada, todavía tengo la posibilidad dijo.    
 Botolli: Con un 100 arreglamos. Profe mañana no voy a venir.    
 Profesor: Hay muchos que viajan también.    
 Botolli: Usted mandó ese(mensaje de Whatsapp diciendo que el miércoles no había clases) y ya tengo compromiso.    
 Profesor: No, no, está bien. Es culpa mía.    
-Benavidez(Belado): Pero si ella no viene, ¿venímos igual?    
+Benitez(Belado): Pero si ella no viene, ¿venímos igual?    
 Profesor: Si, si si.    
 Maru: Claro, tienen que venir a ayudarme a mi a hacer los empalmes.    
         

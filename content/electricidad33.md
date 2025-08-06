@@ -24,56 +24,110 @@ https://www.youtube.com/embed/9RiomY_RwkE
 
 ###### Transcripción.
 
-Leiva está trabajando de obrero en el barrio de Gustavo Barrientos en un edificio de 20 pisos.
-Antonio Cardozo: Villa sarita?
-Leiva: Ahí en frente, al costado de la cámara de representantes.
-Apertura de aluminio salvó.
-
-Los que venden el vidrio.
-Pero seguramente el premarzo lo matricula en otro lado y la cadena de vidrio en otro, no sé como sería.
-Barrientos: Yo los edificios que veía son de la empresa Boldú construcción en seco.
-Antonio Cardozo: Ah boldú construcción en seco sí.
-Barrientos: Uno por alvear pasando un poquito san lorenzo piso flotante, lote. Agarran esos edificios y se 
-Leiva: Son 20 pisos y agarró todo ElectroMisisiones para proveer los caños todo, el laburo hacen ellos.
-Barrientos: Claro, ElectroMisiones sí.
-Leiva: Tiene 5/6 vagos que laburan.
-Barrientos: Sí, porque ese es de barrio y capaz que tienen el hijo sabía que tenía un hijo ahí que laburaba.
-Antonio Cardozo: Pero ahí hacen todo instalaciones de luz?
-Leiva: hay de otras.
-Barrientos: Fijate el tester ese que compré que tiene el profe ese es como que le vende el ministerio no sé, tiene tipo un número como que es un inventario le venden a toda la provincia.
-
-###### Barrientos: Yo tengo una amigo que labura en la parte de informática de la UNAM del Campus, y él también cuando hay que renovar computadoras llaman a licitación y siempre gana ElectroMisiones, inclusive estaban hablando con un vago de Buenos Aires, uno de Electro lo llamó a mi amigo che como podemos hacer con una comisión si nos aceptan la licitación. Mi compinche como ganan bien ellos no le importa, mirá por eso no más te voy a rechazar, por eso no más no te voy a tener en cuenta tu licitación. Como no vas a decir que sí le digo boludo (chiste).
-Acá en Misiones si te hiciste plata es por la mano de la política(narco), o empresas amigas del Estado, tengo un primo que él hace serigrafía y le hace para el gobierno, fortuna tiene, millonario, le hace remeras.
-Leiva: Fijate esta aplicación que es del hospital, alegramed que el dueño es el amigo del hijo de Rovira.
-Barrientos: Mi prima laburaba, el dueño de la Groubli Ramón Alfonso, el hizo la primaria o la secundaria con Rovira antes arreglaba celulares, tenía el negocio ahí de venta y reparación de celulares. Mi prima siempre trabajó para él, ahora ya no trabaja más porque se reestructuró todo, yo creo que es porque se metió el hijo de Rovira.
-El vago tenía el blackberry y se compró otro mejor y no podía pasar los contactos entonces mi prima me pasó como referencia y me fui a su casa del tipo Juan Pablo yendo al parque viste que hay Alverdi media cuadra del palacio hay un edificio todo con seguridad y el tipo compró un piso (semipiso) porque cada piso son de 2 departamentos, el tipo compró al ¿? y ahí yo fui y no podía pasar los contactos el tipo ya había cambiado el chip.
-Ese de la Groubli no sé cuánta droguería y ellos explotaron con la pandemia: algodón, barbijo, vacuna.
-Leiva: Toda moneda.
-Barrientos: Multimillonario, el tipo vino en su época hizo el 15 de la hija en la aventura que vino Miranda y le saludó así a la hija a los invitados que grabó en Miami con Pitbull. Y ahora lo veo tomando Tereré cuando fui a la casa tomando tereré de pospu, multimillonario, él es dueño de la Groubli droguería de Misiones, viste que está la alegramed ese, después está el altamed que es una empresa que trabaja para el hospital de los enfermos terminales, te mandan a tu casa y te visitan, después vas a ver un autito que dice AltMed y es el mismo dibujo de AlegraMed pero es AltMed, y ellos están ahora por ahí al lado del mimem donde venden todo congelado por la calle rademacher y ese también tiene muchos médicos y ellos van y después le facturan a la provincia, multimillonario tiene edificio en Mediapraia.
-Yo soy licitador médico hice un curso y el sobrino de él hizo conmigo ahí por Martín Fierro entre las Heras y San Martín el tipo le regaló una casa al vago con pileta.
-Barrientos pregunta a las chicas(Daniela y Margarita): Ustedes vienen de Santa Inés estaban contando el otro día, de qué barrio?
-Daniela: Ella vive ahí en frente de la Eugenia en la entrada.
-Barrientos: Cerca de Crucero por ahí.
-Margaritos: Sí, esa cuadra.
-Barrientos: Mi primo es el engarcado del club, el otro día me quedé sin nafta en frente de la Eugenia, un boludo yo había sacado el carnet de San Carlos, ahora ya tengo, yo tenía el carnet de sacan y yo andaba en la moto y no me acuerdo que llevaba para Garupá por la colectora y hago el bajador toda la policía y no tenía VTV, y yo me estaba por irme a Brasil faltaban 3 semanas para irme, dije no mi carnet porque lo 1ero que te sacan es el carnet. Ahí frené quise entrar en una esquina y encontré un vago un policía con moto ahí doblé otra vez y me hizo seña que me pare, **me sacaron el carnet**.
-Viste que acá te multan y tenes que pagar la multa, para poder tener otra vez.
-Y allá en San Carlos ellos no tienen, no es a nivel nacional entonces vos tenes asegurado el domicilio y tengo un comprinche que te hace todo, vos le das el cambio de domicilio y te hace todo y te trae el carnet, dice "pasame una foto tuya".
-Daniela: Allá la mayoría en Santa Inés, tienen todos el carnet de San Carlos.
-###### Barrientos: Pasame una foto con fondo blanco no más y te trae el carnet hecho.Le digo che me fui a Paraguay, perdí el carnet (no quería decir que me sacó la policía). Me dice ahora le voy a consultar a mi compinche me pasó (50 mil pesos te cobra) sale 20 y pico y el colectivo y no sé qué, puta dije no puede ser entonces, agarré con el auto. Y acá hice una denuncia de extravío encima el policía es más... San Carlos decía "para mi que vos tenes la multa allá en corpus ¿??¿" y ahí me fui y cuando volvía, me fui le dije bueno perdí el carnet 6000 pesos me cobraron por reimprimir no más porque yo hace unos meses que había renovado, cuando salí así vi la estación de servicio y pensé "ah seguro llego (se quedó sin nafta)" decí que mi primo estaba.
-Daniela: Ella vive ahí bien en frente del portón de la entrada.
-Barrientos: Ah del centro?
-Margarita: No, no de la entrada de la Eugenia.
-Barrientos: Y bueno después tengo mi hermano de Chouwi ¿? (Minuto 15:33).
-Daniela: Yo vivo ahí.
-Barrientos: Se llama Verónica y Aracel, la mamá se llama Alicia, del semáforo.
-Daniela: pero entrando por la entrada de la escuela o en donde es la ¿?
-Barrientos: Nah ni idea, yo hace como 5 años que no voy, pero digamos es como que vos ibas al semáforo, era el último ahora hay más semáforos pero viste que hay semáforo ahí, yo volvía una cuadra y me metía hasta el fondo hay una ferretería.
-Daniela: La colina, la calandria, eso es todo nuevo porque antes no existía.
+Barrientos Leiva
 
 Llega el profesor (Minuto 17:40)
 
 Barrientos pensó que era miércoles, pero era martes.
 
-Profesor al Ayudante(Alejandro Ramirez): Hacé una cosa, el dire ahí me está llamando, poné la fórmula esa `P=VxI` después despejá I por lo menos para que ellos tengan idea después vamos a dar el ejercicio ese, ya vengo vamos a ver si tengo suerte de sacar conclusiones ¿? Ruido (Minuto 18:29)
+Profesor al Ayudante(Alejandro Ramirez): Hacé una cosa, el dire ahí me está llamando, escribí la fórmula esa `P=VxI` después despejá I por lo menos para que ellos tengan idea después vamos a dar el ejercicio ese, ya vengo vamos a ver si tengo suerte de sacar conclusiones.
+
+Minuto 29
+
+Profesor: Me dieron por lo menos los cables.
+Por lo menos los cables, conseguí de vez en cuando tengo suerte.
+
+Lo que vamos a hacer hoy es tratar de cuantificar algunos valores para que ustedes tengan idea cuando necesitan sacar información o tener la idea de que ese conductor que estaban utilizando es el adecuado, y el interruptor termomagnético es el adecuado,
+##### partiendo de la base de qué todos los artefactos eléctricos domiciliarios generalmente tienen una determinada potencia, una corriente en la parte exterior del artefacto te indica qué consumo está teniendo ese equipo entonces puede aparecer en una placa en una caja en lo que sea, pero es importante que entiendan que en algún lugar tiene que aparecer algo que identifique que consumo está teniendo ese equipo.
+
+Por lo tanto tenemos que tener una idea exacta de qué partimos y la fórmula principal es esta, acuérdense que esto es potencia que está dado en watts, tensión y esto es corriente. Tensión en voltios y corrientes en amper.
+
+De cualquier forma nosotros cualquiera de estos podemos hacer un pasaje de términos y podemos obtener la corriente (despejamos de la fórmula `P=VxI`) después les voy a explicar para qué sirve primero vamos a dar varios consumos de varios equipos traje ahí una tabla, puede ser alguno que normalmente me acuerde, nosotros lo que vamos a hacer ahora es: como calculamos que corriente tiene ese equipo o qué corriente nominal consume acuérdense que estuvimos viendo esta parte en la cuál teníamos la sección de conductor que corriente máxima soporta cada conductor y directamente sacamos el interruptor termomagnético como protección.
+
+Vamos a hacer el ejemplo: les daré algunos valores de consumo pero para que ustedes realmente vamos a hacer la prueba, van a hacer, un trabajito se van a encontrar con 2 o 3 si quieren hacer con calculadora con celular también, no es difícil acuérdense que el coseno de fi es igual a 1 y esto es en corriente alterna me indica la fórmula con respecto a la tensión y la corriente que son cosas importantes, entonces vamos a darle algunos valores de equipos para que entiendan.
+
+Les daré el consumo (ver foto)
+
+* Una plancha puede variar de acuerdo a la calidad tiene más o menos 1500 watts. Los watts son potencia.
+* Horno eléctrico: depende hay de diferentes potencias depende de si tiene resistencia arriba, resistencia abajo para poder tener un nivel de cocción más pareja y tiene mayor potencia pero vamos a hacer un promedio de qué potencia más o menos tiene: 2200 watts.
+* Calefón eléctrico: le vamos a poner promedio también porque acuérdense que tiene 4500 y a veces 5500 y a veces 5500 y 6500 depende de qué tipo de calefón sea, pero vamos a buscar un término medio: 5500 watts.
+* Pava eléctrica: 1600 watts
+* Caloventor: es parecido a la estufa a cuarzo solo que la estufa a cuarzo como es de cuarzo tiene un par de velas más puede aumentar esto un 300 watts más. Vamos a ponerle: 1400 watts.
+
+No sé si es cierto pero nunca tuve, una freidora que ahora está de moda, para las papas fritas 
+* Freidora: 2000 watts.
+* Aire Acondicionado: en una casa normal son 3000 frigorías pero vamos a llevarlo a uno de 4500 frigorías que es para un living más o menos, por hora y esto equivaldría a tener más o menos al rededor de 3500 watts. 
+Aire acondicionado: 4500 frigorías hora 3500 watts de potencia
+
+Los otros como son insignificantes si quieren sacar un valor real de una lámpara LED de 10 o 20 watts es chiquito pero podemos hacer algo chiquito para que ustedes vean más o menos.
+
+Profesor: Quién habló de hora? 1500 watts no tiene nada que ver por hora, les aviso ya porque no vamos a empezar.
+
+
+Termotanque eléctrico (el más grande): 3000 watts.
+
+Las mujeres usan lavarropas automáticos con agua caliente solo cuando tienen mucha grasa, y acá dice 2520 watts de potencia.
+
+Qué quiero yo? Lo que van a hacer ahora después les voy a dar distinto puedo de acá sacar algunos ejercicios en vez de darme la potencia en la placa me puede dar la corriente de consumo, con la corriente de consumo ustedes pueden sacar qué potencia tiene el equipo, para qué sirve qué potencia tiene el equipo, es la cantidad luz por segundo o sea que el consumo que tiene para qué el día de mañana vamos a suponer que ustedes quieran: consumo de kilowatts por hora entonces yo necesito saber qué potencia tiene el equipo sabiendo la corriente que potencia tiene el equipo saber qué consume por hora y cuántas horas por día ese elemento por día para al final en la tarifa de luz, pero eso lo haremos más adelante.
+
+Apliquen la fórmula `P=VxIxcoseno de fi` todo con 220 voltios, porque todos los equipos dentro de una vivienda son 220 voltios, por más que yo tenga alimentación 380, después al final de esto les daré un ejercicio de como aplicar un motor cualquiera un motorcito y les daré pero Hp que no sirve para hacer un cálculo pero vamos a tener que traducir eso a watts para poder, pero primero vamos a hacer esto.
+
+Tenemos que dividir la potencia que va a variar según el artefacto, divido la tensión que es 220 voltios o sea que cada uno de estos valores lo dividimos por 220.
+
+##### Espeche hablará por teléfono porque al parecer se quedó sin agua una escuela, y salió en el diario.
+
+Señora pregunta si hacer este ejercicio significa calcular la corriente nominal o corriente de consumo.
+
+`I=P/V`
+
+* Plancha = 1500 watts entonces I = 1500/220 entonces la corriente de una plancha es 6,81 amper.
+* Horno eléctrico, I = 2200/220 entonces la corriente (I) del horno eléctrico es igual a 10 amper.
+* Calefón eléctrico, I = 5500/220 entonces la corriente (I) del calefón eléctrico es igual a 25 amper.
+* Pava eléctrica, I = 1600/220 entonces la corriente (I) de la pava eléctrica es igual a 7,27 amper.
+* Caloventor, I = 1400/220 entonces la corriente (I) del caloventor es igual a 6,36 amper.
+* Estufa de cuarzo, I = 1400/220 entonces la corriente (I) de la estufa de cuarzo es igual a 6,36 amper.
+* Freidora, I = 2000/220 entonces la corriente (I) de la freidora es igual a 9,09 amper.
+* Aire acondicionado , I = 3500/220 entonces la corriente (I) del aire acondicionado es igual a 15,90 amper.
+* Termotanque eléctrico, I = 3000/220 entonces la corriente (I) del termotanque eléctrico es igual a 13,63 amper.
+
+Minuto 51, habla con la directora del colegio.
+
+Minuto 57 siempre cuando hay problemas de agua, me mandan a mi, pero en realidad lo problemático es el sistema, bueno empezamos.
+
+Ya sacaron la corriente para cada elemento, ustedes tienen que poner una flechita al lado el que tiene la corriente ahí tendría que pasar a la tabla y decir qué conductor yo voy a utilizar, una vez que tengan los conductores que van a utilizar para cada caso particular ahí directamente ya pasan a ver qué ITM (interruptor termomagnético) necesitan para proteger ese conductor.
+
+Esto es uso de un pequeño cálculo y uso de tablas.
+
+Eso es lo que realmente el electricista tiene que entender que cuando va a la instalación se fija qué elemento está o qué dice la placa y con esa verifica si el conductor que está ahí está bien o no.
+
+Otra cosa importante. Lo que no se tienen que olvidar por reglamento aparecerá iluminación 1,5mm^2 ustedes me dicen sí pero es muy grande, no interesa que sea muy grande eso me pide el reglamento. Entonces todos los conductores que van a la boca de iluminación tiene que tener un conductor 1,5 mm^2 los circuitos hasta 15 bocas.
+
+Tomacorrientes de uso generales: 2,5mm^2 de sección también 15 bocas.
+
+Tomacorrientes de uso especial: 4mm^2 que es generalmente individual.
+
+Si están dominando eso espectacular.
+
+IMPORTANTE: Luego aparece una engaña pichanga hay una pregunta en el examen que dice: "qué interruptor debo colocar para un circuito algunos pueden ser bipolar, tetraopolar, trifásico, unipolar para un circuito para un determinado conductor". Y si te pide bipolar y ustedes me ponen solo 20 amper es un ERROR. Si te pide circuito bipolar si me ponen 20 amper no sirve, lo que te está diciendo es un circuito bipolar entonces tienen que poner: `2x20 amper`.
+
+Si es tetrapolar aparecerá `3x20 amper` y si es tetrapolar: `4x20 amper` y si es unipolar `20 amper` eso es una engaña pichanga si leen mal.
+
+Esto es importante cuando elijo un interruptor ustedes me tienen que decir que es un interruptor si es bipolar: `2 x tanto amper` porque son 2 polos (2 módulos) si me ponen 1 no sirve. Si no me ponen nada es como si yo vos me pones solo el de 20 amper y para mi es 1 solo polo, y está mal eso.
+
+En toma especiales es 1 sola boca, no 15 bocas.
+
+Generalmente las normas te piden que todos los circuitos sean bipolares lo que significa que tenga fase y neutro y que se interrumpa la fase y el neutro JUNTO. Este es un interruptor automático termomagnético, entonces si te pide acá si esto es monofásico entonces tranquilamente si te pide de qué tipo de interruptor es: esto es la calibración no te está diciendo que tipo de interruptor es porque te dice qué corriente, esto es de calibración del interruptor, pero si uno pide directamente va a tener que poner si es bipolar `2x la calibración`.
+
+Si es tetrapolar no es lo mismo este que este, vamos a suponer que ambos tengan la misma calibración 20 amper acá y 20 amper acá la diferencia está en su circuito, uno es bipolar y el otro tetrapolar. Me corta 3 fase y el neutro y si es bipolar me corta solo la fase, por eso es importante entender el que hace montador leerá un plano unifilar y ahí figurá esta característica en algunos casos aparecerá una línea con 2 rayas que será bipolar otra con 3 y otra con 4 que será tetrapolar.
+
+##### Pero al principio lo que me interesa hoy es esto: que ustedes saquen la corriente, con la corriente me saquen el conductor y con el conductor me saquen el interruptor.
+
+Benitez: Con esta tabla saco el conductor? Y con este dato saco el conductor?
+Profesor: Con esa tabla sacás el conductor, sí. Claro porque a vos te da 13 y pico entonces no vas a poner 13 y pico porque ya pasaste ahí tu corriente admisible es esto
+
+
+
+
+Minuto 31 - Hora 11:02
 
 
