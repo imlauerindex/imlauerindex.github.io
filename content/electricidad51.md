@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 51: Repaso para nuevos alumnos y dibujo en escala."
+title: "Electricidad / Clase 51: Repaso de simbología para nuevos alumnos y dibujo en escala. Fotocopia de clase 49 estaba mal la definición de numerador/denominador."
 date: 2025-08-05T21:47:58-03:00
 tags: [electricidad]
 ---
