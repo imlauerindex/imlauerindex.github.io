@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 52: Clase muy importante entra en examen: Calculo de materiales: caja octogonal, caja rect. 5x10, gancho U, caja cuadrada, conectores, curvas, cañerias."
+title: "Electricidad / Clase 52: Fotocopia vieja de agrupación de conductores. Clase muy importante entra en examen: Calculo de materiales: caja octogonal, caja rect. 5x10, gancho U, caja cuadrada, conectores, curvas, cañerias."
 date: 2025-08-06T21:29:10-03:00
 tags: [electricidad]
 ---
