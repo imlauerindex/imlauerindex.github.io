@@ -54,7 +54,7 @@ general y aparece la característica ahí.
 algunos especiales le marcan
 el toma directamente ahí o si no
 directamente yo pongo 20 amper directamente
->> para no escribir para que no se sea tan
+para no escribir para que no se sea tan
 grande. Sí. Y todas esas cosas que lo
 que tiene que entender acá, por ejemplo,
 de usos generales. Si tienen un lápiz 
@@ -66,7 +66,7 @@ Sí, ahí los tomas son los módulos son de
 10 amp y los otros son de 20 amp. El
 especial de acá no más. Ahí, ahí es 20 A con
 mayúscula.
->> Sí, 20 A. Y acá a A con mayúscula. A
+Sí, 20 A. Y acá a A con mayúscula. A
 quiere decir amper. ¿Qué amper? La
 unidad de corriente eléctrica. ¿Por qué
 es importante? Porque con la corriente,
@@ -78,7 +78,7 @@ así voy desarrollando mi tablero y mis
 protecciones dentro de mi vivienda.
 Allá
 no.
->> Bueno,
+ Bueno,
 eh
 empezamos a tener, ¿cómo le puedo decir?
 Algunas repercusiones
@@ -138,8 +138,8 @@ tenemos equipos y a veces nosotros sin
 querer hacemos un experimento y se
 corta, salta allá y salta a veces acá.
 Por lo general salta en la cocina. 
->> claro.
->> Bueno, en en la cocina
+ claro.
+ Bueno, en en la cocina
 hay una alimentación de una línea
 trifásica hasta la cocina y ahí
 distribuye todas las aulas.
@@ -159,7 +159,7 @@ las normas, utilizó uno parecido que es
 conductor de tipo taller de la misma
 característica
 creo que era 2x6 o 4x6
->> en síntesis de alimentación acá. Eso es
+ en síntesis de alimentación acá. Eso es
 montante
 horizontal. Si tengo un edificio, ahí
 aparece un sistema que se llama o en
@@ -172,15 +172,15 @@ en un edificio va a haber en algunos
 casos un ducto, otros ya hacen o dejan
 preparado un orificio acá y van todos los
 caños.
->> Falsa columna,
->> una falsa de columna. Eso, esto que está
+ Falsa columna,
+ una falsa de columna. Eso, esto que está
 acá está lleno de caño. Y cada caño, ¿de
 dónde sale? Directamente en un
 en una, ¿cómo se llama? edificio.
 Ustedes si ven ahí un esquema ahí les
 dice individual y eso es una sola vivienda y acá es
->> instalación múltiple
->> instalación múltiple que es un sistema para
+ instalación múltiple
+ instalación múltiple que es un sistema para
 un edificio
 entonces sale desde el medidor que es el
 el lugar principal que es el gabinete de medidores
@@ -303,8 +303,8 @@ en algunos casos colocando algunos
 muebles, otros colocando...
 depende qué necesidad tiene o él tiene una idea de
 qué luminaria necesita en esos momentos,
->> profe.
->> Sí,
+ profe.
+ Sí,
 ##### En la fotocopia anterior de clase 49 está mal la definición numerador/denominador (escala) por eso un alumno se confundió. La fotocopia está mal.
 La fotocopia que está mal dice: "la escala es la representación
 aritmética en la cual el denominador es
@@ -312,15 +312,15 @@ la medida del segmento a dibujar y el
 numerador es la longitud del segmento
 real, pero es al revés. Sí, por eso que
 capaz que el compañero se equivocó
->> sería el numerador la parte de arriba es lo
+ sería el numerador la parte de arriba es lo
 lo que vamos a dibujar y y y el
 denominador es la escala real digamos el dibujo real
->> Sí.
+ Sí.
 yo copié del pizarrón y tenía al revés: "el numerador es el dibujo y el denominador es el real el tamaño real."
 Bueno, vamos a ver.
 Voy a ver
 1centímetros representará 100 centímetros
->> 1 cm va a representar 100 cm. Sí, estos 100 centímetros es un metro y este se al revés.
+ 1 cm va a representar 100 cm. Sí, estos 100 centímetros es un metro y este se al revés.
 Después te confirmo porque yo a veces
 recibo la fotocopia, ese recibí de la UOCRA 
 a veces puede fallar
@@ -334,8 +334,8 @@ o la medida real y la otra medida que
 tenga el plano. Entonces, cualquier cosa
 que yo tenga, necesito tener un elemento
 para definir
->> una referencia,
->> una referencia para decir, bueno, esta
+ una referencia,
+ una referencia para decir, bueno, esta
 medida que yo estoy tomando en el plano
 es valor de 1 m, por ejemplo, y entonces
 puedo ir a la obra y decir dónde colocar
@@ -411,7 +411,7 @@ cosa. Puedo colocar una lámpara? Sí. Puedo colocar un artefacto? Sí. Puedo co
 con respecto a arriba este todo bien fija. Yo fijo
 primero las cajas. fijo las cajas
 y en algunos casos 
->> la otra vez fui a una obra y digo "pero para qué me puse el casco si
+ la otra vez fui a una obra y digo "pero para qué me puse el casco si
 acá están todos sin cascos" y los obreros le contestan: "sí lo que pasa que hace
 mucho calor" yo me reí no más entonces yo también me voy a sacar casco le dije, pero
 si llego a pasar por un lado, y ustedes me
@@ -419,9 +419,9 @@ tiran tengan cemento la idea del
 casco es proteger de cualquier elemento
 extraño que estén trabajando en altura,
 por ejemplo, y pasar sin querer y te cae cemento arriba de la cabeza
->> no solo cemento, se puede caer una
+ no solo cemento, se puede caer una
 herramienta, se puede caer un pedazo de escombro,
->> o sea, tienes que elegir entre o el calor en la cabeza o tener un hueco en
+ o sea, tienes que elegir entre o el calor en la cabeza o tener un hueco en
 la cabeza.
 Y sí, hay dos posibilidades.
 Fíjense que estaba una obra
@@ -433,9 +433,9 @@ Bueno,
 ¿qué tiene la cañería esta?
 No digan nada la gente que sabe. ¿Por qué el color negro este?
 esto es exclusivamente para el derruble, es un antioxido
->> para el antióxido
->> es un protector anticorrosivo,
->> pero todas las cajas que tienen esta
+ para el antióxido
+ es un protector anticorrosivo,
+ pero todas las cajas que tienen esta
 característica tienen la posibilidad de ser embutida,
 pero hay que tener en cuenta
 hay algunos electricistas que son, ¿cómo le puedo decir? Que aprovechan la nobleza del
@@ -482,13 +482,13 @@ ese cable que está flexible que les mostré que tiene esa
 característica. Es un conductor unipolar y necesita protección
 ¿contra quién? y contra todos hasta
 para roedores, porque puede estar arriba entra una rata
->> capaz en momento van a encontrar porque yo mismo he encontrado adentro de
+ capaz en momento van a encontrar porque yo mismo he encontrado adentro de
 la pared o adentro de estos caños un
 cable con una funda negra el tipo taller
 eso no va dentro de esto, no de esta
 medida se puede hacer, pero con un caño mucho más grande
 
->> bueno también se encuentra amurado
+ bueno también se encuentra amurado
 directamente en la pared.
 Eso está prohibido
 
@@ -543,10 +543,10 @@ Fíjense, este es un conductor subterráneo,
 Alumno: pero sí se puede hacer un empalme si está justo en una caja de paso
 Profesor: Eso sí,
 Ayudante: todo empalme de derivación se hace dentro de una caja,
->> ya sea cuadrada, octogonal o rectangular
->> siempre en las cajas nunca dentro de la
+ ya sea cuadrada, octogonal o rectangular
+ siempre en las cajas nunca dentro de la
 cañería.
->> Es importante para que ustedes vean, yo
+ Es importante para que ustedes vean, yo
 tengo 2 tipos de cajas octogonal grande
 y octogonal chica.
 ¿Por qué se usa caja octogonal grande?
@@ -632,12 +632,12 @@ cañería baja a través de de un ducto
 del poste, baja ahí y ese caño
 constantemente va teniendo
 agua.
->> Se inunda,
->> se inunda
->> entonces, ¿qué pasa? Como tenía unión y
+ Se inunda,
+ se inunda
+ entonces, ¿qué pasa? Como tenía unión y
 tenía vamos a suponer, podía tener
 
->> primero se pone la cinta vulcanizada. 
+ primero se pone la cinta vulcanizada. 
 1ero cinta común y la otra cinta
 arriba para que no entre humedad. Pero por más
 que lo hayan hecho a la perfección
@@ -662,7 +662,7 @@ Para decirlo de una forma más suave para que no se enojen les dije, que probabl
 esto hubiera cortado la aislación.
 Para ser más sutil
 Claro. Pero tiene que sacar el conductor.
->> O sea, a fin de cuentas la idea es decir
+ O sea, a fin de cuentas la idea es decir
 lo más suave y tranquilo posible para
 que no vengan a asesinarse
 Entonces que la empresa que estaba con garantía saque eso y que revise y si
@@ -700,7 +700,7 @@ yo puedo tener un conductor, ahí él va a traer.
 
 Yo puedo tener, fíjense, 4 tipos de
 conductores 
->> en una instalación
+ en una instalación
 y ese conductor tipo taller, o sea, tengo 4
 características de conductores distintos
 para que ustedes vean
@@ -837,19 +837,19 @@ que indica la corriente máxima. Después
 te dice cada cuánto kilómetro
 caída de tensión por kilómetro.
 
->> Profe, eso lo que condiciona eso, digamos, sería la calidad del cable, ¿no?
+ Profe, eso lo que condiciona eso, digamos, sería la calidad del cable, ¿no?
 
->> Claro. Está fabricado para determinada cosa. Por eso le
+ Claro. Está fabricado para determinada cosa. Por eso le
 le volví a recalcar que cada sesión igual. Entonces el preensamblado o conductor subterráneo tiene una capacidad de corriente máxima mayor que la de un unipolar que está dentro de una vivienda.
 
->> Lo que vos preguntaste es por cuánto soporta o por la caída de tensión?
+ Lo que vos preguntaste es por cuánto soporta o por la caída de tensión?
 
 Claro, por lo que soporta porque la sección si bien es la misma ¿no? Pero uno mejor calidad, por eso aguanta más.
 
 Está hecho de otra manera. De otra manera tiene otro conductor,
 
 Alumno: Pero importa qué marca sea?
->> ¿Cómo la marca?
+ ¿Cómo la marca?
 Alumno: ¿Independiente de la marca del preensamablado es cierto que el preensamablado de 6mm^2 tendrá esa capacidad de amper?
 Ayudante: Si está normalizado no importa qué marca sea. 
 Sí. Está reglamentado eso el reglamento te
@@ -858,9 +858,9 @@ norma y te indica qué es lo que tiene que ser. En
 síntesis el tipo no cambió el conductor y todavía funciona su instalación eléctrica.
 
 
->> Bueno,
->> entonces volvamos otra vez.
->> Ustedes recibieron un tema.
+ Bueno,
+ entonces volvamos otra vez.
+ Ustedes recibieron un tema.
 
 ¿Para qué sirve?
 Acá específicamente tengo dos escalas.
@@ -904,9 +904,9 @@ tenía seguridad.
 
 Entonces, bueno, este
 este es medio viejo, pero se entiende.
->> Claro, esto son diferentes normas. Esto es norma DIL¿? y esto es norma americana.
->> Profe, ¿y el unipolar sigue permitido para iluminación o no?
->> Vamos por parte.
+ Claro, esto son diferentes normas. Esto es norma DIL¿? y esto es norma americana.
+ Profe, ¿y el unipolar sigue permitido para iluminación o no?
+ Vamos por parte.
 Eh, a ver, si yo tengo una instalación nueva,
 si tengo una instalación nueva, ya tengo que hacer circuitos bipolares.
 Si tengo una instalación vieja, tengo
@@ -921,8 +921,8 @@ para que ustedes entiendan. Ah, y
 después me pueden decir, "No, pero si
 todavía siguen vendiendo
 interruptores unipolares,
->> Se sigue vendiendo,
->> se sigue vendiendo, no hay no hay
+ Se sigue vendiendo,
+ se sigue vendiendo, no hay no hay
 problema. Fíjense que en algunas casas
 que he cambiado la instalación unipolar
 por bipolares, ¿qué hice?
@@ -934,8 +934,8 @@ Pongo todos los interruptores
 bipolares como elemento de protección
 principal de la alimentación de los
 circuitos. Y este solo para encendido,
->> como si fuera una llave de punto
->> solo para eso sirve.
+ como si fuera una llave de punto
+ solo para eso sirve.
 también tiene una protección, pero para
 eso utilizo ahora
 o depende qué característica
@@ -1023,7 +1023,7 @@ le voy a pasar? Porque eso mañana vamos
 vamos a hacer dos días por semana
 retroceder un poco y después volvemos
 pobre la gente que me escucha ahí.
->> Después vamos terminando la otra parte.
+ Después vamos terminando la otra parte.
 ¿qué dice la reglamentación? Esto es
 importante que tengan en cuenta
 cañería y esto es principal para todo esto
@@ -1058,11 +1058,11 @@ primero vamos a hacer con categoría de hierro que me
 gusta a mí, que es donde nació la
 reglamentación y después aparece el tema
 de lo PVC
->> Aparece el PVC mismas condiciones
+ Aparece el PVC mismas condiciones
 Ayudante: en palabras simple para que no sea tan complejo: mientras se cumpla que ocupe solamente el 35% del caño, pueden pasar hasta 3 circuitos en una misma fase
 
 Sí. Y nos habían dicho de que 2 de 24 voltios si eso van en cañería independientes.
->> Bueno, eso es baja tensón, eso sí, en baja tensión, va en cañería independiente.
+ Bueno, eso es baja tensón, eso sí, en baja tensión, va en cañería independiente.
 Ahí todavía hay una iluminación y toma
 pero si tengo especiales ahí
 directamente ya va en cañería independiente y va un
@@ -1212,7 +1212,7 @@ Pregunta de él.
 Alumno: Nos vamos a acordar de la canción.
 Ya me calenté porque si era del mismo centro de formación me enojo porque no puede decir eso.
 
->> ¿Dónde te dijeron eso? En la escuela de jóvenes y adultos la 17
+ ¿Dónde te dijeron eso? En la escuela de jóvenes y adultos la 17
 Es pariente de este porque se llama CPF Nº 17(chiste)
 Ja.
 Es importante que tengan porque
