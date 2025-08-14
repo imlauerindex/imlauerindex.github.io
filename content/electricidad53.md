@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 53: Circuitos electricos (repaso). Calculo de cables."
+title: "Electricidad / Clase 53: Circuitos eléctricos (repaso). Cálculo de cables."
 date: 2025-08-11T21:54:38-03:00
 tags: [electricidad]
 ---
