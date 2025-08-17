@@ -72,3 +72,16 @@ El archivo `template.include` contiene los links del `navbar` ahí eliminá todo
 Place this file in the root of the directory where you want there to be a news section.
 The order of the file names dictate what order the links will appear in, on the news index that is automatically generated (see below).
 
+
+### Como tengo los repositorios configurados
+```bash
+[I] esotericwarfare@arch ~> cd projects/cursoelectricidad/
+[I] esotericwarfare@arch ~/p/cursoelectricidad (master)> git remote -vv
+origin	git@github.com:imlauera/lbssg.git (fetch)
+origin	git@github.com:imlauera/lbssg.git (push)
+[I] esotericwarfare@arch ~/p/c/www (master)> cd www/bunnies/site/
+[I] esotericwarfare@arch ~/p/c/w/b/site (master)> git remote -vv
+origin	git@github.com:cursoelectricidad/cursoelectricidad.github.io.git (fetch)
+origin	git@github.com:cursoelectricidad/cursoelectricidad.github.io.git (push)
+[I] esotericwarfare@arch ~/p/c/w/b/site (master)> 
+```
