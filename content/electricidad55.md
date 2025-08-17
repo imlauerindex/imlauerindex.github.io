@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 55: Repaso uniones, cañeria. Calculo cableado de otro plano. Ayudante trajo plano sin conexionado y hicimos el cableado en clase."
+title: "Electricidad / Clase 55: Cálculo cableado de otro plano. Ayudante trajo plano sin conexionado y hicimos el cableado en clase. Repaso uniones, cañería."
 date: 2025-08-14T07:16:00-03:00
 tags: [electricidad]
 ---
