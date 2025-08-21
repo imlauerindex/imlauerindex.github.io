@@ -85,3 +85,20 @@ origin	git@github.com:cursoelectricidad/cursoelectricidad.github.io.git (fetch)
 origin	git@github.com:cursoelectricidad/cursoelectricidad.github.io.git (push)
 [I] esotericwarfare@arch ~/p/c/w/b/site (master)> 
 ```
+
+##### Si queres crear un nuevo sitio:
+```bash
+[I] esotericwarfare@arch ~/p/c (master)> cd www/
+[I] esotericwarfare@arch ~/p/c/www (master)> cp -R bunnies new_site
+[I] esotericwarfare@arch ~/p/c/www (master)> cd new_site
+[I] esotericwarfare@arch ~/p/c/www (master)> rm -rf .git
+[I] esotericwarfare@arch ~/p/c/www/new_site (master)> git remote add origin git@github.com:curso2/curso2.github.io.git
+```
+
+#### Lo terminé dejando así
+
+```bash
+[I] esotericwarfare@arch ~/p/lbssg (master)> ls www/
+electricidad  electrodomesticos
+[I] esotericwarfare@arch ~/p/lbssg (master)>
+```
