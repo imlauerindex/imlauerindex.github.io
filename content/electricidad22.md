@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 22: [LO MÁS IMPORTANTE DEL CURSO: ESQUEMAS DE MONTAJE] Teoría para el armado de trabajo práctico. Preguntas de examen."
+title: "Electricidad / Clase 22: [IMPORTANTE: CIRCUITOS. ESQUEMAS DE MONTAJE] Teoría para el armado de trabajo práctico. Preguntas de examen."
 date: 2025-05-08T00:53:51-03:00
 tags: [electricidad]
 ---
