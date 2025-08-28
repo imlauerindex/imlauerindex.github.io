@@ -28,6 +28,11 @@ alias invidious 'w3m -sixel https://inv.nadeko.net/feed/subscriptions'
 alias cinvidious 'cha -V https://inv.nadeko.net/feed/subscriptions'
 ```
 
+### Si vas a usar linuxfb en algunos casos tenes que agregar esta bandera para que funcionen falkon y qutebrowser
+
+```bash
+export QTWEBENGINE_CHROMIUM_FLAGS="--ignore-gpu-blacklist --disable-gpu"
+```
 
 ```bash
 alias upwork="falkon upwork.com"
@@ -85,6 +90,11 @@ end
 ```
 
 `sudo pacman -S tinywl foot tmux w3m qutebrowser` y `yay -S falkon`
+
+```bash
+qutebrowser --qt-flag disable-gpu --qt-flag disable-software-rasterizer
+```
+
 
 ##### Como bloquear publicidad en Falkon no es tan eficiente como Firefox con uBlock pero corre en el framebuffer:
 

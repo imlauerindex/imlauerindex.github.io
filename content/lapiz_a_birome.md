@@ -3,6 +3,7 @@ title: "Pencil to pen"
 date: 2025-08-26T15:18:59-03:00
 ---
 
+Ninguno de estos métodos funciona, mejor pedilo a ChatGPT xD
 
 Yes 👍 — you can definitely use **ImageMagick’s `convert` (or `magick` in newer versions)** to make pencil writing appear darker, bolder, and more like pen. What you’d usually do is increase contrast, darken grays toward black, and possibly threshold the image.
 
