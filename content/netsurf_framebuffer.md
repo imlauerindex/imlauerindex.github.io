@@ -25,3 +25,5 @@ share/netsurf
 ```bash
 netsurf-fb -f sdl -w 1366 -h 768 "https://imlauera.github.io"
 ```
+
+Probá luakit, qutebrowser, otter-browser.

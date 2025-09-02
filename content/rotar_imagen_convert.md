@@ -1,5 +1,5 @@
 ---
-title: "Rotar y achicar una imagen usando el comando convert de ImageMagick"
+title: "Rotar y achicar y agregar fondo a una imagen usando el comando convert de ImageMagick"
 date: 2025-07-12T09:24:31-03:00
 tags: ['tools']
 ---
@@ -21,3 +21,26 @@ convert imagen.jpg -rotate -90 salida.jpg
 ```  
 convert -resize x200 input.png output.png  
 ```  
+
+# Agregar fondo a una imagen
+
+### Add a solid background (e.g. white) to a transparent image:
+
+```bash
+convert input.png -background white -alpha remove -alpha off output.png
+```
+
+### Place on a colored background canvas:
+
+```bash
+convert input.png -background "#ffcc00" -gravity center -extent 800x800 output.png
+```
+
+👉 This puts your image in the middle of an 800×800 yellow canvas.
+
+### Merge with another background image:
+
+```bash
+convert background.jpg input.png -gravity center -composite output.png
+```
+
