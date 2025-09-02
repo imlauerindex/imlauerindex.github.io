@@ -32,6 +32,7 @@ make install
 git clone https://github.com/LukeSmithxyz/mutt-wizard
 cd mutt-wizard
 sudo make install
+pass init imlauerandres@gmail.com
 gpg --full-generate-key
 mw -a imlauerandres@gmail.com
 ```

@@ -12,11 +12,10 @@ sudo usermod -aG docker $USER
 Salí de tu usuario y volvé a ingresar.
 
 ```bash
-git clone -b vim-mode-experimental https://github.com/browsh-org/browsh
+git clone -b vim-mode-2022 https://github.com/browsh-org/browsh
 cd browsh
-vim Dockerfile
-FROM bitnami/minideb:scretch as build # cambialo por bulleye en todas las ocurrencias.
 docker build -t browsh-vim .
+docker run --rm -ti browsh-vim
 ```
 
 # O sino intentá instalarlo sin docker:
