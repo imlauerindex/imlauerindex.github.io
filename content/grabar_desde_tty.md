@@ -93,3 +93,31 @@ falkon "https://www.youtube.com/live_dashboard"
 ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /dev/fb0 -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/STREAM_KEY 2> /dev/null
 
 ```
+
+
+#### Este es el script que uso:
+```bash
+#!/bin/bash
+sudo chmod 666 /dev/input/event*
+amixer set 'Internal Mic Boost' 50%-
+
+
+#falkon "https://www.youtube.com/live_dashboard"
+### Solo tty
+#ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /dev/fb0 -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -async 1 -ar 48000 -latency 100 -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/KEY 2> /dev/null
+
+
+#### Camara con tty
+ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /dev/fb0 -f v4l2 -framerate 60 -video_size 320x240 -i /dev/video0 -filter_complex "[2:v]scale=320:240[cam];[1:v][cam]overlay=main_w-overlay_w-10:main_h-overlay_h-10[outv]" -map "[outv]" -map 0:a -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/KEY 2> /dev/null
+
+### Solo camara
+#ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f v4l2 -framerate 60 -video_size 1280x720 -i /dev/video0 -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/KEY 2> /dev/null
+```
+
+
+Para poder streamear falkon o qutebrowser desde la TTY usa:
+```bash
+export QT_QPA_PLATFORM=linuxfb
+export QTWEBENGINE_CHROMIUM_FLAGS="--ignore-gpu-blacklist --disable-gpu"
+
+```

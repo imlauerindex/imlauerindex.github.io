@@ -22,6 +22,7 @@ https://www.youtube.com/embed/tN76Tnlmi8s
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlVuEywmyIeaZBl3HyhXD1JgwpRaXEWHZK822LmFlSje0gcQqdShyPd7FoNgJnsnXaKUgBvnQCabXxa8oaK8NgTlSDLAsLn2lucrbljWLAd7Eouns3DMV-IoQzQMp7thUljHOib8O0QQVlHgKsHDJNiFU9sEEEtmyyrfN_A2JUFgVhf4lk0Yt6G08XzWk/s4160/IMG_20250317_205153982.jpg)   
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGv9jsZI3tdZU8LCcGgt-jJH_xxuARaoUwVMfdabZu64c2qA9qMw_laN8oSD0fZw6zBZ_siLLTQN29cP869c1tFLgr62dvMAl8ATOJN4U_3ozhi4d3ufqrDPUhGwebBkMmWKsZ9HCFPiYF7WiXWbL2frUZBD4fQcnmV0nyvWOo_5Ted75_kPPA6qVeaak/s4160/IMG_20250317_205201313_HDR.jpg)   
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcoNp2HEz4rj6iA5MIwOdBGA6Tsb_fk7q7Tun4WO9srEX36kJS1g72cgz6bJSevCTMjB4hjzat4qwwtKwE9R0GQauPOvMD0nzXKjBkqs9DMia1qGcCCYC7bfZ4G-e10e0DJqGOTCmIjC6fdouPOoTiOPHKfXR8s91EInkacncdUKWQxwALocB36zxpaJo/s4160/IMG_20250317_205205475.jpg)   
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAdqyMeeA11mL8rpR5PDlyYfL-QU_Qb-oL5MkvxDeMFizR2cuBAAYqgrQ62Wqknk7XEASX2qfrT4LwjFGD5ZFhnaBNZ7OC7LbHcBDh4UIHhPsR6RmMMcqFwV7Wzgy15O0kiofEu6rtxVmRfQW_HHf6Ff_Z-grHoBMyHW-t12ORlvvLa27PW5J2VQP1x_I/s4160/IMG_20250609_181751613.jpg)
    
    
 En realidad esta es la 3er clase, porque empecé desde la 2da clase el curso.   
