@@ -121,3 +121,7 @@ export QT_QPA_PLATFORM=linuxfb
 export QTWEBENGINE_CHROMIUM_FLAGS="--ignore-gpu-blacklist --disable-gpu"
 
 ```
+Para verificar si está transmitiendo: 
+
+mpv "https://www.youtube.com/channel/CHANNEL\_ID/live"
+
