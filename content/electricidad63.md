@@ -16,6 +16,17 @@ https://archive.org/details/record-247
 
 https://www.youtube.com/watch?v=Kpv1OYcVe-I
 
+#### Video realizando el cableado del tablero:
+
+https://youtu.be/14oA0bs2NL4
+
+### Resubido por las dudas 
+
+https://www.youtube.com/watch?v=ay0qKXi5nMg 
+
+https://archive.org/details/clase_64
+
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS6rm7oT5sCQNcS5SCGjvdZkIM52h06MxYSKORzLhavR0SjOIE3nCtohmUWnBz3F1jPq4HbzltKWd2mTbYTJEFuYGcrt_eJp7xE-SdkRyDfD6WzyYvADPur5-H7bdFWHzrIuLlpMemo7GQeWxWimnH8kav2dG58yUQnqIa8CIJtZ5iRLWkpv2zxpP4l9U/s4160/IMG_20250902_195158845.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8u19H4x_ZODuk8mmMXJxA3IuooCaKQYzd69LjP2zIVBp6jdjdbTJgaG6qhfhTi6K2pEGi6CWKPXBNL3kA9fKpEHAwusoLLgLCxbhR2Ivm4P4QcJ4O_A6I90Eh7w5dibS2s91oTBy2pJilDlu_bslVhzkTyf-cPocGriwovO6nUMGCZFwZn31IZVcBxok/s4160/IMG_20250902_195934904.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoIerldKxFLWRORx5Usz0jV9miOiqxnuWQhTiSsoi_RZnsog-Vh4QBLcptLujVwMvVJinVRNLXz7atVc5mdM5d6O63nXrYKt1pSjo2YQvrLw1qGp9UJViVvTSYPSi9zQqR0zu5euEZvRYyZKYzedhTxbHQE9H-UQPrCNYPyA72hgMnzQAO9zn2WqzGtj8/s4160/IMG_20250902_201049928.jpg)
