@@ -4,6 +4,7 @@ date: 2025-09-04T20:13:39-03:00
 tags: ['offtopic']
 ---
 
+https://backlit.neocities.org/how-to-find-the-lost-web
 https://www.burzum.org/eng/library/thulean_perspective/understanding_iq_in_europe.shtml   
 http://www.londonhistoricalsociety.com/   
 http://www.lergirlz.com/LerGirlzAreVeryVeryVeryVeryVeryAngry.html   
