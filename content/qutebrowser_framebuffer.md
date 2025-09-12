@@ -92,3 +92,14 @@ php -S 127.0.0.1:1111
 ```
 
 Copiar desde qutebrowser y pegar a ahí entrar a la URL y darle a guardar archivo
+
+##### Agregá para usar a Android como user-agent así las páginas cargan más rápido en `.config/qutebrowser/config.py`:
+
+```bash
+config.set(
+    "content.headers.user_agent",
+    "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36"
+    "(KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36"
+)
+config.load_autoconfig()
+```

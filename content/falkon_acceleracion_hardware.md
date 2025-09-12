@@ -5,6 +5,12 @@ tags: ['falkon']
 ---
 https://trac.gateworks.com/wiki/qt
 
+Para cambiar el user-agent de falkon en Preferencias en la última opción ofrece para cambiar el user agent yo uso el User-Agent de Android asi Twitch carga mas rapido:
+```bash
+
+Mozilla/5.0 (Linux; Android 13; Pixel 6 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36
+```
+
 ### Con linuxfb (framebuffer) no funcionó
 ```bash
 export QT_QPA_PLATFORM=linuxfb:size=1000x1000 
