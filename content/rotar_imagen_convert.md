@@ -1,5 +1,5 @@
 ---
-title: "Rotar y achicar y agregar fondo a una imagen usando el comando convert de ImageMagick"
+title: "Covert: Rotar, cortar y achicar y agregar fondo a una imagen usando el comando convert de ImageMagick."
 date: 2025-07-12T09:24:31-03:00
 tags: ['tools']
 ---
@@ -42,5 +42,10 @@ convert input.png -background "#ffcc00" -gravity center -extent 800x800 output.p
 
 ```bash
 convert background.jpg input.png -gravity center -composite output.png
+```
+
+#### Cortar imagen
+```bash
+convert Screenshot_20250911-184255.png -crop 0x100%+0+400 geohot.jpg
 ```
 
