@@ -46,6 +46,9 @@ convert background.jpg input.png -gravity center -composite output.png
 
 #### Cortar imagen
 ```bash
+# Si cambias el 400 corta mas la imagen.
 convert Screenshot_20250911-184255.png -crop 0x100%+0+400 geohot.jpg
+# Si cambias el porcentaje cambia la posicion de la imagen
+convert Screenshot_20250911-184255.png -crop 0x50%+0+500 geohot.jpg && fim geohot.jpg
 ```
 
