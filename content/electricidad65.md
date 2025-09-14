@@ -12,10 +12,13 @@ https://vocaroo.com/1cHdosl9ArMk
 
 https://archive.org/details/record-255
 
-
 #### Audio en YouTube:
 
 https://www.youtube.com/watch?v=4cmBj083QUw
+
+##### Por WhatsApp nos autosubscribieron a este taller:
+
+![](https://ia600906.us.archive.org/9/items/taller-termotanque-solar-foto/IMG-20250908-WA0000.jpg)
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXo0eH4QdyfLy36DL8zEleQoUSNhu8QYD-YnqxFYkbJid8qpHQrYNp-5xziZVGgWO3B2Q-mqEtExmJASU3myh9yZDjAG3dMeOHSpMsXJiq5KsChzoKfzDtwA-jkgz3iMzS7YOEYlrEXDwM_08e5qN2d5RBMTQtwOQnuoR28x_8-gbbgNeSlz4MfTZY8Zg/s4160/IMG_20250909_191724625.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjSJAoAY22VYdnjYM92jM2_SmUrsV7VfmkIMP8Q2mtk7QPYTjzxhYXpLN1mnHmtsHcsRPEqDL1wkioewovMzqug9u9DnNkV6MVLKkSP7Wq7MGu6z8GGUM83EztKywJVeJIrlno5IcakARxFAkyLedys1xLYwnhzQ4qHJtHVjP5SGFLtood2-E0dpYTlZs/s4160/IMG_20250909_193734868.jpg)
@@ -30,3 +33,7 @@ https://www.youtube.com/watch?v=4cmBj083QUw
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI2bYj_v8itBp-MLMKawiRngBsHYtYG12HX6rTVNgjjJGO6wQ6p820YAF7a5sPbEhTcnsLqwNjqhSw5UMsn5q1CsJJEp0Pi5yP4H-Lqq0J7Ye77gGAVi8GmIYWZ2W4hc-1A-8OPagj_4kax8536CYIHdzqAqkg6UwmKVtZfyIJsbdvkOYeyqmuPFhBQtw/s4160/IMG_20250909_195500999.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiItcCDng_EtIEEQNnBCPGs81NvO6Qirl5DUHeXKBqk-fQP-pAQFlxnQ-L72lyB_2mx9XVD-53b6xN7YvIogVXwEo7nRx5-8CgHWpLufY_m1zZqitHMnrexdRB8vYyErAOjWIVy9oV21Vq9mfOb0_dk_5MxBYK7vGTYRCAPA1aykWEVPy4LLgVpq6c4kJM/s4160/IMG_20250909_195509402.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS-E7LuGF3bbNW9Jil0mOj5EZDVsVOgi2HGLU7WRSbCfs-Ng0isvSGSniKcJsMpfORJINxWYtc7Yb60oD3VYCN9SdKFgJvGKW3OCCAJC03kms7BBCRJNzxuABhDAO954UveypQCOfsikbip2PIaA732L6DFxvIQYyMbxTZqkI9wni5gHRGCold4IX1f9s/s4160/IMG_20250910_063954540.jpg)
+
+#### Transcripción a partir del minuto
+
+

@@ -303,10 +303,38 @@ $ seq -w 8 10
 
 
 ### conectarse a mysql sin ssl
+
 ```bash
 mysql -u asfds --ssl=0 -h domain.com -p
 ```
 
 ### Buscar archivos sin extension de una carpeta
+
+```bash
 find dir1/ -type f ! -name '*.*'
+```
+
+#### how can i find every html file and copy to a folder with find command?"
+
+```bash
+find . -type f -name "*.html" -exec cp {} /target/folder/ \;
+```
+
+#### Upload to archive from command line.
+
+```bash
+python -m venv internetarchive
+source internetarchive/bin/activate.fish
+ia configure
+ia upload taller-termotanque-solar-foto taller.jpg
+ia upload taller-termotanque-solar --metadata="title:Foto promoción taller termotanque" --metadata="mediatype:image" taller.png
+ia upload my-video-upload example.mp4 --description "My example video" --mediatype movies --collection ExampleCollection
+```
+
+##### Para obtener la URL
+
+```bash
+ia metadata my-image-upload
+```
+Tenes que construir la imagen así: `https://ia600906.us.archive.org/9/items/nombre_de_la_etiqueta/nombre_del_archivo`
 
