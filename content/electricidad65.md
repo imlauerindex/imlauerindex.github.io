@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 65: Explicaron que hicimos clase anterior. Borneras de conexion y peines. Analizamos problema casa alumno. Tableros."
+title: "Electricidad / Clase 65: Explicaron que hicimos clase anterior (porque no prendía lámpara). Borneras de conexion y peines. Analizamos problema casa alumno. Tableros."
 date: 2025-09-10T03:03:06-03:00
 tags: [electricidad]
 ---
@@ -34,6 +34,67 @@ https://www.youtube.com/watch?v=4cmBj083QUw
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiItcCDng_EtIEEQNnBCPGs81NvO6Qirl5DUHeXKBqk-fQP-pAQFlxnQ-L72lyB_2mx9XVD-53b6xN7YvIogVXwEo7nRx5-8CgHWpLufY_m1zZqitHMnrexdRB8vYyErAOjWIVy9oV21Vq9mfOb0_dk_5MxBYK7vGTYRCAPA1aykWEVPy4LLgVpq6c4kJM/s4160/IMG_20250909_195509402.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS-E7LuGF3bbNW9Jil0mOj5EZDVsVOgi2HGLU7WRSbCfs-Ng0isvSGSniKcJsMpfORJINxWYtc7Yb60oD3VYCN9SdKFgJvGKW3OCCAJC03kms7BBCRJNzxuABhDAO954UveypQCOfsikbip2PIaA732L6DFxvIQYyMbxTZqkI9wni5gHRGCold4IX1f9s/s4160/IMG_20250910_063954540.jpg)
 
-#### Transcripción a partir del minuto
+#### Transcripción a partir del minuto 8:30
+
+##### Explica como solucionaron el problema clase anterior
+Profesor: aquel portalámparas no andaba bien todavía no sabemos por qué pero me parece que era porque estaba flojo, un pequeño desajuste en el tornillo, le tuvo que ajustar un poquito.
+
+Lo importante como detecta si llega tensión allá justo una parte, se probó la continuidad por si era la llave de punto, entonces sin energía y con energía la idea principalmente es saber si el problema radica ahí y yo no tensión 220 allá, o sea que tengo que ir revisando por etapas.
+
+Bueno, tuvimos que sacar el artefacto y comprobamos también que **uno de las lámparas no andaban** tiramos a la mierda entonces a veces son cosas usadas que vamos almacenando y en ese sentido a veces hay problemas, pero lo importante es que se resuelva no es difícil hay que prestar atención no más seguir el recorrido y como ven ahora le van a prender las luces como están para que vean que todo está en su sitio.
+
+Algún voluntario que prenda ahí?
+
+###### El profesor muestra un detector de movimiento de 360 grados es parecido a un dtector de humo.
+¿Estamos todo ahí está el sistema ahí? Está la llave de 1 punto, 2 punto, 3 punto y después vemos el tema, probablemente la semana que viene le damos el tema porque voy a **desarmar una fotocélula después vamos a colocar ahí** y hoy tuve el placer de que me hayan cumplido mi sueño y tenemos un detector pero ya de 360 grados, esto va en el techo no como aquello que tengo una forma de conectar determinada que tiene un sistema de conexión parecido al sistema de detectores de humo algún día cuando **tenga un detector de humo tiene una base y después tiene un sistema de conexionado y después uno coloca y se gira nada más esto va fijo**, esto se fija depende de qué característica tenga la instalación y cuántos metros cuadrados tiene el sistema de protección detectores de humo y este tiene las regulación que está al costado: Tiene el mismo sistema que aquel lo único que a nosotros nos interesa es el tiempo de activación que tiene el detector actúa como interruptor nada más después haremos la instalación para ver como hacerlo y algún día ahí arriba, ustedes van a ver dentro de 10 años todo perforado acá en el aula.
+
+Bueno, como le decía es interesante que se inscriban, **viene gente de fundación de buenos aires, hay una parte que realmente, no sé si ellos van a armar los equipos, supongo que ellos mientras tanto entonces comprobaremos depende de qué marca es también no tenemos idea anótense porque dicen que hay cupos limitados**, el que quiera participar creo que es el 17 no sé. Ayer me mandaron.
+
+Vamos a mirar ahí.
+
+Aunque no crean la 1era vez que veo, no sé si la 1era vez: en una estación de servicio a la **salida acceso sur la YPF**, ahí tienen un sistema encima yo quería hablar con los playeros para que me expliquen para qué sirve? Si sirve para sistema de emergencia, para las luces exteriores o para el cartel pero nadie me supo responder, pero es interesante ver que en distintos lugares se está tratando de utilizar una nueva tecnología para algo sirve.
+
+Vamos a ir viendo algunas cosas.
+
+Este vendo después, el que aprueba el curso vamos a sortear.
+
+Primero me gustaría saber que la alumna que se expresó por WhatsApp si encontraron o no la solución, qué problema tenían? La idea es que todo sepamos resolver cualquier tema, si ustedes tuvieron problema también tenemos que ver la idea de como solucionarlo, esa es la idea principal.
+
+\* Profesor mira cuenta cuántos alumnos faltaron: hay uno parecido a vos pero faltó. Falta un tipo que no me acuerdo el nombre.
+
+Ayudante: No hubo respuesta, se solucionó o no el problema?
+Alumna: No.
+Profesor: Bueno, traten de contar así más o menos le vamos a dejar
+Alumna: Igual no cambié el módulo eso me faltó tengo que comprar y sigue sin luz pero el portafoco era solo fase lo que tenía o sea en el neutro era fase también y no puedo subir como para ver como está la instalación.
+Profesor: Pregunta: vos te encontraste con 2 cables con 2.
+Alumna: El retorno era fase, y después tenía la fase y el neutro.
+Profesor: Y arriba te digo, el neutro tenes los 2 lados los cablecitos que van al portalámparas tenían.
+Alumna: No el portalámparas o sea la chapita toca y todos tenían fase, y un tomacorriente, bueno esa instalación hizo mi cuñado que también tenía 2 era fase nada más. 2 fases tenían.
+Alumno: Tenía tensión los 2.
+Profesor: Y anteriormente como estaba eso?
+Alumna: Y se había prendido fuego arriba y vino un electricista y le hizo eso que yo mandé la foto le solucionó así y ahora el tema era que no prendía las luces de afuera del baño y de esa pieza.
+Profesor: Probablemente le cortó el neutro, ay. Bueno, como solucionamos eso?
+Alumna: Dijo un alarme mi sobrino. Dijo que si quieren ir a hacer práctica no tiene problema.
+Profesor: Vamos a ver el tema es que el electricista tocó, al tocar el electricista. 
+Alumna: Igual es una telaraña de cables.
+Profesor: Eso es seguro. Es seguro porque eso pasa cuando varias personas tocan la instalación.
+
+#### Alumna instalación fotos.
+
+![](https://ia600907.us.archive.org/17/items/margarita_1/IMG-20250905-WA0021.jpg)
+![](https://ia600907.us.archive.org/17/items/margarita_1/IMG-20250905-WA0022.jpg)
+![](https://ia600907.us.archive.org/17/items/margarita_1/IMG-20250905-WA0023.jpg)
+![](https://ia600907.us.archive.org/17/items/margarita_1/IMG-20250905-WA0030.jpg)
+
+
+Bueno, antes que nada acá mi colega hizo... Contále.
+Ayudante: Un práctico. 
+
+##### Importante saber hacer lista de materiales y leer planos
+
+Profesor: La idea es que lo que hicimos ahí es algo sencillo la idea es principalmente que ustedes hagan el cálculo de materiales y a su vez vean como es la instalación, y si tienen algún problema volver a resaltar ese problema porque acá hoy las empresas contratan a montadores electricista que sepan hacer la lista de materiales, eso lo necesitan si o si, que sepan leer los planos y cualquier bosquejo que se haga entiendan como calcular o hacer la lista de materiales, entonces se que cuesta porque la gente no está con la idea principalmente de revisar constantemente éstos cálculos pero las empresas piden. Ya no contratan más ingenieros sino que directamente contratan electricistas para que haga el cálculo.
+
+Entonces acá es 
+
 
 
