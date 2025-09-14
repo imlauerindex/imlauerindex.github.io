@@ -15,6 +15,13 @@ tags: [electricidad]
 #### Audio en YouTube:   
    
 [https://www.youtube.com/embed/O5x1MMCJvIA](https://www.youtube.com/embed/O5x1MMCJvIA)   
+
+#### Enlaces enviados por WhatsApp (lastimosamente el profesor manda por Facebook luego descargaré los videos y lo subiré a Archive.org)
+
+[https://www.facebook.com/share/r/14NihbeRF3Y/](https://www.facebook.com/share/r/14NihbeRF3Y/)   
+[https://www.facebook.com/share/r/1A9iBPwmW4/](https://www.facebook.com/share/r/1A9iBPwmW4/)   
+[https://www.facebook.com/share/r/17NFmZYb6S/](https://www.facebook.com/share/r/17NFmZYb6S/)   
+   
    
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL2E_rBC4889DJbPMNruOSbNZCA9H5XgVZTKda7UwR-qzGVoTVJUU8Zm1bDgaiSNQcMKHjQcYdVa33EjhRzvoJ0xyWwegvwk3HQ9I9Wh4uhigTvwW8llFCyFqBMANDw1ags4PLC2nHwjBYt9TRSPo21O673GztGI-J1XiOIvBN4MYOhDkVrzTUdvvWfyE/s4160/IMG_20250910_185134745.jpg)   
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijluMvjX7TzCC7PdKNm89a7cF4uQud-MbhHFZ27M1SIar7jCM4moYtm0pxyi7xJNz9PoiZh5pE_0cJIMNnZw5Z2zCbyxIjBGU-835qC-I9vivxd8snFWT0UCRbbQ3rRCb6xsHY5bFpaZ16jz-a8qjHT05CqCAKTUHr-0G7p_wF1w_LwSwsL7VlvwlRyh8/s4160/IMG_20250910_185215311.jpg)   
