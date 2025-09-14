@@ -7,12 +7,13 @@ tags: ['politics']
 
 Artículos que recomiendo leer de su blog (https://geohot.github.io/blog):
 
-* Class Warfare: geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html 
-* Pieces of shit: geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html
-* beauty after covid: geohot.github.io/blog/jekyll/update/2022/03/05/beauty-after-covid.html
+* Class Warfare: https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html 
+* Pieces of shit: https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html
 * consumer class divide: https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html
-* dangerous misinformation: geohot.github.io/blog/jekyll/update/2024/08/12/dangerous-misinformation.html
-* you are a good person: 
+* demoralization is just beginning: https://geohot.github.io/blog/jekyll/update/2025/03/03/demoralization-is-just-beginning.html
+* beauty after covid: https://geohot.github.io/blog/jekyll/update/2022/03/05/beauty-after-covid.html
+* dangerous misinformation: https://geohot.github.io/blog/jekyll/update/2024/08/12/dangerous-misinformation.html
+* you are a good person
 * Wireheading city
 * idiots are going to kill me
 * are we the baddies
