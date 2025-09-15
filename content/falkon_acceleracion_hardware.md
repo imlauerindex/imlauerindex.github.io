@@ -5,6 +5,14 @@ tags: ['falkon']
 ---
 https://trac.gateworks.com/wiki/qt
 
+
+##### User Agent:
+Uso este pero agrego excepciones para chatgpt, gemini.google.com, grok.com, entre otras.
+
+```bash    
+Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36
+```
+
 Para cambiar el user-agent de falkon en Preferencias en la última opción ofrece para cambiar el user agent yo uso el User-Agent de Android asi Twitch carga mas rapido:
 ```bash
 
