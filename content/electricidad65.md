@@ -349,7 +349,7 @@ Cómo va colocado esto? Cada una fíjense esto es como un pianito una escalera y
 Alumno: El que está más cerca nuestro entonces.
 Profesor: El que está más arriba. Acá directamente se va metiendo los 2 conductores, después van a ver después que me interesa
 
-##### siempre el de mayor diámetro generalmente se pone conductor principal 
+##### Siempre el de mayor diámetro generalmente se pone conductor principal 
 
 
 
