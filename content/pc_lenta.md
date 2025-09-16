@@ -9,5 +9,13 @@ tags: ['informatica']
 * Whatsie para WhatsApp y la aplicación de discord (`sudo pacman -S discord`)    
 * Para mirar YouTube usá smtube (`yay -S smtube`) con mpv y yt-dlp o `https://inv.nadeko.net` (invidious) si no carga el video en Invidious abrilo en EMBED que es el 1er ícono a la derecha debajo del titulo del video.    
 * Para subir videos a YouTube usá: `youtube-upload` no subas videos desde el navegador.    
+Ejemplo: 
+```bash
+[I] esotericwarfare@arch ~/p/blog (master)> source $HOME/youtube-upload/bin/activate.fish
+[I] (youtube-upload) esotericwarfare@arch ~/p/blog (master)> $HOME/youtube-upload/youtube-upload/bin/youtube-upload --title="arreglo cocina valvula de la hornalla" --default-language="es" --default-audio-language="es" --privacy="unlisted" --embeddable=True ~/samba/imlauernews/VID_20250915_115540.mp4
+```
+
+
+
 * Para ingresar a Google Drive usá `rclone`.    
 * No uses `google docs` en su lugar podes usar `latex con vim` o `libreoffice`.    
