@@ -140,7 +140,10 @@ Alumno: no anda.
 Ayudante: Entonces ese disyuntor no anda.
 Alumno: El profe dijo que sí porque tiene continuidad o sea sirve como interruptor pero la protección contra la fuga no sirve.
 Yo: Y si el profesor dijo que por más que no ande el botón igual va a andar.
-Ayudante: Tendrías que probarlo aparte, generarle vos una fuga a ver si funciona porque el botón de testeo lo que hace es inyectar una fuga para ver si eso sigue funcionando, eso se prueba cada 2 meses, lo que tenes que hacer es meterle fase y neutro por arriba y por abajo sale ponerle a un tomacorriente pero que el tomacorriente obviamente en un sector aislado energizar una madera lo que sea, energizar algo metálico luego si no tenes puesta a tierra buscá un pedazo de plomo un hierro y enterrálo y atale un cable y después con eso tocá tu circuito y si el disyuntor funciona debería disparar XDD no sé si haría eso.
+Ayudante: Tendrías que probarlo aparte, generarle vos una fuga a ver si funciona porque el botón de testeo lo que hace es inyectar una fuga para ver si eso sigue funcionando, eso se prueba cada 2 meses, lo que tenes que hacer es meterle fase y neutro por arriba y por abajo sale ponerle a un tomacorriente pero que el tomacorriente obviamente en un sector aislado energizar una madera lo que sea, energizar algo metálico luego si no tenes puesta a tierra buscá un pedazo de plomo un hierro y enterrálo y atale un cable y después con eso tocá tu circuito y si el disyuntor funciona debería disparar es todo un proceso XDD no sé si haría eso.
+
+Por lo general cuando no funciona el inyector de la fuga el disyuntor ya no está andando bien.
+Los SICA son una porquería.
 
 Buscá en YouTube como probar que un disyuntor funciona sin el botón.
 
@@ -153,3 +156,15 @@ https://www.youtube.com/embed/qE9b0iNTEyw
 https://www.youtube.com/embed/ViuFA-eFskQ
 
 Colocá jabalina a tierra, conectá al costado del foco un cable conectado a la jabalina ahora con otro cable conectá tocá la bornera de la fase de tu interruptor diferencial y tocá la base del foco, debería saltar el disyuntor.
+
+Ayudante: Yo nunca uso SICA
+Alumno: Entonces puedo comprar uno nuevo, otra marca.
+Ayudante: Podes usar Genluz, elbao cualquier chino está probado que es mejor.
+Alumno: Ah mirá, entonces lo que voy a hacer es cambiar el disyuntor y hago de vuelta la instalación.
+#### Buena observación: Alumno2: Puede ser que como tenía 2 fases no salte también al apretar el botón.
+##### Yo creo que tendrías que probar cuando soluciones tu problema y tenga fase y neutro en todo el lugar que pruebes el disyuntor a ver si se dispara con el botón porque a lo mejor como estaba mal conectada estaban las 2 fases no actúa el botón.
+Alumno: Ah, pero por las dudas voy a cambiar igual para evitar problemas. Si no va a dar clases el profe voy a mandar pata.
+Alejandro: No tenes un sujeta papeles por las dudas?
+Alumno3: Mi mano sujeta papeles.
+Alejandro: Hablando en serio. Quiero un sujeta papeles para fabricar un tensor, un tensor de una ganzúa.
+Alumno3: Queres abrir algo?
