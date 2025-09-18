@@ -3,7 +3,7 @@ title: "Grabar y streamear desde TTY (con la cámara)"
 date: 2025-07-18T21:32:33-03:00
 tags: ['linux']
 ---
-Grabar archivo de video:
+Grabar archivo de video (al grabar de esta forma solo estás usando el procesador sin la tarjeta gráfica):
 ```bash
 ffmpeg -f alsa -i pipewire -f fbdev -r 60 -i /dev/fb0 mamita.mp4
 
@@ -12,9 +12,26 @@ ffmpeg \
  -f alsa -i pipewire \
  -c:v libx264 -preset ultrafast -pix_fmt yuv420p \
  -c:a aac -b:a 128k \
+ -async 1 -ar 48000 -latency 100 \
  prueba.mp4
-
 ```
+**peg-this (ffmpeg TUI)**:
+```bash
+python -m venv peg_this
+source peg_this/bin/activate or source peg_this/bin/activate.fish (si usas fish)
+pip install peg-this
+peg_this
+```
+
+
+#### Amplify sound with ffmpeg.
+```bash
+# Lento
+ffmpeg -i input.mp4 -af "volume=4.0" output.mp4
+# Rapido pero no anda (es rapido porque copia)
+ffmpeg -i input.m4a -c:a copy -af "volume=4.0" output.m4a
+```
+
 
 ```bash
 ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /dev/fb0 -f v4l2 -framerate 60 -video_size 320x240 -i /dev/video0 -filter_complex "[2:v]scale=320:240[cam];[1:v][cam]overlay=main_w-overlay_w-10:main_h-overlay_h-10[outv]" -map "[outv]" -map 0:a -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/stream
@@ -83,7 +100,6 @@ ffmpeg -f pipewire -framerate 30 -video_size 1920x1080 -i @DEFAULT_VIDEOSOURCE@ 
 -filter_complex "[2:v]scale=320:240[cam];[1:v][cam]overlay=main_w-overlay_w-10:main_h-overlay_h-10[outv]" -map "[outv]" -map 0:a 
 -c:v libx264 -preset veryfast -b:v 4500k -c:a aac -b:a 128k -f flv \
 "rtmp://a.rtmp.youtube.com/live2/YOUR_STREAM_KEY"
-
 ``` 
 
 ###### Cuando arranco stream siempre tengo que bajar el Internal Mic desde alsamixer porque sino el micrófono se satura.
@@ -124,12 +140,15 @@ ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /de
 
 
 Para poder streamear falkon o qutebrowser desde la TTY usa:
+
 ```bash
 export QT_QPA_PLATFORM=linuxfb
 export QTWEBENGINE_CHROMIUM_FLAGS="--ignore-gpu-blacklist --disable-gpu"
-
 ```
+
 Para verificar si está transmitiendo: 
 
+```bash
 mpv "https://www.youtube.com/channel/CHANNEL\_ID/live"
+```
 
