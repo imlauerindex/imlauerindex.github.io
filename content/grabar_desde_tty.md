@@ -5,7 +5,15 @@ tags: ['linux']
 ---
 Grabar archivo de video:
 ```bash
-ffmpeg -f alsa -i pipewire -f fbdev -r 30 -i /dev/fb0 mamita.mp4
+ffmpeg -f alsa -i pipewire -f fbdev -r 60 -i /dev/fb0 mamita.mp4
+
+ffmpeg \
+ -f fbdev -framerate 60 -i /dev/fb0 \
+ -f alsa -i pipewire \
+ -c:v libx264 -preset ultrafast -pix_fmt yuv420p \
+ -c:a aac -b:a 128k \
+ prueba.mp4
+
 ```
 
 ```bash
