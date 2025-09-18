@@ -4,6 +4,9 @@ date: 2024-11-08T05:49:20-03:00
 tags: ['vim']
 ---
 
+##### Potente comando.
+Podes seleccionar cualquier linea con **Shift+V**, y guardarla en otro archivo con: `:w /tmp/prueba.txt`. 
+
 ### Como copiar y pegar gráficamente en VIM:
 #### Copiar: 
 ```bash
