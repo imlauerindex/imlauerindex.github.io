@@ -168,3 +168,17 @@ Alejandro: No tenes un sujeta papeles por las dudas?
 Alumno3: Mi mano sujeta papeles.
 Alejandro: Hablando en serio. Quiero un sujeta papeles para fabricar un tensor, un tensor de una ganzúa.
 Alumno3: Queres abrir algo?
+Alejandro: Candado (el boludon jodía con el candado el profesor le dijo que no hacía falta).
+
+### El taller empieza en el minuto 46
+
+###### Profesor Espeche hace un chiste rápido a Alejandro Ramirez en el minuto 48:16
+Lo que demuestra la destrucción mental que le hizo la "educación" a Espeche a sus 60 años todavía no puede dejar de hacer chistes de secundaria.
+
+El "capo máximo" llama a los alumnos que participan en clase.
+
+Profesor del Taller: No tenes silla, no conseguiste una sillita?
+Ayudante: No, yo tengo pero no quiero estar sentado.
+Espeche: Él no ve de lejos (chiste).
+Ayudante: Veo mejor que usted.
+
