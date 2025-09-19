@@ -6,7 +6,10 @@ tags: ['linux']
 Grabar archivo de video (al grabar de esta forma solo estás usando el procesador sin la tarjeta gráfica):
 ```bash
 ffmpeg -f alsa -i pipewire -f fbdev -r 60 -i /dev/fb0 mamita.mp4
+```
 
+Este es el comando que uso para grabar y tiene menos lag.
+```bash
 ffmpeg \
  -f fbdev -framerate 60 -i /dev/fb0 \
  -f alsa -i pipewire \
