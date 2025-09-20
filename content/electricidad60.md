@@ -69,3 +69,34 @@ https://www.youtube.com/watch?v=sBqx22vu-6Q
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsHbczAdAYURDZaYJTN1uCIE4YjCdIHvCzoOjxGXg9_3e0XibPoEcT9u5K7IGwA8zAk5mzI2UUnaWLw-dZOyrvek7UxMLKxnR4qLwLQTQhT6LWLBwvi1uDHZbJez-sj8ESCHXOuSV39hvgYmI52MRtdZzy-GZQYtmtbtQvBFSkVT3GuIqSTl0xYXA1RzY/s4160/IMG-20250901-WA0033.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTs37XZ5QlAlBN6L3lRgQXvZ93Svy6kLVGSHeymg8-6uvhLL8qCtXejaGkey5_t6gXlBkaCCn04HfwHly10ERiReFfPqgnropYfQlHrQvzRWt6kaacqUkBy2Mn4XAHH8bS09G1sGgLBmwj-YcrTo8np6KkXLQ3ME5z2mZnXRfWKvXN6jxjSqKEJA63aHo/s4160/IMG-20250901-WA0034.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIFSwnwCXwRGTrHSkuO7jm7_YdGLgZjIBgGFISR5Jw8DBI0eTICCISD72Ih3K5ny3o8eItLPhu0x_YOMmVyimB22qiYKeEp3DKcGaySRR-05gxN9illHzNkwaLPPaoGIYp_KQd3fNMIrAjo7etj1JsnXpjhxjA4r60QE718W9Pd8BI8KSrpzm-vGDwJ8g/s4160/IMG-20250901-WA0035.jpg)
+
+\* Al principio los alumnos estaban armando las cajas octogonales de acuerdo al plano construido en el pizarrón.
+
+Lo primero que vamos a hacer es fijar las cajas.
+
+##### Acuérdense que primero vamos a intentar fijar las cajas pero ya vamos a poner el gancho U, le vamos a sacar a esto creo que uno tenía y le vamos a colocar ese depende como queda.
+
+Esto si uno apoya directamente a la base ahí te va a quedar un espacio ahí hay que ver como queda si está bien hecho y tomo bien las medidas no se mueve, tenemos que poner un tornillo acá y otro acá, vamos hacer todo con cañería de PVC. Entonces ya le voy sacando así que voy a buscar materiales.
+
+Ese le vamos a poner a las que están ahí. 
+
+Hay 3.
+
+Voy a sacar las herramientas.
+
+Alejandro siempre llega un ratito más tarde.
+
+
+Acá hay otra cosa vayan armando ya, pongan ahí después como queda si no nos gusta cuando fijemos allá sacamos porque tiene que estar bien fijo.
+
+Alumna: O corremos el toma de lugar o corremos este?
+
+Ahora vamos a ver.
+
+Entonces puede seguir esta línea.
+
+Lo que pasa es que yo quería una tenemos que si o si acá y la otra podemos ir derecho ahí y doblar y ponerla en dirección de esta acá y de ahí va acá, entendes? Ojalá que no quede mucho... O sea ese que quede ahí esta que quede centrada con esta que está acá y la otra a la mitad de las 2 nada más que eso, él lo que pensaba era para no meter tantas curvas pero tengo curvas así que no hay problema, mejor todavía.
+
+Por este era más fácil va derecho allá y acá baja, entonces la idea es que que venga derecho doble con la curva y llegue acá y de ahí mandamos a la otra y de este acá para abajo eso no más. (Ver imagen pizarrón que está mejor explicado).
+
+La idea es que también trabajen con curvas.  

@@ -144,4 +144,10 @@ Después voy a traer algo de los tableros.
 
 Vamos a mirar ese por las dudas.
 
+Hicimos puentes en los tomacorrientes y medimos continuidad en el otro lado.
 
+
+\* Yo hago la prueba de continuidad con otro alumno.
+El une neutro y tierra y yo mido la continuidad de neutro y tierra (es para identificar los circuitos).
+
+Fue una clase de práctica, es mejor el resumen que me hizo la IA en https://cursoelectricidad.github.io
