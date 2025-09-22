@@ -5,6 +5,5 @@ tags: ['tmux']
 ---
 
 ```bash
-set -g status-right 'temp: #(cat /sys/class/thermal/thermal_zone4/temp) | battery: #(cat /sys/class/power_supply/BAT1/capacity)% | #(date "+%Y-%m-%d %H:%M:%S")'
+set -g status-right '#(echo "$(cat /sys/class/thermal/thermal_zone4/temp)/1000"|bc)|BAT:#(cat /sys/class/power_supply/BAT1/capacity)%|#(date "+%Y-%m-%d|%H:%M:%S")'
 ```
-
