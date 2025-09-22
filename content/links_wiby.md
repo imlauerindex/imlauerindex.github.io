@@ -29,7 +29,7 @@ https://www.britishmeat.com/low-intelligence.html
 https://stallman.org/articles/dont-watch-covid-tv.html     
 https://stallman.org/amazon.html     
 https://www.miskatonic.org/posts/all/     
-http://www.tastyfish.cz/     
+http://www.tastyfish.cz/startpage.html
 https://toobnix.org/videos/browse     
 http://fr33d0m.freeshell.org/     
 http://freeshell.org/     

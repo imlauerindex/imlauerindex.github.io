@@ -100,3 +100,170 @@ Lo que pasa es que yo quería una tenemos que si o si acá y la otra podemos ir 
 Por este era más fácil va derecho allá y acá baja, entonces la idea es que que venga derecho doble con la curva y llegue acá y de ahí mandamos a la otra y de este acá para abajo eso no más. (Ver imagen pizarrón que está mejor explicado).
 
 La idea es que también trabajen con curvas.  
+
+No coincidían los 2 agujeritos para el gancho U entonces hay que cerrar un poquito.
+Profesor: Por eso es importante que vean cuál caja le conviene más si usan esa caja seguro que van a tener que doblar por eso que hay un pequeño problema en ese sentido.
+
+\* Arman las cajas con los conectores de acuerdo al dibujo y ganchos U.
+
+Un alumno trajo perforadora inalámbrica.
+
+La gente se enojó conmigo ayer (no hubo clases porque el profesor hizo un encuentro político con un candidato a diputado nacional).
+
+# Comienza a hablar de política sobre candidato a diputado nacional Oscar Herrera Ahuad.
+
+Alumno: Sufrió mucho en la reunión.
+Profesor: Lo único bueno de esto porque a veces uno va a reuniones se puede interactuar con ellos. Yo no hablé tiene lindas propuestas (mentira no tiene), él sabe y ya estuvo en el gobierno y lo que quiere transmitir es que si él llega a quedar en la cámara allá arriba tratar de luchar por la provincia (educación todo, habilitar otra vez el tema de los discapacitados). 
+Opinión personal: la mayoría de la educación pública no sirve para nada.
+Profesor: Había una nena discapacitada tiene un injerto que le hace escuchar y en realidad es un tipo con experiencia en la política entonces uno cree más. 
+Lopez y planes nos regaló 8 aires acondicionado estaban casi nuevo estaban golpeados se cambió para otro lado y nos dió 8 y eso es la mayoría que tenemos. O sea que algo aportó.  
+Alumna: Él está para diputado nacional.
+Profesor: Exactamente. Y bueno la propuesta de él es siempre clara pero él ya sabe (supuestamente).
+
+Encima lo abrí recién y salieron un par de cucarachas no abría hace rato así que.
+
+Profesor: El tema de la política es la gente acá puso una sede pintaron todo un local supuestamente 2 o 3 meses van a alquilar allá él estaba con el jefe de campaña el que lo acompaña a él, este tipo que era diputado también como se llamaba? Welver, Huelver ¿?
+Yo lo conozco pero yo nunca hablo con el tipo ese la idea mía no es pero estos tipos dicen que uno por más que enseñe hace política y sí es cierto.
+
+Pero a mi lo que más me da bronca de los políticos es que mientan a la gente, entonces una vez que legan arriba se olvidan de todo.
+
+La realidad adversa es esto de las elecciones pasadas el gobierno metió gente joven sin experiencia en política algunos fueron para arria otros no estuvieron en la licitación **el tema de la lista sabanas** y gente de 25, 26, 27 años con cargos altos o sea no le veo la gracia les falta recorrido y no saben que necesitan. Alguno se iba a dedicar a los deportes, perfecto dedicate a la parte deportiva pero empezá a buscar la forma de pescar los tipos buenos que hacen torneos y tener lugares para alojar más gente.
+
+Justo ahí estaba leyendo que hay un campeonato de hockey y le jodieron pagaron por adelantado el hotel el que era el antiguo crucero, que está por la avenida del frente de la escuela nacional en diagonal al nacional tomaron todo hicieron la lista y cuando vinieron acá encontraron todo cerrado. No entiendo por qué no hay gente de acá que haga el trámite para que la gente entienda por qué está cerrado , quién está a cargo de eso alguien recibió la plata.  2 millones y pico de seña.
+
+O sea lo que te da bronca después hablan de los deportes ahí tiene que accionar el consejo que tiene la parte deportiva y averiguar qué paso, que ellos le manden lo papeles. Alguien tiene que ser responsable.
+
+Pero bueno espero que sea para bien pero lo que veo ahora es que se movilizan 2 meses antes nada que ver con lo anterior, anterior hablaban no más que está pasando en el país la problemática todo.... Tenemos que y vamos a ....
+
+Ahora por lo menos vos sabes que él tipo está, es gobernador y tiene...
+
+Alumna: Y él y quién más? 3 seguro son diputados nacionales. No ví quienes más están para diputado.
+Profesor: No, yo sé que ese es la cara visible y uno sabe ya he visto en varias escuelas que está también viniendo había un tipo de algo de la parte de INET gente ahí de asociaciones políticas pero no visibles que están en la parte de las escuelas técnica quieren mejor financiación como todos acá también ojalá tuviéramos la posibilidad de comprar los materiales que uno quiere una vez me prometieron comprar una época buena un laboratorio es como un pizarrón así todas las térmicas cualquier cosa para conectar motor pero nunca se ven los cables los cables están acá atrás, acá lo único que hace es que ustedes puedan probar cada circuito y tiene igual que ustedes cuando ponen los conductores en la pinza, lo mismo se hace acá pero no sirve porque es para laboratorio. Entonces lo ideal es que ustedes vean el circuito revisen y vean con el equipamiento que tienen, allá tienen todo para que nadie toque eso tiene todo armado es un laboratorio par nivel importante que ya tenga conocimiento pero no sirve para nosotros. Salía en esa época 1 millón y pico ojalá que esa guita fuera para acá para qué 1 millón y pico.
+
+---
+
+### Deja de hablar de política seguimos con trabajo.
+
+Bueno lo que vamos a hacer primero es ya le voy a hacer este recorrido este será al revés ahora, vamos a ir tomando las medidas.
+
+Fui a una obra y están poniendo creo que la gente de ISA que hace aire acondicionado y ya en lo edificios ellos hacen la canalización caños de cobre te dejan preparado todo aislado te dejan empotrada a la pared para que después eso sirva como base para el equipo ellos deciden en qué lugar quiere que vaya el equipo afuera.
+
+Y bueno la empresa que yo asesoro el electricista ese que habla mucho por acá, enojado porque. No tenes que enojarte es laburo, es laburo extra haremos más bocas nada más que eso, donde ellos pongas vos pones ahí o 20 centímetros el equipo ese que tiene 60 y bueno poné el enchufe cerca y listo cambiá hay posibilidades todavía porque lo único que tiene que hacer la rotura esta está todo embutido el pedacito ese que sería 20, 30 centímetros tiene que picar de nuevo, y después lo otro corta el caño ahí y hace la unión acá o sea que no hay problema, porque a él le van a pagar por esa boca más la otra o por el timepo que está ahí.
+
+Va un cnotratiempo que hace la demora del sistema después hay otras cosas que voy a seguir contando pero uno va viendo en obra yo siempre pido que el último piso vayan bajando terminamos piso arriba bien y después le pedí al capataz de obra que vea hay algunos tableros que son tipo gabinete si me da la parte de adentro armamos acá, que me consigan los materiales armamos bien y después le muestro como está y que llevemos preparado  o  sea que tengo que charlar si me quieren comprar en esta época por lo menos para un piso que son 3 tableros de esa característica y armamos acá yo consigo todo, pero tengo que hablar.
+
+Minuto 21
+
+No tiene que estar solo un tipo en la obra tiene que estar el encargado, el arquitecto, el proyectista viene el tema de plomería también debe estar el plomero, o sea que todos tenes específico no sirve solo 1 plano porque ahora el tipo cambia los aires hay no quiero acá quiero acá, el tipo de aire y bueno si ponen ellos vos tenes que darle la alimentación, yo le dije lo único que yo quiero que me respeten el tema de los caños y el conductor de 4 mm^2 por más que el aire sea inverter y consuma poco yo quiero 4mm^2.
+
+Es lindo pero a veces es un poco estresante porque es muchas cosas a la vez y ahora voy a mandar a hacer la puesta a tierra, no tiene puesta a tierra el edificio **cuando se hizo la zapata no tiene puesta a tierra**, tiene una parte húmeda entonces mi alternativa es tengo varias columnas 1,2,3,4,5 porque ese va a tener planta baja y 1er piso pero hasta 2do tiene cochera entonces tengo que buscar la forma, encontré un lugar húmedo ahí más o menos un poquito más grande que este y voy a poner 6 jabalinas el conductor de 50 no sé si vamos a soldar y después que eso metan un preto¿Minuto 22:40? lo que sea arriba, pero ahora está para hacer la puesta a tierra y dejá el chicote por las dudas y después de eso tengo que unir con un pararrayos.
+
+Alumno: Y hay que canalizar desde el patio?
+Profesor: No no, está todo encontré tipo barro ñaú o sea que hay humedad ahí en ese sector como se hace cuando hay humedad y hay situaciones de agua **se hace un drenaje se como una pileta todo de hormigón y toda el agua que va, le hacen canalizar para que se llene eso, una vez que está llena se coloca una bomba de desague cada vez que llenan y tira afuera**. Entonces eso ponemos en los lugares que hay filtraciones de agua porque sino se va a inundar y bueno y siempre hay contratiempos y uno va mirando después viene la parte de incendio y hay siempre 1 o 2 que aprueban y hay que ir a charlar con ellos. (Aprueban una obra que no debería ser aprobada/habilitada, aprueban algo que está mal a eso se refiere).
+
+Ahora lo que haremos: de la boca que está acá va de una curva y va a venir directamente a la boca que está acá entonces nosotros lo que tenemos que planificar o armar es esto primero que ya están armado esto vendría así. 
+
+\* El profesor revisa como hicieron las cajas octogonales y como pusieron los conectores.  (Ver dibujo de la clase pasada)
+
+Profesor: Esta boca sería la que está ahí pero está mal porque fíjense,
+
+Bueno esta sí esta boca sería así y esto vendría acá con una curva entonces lo 1ero que fijaríamos ahora yo les voy a dar el tornillo como va esto arriba si esto queda flojo ustedes saben que todas bocas que están arriba van a tener gancho U de acá se ve se cuelga cualquier artefacto si tengo PVC el cielorraso siempre acá 1ero y después le pongo un tornillo lo que sea para que NO gire el artefacto lo que sea más si es fluorescente, entonces lo 1ero que hacemos es eso.
+
+Ahora vamos esa que está acá será esta o sea esta vamos a tener así, y esto vamos a tener así estamos lo que tienen que tener en cuenta una vez que fijamos las bocas que uno de estos 2 conectores esté flojo ¿por qué? Qué les dije yo **si está fija la boca y tengo 2 conectores es muy difícil que yo ponga el caño**, ¿estamos? Yo tengo esto fijo esto, y está la boca fija quiero meter el caño no puedo.
+
+Habíamos dicho que si yo fijo las bocas mínimamente el caño tiene una profundidad no hasta acá sino hasta acá más o menos entonces una de las 2 bocas, o de los 2 conectores tengo que aflojar pongo eso pongo el otro y nosotros ahora no vamos a hacer como hicimos en el aire, que enchufamos nada más.
+
+###### Vamos a ver como se trabaja directamente: fijamos las bocas y después vemos.
+
+Les iré mostrando para que este conector o este conector cuando se encuentren así o haga este recorrido esté flojo sino vamos a tener que aflojar allá arriba revisar otra vez y hacer este sistema de PVC.
+
+Y la última sería esta que va ahí viene allá y esta baja para el toma que va hasta ahí, eso es lo 1ero que vamos a hacer entonces ya van a ir acomodando ahí, después se juntan 3 o 4 este será 1 grupo yo les voy a dar destornilloradores todo lo que ustedes quieran tornillo lo que sea y si hay que buscar mecha más chiquita para que perfore y después metemos el tornillo también lo buscamos.
+
+¿Qué otra cosa importante? Después de ese nosotros vamos a hacer lo siguiente.
+
+Me faltan las cajas. Algo está mal ahí: los tomas tienen que estar horizontal entonces la salida es para arriba, los tomas tiene que estar horizontal **la salida para arriba dijimos siempre que en cualquier canalización la parte que va el tomacorriente siempre va en forma horizontal, ¿para qué servía eso?**
+Melgarejo (alumno estrella): Para que si viene otro electricista no se confunda toma.
+Profesor: Claro, si viene otro electricista y no tiene los planos el tipo se va a imaginar que la cajita está de esta forma (horizontal) y pensará que seguro que ahí es tomacorriente (porque está horizontal), para eso sirve.
+
+Cuando ustedes vean el reglamento la forma de como, hay muchas teorías pero de vez en cuando esas cositas que quedan grabadas para que cuando uno vaya a la obra sepa, ahora encontré otro tengo 2 alumnos más para el año que viene trabajando en obra vos por las dudas hacele caso al montador, vos escuchas por más que haga pavadas vos escuchá pero vos vas a razonar después vemos cuando vos seas montador pero la experiencia no importa. Entonces el tipo va aprendiendo y después va a ir razonando por eso le dije no tenga problema vamos a ver.
+
+
+Bueno esto hay que cambiar si falta uno y una de  estas está bien entonces tampoco está bien viste como se apuran porque esta viene acá, acá tenemos que ver como va arriba.
+
+Entonces ya tenemos 3 lugares para utilizar qué hicimos primero tenemos que ver como los 2 tomas están a la misma altura entonces vamos a tomar la medida este con el metro traeme la manguera vamos a ver si podemos llegar hasta allá (nivel de agua).
+
+Profesor: Nivel de agua: tomamos un punto y vamos a tomar un punto allá ahí creo que había un nivel una manguera yo el nivel que tenía en casa ya perdí. 
+
+Tiene que ser de ahí hasta allá hasta acá más o menos, está un poco vieja la manguera le falta elasticidad pero voy a preguntarle a albañilería si tiene un nivel de manguera.
+
+Si no tiene decile que como enseña sin nivel de manguera.
+
+Alumna: El profe de plomería solía tener pero no trajo hoy parece.
+
+Profesor: Bueno. 
+Profesor: Ustedes tienen mecha de 8?
+Ayudante: Yo tengo.
+
+Profesor: Vamos a empezar a darle los tarugos.
+Alumna: Reemplazaste todo el cosito de metal?
+Ayudante: Algunos tornillos.
+Profesor: Eliganse y trabajen de a 2, yo les daré los tornillos primero.
+
+\* Llega un alumno y se sienta en la parte donde iban a trabajar.
+
+Ayudante: Yo que vos no me siento ahí.
+Profesor: Él va a picar la pared (chiste).
+Alumno: Ah acá van a laburar?
+Profesor: Claro, vamos a laburar así que vos tenes que sentarte de aquel lado o parate yo estoy parado.
+
+Acá un grupo trabajará con los tornillos estos y vamos a darle 
+
+Ustedes por las dudas le doy a dar si tengo por ahí, una mecha chiquita para perforar la madera y ahí le metemos destornillador. 
+
+Seguiré buscando cosas. El tema es así ahora mirá fijate vos le vas a guiar este es la mitad de las otras que están allá, esta le vamos a poner en direcciones de esta y acá tendrá una curva esta esta y esta va así. Entonces esto baja acá porque sino este queda muy acá y queda sobre la mesa. Entendes?
+
+Tomá la medida acá la mitad de ese que vaya de ahí ahora que tenemos la escalera que trajo el señor (muestra gratis y el 2do cobra chiste).
+
+Alumno: Cuidado el 1er peldaño
+Profesor: Él le va a marcar uno va a elegir ahí y va a decir ahí si me va a marcar y una boca, otra boca y otra boca. Hay que tener un clavo.
+
+Sí metele con la escalera seguro aguanta.
+
+Alumna: Al medio y al medio, al medio así también.
+Profesor: Sí, a la mitad más o menos.
+
+Entonces vos le das que ellos tienen que elegir cual de los 2.
+Tienen que elegir cuál va, poner los tornillos ahí yo le voy a dar el destornillador y elijan un grupo ahí de 3 después 3 y después 3. No tengan miedo porque es cuestión de trabajar.
+
+Metele no más.
+
+Alumno: Hay alargue para el taladro?
+\* Le pasan un taladro inalámbrico 
+Alumna: Tenes punta phillips?
+Alumno: No, este es para hacer el agujero para no dañar el machimbre.
+Alumna: Pero vas a hacer la guía? Ah
+
+Alumno: Le dice al ayudante que tiene 1 solo agujero en el medio del gancho U.
+**Le inventamos nosotros no más el agujero?**
+Profesor: Fijate donde tiene, tiene 2 mínimo. Tenes que meterle 2 mínimo porque como tiene 2.
+Alumno: Sí, lo del gancho U no usamos eso.
+Profesor: Es así, lo ideal es meterlo acá y acá, tené fijo eso porque sino vamos a probar como queda con gancho U porque si queda mucho espacio hace este balanceo si no está muy equilibrado.
+Acá está el destornillador.
+Alumno: Capaz convendrá un destornillador común.
+
+###### Alumno2: Directamente encajale un autoperforante.
+Alumno: Si pero no tenemos punta phillips.
+Alumno3: No tenemos punta phillips?
+Alumno: Ya es muy fácil.
+Ayudante: Allá los guapos tienen punta phillips.
+
+Estoy pensando si tenía otro equipo allá yo agarré lo que tenía en casa.
+
+
+
+
+
+
+---
+
+Minuto 39
