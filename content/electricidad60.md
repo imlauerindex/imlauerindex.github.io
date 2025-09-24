@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 60: Dia de practica. Armado de canalizacion en aula (techo y pared)."
+title: "Electricidad / Clase 60: Día de práctica. Armado de canalización en aula (techo y pared)."
 date: 2025-08-28T17:24:36-03:00
 tags: [electricidad]
 ---
@@ -259,11 +259,37 @@ Ayudante: Allá los guapos tienen punta phillips.
 
 Estoy pensando si tenía otro equipo allá yo agarré lo que tenía en casa.
 
+Alumna: Y la cañería esa que sube adonde va a estar, la que alimenta? El cañito que alimenta ahí atras de la llave de paso?
+Alumno: Este está muy sobre el machimbre, lo paso por acá?
 
+Alumno2: Saca no mas hace solo el tornillo primero y después sacale.
+Profesor: Si molesta el gancho U le sacamos.
+Alumno: Este yo le abro.
+Alumno3: Marcale a los dos agujeros no más.
+Alumno4: Este es inmantado.
+
+Ponele si inmantado (al taladro).
+
+Ahí el que estaba por colocar la cajita 5x10.
+Alumno: Ahora recién voy a marcar este.
+Alumno2: Mandale no más. 
+Alumno: Pasa que va a abrir el machimbre muchachos.
+Alumno2: Nah.
+Alumno: Ahora hay que cambiar este con el de madera, con la brocha porque va a abrir el machimbre.
+Alumna: Melgarejo es prolijo.
+Alumno: Va a abrir el machimbre yo te digo porque yo he abierto machimbres que no debía.
+Alumno2: Más chiquito?
+Alumno: Mecha para madera para hacer agujeros.
+Alumno2: Ah la mechita finita?
+Alumno: Sí.
+
+Ayudante: Tiene que ser un poco más adelante para que no esté arriba de la mesa.
+Profesor: Tiene que estar a la misma altura. 
+Ayudante: Vamos a hacer una curva para que no esté sobre la mesa.
 
 
 
 
 ---
 
-Minuto 39
+Minuto 45

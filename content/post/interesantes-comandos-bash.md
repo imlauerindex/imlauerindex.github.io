@@ -318,6 +318,9 @@ find dir1/ -type f ! -name '*.*'
 
 ```bash
 find . -type f -name "*.html" -exec cp {} /target/folder/ \;
+# Para notebooklm
+cat *.html | tee full.html
+pandoc -s full.html -o full.txt
 ```
 
 #### Upload to archive from command line.
