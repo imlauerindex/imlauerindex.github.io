@@ -288,6 +288,24 @@ Profesor: Tiene que estar a la misma altura.
 Ayudante: Vamos a hacer una curva para que no esté sobre la mesa.
 
 
+Con un nivel laser todo sería mejor.
+
+Alumna: Profe si yo tengo que poner en ese gancho U un ventilador de techo aguanta los 2 tornillos?
+Ayudante: Yo le pondría 4. Es mejor ponerlo aparte. Mas vale ponerle 
+Alumna: Le pones 4 o tenes que levantar el cielorraso?
+Ayudante: Más vale ponerle el gancho del ventilador aparte: fuera de la caja, no cuelgues el ventilador por la caja directamente colgalo por el techo.
+Profesor: Si vos te prendes solo del machimbre porque a veces el machimbre tiene 3/4 después baja a media no sabes que calidad tiene entonces vos tenes que buscar un clavador ahí si.
+Alumna: Para que quede centrado.
+
+Profesor: Aprovechamos los clavadores, supongamos que este sea el coso blanco del ventilador entonces este era el clavador y le perforamos acá.
+
+Alumna: este se instaló después del cieloraso.
+
+Sacaron esta tapa cuadrada (habla de la luz).
+
+
+
+
 
 
 ---

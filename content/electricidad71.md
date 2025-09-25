@@ -1,0 +1,33 @@
+---
+title: "Electricidad / Clase 71: Diagrama unifilar tablero."
+date: 2025-09-25T12:37:15-03:00
+tags: [electricidad]
+---
+
+#### Audio en Vocaroo:
+
+[https://vocaroo.com/1cz27sakb724](https://vocaroo.com/1cz27sakb724)
+
+#### Audio en Archive:
+
+[https://archive.org/details/record-277](https://archive.org/details/record-277)
+
+#### Audio en YouTube:
+
+[https://www.youtube.com/watch?v=QDPkU6nuB08](https://www.youtube.com/watch?v=QDPkU6nuB08)
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgC9mlBKGs5FVji7bq3kcL0leVEReFIn4zP4eBzpcQaYpXaYE7RnjXQkxDMLfGmWTmnW1xvxL_AuZ-b4sS7uMdoNvFhIiMOJHqMt8zuooyyHzIFODvqG3OsEk-NPCaZq3U3C-8Twf4csSxythFYnDwXyZ5kXkWMrj8Q5Zub3YiwrXcnpB0s-S7M-XxT8Gw/s4160/IMG_20250924_184343385_HDR.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3E_QCg_RGAAz78_TU6QYDi1JW3Ma3wkXKzl16-j0WZupYk1W5Ws22XCjIcNIHOQEPw3XnXQ8mgIti4rRY75Z5_O5N_nvTgvtNKskJHIRy7AsNVKGkkVxWKh-i3eEk4w4WHLRVo50xnf6Y5G0yy1tjn6bvaEAZJ9UBOWKnguJ19K7zLISAH4bSWzvgHGs/s4160/IMG_20250924_184400319.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9UyKJyLi6ht4WQDgjKejJljHL2BC9IAZTILp1YSczINCNUm47EtMlBxlfLsRKdROsgnANOQ7ydoUqv6bAhobcxBPa6_-T-bJ4ypBHu8kITf3BwKRJxTNDJ0RDB36lQSg14ozv8eMs5m_R8C2s1BfAUDnE6EiNvppGoqS16oyrJtFzRAsqXwb31X8UoJo/s4160/IMG_20250924_190256854_BURST000_COVER_TOP.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5M-ccml8x2n3zyFPLCpjkebhGP5SnRVfbyBpjrbjuHX_HKhDxFUWfQQZobDoJ-FydCV66PmiKa33n1yR1s58Vcj9ku-WJFJm_PlxzJ1aD2C5DXlQFQEa5dxT-ZtCoI9_hPx8Op_UczgMbtX-d_kxmCxITjpmlmy0CpJxNWZ2UiSUP6-BPKO8c1HucPFU/s4160/IMG_20250924_190256854_BURST001.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9VuPIND0JoQ1AAhX3elirk5aiHhbvVtQzY1G3czryb81imH5x6oQZ0vBOoumoC4w1ky1rB0T7_aR6E9jMwxr5FZMcUdsQuXncu1SBgb5H73B39FWEJbVZIImAhr_A9W9q7H9wx_ug18voykIGnQnc-3BX3EVb6qW1gxyW6ycFjVE8DUACRo9APy_xG1Q/s4160/IMG_20250924_191058869.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl4r2meyL7fumJS3qOodIHOEkdAXrjZDpMzr3cMlNeI82uetygOuAGdEwTCRKPRBNWjHLUQcGEK4Su3Pghgea_aK1E3kCdYulh3vLqBCj9AH8Fdr9DRUw1ALMBUkEA6IKpmYYNHL5IyGp_u1I-jWdl5Bt7lUTUb6i78aXObnvuYLeT_8HwGvm6h_AQXFw/s4160/IMG_20250924_191447358.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX9uD-kBjpSQpc35csNSzQmSMeoa8WreLH0HaoUc72rsZ-maajt0-u9-M_prUFqcKV7t3C8xYv0SLjUYAyYn5cVVmMXscSWPnbbFqhsz3dDWjBsc4mbIVyy-NjYAosia7uX24AEid8g4s6VI3h-hqafCxiFtdE1aCuIFLUArkwTsnawd40Chs_x81axHg/s4160/IMG_20250924_191503032.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimh_Q0M4ty0j0pclZzfZutmxBDmkISROvNgjE0w1EIbrJDYTwhp0VFW-GBpf3YzSNlIy5TA1kYrLuFCO2mR0WKsmcG32eXT3_mu0c6uRGoei5-anTVmlTdn-0XNYqNhkQbMZs4zuZuqb04qL3ILRQ0wvurqxcM1irQqC6_DMG0CeyO-sUgsalAvMJgOC4/s4160/IMG_20250924_191506044.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihPgc8cupivqeIpmu55av2gA0rh3Z83i3IvfSiY7QS3RzQZlDXXVW6XOo9u0nap97uevwWp9hzjy8XyeXxRWeekXgEdmw2rxiJQN3-Kpe9kX0429gMrycOb1Xp-jTg0cKOJED39VM1dCxb-Aw5BmNSp-H2FyX23LLKG_1EJf74uHxWOkk-UqtTDOy86vQ/s4160/IMG_20250924_192117792_HDR.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgE4zu4hPRpkiEHiSK0x90q__-3YvNZxnez2IYHO3uANQuzeCfSEjEN6foDtJh_ThvH9u6ZXhAXphQ7kDGNkTJaYGU09XtWqVGg078Ew4tBO_H-OJiCaOBUIedTv3i2_gvVYubyu6uHkzF_-jnZ6ZY9xnRXjii4QWZkBfjE_LQXzNGAHyNrIoUejbmH1M/s4160/IMG_20250924_192119614.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-1P4QtOpL-SHQTjoaQsopMA1KMFTvWBWI0P6V4JUqblAPaFCYcG0_z3RCUFQEKUvGMJOVpcYTQeQjEbttTGNdC0fu1HBXbNYpYxywPv2v98ZxiidRo_kFDbqpAvDzwpU9t6CXg7RMe1pxfYNxWLLkKC-akBsii0g7jbAK3W8dzF3kHU_XkVZALQyr84/s4160/IMG_20250924_192655287.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh39z5lAmdz7fUEHN7DkT-fDHBF65LWYupuZs9a2idYtWwK8CO33ccl-oFCMEK_8LtYgXwUL7wHbcjfSk2lnq8tn6o-NXc8YIGGo-24iRWoy8UWCKQQ0P3aPJeT9nuaOROtdWebb_Pi_mUMWH5d1Q2Lsixe389jmUl94BjpF2E_qarrjSM6-YPMj4jU7T8/s4160/IMG_20250924_201107664.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGz4mVDO4c7CXaQKQO-rqibyuAnmTc1MOH7T0Gh1j5PJb77kRa-itl9gGb6AMmk41fxbTo3EzmZtvy7e9lQ1HQKfx0WrW2vEkuuLX183QoaOMJyNdpWx32kPSQ7V9kl_I7d78G3lrxqEFMcgVkmDv-qJeuQ950ApA5S-WpGjNwgrKbuNGnCup0QkDsvgU/s4160/IMG_20250924_201206545.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlmQ8Tbl59hZMadU7RXhVlV-L2CUN_T2nKObdmlE65NTHUm0NI5LXCixCHJx5wqedjBm7decHAG9eQpC8ZurnOPrBUSrt6mhq5HxbO76ECZCFt-iMhNxWopTRFMQLvSlPqQEzQduz6Xop2JIXLFhutpjKJe7Xsp2OEg6ecbI554Ad47a492YEYYNwWMLE/s4160/IMG_20250924_201220173.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5_p6x-VAqPrCMf6h4US9HsrkY6U1Iy7ZJsMd44fEugkHuueQuT5ZVLW66GVWt6STOWUgkSvCV5R3jA6gx5-P_zrdKhOaVhtUk1qwSrQcMLOaL7FjZ-LnFOUDnGD962TeWCN7EBV3WHqSPoRXoQrNqt-EALfX8mKijOlMC0ZhqcAJ5GFn8hAcdiZ5i5y0/s4160/IMG_20250924_201526062.jpg)
