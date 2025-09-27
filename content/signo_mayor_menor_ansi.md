@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT mejoró mi vida: Signo mayor menor en teclado ANSI bajo distribución en español."
+title: "igno mayor menor en teclado ANSI bajo distribución en español en la linux TTY."
 date: 2025-09-27T13:28:35-03:00
 tags: ['linux']
 ---

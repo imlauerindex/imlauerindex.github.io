@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 71: Diagrama unifilar tablero."
+title: "Electricidad / Clase 71: Diagrama unifilar tablero: símbolos de ITM y diferencial(disyuntor). Desarmamos tablero. Pregunta examen. Forma ascendiente vs descendiente. Distribuidor, peine, bucle o guirnalda. 8 módulos = 4 térmicas. El disyuntor determina la característica ahí dice donde entra el neutro y la fase."
 date: 2025-09-25T12:37:15-03:00
 tags: [electricidad]
 ---
