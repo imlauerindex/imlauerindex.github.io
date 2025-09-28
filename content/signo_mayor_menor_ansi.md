@@ -1,5 +1,5 @@
 ---
-title: "igno mayor menor en teclado ANSI bajo distribución en español en la linux TTY."
+title: "Signo mayor menor en teclado ANSI bajo distribución en español en la linux TTY."
 date: 2025-09-27T13:28:35-03:00
 tags: ['linux']
 ---
@@ -28,4 +28,10 @@ Y finalmente: `sudo loadkeys mi_mapa.kmap` y listo ahora puedo hacer el signo ma
 
 \> \<
 
+Luego agregamos `loadkeys ~/mi_mapa.kmap` a `.bashrc` o `.config/fish/config.fish`.
+
+
+O copiá `mi_mapa.kmap` a `/usr/share/kbd/keymaps/i386/qwerty/` luego en `/etc/vconsole.conf` (archivo usado en distros con systemd) agregá: `KEYMAP=mi_mapa` o se puede hacer usando también un servicio de systemd.
+
 Gracias ChatGPT!
+
