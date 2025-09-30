@@ -1,20 +1,24 @@
+#!/usr/bin/fish
 sudo systemctl start smb
 # https://imlauera.github.io/publicar_audio_como_video/
 # thumbnailg "titulo" titulo.png
 # ffmpeg -i image.jpg -i audio.mp3 -c:v libx264 -tune stillimage -c:a copy out.mp4
 # youtube-upload
 ### Agregar para detectar tmux
-firefox blogger.com
-firefox vocaroo.com/upload
-firefox archive.org/upload
-echo "Ingresa la URL del articulo que creaste"
-read URL
+# firefox blogger.com
+# firefox vocaroo.com/upload
+# firefox archive.org/upload
+
+echo "Ingresa la URL del articulo que creaste:"
+read -z URL
 echo "Ingresa el titulo del articulo que creaste sin espacios (electricidad4)"
-read titulo
+read -z titulo
 echo "Ingresa el tag del articulo"
-read tag
+read -z tag
 echo "Ingresa la descripción del articulo que creaste"
-read descripcion
+read -z descripcion
+
+echo "Generando el articulo...."
 
 cd $HOME/projects/blog;
 hugo new "$titulo.md"
@@ -45,7 +49,7 @@ read -z short_description
 echo "Gerando thumbnail..."
 thumbnailg $short_description /tmp/$titulo.png
 echo "Ingresa ubicación completa de archivo de audio m4a de la clase"
-read archivo_audio_path
+read -z archivo_audio_path
 echo "Creando un video a partir del audio..."
 ffmpeg -i /tmp/$titulo.png -i $archivo_audio_path -c:v libx264 -tune stillimage -c:a copy /tmp/$titulo.mp4
 

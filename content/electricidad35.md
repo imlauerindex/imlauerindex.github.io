@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 35: [FOTO DE PUESTA A TIERRA] Partes de un disyuntor. Sistema de puesta a tierra. Preguntas de exámen."
+title: "Electricidad / Clase 35: [FOTO DE PUESTA A TIERRA] Partes de un disyuntor. Sistema de puesta a tierra. Preguntas de exámen. Alumno cuenta accidente tránsito."
 date: 2025-06-09T23:09:29-03:00
 tags: [electricidad]
 ---
@@ -22,3 +22,20 @@ Hora 01:06 y hora 01:25
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtPsdKmmI6Q8rDHbPWMziggmvDyjXVkH0Zw0yQ5ayXHAw8gqyT7ftVuv8wZTHsrOKIAzEwd-meJcv0gXcr6_EeYMIZr7R_6823pu7U0UMyY8riiD9fWoAZelhROMVDFgVHUuXaaXnWclPWhYIojQS1bOzrNXgRw0qesrXERIO15fDlYEI9Cap2nhSSpe4/s4160/IMG_20250609_201755129.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKNX-XLw1UwtVXwrAQ_NeXj0dipYsRX8nDWhPzeU2b5uIZhDfJLtKJCXo5HcNKpgs3ViukOQdpjkDZ4ZU2YkeJegT9Nz6_BM4pYJpoXeIQUWFnRabH3fTwNEfJKeAQZ4j9c0svzdaR0ZytV6dS_eAvyZyiff1BUppeLHz9ZKCtpGJaXV_xagtV6nVKJ1s/s4160/IMG_20250609_201759013.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_kqWcqDY88-gdsiQmne0oRJmEY-ui4eEsHzrYp0JIqZe5g_5dhdMTVrvqlkeuwSKNDlhfIH5fXfmbAUn_mP08kiPLI7rE0h-9OQtkllSrWTTHkN8hnPI88hblkg4nLQugZTUUMKVY04HYmIDtmJC2lUY6nRyU1iDX5PJjC-Gl-jTRL5FFVN6mlM5w1uU/s4160/IMG_20250609_202142966.jpg)
+
+Alumno imprimió las 54 páginas para no decir que no hizo nada.
+Alumno se le complica con el frío le deja tirado, frío y humedad.
+Alumno tiene prótesis cuando hace frío ni sale de casa tiene una sola pierna se le hincha cuando hay humedad, chocaron del lado del acompañante todas las costillas rotas, estuvo en coma en la avenida Uruguay y Bustamante.
+
+Iba en un Clio le rompió la clavicula, todas las costillas y la cadera y todo el tendon todo. Le hicieron transferencia terminosa, le hacen como un empalme con tornillos.
+Todo operado. Le pusieron cuello ortopédico.
+
+Profesor se queja de que hay que pagar por descargar videos de YouTube. Le enseño como se hace.
+
+ElectroConexiones se llama el canal de YouTube.
+
+Me muestra el canal para que comparta el video por YouTube.
+
+Profesor pagó estafa antivirus. Le dije que Windows ya tiene antivirus integrado y que no se necesita.
+
+
