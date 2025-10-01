@@ -11,14 +11,14 @@ sudo systemctl start smb
 
 echo "Ingresa la URL del articulo que creaste:"
 read -z URL
-echo "Ingresa el titulo del articulo que creaste sin espacios (electricidad4)"
+echo -e "\nIngresa el titulo del articulo que creaste sin espacios (electricidad4)"
 read -z titulo
-echo "Ingresa el tag del articulo"
+echo -e "\nIngresa el tag del articulo"
 read -z tag
-echo "Ingresa la descripción del articulo que creaste"
+echo -e "\nIngresa la descripción del articulo que creaste"
 read -z descripcion
 
-echo "Generando el articulo...."
+echo -e "\nGenerando el articulo...."
 
 cd $HOME/projects/blog;
 hugo new "$titulo.md"

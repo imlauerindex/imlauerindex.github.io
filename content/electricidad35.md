@@ -36,6 +36,150 @@ ElectroConexiones se llama el canal de YouTube.
 
 Me muestra el canal para que comparta el video por YouTube.
 
-Profesor pagó estafa antivirus. Le dije que Windows ya tiene antivirus integrado y que no se necesita.
+Profesor pagó estafa antivirus y le vino a la tarjeta. Le dije que Windows ya tiene antivirus integrado y que no se necesita.
+
+La semana haremos trabajo teórico.
+
+Seguiremos con interruptores diferenciales.
+
+Fui a una obra qué paso con disyuntor: cualquier fuga de corriente detecta y constantemente te descarga. Lo primero que hago es bajar todas las térmicas y tiro una por uno encuentro la falla en una de estas y reviso el circuito que tiene problemas, me tocó revisar la cocina desconecté todo lavadero todo.
+
+Pruebo y saltaba el disyuntor desconecté todos los artefactos.
+
+Y seguía saltando.
+
+Y levantaba y saltaba el disyuntor.
+
+Así que forcé el disyuntor el disyuntor y saltó un chispaso caja de paso.
+
+Si esa caja de paso tenía algún problema efectivamente tenía un empalme usan horno eléctrico, pava eléctrica y sandwichera eléctrica, en esa caja de paso tenía un empalme de tanto consumo quemó la aislación.
+
+Siempre digo que hay que usar 2 aislaciónes (con la cinta).
+
+Por el calor se abrió el empalme y hacía saltar el disyuntor.
+
+Así que puede ser elementos que están enchufados y elementos que no están enchufados.
+
+Profesor da al alumno que faltó sección del conductor, corriente máxima y para que se usa.
+
+Profesor tuvo que ir a revisar todas las escuelas por las elecciones.
+
+Escuela tenía todo sistema de fluorescente y lo que más me preocupó es que en el tablero había ollín, ese ollín en algún lado fue provocado por alguna descarga una corriente muy grande.
+
+El ollin se produjo por falla de aislación.
 
 
+Hay que probar cada año el disyuntor.
+
+El disyuntor salta por contacto directo e indirecto para proteger la vida funciona en conjunto con las tomas de tierra.
+
+Todos los disyuntores son bipolares, el botón de TEST genera un desequilibrio.
+
+Si el botón de prueba está roto no significa que no funciona. En SICA siempre sale el botón de prueba y la mayoría de gente dice que el disyuntor ya no funciona mas (erróneamente).
+
+ITM curva B 32 amper atrás del medidor.
+
+Calefón máxima temperatura y empezó a saltar por sobrecarga.
+
+Tiene un límite, antes cortaba a 30 minutos ahora corta a 2 minutos y corta.
+
+El ITM estaba dañado porque apenas una corriente pasaba se deformaba la parte térmica se dilataba y cortaba.
+
+Domingo empecé a revisar todo hasta que encontré una de 40 amper ahí se empezaron a bañar todos juntos.
+
+#### A veces la sobrecarga ocasiona que se gaste los contactos y salte antes.
+
+El conductor era subterráneo y aguantaba mucho.
+
+La sobrecarga disminuye la vida útil del interruptor.
+
+Descubrí por qué estaba saltando mi disyuntor, saltaba constantemente mi disyuntor entonces bajo todas las térmicas y levanto una de las térmicas cada vez que levantaba saltaba el disyuntor revisé todo desenchufé todo y ni la heladera ni el freezer ni nada era entonces desconecté todo los artefactos probé otra vez y saltaba igual.
+
+Entonces lo forcé al disyuntor y provocó un chispaso en la caja de paso es una caja de derivación y estaba la fase unidas con varias aislaciones pero de tanto consumo quemó el aislante.
+
+Hay que usar doble cintas aislantes.
+
+#### Si el disyuntor salta sin tener nada enchufado lo más probable es que haya un cortocircuito en algún cable.
+
+Hacía soltar el disyuntor pero a través del cortocircuito debido a un mal estado de aislación de los cables o instalación defectuosa.
+
+Puede haber problemas de la instalación puede ser un empalme desprendido o un nervio que haya tocado esa cañería de hierro.
+
+Una de las pocas veces que el problema fue en la caja de paso y tenía varios cables secos porque van aumentando los electrodomésticos.
+
+Viajó de Andresito a Wanda no se veía nada en la ruta.
+
+Problema de humedad o fuga eléctrica también trabaja disyuntor.
+
+#### El agua común que tiene impuresas y esas impuresas son las que hacen que actúe como conductor, si es agua destilada no tiene conductividad.
+
+No cualquier agua es conductora: la destilada no.
+
+La humedad puede provocar fugas de corriente especialmente en baños y cocina.
+
+10 miliamper de sensibilidad del disyuntor es para piletas.
+
+Mal aislamiento puede ocasionar fuga de corriente.
+
+Avería en el disyuntor, puede estar defectuoso y saltar siempre.
+
+Electrodomestico averiado puede hacer saltar el disyuntor.
+
+Armónicos: los ordenadores pueden provocar inestabilidad en la red (no se detectan).
+
+En caso de que salte el disyuntor: apagá el disyuntor y verificar todos los aparatos desconectados revisar estado de los cables, y enchufes buscar humedad o deterioro (sin tener artefactos enchufados).
+Primero revisar cajas de paso y ver conductores.
+
+Desconectar los aparatos uno por uno.
+
+FOTO de Partes importantes de un interruptor diferencial (parte frontal)
+
+Profesor compró proyector.
+
+Habla de que quiere descargar el video.
+
+Interruptor diferencial tengo entrada y salida cuando tengo un circuito bipolar tengo fase y neutro. La corriente que entra debe ser igual a la que sale, si tengo una pinza amperométrica debe darme lo mismo fase y neutro.
+
+Si mido los dos cables fase y neutro con la pinza amperométrica y me da un valor distinto de 0 HAY FUGA.
+
+Interruptor diferencial protege aguas abajo.
+
+ITM protege aguas arriba y abajo.
+
+La instalación siempre se hace por arriba.
+
+SIEMENS tenía un sistema distinto entraba por otro lado la alimentación en el el interruptor.
+
+Los 30 miliamper es la sensibilidad. Monofásico son 2 polos o sea que el disyuntor debe ser 2 polos o de 4, 3 no hay. Fase y neutro el otro tiene las 3 fases y neutro.
+
+La corriente que aparece en su frente es la que permite pasar sin ningún deterioro.
+
+#### Pregunta de examen: donde se ubica el interruptor diferencial? Después de la térmica principal siempre. A menos que yo tenga el tablero general atrás del medidor a una distancia no mayor de 2 metros.
+
+En Itaembé Guazú tienen como 5, 6 metros del medidor al principal solo ponen disyuntor, algunos ya ni pusieron disyuntor dentro de la vivienda, tienen el tablero general allá disyuntor y ya ponen directamente interruptor por cada circuito.
+
+Para mayor protección disyuntor por cada circuito (es demasiado caro).
+
+#### Pregunta de examen: como se mejora el funcionamiento de un disyuntor? Con la puesta a tierra porque no pasa la corriente por tu cuerpo.
+
+#### Por eso pide que toda la instalación tenga un conductor de protección exclusivamente para tierra.
+
+Alumno dice que no tiene plata para comprarse un disyuntor de 40 mil pesos.
+
+Simbología del disyuntor importante saber leer para diagramas unifilares de tableros.
+
+
+
+
+
+
+
+
+
+Como es el sistema de puesta a tierra (
+
+
+
+---
+
+Hora 01:09
