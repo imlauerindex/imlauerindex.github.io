@@ -164,22 +164,82 @@ Para mayor protección disyuntor por cada circuito (es demasiado caro).
 
 #### Por eso pide que toda la instalación tenga un conductor de protección exclusivamente para tierra.
 
-Alumno dice que no tiene plata para comprarse un disyuntor de 40 mil pesos.
+Alumno dice que no tiene plata para comprarse un disyuntor de 40 mil pesos y no tiene puesta a tierra su casa.
 
 Simbología del disyuntor importante saber leer para diagramas unifilares de tableros.
 
+Por eso es necesario poner un conductor de protección por todo su recorrido.
 
+Cliente tiene campo emprendimiento necesita alimentación trifásica, tiene 2 grupos electrógenos trifásico ahora quiere un tablero con secuencial que trabaje uno y después otro y es más fácil poner una red y ese sirve como auxiliar.
 
+Si yo tengo 2 grupos hay que ver como funciona uno con respecto a otro si tiene problema de combustible no es fácil que trabaje de forma automática hay que controlar aceite.
 
+Le dije que es más fácil que hable con la gente de ElectroMisiones porque si el electricista tiene que comprar y si compras ya no es lo mismo sale más caro.
 
+Gustavo: Gente cree que porque es trifásico la máquina es de más potencia.
+Profesor: No, el tema es así. 
 
+Cualquier máquina la potencia siempre es la misma ya sea monofásica o trifásica 5500 watts de potencia trifásica, tengo la misma potencia varía la sección de conductor.
 
+Si yo tengo casa con mucho consumo y hago instalación trifásica pero adentro sigo usando monofásica. 
+**Profesor: Claro lo que vos dividís la carga en las 3 fases y tu alimentación de entrada en vez de tener un conductor de 10 podes tener de 4 o de 6mm^2.**
 
+Gustavo: Yo alquilo herramientas y me dicen que tiene que ser trifásica porque "son hierros gruesos", yo le dije que no tiene nada que ver es un inverter 250 amper hasta un galpón podes hacer. Pero me dicen: tiene que ser trifásica porque tiene que soldar fuerte tienen un concepto errado. O la hormigonera te dicen tiene que ser trifásico porque la vamos a usar todo el día.
 
-Como es el sistema de puesta a tierra (
+Profesor: La potencia es siempre la misma.
+
+Gustavo: Que pasa si yo tengo una soldadora trifásica y conecto a una red monofásica?
+##### Profesor: No va a funcionar. En el motor lo que se hace es fase y neutro y la 3er fase se pone un capacitor (para hacerlo funcionar en monofásica) pero igual no anda bien. Se hace se hizo varias veces las 3 fases: fase, neutro va al monofásico y el 3ero lo ponen a un capacitor pero no es lo mismo.
+
+Vos tenes una máquina trifásica y queres llevarla a monofásica no es conveniente se puede pero no es recomendable.
+
+Cementerio de los gendarmes entonces hicieron tipo una ¿? para meter distintos cajones y hicieron un 2do piso y para no llevar y usar escalera hicieron elevador y en el elevador trajo un motor trifásico.  (Hora 01:16)
+
+Ahí tuvimos que hacer una modificación porque no teníamos trifásico y se hizo la idea era que lleven el cajon arriba y ahí directamente se ponía una camilla y TAC. Lindo.
+
+En ElectroMisiones tenes que preguntar como se puede hacer.
+
+---
+
+Ahora empezaremos con puesta a tierra.
+
+Le hizo dibujar al ayudante el sistema de puesta a tierra: en el tablero siempre habrá terminal donde va bornera de puesta a tierra y acá va un conductor depende de qué característica tenga la sección pero será igual al conductor de entrada si es de 6 o 10 debería ser de 6 o 10mm^2
+
+Supongamos que tiene capacidad máxima de 32 amper si hay un cortocircuito o si toca la chapa va directamente a tierra, entonces el conductor que está a tierra descarga.
+
+#### Por eso la sección del conductor debe ser igual a la sección del conductor de puesta a tierra.
+
+Tiene que haber una cámara de inspección para ver que pasa con la puesta a tierra levanto la tapa y encuentro la jabalina.
+
+\* Profesor muestra la jabalina y el conductor.
+
+Pregunta examen: Como es el sistema de puesta a tierra no es solo la jabalina sino todo.
+
+Hay 2 tipos de jabalina: uso de 1 metro 3/4, la otra es menor que 5/8 generalmente todos ponen conductor desnudo.
+
+Tengo la bornera tengo el conductor desnudo y va hasta la jabalina, ¿como arreglo con el toma cables? 
+
+La jabalina tiene alma de acero y alrededor tiene de cobre, el acero sirve para el incado la parte de afuera hace que descargue la corriente.
+
+Algunos dicen poner varias jabalinas uno arriba del otro enroscado pero se ha comprobado de que por más profundidad que tengamos no varía mucho con 2 metros es suficiente.
+
+Luego se hace otro sistema colocando jabalina en paralelo a una distancia que sea 2 veces la longitud. Si el tiene 1 metro a 2 metros coloco la otra jabalina. A 2 metros coloco la otra jabalina para disminuir la resistencia a tierra.
+
+Me interesa que sepan el esquema.
+
+Es interesante que vean como es el dibujo: Esto es un medidor con puesta a tierra, tablero general, cosas importantes que recién ahora prestamos atención antes era todo de hierro y esta parte que usabamos conductor desnudo iba cañería de PVC.
+
+Hoy en día ya se usa el conductor verde y amarillo.
+
+La forma más fácil de armar es hincar la jabalina. Con conductor de cobre puedo hacer sistema de anillado en zonas rurales se usa un sistema unifilar solo 1 conductor, supongamos que es un transformador y la puesta a tierra se hace a través de un sistema de jabalina y conductor desnudo se llega hasta 10 metros. Ese conductor desnudo.
+
+Me sirve para sacar del transformador fase y neutro que va a una vivienda.
+
+La tierra tiene potencial 0.
+
 
 
 
 ---
 
-Hora 01:09
+Hora 01:31
