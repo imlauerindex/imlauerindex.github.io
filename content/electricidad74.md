@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 74: Tableros: protecciones de tension, contactor. Hablamos de problemas de un tablero."
+title: "Electricidad / Clase 74: Tableros: protecciones de tensión, contactor. Hablamos de problemas de un tablero."
 date: 2025-10-01T22:26:37-03:00
 tags: [electricidad]
 ---
@@ -16,7 +16,7 @@ tags: [electricidad]
 
 [https://www.youtube.com/watch?v=5AlJY9d4cfg](https://www.youtube.com/watch?v=5AlJY9d4cfg)
 
-#### Videos enviados por el profesor a traves de WhatsApp:
+#### Videos enviados por el profesor a través de WhatsApp:
 
 [https://www.youtube.com/watch?v=65MlO1WThMw](https://www.youtube.com/watch?v=65MlO1WThMw)
 
@@ -32,3 +32,5 @@ tags: [electricidad]
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUDiv3xHBIxrjsEBOPxiAw3i97vMbO_6bfDmkDIFxof1Fkb4Mub_ksN8Vc0QDSaB3dZwDu4cf88_08T0Q1_r1xpXoAPng19JIL1slcqqDAIlweGtN7dZ9la-m5NS5fzdpC220A9RKAnBCL2MDh5Sz6GxtE-_KXjBeU-_Igr_hj7IbVStenbmRbRhkvfDE/s4160/IMG-20251001-WA0001.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGeoE__XMQUAKbeNWiCHgDFYfWxMfVSCkKCTfJybAyg3YMfETjZZEtknNOZi8ktPPGiJB8-ytNmNvtQtIpGkogqQ0WKZm0pwMubHGSER3TR-fjxjlKWVOWy1FkSNgdse66QjUT-kWGLQtU6vM07Pu_Xcn6axk-b1MrPGb5LOH8tOWSaU6CdNLN1yIiKI0/s4160/IMG-20251001-WA0002.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8TswPKW-h8WFy_0wMOGzE3g59-VJz3ZiE-qvkoAniRE4cMLPxZfjvRqhhl4eSXYsyHqnmeycW-EeItohtSeP-Hmg5D5-fHl18taWHGfLh1-Etrz9jvFSaYR1rFS7qC-TRHGyeRXD17HMywY9vuKRB3pCP0jYU0xXWPimV5uQJcr2rHB6u6saawGXANTU/s4160/IMG-20251001-WA0003.jpg)
+
+
