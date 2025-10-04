@@ -64,5 +64,60 @@ Hotz critica cómo el capitalismo ha transformado la web en una carrera para ext
 | Capitalismo y concentración | Crítica al control corporativo                   | Crítica a la concentración de riqueza y poder              |  
   
 ---  
-  
-En resumen, tanto Denshi como Hotz abogan por una web libre, abierta y colaborativa, donde la creatividad y la innovación no estén restringidas por leyes de propiedad intelectual que benefician a unos pocos en detrimento de muchos.  
+   
+Hotz se refiere a modelos de negocio que **monetizan el control exclusivo de ideas, obras o tecnología protegida por propiedad intelectual**. Estos modelos dependen directamente de patentes, copyright, marcas registradas y secretos comerciales. Algunos ejemplos claros:   
+   
+---   
+   
+### 1. **Industria del entretenimiento**   
+   
+* **Música, películas, series** → Spotify, Netflix, Disney+.   
+   
+  * Dependen del copyright para controlar quién puede distribuir o reproducir contenido.   
+  * Bloquean copias no autorizadas mediante DRM (Digital Rights Management).   
+   
+* **Videojuegos** → EA, Activision, Nintendo.   
+   
+  * Cada juego está protegido por copyright y, muchas veces, patentes de software.   
+  * Las copias ilegales o modificadas son perseguidas legalmente.   
+   
+---   
+   
+### 2. **Software propietario**   
+   
+* **Microsoft, Adobe, Oracle**   
+   
+  * Venden licencias de software cerrado; nadie puede copiar o modificar legalmente sin permiso.   
+  * Los contratos EULA y la protección de copyright aseguran ingresos recurrentes.   
+   
+---   
+   
+### 3. **Tecnología y hardware**   
+   
+* **Patentes en smartphones, chips, dispositivos electrónicos** → Apple, Qualcomm.   
+   
+  * Controlan diseños y funcionalidades patentadas; otras empresas deben pagar royalties.   
+  * Ejemplo: patentes de Apple sobre gestos multitáctiles en iPhone.   
+   
+---   
+   
+### 4. **Editoriales y libros**   
+   
+* **Libros físicos y electrónicos** → Pearson, Penguin Random House.   
+   
+  * Protegen obras con copyright; copias sin permiso son ilegales.   
+   
+---   
+   
+### 5. **Ciencias y farmacéutica**   
+   
+* **Patentes de medicamentos y biotecnología** → Pfizer, Moderna, Novartis.   
+   
+  * Controlan la producción de fármacos durante años; impiden copias genéricas.   
+   
+---   
+   
+### 💡 Idea clave   
+   
+Todos estos modelos dependen de **la exclusividad legal de la propiedad intelectual** para generar ingresos. Sin esa exclusividad, tendrían que competir en mercados abiertos, con productos accesibles y modificables, lo que Hotz considera **una forma más justa de distribuir valor y creatividad**.   
+   
