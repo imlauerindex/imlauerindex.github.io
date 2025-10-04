@@ -4,6 +4,9 @@ date: 2025-10-04T14:52:15-03:00
 tags: ['copying']
 ---
 
+
+### Cultura Hacker
+
 https://denshi.org/blog/copying-is-cool/  
 https://geohot.github.io/blog/jekyll/update/2025/02/19/nobody-will-profit.html  
   
@@ -121,3 +124,102 @@ Hotz se refiere a modelos de negocio que **monetizan el control exclusivo de ide
    
 Todos estos modelos dependen de **la exclusividad legal de la propiedad intelectual** para generar ingresos. Sin esa exclusividad, tendrían que competir en mercados abiertos, con productos accesibles y modificables, lo que Hotz considera **una forma más justa de distribuir valor y creatividad**.   
    
+Excelente pregunta — porque **Richard Stallman (RMS)** es probablemente **la voz más influyente** en el tema de la propiedad intelectual, el copyright y la libertad de copiar.
+Su postura es clara, radical y totalmente alineada con las ideas de Denshi y George Hotz (aunque desde un ángulo filosófico más sistemático).
+
+---
+
+### 🧠 **Qué piensa Stallman sobre el copyright y la copia**
+
+#### 1. 💣 **El copyright no protege a los autores, protege a las corporaciones**
+
+Stallman sostiene que el copyright moderno **ya no sirve al público ni a los creadores individuales**, sino que protege el poder de grandes editoriales, discográficas y empresas de software.
+
+> “El copyright fue creado para fomentar la difusión del conocimiento, pero hoy se usa para impedirla.”
+
+Según él, las leyes fueron distorsionadas por las corporaciones para **restringir la copia y el intercambio de conocimiento**, justo lo contrario de su propósito original.
+
+---
+
+#### 2. 🔓 **Copiar no es robar, es compartir**
+
+RMS repite esto con frecuencia:
+
+> “Copiar no es robar. Si copio tu software, tú todavía lo tienes.”
+
+Él considera que **la copia libre es un acto moralmente correcto** cuando se hace para compartir conocimiento o cultura.
+Para Stallman, **prohibir la copia es inmoral**, porque **impide que las personas se ayuden entre sí**.
+
+---
+
+#### 3. 🐧 **Software libre como resistencia**
+
+Stallman fundó el **Movimiento del Software Libre** y el proyecto **GNU** para **romper la dependencia del software propietario** (Microsoft, Apple, etc.).
+Define **cuatro libertades esenciales** para que un programa sea realmente libre:
+
+1. Usar el programa con cualquier propósito.
+2. Estudiar cómo funciona y modificarlo.
+3. Redistribuir copias.
+4. Mejorar el programa y compartir esas mejoras.
+
+Estas libertades **desarman el modelo de negocio del copyright restrictivo** y **devuelven el poder al usuario**.
+
+---
+
+#### 4. ⚖️ **Propiedad intelectual es un término tramposo**
+
+RMS odia el término *“propiedad intelectual”* porque mezcla cosas muy diferentes (copyright, patentes, marcas, secretos industriales) bajo una sola idea de “propiedad”.
+
+> “El término ‘propiedad intelectual’ es propaganda. Sirve para hacer que las restricciones sobre la información parezcan naturales o inevitables.”
+
+Según él, **las ideas no deben ser propiedad**, porque **el conocimiento y la cultura solo crecen cuando se comparten**.
+
+---
+
+#### 5. 🌍 **La libertad digital como derecho humano**
+
+Para Stallman, el objetivo no es solo liberar software, sino **liberar a las personas** del control de las corporaciones tecnológicas.
+Cree que cada usuario debería poder **entender, modificar y compartir** la tecnología que usa, porque eso garantiza **autonomía, educación y soberanía tecnológica**.
+
+---
+
+### 🔥 En resumen
+
+| Tema                      | Richard Stallman piensa que...                                            |
+| ------------------------- | ------------------------------------------------------------------------- |
+| **Copyright**             | Fue corrompido; ahora sirve para oprimir, no para incentivar la creación. |
+| **Copiar**                | Es moralmente correcto y esencial para el progreso.                       |
+| **Propiedad intelectual** | Es un concepto engañoso inventado para justificar restricciones.          |
+| **Software libre**        | Es la respuesta ética y práctica para devolver el control al usuario.     |
+| **Empresas tecnológicas** | Usan el copyright y las patentes para crear dependencia y vigilancia.     |
+
+---
+
+Acá tenés una **comparación clara y directa** entre **Richard Stallman**, **Denshi** y **George Hotz**, tres visiones distintas pero que convergen en un mismo punto: la **libertad de copiar, crear y compartir sin control corporativo**.
+
+---
+
+## 🧩 Comparativa: Stallman vs Denshi vs Hotz
+
+| Tema                                  | 🧠 **Richard Stallman (RMS)**                                         | 🌐 **Denshi ("Copying is Cool!")**                             | ⚙️ **George Hotz ("Nobody Profits")**                                      |
+| ------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **Visión general**                    | Filosófica y ética. El software libre es un derecho humano.           | Cultural y creativa. La imitación es parte esencial de la web. | Económica y técnica. Quiere destruir modelos de lucro basados en IP.       |
+| **Copiar**                            | Moralmente correcto: compartir es ayudar.                             | Acto de aprendizaje y experimentación.                         | Forma de romper el sistema capitalista extractivo.                         |
+| **Copyright / Propiedad Intelectual** | Sistema corrupto que oprime a los usuarios y bloquea el conocimiento. | Herramienta de control que sofoca la creatividad.              | “Idea estúpida” que impide el progreso tecnológico.                        |
+| **Motivación central**                | Libertad del usuario y control sobre la tecnología.                   | Cultura abierta y libre de miedo a imitar.                     | Desmantelar el valor capturable de la tecnología (que nadie pueda lucrar). |
+| **Solución propuesta**                | Software libre (GNU, licencias GPL).                                  | Compartir abiertamente, copiar y adaptar diseños web.          | Construir software libre y descentralizado que no genere ganancia.         |
+| **Relación con el capitalismo**       | Lo critica éticamente: impone dominación y dependencia.               | Lo critica culturalmente: convierte la creatividad en consumo. | Lo critica estructuralmente: busca eliminar el beneficio mismo.            |
+| **Actitud hacia las corporaciones**   | Enemigas de la libertad digital.                                      | Obstaculizan la cultura creativa libre.                        | Deberían ser irrelevantes si nadie puede capturar valor.                   |
+| **Tono / estilo**                     | Moralista y político.                                                 | Didáctico y provocador.                                        | Nihilista y hacker-anarquista.                                             |
+| **Frase que los resume**              | “El conocimiento solo tiene valor si se comparte.”                    | “Copiar es crear.”                                             | “Nadie debería poder lucrar con las ideas.”                                |
+
+---
+
+### 💥 En síntesis:
+
+* **Stallman** quiere **liberar a las personas** del control tecnológico.
+* **Denshi** quiere **liberar la cultura** del miedo a copiar.
+* **Hotz** quiere **destruir el beneficio** como motor de la tecnología.
+
+Los tres, desde ángulos distintos, **apuntan contra el mismo enemigo: el monopolio de las ideas**.
+
