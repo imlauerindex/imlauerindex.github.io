@@ -1,0 +1,13 @@
+---
+title: "La distribución de Linux que uses no afecta demasiado el rendimiento."
+date: 2025-10-04T12:56:52-03:00
+tags: ['linux']
+---
+
+Existen canales enteros de YouTube que se dedican a probar diferentes distribuciones de Linux, pero **la mayoría de estos videos funcionan más como una forma de consumismo que como información útil**.
+Es lo mismo que hacen las empresas al venderte una nueva Mac, consola de videojuegos o smartphone: la comunidad de Linux repite el patrón, pero con distribuciones.
+
+En la práctica, la elección de la distribución rara vez es relevante porque si casi lo unico que vas a usar es un **navegador web**, no notarás mejoras de rendimiento aunque uses TinyCoreLinux, Slackware, AntiX, Linux Mint o Ubuntu porque **el navegador es igual de pesado en todas las distribuciones de Linux y de BSD**.
+
+Si usas el navegador para YouTube, Twitch, ChatGPT o Google Docs, **el problema no es la distribución de Linux, sino el software moderno basadas en tecnología web (que lo hace lento)**.
+
