@@ -268,3 +268,4 @@ Si querés, puedo recolectar otras citas en sus publicaciones (anteriores y post
 
 [1]: https://geohot.github.io/blog/jekyll/update/2025/02/19/nobody-will-profit.html "Nobody Profits | the singularity is nearer"
 
+### Google y Reddit nos fallaron (mirar el video hasta minuto 20)
