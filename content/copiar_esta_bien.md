@@ -288,3 +288,57 @@ Sin embargo, hay varios puntos de contacto con el copyright:
 * 🔹 **Conocimiento y libertad de información**: El manifiesto critica que se criminalice la exploración y el aprendizaje en sistemas cerrados. Esto choca con la lógica del copyright, que restringe copia y uso para proteger la propiedad privada de software y datos.
 * 🔹 **Ética hacker vs. copyright**: La ética hacker tradicional promueve la libre circulación del conocimiento (“la información quiere ser libre”), mientras que el copyright promueve su control para generar rentas y limitar el acceso.
 
+---
+
+Perfecto ⚡️
+Acá tenés un **mapa conceptual textual** que muestra cómo *The Hacker Manifesto* se relaciona con el **copyright** y la **propiedad intelectual**, y en qué puntos entra en conflicto con ellos:
+
+---
+
+### 🧠 “The Hacker Manifesto” (1986)
+
+**Autor:** +++The Mentor+++
+**Tema central:** La curiosidad, el conocimiento y la rebelión contra las limitaciones impuestas por el sistema.
+**Contexto:** Nace tras el arresto de un joven hacker, en plena era de expansión de redes y sistemas cerrados.
+
+---
+
+### 🔌 1. Cultura Hacker
+
+* 🧩 **Valores:** Curiosidad, libre acceso, compartir conocimiento, experimentar.
+* 💬 “Mi crimen es la curiosidad.”
+* 🌐 **Principio ético:** “La información quiere ser libre.”
+* ⚖️ **Conflicto:** Las leyes (incluido el copyright) limitan el libre acceso a la información y criminalizan la exploración.
+
+---
+
+### ⚙️ 2. Copyright y Propiedad Intelectual
+
+* 📜 **Propósito original:** Proteger los derechos de los creadores sobre sus obras.
+* 💰 **Uso en la era digital:** Controlar software, datos, y sistemas.
+* 🚫 **Restricciones:** Impide copiar, modificar o acceder sin permiso.
+* 🏛️ **Marco legal:** Basado en la idea de propiedad privada sobre lo intangible (código, datos, información).
+
+---
+
+### ⚔️ 3. El Conflicto
+
+| Aspecto                      | Cultura Hacker                         | Copyright / Ley            |
+| ---------------------------- | -------------------------------------- | -------------------------- |
+| **Acceso a la información**  | Debe ser libre                         | Debe ser controlado        |
+| **Software y datos**         | Bien común, herramienta de aprendizaje | Propiedad privada          |
+| **Curiosidad y exploración** | Virtud                                 | Potencial delito           |
+| **Compartir conocimiento**   | Deber ético                            | Infracción legal           |
+| **Motivación**               | Aprender, descubrir                    | Lucrar, proteger inversión |
+
+---
+
+### 💡 4. Consecuencias y legado
+
+* 🧨 El manifiesto inspira movimientos como el **software libre** y el **copyleft** (Richard Stallman, GNU).
+* 🕸️ Influye en el **hacktivismo**, la **cultura open source** y los debates sobre vigilancia y libertad digital.
+* ⚖️ Expone la tensión entre:
+
+  * “Conocimiento como derecho universal”
+  * “Propiedad intelectual como barrera económica y legal”
+
