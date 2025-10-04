@@ -223,3 +223,48 @@ Acá tenés una **comparación clara y directa** entre **Richard Stallman**, **D
 
 Los tres, desde ángulos distintos, **apuntan contra el mismo enemigo: el monopolio de las ideas**.
 
+
+---
+
+Sí — en esa publicación titulada *“Nobody Profits”* Hotz habla directamente sobre propiedad intelectual y derechos de autor. Aquí algunas ideas clave que transmite, y lo que se puede inferir de ellas:
+
+---
+
+## Lo que dice en *“Nobody Profits”*
+
+Algunos fragmentos relevantes:
+
+* “Intellectual property is a really dumb idea.” (La propiedad intelectual es una idea realmente estúpida). ([geohot.github.io][1])
+* Critica la analogía de que la piratería es como romper una vidriera y robar: dice que no es equivalente. En el robo, el objeto físico ya no existe para el dueño; en la piratería, todos tienen acceso al contenido, sin que el original se “consume”. ([geohot.github.io][1])
+* Afirma que lo ideal sería que la IA entregara “enormes cantidades de valor a la sociedad pero sin beneficio para nadie” (“The best outcome of AI is if it delivers huge amounts of value to society but no profit to anyone”). ([geohot.github.io][1])
+* Hace una reflexión nostálgica sobre los primeros días de Internet: “El Internet entregaba un valor enorme pero sin lucro” (“The old days of the Internet were this goldmine. The Internet delivered huge value but no profit”), y critica cómo con el tiempo se encontró la manera de monetizar todo y “extraer cada pequeño fragmento de valor”. ([geohot.github.io][1])
+* Propone que la estrategia debe incluir software de código abierto que “rompa el mercado” (market breaks everything), y eliminar a los “scammers” o timadores del espacio tecnológico al hacer que ya no valga la pena intentar capturar valor. ([geohot.github.io][1])
+* Menciona que uno de sus objetivos con sus proyectos (como comma.ai y tinygrad) es reducir el valor capturable por empresas, que los valuations de compañías bajen cuando él crea un repositorio en GitHub. ([geohot.github.io][1])
+
+---
+
+## Interpretación: qué significa esto para su postura del copyright / propiedad intelectual
+
+A partir de lo que Hotz escribe:
+
+1. **Antipropiedad intelectual fuerte / crítica radical del copyright clásico**
+   Él considera que la idea de propiedad intelectual (o al menos ciertas formas de ella) es “estúpida”, implicando que muchas de las justificaciones tradicionales no le parecen válidas.
+
+2. **Prefiere que la tecnología genere valor social, no rentas privadas**
+   Un ideal que plantea es que la IA (y la tecnología en general) aporte muchísimo valor para la sociedad, sin que haya personas o entidades que se lleven ganancias desproporcionadas. Esto entra en tensión con sistemas de derechos de autor / patentes estrictos, que permiten capturar valor.
+
+3. **Open source como arma contra los modelos de negocio extractivos**
+   Él propone construir mucho software de código abierto con la intención de “romper el mercado” — es decir, eliminar la posibilidad de que alguien controle ciertos activos intelectuales para extraer renta.
+
+4. **Desconfianza hacia la monetización del conocimiento e innovación cuando se concentra el poder**
+   La forma en que, según él, el acceso a Internet fue comercializado con el tiempo, extrayendo valor antes libre, lo ve como algo negativo. Aplica esa crítica al modo en que los derechos de autor / propiedad intelectual pueden servir para concentrar rentas más que distribuir valor.
+
+5. **No necesariamente la anarquía total, pero un reequilibrio**
+   Él no propone explícitamente que no exista ningún tipo de protección, pero su lenguaje es bastante radical: habla de eliminar “valor capturable”, de que “nadie gane”, de que el sistema actual de propiedad intelectual es un problema.
+
+---
+
+Si querés, puedo recolectar otras citas en sus publicaciones (anteriores y posteriores) donde mencione propiedad intelectual / copyright / patentes, hacer un resumen más extenso. ¿Te gustaría que prepare eso para vos?
+
+[1]: https://geohot.github.io/blog/jekyll/update/2025/02/19/nobody-will-profit.html "Nobody Profits | the singularity is nearer"
+
