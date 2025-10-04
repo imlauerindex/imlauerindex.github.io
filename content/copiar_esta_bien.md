@@ -392,3 +392,32 @@ Además, en las discusiones que modera, se señala que:
 *   La gente con dinero "no le gustan las palabras código abierto" (*open source*).
 *   Se discute irónicamente cómo **"geohot mata a los VCs"** (`geohot kills VCs`).
 *   Hotz mantiene una visión escéptica del modelo económico, llegando a afirmar que muchos de los propios VCs también son "estafadores" (*scammers*) [Conversation History].
+
+---
+
+En su blog personal *The Singularity is Nearer*, George Hotz (conocido como "geohot") ha expresado opiniones críticas sobre diversos aspectos relacionados con la pandemia de COVID-19. A continuación, se resumen algunas de sus publicaciones más relevantes al respecto:
+
+---
+
+### 😷 Crítica a las mascarillas de tela
+
+En su entrada titulada **"Beauty after COVID"** (5 de marzo de 2022), Hotz cuestiona la efectividad de las mascarillas de tela para prevenir la propagación de enfermedades respiratorias. Argumenta que, en 2019, era conocimiento común entre los expertos que estas mascarillas no eran eficaces, y critica la aceptación generalizada de su uso sin evidencia científica sólida. Además, compara el uso de mascarillas con un acto simbólico vacío, similar a portar una cruz religiosa, sugiriendo que se trataba más de una "teatro de seguridad" que de una medida efectiva. ([Geohot][1])
+
+---
+
+### 🧬 Reflexiones sobre la investigación y los riesgos
+
+En la publicación **"Idiots are going to kill me"** (7 de mayo de 2021), Hotz expresa su preocupación por la investigación de "ganancia de función" en virus como el coronavirus. Cita la cifra de 3.250.648 muertes por COVID-19, comparándola con las 226.000 muertes por armas nucleares, y critica la aparente normalización de la investigación genética en virus mientras otras áreas, como la clonación humana, son estrictamente prohibidas. ([Geohot][2])
+
+---
+
+### 🧠 Desconfianza en la narrativa oficial
+
+En su entrada **"Dangerous Misinformation"** (12 de agosto de 2024), Hotz critica la forma en que Google presenta información errónea sobre él mismo, comparándola con la desinformación relacionada con COVID-19. Sugiere que la respuesta institucional a la desinformación es inconsistente y a menudo ineficaz, lo que socava la confianza pública en las autoridades y los medios de comunicación. ([Geohot][3])
+
+---
+
+### 🔬 Crítica a la tecnología sin industria
+
+En su publicación **"Technology without Industry"** (18 de enero de 2021), Hotz reflexiona sobre cómo la tecnología moderna a menudo depende de sistemas industriales centralizados que pueden ser vulnerables y controlados por élites. Advierte que, si no se construye tecnología que descentralice el poder, podríamos vivir en una "prisión eterna". Aunque no se centra exclusivamente en COVID-19, su crítica a la centralización del poder tecnológico puede extenderse a la gestión de la pandemia y las respuestas institucionales. ([Geohot][4])
+
