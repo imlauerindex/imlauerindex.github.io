@@ -269,3 +269,22 @@ Si querés, puedo recolectar otras citas en sus publicaciones (anteriores y post
 [1]: https://geohot.github.io/blog/jekyll/update/2025/02/19/nobody-will-profit.html "Nobody Profits | the singularity is nearer"
 
 ### Google y Reddit nos fallaron (mirar el video hasta minuto 20)
+
+
+
+# Hacker Manifesto
+
+https://phrack.org/issues/7/3#article
+
+Le pregunte a ChatGPT si estaba relacionado con el copyright que habia mencionado anteriormente:
+
+Sí, está **relacionado indirectamente con el copyright** y con las leyes de propiedad intelectual, pero no en el sentido clásico de “derechos de autor” sobre obras artísticas o literarias.
+
+El texto que compartiste es **“The Hacker Manifesto”** (publicado en *Phrack* en 1986 por +++The Mentor+++), un documento icónico de la cultura hacker. Su tema central no es el copyright en sí, sino la **criminalización de la curiosidad tecnológica** y el acceso a la información.
+
+Sin embargo, hay varios puntos de contacto con el copyright:
+
+* 🔹 **Acceso a sistemas y software**: En los 80, gran parte del software y de las bases de datos eran propietarios. Hackear o usar sistemas sin pagar licencia se veía como “robo” intelectual, algo que está protegido por las leyes de copyright.
+* 🔹 **Conocimiento y libertad de información**: El manifiesto critica que se criminalice la exploración y el aprendizaje en sistemas cerrados. Esto choca con la lógica del copyright, que restringe copia y uso para proteger la propiedad privada de software y datos.
+* 🔹 **Ética hacker vs. copyright**: La ética hacker tradicional promueve la libre circulación del conocimiento (“la información quiere ser libre”), mientras que el copyright promueve su control para generar rentas y limitar el acceso.
+
