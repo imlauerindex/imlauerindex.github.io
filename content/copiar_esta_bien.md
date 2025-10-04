@@ -342,3 +342,53 @@ Acá tenés un **mapa conceptual textual** que muestra cómo *The Hacker Manifes
   * “Conocimiento como derecho universal”
   * “Propiedad intelectual como barrera económica y legal”
 
+
+---
+
+George Hotz es muy vocal y crítico con el modelo de negocio de las *startups* de Silicon Valley, especialmente en lo que respecta a cómo los fundadores gestionan el riesgo y la compensación, un comportamiento que califica de "**prácticamente criminal**".
+
+Su crítica se centra en la inversión de la relación riesgo-recompensa entre el fundador y sus empleados una vez que se inyecta capital de riesgo (VC).
+
+### El Concepto de Riesgo "Prácticamente Criminal"
+
+Hotz define esta situación como un problema fundamental y moralmente inaceptable dentro de las *startups*:
+
+1.  **Inversión de Riesgo:** Considera que es una situación "seriamente incorrecta" cuando el fundador de una *startup* asume **menos riesgo que sus propios empleados**.
+2.  **El Mecanismo de Abuso:** Este comportamiento se manifiesta cuando los fundadores toman dinero de capital de riesgo (VC) y luego se pagan a sí mismos **salarios de \$400,000**. Hotz califica esto como "**disgusting**" (asqueroso).
+3.  **Beneficio Injusto:** Argumenta que pagar salarios tan altos a los fundadores con dinero de inversión es "malo" porque **solo beneficia a las personas por estar conectadas**, no por beneficiar a nadie más en la empresa.
+4.  **Etiqueta de "Estafadores":** Si los fundadores toman menos riesgo que sus empleados, Hotz los considera **"scammers" (estafadores)**.
+
+### La Distribución Ideal de Riesgo y Recompensa
+
+Hotz tiene una visión muy clara de cómo debería operar una *startup* en términos de compensación para reflejar el verdadero riesgo asumido:
+
+*   **Riesgo Mayor, Recompensa Mayor (Potencial):** El fundador asume un riesgo mucho mayor al iniciar la empresa. A cambio, el fundador recibe el "lado positivo" (*upside*) que es una **participación mucho mayor en la equidad** (*equity*) de la compañía.
+*   **Salario Mínimo para el Fundador:** Hotz sugiere que, idealmente, los fundadores deberían recibir **el salario más bajo de todos los empleados**.
+*   **Salario Mayor para Empleados:** Los empleados, por su parte, deberían tener menos riesgo que el fundador y, por lo tanto, **deberían recibir un salario base más alto**.
+
+### El Ejemplo de George Hotz
+
+Hotz aplica estos principios a su propia empresa, *comma.ai*, como contraste al modelo que critica:
+
+*   Menciona que su propio salario (*salary*) fue de \$78,000, y lo más alto que fue, alcanzó los \$80,000.
+*   Afirma que se le paga **"the least" (lo menos)** en *comma.ai*.
+
+Hotz también extiende sus críticas más allá de los fundadores, refiriéndose a que **muchos de los propios VCs también son "scammers"** y recuerda que el capital de riesgo en realidad no produce ningún valor.
+
+El tema del capitalismo, las *startups* y las estafas (*scams*) es recurrente en sus transmisiones, y es una de las razones por las que los espectadores a veces se refieren a sus empresas (como *comma.ai*) como una "estafa" o a su nuevo proyecto de bioinformática como una "pequeña farmacéutica ilegal".
+
+
+La abreviatura **VCs** se refiere al **Capital de Riesgo** (Venture Capital) o a los **Capitalistas de Riesgo** (Venture Capitalists) [Conversation History].
+
+George Hotz ofrece una perspectiva particular y crítica sobre qué son y cómo operan:
+
+*   **Definición de Función:** Hotz describe el Capital de Riesgo (VC) como un mecanismo para **"convertir capital social en dólares"**.
+*   **Método de Financiación:** Si bien menciona que, dadas las alternativas, podría ser una "forma decente de financiar empresas" (*decent way to fund companies*), Hotz es muy crítico con los resultados que ha producido, especialmente "recientemente".
+
+Esta crítica se relaciona con su postura controvertida respecto al **Capitalismo y el Riesgo Criminal**, donde critica a los fundadores de *startups* por aceptar dinero de VC para pagarse sueldos altos (\$400,000) y, de ese modo, asumir menos riesgo que sus propios empleados, un comportamiento que él considera "prácticamente criminal" (*practically criminal*) [Conversation History].
+
+Además, en las discusiones que modera, se señala que:
+
+*   La gente con dinero "no le gustan las palabras código abierto" (*open source*).
+*   Se discute irónicamente cómo **"geohot mata a los VCs"** (`geohot kills VCs`).
+*   Hotz mantiene una visión escéptica del modelo económico, llegando a afirmar que muchos de los propios VCs también son "estafadores" (*scammers*) [Conversation History].
