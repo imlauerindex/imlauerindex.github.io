@@ -1146,3 +1146,46 @@ Actualmente uso `4get.ca` como mi buscador
 abook acpi aichat airgeddon alsa-utils amfora base base-devel bash-completion bc beef-xss bettercap bisq2 bridge-utils btop bully chawan-git chromium cronie crunch dhcp dillo discord dnsmasq dosfstools espeak-ng ettercap evince falkon fastfetch feh festival fim firefox fish floorp-bin foot fzf gallery-dl gimp git goimapnotify grim grub hashcat hcxdumptool hcxtools hostapd hostapd-wpe hugo i2p-bin imagemagick inetutils iptables-nft irssi isync jackett-bin jdk jdk22-openjdk john jq kdenlive kristall lib32-mesa libguestfs libreoffice-fresh libvirt lighttpd linux linux-firmware lynx man-db man-pages mdk4 mpop mpv msmtp mtools neomutt networkmanager newsboat notmuch noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra obs-studio os-prober pam-gnupg pass pcmanfm pipewire pipewire-pulse pixiewps plocate proxychains-ng python-pip qbittorrent qemu-full qt5-wayland qt5-webengine qt6-wayland rclone reaver samba smtube speech-dispatcher sway tcpdump telegram-desktop texlive-fontsextra texlive-fontsrecommended texlive-langspanish texlive-latex texlive-latexextra texlive-plaingeneric thunderbird tmux tor tor-browser-bin torsocks translate-shell tree ttf-font-awesome ttf-jetbrains-mono-nerd ttf-material-icons-git ttf-nerd-fonts-symbols unrar unzip urlview v4l-utils vim virt-manager virtualbox w3m webkit2gtk wget wifite wine wireshark-cli wl-clipboard wmenu xdg-desktop-portal xdg-desktop-portal-wlr xorg-xhost xorg-xwayland yay yay-debug yt-dlp
 ```
 
+
+### Stream.sh
+instalar butterfly (web shell)
+```bash
+python -m venv butterfly
+pip install butterfly
+pip install butterfly[systemd]
+```
+
+
+
+```bash
+#!/bin/bash
+sudo chmod 666 /dev/input/event*
+amixer set 'Internal Mic Boost' 50%-
+
+source butterfly/bin/activate
+
+butterfly.server.py --port=2020 --unsecure &
+
+falkon "https://www.youtube.com/live_dashboard" "http://localhost:2020"
+
+### Solo tty
+ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /dev/fb0 -c:v libx264 -preset ultrafast -tune zerolatency -pix_f
+mt yuv420p -c:a aac -b:a 128k -f flv -async 1 -ar 48000 -latency 100 -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/354p-cjwx-h1se-5xvg-b88c
+2> /dev/null
+
+
+#### Camara con tty
+#ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /dev/fb0 -f v4l2 -framerate 60 -video_size 320x240 -i /dev/vide
+o0 -filter_complex "[2:v]scale=320:240[cam];[1:v][cam]overlay=main_w-overlay_w-10:main_h-overlay_h-10[outv]" -map "[outv]" -map 0:a -c:v libx
+264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/354p-cjwx-h
+1se-5xvg-b88c 2> /dev/null
+
+### Solo camara
+#ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f v4l2 -framerate 60 -video_size 1280x720 -i /dev/video0 -c:v libx264 -preset ultrafast
+-tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/354p-cjwx-h1se-5xvg-b88c 2> /dev/
+null
+
+
+#mpv "https://www.youtube.com/channel/UCtnEUzfISySqwOkWH4nRoww/live"
+```
+
