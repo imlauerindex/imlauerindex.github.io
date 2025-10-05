@@ -345,3 +345,11 @@ Tenes que construir la imagen así: `https://ia600906.us.archive.org/9/items/nom
 Segundos / 60 = minutos    
 Segundos / 60 / 60 = horas    
 Milisegundos / 60 / 60 / 24 = días.   
+
+
+## Descargar todos los mp3 de un index of
+
+```bash   
+wget -r -np -nH --cut-dirs=2 -A mp3 -R "index.html*" -e robots=off -c "http://www.ashleecadell.com/xyzstorelibrary/Nirvana/"
+```
+   
