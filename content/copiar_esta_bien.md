@@ -370,7 +370,7 @@ Hotz tiene una visión muy clara de cómo debería operar una *startup* en térm
 
 Hotz aplica estos principios a su propia empresa, *comma.ai*, como contraste al modelo que critica:
 
-*   Menciona que su propio salario (*salary*) fue de \$78,000, y lo más alto que fue, alcanzó los \$80,000.
+*   Menciona que su propio salario (*salary*) fue de \$ 78,000, y lo más alto que fue, alcanzó los \$ 80,000 .
 *   Afirma que se le paga **"the least" (lo menos)** en *comma.ai*.
 
 Hotz también extiende sus críticas más allá de los fundadores, refiriéndose a que **muchos de los propios VCs también son "scammers"** y recuerda que el capital de riesgo en realidad no produce ningún valor.
