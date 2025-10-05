@@ -353,3 +353,8 @@ Milisegundos / 60 / 60 / 24 = días.
 wget -r -np -nH --cut-dirs=2 -A mp3 -R "index.html*" -e robots=off -c "http://www.ashleecadell.com/xyzstorelibrary/Nirvana/"
 ```
    
+# Yt-dlp 720 
+
+```bash
+yt-dlp -f "bestvideo[height<=720]+bestaudio/best[height<=720]"
+```
