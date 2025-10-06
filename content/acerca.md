@@ -30,4 +30,41 @@ Mi usuario en LiberaChat es esotericwarfare.
 
 "What's reality? I don't know. When my bird was looking at my computer monitor I thought, 'That bird has no idea what he's looking at.' And yet what does the bird do? Does he panic? No, he can’t really panic, he just does the best he can. Is he able to live in a world where he’s so ignorant? Well, he doesn't really have a choice. The bird is okay even though he doesn't understand the world. You're that bird looking at the monitor, and you're thinking to yourself, 'I can figure this out.' Maybe you have some bird ideas. Maybe that’s the best you can do." - Terry Davis.
 
+---
+
+### 🕊️ **La cita traducida:**
+
+> “¿Qué es la realidad? No lo sé.
+> Cuando mi pájaro miraba la pantalla de mi computadora pensé:
+> ‘Ese pájaro no tiene idea de lo que está viendo.’
+>
+> ¿Y qué hace el pájaro? ¿Entra en pánico?
+> No, no puede realmente entrar en pánico; simplemente hace lo mejor que puede.
+>
+> ¿Puede vivir en un mundo del que es tan ignorante?
+> Bueno, en realidad no tiene opción.
+>
+> El pájaro está bien, aunque no entienda el mundo.
+> Vos sos ese pájaro mirando el monitor,
+> y pensás para vos mismo: ‘Puedo entender esto.’
+> Tal vez tengas algunas ideas de pájaro.
+> Tal vez eso sea lo mejor que puedas hacer.”
+> — *Terry A. Davis*
+
+---
+
+### 💡 **Explicación:**
+
+Terry usa una imagen muy simple —un pájaro mirando una computadora— para hablar de algo muy profundo: **los límites del entendimiento humano**.
+
+* **El pájaro** ve la pantalla, los colores, el movimiento… pero no entiende nada de lo que realmente pasa.
+  No sabe que hay bits, programas, señales eléctricas, sistemas operativos.
+  Para él, solo es una luz extraña.
+
+* **Nosotros somos ese pájaro.**
+  Vivimos mirando “la realidad”, creyendo que la entendemos —con ciencia, religión o filosofía—, pero en el fondo puede que estemos tan lejos de comprender la realidad última como el pájaro está de entender una computadora.
+
+* **Y aun así, seguimos viviendo.**
+  El pájaro no necesita entender el mundo para sobrevivir.
+  Nosotros tampoco. La ignorancia es inevitable, pero no necesariamente trágica.
 
