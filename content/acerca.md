@@ -70,9 +70,9 @@ Terry usa una imagen muy simple —un pájaro mirando una computadora— para ha
 
 ---
 
-Los paises que premian los juegos de suma 0, son pobres. Hay que castigar los juegos suma 0 para que el pais crezca. Lo controvertido es que las personas con mayor talento lo unico que hacen son juegos de suma 0.
+Los paises que premian los juegos de suma 0, son pobres. Hay que castigar los juegos suma 0 para que el pais crezca. Lo controvertido es que las personas con mayor talento lo unico que hacen son juegos de suma 0. **Por eso yo creo que hay que ilegalizar la publicidad**.
 
-# ChatGPT:
+##### ChatGPT me contesto esto (no le puse que hay que ilegalizar la publicidad):
 
 
 Exactamente.
