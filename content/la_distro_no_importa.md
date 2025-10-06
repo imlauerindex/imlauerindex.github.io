@@ -4,6 +4,8 @@ date: 2025-10-04T12:56:52-03:00
 tags: ['linux']
 ---
 
+A no ser que uses un entorno de escritorio pesado como Gnome 3. El rendimiento sera practicamente el mismo porque el problema esta en el navegador, que es grande y hoy en dia se usa para todo.
+
 Existen canales enteros de YouTube que se dedican a probar diferentes distribuciones de Linux, pero **la mayoría de estos videos funcionan más como una forma de consumismo que como información útil**.
 Es lo mismo que hacen las empresas al venderte una nueva Mac, consola de videojuegos o smartphone: la comunidad de Linux repite el patrón, pero con distribuciones.
 

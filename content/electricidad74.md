@@ -34,3 +34,7 @@ tags: [electricidad]
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8TswPKW-h8WFy_0wMOGzE3g59-VJz3ZiE-qvkoAniRE4cMLPxZfjvRqhhl4eSXYsyHqnmeycW-EeItohtSeP-Hmg5D5-fHl18taWHGfLh1-Etrz9jvFSaYR1rFS7qC-TRHGyeRXD17HMywY9vuKRB3pCP0jYU0xXWPimV5uQJcr2rHB6u6saawGXANTU/s4160/IMG-20251001-WA0003.jpg)
 
 
+
+# Resumen.
+
+

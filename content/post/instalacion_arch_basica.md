@@ -1148,23 +1148,19 @@ abook acpi aichat airgeddon alsa-utils amfora base base-devel bash-completion bc
 
 
 ### Stream.sh
-instalar butterfly (web shell)
 ```bash
-python -m venv butterfly
-pip install butterfly
-pip install butterfly[systemd]
+sudo pacman -S ttyd
 ```
 
 
+---
 
 ```bash
 #!/bin/bash
 sudo chmod 666 /dev/input/event*
 amixer set 'Internal Mic Boost' 50%-
 
-source butterfly/bin/activate
-
-butterfly.server.py --port=2020 --unsecure &
+ttyd --port 2020 --writable fish & 
 
 falkon "https://www.youtube.com/live_dashboard" "http://localhost:2020"
 
@@ -1189,3 +1185,18 @@ null
 #mpv "https://www.youtube.com/channel/UCtnEUzfISySqwOkWH4nRoww/live"
 ```
 
+
+
+#### Error mirrors arch
+   
+```bash
+error: failed retrieving file '0ad-a27.1-2-x86_64.pkg.tar.zst' from america.mirror.pkgbuild.com : Could not resolve host: america.mirror.pkgbuild.com warning: fatal error from america.mirror.pkgbuild.com, skipping for the remainder of this transaction error: failed retrieving file 'wxwidgets-gtk3-3.2.8.1-2-x86_64.pkg.tar.zst' from america.mirror.pkgbuild.com : Failed to connect to america.mirror.pkgbuild.com port 443 after 133 ms: Could not connect to server error: failed retrieving file 'wxwidgets-common-3.2.8.1-2-x86_64.pkg.tar.zst' from america.mirror.pkgbuild.com : Failed to connect to america.mirror.pkgbuild.com port 443 after 129 ms: Could not connect to server error: failed retrieving file 'gloox-1.0.28-1-x86_64.pkg.tar.zst' from america.mirror.pkgbuild.com : Failed to connect to america.mirror.pkgbuild.com port 443 after 129 ms: Could not connect to server error: failed retrieving file '0ad-data-a27.1-1-any.pkg.tar.zst' from america.mirror.pkgbuild.com : Failed to connect to america.mirror.pkgbuild.com port 443 after 200 ms
+```
+
+#### Solucion: 
+
+```bash
+sudo reflector --country Chile,Brazil,Argentina --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+sudo pacman -Syyu
+
+```
