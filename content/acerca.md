@@ -70,5 +70,82 @@ Terry usa una imagen muy simple —un pájaro mirando una computadora— para ha
 
 ---
 
-Los paises que premian los juegos de suma 0, son pobres. Hay que castigar los juegos suma 0 para que el pais crezca.
+Los paises que premian los juegos de suma 0, son pobres. Hay que castigar los juegos suma 0 para que el pais crezca. Lo controvertido es que las personas con mayor talento lo unico que hacen son juegos de suma 0.
 
+# ChatGPT:
+
+
+Exactamente.
+Ahí tocás una **paradoja central del capitalismo avanzado**: cuando la sociedad no orienta los incentivos correctamente, **las personas más inteligentes y talentosas terminan usando su ingenio para actividades de suma cero o incluso negativas**, en lugar de crear valor real.
+
+Vamos a desmenuzarlo bien:
+
+---
+
+## 🧩 1. Qué significa que los talentosos hagan juegos de suma cero
+
+* **Juegos de suma cero**: toda ganancia de alguien implica una pérdida igual de otro.
+  Ejemplos típicos:
+
+  * especulación financiera de altísima frecuencia (sin aporte productivo),
+  * lobby para conseguir subsidios o licencias exclusivas,
+  * optimización fiscal agresiva,
+  * marketing y manipulación de atención,
+  * guerras de patentes,
+  * acaparamiento de recursos naturales o digitales.
+
+* En teoría, el talento humano debería dirigirse a resolver problemas reales (energía, salud, educación, infraestructura, tecnología útil).
+  Pero en la práctica, el sistema premia a quien **extrae valor**, no a quien **lo crea**.
+
+---
+
+## 💸 2. Por qué el sistema los empuja a eso
+
+1. **Los juegos de suma cero pagan más rápido y con menos riesgo**.
+   Es más rentable mover dinero o datos que crear fábricas o productos nuevos.
+2. **Los incentivos institucionales están mal calibrados**.
+   Premian rendimiento financiero, poder de mercado y control de información.
+3. **El talento sigue al dinero y al estatus**, no al impacto social.
+4. **Los costos sociales están externalizados**: quien hace daño (por contaminación, manipulación, evasión) rara vez paga por ello.
+5. **La educación misma moldea ese objetivo**: enseña a competir, no a cooperar o innovar con propósito.
+
+---
+
+## ⚙️ 3. Consecuencias macroeconómicas
+
+* **Desviación de capital humano**: los mejores ingenieros, economistas y abogados se van al sector financiero o al marketing algorítmico.
+* **Productividad estancada**: el talento no se invierte en innovar, sino en proteger rentas.
+* **Desigualdad creciente**: quienes dominan los juegos de suma cero capturan riqueza sin generarla.
+* **Crisis de legitimidad**: la sociedad percibe que el mérito no se premia, sino la manipulación.
+
+---
+
+## 🔁 4. Cómo revertirlo (y hacer que los talentosos jueguen suma positiva)
+
+1. **Cambiar incentivos fiscales y legales**
+
+   * Impuestos más altos al rent-seeking, ganancias especulativas o monopolios de información.
+   * Beneficios fiscales a innovación productiva, investigación, transición energética, software libre, salud pública.
+2. **Reformar la educación**
+
+   * Enseñar cooperación, resolución de problemas, ética tecnológica y economía real.
+   * Fomentar proyectos donde el éxito depende del impacto comunitario, no del ranking individual.
+3. **Diseñar mercados que midan el valor social**
+
+   * Créditos de carbono, bonos de impacto social, métricas ESG **reales** (no cosméticas).
+   * Valorar el trabajo de cuidado, educación y mantenimiento del entorno.
+4. **Estigmatizar culturalmente los juegos de suma cero**
+
+   * En lugar de glorificar traders, influencers o especuladores, celebrar a quienes crean cosas útiles.
+5. **Regular la atención y la información**
+
+   * Si la atención es el recurso escaso del siglo XXI, su manipulación debe tener límites éticos y legales.
+
+---
+
+## 🧠 5. En resumen
+
+> Cuando los cerebros más brillantes trabajan para mover riqueza en lugar de crearla, la sociedad entera se empobrece.
+
+El progreso de un país no depende solo de cuánto talento tiene,
+sino de **a qué lo dedica**.
