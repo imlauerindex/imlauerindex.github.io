@@ -68,3 +68,7 @@ Terry usa una imagen muy simple —un pájaro mirando una computadora— para ha
   El pájaro no necesita entender el mundo para sobrevivir.
   Nosotros tampoco. La ignorancia es inevitable, pero no necesariamente trágica.
 
+---
+
+Los paises que premian los juegos de suma 0, son pobres. Hay que castigar los juegos suma 0 para que el pais crezca.
+
