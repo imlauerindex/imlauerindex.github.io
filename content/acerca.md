@@ -143,9 +143,4 @@ Vamos a desmenuzarlo bien:
 
 ---
 
-## 🧠 5. En resumen
-
-> Cuando los cerebros más brillantes trabajan para mover riqueza en lugar de crearla, la sociedad entera se empobrece.
-
-El progreso de un país no depende solo de cuánto talento tiene,
-sino de **a qué lo dedica**.
+Trabaje en IMIBIO Misiones manteniendo computadoras. Un local de reparacion de computadoras. Robotica Misiones. Upwork. Instalacion de camaras en varios locales.
