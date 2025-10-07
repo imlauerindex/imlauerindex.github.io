@@ -2,7 +2,7 @@ echo "Generamos thumbnail para youtube"
 echo "Ingresa titulo sin espacios:"
 read titulo
 echo "Ingresa pequeña descripción con saltos de linea para el thumbnail de youtube (sino sale de la imagen)"
-read -z short_description
+read short_description
 echo "Gerando thumbnail..."
 thumbnailg $short_description /tmp/$titulo.png
 echo "Ingresa ubicación completa de archivo de audio m4a de la clase"

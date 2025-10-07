@@ -16,6 +16,12 @@ https://archive.org/details/record-291
 
 https://www.youtube.com/embed/mJBupgdgrYc
 
+### Lo subí por partes porque no detecto el subtitulo.
+
+https://www.youtube.com/watch?v=VBBSIUzBqSg
+
+https://www.youtube.com/watch?v=cfMHUYlO8Bs
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtAz65qDd2BwcBT344JXh6RGc_5TIYQOKz3zg_VfctqYAJ7I-ZGh50jnGnC-ZfAoqq_FnCjaDPiWJBwQIY2J5j2mYkYU5j4JjnW862fZWY3xRZb2kelFZ04yFawYpKJlTiOEV3Xz_wCqWjmIui8Q9Waw5IBp-peXLmg-IYeJOoY3TIlTYNXA1Q9pMd0gk/s4160/IMG_20251006_192010084_rotado.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrq4NM9dUFJTbi1lXhYtUs9OwzUdSvuZccXmADkE77GlW6cg1K-5OjaT2fwkCutQdZQ61Qce0vc0NDcWFcUlvaGL3F7oWALzMr-rnc6LuspQ1a68pLfycVBmyg8xB_Q_RZ-ECsikq5YWdKD7Kx_XZY9wp6orIXxtZHsodI8vSs3xiz1zkiXwubWdf3sVc/s4160/IMG_20251006_192032613_rotado.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUYxnXiso1dMyyM_UsR1PuGMNB4ytLOGKALgEkcpRA9SH4TnjiGWGn1JJOVZHCOr6v586v01v1Vm4mQcuBFM7mCXEhLtP3qVIZ9S5W5Lf29eTChB-DS6trSkKytS8FQfCJc2wW1VyjUBTrPYA65YOc9dDLUMTWBNqusujyOdsLkVZa98R-WlJnU8RNtyU/s4160/IMG_20251006_192129176.jpg)
