@@ -9,14 +9,24 @@ sudo systemctl start smb
 # firefox vocaroo.com/upload
 # firefox archive.org/upload
 
-echo "Ingresa la URL del articulo que creaste:"
-read -z URL
-echo -e "\nIngresa el titulo del articulo que creaste sin espacios (electricidad4)"
-read -z titulo
-echo -e "\nIngresa el tag del articulo"
-read -z tag
-echo -e "\nIngresa la descripción del articulo que creaste"
-read -z descripcion
+if test (count $argv) -lt 6
+    echo "Usage: script.fish <url_de_blogger> <nombre_archivo(electricidad4)> <tag> <descripcion> <short_description_youtube> <archivo_audio_path>"
+    exit 1
+end
+
+set URL $argv[1]
+set titulo $argv[2]
+set tag $argv[3]
+set descripcion $argv[4]
+set short_description $argv[5]
+set archivo_audio_path $argv[6]
+
+echo "✅ URL: $URL"
+echo "✅ Título: $titulo"
+echo "✅ Tag: $tag"
+echo "✅ Descripción: $descripcion"
+echo "✅ Descripción thumbnail: $short_description"
+echo "✅ Archivo de audio: $archivo_audio_path"
 
 echo -e "\nGenerando el articulo...."
 
@@ -44,12 +54,9 @@ sed -i 's/s320/s4160/g' "$HOME/projects/blog/content/$titulo.md"
 
 
 echo "Generamos thumbnail para youtube"
-echo "Ingresa pequeña descripción con saltos de linea para el thumbnail de youtube (sino sale de la imagen)"
-read -z short_description
 echo "Gerando thumbnail..."
 thumbnailg $short_description /tmp/$titulo.png
 echo "Ingresa ubicación completa de archivo de audio m4a de la clase"
-read -z archivo_audio_path
 echo "Creando un video a partir del audio..."
 ffmpeg -i /tmp/$titulo.png -i $archivo_audio_path -c:v libx264 -tune stillimage -c:a copy /tmp/$titulo.mp4
 
