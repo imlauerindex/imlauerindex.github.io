@@ -18,6 +18,8 @@ tags: [electricidad]
 
 [https://www.youtube.com/watch?v=9G8xkNQiNNw](https://www.youtube.com/watch?v=9G8xkNQiNNw)
 
+[https://www.youtube.com/watch?v=ZAf3-i2TxdQ](https://www.youtube.com/watch?v=ZAf3-i2TxdQ)
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRd-WdDRAKxFeDp1oMUazXz_15b3YqeuL6AdgNbz8Wo3ubVYD0B_59Pn4gsjHn544G7FtuZCOOI1Pesk3bRKty2xOQmAXyb-501qRrHoHBhAP3dsZTNace-s9yEnIx9Ijo-XgoMFnOO6_cxLwexxGfFB2PV5QNPeDa0lOLtDQY4oPT7xxRQfMa9ULe3OI/s4160/IMG_20251007_193234682.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiumYRrWx0lbHADl7ZhtAdFZuQk7SOSpeLM_qQ2fxCHNoed-TMNSyIttdy-zb6RMBl5cTQT3BKB4Ovl3Aspjp6Kb0-Y9ch6fLGfRGVr5-ixMaPCpGTmvLcwEEFr8dLqcDV4_B4kEEX9LiYSBy8E1K-xFhu-6CsmwAVK_o1kvmKKgYmtLNq40Og6bc4su0k/s4160/IMG_20251007_193259202.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNfyc3RyOYxaktiptflNSJ51pA_l1pERN1yijGf60N5nuxqh3iDa0MuUuITbDuEZrWtuy9yVh-k_vZUghXGaKMfMkmRp28-MAhEJpOc_tnVciDFjQgb-G6K-jl6_BMxveAqYB07sqQ1eInZBQhSStVDj0WU5OYr2sfrkDx68KJhxty2DUxmXRJccj3Aao/s4160/IMG_20251007_193303028.jpg)
