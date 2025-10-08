@@ -2,6 +2,7 @@
 title: "Inodoro_reparacion2"
 date: 2025-10-07T17:14:08-03:00
 tags: [reparacion]
+draft: true
 ---
 
 Audio en Vocaroo: https://vocaroo.com/1eoo5rlEkfHO Archivos en Archive: https://archive.org/details/vid-20251007-164045_202510 https://ia600100.us.archive.org/18/items/vid-20251007-164045_202510/Record-299.m4a
