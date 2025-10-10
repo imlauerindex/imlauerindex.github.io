@@ -1,9 +1,16 @@
 ---
-title: "Inodoro_reparacion2"
+title: "Inodoro reparacion X2"
 tags: [reparacion]
 ---
 
-Audio en Vocaroo: https://vocaroo.com/1eoo5rlEkfHO Archivos en Archive: https://archive.org/details/vid-20251007-164045_202510 https://ia600100.us.archive.org/18/items/vid-20251007-164045_202510/Record-299.m4a
+#### Audio en Vocaroo:
+
+https://vocaroo.com/1eoo5rlEkfHO
+
+#### Archivos en Archive:
+
+https://archive.org/details/vid-20251007-164045_202510 https://ia600100.us.archive.org/18/items/vid-20251007-164045_202510/Record-299.m4a
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvrxlt39NgucOJcINFWL8MawhBW8iAa6iVCxy-9cmuGU2jl7JAHPDsAYNnVfgK04vd_pymdYR0uAb6_bY4Q3gt8OyKhMFtXIJwzs_ICsQyoAENqP0jEblE1SHGeyZQiQaSXym3hS5qu0yg38KjJytNbR0pjU14rpSTcaHcoGpvgBQyUIZdenPp2NAIaZI/s4160/IMG_20251007_164042.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6MVjyR3pCitkh7iRvRZGjfRI0ONTxbBBdsTMiMunKBRgzuwEk4G3PZ6TPDlKxpPhH75v4-fEkzr0QKvgVwWj-ssQ6qb73gAnifH8mZYi6QhF5cB7I_OEbgRBTGjZve3cBHz6y9AnibicvjN7C8077ZB8B-8QyE9WuDuPzSYb4JPhw4WEHhxaOQBN5JVc/s4160/IMG_20251007_163740377.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFui9p5PzpbzfbXOaL4Uk02bOokMBEr2PzjU8Lf7MOop-nRR9Z-8iRBlR62EPyN31dN0JOfIt1EBimjFBI2zxvmnZBAou0OrpMxYOsuEnRuZv19x3oNtpoqsQ618bktks8ATNqvr3vhCkuIldJ_VBOyN-y4KNxPG1H6P1d0WtTa7m0iDlzlwFCzo7APeE/s4160/IMG_20251007_163746516.jpg)
@@ -37,7 +44,3 @@ Audio en Vocaroo: https://vocaroo.com/1eoo5rlEkfHO Archivos en Archive: https://
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfTJ2O3O8M5uBNu-9lc7ybSJYOa6C7bV3cVOfO-s55jFWmssaEvGJSqM-dhq0nUS3dEb_uuPeSb6oHl0gk9k0C2y3QwVITRrfSoVwnx_-zgSIk0PPmy-9gqhnQPDKTwDtigijCNowvmRK3qjjbDkXkyIWxIR86_wUrTIKqgCJ3ocm61kObSeXgnX1cyq0/s4160/IMG_20251007_165418182.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4AcDl6e64yh56epzD7fM5FJE-iUaurfI7HU9reaSBEAkEE9ekLs5wxwlKgzz_73dLXTx-pRtnzIIvgs8djEc7uTtJbZ9ho5CoLQddXaU5dOKCFhIMSfPFI-fmtGNoM_OTrrAn7Yc_iy1Um7H4UW_XiAhoWe_w_uL6qkVjdvf8rqT91gOlpGx5zrmKeFw/s4160/IMG_20251007_165500631.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1ucDAaWsvXX0_Q4ryp67KESFHTCJ4EaDdVlmDhJF8dd7p85mQskivKPlnfYfj4pbX6SuWu9LTwJio1xkJqKDqwxpCnAkK3aHxnoYbcPIAzf83_EB9Z-m51a5_ewjv_sRAPjP9vaTap_g7-c3GE2AqjCgHpG5JZMbayxh3FD7VKFVPv92hTj2rrSeJ22o/s4160/IMG_20251007_165501666.jpg)
-![]('+r+')
-![]('+r+')
-![]('+r+')
-![]('+r+')
