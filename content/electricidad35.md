@@ -285,10 +285,28 @@ Profesor dara resumen para que sirve puesta a tierra y vamos a ir armando una ca
 
 Una chica quiere hacer instalaciones electricas el otro cuatrimestre y esta haciendo plomeria y esta haciendo construccion en seco, yo les dare para que lea.
 
+Hay gente que hizo auxiliar electricista pero no termino montadores entonces puede entrar, ahora si vos sos de 0, no te puedo decir no vengas si vos tenes ganas veni. Ahi tenes que amañarte. A veces vienen 4 o 5 en conocimiento 0.
 
+Despues veremos sistema de iluminacion automatizado todas esas cosas (fotocelula).
 
+Hoy en dia estamos en boca de todo tratar de automatizar la parte electrica.
 
+Estamos trabajando con fotocelula y otro detector de movimiento entonces se hace un encendido, cuanto tiempo quiero que este encendido.
 
+Alumna: Ahora viene ya un foquito que tiene un detector.
+Profesor: Claro, si vos tenes varios lugares necesitas tener varios focos. Y no es que sale 10 pesos entonces en algunos casos te conviene hacer un circuito por galeria entonces ves ese detector que rango tiene si tiene 360 grados, que longitud entonces prende todo. Yo estoy por poner en un baño en casa.
+
+Gustavo: Y la fotocelula en donde iria conectado en el retorno de la fase?
+Profesor: La fotocelula tiene como todo elemento cualquier elemento que va a automatizar siempre recibe 220 voltios. O sea que de algun lado vos llevas 220 ahi, toma la fotocelula y ahi va a la lampara. La lampara tendra un neutro y el retorno va a la lampara.
+
+Vos vas a alimentar 220 a la lampara a la fotocelula si vos tenes un detector tambien.
+
+Gustavo: Nosotros hicimos la instalacion en el tablero la fase al interruptor y el interruptor a la lampara.
+Profesor: Claro, entonces siempre yo trato de meter un equipo que interrumpa el paso de la corriente, vamos a suponer que vos tengas un interruptor ese en vez de dar 220 vos tenes neutro ahi. Enciende el interruptor para darle 220 voltios a la fotocelula, la fotocelula tiene otro cable generalmente hay de 3 y ese va a la lampara lo que te hace la fotocelula es abrir y cerrar el circuito y te tira el retorno en vez si vos tuvieras la llave de ese retorno te tira la lampara.
+
+Vos tenes la lampara aca?
+
+Vamos a hacer facil para que entiendan, hay distintos tipos de fotocelula.
 
 ---
 
