@@ -231,11 +231,61 @@ Es interesante que vean como es el dibujo: Esto es un medidor con puesta a tierr
 
 Hoy en día ya se usa el conductor verde y amarillo.
 
-La forma más fácil de armar es hincar la jabalina. Con conductor de cobre puedo hacer sistema de anillado en zonas rurales se usa un sistema unifilar solo 1 conductor, supongamos que es un transformador y la puesta a tierra se hace a través de un sistema de jabalina y conductor desnudo se llega hasta 10 metros. Ese conductor desnudo.
-
-Me sirve para sacar del transformador fase y neutro que va a una vivienda.
+La forma más fácil de armar es hincar la jabalina. Con conductor de cobre puedo hacer sistema de anillado en zonas rurales se usa un sistema unifilar solo 1 conductor, supongamos que es un transformador y la puesta a tierra se hace a través de un sistema de jabalina y conductor desnudo se llega hasta 10 metros. Ese conductor desnudo. Eso me sirve para sacar del transformador fase y neutro que va a una vivienda.
 
 La tierra tiene potencial 0.
+
+El ayudante busca la puesta a tierra.
+
+Ahi esta conductor verde amarillo esta pelado aca esto puedo volver a colocarlo adentro para que tenga mayor contacto, cuando mayor contacto tenga el conductor con la puesta a tierra es mejor mi instalacion.
+
+Esa es la camara de inspeccion, tiene una tapa arriba para poder descubrirlo.
+
+Ayudante: Pero entre tanta basura no encontramos la tapa.
+
+Espeche dice que va a afanar una tapa de puesta a tierra total quien va a saber que fue el.
+
+Este es el esquema principal, una vez que tengamos el esquema ahi pasamos a la parte de la bornera en el tablero, la norma me pide que toda la parte metalica de instalaciones esten unido puesta a tierra, en principio, toda la parte metalica o cualquier equipo que tenga puesta a tierra entonces que hace las normas?
+
+Las normas tratan de decir si tengo una variacion de cantidad de circuito que por cada circuito yo coloque un conductor de puesta a tierra con secciones de 2,5mm^2.
+
+A esa bornera por cada circuito sale un conductor de 2,5mm^2.
+
+Antes los electricistas solo colocabamos un conductor desnudo e ibamos uniendo. Un solo conductor salia del tablero.
+
+Pero fueron estudiaron y vieron que las pequeñas descargas de algunos circuitos se van sumando y pueden hacer saltar el disyuntor piden ahora que por cada circuito si hay una fuga de corriente sea por circuito independiente y que vaya lo mas rapido a tierra, antes que vaya por otro camino acuerdense si yo tengo un equipo electronico y tengo una pequeña fuga que antes habia al tener solo 1 circuito de puesta a tierra puede ser que hubo una descarga y esa descarga en vez de ir rapido a tierra iba a un aparato que puede ser un elemento electronico. Entonces como veran va cambiando el sistema la gente va viendo como mejora nuestra instalacion y aparentemente esa es la forma correcta.
+
+Un conductor de puesta a tierra seccion de 2,5mm^2 por circuito.
+
+El sistema de puesta a tierra no es solo la jabalina.
+
+Si tengo el conductor desnudo si o si este caño es de PVC porque el conductor esta desnudo y esto es de hierro, esa fuga se puede trasladar al caño y al caño se translada al pilar, entonces hoy eso es de PVC al ser esto de una bornera o un conductor con bornera y todo lo que sea verde y amarillo, ya no necesito tener una diferencia cualquier caño me sirve.
+
+Si el conductor es verde-amarillo cualquier caño sirve porque el conductor ya no esta desnudo.
+
+
+La otra vez fui a una obra y escuche a los electricistas y te dicen ¿que diferencia hay en poner caño de PVC con respecto al caño de hierro? Dicen no porque el caño de hierro se corroe y enseguida se oxida dicen los electricistas.
+
+Entonces le dije si es cierto que se oxida si vos pones la mezcla con la CAL que es mas facil, hay que hacer una mezcla especial solo cemento y arena.
+
+#### PVC vs Hierro
+
+Fijense los electricistas en vez de hacer el la mezcla saca de alla (del que hizo la hormigonera) va y saca el balde si **es PVC no hay problema**.
+
+Gustavo: O en zona de playa se oxida el metal.
+
+Profesor: A mi me dijeron no que dura mucho tiempo y les mostre las escuelas quinquenales tenia caño de hierro y todavia no estaba ni oxidado. O sea todo lo que queria plantear para cambiarme el caño de PVC por el caño de hierro no tenia sustento.
+
+Profesor habla de que el que falta deberia averiguar que se dio a alumno.
+
+Torres: Vio que tengo animo, tengo entusiasmo, accion ganas.
+Ayudante: 1ero arregla tu casa.
+
+Profesor dara resumen para que sirve puesta a tierra y vamos a ir armando una carpeta.
+
+Una chica quiere hacer instalaciones electricas el otro cuatrimestre y esta haciendo plomeria y esta haciendo construccion en seco, yo les dare para que lea.
+
+
 
 
 
@@ -243,3 +293,4 @@ La tierra tiene potencial 0.
 ---
 
 Hora 01:31
+01:37:37
