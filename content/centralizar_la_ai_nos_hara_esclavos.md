@@ -20,7 +20,7 @@ También leí *[Manna](https://marshallbrain.com/manna1)* este fin de semana. Pl
 > Mis hermanos en Cristo: ni siquiera pueden imaginar cómo se ve la victoria.
 — [*Curtis Yarvin*](https://graymirror.substack.com/p/you-cant-handle-the-truth)*
 
-Con la forma en que están las cosas actualmente, aunque se haya vuelto tan fácil como quitarle un caramelo a un niño, la gente no renunciará a su deseo de tener poder sobre los demás. No se puede ganar en este juego.
+Con la forma en que están las cosas actualmente, **aunque se haya vuelto tan fácil como quitarle un caramelo a un niño**, la gente no renunciará a su deseo de tener poder sobre los demás. No se puede ganar en este juego.
 
 **Si la tecnología está centralizada, serás un esclavo**. La bota aplastando un rostro humano. **No serás uno de los 6 ganadores. En realidad, ni siquiera habrá 6 ganadores**: los "ganadores" seguirán peleando entre sí mientras tú estás en el medio, hasta que quede solo uno. Y ese único "ganador" ni siquiera es un verdadero ganador. Si una sola persona termina con todo el dinero, ese dinero no vale nada.
 
