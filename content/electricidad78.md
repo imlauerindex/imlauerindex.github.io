@@ -26,3 +26,4 @@ tags: [electricidad]
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsApkR1ojGu-OQZf64DRNKpIoExEsBQGnDMzVeW_9vY4OALKsXhleHOKUWETErsNeQGffPzjAXnrdYU9zmjPrAQG41yscnaDyf8eLrziERxa_1UV77ugP1MPRRfnC_fpd2k7fLMjklPrTyy6cjRAOtTC9dVYkSbGu4r0yfesAqvm9IXc7R3M8NSxO-Uxg/s4160/IMG_20251013_190907461.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRFNRgnFCyfuGdrRy_X07RUXzw46tfgHvM57CPSdhd4GPL4aTsDZH4uEcOKeAtywVUwbPRXSuA4haehheKFtVQ6ia7GRGyvZDI-fdS5OlRjHJGHtrM2DMELMK3rhzqlwVJFOEcKry-UlOsD6OV-sk6era3zfNcNy1BYuBJCYXwlUos655T4AECMdZ9plc/s4160/IMG_20251013_190920250.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCjcKycSZHv5Kf5zrA_5HoijkyeWW-Tjj7N7ZcsdMUn4O7f_bIffq6V7_j6SAatIe3CmWFqzpmiTrT8IIAhjYPbMItb8oSAVl7i7egNPQyffaHysJouR0VJz8_rdpduQoDTv5rpUXqkqkAXUWdUEYDoiyYY2Ymt5RIETbzHVxWOR93rbg2iAp48wup08k/s4160/IMG_20251013_191416980.jpg)
+![](https://ia601008.us.archive.org/32/items/79_electricidad/IMG-20251013-WA0018.jpg)
