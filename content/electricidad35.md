@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 35: [FOTO DE PUESTA A TIERRA] Partes de un disyuntor. Sistema de puesta a tierra. Preguntas de exámen. Alumno cuenta accidente tránsito."
+title: "Electricidad / Clase 35: [FOTO DE PUESTA A TIERRA] Partes de un disyuntor. Sistema de puesta a tierra. Preguntas de exámen. Alumno cuenta accidente tránsito. T."
 date: 2025-06-09T23:09:29-03:00
 tags: [electricidad]
 ---
@@ -12,6 +12,10 @@ https://archive.org/details/record-152
 https://www.youtube.com/embed/Wgl4s89aA_k
 ###### Preguntas de examen
 Hora 01:06 y hora 01:25
+
+Video que paso Espeche por WhatsApp:
+* Como funciona un interruptor diferencial. Electroconexiones: https://www.youtube.com/embed/rVYnCUd79dw
+
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAdqyMeeA11mL8rpR5PDlyYfL-QU_Qb-oL5MkvxDeMFizR2cuBAAYqgrQ62Wqknk7XEASX2qfrT4LwjFGD5ZFhnaBNZ7OC7LbHcBDh4UIHhPsR6RmMMcqFwV7Wzgy15O0kiofEu6rtxVmRfQW_HHf6Ff_Z-grHoBMyHW-t12ORlvvLa27PW5J2VQP1x_I/s4160/IMG_20250609_181751613.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHRnDb8B_hvvtMhJPPn4p5C4vVYYktXX3F1iZi1_Xm_tRw7bt2bydpqoKDSomuoCGPtubOHq3c1EV3LmLF5BtwTYnfV1n6w3irAFXYLItduAL47htKXcF13G2YyQRuCEkFHS_60EHbAHW2dpMjZJ3GsI2YvKfQGzx66PX-ojHnKG9W6JUuqISnfeDPwGc/s4160/IMG_20250609_181806519.jpg)
