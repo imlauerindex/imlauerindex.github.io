@@ -125,6 +125,8 @@ Este es el símbolo de puesta a tierra y esto aparece en cualquier plano y yo pu
 
 #### Hay una pregunta examen: los símbolos 5 o 6 símbolos más usados en el plano eléctrico y ustedes tienen que hacer. Tienen que saber que es una llave tablero seccional, puesta a tierra, esas cosas que figuran en un plano eléctrico necesita que ustedes sepan.
 
+
+
 ---
 
 Hora 35

@@ -37,3 +37,22 @@ alias invidious 'w3m https://inv.nadeko.net/feed/subscriptions'
 ```
 
 
+Cargar imágenes en una nueva ventana del navegador así posteriormente abrirlos con mpv con (shift+M)
+
+```bash
+TITLE string
+Load inline images automatically                        ( )YES  (*)NO
+Maximum processes for parallel image loading            [4                   ]
+Use external image viewer                               ( )YES  (*)NO
+Scale of image (%)                                      [20                  ]
+Inline image display method                             [external command   ]
+External command to display image                       [w3mimgdisplay       ]
+Use link list of image map                              (*)YES  ( )NO
+Fold lines of plain text file                           ( )YES  (*)NO
+Show line numbers                                       ( )YES  (*)NO
+Show search string                                      (*)YES  ( )NO
+Move cursor to top line when going to label             ( )YES  (*)NO
+Move cursor to top line when moving to next page        ( )YES  (*)NO
+                                                        [OK]
+
+```
