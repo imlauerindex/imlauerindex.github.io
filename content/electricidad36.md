@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 36: Puesta a tierra. Jabalina. Disyuntor igual o mayor a térmica. Preguntas examen."
+title: "Electricidad / Clase 36: Puesta a tierra. Jabalina. Disyuntor igual o mayor a térmica. Preguntas examen: símbolos eléctricos (tablero seccional, llave, puesta a tierra)"
 date: 2025-06-11T09:45:52-03:00
 tags: [electricidad]
 ---
@@ -124,6 +124,49 @@ Hay otro error que hacen.
 Este es el símbolo de puesta a tierra y esto aparece en cualquier plano y yo puedo tener en el plano directamente un tablero que generalmente este es la representación dle tablero acuérdense la simbología.
 
 #### Hay una pregunta examen: los símbolos 5 o 6 símbolos más usados en el plano eléctrico y ustedes tienen que hacer. Tienen que saber que es una llave tablero seccional, puesta a tierra, esas cosas que figuran en un plano eléctrico necesita que ustedes sepan.
+
+Necesito que sepan simbología.
+
+Necesito saber que es lo que saben ustedes aparte de que yo tenga información la gente que está allá necesita saber información.
+
+Lo que mide se llama telurímetro, es el dispositivo de medición de la puesta a tierra luego veremos como se hace, quiero que hoy sepan.
+
+El dispositivo es para medir la puesta a tierra.
+
+Si es de tierra 50 cm de profundidad si va horizontal.
+
+Esa va hincada siempre si yo hinco y me encuentro con una piedra puedo colocarlo a 45 grados si tampoco tengo profundidad, entonces lo único que me queda es que esto esté acostado entonces tengo la tierra arriba y todo a su al rededor sirve para descargar.
+
+Y como se hace la caja de inspección si está a 50cm del suelo? Se hace un hueco?
+
+Profesor: No, acá vos tenes el conductor ese que está ahí. Entonces en algunos casos vos tomas de ahí nada más.
+
+Medis desde el cable. No tenes que llegar.
+
+Hay casos en los que no se puede.
+
+Entonces fíense que a veces el telurímetro tiene un cocodrilo pinza cocodrilo entonces a veces el cocodrilo es tan chiquito que les cuesta llegar acá abajo, si vos abris demasiado rompes.
+
+Para lo que ellos tienen tienen 3 o 4 chiquitos no deben tener ni 30 o 40 centimetros para que puedan medir en cada distancia hundir la jabalina de ellos para el telurímetro y él cocodrilo para ellos está bien porque no tiene ni 5 milímetro o 6 milímetro de diámetro entonces entra bien el cocodrilo al tener 3/4 a veces es difícil a veces lo más conveniente es que agarre el conductor.
+
+Otros agarran el prensa cables. 
+
+La parte de arria la idea es tener contacto con la jabalina.
+
+Lo ideal del telurímetro con la pinza cocodrilo porque las que vienen son muy chiquitas es tener si se puede la jabalina o sino el cable. 
+
+
+El cable es más fácil para poder agarrar con el cocodrilo.
+
+Aparte de jabalina puede haber otro electrodo puede haber una placa de cobre a veces es rectangular de 5 de espesor o 6 y llevar 30 x 30 x 30.
+
+Antiguamente había radiadores que tenían un sistema de cobre radiadores de agua en algunos autos, entonces directamente sacaban el radiador le hacían una perforación le pasaban el conductor lo metían a una cierta profundidad para que actúa como un electrodo.
+
+
+
+
+
+
 
 
 
