@@ -85,6 +85,8 @@ sudo pacman -S samba
 
 smbclient --list //192.168.0.204/Users
 
+sudo mount -t cifs //192.168.0.203/Users /mnt/windows
+
 sudo systemctl enable samba smb nmb wsdd avahi-daemon
 
 sudo wget [https://git.samba.org/samba.git/?p=samba.git;a=blob_plain;f=examples/smb.conf.default;hb=HEAD](https://git.samba.org/samba.git/?p=samba.git;a=blob_plain;f=examples/smb.conf.default;hb=HEAD) -O /etc/samba/smb.conf
