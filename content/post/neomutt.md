@@ -66,3 +66,6 @@ Luego cambiá en mbsyncrc Master por Far y Slave por Near.
 
 Y ejecutá `mbsync -a` para bajar tus correos.
 
+
+
+Abrir archivos HTML en falkon: `BROWSER=falkon neomutt`
