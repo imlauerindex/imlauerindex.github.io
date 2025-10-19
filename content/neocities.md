@@ -19,6 +19,38 @@ https://neocities.org/browse?tag=tor
 
 ## ⚙️  **Automated deployment using GitHub Actions (recommended)**
 
+Primero cree una carpeta llamada neocities porque no se permiten `.git` `.node_modules` e imagens creo y ahi puse el html con el siguiente script:
+```bash
+#!/usr/bin/bash
+
+if [[ -z $1 ]]; then
+echo "Falta commit";
+exit;
+fi
+
+for html in *.html; do
+        rm $html;
+done
+for markdown in *.md; do
+        filename_only="${markdown%.*}"
+        (
+        echo '<!DOCTYPE html>'
+        echo '<html lang="en">'
+        echo '<head>'
+        echo '  <meta charset="UTF-8">'
+        echo "  <title>Imlauer | $filename_only </title>"
+        echo '</head>'
+        echo '<body>'
+        cmark $markdown;
+        echo '</body>'
+        echo '</html>'
+        ) | tee $filename_only.html &&
+        cp $filename_only.html neocities/
+done ;
+
+git add . && git commit -m $1 && git push
+```
+
 You can make GitHub automatically push changes to Neocities when you push to `main`.
 
 #### Step 1: Create an API key
@@ -39,110 +71,49 @@ You can make GitHub automatically push changes to Neocities when you push to `ma
 Create `.github/workflows/deploy.yml` in your repo:
 
 ```yaml
-name: Deploy to Neocities
+name: Deploy to neocities
 
+# only run on changes to main. Use main or master depending on whatever your default branch is called.
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+
+concurrency: # prevent concurrent deploys doing strange things
+  group: deploy-to-neocities
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
 
-      - name: Upload to Neocities
-        uses: bcomnes/deploy-to-neocities@v1
-        with:
-          api_token: ${{ secrets.NEOCITIES_API_KEY }}
-          dist_dir: .  # change if your built site is in a subfolder
+    steps:
+    # The checkout step copies your repo into the action runner. Important!
+    - uses: actions/checkout@v4
+    # Set up any tools and build steps here
+    # This example uses a Node.js toolchain to build a site
+    # If you don't need Node.js to build your site, you can omit this.
+    #- name: Use Node.js
+    #  uses: actions/setup-node@v4
+    #  with:
+    #    node-version: lts/*
+    ## If you have a different build process, replace this with your own build steps
+    #- name: Install deps and build
+    #  run: |
+    #    npm i
+    #    npm run build
+    # When the dist_dir is ready, deploy it to neocities
+    # Here we deploy the folder named `public`
+    - name: Deploy to neocities
+      uses: bcomnes/deploy-to-neocities@v3
+      with:
+        api_key: ${{ secrets.NEOCITIES_API_KEY }}
+        cleanup: false
+        neocities_supporter: false # set this to true if you have a supporter account and want to bypass unsuported files filter.
+        preview_before_deploy: true # print a deployment plan prior to waiting for files to upload.
+        dist_dir: neocities
 ```
 
 This action will upload your repo’s files to Neocities automatically every time you push to `main`.
 
 ✅ **Reference:** [bcomnes/deploy-to-neocities](https://github.com/bcomnes/deploy-to-neocities)
-
-
-Good — that’s actually a very common error when using `bcomnes/deploy-to-neocities`. The `JSONHTTPError: Bad Request` means **Neocities’ API rejected at least one of the files** being uploaded, usually for one of these reasons 👇
-
----
-
-## 🧩 1. **You’re uploading disallowed files**
-
-Neocities only allows *safe web formats*:
-
-> `.html`, `.css`, `.js`, `.png`, `.jpg`, `.gif`, `.svg`, `.ico`, `.mp4`, `.mp3`, `.txt`, `.pdf`, `.xml`, `.json`, `.woff`, `.woff2`, etc.
-
-❌ **Blocked extensions:** `.zip`, `.map`, `.ts`, `.jsx`, `.md`, `.yml`, `.git`, and all binary or hidden files (`.gitignore`, `.github`, `.git/`, `node_modules/`, etc.)
-
-### ✅ Fix:
-
-In your repo root, create a file called `.neocitiesignore` and add:
-
-```
-.git/
-.github/
-node_modules/
-*.map
-*.ts
-*.tsx
-*.jsx
-*.yml
-*.yaml
-*.md
-*.zip
-*.json5
-package*
-README*
-```
-
-Then push again.
-Neocities will now skip these files.
-
----
-
-## ⚙️ 2. **Your `dist_dir` points to the wrong folder**
-
-If you’re using a static site generator (Astro, Jekyll, Eleventy, etc.), make sure you’re only uploading the built site, not the source or node_modules.
-
-Example for Astro:
-
-```yaml
-with:
-  api_token: ${{ secrets.NEOCITIES_API_KEY }}
-  dist_dir: dist
-```
-
-Check that the folder (`dist`, `_site`, `build`, etc.) contains **only web files** like `index.html`.
-
----
-
-## 🧠 3. **Your API key or site name mismatch**
-
-If your key belongs to a different Neocities account or site, you’ll get “Bad Request.”
-
-### Verify:
-
-Run this (locally or in a test workflow):
-
-```bash
-curl -H "Authorization: Bearer YOUR_API_KEY" https://neocities.org/api/info
-```
-
-It should return your site info.
-If not, regenerate the key at [neocities.org/settings](https://neocities.org/settings).
-
----
-
-## ✅ Quick fix summary
-
-1. Add a `.neocitiesignore` to filter out unsupported files.
-2. Ensure `dist_dir` points to your build output (not your source).
-3. Recheck the `NEOCITIES_API_KEY` secret.
-
----
-
-If you paste your workflow YAML (just the relevant `deploy` section) and tell me what’s inside your repo (e.g. Astro/Jekyll/plain HTML), I can tailor the `.neocitiesignore` and config exactly to your setup.
-Want to do that?
-
