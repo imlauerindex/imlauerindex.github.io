@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 37: Como comprobar puesta a tierra. Bajar sensibilidad disyuntor. Tetrapolar con 2 salidas de circuito. Tipos canalizacion. Descarga rayos. Esquema acometida. Preguntas Examen. Tetrapolar llevado al monofásico(caro y al pedo)."
+title: "Electricidad / Clase 37: Como comprobar puesta a tierra. Bajar sensibilidad disyuntor. Tetrapolar con 2 salidas de circuito. Tipos canalizacion. Descarga rayos. Esquema acometida. Preguntas Examen. Tetrapolar llevado al monofásico(caro y al pedo). 2 tipos de canalización: embutidas y exterior."
 date: 2025-06-12T01:59:25-03:00
 tags: [electricidad]
 ---
@@ -118,7 +118,7 @@ Saquen la foto para que vean.
 
 A veces uno estando en obra te traen otro interruptores diferenciales que no sirven, no es que no sirven, si conecto un trifásico llevado a monofásico tomando estas características uso fase y neutro internamente, fase y neutro salida.
 
-Estamos como si uera un disyuntor si yo hago así tapo estos 2 borners y me quedará como si fuera monofásico la función es la misma. Internamente no está alimentado son polos distintos así que no hay problema.
+Estamos como si fuera un disyuntor si yo hago así tapo estos 2 borners y me quedará como si fuera monofásico la función es la misma. Internamente no está alimentado son polos distintos así que no hay problema.
 
 Fíjense que la sensibilidad cualquiera de los casos es de 30 miliamper. 
 
@@ -137,6 +137,84 @@ Los alumnos se quedan mirando, parece que no entendieron.
 
 Revisando uno encuentra cosa, yo lo utilicé por eso quiero comentarles me sirivó para poder resolver problemas. Fíjense que habíamos dicho que había interruptores diferenciales de 10 de sensibilidad y ya pasa 30 y yo necesitaba tener menor sensibilidad que 30 entonces coloqué de esta forma en un sistema monofásico.
 
-No conseguí interruptor diferncial de 10 entonces lo que hice es tratar de ver, bueno esto me enseñó el catálogo.
+No conseguí interruptor diferencial de 10 entonces lo que hice es tratar de ver, bueno esto me enseñó el catálogo. Y pude llevarlo a la mitad, de 30 a 15.
 
-Y pude llevarlo a la mitad, de 30 a 15.
+El mismo equipo de 30 miliamper hace pasar 2 veces por el equipo entonces salta con los 15 miliamper, porque hago pasar 2 veces la conexión monofásica  por el interruptor tetrapolar. Ahí está el dibujo.
+
+El interruptor diferencial actúa por sensibilidad esos 30 miliamper. Lo otro es el calibre que permite que la corriente que pasa por el interruptor principal vuelva por el disyuntor pase sin nungún efecto contrario que no dañe al interruptor por eso es que siempre dicen que los interruptores dferenciales tienen que tener un calibre mayor que el ITM.
+
+Gustavo: Eso es si yo necesito de más sensibilidad?
+Profesor: Sí, siempre y cuando sea un tetrapolar. Un lugar húmedo por ejemplo se pone más sensibilidad.
+
+Uno que está trabajando en vairos lugares cambia un interruptor o le traen mal entonces ante la necesidad uno busca la forma de mejorar esa característica colocando de esa forma, fíjense esto no probé todavía pero algún día probaré.
+
+Que es un interruptor tetrapolar lo haga de acuerdo a estas conexiones yo puedo hacerlo con 2 salidas de circuito, es como si tuviera fíjense una alimentación y 2 salidas salida de circuito y los 2 me protegen con el mismo interruptor. Son cosas teóricas y que se realiza de vez en cuando esto está un poco avanzado. Hace un puente y vuelve a salir por abajo.
+
+
+Yo tengo varias carpetas interruptores varias carpetas de contactores y encontré esas cosas que yo instalé y dió resultado por eso les traigo. 
+
+Justo se tiene que dar esas condiciones. 
+
+
+Como les dije yo siempre tengo interruptores y disyuntores de repuesto antes yo hacía mantenimiento de clínica y todo y salía de noche entonces tenía que llevar las cosas y tengo almacenado ahí porque uno siempre compra en gran escala para que no te falte nada. Ya me están por echar de casa algún lado tendré que tirar.
+Ayudante: En mi casa tengo espacio.
+
+Profesor: Y los viejos traigo para que algún día ustedes hagan los tableros la idea es que ustedes hagan los puentes y todas esas cosas.
+Ese catálogo es de Siemmens (alemán)
+
+Estaban también unos libros y te daban las cosas había una casa llamada el contacto allá abajo en mitre y tenían los libros técnicos grandes y uno miraba, en esa época todavía no había celulares.
+
+Hoy en día por ejemplo supongamos que ustedes necesitan información entran a la inteligencia artificial en google como hay mucha información a veces es interesante tener una cierta idea porque sino entran en algún lugar y le va a pasar mandando por otro lado como dijo él que el vio un video de obra de un ingeniero en chaco y algunas cosas vió que estaban no actualizadas.
+
+No se dice no sabía se dice no actualizado.
+
+Así que ustedes cuando digan el ingeniero no sabía no digan eso, digan el ingeniero no estaba actualizado. 
+
+Cada vez que miro aparece una fotocélula así que la próxima empezamos con fotocélula. Acuérdense esto se fundamental es algo sencibllo la otra vez tenía la fotocopia esta y daba la posibilidad pero cuando dice protecciones habituales esto es instalciones eléctricas domiciliarias y esto es la síntesis esto ya recibieron esto la parte de arriba dice las normas no le den mucha informacwimportancia porque si leen todo van a salir del tema. Es lindo pero bueno.
+
+
+####Pregunta de examen.
+
+El tema de canalización siempre es importante que ustedes tengan en cuenta que la boca esto es caño acuérdense que los símbolos me interesa que ustedes tengan los símbolos que más se usan en una instalación domiciliaria entonces caños boca de iluminación llave de 1 punto e interesante supongamos que ustdes tengan una caja de paso por ahí esto venga acá y esto venga acá que ustedes sepan ahí te dice parte de la norma si yo tengo **unión entre una caja ya sea caja de paso o una caja octogonal en el caso que representa una boca de iluminación está conectado por un conductor con caño ya sea de PVC  o de hierro ese caño tiene que estar unido con conectores, eso es fundamental y esto que esté fijo** . ESO PRGUNA DE EXAMEN.
+#### Si no están los conectores está mal.
+
+### Y esta boca si está suspendida aparte de estar fija tiene que tener gancho U.
+
+Sirve para colocar cualquier artefacto porque esta boca estará fija entonces yo puedo fijar cualquier artefacto pesado ahí. 
+Es importante la fijación de la boca y del gancho U porque generalmente hoy se está reemplazando el machimbre y utilizando el PVC entonces ese PVC por suerte para nosotros que estamos en la parte de escuelas, ponemos artefactos doble antes era artefacto fluosrecente y tenía un balasto ese balasto era pesado encima en algunos casos se recalentaba y calentaba la chapa y acuérdnese que todo son de chapa calentaba la chapa y la gente en vez de fijar a la boca al gancho U fijaban al PVC y como fijaban al PVC? Solo con tornillo entonces con el tiempo se recalentaba la chapa el tornillo no más en el plástico se calentaba y después se venía para abajo el artefacto.
+
+Entonces la gente le exigía que por lo menos me pongan un tarugo ahí, el tarugo era un elemento más flexible y por el calor no tenía problemas. Después había otro método para poder sujetar eso.
+
+##### Así también ocurrió con los durlocks emperazon a aparecer unos sujetadores para poder sujetar los artefactos sin tener la boca fija, pero lo interesante ahora es que la boca esté fija.
+
+Acuérdense que yo tengo 2 tipos de canalización:
+Embutidas y a la vista o exterior.
+
+Entonces es importante que tengan en cuenta esa parte que se utiliza en un caso y en otro y sí empezamos con el tema aparecerá siempre el diagrama o esquema de una instalación eléctrica domiciliaria.
+
+\* Profesor se alegra que vinieron muchos estudiantes. Faltan los 2 hermanos Chuck Norris.
+
+El tema es que siguiente el esquema es fácil no tengan otra idea, que eso está esquematizado acuérdense voy a sacar un borrador.
+
+El señor será mi sucesor luego.
+
+Apareció una empresa y dice vamos a colocar pararrayos con punta frankling, ¿a qué altura? Mínimamente decime que es lo que tengo que poner, una columna le dije. Y te pide que sea mínimamente 5 metros arriba de la altura más alta de reserva, tendrás que hacer una columna de 5 y después fijarse que la protección o el ángulo de protección caida donde esté la edificación y dice pero si sale solo un pedacito me falta la otra mitad, pongale 50 metros más de la edificación y tenes que poner otro frankling, entonces me dice pero hay otra posibilidad? Sí le dije hay otro pararrayos que va al encuentro del rayo y tiene mayor pero la única diferencia es que ese vale 10 veces más lo que vale este y la otra punta póngale en esa época, hoy en día vamos a suponer que la punta valga 20 mil la otra valga 200 mil y pico, es más o menos así la ecuación.
+
+Después hizo no más la punta frankling unió como le dije ayer. Lo importante es el lugar de protección como yo protejo eso de cualquier rayo o descarga exterior atmosférica pero no se preocupen no hay pregunta en esas en el examen.
+
+Yo hablo y ya dibujo, la mano es más rápida que el cerebro. A veces es al revés.
+
+
+#### Dibuja esquema principal de la acometida (dado en la 3era clase).
+
+Siempre parten del esquema principal. ¿Qué era esto? La red exterior 220/380 
+
+
+
+
+
+
+
+---
+
+Minuto 47:30
