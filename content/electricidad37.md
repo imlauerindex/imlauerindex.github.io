@@ -207,9 +207,113 @@ Yo hablo y ya dibujo, la mano es más rápida que el cerebro. A veces es al rev�
 
 #### Dibuja esquema principal de la acometida (dado en la 3era clase).
 
-Siempre parten del esquema principal. ¿Qué era esto? La red exterior 220/380 
+Siempre parten del esquema principal. ¿Qué era esto? La red exterior 220/380 voltios esto que llega después línea de baja tensión de esta característica ahí va el fusible y ahí directamente voy al medidor tablero general y hasta acá línea municipal de acá a acá accionamos nosotros, de acá a acá la prestataria. Y ahí sigue tablero seccional cada uno si está bien cada uno tendrá puesta a tierra, de acá sale directamente a todos los circuitos y puedo salir también a otro tablero seccional.
+
+Rápido así. Entonces la pregunta a veces surge acuérdense que esto que está acá es la acometida y después dice que valores cual es la línea principal está ahí generalmente los esquemas que mandamos así que no habrá problemas.
+
+#### Preguntas examen: puede haber definiciones cuál es línea principal cuál es línea seccional que es el tablero general sobre este aspecto eds donde empezamos nuestro análisis y donde nosotros tenemos inherencia y a partir de donde que es lo que tenemos que saber  Como conecto esto a la red.
+
+Importante en este coso tengo que saber que esto es un esquema unifilar y para saber que es monofásico tengo esta característica puede ser la línea trifásica tengo esto y el neutro son condiciones simples directamente ayudan para una interpretación más rápida si yo hago este esquema cualquier pregunta con respecto a esto ya lo sabré.
+
+A qué se llama línea principal o secundaria o lo que sea.
+
+Es un esquema fácil está en el reglamento en la fotocopias, entonces no hay problema. Esquema general no más de instalaciones.
+
+Hablan de fotocopias.
+
+Hay varias fotocopias que es lo mismo lo mismo que está ahí está acá acuérdense que es para un sistema de 1 vivienda no departamentos ni varios departamentos son todos parecido la misma cosa, el mismo cable canal.
+
+Bueno.
+
+Más o menos entendieron las pautas.
+
+Bromea que le pondrá un 0 porque no trajo mate en realidad si trajo pero no tuvo tiempo para armarlo.
+
+El documento se llama simbología.
+
+La idea principalmente para que entiendan la gente que generalmente está haciendo electricidad o domiciliaria o tema industrial, a veces es importante los esquemas eléctricos entonces supongamos antes había libros esquema eléctricos para tablero de bombeo contactores.
+
+Con colores se resolvía tableros.
+
+Yo estudiaba con libro de esquemas una vez que sabes contactor, interruptor termomagnético y diferencial solo me quedaba armar.
+
+Importante examen:
+
+##### Como es el interruptor termomagnético que es lo que se lee en el frente.
+
+Arriba de esto hay una tapa un contrafrente para que nadie pueda tocar algún borner vivo lo único que aparece son las partes legibles.
+
+Tienen que saber que dice el frente.
+
+Está identificado que circuito es. Ahora cuando veamos el tema del tablero se aconseja un buen tablero que tenga estos son tipos gabinetes tiene la tapa después cierra así, en la contratapa se aconseja y se exije que esté el diagrama unifilar.
+
+El diagrama unificlar indica el sistema de conexionado todo y la simbología.
+
+Importante saber que dice el contrafrente.
+
+Cada seccion de conductor tiene corriente máxima, hay que escribir eso y con qué interruptor se protege eso.
+
+Quiero saber si ustedes entienden que el elemento que protege el conductor que es el ITM tiene que ser para esa sección de conductor tal.
+
+Cosas que dice en el frente del ITM: Amperage, corriente de ruptura, curva, calibración, polos, 16 amper protege 2,5mm^2 se usa en tomacorriente, rectángulo con número ese tiene 4500 amper es la capacidad máxima de ruptura que puede soportar, es la corriente que puede soportar el elemento sin producir ruptura, tensión: 400 voltios ese indica que ese ITM aguanta hasta eso, 220 240 en monofásico pero si se desliga el neutro entran 2 fases llega a 380 y puede soportar hasta 400 el ITM, el número 3 
+
+Ese interruptor es bipolar.
+
+Que se desligue el neutro significa que entra la fase por el neutro. Eso hace que se queme los motores de heladera: por alta tensión o por baja tensión. Luego veremos elementos para proteger línea.
+
+Ese número 3 hay distintas categorías de interruptores, 1,2 y 3 el 1 no se usa y aparece de vez en cuando 2 y 3. Cuando es 2 ni figura ahí porque ese número 3 significa que es una buena clase y limita supongamos en caso de corriente cortocircuito, en vez de soportar toda la corriente de cortocircuito corta antes.
+
+Corta antes de llegar al pico por eso es categoría 3 en menos tiempo corta.
+
+En algunos lados aparece el tema de seguridad y otros normas IRAM significa que ese elemento fue comprobado.
+
+Profesor tiene un compañero de trabajo que es Japonés pero ya se enojó. Nuestro edificio es arriba que "lío grande" (el río grande es el río Paraná) y el otro dice no nosotros no hablamos con él ese es chino. Se enoja y qué vas a hacer? Como vas a estar todo el día laburando tenes que mandarte una de vez en cuando.
+
+Ya saben que es lo que protege y como uno lee eso. Antes que me olvide ya vamos a pasar a otra cosa pero después pasaremos al disyuntor, acá tengo mi cebador automático.
+
+En el ministerio teníamos un termo con pulsador y todo y tiene resistencia interna, calienta cualquier cosa. La mayoría toma mate y yo tomo café, té o mate cocido cuando pongo el agua no puedo tomar porque está muy caliente y la gente toma mate o sea que es otra temperatura pasa por la yerba. Por eso ahora estoy tomando mate a ver si me hago hombre.
+
+ITM protege el conductor contra sobrecarga y cortocircuito. El cortocircuito es instantáneo o sea corto fase y neutro automáticamente pasa una corriente grande y corta.
+
+Antes que se queme el cable debe saltar disyuntor.
+
+Si hay baja tensión el ITM no protege.
+
+Si ustedes quieren ver vayan al tablero principal abran la tapa despacito y van a ver un protector tetrapolar tiene un display de 3 fases y ese es un protector de tensión de baja o alta tensión, depende qué tenga porque tiene un rango determinado y ahí figura 230/240 o 200 y pico.
+
+Si es trifásico tiene 380 390, antes que llegue a 400 tiene que cortar.
+
+Eso se instala antes del ITM general? No necesariamente, puede estar después del interruptor. Hay algunos que te mandan un correo, o un WhatsApp se puede conectar al WiFi.
+
+Tengo 2 polos: fase y neutro entonces puede aparecer cuando vemos el tema de tensión, ¿qué es la tensión?, ¿cómo mido esa tensión? Con el interruptor termomagnético ustedes tienen que decir **en los polos** fase y neutro y ahí me da un valor.
+
+Gustavo: Este si puede ir fase neutro, neutro fase a diferencia del disyuntor. 
+
+Profesor: Sí, generalmente para que ustedes entiendan los que hacen tableros dependerá mi interruptor termomagnético para no entrecruzarse los cables uno hace la forma de que si es fase neutro acá entonces tengo un interruptor termomagnético y voy y cumplo fase neutro copio y después acá voy al distribuidor con esa misma característica para mantener la nomenclatura.
+
+Hoy en día trato de que todo hagan con colores distintos que se vean antiguamente había una forma de trabajar los tableristas usar todo color negro, no me importaba si era A, B o C, todo negro quedaba lindo y tenían unos identificadores de circuitos tipo un anillo que venía de acuerdo a la sección de conductor y era todo negro y poníamos en este caso RST y n y en algunos casos los circuitos 1,2 y 3. Todo negro.
+
+Hoy en día se trata de que todos los tableros ya tengan identificado con el azul y otros colores cual es el vivo y cual es el neutro, todavía yo me rió porque yo exijo eso y cuando compré la casa tuve que hacer todo el tendido de línea ahora veo que en esa época usábamos el negro como neutro y el blanco como neutro y los otros colores como fase: rojo y marrón.
+
+#### PREGUNTA EXAMEN: Hoy en día a partir de las normas el color convencional que se debe utilizar es lo que pide la norma. **Ese está en agrupación de conductores y cañería aparecen los colores esos**
+
+Hay una parte acuérdense hay 2 partes o 2 pregunta capaz que 3. 
 
 
+## Eso necesito como elemento para comprobar que es lo que está pasando en la red.
+##### ¿Qué puede aparecer? Como yo en la parte práctica compruebo que está pasando con mi instalación que elemento utilizo: buscapolo, lámpara de prueba, probador de tensión, tester.
+
+Es lo básico. 
+
+No dicen tensión sino diferencia de potencial pero en realidad es tensión.
+
+#### Como yo esa nomenclatura en un instrumento de medición como yo leo eso? Eso tiene que saber bien, **y la lectura que me da el equipo en qué unidad es si es tensión tiene que ser voltios, si mido la corriente tiene que ser en amper si mido resistencia tiene que ser en ohmios**.
+
+Luego aparece la tensión tiene esta nomemclatura y esta unidad y aparece como mido? En este caso con cualquier elemento supongamos el tester, ese es una medición exacta y pruebo en los 2 polos. Si es monofásico fase y neutro tiene 2 polos de un interruptor termomagnético en un tablero, está conectado.
+
+##### Evidentemente pruebo en un tomacorriente fase y neutro. En algunos casos dicen adonde está la fase y donde está el neutro siempre a la derecha con respecto al borner de la tierra. 
+
+### La otra vez vi un video que estaba al revés nosotros siempre a la derecha mirando de frente.
 
 
 
@@ -217,4 +321,5 @@ Siempre parten del esquema principal. ¿Qué era esto? La red exterior 220/380
 
 ---
 
-Minuto 47:30
+4:30
+Minuto 1:10
