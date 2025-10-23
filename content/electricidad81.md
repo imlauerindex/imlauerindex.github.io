@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 81: Clase práctica tablero con contactor"
+title: "Electricidad / Clase 81: Clase práctica tablero con contactor."
 date: 2025-10-22T06:38:37-03:00
 tags: [electricidad]
 ---

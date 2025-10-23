@@ -37,7 +37,7 @@ Primero vamos a empezar con lo básico y para que sirve y después comprobacione
 
 Supongamos que van a revisar una instalación lo 1ero que tienen que saber a veces puede figurar o dejar previsto que están los 3 terminales fase y neutro y el sistema de tierra en el tomacorriente y no aparece el tomacorriente, la forma más fácil de provocar es que ustedes armen eso y revisen la instalación.
 
-La mejor forma de comprobar es sacando pero si yo tengo varios módulos varias cajitas voy a perder mucho tiempo entonces lo ideal es ir revisando por partes y en algunos casos se utiliza generalmente el testre, entonces uno mide fase y neutro te tiene que dar un valor cerca de 220 voltios.
+La mejor forma de comprobar es sacando pero si yo tengo varios módulos varias cajitas voy a perder mucho tiempo entonces lo ideal es ir revisando por partes y en algunos casos se utiliza generalmente el tester, entonces uno mide fase y neutro te tiene que dar un valor cerca de 220 voltios.
 
 ##### Después dejo la fase en este lado y tomo divido con tierra si da la tensión y parecida a 220 voltios es porque realmente tengo puesta a tierra si me da 0 es porque no tengo puesta a tierra.
 
@@ -211,7 +211,7 @@ Siempre parten del esquema principal. ¿Qué era esto? La red exterior 220/380 v
 
 Rápido así. Entonces la pregunta a veces surge acuérdense que esto que está acá es la acometida y después dice que valores cual es la línea principal está ahí generalmente los esquemas que mandamos así que no habrá problemas.
 
-#### Preguntas examen: puede haber definiciones cuál es línea principal cuál es línea seccional que es el tablero general sobre este aspecto eds donde empezamos nuestro análisis y donde nosotros tenemos inherencia y a partir de donde que es lo que tenemos que saber  Como conecto esto a la red.
+#### Preguntas examen: puede haber definiciones cuál es línea principal cuál es línea seccional que es el tablero general sobre este aspecto es donde empezamos nuestro análisis y donde nosotros tenemos inherencia y a partir de donde que es lo que tenemos que saber  Como conecto esto a la red.
 
 Importante en este coso tengo que saber que esto es un esquema unifilar y para saber que es monofásico tengo esta característica puede ser la línea trifásica tengo esto y el neutro son condiciones simples directamente ayudan para una interpretación más rápida si yo hago este esquema cualquier pregunta con respecto a esto ya lo sabré.
 
@@ -313,7 +313,36 @@ Luego aparece la tensión tiene esta nomemclatura y esta unidad y aparece como m
 
 ##### Evidentemente pruebo en un tomacorriente fase y neutro. En algunos casos dicen adonde está la fase y donde está el neutro siempre a la derecha con respecto al borner de la tierra. 
 
-### La otra vez vi un video que estaba al revés nosotros siempre a la derecha mirando de frente.
+La otra vez vi un video que estaba al revés nosotros siempre a la derecha mirando de frente. Ahora mirando de atrás es al revés porque ahí hacés el conexionado, atrás haces el conexionado de frente vos estás midiendo, entonces ahí ya gira será distinto.
+
+En cualquier obra que ustedes tengan para hacer el cálculo lo importante en una instalación es saber que corriente está consumiendo el equipo.
+
+##### potencia eléctrica potencia frigorífica 
+
+Importante: con cualquier fórmula, principalmente la fórmula watt, entonces ustedes saquen que cualquier elemento, cualquier dispositivo cualquier motor figura una placa que va a figurar con la letra P. Ese es potencia, entonces esa placa tendrá un valor de potencia determinada potencia eléctrica porque hay otra que es potencia frigorifica y es diferencia a la potencia eléctrica: hay que multiplicar por un valor o dividir por 800 y algo para que de la potencia eléctrica.
+
+
+En síntesis aparece la potencia divido por la tensión y me da la corriente, esa corriente en amper me permite a mi a través de una tabla saber que sección de conductor utilizo, si sé que sección de conductor utilizo voy a elegir mi ITM para proteger ese conductor.
+
+Yo uso la tabla y lo que me dice el reglamento, qué conductores deben ir en cada elemento si es toma de uso generales, toma especiales e iluminación. Yo no calculo, siempre el conductor que yo coloque tiene que ser mayor a la capacidad que me permite la fórmula o el elemento.
+
+##### En una instalación eléctrica lo que importa es conocer la corriente.
+
+A veces joden con el tema: ¿qué es lo que mata? La humedad? Bueno acá en este caso es la corriente, que puede provocar la muerte.
+
+Necesitamos nosotros saber con qué elemento contamos para proteger.
+
+El profesor está afónico y dice que no gritó los goles de Argentina, lo invitaron para ir a Venezuela pero dice que va a gastar guita de balde.
+
+Alumno: Para mi tablero.
+Ayudante: Debe seguir todo igual. Te regalaron el Riel Din y no hiciste nada.
+Alumno: Bueno, pero tengo que comprar eso. En marzo por ahí habíamos hecho eso de mi tablero, estoy ahorrando.
+Profesor: Ay ay ay que cosa seria.
+
+Aparecerá realice un esquema eléctrico de tal cosa, sencillo lo que vimos ahí en práctica 
+
+
+
 
 
 
@@ -322,4 +351,4 @@ Luego aparece la tensión tiene esta nomemclatura y esta unidad y aparece como m
 ---
 
 4:30
-Minuto 1:10
+Hora 01:22
