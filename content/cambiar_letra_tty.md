@@ -6,6 +6,10 @@ tags: ['tty']
 ```bash
 cd /usr/share/kbd/consolefonts
 setfont latarcyrheb-sun32
+
+o
+
+sudo setfont ter-p20b.psf.gz
 ```
 
 En `/etc/vconsole.conf` tenés que agregar:
