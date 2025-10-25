@@ -1,5 +1,5 @@
 ---
-title: "Cambiar letra TTY"
+title: "Cambiar letra TTY y resolucion."
 date: 2024-11-03T22:55:16-03:00
 tags: ['tty']
 ---
@@ -17,3 +17,9 @@ En `/etc/vconsole.conf` tenés que agregar:
 ```bash
 FONT=latarcyrheb-sun32
 ```
+
+Antes usaba latarcyrheb-sun16 pero era muy chica y sun32 es muy grande asi que tuve que cambiar la resolucion de mi GRUB y usar la letra mas chica.
+
+
+Si estás usando framebuffer (ves colores o logos al arrancar), podés cambiar la resolución del framebuffer, lo que escala la fuente sin cambiarla: explicado acá:  https://imlauera.github.io/post/2021-01-08-cambiando-la-resolución-de-tty
+

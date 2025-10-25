@@ -40,6 +40,7 @@ You can host this folder on:
   <title>My Old Web 1.0 Site</title>
   <link rel="stylesheet" href="style.css">
   <link rel="alternate" type="application/rss+xml" href="rss.xml" title="RSS Feed">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header>

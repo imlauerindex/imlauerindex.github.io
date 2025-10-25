@@ -18,3 +18,7 @@ Descargar todos los archivos de un `index of /`:
 ```bash
 wget -e robots=off -r -np -R "index.html*" "http://ricardonarvaja.info/WEB/EXPLOITING%20Y%20REVERSING%20USANDO%20HERRAMIENTAS%20FREE/ESPANIOL/"
 ```
+
+```bash
+wget -r -l1 -np -nH --cut-dirs=2 -A mp3 -R "index.html*" -e robots=off -c URL
+```

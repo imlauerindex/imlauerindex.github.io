@@ -3,8 +3,7 @@ layout: post
 title: Cambiando la resolución de TTY
 tags: ['tty','resolucion']
 categories: ['linux']
-date: 2021-01-08 15:06 -0300
-date: 2020-12-31T10:39:57-03:00
+date: 2021-01-08T10:39:57-03:00
 ---
 
 
