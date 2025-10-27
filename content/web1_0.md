@@ -4,11 +4,6 @@ date: 2025-10-23T22:36:10-03:00
 ---
 La web moderna esta llena de publicidad y manipulacion, volvamos a la web1.0, si quieren ver como era antes usen [Wiby.me](https://wiby.me)
 
-Perfect — let’s go full **Web 1.0** style: no site generators, no React, no bloat.
-You’ll hand-craft your site with plain **HTML**, **CSS**, and a manually written **RSS feed** — exactly like the sites you find on [wiby.me](https://wiby.me/).
-
----
-
 ## 🧱 1. Folder structure
 
 Create a folder like this:
@@ -189,8 +184,3 @@ Each time you add a post:
 2. Add a `<li>` in `index.html` linking to it.
 3. Add a new `<item>` in `rss.xml`.
 4. Upload your files. Done.
-
----
-
-Would you like me to show you a **ready-to-upload sample folder (zipped)** with this structure and working RSS feed?
-

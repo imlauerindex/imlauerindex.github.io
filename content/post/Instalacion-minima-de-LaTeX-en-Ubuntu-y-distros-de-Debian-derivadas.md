@@ -1,13 +1,22 @@
 ---
-title: "Instalacion Minima De LaTeX en Ubuntu Y Distros De Debian Derivadas"
+title: "Instalacion Minima De LaTeX en Ubuntu Y Distros De Debian Derivadas. Un poquito de Arch."
 tags: ['latex','instalacion','debian']
 categories: ['linux']
 date: 2023-03-07T05:14:57-03:00
 ---
 ### Instalacion base
+
 Comenzá instalando texlive-latex-base usando el comando 
+
 ```bash
 sudo apt install texlive-latex-base
+```
+### En Arch
+
+```
+sudo pacman -S texlive-basic
+sudo pacman -S texlive-basic texlive-latex texlive-latexrecommended texlive-fontsrecommended texlive-pictures texlive-luatex
+
 ```
 
 Luego intente compilar el archivo latex usando el comando
