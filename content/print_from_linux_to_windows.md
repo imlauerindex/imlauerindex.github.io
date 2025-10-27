@@ -4,8 +4,6 @@ date: 2025-10-27T10:07:39-03:00
 tags: ['linux']
 ---
 
-https://web.archive.org/web/20190323225452/https://www.cheatsheet.com/money-career/7-advertising-tricks-you-should-stop-falling-for.html/
-
 Perfect — let’s set this up entirely **from the command line**, no GUI or web interface.
 You’ll connect to a **Windows shared printer (SMB)** and register it in **CUPS** so you can use it with `lp` or `lpr`.
 

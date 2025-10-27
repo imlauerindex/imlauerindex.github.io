@@ -4,6 +4,8 @@ date: 2025-10-26T22:26:19-03:00
 tags: ['ads']
 ---
 
+https://web.archive.org/web/20190323225452/https://www.cheatsheet.com/money-career/7-advertising-tricks-you-should-stop-falling-for.html/
+
 George Hotz opina que hay que ilegalizar la publicidad o cobrar un gran impuestos.
 
 ---
