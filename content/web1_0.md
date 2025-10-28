@@ -124,6 +124,8 @@ a:hover {
 This is what lets readers (and other sites) subscribe to updates.
 You can update it manually each time you add a new post.
 
+En la fecha `Tue, 18 Feb 2025 00:00:00 +0000` el +0000 es el UTC, tenes que reemplazarlo por tu horario en mi caso es `-0300` que es el de Argentina.
+
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
