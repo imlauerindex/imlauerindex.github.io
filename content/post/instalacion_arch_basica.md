@@ -1200,3 +1200,16 @@ sudo reflector --country Chile,Brazil,Argentina --age 12 --protocol https --sort
 sudo pacman -Syyu
 
 ```
+
+---
+
+
+```bash
+[N] esotericwarfare@arch /e/u/rules.d> sudo vim 99-input-event-permissions.rules
+
+[I] esotericwarfare@arch /e/u/rules.d> cat 99-input-event-permissions.rules
+KERNEL=="event[0-9]*", MODE="0666"
+[I] esotericwarfare@arch /e/u/rules.d>
+
+```
+
