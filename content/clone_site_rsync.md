@@ -11,5 +11,5 @@ rsync -avcr --delete rsync://rsync_server.com:1111/folder .
 **Cronjob**:
 
 ```bash
-1 0 0 * * * rsync -avcr --delete rsync://rsync_server.com:1111/folder /home/esotericwarfare/offline_tastyfish
+@daily rsync -avcr --delete rsync://rsync_server.com:1111/folder /home/esotericwarfare/offline_site
 ```
