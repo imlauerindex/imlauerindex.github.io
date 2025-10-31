@@ -186,3 +186,5 @@ Each time you add a post:
 2. Add a `<li>` in `index.html` linking to it.
 3. Add a new `<item>` in `rss.xml`.
 4. Upload your files. Done.
+
+### Otro ejemplo miren mi repositorio de `github.com/imlauer/imlauer.github.io` el index.html
