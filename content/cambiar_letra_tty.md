@@ -9,6 +9,8 @@ https://adeverteuil.github.io/linux-console-fonts-screenshots/
 ```bash
 cd /usr/share/kbd/consolefonts
 setfont latarcyrheb-sun32
+sudo setfont LatGrkCyr-12x22
+
 
 o
 
