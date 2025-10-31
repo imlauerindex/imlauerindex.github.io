@@ -13,7 +13,7 @@ El texto aparece centrado hasta en navegadores de consola como w3m, chawan, elin
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 <link rel="stylesheet" href="style.css" />
-  <title>Nested Table Centering</title>
+  <title>Andres Imlauer</title>
 </head>
 <body style="margin:0; padding:0;">
 
