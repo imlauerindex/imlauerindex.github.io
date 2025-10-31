@@ -18,10 +18,13 @@ I might occasionally be willing to pay for access to a web page if I could do so
 
 ---
 
-Mi opinión: A estas empresas de "noticias" "tecnología" les da bronca que la gente use ChatGPT y el resumen de Google (AI overview) para todo y no ingresen a la página para que veas una publicidad de mierda y de paso que veas otra "noticia", pero supuestamente se cubren diciendo que están desinformando a la gente cuando a (((ellos))) nunca les importó "informar" a la gente si todo su negocio es la publicidad. La publicidad debería ser ilegal.
+Mi opinión: Las empresas de "tecnología" van en contra de la tecnología para ganar más plata ahora Google tiene que empeorar su producto para satisfacer a esas páginas.
 
-Ellos son víctimas de su propio juego: el LLM scrapea todo internet y les da bronca porque no pueden mostrarte la publicidad de mierda. Una vez más, la plata cada vez está más concentrada en el mundo. 
+A estas empresas de "noticias" "tecnología" les da bronca que la gente use ChatGPT y el resumen de Google (AI overview) para todo y no ingresen a la página para que veas una publicidad de mierda y de paso que veas otra "noticia", pero supuestamente se cubren diciendo que están desinformando a la gente cuando a ellos nunca les importó "desinformar" a la gente si todo su negocio es la publicidad. La publicidad debería ser ilegal.
 
-Lo mismo pasó cuando Google quitó el "VER IMAGEN" o sea que Google empeora su tecnología para que veas una publicidad, porque en la tecnología no hay plata.
+Ellos son víctimas de su propio juego: Una vez más, la plata cada vez está más concentrada en el mundo. 
+
+Lo mismo pasó cuando Google quitó el "VER IMAGEN", Google empeora su "tecnología" para que veas una publicidad, porque en la tecnología no hay plata.
 
 _Si una persona tiene toda la plata del mundo, la plata no vale nada_ - George Hotz.
+

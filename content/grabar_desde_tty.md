@@ -142,7 +142,7 @@ ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /de
 ```
 
 
-Para poder streamear falkon o qutebrowser desde la TTY usa:
+Para poder streamear falkon, angelfish o qutebrowser desde la TTY usa:
 
 ```bash
 export QT_QPA_PLATFORM=linuxfb

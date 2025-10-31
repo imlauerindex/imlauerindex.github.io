@@ -28,7 +28,7 @@ alias invidious 'w3m -sixel https://inv.nadeko.net/feed/subscriptions'
 alias cinvidious 'cha -V https://inv.nadeko.net/feed/subscriptions'
 ```
 
-### Si vas a usar linuxfb en algunos casos tenes que agregar esta bandera para que funcionen falkon y qutebrowser
+### Si vas a usar linuxfb en algunos casos tenes que agregar esta bandera para que funcionen falkon, qutebrowser y angelfish.
 
 ```bash
 export QTWEBENGINE_CHROMIUM_FLAGS="--ignore-gpu-blacklist --disable-gpu"

@@ -3,6 +3,9 @@ title: "Cambiar letra TTY y resolucion."
 date: 2024-11-03T22:55:16-03:00
 tags: ['tty']
 ---
+
+https://adeverteuil.github.io/linux-console-fonts-screenshots/
+
 ```bash
 cd /usr/share/kbd/consolefonts
 setfont latarcyrheb-sun32
