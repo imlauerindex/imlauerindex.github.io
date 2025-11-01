@@ -19,6 +19,7 @@ Estoy usando w3m, lynx, links, elinks, chawan, simultaneamente, y a veces Falkon
 3. Scroll down to **Cookies** settings.
 4. Set:
 
+   * `Save options to disk: [X]`
    * `accept all cookies` → **Yes**
    * `ask user about cookies` → **No**
 5. Press `→` (right arrow key) on **Accept Changes** to save.
