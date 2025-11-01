@@ -23,6 +23,7 @@ Para atacar una MAC ADDRESS en específico se crea un Berkeley Packet Filter
 Con `airodump` obtenés el BBSID y luego:
 
 ```bash
+sudo airmon-ng check kill
 sudo airodump-ng wlp1s0
 ```
 

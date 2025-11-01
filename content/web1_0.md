@@ -187,4 +187,10 @@ Each time you add a post:
 3. Add a new `<item>` in `rss.xml`.
 4. Upload your files. Done.
 
-### Otro ejemplo miren mi repositorio de `github.com/imlauer/imlauer.github.io` el index.html
+### Otro ejemplo miren mi repositorio de `github.com/imlauer/imlauer.github.io` el index.html o `nobloatnews`.
+
+Pueden copiar todo.
+
+Se ve bien con lynx, links, elinks, chawan, w3m, netsurf.
+
+
