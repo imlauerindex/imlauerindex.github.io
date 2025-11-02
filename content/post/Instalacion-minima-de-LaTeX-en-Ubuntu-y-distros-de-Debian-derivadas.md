@@ -41,3 +41,11 @@ sudo apt install apt-file
 ```
 
 Y así repetis el proceso hasta que logres compilar el archivo de LaTeX con `pdflatex`.
+
+#### Si estas usando ArchLinux
+
+```bash
+sudo pacman -S pkgfile
+sudo pkgfile --update
+pkgfile xcolor.sty
+```

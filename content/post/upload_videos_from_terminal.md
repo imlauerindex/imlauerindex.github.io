@@ -6,6 +6,11 @@ tags: ['terminal','youtube']
 
 https://github.com/tokland/youtube-upload
 
+
+```bash
+$HOME/youtube-upload/youtube-upload/bin/youtube-upload --title="Trafo Sí o Trafo No？ Para tableros de bombas" --recording-date="2011-03-10T15:32:17.0Z" --default-language="es" --default-audio-language="es" --privacy="unlisted" --embeddable=True trafo.mp4
+```
+
 Hay también otra alternativa pero no hablaremos de esa en este tutorial: **Otra Alternativa: https://github.com/porjo/youtubeuploader**
 
 Desde el readme.md: `sudo pip install --upgrade google-api-python-client oauth2client progressbar2`
