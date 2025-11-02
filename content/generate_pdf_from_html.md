@@ -5,9 +5,7 @@ tags: ['pdf']
 ---
 Descargue todo un blog de Jekyll con el siguiente comando:
 
-```bash
 ## **1️⃣ Mirror the site locally**
-
 Use `wget` to download all pages, CSS, and images:
 
 ```bash
@@ -49,7 +47,9 @@ echo "</body></html>" >> all.html
 
 ## Para arreglar ruta imágenes.
 
+```bash
 sed -i 's|\.\./\.\./\.\./\.\./\.\./assets/images/|geohot.github.io/blog/assets/images/|g' all.html
+```
 
 ---
 
