@@ -4,6 +4,9 @@ date: 2025-11-02T14:49:49-03:00
 tags: ['exe']
 ---
 
+https://www.youtube.com/embed/wdHLuB4lkgg
+
+
 ### 1️⃣ Preparar el entorno
 
 * **Modo de depuración:** Usa una cuenta con permisos de administrador si es posible.
