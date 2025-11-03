@@ -138,10 +138,6 @@ set BROWSER w3m
 set -U fish_greeting
 export BROWSER=w3m
 
-# ChatGPT
-export TOKEN=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
-export OPENAI_API_KEY=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
-
 #export QT_QPA_PLATFORM=wayland
 #alias dgg 'w3m -sixel dgg.gg'
 #alias f1 'bash scripts/f1exposure.sh'
