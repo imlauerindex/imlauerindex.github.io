@@ -3,6 +3,8 @@ title: "Arduboy"
 tags: ['games']
 ---
 
+Estaria bueno crear un negocio como Duolingo en donde supuestamente aprendes idiomas pero en realidad es solo una empresa de publicidad, un idioma no se aprende asi.
+
 https://markus.hofer.rocks/diy-arduboy
 
 
