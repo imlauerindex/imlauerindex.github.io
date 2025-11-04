@@ -4,6 +4,8 @@ date: 2025-10-23T22:36:10-03:00
 ---
 La web moderna esta llena de publicidad y manipulacion, volvamos a la web1.0, si quieren ver como era antes usen [Wiby.me](https://wiby.me)
 
+Subo las imágenes a Archive.org o a Blogger.com si lo haces desde Archive.org se puede usar el comando `source internetarchive/bin/activate.fish  && ia upload tag_name *` y luego `ia metadata tag_name`
+
 ## 🧱 1. Folder structure
 
 Create a folder like this:
