@@ -1213,3 +1213,6 @@ KERNEL=="event[0-9]*", MODE="0666"
 
 ```
 
+
+
+Para ver que binarios instaló un paquete: `pacman -Ql haskell-brainfuck`
