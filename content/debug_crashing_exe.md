@@ -292,3 +292,189 @@ If you want, I can give you:
 
 Want to start with the **Event Viewer crash logs**? Paste them here 👇
 
+
+---
+
+Richard Burns Rally (RBR) is very old (2004) and often crashes on Windows 10 due to graphics + compatibility issues and modern mod loaders (RBRCIT / RBR Pro / RallySimFans).
+
+Here’s a clean step-by-step way to **debug + fix** crashes.
+
+---
+
+## ✅ **1. Check if you're running modded or original**
+
+Which one are you using?
+
+| Version             | Notes                              |
+| ------------------- | ---------------------------------- |
+| Original CD/digital | Runs with fixes                    |
+| RallySimFans Mod    | Very stable if installed correctly |
+| RBRPro              | Can be unstable                    |
+| RBRCIT + plugins    | Depends on DLL plugins             |
+
+> Tell me which version you're using — fixes differ.
+
+---
+
+## ✅ **2. Enable Logs**
+
+### 📂 RBR log location
+
+Check for crash logs in:
+
+```
+Richard Burns Rally\RichardBurnsRally.ini
+```
+
+Enable logging by adding:
+
+```
+LOG = 1
+```
+
+Then check `RichardBurnsRally.log` after crash.
+
+---
+
+## ✅ **3. Check Event Viewer**
+
+Find crashing module:
+
+1. `Win + R` → `eventvwr.msc`
+2. Windows Logs → **Application**
+3. Look for “RichardBurnsRally_SSE.exe” error
+
+Common fault modules:
+
+| Faulting DLL                   | Meaning                             |
+| ------------------------------ | ----------------------------------- |
+| `d3d9.dll`                     | DX9 wrapper / graphics plugin crash |
+| `dinput.dll`                   | Input plugin crash                  |
+| `mss32.dll`                    | Audio engine crash                  |
+| `nvd3dum.dll` / `atidxx64.dll` | GPU driver crash                    |
+
+Paste the event error here and I’ll read it.
+
+---
+
+## ✅ **4. Install Required RBR Fixes**
+
+### DirectX 9 Legacy
+
+Install **DirectX June 2010** runtime:
+[https://www.microsoft.com/en-us/download/details.aspx?id=8109](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
+
+### Microsoft Visual C++ Runtimes
+
+Install:
+
+* 2005 → 2022 x86 and x64
+
+### Run as Administrator + Disable Fullscreen Optimizations
+
+Right-click → Properties → Compatibility:
+
+✔ Run as admin
+✔ Disable fullscreen optimizations
+
+(Optional) set to Windows XP SP3
+
+---
+
+## ✅ **5. GPU Compatibility**
+
+### NVIDIA users
+
+* Enable **NVIDIA Control Panel → Power Management = Prefer maximum performance**
+* Disable **DSR**
+* Do not force Antialiasing
+
+### AMD users
+
+* Disable Radeon Anti-Lag
+* Disable Radeon Boost
+* Disable Enhanced Sync
+
+---
+
+## ✅ **6. Common Fixes for Crashes**
+
+### ✔ d3d9 wrapper (essential)
+
+Download **dgVoodoo2** and place these in game folder:
+
+```
+d3d8.dll
+d3d9.dll
+D3DImm.dll
+DDraw.dll
+```
+
+Configure:
+
+* API = DirectX 11
+* VRAM = 256MB–512MB
+
+RBR is very picky; this fix alone stops 90% crashes.
+
+---
+
+### ✔ Audio Crash Fix
+
+Copy `mss32.dll` from a known working RBR installation or reinstall sound drivers.
+
+---
+
+### ✔ Plugin / DLL problems
+
+Trouble mods/plugins?
+Rename plugin folder:
+
+```
+Richard Burns Rally\Plugins → Plugins.off
+```
+
+Test game — if works, a plugin is crashing it.
+
+---
+
+## ✅ **7. Modern Community Installer (best long-term)**
+
+If you want the best stability:
+
+| Installer            | Link                                                                           |
+| -------------------- | ------------------------------------------------------------------------------ |
+| **RallySimFans RBR** | [https://rallysimfans.hu/rbr/index.php](https://rallysimfans.hu/rbr/index.php) |
+
+RSF RBR fixes almost all compatibility issues automatically.
+
+---
+
+## ✅ **8. Memory / Run Windowed to Debug**
+
+Add to `RichardBurnsRally.ini`:
+
+```
+FULLSCREEN=0
+```
+
+Also cap framerate (60 or 90) — unlimited FPS crashes physics sometimes.
+
+---
+
+## ✅ Tell me what to send me to diagnose it
+
+Reply with:
+
+* Event Viewer crash info
+* Whether you use mods (which?)
+* GPU, CPU, RAM
+* If you use Intel, AMD, or Nvidia graphics
+* Your `RichardBurnsRally.log` if exists
+
+You paste, I read it 👍
+
+---
+
+Want me to guide you through opening Event Viewer and reading the crash entry step-by-step?
+
