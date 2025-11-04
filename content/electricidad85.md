@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 86: [FOTO PIZARRÓN] Estuve ausente. Videos enviados al grupo: Trafo si o no en tablero de bombas. El rele termico. Leer una placa de bomba de agua. Y como limpiar un contactor que hace ruido."
+title: "Electricidad / Clase 85: [FOTO PIZARRÓN] Estuve ausente. Videos enviados al grupo: Trafo si o no en tablero de bombas. El rele termico. Leer una placa de bomba de agua. Y como limpiar un contactor que hace ruido."
 date: 2025-11-03T17:36:25-03:00
 ---
 
