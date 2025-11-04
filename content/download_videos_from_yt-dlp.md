@@ -3,6 +3,14 @@ title: "Descargar videos con yt-dlp usando Tor"
 date: 2025-05-04T23:07:07-03:00
 tags: ['linux']
 ---
+
+Descargar la descripción y el thumbnail de un video sin descargarlo:
+
+```bash
+$ yt-dlp --ignore-config --write-description --write-thumbnail --skip-download YOUTUBE_URL
+```
+
+
 Me bajé el binario de `yt-dlp` con night builds del repo de GitHub y no podía descargar el video a través de Tor, así que instalé yt-dlp desde el repo oficial de Arch.
 ```bash
 $ torsocks yt-dlp -F "https://www.youtube.com/embed/ID"
