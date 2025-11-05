@@ -5,6 +5,8 @@ date: 2025-11-01T10:53:19-03:00
 
 Estoy usando w3m, lynx, links, elinks, chawan, simultaneamente, y a veces Falkon cuando necesito preguntar algo a ChatGPT. Es molesto cuando me pregunta si quiero o no aceptar cookies y para poder ver los acentos cambiar `Display character set` a UNICODE debes marcar la opción SAVE TO DISK.
 
+Y también podes habilitar las VIM keybindings, habilitar el HTML5 charset, underline links, y show images as links así se puede abrir las imágenes y poné a w3m como navegador por defecto o mpv para ver la imagen (acordate que tenes que marcar Save options to disk y guardar), sino no se guarda cuando reinicias el navegador.
+
 
 ### Como aceptar cookies
 
