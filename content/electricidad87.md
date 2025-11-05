@@ -24,6 +24,8 @@ Todos los enchufes originales vienen sellados, este no estaba sellado lo desarma
 
 Lo ideal seria abrir la caja en donde esta atornillado el cable ese y cambiar de ahí, el cable dentro del aire que viene desde afuera desde el condensador. Todos los enchufes son sellados si tengo que poner un alargue tengo que cortar si o si.
 
+Luego de conectar el aire tuvimos que buscar el código con un control remoto universal que tenía más de 4000 códigos.
+
 ---
 
 Comenzamos la clase armando el tablero de bombeo siguiendo esta fotocopia, luego hicimos la extensión del cable.
