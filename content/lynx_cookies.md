@@ -17,6 +17,8 @@ Por ejemplo esta opción no me la tomaba tuve que como root descomentarla y asig
 MAKE_LINKS_FOR_ALL_IMAGES:TRUE
 ```
 
+Aún así hay una configuración que no la pude guardar que es la de SHOW TRANSFER RATE: quería cambiarlo de Show KiB/sec rate a Show progressbar y no pude
+
 
 
 ### Como aceptar cookies
