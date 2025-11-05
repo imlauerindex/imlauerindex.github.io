@@ -4,6 +4,12 @@ date: 2025-11-02T14:49:49-03:00
 tags: ['exe']
 ---
 
+##### Al final era el audio que no estaba conectado por eso el juego crasheaba nada que ver todo lo demas.
+
+#### Conectamos un auricular al puerto trasero de la PC y el juego funcionó
+
+Cuando iniciamos el juego se creo un archivo CRASHDUMP pero esto lo hizo despues que instalemos Windbg se creo un archivo parecido al que dice este video:
+
 https://www.youtube.com/embed/wdHLuB4lkgg
 
 
