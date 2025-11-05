@@ -24,6 +24,14 @@ Todos los enchufes originales vienen sellados, este no estaba sellado lo desarma
 
 Lo ideal seria abrir la caja en donde esta atornillado el cable ese y cambiar de ahí, el cable dentro del aire que viene desde afuera desde el condensador. Todos los enchufes son sellados si tengo que poner un alargue tengo que cortar si o si.
 
+---
+
+Comenzamos la clase armando el tablero de bombeo siguiendo esta fotocopia, luego hicimos la extensión del cable.
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWFNFixE2mtIW9yCsFBoTSfjeWOVks5pwJ6g7TQbzXfQzinaATyGc9sIeBCs-OM3O_HSGPCeIxgoXeV1UqyIY-skgoFle5lMp7PBpz4qOzXnljZJ8QgGxRkRL77jfFvMPTHmxrIH8kM8mHJwXsoZnC_lKzausiay6kwYKYONgOVK7fm5NhS6qS1gMDtqE/s4160/IMG_20251007_194100515.jpg)
+
+---
+
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSogzQiMRp_vAoRpmYwHN9AZDhsHHfz_Rn5OjSOiXfMlhQweAU15o9uvE61WySOyGBX0BcVulldtkgPaXP1wvJ9O_IgG9M5EnuITuAYFSmN3EKVcpE9F3782A72WJxGZy7Ljr-SZW6lAqrK39e9GPrnDp_qfSb1XSDhKc5devIWobW__4eJ7IgsjI1ob8/s4160/IMG_20251104_184402471.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWFR0U6UC_-Ppwj6m-VK3wBbrCTbrLhGLgPJOP6Uh-uXl8gow3344jG7JCVmU4QHfPuTi9Z6klnen2kBio0_Lpie1J4L0mdCu4a3yAtjCY5wZdrEGz-xuxAI9c451K43BmlHI0-yMUcl38a1pnI9v2VTmwzQOZp5YlAVFo7vo_AhAXbb-q_ZEXZYx53cs/s4160/IMG_20251104_184613038.jpg)
