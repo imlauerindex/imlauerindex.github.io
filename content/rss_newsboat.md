@@ -11,3 +11,7 @@ https://stallman.org/rss/rss.xml
 https://geohot.github.io/blog/feed.xml
 https://xcancel.com/sstricklandmma/rss
 
+
+
+https://github.com/nobloatnews/nobloatnews.github.io/commits/master.atom
+
