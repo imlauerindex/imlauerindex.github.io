@@ -25,7 +25,7 @@ Nos costo armar el enchufe porque el cable era grueso y no entraba en la chapita
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMKf854kqgTSah10YOTKgv14xpe8arXPinFB6MtHIGFP1ydx4Ljav574p6m6VA41gSh9Bfy6G-Xh5Pnc4HCNk6LbnKrHmmuE5ALD3rdJkKHavDsOgDnOHfosmwuwSZiq2_NEna17OSqDmj5wnymyJ_OOgtKyF-NQV_SRKjrt5dv-Kijsv0ZYvexizN4zI/s4160/IMG_20251104_190456262.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlJ0qe4PHFaX9JMkgPi0YzE2PYXpfd5lRFNCL14GPOcDOxeebTxy78nzkrWctnTYqIE6-i8X8D0evJuE8P2kEMdWFBl3GDG1z7TrKhLjqTCo_6nGLluaCPD4qiQecrVGRAEVb1AiZ0NDlCaQMFYm_uADgLv6FfXM0vyiMyT9y_zrniH__xfCOvhSeLHPQ/s4160/IMG_20251104_194052985.jpg)
 
-### Me olvide de sacar foto a como quedo el enchufe armado :(
+### Me olvide de sacar foto a como quedo el enchufe armado en el interior :(
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8nTo6QXIKfKUCmUNGYBIuCdJK5iJhyf3RqqOD2xKt1cAMjNzZSWvZtX4iqF3euv1efuMJ90k1vfZwlu0XaCubUbVZFbtBFQ4nejBXM2eHzl7K_n16xBHHxP6EKvI4Gp0izSWr881RzeQkbQjElk1JByy2ZH2RFWdI5HRAos1OIhXDo16xCWayrW-Ez78/s4160/IMG_20251104_204118037.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhloDGEHrl_TVUT9zRhpSfZn1VE11y_kWIX1B5NFMvkMjSfwjBRrksSYp6VwMGmqREfF94xiQNqP9yyk5BLRxeUcdP9ueIjncd1rAXzBGwUuVp0LqCAyH18kgjGFvazOlpZQ4XJE5mxpqaiBbYcyX3fK6tdQ3lduA-LTfAY-YMOLSTAHrikKGHmeEI4MU4/s4160/IMG_20251104_204121667.jpg)
