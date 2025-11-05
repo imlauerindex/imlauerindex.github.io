@@ -4,9 +4,9 @@ date: 2025-11-02T14:49:49-03:00
 tags: ['exe']
 ---
 
-##### Al final era el audio que no estaba conectado por eso el juego crasheaba nada que ver todo lo demas.
+##### Al final era el audio que no estaba conectado por eso el juego Richard Burns Rally crasheaba nada que ver todo lo demas.
 
-#### Conectamos un auricular al puerto trasero de la PC y el juego funcionó
+##### Conectamos un auricular al puerto trasero de la PC y el juego funcionó y estaba mal la resolución tenías que configurar desde el 2do launcher que estaba en la carpeta.
 
 Cuando iniciamos el juego se creo un archivo CRASHDUMP pero esto lo hizo despues que instalemos Windbg se creo un archivo parecido al que dice este video:
 

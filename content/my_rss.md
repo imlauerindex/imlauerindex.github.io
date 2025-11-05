@@ -2,6 +2,7 @@
 title: "My RSS list"
 date: 2025-11-01T17:44:11-03:00
 ---
+
 Lo uso con newsboat y newsraft: `newsraft -f ~/.newsboat/urls`
 
 Y tengo un blog en donde uso el historial de commits como mi RSS feed https://github.com/nobloatnews/nobloatnews.github.io/commits/master.atom y el de Linux porque es gracioso https://github.com/torvalds/linux/commits/master.atom  
