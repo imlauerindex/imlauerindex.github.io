@@ -7,3 +7,6 @@ date: 2025-02-16T16:58:27-03:00
 Couldn't get a file descriptor referring to the console.
 ```
 Solución: tan simple como `sudo setfont` o `sudo loadkeys es`
+
+sudo setfont iso02-12x22.psfu.gz
+

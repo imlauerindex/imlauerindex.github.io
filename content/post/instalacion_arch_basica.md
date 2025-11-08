@@ -91,6 +91,10 @@ echo "KEYMAP=es" > /etc/vconsole.conf
 echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf
 echo "arch" > /etc/hostname
 ```
+
+O podes usar sudo iso02-12x22.psfu.gz o LatArCyrHeb-08.psfu.gz
+
+
 ```bash
 vim /etc/hosts
 127.0.0.1       localhost

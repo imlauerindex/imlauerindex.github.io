@@ -12,9 +12,13 @@ setfont latarcyrheb-sun32
 sudo setfont LatGrkCyr-12x22
 
 
+
 o
 
 sudo setfont ter-p20b.psf.gz
+
+sudo setfont iso02-12x22.psfu.gz
+
 ```
 
 En `/etc/vconsole.conf` tenés que agregar:

@@ -3,11 +3,26 @@ title: "Accept Lynx cookies always"
 date: 2025-11-01T10:53:19-03:00
 ---
 
+https://old.reddit.com/r/commandline/comments/1c0qgm3/using_lynx_browser_drop_your_tips_here/
+
+
 Lynx tiene una configuración retrasada.
 
 Estoy usando w3m, lynx, links, elinks, chawan, simultaneamente, y a veces Falkon cuando necesito preguntar algo a ChatGPT. Es molesto cuando me pregunta si quiero o no aceptar cookies y para poder ver los acentos cambiar `Display character set` a UNICODE debes marcar la opción SAVE TO DISK.
 
 Y también podes habilitar las VIM keybindings, habilitar el HTML5 charset, underline links, y show images as links así se puede abrir las imágenes y poné a w3m como navegador por defecto o mpv para ver la imagen (acordate que tenes que marcar Save options to disk y guardar), sino no se guarda cuando reinicias el navegador.
+
+```bash
+EXTERNAL:http:w3m %s:TRUE
+EXTERNAL:http:mpv %s:TRUE
+
+KEYMAP:,:EXTERN_PAGE            # Run external program with current page
+KEYMAP:.:EXTERN_LINK            # Run external program with current link
+```
+
+`TEXTFIELDS_NEED_ACTIVATION` así no se traba cuando usas vi mode
+
+Con el punto (.) abrira la pagina en w3m.
 
 ### Lo ideal es editar /etc/lynx.conf porque a veces no te toma la configuración por más que marques SAVE TO DISK.
 
