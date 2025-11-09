@@ -81,3 +81,33 @@ SET_COOKIES:TRUE
 ACCEPT_ALL_COOKIES:TRUE
 ```
 
+
+Controles para editar texto en lynx Control+G:
+```bash
+Control+p va para atraso
+Control+o cancela
+Control+g cancela
+Control+´ cancela
+control+u borra
+control+t mayúscula
+control+a comienzo
+control+d borra letra adelante
+control+h borra letra atras
+control+f borra palabra adelante
+control+j te lleva a pages.github.com
+control+x salta adonde estaba el cursor antes.
+control+b borra palabra hacia atras. (Si estas en TMUX tenes que ejecutar control+b+control+b)
+control+n mueve cursor palabra hacia adelante
+control+- borra hacia atras
+control+- borra hacia atras
+alt+k borra todo
+alt+d borra palabra hacia adelante
+alt+a va al inicio
+alt+t mueve cursor hacia atras
+alt+r va a la url
+
+alt+q top
+alt+w al fondo
+```
+~
+
