@@ -109,5 +109,16 @@ alt+r va a la url
 alt+q top
 alt+w al fondo
 ```
-~
+
+---
+
+```bash
+EXTERNAL:http:w3m %s:TRUE
+EXTERNAL:http:cha %s:TRUE
+EXTERNAL:http:mpv %s:TRUE
+EXTERNAL:http:netsurf-fb -f sdl -w 1366 -h 768 %s:TRUE
+EXTERNAL:http:falkon %s:TRUE
+EXTERNAL:http:angelfish %s:TRUE
+```
+
 
