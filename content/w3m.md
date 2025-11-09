@@ -42,3 +42,9 @@ Para abrir un link en donde está el cursor: Escape+M
 
 https://wiki.archlinux.org/title/W3m
 
+
+Para crear una carpeta, moverse y descargar un video dentro de w3m:
+
+```bash
+!mkdir Videos/youtube_channel && cd Videos/youtube_channel && yt-dlp ID_YOUTUBE_VIDEO
+```
