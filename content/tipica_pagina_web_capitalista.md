@@ -3,6 +3,10 @@ title: "Tipica página web capitalista"
 date: 2025-11-09T18:03:14-03:00
 tags: ['www']
 ---
+
+
+Crean contenido clickbaitero para atraer a la gente estúpida para que compre publicidad. Toda la publicidad es falsa.
+
 ```console
  ________________________________________________________________________
 |                                  |   |       |  |                   [X]|
@@ -30,4 +34,4 @@ tags: ['www']
 
 ```
 
-Créditos: TastyFish.cz
+Créditos: https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/www.html
