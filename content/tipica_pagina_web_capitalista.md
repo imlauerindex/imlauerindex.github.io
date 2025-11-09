@@ -1,0 +1,33 @@
+---
+title: "Tipica página web capitalista"
+date: 2025-11-09T18:03:14-03:00
+tags: ['www']
+---
+```console
+ ________________________________________________________________________
+|                                  |   |       |  |                   [X]|
+| ~!ENLARGE PENIS WITH SNAKE OIL!~ |   |  CSS  |  | Video AD             |
+|__________________________________|   |       |  |  CONSOOOOOOOOOOOOO   |
+| U.S. PRESIDENT ASSASINATED           |  BUG  |  |   OOOOOOOOOOOM BICH  |
+|                                      |       |  |______________________|
+| Article unavailable in your country. |  LOL  | [make account or suffer]|
+| [log in to enable mouse scrolling]   |       |                         |
+|   ___________________________________|       |___     Prove you're a   |
+|  |                                   |_______|   |    human, click all |
+|  |       We masturbate over your privacy <3      |    images of type 2 |
+|  |                                               |    quasars.         |
+|  |             Consent with spying?              |    [*] [*] [*] [*]  |
+|  |         _____               ______            |    [*] [*] [*] [*]  |
+|  |        | YES |             |  OK  |           |   _________________ |
+|  |         """""               """"""            |_ | FUCK MATURE MOMS||
+|  |_______________________________________________| || IN 127.0.0.1    ||
+|     |                                              || CHAT NOW !!!1!  ||
+|     | Your browser is 2 seconds old, please update ||                 ||
+|     | to newest version to view this site.         ||8000 NEW MESSAGES||
+|     |                                              || hi dear, I NEED ||
+|     | PLEASE DISABLE ADBLOCK OR DIE                || your cock       ||
+|_____|______________________________________________||_________________||
+
+```
+
+Créditos: TastyFish.cz
