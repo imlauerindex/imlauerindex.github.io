@@ -35,3 +35,9 @@ Crean contenido clickbaitero para atraer a la gente estúpida para que compre pu
 ```
 
 Créditos: https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/www.html
+
+
+Esto me genero Grok:
+
+
+![https://ia601407.us.archive.org/26/items/modern_web/subilo.jpg]
