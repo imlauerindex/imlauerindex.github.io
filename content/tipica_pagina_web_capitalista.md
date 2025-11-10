@@ -36,6 +36,8 @@ Crean contenido clickbaitero para atraer a la gente estúpida para que compre pu
 
 Créditos: https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/www.html
 
+https://edramatica.com/Internet (Se lo robaron a TastyFish no le dieron el crédito).
+
 
 Esto me genero Grok:
 
