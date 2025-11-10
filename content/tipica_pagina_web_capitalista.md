@@ -45,3 +45,8 @@ Esto me genero Grok:
 ![](https://ia601407.us.archive.org/26/items/modern_web/subilo.jpg)
 
 ![](https://ia801501.us.archive.org/1/items/modern_web_2025/website_2025.jpg)
+
+
+```bash
+links -dump -width 512 https://web.archive.org/web/20251002094157/https://www.tastyfish.cz/lrs/woman.html | tr "\n\r" " " | sed "s/^.*, consoomer version//g" | espeak -s 120 -p 30
+```

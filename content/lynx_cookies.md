@@ -1,5 +1,5 @@
 ---
-title: "Accept Lynx cookies always"
+title: "Accept Lynx cookies always y espeak para leer texto y piper"
 date: 2025-11-01T10:53:19-03:00
 ---
 
@@ -122,3 +122,72 @@ EXTERNAL:http:angelfish %s:TRUE
 ```
 
 
+
+
+---
+
+
+
+Yes — there *are* definitely better alternatives to eSpeak NG on Arch Linux (or any Linux) if you’re looking for **more natural-sounding** text-to-speech. Below are some good options + what you need to know to pick/install them.
+
+---
+
+## ✅ Better TTS engines for Arch Linux
+
+Here are some of the more polished options:
+
+### 1. RHVoice
+
+* Multilingual speech synthesiser. ([ArchWiki][1])
+* On Arch: install `rhvoice` plus the appropriate language/voice packs. ([ArchWiki][1])
+* Sound quality is generally better than the formant-only voices of eSpeak.
+* Good choice if you want *offline*, open-source, reasonably natural TTS.
+
+### 2. Piper TTS
+
+* A more recent engine that uses neural voices (rather than only formant/diphone). For example: “Install Piper TTS … if you’re on Arch, you can install … via AUR.” ([Dom DeLorenzo][2])
+* On Arch: there is `piper-tts-bin` in AUR and voice packages like `piper-voices-en-us`. ([ArchWiki][3])
+* If you want the most natural voice (offline) this is one of the best open-source routes.
+
+### 3. Festival
+
+* Older but still better than basic eSpeak in some respects. ([ArchWiki][4])
+* Less “robotic” than eSpeak out of the box but fewer voice options/less modern than neural-based engines.
+
+---
+
+## 🎯 My recommendation for you
+
+Since you’re on Arch Linux and want something better than eSpeak for “sounding like a human”, I’d suggest:
+
+* Try Piper TTS + a good voice (via AUR).
+* Or RHVoice if you prefer something more mature and simpler.
+* Keep eSpeak NG as fallback for compatibility, scripting or very lightweight use.
+
+---
+
+## 🛠 Basic installation steps (for Piper TTS, example)
+
+1. Enable or install AUR helper (e.g., `yay`, `paru`).
+2. `yay -S piper-tts-bin`
+3. `yay -S piper-voices-en-us` (or your language) (3 GB)
+4. Configure Speech Dispatcher (if you’re using that) to use Piper instead of eSpeak. E.g., add module for Piper in `~/.config/speech-dispatcher/speechd.conf`. ([Dom DeLorenzo][2])
+5. Test: e.g., `spd-say "Hello world"` or use `piper` command.
+
+```bash
+echo "Hello!" | piper-tts --model /usr/share/piper-voices/en/en_US/joe/medium/en_US-joe-medium.onnx --output_raw | aplay -f S16_LE -r 22050
+
+links -dump -width 512 https://web.archive.org/web/20251002094157/https://www.tastyfish.cz/lrs/woman.html | tr "\n\r" " " | sed "s/^.*, consoomer version//g" | piper-tts --model /usr/share/piper-voices/en/en_US/john/medium/en_US-john-medium.onnx --output_raw | aplay -f S16_LE -r 22050
+```
+
+```bash
+aplay -f S16_LE -r 22050
+```
+
+### Significado: 
+
+```
+Option	Meaning
+-f S16_LE	Format = Signed 16-bit, Little-Endian samples (what Piper outputs)
+-r 22050	Sample rate = 22050 Hz (Piper default)
+```
