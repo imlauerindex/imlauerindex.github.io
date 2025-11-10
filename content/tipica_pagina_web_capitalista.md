@@ -43,3 +43,5 @@ Esto me genero Grok:
 
 
 ![](https://ia601407.us.archive.org/26/items/modern_web/subilo.jpg)
+
+![](https://ia801501.us.archive.org/1/items/modern_web_2025/website_2025.jpg)
