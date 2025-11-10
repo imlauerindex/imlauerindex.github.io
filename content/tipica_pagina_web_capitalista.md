@@ -40,4 +40,4 @@ Créditos: https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/l
 Esto me genero Grok:
 
 
-![https://ia601407.us.archive.org/26/items/modern_web/subilo.jpg]
+![](https://ia601407.us.archive.org/26/items/modern_web/subilo.jpg)
