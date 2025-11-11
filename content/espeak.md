@@ -7,6 +7,9 @@ https://wiki.archlinux.org/title/Speech_dispatcher
 
 https://bbs.archlinux.org/viewtopic.php?id=280161
 
+https://wiki.archlinux.org/title/Accessibility#Troubleshooting
+
+
 Creo que era algo así no recuerdo bien.
 
 ```bash
@@ -259,4 +262,147 @@ Environment="default_voice=mb-us1"
 ExecStart=
 ExecStart=/usr/bin/espeakup --default-voice=mb-us1
 ```
+
+
+---
+
+
+
+If you want your **existing Arch Linux installation to talk in the TTY** (screen reader / key echo / announcements) without reinstalling, the two main tools are:
+
+✅ **espeakup** (speech for console using eSpeak)
+✅ **speechd** + **speech-dispatcher** (general speech system)
+(optional) ✅ **brltty** if you also need braille support
+
+Below is the simplest working setup.
+
+---
+
+## ✅ Step 1 — Install speech packages
+
+```bash
+sudo pacman -S espeakup espeak speech-dispatcher
+```
+
+Optional voices (better quality, not required):
+
+```bash
+sudo pacman -S piper-tts
+```
+
+---
+
+## ✅ Step 2 — Enable espeakup service
+
+### For normal PC speakers (recommended)
+
+```bash
+sudo systemctl enable --now espeakup.service
+```
+
+### If using a hardware speech synthesizer
+
+```bash
+sudo systemctl enable --now espeakup-soft.service
+```
+
+> **espeakup** listens to the Linux console screen and speaks text.
+
+---
+
+## ✅ Step 3 — Test speech
+
+Try typing something on TTY1:
+`Ctrl+Alt+F2` → log in
+
+Then:
+
+```bash
+echo "Arch Linux is talking" | espeak
+```
+
+You should hear voice output.
+
+---
+
+## ✅ Make it read keys as you type (Key echo)
+
+Install key echo utility:
+
+```bash
+sudo pacman -S speakup
+```
+
+Then enable it:
+
+```bash
+sudo bash -c 'echo 1 > /sys/accessibility/speakup/key_echo'
+```
+
+To make it permanent, create udev rule:
+
+```bash
+sudo nano /etc/udev/rules.d/99-speakup.rules
+```
+
+Add:
+
+```
+SUBSYSTEM=="accessibility", ATTR{speakup/key_echo}="1"
+```
+
+---
+
+## ✅ Useful speakup commands in TTY
+
+Turn speech on/off:
+
+```bash
+echo 1 | sudo tee /sys/accessibility/speakup/silent        # silent mode
+echo 0 | sudo tee /sys/accessibility/speakup/silent        # speak
+```
+
+Change voice speed:
+
+```bash
+echo 150 | sudo tee /sys/accessibility/speakup/rate
+```
+
+List controls:
+
+```bash
+sudo less /sys/accessibility/speakup/* 2>/dev/null
+```
+
+---
+
+## ❗ Important Notes
+
+* Works only in **real Linux TTY**, not inside Xorg/Wayland
+* For GUI readers, use **Orca** instead
+* No need to reinstall Arch — this setup is correct for existing system
+
+---
+
+## ✅ Bonus — Piper voice example
+
+If you want human-like voice instead of robotic espeak:
+
+```bash
+echo "Hello from Arch Linux" | piper-tts --model /usr/share/piper-voices/en/en_US/lessac/medium/en_US-lessac-medium.onnx > out.wav
+aplay out.wav
+```
+
+(TTS not fully realtime yet unless using Piper-Live scripts)
+
+---
+
+If you want, tell me and I can also provide:
+
+* a **script to auto-enable speech on boot**
+* config for **multiple voices**
+* **Orca + console switching** guide
+* **braille display support**
+
+Would you like **key echo + cursor tracking + speak prompts** automatically on login?
 
