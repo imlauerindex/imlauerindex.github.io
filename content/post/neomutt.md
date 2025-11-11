@@ -69,3 +69,8 @@ Y ejecutá `mbsync -a` para bajar tus correos.
 
 
 Abrir archivos HTML en falkon: `BROWSER=falkon neomutt`
+
+
+Genera una contraseña para tu neomutt desde aca ( lo mejor seria que dejes de usar Gmail ).
+
+https://myaccount.google.com/apppasswords
