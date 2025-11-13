@@ -403,15 +403,24 @@ done
 
 #### ATENCION: TUVE PROBLEMAS CON EL STARTDWM
 Tuve problemas usando startdwm directamente escribí exec dwm porque crasheaba el mpv cuando apretaba J y pipewire no lo necesité escribir en .xinitrc directamente lo instalé y funcionaba sin necesidad de escribirlo.
+
 Configuracion que uso en /etc/mpv/mpv.conf y /etc/yt-dlp.conf
+
 ###### /etc/mpv/mpv.conf
+
 ```bash
-[esotericwarfare@arch mpv]$ cat mpv.conf
 --profile=fast
 --sub-auto=all
---ytdl-raw-options="format=18,write-auto-sub=,write-sub=,sub-lang=[en,ru]"
-[esotericwarfare@arch mpv]$
+--ytdl-raw-options="format=bestvideo[height<=?360]+bestaudio/best[height<=?360]/bestvideo[height<=?480]+bestaudio/best[height<=?480],write-auto-sub=,sub-lang=[es,en,ru],write-sub="
+--volume-max=600
+#--save-position-on-quit
+#--untimed
+#--profile=low-latency
+--mute=yes
+--no-video
 ```
+
+Abro mpv sin video se puede abrir el video usando `_` (guión bajo).
 
 ##### yt-dlp.conf
 ```bash
