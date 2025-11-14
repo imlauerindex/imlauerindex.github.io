@@ -3,7 +3,7 @@ title: "Espeak habla cada tecla presionada TTY"
 date: 2025-11-11T01:13:14-03:00
 ---
 
-https://wiki.archlinux.org/title/Speech_dispatcher
+https://wiki.archlinux.org/title/Install_Arch_Linux_with_accessibility_options
 
 https://bbs.archlinux.org/viewtopic.php?id=280161
 

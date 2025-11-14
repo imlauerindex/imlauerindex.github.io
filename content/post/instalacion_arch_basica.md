@@ -417,7 +417,6 @@ Configuracion que uso en /etc/mpv/mpv.conf y /etc/yt-dlp.conf
 #--untimed
 #--profile=low-latency
 --mute=yes
---no-video
 ```
 
 Abro mpv sin video se puede abrir el video usando `_` (guión bajo).
@@ -1229,3 +1228,12 @@ KERNEL=="event[0-9]*", MODE="0666"
 
 
 Para ver que binarios instaló un paquete: `pacman -Ql haskell-brainfuck`
+
+
+### AI CHAT BOTS
+
+```bash
+sudo npm install -g @github/copilot
+sudo npm install -g @google/gemini-cli@latest
+```
+

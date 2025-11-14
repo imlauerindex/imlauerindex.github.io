@@ -7,9 +7,10 @@ En ArchLinux es fácil simplemente no abras el entorno gráfico quedate en la TT
 Para lo demás usá tu celular.
 
 Adicionalmente si querés bloquear malware, pornografía, publicidad podes usar este archivo:
+
 https://github.com/StevenBlack/hosts
 
 En Linux se hace modificando el archivo `/etc/hosts` en Windows también se puede hacer con otro archivo.
 Yo uso este: `Unified hosts + fakenews + gambling + porn`
 
-_Acordate que tu ISP sabe todas las páginas que visitas, así que lo recomendable siempre es navegar por lo menos a través de Tor._
+_Acordate que tu ISP sabe todas las páginas que visitas, así que lo recomendable siempre es navegar por lo menos a través de Tor._ Y si navegas por Tor la CIA, FBI y la NSA saben lo que haces.
