@@ -12,6 +12,9 @@ $ yt-dlp --ignore-config --write-description --write-thumbnail --skip-download Y
 
 
 Me bajé el binario de `yt-dlp` con night builds del repo de GitHub y no podía descargar el video a través de Tor, así que instalé yt-dlp desde el repo oficial de Arch.
+
+Actualización: 15 de noviembre del 2025. yt-dlp dejó de descargar videos ahora solo reproduce audio así que bajé https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/latest el binario de night builds y volvió a funcionar, ahora puedo ver nuevamente videos con mpv usando invidious con w3m.
+
 ```bash
 $ torsocks yt-dlp -F "https://www.youtube.com/embed/ID"
 Error relocating /usr/lib/torsocks/libtorsocks.so: __snprintf_chk: symbol not found
