@@ -53,6 +53,10 @@ Show line numbers                                       ( )YES  (*)NO
 Show search string                                      (*)YES  ( )NO
 Move cursor to top line when going to label             ( )YES  (*)NO
 Move cursor to top line when moving to next page        ( )YES  (*)NO
-                                                        [OK]
+```
 
+Ahora tengo este comando para que lea las paginas.
+
+```bash
+links -dump -width 512 $1 | tr "\n\ r" " " | sed "s/^.*, consoomer version//g" | espeak -s 120 -p 30  &
 ```
