@@ -22,3 +22,9 @@ wget -e robots=off -r -np -R "index.html*" "http://ricardonarvaja.info/WEB/EXPLO
 ```bash
 wget -r -l1 -np -nH --cut-dirs=2 -A mp3 -R "index.html*" -e robots=off -c URL
 ```
+
+#### Descargar sin imágenes
+
+```bash
+wget --reject jpg,jpeg,png,gif,svg,webp,ico -r
+```
