@@ -358,3 +358,9 @@ wget -r -np -nH --cut-dirs=2 -A mp3 -R "index.html*" -e robots=off -c "http://ww
 ```bash
 yt-dlp -f "bestvideo[height<=720]+bestaudio/best[height<=720]"
 ```
+
+#### Comandos que se están ejecutando al boot
+
+```bash
+systemctl list-units --type=service --state=running
+```
