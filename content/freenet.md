@@ -3,11 +3,13 @@ title: "Freenet, ZeroNet"
 date: 2025-11-17T05:05:18-03:00
 ---
 ```bash
-w3m https://www.hyphanet.org/index.html
-ls *.jar
-new_installer_offline_1503.jar
+cd Downloads
+mkdir freenet
+w3m https://www.hyphanet.org/index.html Download for Linux
 java -jar new_installer_offline_1503.jar
+
 Select folder> Downloads/freenet
+
 sh run.sh start
 ``` 
 

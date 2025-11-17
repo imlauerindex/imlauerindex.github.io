@@ -51,6 +51,8 @@ El archivo de configuración de jackett con qbittorent se encuentra en: `/.local
 
 * Create a configuration file named btstrm.conf in the ~/.config directory with the following
 
+La api key está en la página de Jackett (http://127.0.0.1:9117)
+
 ```bash
 content:
 
@@ -73,4 +75,6 @@ btstrm -p mpv -k magnet:?xt=urn:btih:example
 btstrm -t "Movie Title"
 btstrm "Big Buck Bunny"
 ```
+
+Ahora ejecutá Jackett/jackett
 
