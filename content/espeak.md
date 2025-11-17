@@ -3,6 +3,8 @@ title: "Espeak habla cada tecla presionada TTY"
 date: 2025-11-11T01:13:14-03:00
 ---
 
+**Actualización**: Actualmente ejecuto espeak y copio y pego el texto.
+
 https://wiki.archlinux.org/title/Install_Arch_Linux_with_accessibility_options
 
 https://bbs.archlinux.org/viewtopic.php?id=280161

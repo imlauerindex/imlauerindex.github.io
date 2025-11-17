@@ -36,5 +36,3 @@ To change the exit node (outproxy) in I2P, just go to the Hidden Services Manage
 
 Para usar i2p en Android, bajate Firefox nightly 
 En `about:config` tenés que habilitar:
-```bash
-```
