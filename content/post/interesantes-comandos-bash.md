@@ -364,3 +364,9 @@ yt-dlp -f "bestvideo[height<=720]+bestaudio/best[height<=720]"
 ```bash
 systemctl list-units --type=service --state=running
 ```
+
+### Listar directorio mostrando tamaño y h (human readable)
+
+```bash
+ls -lhS | less
+```

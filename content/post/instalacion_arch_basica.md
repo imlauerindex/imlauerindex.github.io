@@ -1237,3 +1237,8 @@ sudo npm install -g @github/copilot
 sudo npm install -g @google/gemini-cli@latest
 ```
 
+Bluetooth:
+```bash
+sudo pacman -S bluez bluez-utils
+```
+

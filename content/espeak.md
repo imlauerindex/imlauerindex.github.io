@@ -35,6 +35,7 @@ Y luego hay que reiniciar el sistema.
 #### **1. Load the speakup soft-speech driver**
 
 ```bash
+# Hice esto y no me sirvió aparte no puedo usar más el capslock queda tomado tengo que usar Shift+capslock.
 sudo modprobe speakup_soft
 ```
 
