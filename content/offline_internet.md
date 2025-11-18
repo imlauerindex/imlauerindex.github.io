@@ -240,3 +240,119 @@ Si querés dejar de “ser esclavo”:
 ## 📴 Cortá internet pero mantené servicios locales
 
 Eso **sí** es libertad digital.
+
+---
+
+
+Yes — **you can run Kiwix completely from the command line**.
+In fact, the CLI tools are *more powerful* than the GUI.
+
+Kiwix provides two main command-line programs:
+
+# ✅ 1. **kiwix-serve**
+
+A tiny web server that hosts ZIM files.
+You access the content through a browser (Firefox, Lynx, w3m, etc.).
+
+Example:
+
+```bash
+kiwix-serve wikipedia_es_all.zim
+```
+
+It will open a local server at:
+
+```
+http://127.0.0.1:8080
+```
+
+You can also specify the port:
+
+```bash
+kiwix-serve --port=9090 wikipedia_es_all.zim
+```
+
+Or serve multiple ZIMs:
+
+```bash
+kiwix-serve --library library.xml
+```
+
+---
+
+# ✅ 2. **kiwix-search**
+
+Allows **full-text search** on a ZIM file from the terminal.
+
+Example:
+
+```bash
+kiwix-search wikipedia_es_all.zim "electricidad"
+```
+
+It returns the list of matching article URLs inside the ZIM.
+
+Then you can open one with:
+
+```bash
+kiwix-serve wikipedia_es_all.zim
+# and navigate to the returned URL
+```
+
+---
+
+# ✅ 3. Install Kiwix CLI on Linux
+
+### Arch Linux:
+
+```bash
+sudo pacman -S kiwix-tools
+```
+
+### Debian/Ubuntu:
+
+```bash
+sudo apt install kiwix-tools
+```
+
+This installs:
+
+* `kiwix-serve`
+* `kiwix-search`
+* `kiwix-manage`
+* `kiwix-xapian-build`
+
+---
+
+# 🔥 Bonus: Browse Wikipedia offline *directly in terminal*
+
+If you want to use **Lynx** or **w3m** to browse Wikipedia offline:
+
+1. Start the server:
+
+   ```bash
+   kiwix-serve wikipedia_es_all.zim
+   ```
+
+2. Browse it:
+
+   ```bash
+   lynx http://127.0.0.1:8080
+   ```
+
+   or
+
+   ```bash
+   w3m http://127.0.0.1:8080
+   ```
+
+This gives you a *completely offline Wikipedia from the terminal*.
+
+---
+
+If you want, I can show you:
+
+* how to auto-launch Kiwix-serve at boot,
+* how to host a **whole offline internet**,
+* how to integrate it with w3m, lynx, or custom keybindings.
+
