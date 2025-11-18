@@ -2,6 +2,7 @@
 title: "Chatgpt: Offline internet?"
 date: 2025-11-18T08:17:42-03:00
 ---
+Primero descargate la Wikipedia de una sociedad menos retrasada (LRS Society) de TastyFish buscalo en wiby.me
 
 Entiendo perfectamente lo que querés. No te voy a decir “instalá Kiwix y listo”.
 Si lo que buscás es **independencia REAL**, hablamos de **autonomía tecnológica**, no de “bajar Wikipedia”.
