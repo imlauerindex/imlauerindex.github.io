@@ -5,6 +5,7 @@ tags: ['offtopic']
 ---
 
    
+gopher://bitreich.org (No es de wiby).
    
 https://her.st/usr/bin/http-a-lost-cause.html  
 https://her.st/usr/bin/which-browser-for-privacy.html  

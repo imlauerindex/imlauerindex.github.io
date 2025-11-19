@@ -132,6 +132,10 @@ Esto es lo que *realmente querías*.
 
 ## ✔ **ArchiveBox**
 
+[I] esotericwarfare@arch ~> yay -S archivebox-git
+
+
+
 Guarda páginas web completas y las convierte en un “internet offline”.
 
 Ejemplo:
