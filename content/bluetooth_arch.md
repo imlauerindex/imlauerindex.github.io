@@ -42,7 +42,7 @@ Here is the full working setup **100% CLI only**:
 # ✅ 1. Install needed packages
 
 ```bash
-sudo pacman -S bluez bluez-utils obexd
+sudo pacman -S bluez bluez-utils bluez-obexd
 ```
 
 ---

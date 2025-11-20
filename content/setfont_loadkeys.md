@@ -10,3 +10,9 @@ Solución: tan simple como `sudo setfont` o `sudo loadkeys es`
 
 sudo setfont iso02-12x22.psfu.gz
 
+
+Las letras más lindas son las sudo setfont ter-<TAB>
+
+```bash
+sudo setfont ter-v28b.psf.gz
+```
