@@ -6,6 +6,10 @@ tags: ['offtopic']
 
    
 gopher://bitreich.org (No es de wiby).
+
+gophers://bitreich.org/1/ia (internet archive proxy)
+
+https://whitefiles.org/
    
 https://her.st/usr/bin/http-a-lost-cause.html  
 https://her.st/usr/bin/which-browser-for-privacy.html  
