@@ -1,8 +1,9 @@
 ---
 title: "Maximo entre 2 numeros en brainfuck"
 date: 2025-11-04T06:44:20-03:00
-draft: true
+tags: ['programming']
 ---
+Cogida de cerebro.
 
 Brainfuck es un lenguaje de programación esotérico que no contiene palabras, está muy cerca a ASM, más cerca que C.
 
@@ -66,6 +67,28 @@ Brainfuck has a very simple syntax, consisting of only eight commands:
 * `,` : Input a character and store its ASCII value in the current cell
 * `[` : If the current cell is 0, jump to the corresponding `]`
 * `]` : If the current cell is not 0, jump back to the corresponding `[`
+
+
+```bash
++-----------------------------------------------------------------------------+
+| `+` : Incrementá la celda actual a 1.                                       |
+| `-` : Decrementá la celda actual a 1.                                       |
+| `>` : Mueve el puntero a la derecha 1 celda.                                |
+| `<` : Mueve el puntero a la izquierda 1 celda.                              |
+| `.` : Muestra el valor de la celda actual como carácter.                    |
+| `,` : Ingresa un caracter y lo guarda como valor ASCII en la celda actual   |
+| `[` : Si la celda actual es 0, salta a la correspondiente celda ']'         |
+| `]` : Si la celda actual no es 0, salta atrás a la correspondiente celda '['|
++-----------------------------------------------------------------------------+
+```
+
+
+
+
+
+
+
+
 
 **Basic Example**
 -----------------
