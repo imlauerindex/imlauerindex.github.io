@@ -349,9 +349,49 @@ Sería interesante el día de mañana, hoy es cosa sencilla ustedes agarran un e
 
 Son esquemas eléctricos y la idea es de lo que hicimos nosotros no de lo que está ahí, ahí hay varios esquemas eléctricos siempre y cuando supongamos siempre ustedes tienen que tratar de que en algún lado llega la alimentación en este caso puede ser de una caja de paso lo que sea viene la alimentación de un lugar que puede ser un tablero llega fase neutro y tierra. Entonces cualquier prolongación que yo quiera hacer supongamos que yo quiera hacer una aplicación para allá si ustedes quieran hacer una pieza más para acá ustedes saben que de algún lugar tienen que **tomar la alimentación de esos 3 elementos, adonde llega esos 3 elementos hasta donde llega esos 3 elementos**.
 
-Vamos a suponer que ustedes dicen no pero yo tengo la boca acá, y esa boca capaz que es solo de iluminación y ahí llegará fase y el retorno de la llave entonces si yo pongo prolongación ahí toda esta ladrera tengo¿? (Hora 01:28) pero solo prendo si tengo que prender la luz para que tenga 220 acá entonces tengo que ver donde tengo la alimentación 220 en este caso es para que ustedes se ubiquen hagan un esquema eléctrico y bueno, si yo acá llego acá, y quiero hacer una prolongación allá y no tengo fase y neutro solo tengo el retorno tengo que traer una alimentación o una fase directamente de allá hasta acá. Y de ahí, **ese para que ustedes entiendan que a veces una prolongación o una vivienda o algo nuevo tengo que tomar de una caja que llegue 220 y tierra**.
+Vamos a suponer que ustedes dicen no pero yo tengo la boca acá, y esa boca capaz que es solo de iluminación y ahí llegará fase y el retorno de la llave entonces si yo pongo prolongación ahí toda esta ladrera tengo¿? (Hora 01:28) pero solo prendo si tengo que prender la luz para que tenga 220 acá entonces tengo que ver donde tengo la alimentación 220 en este caso es para que ustedes se ubiquen hagan un esquema eléctrico y bueno, si yo acá llego acá, y quiero hacer una prolongación allá y no tengo fase y neutro solo tengo el retorno tengo que traer una alimentación o una fase directamente de allá hasta acá. Y de ahí, **ese para que ustedes entiendan que a veces alguna prolongación o una vivienda o algo nuevo tengo que tomar de una caja que llegue 220 y tierra**.
 
-Cualquier ampliación que hagan, o quiero quiero poner más bocas ahí.
+Cualquier ampliación que hagan, o quiero quiero poner más bocas ahí afuera justo no llegó y tengo ganas supongamos que este sea el frente de mi casa y quiero poner tortuga allá y tengo justo esta lámpara que tal si hago la alimentación de acá paso allá y pongo todo exterior las tortugas entonces reviso acá y voy a encontrar fase No. Neutro y el retorno entonces tengo que traer una alimentación ahí y una fase y vuelvo acá y recién cuando tengo fase y neutro ahí sé que puedo seguir. 
+
+Tortugas: ![](https://electrosystem.com.py/wp-content/uploads/2025/01/tortuga_2Luces_e27_rejilla_blanca.png)
+
+En síntesis todos los esquemas que vimos le voy a pedir haga un esquema eléctrico de tal cosa de 2 o 3 lámparas y una llave de punto 2 llaves de punto 2 llave de 1 punto de un mismo lado hacen el esquema y listo no es difícil.
+
+##### Examen para montador electricista: aparecerá la planta los caños y de ahí supongamos ahí ya aparece esto. Esto es esquema en planta, después cuando tengamos para hacer los caños pondremos que es lo que dice arriba y acá vamos a suponer 2x1,5 + tierra hasta acá y arriba que tipo de caño, eso haremos luego.
+
+Ahora quiero que me hagan el esquema eléctrico. 
+
+#### Examen auxiliar: se que la corriente se representa con la letra I. La unidad es del amper que aparece como la A. Y aparece donde mido eso, como mido la corriente: a través de una pinza amperométrica. Hay 2 formas de medirlo pero tenes que decir como lo haces: tomando o pinzando uno de los cables, entonces mido la corriente, si mido los 2 da 0. También puedo medir la corriente con un tester, ahí coloco en serie. Tiene que pasar por el tester, si es corriente grande quemará el equipo. Cualquiera de los 2 cables pero 1 a la vez. La pinza amperométrica mide el campo magnético. Pasa la corriente la corriente genera un campo magnético es lo que entra tipo un iman y eso genera el amper. Se usa un multitester o una pinza amperométrica.
+
+Ayudante explica como usar el tester para medir amper (mejor mirar video porque su explicación fue mala).
+
+No es una evaluación a muerte, es solo para que sepan lo que aprendieron.
+
+La semana que viene hacemos la prueba, si tengo la oportunidad habrá un día de riesgo eléctrico les explicaré como reanimar a una persona que recibió una ejecución.  Hay diferentes videos, hay diferentes formas pero los electricistas que trabajan con tableros de grandes potencias y a veces están trabajando y muestran como debemos en caso de recibir una descarga como debemos sacarle los contactos. Lo 1ero que te exigen es que baje la energí de donde viene la alimentación, 2do si está muy lejos dicen que hay que buscar la forma de sacarle un elemento aislate que vos no le toques si lo tocas quedan pegado los 2.
+
+Gustavo: Vi un video que un tipo que sube como un interruptor.
+Ayudante: Eso es una percha, exterior. Ese fusible por lo general nosotros lo conocemos como cuchilla y eso es lo que cierra la alimentación a los transformadores. Y suele pasar que cuando vos cerrás la cuchilla se genera un arco muy grande y suele reventar algunas veces.
+
+No te atrae sino que la descarga o el chispazo cuando vos cerrás no se cierra bien en vez de hacer el recorrido normal viene por vos. Baja por la pérdida. Para cerrar eso vos tenes que tener la pérdida, aislate, y un guante de un calibre importante porque estás cerrando línea de alimentación de media tensión son 13.200 voltios.
+
+Para cerrar eso vos tenes que tener la pérdida, aislate, y un guante de un calibre importante porque estás cerrando línea de alimentación de media tensión son 13.200 voltios. El que está por Tomas Guido.
+
+Por lo general se identifican porque los más viejos suelen estar en las torres que son de cemento, acá en Centenario hay una.
+
+El problema principal es que hay 2 formas en baja tensión casi la mayoría ocasiona la muerte. El otro también pero te quema y cuando te quema es impresionante las fotos que hay es como si estuviera cayendo un rayo en un árbol y ese le abre y quema todo el cuerpo te saca toda el agua.
+
+Justo estaban filmando y justo en frente habían 2 cacos que querían afanar conductores de cobre había una alimentación subterránea y justo ellos querían cortar y era de media tensión entonces estaban cortando eso y generalmente si pasa en forma subterránea en algún lado está el seccionador que hace que esa línea quede desconectada no, estaban trabajando con tensión y reciben la descarga se empezó a humear llega la ambulancia y la policia lo levantan al vago, el tipo ya estaba todo negro, y estaban filmando el tipo todavía tenía vida le sube a la ambulancia y se le cae parte de la carne. Ese no vive más.
+
+Muestra la cámara como sale el pedazo del cuerpo. 
+
+Gustavo: Yo tengo un primo que trabajaba en EMSA y falleció con una conexión 220 voltios.
+Profesor: Ahora hay cursos especiales para tipos que trabajan en red, generalmente hay sistemas de seguridad. Fíjense que si yo tengo una red supongamos dañada o que se cortó una de las 2 partes hay que llevarla a tierra en caso de que yo tenga una descarga. La línea se conecta a tierra antes que vaya por la persona.
+
+Vimos un video la línea de alta tensión de USA que pasan de un lugar a otro generalmente de una montaña a otro que recibe sistema de red y a veces se desprenden o tienen que arreglar a grandes alturas aparece un helicóptero y lleva a los tipos esa gente por riesgo de trabajo ganan mucho.
+
+Yo vi que tocan con algo y después se agarran y hacen la descarga con eso. Pero a esa altura el tipo el helicóptero va y le pone una vez que se almacena arreglan todo 
+
+
 
 
 
