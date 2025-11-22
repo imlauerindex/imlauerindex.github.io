@@ -32,6 +32,6 @@ wget --reject jpg,jpeg,png,gif,svg,webp,ico -r
 ##### Para descargar sitios con protocolo gopher tenes que usar httrack porque wget no soporta gopher.
 
 ```bash
-httrack gophers://bitreich.org/ -O ./bitreich.org
+httrack gophers://bitreich.org/ -O ./bitreich.org -r 5 -A -K
 ```
 
