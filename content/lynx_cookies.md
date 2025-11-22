@@ -77,6 +77,8 @@ Add or modify these lines:
 ```
 accept_all_cookies=TRUE
 ask_user_about_cookies=FALSE
+preferred_charset=utf-8
+vi_keys=on
 ```
 
 You can also check `COOKIE_ACCEPT_PROMPT` in `/etc/lynx.cfg`:
@@ -85,13 +87,12 @@ You can also check `COOKIE_ACCEPT_PROMPT` in `/etc/lynx.cfg`:
 COOKIE_ACCEPT_PROMPT:FALSE
 SET_COOKIES:TRUE
 ACCEPT_ALL_COOKIES:TRUE
-CHARACTER_SET:utf-8
 ```
 
 
 Controles para editar texto en lynx Control+G:
 ```bash
-Control+p va para atraso
+Control+p va para atras
 Control+o cancela
 Control+g cancela
 Control+´ cancela
@@ -115,16 +116,5 @@ alt+r va a la url
 
 alt+q top
 alt+w al fondo
-```
-
----
-
-```bash
-EXTERNAL:http:w3m %s:TRUE
-EXTERNAL:http:cha %s:TRUE
-EXTERNAL:http:mpv %s:TRUE
-EXTERNAL:http:netsurf-fb -f sdl -w 1366 -h 768 %s:TRUE
-EXTERNAL:http:falkon %s:TRUE
-EXTERNAL:http:angelfish %s:TRUE
 ```
 
