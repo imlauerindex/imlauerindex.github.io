@@ -1,30 +1,11 @@
 ---
-title: "Descargar paginas enteras con Wget"
+title: "Como usar wget y WikiTeam3 para descargar un sitio MediaWiki"
 date: 2025-11-23T04:34:21-03:00
 tags: ['cli']
 ---
 
 Nunca mires nada online. Siempre descargatelo y si es mejor usa Tor.
-
-```
-Puedo explicarte **cómo usar `wget` para descargar un sitio MediaWiki**, pero **sin apoyar ni promover el contenido** del sitio que mencionas.
-Te doy únicamente **instrucciones técnicas y neutrales**, válidas para *cualquier* wiki.
-
----
-
-# ✅ Descargar una wiki con `wget` (método general)
-
-`wget` puede hacer una “copia navegable” del sitio, pero **NO** obtendrás:
-
-* el historial de ediciones
-* la base de datos real
-* algunos recursos protegidos
-
-Aun así, sirve para copia *offline de lectura*.
-
----
-
-# 📌 **Comando básico recomendado**
+Anteriormente a esto me descargué Kiwix, los docs de ArchLinux, Gentoo y la inciclopedia.
 
 ```bash
 wget \
@@ -50,8 +31,6 @@ wget \
 ---
 
 # 📌 Aumentar profundidad (descargar más páginas)
-
-MediaWiki usa muchos enlaces internos; a veces conviene añadir recursividad explícita:
 
 ```bash
 wget \
@@ -84,26 +63,13 @@ wget \
 
 ---
 
-# ⚠️ Advertencias importantes
-
 * **Respeta la licencia del contenido** (muchas wikis usan CC-BY-SA).
-* **No generes carga excesiva**: usa wget con moderación.
-* **No uses las copias para hospedar, republicar ni promover contenido dañino**.
 
 ---
 
-# 📌 ¿Quieres algo más completo?
-
-Si necesitas una forma **mejor que wget** (por ejemplo, un dump XML de toda la wiki), puedo explicarte cómo usar **WikiTeam3**, que está hecho específicamente para descargar wikis completas.
-
-¿Quieres usar `wget` solamente o prefieres una copia tipo “dump” como las de MediaWiki?
-
-
----
+### Hacer un dump de XML con WikiTeam3
 
 Muy buena pregunta. Si querés un **dump XML** de incels.wiki (o “incel.wiki”), hay algunas limitaciones importantes, más que nada si no sos administrador del sitio. No encontré evidencia pública de que incels.wiki tenga dumps oficiales disponibles para descarga libre, por lo que las opciones son más bien “hacer tu propio dump” mediante herramientas o pedirlo a los dueños del wiki.
-
-Te explico las opciones + cómo hacerlo:
 
 ---
 
@@ -115,19 +81,12 @@ Te explico las opciones + cómo hacerlo:
    * Esta herramienta puede guardar **el historial completo** o solo las revisiones más recientes. ([Archive Team][1])
    * Ejemplo de comando (suponiendo que usás Python 3):
 
-     ```
+     ```bash
      wikiteam3dumpgenerator https://incels.wiki --xml --xmlrevisions
      ```
    * Esto va a hacer llamadas a la API de MediaWiki para bajar los artículos y sus revisiones (no es exactamente igual a usar `dumpBackup.php`, pero es lo más cercano si no tenés acceso al servidor).
 
-2. **Usar `Special:Export` de MediaWiki**
-
-   * Si accedés a la wiki como usuario, podés ir a `Special:Export`:
-     `https://incels.wiki/index.php?title=Special:Export`
-   * Ahí podés poner los nombres de las páginas que querés exportar y bajar un XML con su contenido.
-   * Limitación: con esta herramienta no es fácil exportar *todas* las páginas si son muchas, y podría haber límites en cantidad de páginas.
-
-3. **Si tuvieras acceso al servidor**
+2. **Si tuvieras acceso al servidor**
 
    * Si vos o alguien que conozcas administra esa instancia de MediaWiki, podés usar el script `dumpBackup.php` que viene con MediaWiki para volcar toda la wiki en XML. ([MediaWiki][2])
    * Ejemplo:
@@ -144,13 +103,30 @@ Te explico las opciones + cómo hacerlo:
 
 * Podés **preguntar a los administradores** de incels.wiki si tienen un dump XML para compartir.
 * Si no te responden, la opción con WikiTeam3 es probablemente la más “respetuosa” y técnica para generar un dump por tu cuenta, usando la API pública.
-* Tené en cuenta las **cuestiones legales y de licencia**: asegurate de que la licencia del contenido permita que hagas un dump y lo uses para lo que querés hacer.
 
 ---
 
 Si querés, puedo chequear **en Internet Archive** o en otros repositorios para ver si hay ya un dump de incels.wiki disponible públicamente, y te comparto el enlace si existe. ¿Te parece bien hacer eso?
 
-[1]: https://wiki.archiveteam.org/index.php/WikiTeam?utm_source=chatgpt.com "WikiTeam - Archiveteam"
-[2]: https://www.mediawiki.org/wiki/Manual%3ADumpBackup.php/es?utm_source=chatgpt.com "Manual:dumpBackup.php - MediaWiki"
 
 
+
+---
+
+Buena idea. Hice una búsqueda, pero no encontré un **dump público en Internet Archive** para **incels.wiki**: no hay registros obvios en la Wayback Machine ni un archivo completo descargable desde Archive.org con todas las páginas del wiki.
+
+Sin embargo, sí encontré algo relevante:
+
+* En **Hugging Face** hay un dataset llamado *“incelwiki‑20240225‑dump”*, que parece ser un volcado de la wiki hasta el **25 de febrero de 2024**. ([Hugging Face][1])
+* En dicho dataset están los textos más recientes (“text”: el contenido de la revisión más reciente) y un historial de revisiones (“revisions”) por página. ([Hugging Face][1])
+* También hay un archivo `siteinfo.json` que describe la estructura del sitio original (nombre de la web, base URL, colación de categorías, etc.). ([Hugging Face][2])
+
+---
+
+Si querés, puedo revisar más profundamente (en otros repositorios, mirrors menos conocidos, webs especializadas) para ver si hay un dump más completo o más reciente. ¿Te lo hago?
+
+[1]: https://huggingface.co/datasets/NyxKrage/incelwiki-20240225-dump/resolve/6b5514611ff193832ce1d6809b9ff6201f99224d/incelwiki-20240225-dump.py?download=true&utm_source=chatgpt.com "3.1 kB"
+[2]: https://huggingface.co/datasets/NyxKrage/incelwiki-20240225-dump/blame/6b5514611ff193832ce1d6809b9ff6201f99224d/siteinfo.json?utm_source=chatgpt.com "siteinfo.json · NyxKrage/incelwiki-20240225-dump at ..."
+
+
+https://huggingface.co/api/resolve-cache/datasets/NyxKrage/incelwiki-20240225-dump/6b5514611ff193832ce1d6809b9ff6201f99224d/incelwiki-20240225-dump.py?download=true&utm_source=chatgpt.com&etag=%22cff77a827e280a84ea4e1304bba965836b33328f%22
