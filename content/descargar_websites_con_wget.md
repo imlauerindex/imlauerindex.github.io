@@ -1,5 +1,5 @@
 ---
-title: "Como usar wget y WikiTeam3 para descargar un sitio MediaWiki"
+title: "Como usar wget y WikiTeam3 para descargar un sitio MediaWiki y convertirlos a ZIM para leerlos con Kiwix."
 date: 2025-11-23T04:34:21-03:00
 tags: ['cli']
 ---
@@ -116,4 +116,102 @@ El comando anterior era muy profundo así que usé este:
 ```bash
 wget -r -l 5 --convert-links --adjust-extension --page-requisites --no-parent --tries=3 https://stallman.org
 ```
+
+
+
+---
+
+Short answer: **Yes, you *can* use `wget` to download content and then create your own local “web” (offline site) for use with Kiwix — but only under certain conditions.**
+However, it’s important to understand how Kiwix works so you do it the correct way.
+
+---
+
+## ✅ How Kiwix Actually Works
+
+Kiwix does **not** use regular HTML website folders.
+Instead, it uses **ZIM files**, a special highly–compressed offline web format.
+
+So if you want to “create a web for Kiwix,” you need to:
+
+1. **Download or prepare content**
+2. **Convert it into a ZIM file**
+3. **Host or load that ZIM file inside Kiwix**
+
+---
+
+## ✔️ Option 1 — Download existing ZIM files (recommended)
+
+You **do not need `wget`** for this unless you want automated downloading.
+
+Kiwix library:
+[https://library.kiwix.org/](https://library.kiwix.org/) (do not open from ChatGPT)
+
+Download ZIM files such as:
+
+* Wikipedia
+* Wikivoyage
+* Wikibooks
+* StackExchange dumps
+* TED Talks
+* Gutenberg Library
+
+You can script downloading the ZIM files using `wget` like:
+
+```bash
+wget -c https://download.kiwix.org/zim/wikipedia_en_all_nopic.zim
+```
+
+---
+
+## ✔️ Option 2 — Use `wget` to download a website and then convert it into ZIM
+
+If you want your **own website** in Kiwix, you can capture it with `wget`:
+
+```bash
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://example.com/
+```
+
+This gives you a local copy of a site.
+
+Then convert it to a ZIM file:
+
+### Install `zimwriterfs`
+
+```bash
+sudo apt install zimwriterfs
+```
+
+### Create the ZIM
+
+```bash
+zimwriterfs ./example.com example.zim
+```
+
+Now you can open `example.zim` inside Kiwix.
+
+---
+
+## ✔️ Option 3 — Build your own “web library” for Kiwix Server
+
+Once you have several ZIM files, you can run:
+
+```bash
+kiwix-serve --port=8080 /path/to/your/library
+```
+
+This creates a **local offline web** containing all your ZIM files, accessible through:
+
+```
+http://localhost:8080
+```
+
+---
+
+## ❓ Want me to generate a full script that:
+
+* Downloads a site with `wget`
+* Converts it to ZIM
+* Automatically adds it to a Kiwix server?
+
+Just tell me your OS (Linux, Windows, macOS) and the site you want to capture.
 
