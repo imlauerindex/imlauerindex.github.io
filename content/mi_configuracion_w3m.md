@@ -60,3 +60,9 @@ Ahora tengo este comando para que lea las paginas.
 ```bash
 links -dump -width 512 $1 | tr "\n\ r" " " | sed "s/^.*, consoomer version//g" | espeak -s 120 -p 30  &
 ```
+
+Y tengo este comando para descargar páginas offline.
+
+```bash
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://epet36misiones.edu.ar
+```
