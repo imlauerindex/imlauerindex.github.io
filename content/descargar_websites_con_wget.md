@@ -8,13 +8,7 @@ Nunca mires nada online. Siempre descargatelo y si es mejor usa Tor.
 Anteriormente a esto me descargué Kiwix, los docs de ArchLinux, Gentoo y la inciclopedia.
 
 ```bash
-wget \
-  --mirror \
-  --convert-links \
-  --adjust-extension \
-  --page-requisites \
-  --no-parent \
-  https://incels.wiki/
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://geohot.github.io/blog/
 ```
 
 ### 🔍 ¿Qué hace cada opción?
@@ -33,13 +27,7 @@ wget \
 # 📌 Aumentar profundidad (descargar más páginas)
 
 ```bash
-wget \
-  -r -l 5 \
-  --convert-links \
-  --page-requisites \
-  --adjust-extension \
-  --no-parent \
-  https://incels.wiki/
+wget -r -l 5 --convert-links --page-requisites --adjust-extension --no-parent https://incels.wiki/
 ```
 
 `-l 5` significa “cinco niveles de recursión”. Puedes aumentar, pero es más lento.
@@ -51,17 +39,8 @@ wget \
 Algunas wikis bloquean agentes automáticos. Puedes intentar:
 
 ```bash
-wget \
-  --mirror \
-  --convert-links \
-  --page-requisites \
-  --adjust-extension \
-  --no-parent \
-  --user-agent="Mozilla/5.0" \
-  https://incels.wiki/
+wget --mirror --convert-links --page-requisites --adjust-extension --no-parent --user-agent="Mozilla/5.0" https://incels.wiki/
 ```
-
----
 
 * **Respeta la licencia del contenido** (muchas wikis usan CC-BY-SA).
 
@@ -121,12 +100,20 @@ Sin embargo, sí encontré algo relevante:
 * En dicho dataset están los textos más recientes (“text”: el contenido de la revisión más reciente) y un historial de revisiones (“revisions”) por página. ([Hugging Face][1])
 * También hay un archivo `siteinfo.json` que describe la estructura del sitio original (nombre de la web, base URL, colación de categorías, etc.). ([Hugging Face][2])
 
+https://huggingface.co/api/resolve-cache/datasets/NyxKrage/incelwiki-20240225-dump/6b5514611ff193832ce1d6809b9ff6201f99224d/incelwiki-20240225-dump.py?download=true&utm_source=chatgpt.com&etag=%22cff77a827e280a84ea4e1304bba965836b33328f%22
+
 ---
 
-Si querés, puedo revisar más profundamente (en otros repositorios, mirrors menos conocidos, webs especializadas) para ver si hay un dump más completo o más reciente. ¿Te lo hago?
 
-[1]: https://huggingface.co/datasets/NyxKrage/incelwiki-20240225-dump/resolve/6b5514611ff193832ce1d6809b9ff6201f99224d/incelwiki-20240225-dump.py?download=true&utm_source=chatgpt.com "3.1 kB"
-[2]: https://huggingface.co/datasets/NyxKrage/incelwiki-20240225-dump/blame/6b5514611ff193832ce1d6809b9ff6201f99224d/siteinfo.json?utm_source=chatgpt.com "siteinfo.json · NyxKrage/incelwiki-20240225-dump at ..."
+```bash
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent --tries=3  https://stallman.org
+```
 
+---
 
-https://huggingface.co/api/resolve-cache/datasets/NyxKrage/incelwiki-20240225-dump/6b5514611ff193832ce1d6809b9ff6201f99224d/incelwiki-20240225-dump.py?download=true&utm_source=chatgpt.com&etag=%22cff77a827e280a84ea4e1304bba965836b33328f%22
+El comando anterior era muy profundo así que usé este:
+
+```bash
+wget -r -l 5 --convert-links --adjust-extension --page-requisites --no-parent --tries=3 https://stallman.org
+```
+
