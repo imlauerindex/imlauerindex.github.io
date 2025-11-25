@@ -101,7 +101,8 @@ Follow instructions for your OS: [https://ollama.com/download](https://ollama.co
 ### Step B — Pull a free model
 
 ```bash
-ollama pull llama3.2
+ollama pull llama3.2 (2 GB)
+ollama pull deepseek-r1 (5 GB)
 ```
 
 ### Step C — Install `llm-ollama` plugin
@@ -236,3 +237,12 @@ echo "Place your ZIM files in the current folder or set KIWIX_HOME."
 echo "======================================================"
 ```
 
+---
+
+```bash
+ llm -m llama3.2 \
+                                  --tool kiwix_search \
+                                  --zim zim-llm/zim_library/gentoo_en_all_maxi_2021-03.zim \
+                                  "How do I install Gentoo?"
+
+```
