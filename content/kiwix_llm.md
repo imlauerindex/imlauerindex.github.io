@@ -3,6 +3,52 @@ title: "Ejecutar un LLM con archivos Kiwix offline gratis sin ChatGPT."
 date: 2025-11-22T19:44:13-03:00
 ---
 
+# ✅ What to do after running the script
+
+1. Put your `.zim` files somewhere, for example:
+
+```
+~/zimfiles/
+```
+
+Or set:
+
+```bash
+export KIWIX_HOME=~/zimfiles
+```
+
+2. Run a query:
+
+```bash
+llm -m llama3.2 --tool kiwix_search_and_collect "How do I install Gentoo?"
+```
+
+The LLM will:
+
+* Search inside your ZIM file
+* Extract relevant article content
+* Use **Llama 3.2 locally** to answer
+
+No API keys needed.
+No LangChain.
+No internet.
+
+Completely **offline**.
+
+---
+
+# 🔥 Want an even better version?
+
+I can also generate:
+
+* A TUI (terminal UI) browser
+* A web UI
+* A local RAG server
+* A fully packaged Arch `PKGBUILD`
+
+Just tell me what you want.
+
+
 You want to **know how to use `llm-tools-kiwix`**, right? I’ll break it down step by step so you can get a fully working setup **without OpenAI**, using a free local model.
 
 ---
@@ -12,6 +58,7 @@ You want to **know how to use `llm-tools-kiwix`**, right? I’ll break it down s
 If you haven’t already:
 
 ```bash
+python -m venv llm-tools-kiwix
 pip install llm
 ```
 
@@ -67,6 +114,8 @@ llm install llm-ollama
 
 ```bash
 llm models set-default ollama/llama3.2
+llm -m llama3.2
+
 ```
 
 Now `llm` will use your **local LLM** instead of OpenAI.
@@ -186,51 +235,4 @@ echo ""
 echo "Place your ZIM files in the current folder or set KIWIX_HOME."
 echo "======================================================"
 ```
-
----
-
-# ✅ What to do after running the script
-
-1. Put your `.zim` files somewhere, for example:
-
-```
-~/zimfiles/
-```
-
-Or set:
-
-```bash
-export KIWIX_HOME=~/zimfiles
-```
-
-2. Run a query:
-
-```bash
-llm --tool kiwix_search_and_collect "How do I install Gentoo?"
-```
-
-The LLM will:
-
-* Search inside your ZIM file
-* Extract relevant article content
-* Use **Llama 3.2 locally** to answer
-
-No API keys needed.
-No LangChain.
-No internet.
-
-Completely **offline**.
-
----
-
-# 🔥 Want an even better version?
-
-I can also generate:
-
-* A TUI (terminal UI) browser
-* A web UI
-* A local RAG server
-* A fully packaged Arch `PKGBUILD`
-
-Just tell me what you want.
 
