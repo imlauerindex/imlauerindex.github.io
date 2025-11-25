@@ -1,77 +1,236 @@
 ---
-title: "Ejecutar un LLM con archivos Kiwix"
+title: "Ejecutar un LLM con archivos Kiwix offline gratis sin ChatGPT."
 date: 2025-11-22T19:44:13-03:00
 ---
-Below is a practical “menu” of the three most common ways people are combining local LLMs and Kiwix ZIM files today.  Pick the style that matches your hardware, patience, and privacy needs.
 
--------------------------------------------------
-1.  One-command plug-in (lightweight, no RAG)
--------------------------------------------------
-Install the official “llm-tools-kiwix” plug-in inside the same Python environment as the `llm` CLI tool (works with any local model that `llm` can see, e.g. Llamafile, Ollama, LM-Studio, etc.).
+You want to **know how to use `llm-tools-kiwix`**, right? I’ll break it down step by step so you can get a fully working setup **without OpenAI**, using a free local model.
 
-```bash
-# 1. Install the plug-in
-pip install llm-tools-kiwix      # or: llm install llm-tools-kiwix
+---
 
-# 2. Drop your .zim files in the folder where you will run commands
-#    (or export KIWIX_HOME=/path/to/zim/folder)
+# 1️⃣ Install `llm` CLI
 
-# 3. Ask anything – the LLM automatically searches the ZIMs for you
-llm -m deepseek-r1:7b --tool kiwix_search_and_collect \
-  "Explain how a transistor works" --tools-debug
-```
-
--  No vector DB, no GPU needed, instant start-up.  
--  The LLM receives the raw article text as context, so keep prompts concise or choose a model with a big context window.  
--  Works completely offline once the ZIMs are on disk .
-
--------------------------------------------------
-2.  Full RAG pipeline (best answers, needs RAM/CPU)
--------------------------------------------------
-Clone the “zim-llm” project.  It extracts every article from the ZIMs, chunks them, creates embeddings, and stores them in Chroma/FAISS so a local LLM can do retrieval-augmented generation.
+If you haven’t already:
 
 ```bash
-# 1. Clone & install
-git clone https://github.com/rouralberto/zim-llm.git
-cd zim-llm && ./setup.sh          # creates venv + installs libzim, sentence-transformers, langchain, etc.
-
-# 2. Drop ZIM files into zim_library/
-curl -L -o zim_library/en_wiki.zim "https://download.kiwix.org/zim/wikipedia_en_all_maxi.zim"
-
-# 3. Build the vector index (one-time, hours for big ZIMs)
-source zim_rag_env/bin/activate
-python zim_rag.py build
-
-# 4. Chat with your offline archive
-python zim_rag.py rag-query "Compare Newton’s and Leibniz’s notation for calculus"
+pip install llm
 ```
 
--  First build is CPU-heavy; afterwards queries are ~1 s.  
--  Works with any LLM LangChain can call (Ollama, Llama-cpp, Transformers, etc.).  
--  Keeps every answer grounded in the exact articles it retrieved .
+or follow their [official instructions](https://github.com/rschmukler/llm).
 
--------------------------------------------------
-3.  MCP server route (nice GUI, LM-Studio / OpenWebUI)
--------------------------------------------------
-If you prefer point-and-click, run an MCP (Model-Context-Protocol) server that exposes the ZIMs as tools your chat GUI can call.
+Check it works:
 
 ```bash
-pip install openzim-mcp
-mkdir ~/zim-files && cd ~/zim-files
-# (download a small .zim first, e.g. wikipedia_en_simple)
-
-# start the server
-openzim-mcp --mode simple ~/zim-files
+llm --version
 ```
 
-Then in LM-Studio (or any MCP client) add a new MCP server pointing to `http://localhost:8000` and tick the “search_with_filters” tool.  From now on you can simply ask questions in the chat and the LLM will transparently pull the relevant Wikipedia articles from your local ZIM file .
+---
 
--------------------------------------------------
-Quick checklist of ingredients
--------------------------------------------------
--  Kiwix ZIM files – get them from https://library.kiwix.org or the torrent feeds.  
--  Local LLM – easiest via Ollama (`ollama pull llama3.1:8b`) or LM-Studio.  
--  (Optional but handy) GPU with 8 GB+ VRAM if you want >10 tokens/s on 7–13 B models.  
--  Disk: 100 GB+ if you plan to store Wikipedia + Stack-Exchange + LibreTexts, etc.
+# 2️⃣ Install `llm-tools-kiwix`
 
-Pick one of the three recipes, keep everything on localhost, and you have a completely private, off-grid “AI Internet” running on your own hardware.
+```bash
+llm install llm-tools-kiwix
+```
+
+Check installed tools:
+
+```bash
+llm tools list
+```
+
+You should see:
+
+* `kiwix_search`
+* `kiwix_search_and_collect`
+* `kiwix_read`
+
+---
+
+# 3️⃣ Install a **free local LLM** (Ollama recommended)
+
+### Step A — Install Ollama
+
+Follow instructions for your OS: [https://ollama.com/download](https://ollama.com/download)
+
+### Step B — Pull a free model
+
+```bash
+ollama pull llama3.2
+```
+
+### Step C — Install `llm-ollama` plugin
+
+```bash
+llm install llm-ollama
+```
+
+### Step D — Set default model
+
+```bash
+llm models set-default ollama/llama3.2
+```
+
+Now `llm` will use your **local LLM** instead of OpenAI.
+
+---
+
+# 4️⃣ Use `llm-tools-kiwix`
+
+Make sure you have **at least one ZIM file** (e.g., Wikipedia):
+
+```bash
+llm --tool kiwix_search "Gentoo installation"
+```
+
+Or to **retrieve and read articles**:
+
+```bash
+llm --tool kiwix_search_and_collect "How do I install Gentoo"
+```
+
+You can also directly read a specific article:
+
+```bash
+llm --tool kiwix_read "Gentoo/Installation"
+```
+
+---
+
+# 5️⃣ Notes / Tips
+
+* By default, `kiwix_search` searches **titles only**.
+* `kiwix_search_and_collect` fetches the **full article text**.
+* You **don’t need any API key** if you’re using Ollama.
+
+---
+
+If you want, I can make a **single “copy-paste” script** that:
+
+1. Installs `llm`
+2. Installs `llm-tools-kiwix`
+3. Installs Ollama and pulls a free model
+4. Lets you query a ZIM file immediately
+
+This way, you can run **one command and have it working fully offline**.
+
+Do you want me to do that?
+
+
+---
+
+
+
+Below is a **single copy-paste script** that sets up everything you need:
+
+✅ `llm` CLI
+✅ `llm-tools-kiwix`
+✅ `llm-ollama`
+✅ Ollama + free model
+✅ Fully offline ZIM search + LLM answering
+
+Works on **Arch Linux** (since you’re on Arch).
+
+---
+
+# 🚀 **ONE-COMMAND FULL SETUP SCRIPT (ARCH LINUX)**
+
+Copy this entire block and save it as `setup_kiwix_llm.sh`, then run:
+
+```bash
+bash setup_kiwix_llm.sh
+```
+
+---
+
+### **📌 setup_kiwix_llm.sh**
+
+```bash
+#!/usr/bin/env bash
+set -e
+
+echo "=== Updating system ==="
+sudo pacman -Sy --noconfirm
+
+echo "=== Installing Python + pip ==="
+sudo pacman -S --noconfirm python python-pip
+
+echo "=== Installing llm CLI ==="
+pip install --upgrade llm
+
+echo "=== Installing llm-tools-kiwix ==="
+llm install llm-tools-kiwix
+
+echo "=== Installing llm-ollama backend ==="
+llm install llm-ollama
+
+echo "=== Installing Ollama ==="
+# Official Arch package
+sudo pacman -S --noconfirm ollama
+
+echo "=== Starting Ollama service ==="
+sudo systemctl enable --now ollama.service
+
+echo "=== Pulling free local LLM (Llama 3.2) ==="
+ollama pull llama3.2
+
+echo "=== Setting Llama 3.2 as default llm model ==="
+llm models set-default ollama/llama3.2
+
+echo ""
+echo "======================================================"
+echo " Setup complete!"
+echo " You can now run offline ZIM + LLM commands, for example:"
+echo ""
+echo '   llm --tool kiwix_search "Gentoo installation"'
+echo '   llm --tool kiwix_search_and_collect "How do I install Gentoo?"'
+echo ""
+echo "Place your ZIM files in the current folder or set KIWIX_HOME."
+echo "======================================================"
+```
+
+---
+
+# ✅ What to do after running the script
+
+1. Put your `.zim` files somewhere, for example:
+
+```
+~/zimfiles/
+```
+
+Or set:
+
+```bash
+export KIWIX_HOME=~/zimfiles
+```
+
+2. Run a query:
+
+```bash
+llm --tool kiwix_search_and_collect "How do I install Gentoo?"
+```
+
+The LLM will:
+
+* Search inside your ZIM file
+* Extract relevant article content
+* Use **Llama 3.2 locally** to answer
+
+No API keys needed.
+No LangChain.
+No internet.
+
+Completely **offline**.
+
+---
+
+# 🔥 Want an even better version?
+
+I can also generate:
+
+* A TUI (terminal UI) browser
+* A web UI
+* A local RAG server
+* A fully packaged Arch `PKGBUILD`
+
+Just tell me what you want.
+
