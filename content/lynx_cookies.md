@@ -74,6 +74,8 @@ or globally in `/etc/lynx.cfg`.
 
 Add or modify these lines:
 
+#### A veces lynx ignora la configuración del .lynxrc
+
 ```
 accept_all_cookies=TRUE
 ask_user_about_cookies=FALSE
@@ -87,6 +89,7 @@ You can also check `COOKIE_ACCEPT_PROMPT` in `/etc/lynx.cfg`:
 COOKIE_ACCEPT_PROMPT:FALSE
 SET_COOKIES:TRUE
 ACCEPT_ALL_COOKIES:TRUE
+ASSUME_CHARSET:utf-8
 ```
 
 
