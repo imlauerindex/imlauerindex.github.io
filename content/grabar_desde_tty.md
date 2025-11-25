@@ -155,3 +155,35 @@ Para verificar si está transmitiendo:
 mpv "https://www.youtube.com/channel/CHANNEL\_ID/live"
 ```
 
+
+
+#### Wayland (stream)
+
+``` 
+ffmpeg \
+    -f alsa -i pipewire \
+    -thread_queue_size 1024 \
+    -f pipewire -i pipewire \
+    -f v4l2 -framerate 60 -video_size 320x240 -i /dev/video0 \
+    -filter_complex "[2:v]scale=320:240[cam];[1:v][cam]overlay=main_w-overlay_w-10:main_h-overlay_h-10[outv]" \
+    -map "[outv]" -map 0:a \
+    -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p \
+    -c:a aac -b:a 128k \
+    -f flv -bufsize 1000k <TU_URL_RTMP>
+
+``` 
+
+#### Wayland (record)
+
+```bash
+ffmpeg \
+    -f pipewire -i pipewire \        # captura de pantalla
+    -f v4l2 -framerate 30 -video_size 1280x720 -i /dev/video0 \  # cámara
+    -f alsa -i pipewire \            # audio del sistema (opcional)
+    -filter_complex "[1:v]scale=320:240[cam];[0:v][cam]overlay=W-w-20:H-h-20[out]" \
+    -map "[out]" -map 2:a \
+    -c:v libx264 -preset veryfast -pix_fmt yuv420p \
+    -c:a aac -b:a 128k \
+    output.mp4
+
+```
