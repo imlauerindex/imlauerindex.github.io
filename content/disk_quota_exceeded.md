@@ -7,6 +7,9 @@ tags: ['pip']
 #### Error
 
 ```bash
+git clone https://github.com/rouralberto/zim-llm.git
+./setup.sh
+
 pip install -r requirements.txt
 
 Filesystem      Size  Used Avail Use% Mounted on
@@ -26,13 +29,12 @@ Downloading torch-2.9.1-cp313-cp313-manylinux_2_28_x86_64.whl (899.7 MB)
 [I] (zim_rag_env) esotericwarfare@arch ~/zim-llm (master) [0|1]>
 ```
 
-How can I fix this?
-
+**How can I fix this?**
 
 You're running out of space **on `/tmp` or your user quota**, not on the root filesystem as a whole.
 The key clue is:
 
-```
+```bash
 ERROR: [Errno 122] Disk quota exceeded
 ```
 
