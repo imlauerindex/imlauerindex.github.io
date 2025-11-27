@@ -3,6 +3,9 @@ title: "Setup on Access Point on ArchLinux."
 date: 2025-11-27T02:32:30-03:00
 tags: ['cli','networking']
 ---
+
+### No uso más esto. Funciona pero es lento, quizás algo de mi configuración está mal. Levanto un Hotspot desde mi Android y me conecto desde la PC y uso SAMBA.
+
 Uso esto para transferir archivos de SAMBA (Bluetooth con OBEX funciona mal).
 
 ```console
