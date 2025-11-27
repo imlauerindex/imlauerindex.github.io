@@ -246,3 +246,6 @@ echo "======================================================"
                                   "How do I install Gentoo?"
 
 ```
+
+
+![](https://miinstagram.github.io/random/IMG_20251126_025223728.jpg)

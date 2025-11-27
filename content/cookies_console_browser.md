@@ -23,7 +23,11 @@ FROM cookies;" > ~/cookies_netscape.txt
 curl -v -L -b ~/cookies_netscape.txt -c ~/cookies_out.txt "https://inv.nadeko.net/" -o /tmp/forum.html && w3m /tmp/forum.html
 curl -v -L -b ~/cookies_out.txt  "https://inv.nadeko.net/" -o /tmp/forum.html && w3m /tmp/forum.html
 
-yt-dlp --cookies cookies_out.txt
+#### Ahora usamos las cookies para descargar videos o el instagram de una persona.
+
+$ yt-dlp --cookies cookies_out.txt
+$ gallery-dl --cookies ~/cookies_out.txt https://instagram.com/user
+
 ```
 
 

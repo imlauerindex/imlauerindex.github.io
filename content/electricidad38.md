@@ -5,10 +5,15 @@ tags: [electricidad]
 ---
 
 ###### Audio en Vocaroo:
+
 https://vocaroo.com/1ah2hMBPBwjn
+
 ###### Audio en Archive:
+
 https://archive.org/details/record-157 
+
 ###### Audio en YouTube:
+
 https://www.youtube.com/watch?v=kyLx5aEKcHM
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVtdu-bR5rXL_o8M_czmZg261L9xKfHxdj9ZidecChbb8cnkogJyTAFjL4oCdGcZpz4bf992ccZgCxzSTpa8W6vfoNoIReg-XV8RL9mSS3Y5Z4CQr48bJjebw-IbC9lIR4RDdeIxZccOm6S3OtH6KQYue_oKTWhWRS4woJiHMifECcXtB4rwiEH_9qiBc/s4160/IMG_20250617_202722545.jpg)
@@ -19,3 +24,5 @@ https://www.youtube.com/watch?v=kyLx5aEKcHM
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJOkIkkNek9oiXXrcH8tVenHNLKsEoSQSdMwSjmYQjbC9kPDntFQ1K0G8LyEcLZI4cythGqi-uylBRkA7xXZAzNxgy7bh_fSpcGKjztg6CJKkr1Eb8pubW6YeV35yMftWqxckkbS4owmdPfsa-yAeKje9tPJzvU73CLVrwd89PYAwhn75oXA4Kbm9M5Kg/s4160/IMG_20250617_202803307.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5ijH0Xo7z-IVO4ho608RuxfHsQ29lVAZ4b3xtcDmyyJIF_6X3dlVELWSnOCrAC0kqpgo4x_JtsmE_XAmZj64oxqSZjksys6ouMMUVFqGDephikOcDh3yQHd35mEd5W4RcB_ejnDDPb3IKj42Q4tjaOAC5J_pkvW1-_AuqExUjOA7YkiT7oBo-fB340pk/s4160/IMG_20250617_202811500.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkZWl4jJpXHg2_byHlfMesatUNJuBqnr0yfM-vjnYII_CCr4s6O7pwD68MyX38XrgBzXiSlYfHwtnFjLz_1Qor1Uz_wUteybCswCq-xdVxsL4lRoCwR92Q_GEEq9UTASDHtSjLO7_ZaNzKCn182_fr9G12fJ8hq2OipuOesmYUzofsjCdYLI0c2dhi9hc/s4160/IMG_20250617_202818027.jpg)
+
+
