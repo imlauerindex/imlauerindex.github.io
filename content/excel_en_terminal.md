@@ -85,3 +85,5 @@ n/N Move to next/previuos search match.
 rl Lock the current cell or range.   
 ru Unlock a locked cell or range, making it editable.   
 rv Valueize the current cell or range.   
+
+Guardalo como `.csv`.
