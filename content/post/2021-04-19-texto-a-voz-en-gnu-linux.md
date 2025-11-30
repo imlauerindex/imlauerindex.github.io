@@ -5,49 +5,70 @@ tags: ['texto a voz']
 categories: ['linux']
 date: 2021-04-19T14:49:57-03:00
 ---
-En esta publicación vamos a analizar como reproducir un texto a audio con Festival.  
+
+```bash
+sudo apt install festival festival-doc festvox-kdlpc16k festvox-ellpc11k
+echo "Hello, world!" | festival --tts
+```
+
+Podes agregar `links -dump -width 512 $1 | tr "\n\ r" " " | festival --tts` como un navegador externo en w3m y te leerá la página ejecutando `Escape + número de casilla + M`.
 
 
-Antes de empezar, estos son los paquetes de las voces que se necesitan instalar para que pueda
-festival pueda leer algún texto: 
+#### Paquetes de voces:
 
 `festvox-kdlpc16k`: Voz masculina de inglés americano para Festival.    
 `festvox-ellpc11k`: Voz masculiona de castellano español para Festival.
 
 Si querés más voces podés buscarlas con el siguiente comando
-`sudo apt search festvox-`.    
-Por ejemplo para instalar una voz Italiano ejecutamos:
-`sudo apt-get install festvox-itapc16k`
+`sudo apt search festvox-` en ArchLinux sería usando `yay` con cualquier otra herramienta que soporte AUR.    
+
+#### En ArchLinux
+
+```bash
+[N] esotericwarfare@arch ~/p/b/content (master)>  pacman -Ss festival 
+extra/festival 2.5.0-5 [installed]
+    A general multi-lingual speech synthesis system
+extra/festival-english 2.5-3
+    British and American English Male speaker
+extra/festival-us 2.5-3
+    American Male/Female and Scottish English Male speaker
+[I] esotericwarfare@arch ~/p/b/content (master)> sudo pacman --noconfirm -S festival festival-us
+
+```
+
+Por ejemplo para instalar una voz Italiano ejecutamos: `sudo apt-get install festvox-itapc16k`
+
 **Observación: Hay muchos tipos de voces de español.**
 
-Ahora procedemos entonces a instalar festival junto con voces masculinas español e inglés descriptas
-anteriormentes:
-`sudo apt install festival festival-doc festvox-kdlpc16k festvox-ellpc11k`
+Para establecer una voz por defecto en vez de tener que agregar `--language spanish` cada vez que ejecutás festival, podés agregar:
 
-Para establecer una voz por defecto en vez de tener que agregar
-`--language spanish` cada vez que ejecutás festival, podés agregar:
 en `~/.festivalrc` lo siguiente: 
-`(set! voice_default voice_el_diphone)`. <span style="color:red">Incluir</span> los `()` (obviamente
-tenés que tener el paquete de español instalado que lo indiqué más arriba)  
-<span style="color: blue">Si el archivo ~/.festivalrc no existe, creálo.</span>
 
-<span style="color: #791451">Si querés saber las voces que tenés instaladas en tu sistema 
-podés entrar a la shell interactiva de festival ejecutando 
+`(set! voice_default voice_el_diphone)`. Incluir los `()` (obviamente
+tenés que tener el paquete de español instalado que lo indiqué más arriba)  
+
+Si el archivo `~/.festivalrc` no existe, creálo.
+
+Si querés saber las voces que tenés instaladas en tu sistema podés entrar a la shell interactiva de festival ejecutando 
+
 `festival` en la consola y escribí `(voice.list)` con los `()`.  
 
 Para establecer una de estas voces estas por defecto en agregá en `~/.festivalrc`
-`(set! voice_default voice_el_diphone)`. <span style="color:red">Incluir</span> los `()`. **OJO**: agregar el  prefijo `voice_` 
-antes del nombre de la voz que te muestra el comando `(voice.list)`.
+`(set! voice_default voice_el_diphone)`. Incluir los `()`.
 
-Para leer un texto sin guardar el audio: `festival --tts archivo` (va a usar la voz que 
-pusiste por defecto en `~/.festivalrc` o podés usar la opcion `--language spanish` si no pusiste
-ninguna.  
+**OJO**: agregar el  prefijo `voice_` antes del nombre de la voz que te muestra el comando `(voice.list)`.
+
+#### Para leer un texto sin guardar el audio:
+
+`festival --tts archivo` (va a usar la voz que pusiste por defecto en `~/.festivalrc` o podés usar la opcion `--language spanish` si no pusiste ninguna.  
 
 `--tts`: Significa text to speech (texto a voz)   
 
-Pero <span style="color:red">para que lea los tíldes y las ñ tenés que cambiar la codificación de tu archivo usando iconv</span> de la siguiente manera:
+#### Pero para que lea los tíldes y las ñ tenés que cambiar la codificación de tu archivo usando iconv de la siguiente manera:
+
 Primero instalamos iconv: `sudo apt install iconv`.   
-`iconv`: convertir texto de una codificación de caracteres a otra. Es necesario porque sino festival en español no te lee los tíldes ni las ñ. Más información ejecutá `man iconv`.
+
+* `iconv`: convertir texto de una codificación de caracteres a otra. Es necesario porque sino festival en español no te lee los tíldes ni las ñ. Más información ejecutá `man iconv`.
 
 Luego para cambiar la codificación del archivo:    
 ```bash
@@ -84,6 +105,7 @@ Ahora si querés que lea el texto seleccionado gráficamente con el mouse. Podé
 sudo apt-get install xsel
 ```
 
+#### xsel
 
 `xsel`: Te permite manipular con el texto seleccionado gráficamente, más adelante muestro un ejemplo de como funciona.
 Más información ejecutá `man xsel` en la consola.   

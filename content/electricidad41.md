@@ -6,10 +6,15 @@ tags: [electricidad]
 (Se cortó el audio)
 
 ###### Audio en Vocaroo:
+
 https://vocaroo.com/1jU2gVFOUp8s
+
 ###### Audio en Archive:
+
 https://archive.org/details/record-164 
+
 ###### Audio en YouTube:
+
 https://www.youtube.com/embed/WiGkgFy_1Rg
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis_T31YlKVBdeIikaXZxgr43CTgWQOMRSBQc2M7CbJvcqqbySmYizBvPIJWkI2YWX42j-cAIJEJozDJ_AfUw3PjAaU0Y21189Dk0KQQFrtf5eAppQGl7hiCGiTEDh7TQ0_3BQ8wJeM7_hsQJW2hU2QvPYSi_Uw5pG_LbeEIvsGHjUsGxHJjc2BcDNbgv4/s4160/IMG_20250624_201423579.jpg)
@@ -19,3 +24,43 @@ https://www.youtube.com/embed/WiGkgFy_1Rg
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP9FJEc6tTjK_oWK8gjBx2BLlAJ5DiY6Gi15Qgbot4H6zSXH4MCe6WpZe7TgnBll_Q36kmdT7oMhqNHWf26iyzYNEkPoWJTeaNA6H7k8ge0VGwD_lyX9aeukyM_scPxd9PEd17151Rvua8gGiGwcBSi_TOSi9uWBfcIrDxIsIA4aSg-zV4og7D2F_4p-4/s4160/IMG_20250624_192705593.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijI7TilF6nf9mS6RVAVO8Mu-H3V43MqCeiTBonKFhimWYKmKj5zGv3ByxAUv9EGOoryMY4V_9ZRbia0NGbJ5LnWPVJ_HLxHDv9Gs8cSKzQit2q_w8SZU9VRXh07gdxCyKMV-Fok2Qx018m4bEWTqRQVxQrRY8u4tW6NgO0BMdIQFz8-ITjXloiK-4njFY/s4160/IMG_20250624_192703831.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpm97oHlAJbKJXFbrBh3jZHK0bmhJLLT6NKNW8t-tQEAvTyUeWBJfWwmlpJMUf4yrCSEwO3FCdw5bEDsYDjfbri6iNNDZhKA-qwgt52XWkpMv4OVHY6p-fw34yevWzaWZDZI5wyf03qfaaS-ZYJVR8MIURZottVg-d1GI5IclIy_TzlByBcVZf7Ef7RPk/s4160/IMG_20250624_192700446.jpg)
+
+#### Transcripción 
+
+Vení para acá vamos a tomarte lección fijate los tableros y...
+
+1,2,3,4,5... 
+
+Silva ya no viene más.
+
+Profesor: Ese vago ya no silva más entonces.
+
+Digan el nombre no más. Imlauer, Melgarejo.
+
+La caja está al nivel del ladrillo y hay un revoque gruesísimo o sea está super embutido entonces hoy tengo que comprar la más grande y taparla con eso. 
+Profesor: Hay una de 10x10 que tiene para que vos le pongas 4 módulos de toma tranquilamente después te voy a mostrar la foto. Yo uso el que es para hacer esta casa pongo directamente cuando yo tengo que hacer impuestos de computadora. Ah claro, entonces pongo 4 directamente monitor todo eso, para no tener que salir.
+
+Puedo pasar al fondo?
+
+Alumna muestra que compró fotocélula.
+
+Profesor: ¡Qué grande ya compró! Tené nomas en tu mano, ahora vamos a ver que es lo que te falta y la idea es acuérdense el gráfico es de 3, ahí es más fácil imposible, ahí te da hasta la forma de... Así que... Ahí te dirá el funcionamiento y al otro lado creo que está especificación técnica. Así que aprovechá.
+
+Ahí puedo tener un portalámparas.
+
+Tenes un portalámparas? 
+Alumna: 2
+Profesor: Si trabajas con 1 ya me conformo.
+
+Este le vamos, ya me mentiste ya. Este no más.
+Alumna: Este está conectado y este habíamos sacado porque ¿? (Minuto 23).
+Melgarejo: Selva.
+Profesor: Claro lo mismo que haces, esa fotocélula acá. Entonces directamente de ahí a la fase y de esta fase, el retorno vendrá acá. A la lámpara al color ese que te dice ahí, yo no te voy a decir pero ahí te va a decir el color que vos tenes ahí. 
+
+\* Llega Barrientos.
+
+Profesor: Después yo te explico. Pero la idea es que vos 1ero intentes, este es el trabajo que vamos a hacer nosotros ahora, vos tenes el portalámparas una llave de 1 punto que tenes ahí y la fotocélula la fotocélula estará en el medio ahí. En el cuadrado después yo te explico ahí y voy a hacer el esquema acá si hace falta pero ese es el... Acá es tu fotocélula, acá vas a poner, ahí, bien ahí.
+
+Profesor: ¡Que grande compró una fotocélula ahí la señora!
+
+ 
