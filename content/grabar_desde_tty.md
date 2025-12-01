@@ -4,15 +4,37 @@ date: 2025-07-18T21:32:33-03:00
 tags: ['linux']
 ---
 Grabar archivo de video (al grabar de esta forma solo estás usando el procesador sin la tarjeta gráfica):
+
+
+```bash
+ffmpeg -f fbdev -framerate 60 -i /dev/fb0 -f v4l2 -i /dev/video0 -f alsa -i pipewire -filter_complex "[1:v]scale=320:-1[cam];[0:v][cam]overlay=main_w-overlay_w-20:20" -c:v libx264 -preset ultrafast -pix_fmt yuv420p -c:a aac -b:a 128k -async 1 -ar 48000 -latency 100 prueba.mp4
+
+```
+
+---
+
+
 ```bash
 ffmpeg -f alsa -i pipewire -f fbdev -r 60 -i /dev/fb0 mamita.mp4
 ```
+
+
+```bash
+ffmpeg -f fbdev -framerate 30 -i /dev/fb0 \
+       -f v4l2 -i /dev/video0 \
+       -f alsa -i pipewire \
+       -filter_complex "[1:v]scale=320:-1[cam];[0:v][cam]overlay=main_w-overlay_w-20:20" \
+       -c:v libx264 -c:a aac output.mp4
+```
+
 
 Este es el comando que uso para grabar y tiene menos lag.
 ```bash
 ffmpeg \
  -f fbdev -framerate 60 -i /dev/fb0 \
+ -f v4l2 -i /dev/video0 \
  -f alsa -i pipewire \
+ -filter_complex "[1:v]scale=320:-1[cam];[0:v][cam]overlay=main_w-overlay_w-20:20" \
  -c:v libx264 -preset ultrafast -pix_fmt yuv420p \
  -c:a aac -b:a 128k \
  -async 1 -ar 48000 -latency 100 \

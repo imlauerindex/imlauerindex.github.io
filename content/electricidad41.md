@@ -40,7 +40,7 @@ Digan el nombre no más. Imlauer, Melgarejo.
 La caja está al nivel del ladrillo y hay un revoque gruesísimo o sea está super embutido entonces hoy tengo que comprar la más grande y taparla con eso. 
 Profesor: Hay una de 10x10 que tiene para que vos le pongas 4 módulos de toma tranquilamente después te voy a mostrar la foto. Yo uso el que es para hacer esta casa pongo directamente cuando yo tengo que hacer impuestos de computadora. Ah claro, entonces pongo 4 directamente monitor todo eso, para no tener que salir.
 
-Puedo pasar al fondo?
+Alumno: Puedo pasar al fondo?
 
 Alumna muestra que compró fotocélula.
 
@@ -63,4 +63,25 @@ Profesor: Después yo te explico. Pero la idea es que vos 1ero intentes, este es
 
 Profesor: ¡Que grande compró una fotocélula ahí la señora!
 
- 
+Alumno: ¿A quién le falta?
+
+##### Organizando tableros...
+
+Que vos hagas la unión dejale este pedacito ahí el otro cable no cortes cortale el que alimenta a eso, no cortes eso porque cada vez queda más chico voy poniendo borneras porque cada año rinde menos. Ahí tengo 3 cables, entonces ese va a ir acá lo pones de estar forma de esta forma, siempre se pone de este lado, entonces voy le pones acá ahí vas a hacer las conexiones pero vos lees lo que dice acá, vos sabés como es el diagrama normal.  Entones acá va a ir una llave de punto, acá esta llave que está acá una de punto lo pones acá directamente adonde vos quieras, podes poner de aquel lado también no hay problema. 
+
+#### Vos alimentas ahí fijate que la fase llega a la llave de punto, el retorno va a la fotocélula y de la fotocélula salgo a la lámpara y el neutro es el mismo, o sea que podes usar esta si queres no hay problema y ahí le pones y eso es el trabajo que vamos a hacer.
+
+Alumna: Pero el neutro va a este? No?
+Profesor: El neutro va a ese para activar la fotocélula, siempre dijimos que fijate acá siempre va a la fotocélula el neutro y la fase
+Alumna: y después sale otro neutro de acá.
+Profesor: Claro o sino si vos tenes alimentación de acá ya este está alimentado acá entonces vos tomas el neutro de acá no más porque ya está ahí la lámpara, mirá.
+
+Entonces saco el neutro de acá 
+
+
+
+
+
+---
+
+Minuto 24
