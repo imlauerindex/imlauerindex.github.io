@@ -210,6 +210,11 @@ curl -LO larbs.xyz/emailwiz.sh
 ```bash   
 yt-dlp --ignore-config --write-auto-sub --write-sub --sub-lang es --skip-download https://www.youtube.com/watch?v=3nJnAqAZQpY  &   
 ```   
+
+#### Descargar comentarios
+```bash   
+yt-dlp --ignore-config  --write-comments --skip-download https://www.youtube.com/embed/mfv0V1SxbNA
+```   
    
    
 #### grep y less con color   
