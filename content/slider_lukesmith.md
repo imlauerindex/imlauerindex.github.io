@@ -5,6 +5,10 @@ date: 2025-12-02T02:03:33-03:00
 
 **Lo haremos usando el script de LukeSmith: `slider`.**
 
+Primero grabá el audio y después ajustá los timestamp para la longitud de ese audio.
+
+#### Tenes que pasar el archivo de audio con `-a` de lo contrario tirará un error, más abajo explico como solucionarlo.
+
 ```bash
 $ ./slider
 Give an input file with -i.
@@ -18,6 +22,40 @@ etc...
 Timecodes and filenames must be separated by Tabs.
 ```
 
+Tuve que cambiar
+
+```bash
+case "$(file --dereference --brief --mime-type -- "$audio")" in
+	audio/*) ;;
+
+```
+
+a
+
+```bash
+case "$(file --dereference --brief --mime-type -- "$audio")" in
+	video/*) ;;
+
+```
+
+Porque no me tomaba m4a como un archivo de audio.
+
+
+El script tiene un problema y no me permite generar videos **sin audio** porque el `video.prep` generaba un valor negativo entonces hice lo siguiente
+
+```bash
+cd .cache/slider/mi_video
+```
+
+Y acá están las imágenes generadas por magick con la resolución corregida.
+
+Entonces edito el archivo video.prep arreglo el tiempo negativo del último archivo y ejecuté:
+
+```bash
+ffmpeg -hide_banner -y -f concat -safe 0 -i "video.prep" -fps_mode vfr -c:v libx264 -pix_fmt yuv420p "video.mp4"
+```
+
+
 ##### Lo podes conseguir clonando su repo (mas abajo pegue el codigo del script)
 
 ```
@@ -25,6 +63,8 @@ git clone https://github.com/lukesmithxyz/voidrice
 cd .local/bin/
 ./slider
 ```
+
+Cambie esto en el codigo: `-vsync vfr` lo reemplace por `-fps_mode vfr`.
 
 ---
 
@@ -52,14 +92,16 @@ done
 #### Ahora en la carpeta en donde tengas todas las imagenes ejecuta:
 
 ```bash
-ls *.jpg | sort | ./slider_gen_timestamps.sh > video.txt
+ls *.jpg | sort | ./slider_gen_timestamps.sh > video
 ```
 
 #### Ahora creamos el video:
 
 ```bash
-./slider -i video
+./slider -i video -a audio.mp3
 ```
+
+Si el audio es m4a tendras que hacer una ligera modificacion en el codigo que expliqué en este mismo articulo más arriba.
 
 #### Slider
 
