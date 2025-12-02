@@ -3,7 +3,29 @@ title: "Generate videos cli"
 date: 2025-12-02T02:03:33-03:00
 ---
 
+Subí el audio a youtube esto lo hago usando un script para agregar una imagen al audio porque no se puede subir audios a youtube y descargá los subtítulos usando esto: [https://imlauera.github.io/srt_to_txt/](https://imlauera.github.io/srt_to_txt/)
+
+El archivo para subir audios a youtube está en este blog (crear blog post) se llama.
+
+```bash
+yt-dlp --ignore-config --write-subs --write-auto-sub --sub-lang es --sub-format "srt" --skip-download https://www.youtube.com/watch?v=VIDEO_ID
+sed -E '/^[0-9]+$|^$/d; /^[0-9]{2}:/d' video.en.srt > subtitles.txt
+```
+
+Ahora copiá y pegá los subtitulos por partes a ChatGPT y pedile que haga un resumen luego guardalos en un archivo llamado `chatgpt.txt`.
+
+Ahora generamos el audio, podes usar piper-tts.
+
+```bash
+cat chatgpt.txt | espeak-ng -v es -w rock.wav
+ls *.jpg | sort | ./slider_gen_timestamps.sh > video
+./slider -i video -a rock.wav
+```
+
 **Lo haremos usando el script de LukeSmith: `slider`.**
+
+
+### Agarré la transcripción del audio lo tire a chatgpt y lo pasé a `cat chatgpt.txt | espeak-ng -v es -w rock.wav` que me generó un archivo de audio y luego se lo pasé a `slider`.
 
 Primero grabá el audio y después ajustá los timestamp para la longitud de ese audio.
 
@@ -54,6 +76,7 @@ Entonces edito el archivo video.prep arreglo el tiempo negativo del último arch
 ```bash
 ffmpeg -hide_banner -y -f concat -safe 0 -i "video.prep" -fps_mode vfr -c:v libx264 -pix_fmt yuv420p "video.mp4"
 ```
+Y dejo el ultimo nombre archivo sin nada abajo
 
 
 ##### Lo podes conseguir clonando su repo (mas abajo pegue el codigo del script)
@@ -85,7 +108,7 @@ while read -r file; do
     printf "%s\t%s\n" "$timestamp" "$file"
 
     # Add 20 seconds for next file
-    sec=$((sec + 20))
+    sec=$((sec + 3))
 done
 ```
 

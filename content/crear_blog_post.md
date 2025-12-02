@@ -1,7 +1,6 @@
 ---
 title: "Crear blog post"
 date: 2025-04-06T12:21:09-03:00
-draft: true
 ---
 ```
 sudo systemctl start smb

@@ -290,7 +290,9 @@ sudo pacman -S espeakup espeak speech-dispatcher
 Optional voices (better quality, not required):
 
 ```bash
-sudo pacman -S piper-tts
+sudo pacman --noconfirm -S piper-tts
+
+yay --noconfirm -S aur/piper-voices-es-es
 ```
 
 ---
@@ -422,4 +424,7 @@ links -dump -width 512 $1 | tr "\n\ r" " " | festival --tts  &
 # To file
 #links -dump -width 512 $1 | tr "\n\ r" " " | sed "s/^.*, consoomer version//g" | piper-tts --model /usr/share/piper-voices/en/en_US/ryan/high/en_US-ryan-high.onnx --output .
 #links -dump -width 512 $1 | tr "\n\ r" " " | sed "s/^.*, consoomer version//g" | piper-tts --model /usr/share/piper-voices/en/en_US/amy/low/en_US-amy-low.onnx --output_raw 2> /dev/null  | aplay -f S16_LE -r 22050 &
+
 ```
+
+cat chatgpt.txt | piper-tts --model /usr/share/piper-voices/es/es_ES/mls_9972/low/es_ES-mls_9972-low.onnx --output_raw 2> /dev/null  | aplay -f S16_LE -r 22050
