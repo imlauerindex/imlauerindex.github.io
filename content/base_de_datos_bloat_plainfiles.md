@@ -3,7 +3,183 @@ title: "Las base de datos son bloat mejor usa un archivo de texto plano."
 date: 2025-12-03T04:01:56-03:00
 tags: ['db']
 ---
+
 Las bases de datos son bloat, es mejor usar un archivo texto plano y usar las herramientas de Unix para buscar informacion dentro de ellos.
+
+---
+
+Aquí tenés una **guía práctica y realista** para usar **un archivo de texto plano como “base de datos”** para un colegio, usando solo **grep, awk, sed, sort, cut** y herramientas Unix.
+La clave es **formato bien definido**, **un registro por línea** y **campos separados** de forma consistente.
+
+---
+
+# ✅ **1. Elegir un formato simple, estable y fácil de parsear**
+
+El mejor formato para “base de datos en texto plano” usando Unix es:
+
+### **Formato: TSV (tab-separated values, separado por TAB)**
+
+Razones:
+
+* No choca con comas dentro del texto.
+* `awk -F '\t'` lo lee perfecto.
+* `grep` funciona igual.
+* Fácil de editar en Vim.
+
+---
+
+# ✅ **2. Estructura universal para cualquier tipo de registro**
+
+Usá un **“schema” fijo**:
+
+```
+TYPE    ID      DATE        FIELD1      FIELD2     FIELD3     EXTRA
+```
+
+### Campos recomendados:
+
+* `TYPE`: el tipo de dato → `DOCENTE`, `ALUMNO`, `ASISTENCIA`, `LICENCIA`, `AMON`, `TUTOR`, etc.
+* `ID`: identificador único → DNI, legajo o código.
+* `DATE`: formato estándar → `2025-03-04`
+* `FIELD1..FIELDn`: depende del tipo.
+* `EXTRA`: texto libre opcional.
+
+---
+
+# ✅ **3. Ejemplos reales**
+
+### **Docentes**
+
+```
+DOCENTE  20300300    2025-03-01  ingreso     Juan Perez     Matemática
+DOCENTE  20300300    2025-03-15  licencia    enfermedad     2-dias
+```
+
+### **Alumnos**
+
+```
+ALUMNO   55022110    2025-03-01  ingreso     Lopez Maria    2B
+TUTOR    55022110    2025-03-01  tutor       Carlos Lopez   padre
+```
+
+### **Asistencias**
+
+```
+ASIST    55022110    2025-03-04  presente    2B
+ASIST    55022110    2025-03-05  ausente     2B
+```
+
+### **Amonestaciones**
+
+```
+AMON     55022110    2025-03-05  leve        celular        profesorX
+AMON     55022110    2025-03-10  grave       conducta       preceptorY
+```
+
+---
+
+# ✅ **4. Cómo consultar rápido con Unix**
+
+### ■ Todos los registros de un alumno:
+
+```
+grep -P "\t55022110\t" base2025.tsv
+```
+
+### ■ Solo asistencias:
+
+```
+grep "^ASIST" base2025.tsv
+```
+
+### ■ Asistencias de un alumno:
+
+```
+awk -F '\t' '$1=="ASIST" && $2=="55022110"' base2025.tsv
+```
+
+### ■ Cantidad de ausencias:
+
+```
+awk -F '\t' '$1=="ASIST" && $2=="55022110" && $4=="ausente" {c++} END {print c}' base2025.tsv
+```
+
+### ■ Sanciones de un curso:
+
+```
+awk -F '\t' '$1=="AMON" && $6=="2B"' base2025.tsv
+```
+
+---
+
+# ✅ **5. Cómo agregar un registro desde Bash**
+
+Hacete un script:
+
+### `add.sh`
+
+```bash
+#!/bin/sh
+echo -e "$@" >> base2025.tsv
+```
+
+Uso:
+
+```bash
+./add.sh "ASIST\t55022110\t2025-03-06\tpresente\t2B"
+```
+
+---
+
+# ✅ **6. Cómo validar datos**
+
+Podés agregar checks con awk:
+
+```
+awk -F '\t' 'NF < 4 { print "Registro inválido:", $0}' base2025.tsv
+```
+
+---
+
+# ✅ **7. Organización por año**
+
+Te recomiendo:
+
+```
+/datos-colegio/
+    base2025.tsv
+    base2026.tsv
+    base2027.tsv
+```
+
+Un archivo grande por año es perfecto.
+
+---
+
+# ✅ **8. Opcional: separar por “tablas virtuales”**
+
+Si querés dividir un poco:
+
+```
+docentes2025.tsv
+alumnos2025.tsv
+asistencias2025.tsv
+amonestaciones2025.tsv
+tutores2025.tsv
+```
+
+Pero tu idea de **un solo archivo** es totalmente válida — solo necesitás el campo `TYPE`.
+
+---
+
+# ⚡ ¿Querés que te genere un *schema* completo y lista de comandos útiles para cada tipo de dato?
+
+Puedo armarte un “manual del sistema” con todo predefinido.
+
+
+
+
+
 
 ---
 
