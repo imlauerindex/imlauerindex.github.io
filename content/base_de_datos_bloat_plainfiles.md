@@ -1,9 +1,206 @@
 ---
-title: "Base_de_datos_bloat_plainfiles"
+title: "Las base de datos son bloat mejor usa un archivo de texto plano."
 date: 2025-12-03T04:01:56-03:00
 tags: ['db']
 ---
 Las bases de datos son bloat, es mejor usar un archivo texto plano y usar las herramientas de Unix para buscar informacion dentro de ellos.
+
+---
+
+You can absolutely use a **plain text file as a database** in Unix. This is classic Unix philosophy: *“Text is the universal interface.”*
+Below are **practical patterns** depending on how you want to store and query data — all without jq, without SQLite, without JSON — just text + grep/awk/sed.
+
+---
+
+# ✅ 1. Choose a Format (custom plain text)
+
+The simplest and most robust **flat-file database** formats are:
+
+### **A) KEY=VALUE (one record per line)**
+
+```
+id=1 name="John Doe" age=30
+id=2 name="Alice" age=25
+```
+
+### **B) CSV (comma separated)**
+
+```
+1,John Doe,30
+2,Alice,25
+```
+
+### **C) Pipe/Tab separated**
+
+```
+1|John Doe|30
+2|Alice|25
+```
+
+### **D) One file per record (directory database)**
+
+```
+db/
+  1.txt
+  2.txt
+```
+
+Each file contains arbitrary text.
+
+---
+
+# ✅ 2. How to Query the “Database”
+
+## 🔍 Search rows by field
+
+### **KEY=VALUE format**
+
+Find all entries where name contains "Alice":
+
+```sh
+grep 'name="Alice"' db.txt
+```
+
+Find id=2:
+
+```sh
+grep '^id=2 ' db.txt
+```
+
+### CSV example
+
+Find records whose first column is "2":
+
+```sh
+awk -F, '$1 == 2' db.csv
+```
+
+---
+
+# 🔄 3. Insert new record
+
+Append:
+
+```sh
+echo 'id=3 name="Bob" age=50' >> db.txt
+```
+
+---
+
+# ✏ 4. Update a record
+
+Replace age for id=1:
+
+```sh
+sed -i 's/^id=1 .*/id=1 name="John Doe" age=31/' db.txt
+```
+
+---
+
+# ❌ 5. Delete a record
+
+Delete id=2:
+
+```sh
+sed -i '/^id=2 /d' db.txt
+```
+
+---
+
+# 🔥 6. Example Flat-File Database Implementation
+
+### **db.sh**
+
+```sh
+#!/bin/sh
+
+DB="db.txt"
+
+add() {
+    echo "id=$1 name=\"$2\" age=$3" >> "$DB"
+}
+
+get() {
+    grep "^id=$1 " "$DB"
+}
+
+delete() {
+    sed -i "/^id=$1 /d" "$DB"
+}
+
+update_age() {
+    sed -i "s/^id=$1 .*/id=$1 name=\"$2\" age=$3/" "$DB"
+}
+```
+
+Usage:
+
+```sh
+./db.sh add 1 "John Doe" 30
+./db.sh add 2 "Alice" 25
+./db.sh get 2
+./db.sh update_age 1 "John Doe" 31
+./db.sh delete 2
+```
+
+---
+
+# 📂 7. Alternative: directory per record
+
+```
+db/
+  1
+  2
+```
+
+Create:
+
+```sh
+echo "name=Alice" > db/2
+echo "age=25" >> db/2
+```
+
+Search:
+
+```sh
+grep -R "Alice" db/
+```
+
+---
+
+# ⭐ When is this useful?
+
+✔ shell scripts
+✔ embedded devices
+✔ tiny systems
+✔ config management
+✔ low data volume (<50k records)
+✔ no dependencies
+✔ grep/awk/sed are extremely fast
+
+---
+
+# ⚠ When it falls apart
+
+❌ hundreds of thousands of rows
+❌ concurrent writes
+❌ complex queries (joins, ordering, types)
+
+---
+
+# If you want, I can:
+
+* design a full mini-database system in shell
+* give you CRUD helpers
+* make an “SQL-like” interface in bash
+* design indexing for fast lookups (using grep caches)
+
+Just tell me your ideal workflow.
+
+---
+
+
+
 
 Nice — you want a *practical*, file-based “database” using only Unix tools. Below is a focused, pragmatic guide + ready-to-run shell toolkit you can copy-paste and use. It covers data layout choices, common operations (CRUD + queries), performance & safety tips, and a simple script (`plaindb.sh`) that implements insert/find/update/delete on newline-delimited JSON (NDJSON) and on delimited CSV/TSV. I thought deeper about scale, concurrency, indexing, and schema evolution so you don't get burned later.
 
