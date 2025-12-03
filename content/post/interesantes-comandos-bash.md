@@ -375,3 +375,18 @@ systemctl list-units --type=service --state=running
 ```bash
 ls -lhS | less
 ```
+
+### Uno de los comandos que más uso:
+
+```bash
+ls -ltr
+ls -d */ -tr
+```
+
+
+#### Incrementar volumen de un audio
+
+```bash
+ffmpeg -i input.mp4 -af "volume=4.0" output.mp4
+```
+

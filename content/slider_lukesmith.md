@@ -2,6 +2,7 @@
 title: "Generate videos cli"
 date: 2025-12-02T02:03:33-03:00
 ---
+Sacá las fotos horizontales, grabá el audio, disponé de espacio disponible.
 
 Subí el audio a youtube esto lo hago usando un script para agregar una imagen al audio porque no se puede subir audios a youtube y descargá los subtítulos usando esto: [https://imlauera.github.io/srt_to_txt/](https://imlauera.github.io/srt_to_txt/)
 
