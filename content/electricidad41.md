@@ -67,7 +67,7 @@ Alumno: ¿A quién le falta?
 
 ##### Organizando tableros...
 
-Que vos hagas la unión dejale este pedacito ahí el otro cable no cortes cortale el que alimenta a eso, no cortes eso porque cada vez queda más chico voy poniendo borneras porque cada año rinde menos. Ahí tengo 3 cables, entonces ese va a ir acá lo pones de estar forma de esta forma, siempre se pone de este lado, entonces voy le pones acá ahí vas a hacer las conexiones pero vos lees lo que dice acá, vos sabés como es el diagrama normal.  Entones acá va a ir una llave de punto, acá esta llave que está acá una de punto lo pones acá directamente adonde vos quieras, podes poner de aquel lado también no hay problema. 
+Que vos hagas la unión dejale este pedacito ahí el otro cable no cortes cortale el que alimenta a eso, no cortes eso porque cada vez queda más chico voy poniendo borneras porque cada año rinde menos. Ahí tengo 3 cables, entonces este va a ir acá lo pones de estar forma de esta forma, siempre se pone de este lado, entonces voy le pones acá ahí vas a hacer las conexiones pero vos lees lo que dice acá ahí está el diagrama, vos ya sabés como es el diagrama normal.  Entones acá va a ir una llave de punto, acá esta llave que está acá una de punto lo pones acá directamente adonde vos quieras, podes poner de aquel lado también no hay problema. 
 
 #### Vos alimentas ahí fijate que la fase llega a la llave de punto, el retorno va a la fotocélula y de la fotocélula salgo a la lámpara y el neutro es el mismo, o sea que podes usar esta si queres no hay problema y ahí le pones y eso es el trabajo que vamos a hacer.
 
@@ -76,7 +76,16 @@ Profesor: El neutro va a ese para activar la fotocélula, siempre dijimos que fi
 Alumna: y después sale otro neutro de acá.
 Profesor: Claro o sino si vos tenes alimentación de acá ya este está alimentado acá entonces vos tomas el neutro de acá no más porque ya está ahí la lámpara, mirá.
 
-Entonces saco el neutro de acá 
+Alumna: Entonces saco el neutro de acá 
+Profesor: Claro, acá vos tenes mirá a tu lámpara tenés acá el neutro 
+Alumno: De acá podemos sacar el cable y alimentar el neutro.
+Profesor: Claro, pero dejale siempre acá, agarrá vos y tenés acá, el neutro este fijate vos tenes tu caja de paso dijimos que siempre en algún lado está tu caja de paso o caja de distribución puedo tomar la fase y el neutro acá te conviene tomar, la fase va directamente acá, el retorno vien acá y el neutro ya va a lámpara y de acá tomás de acá mirá. Es como si estuviera allá arriba y tu fotocélula estaría del otro lado, entonces tu lámpara va a estar de aquél lado, de ahí trae la alimentación no más. 
+Acá también tiene 1, 2 yo tengo ahí varias así que no se preocupen. Algo vamos a hacer.
+
+
+
+
+
 
 
 
