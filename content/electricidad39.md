@@ -5,11 +5,17 @@ tags: [electricidad]
 ---
 
 ###### Audio en Vocaroo:
+
 https://vocaroo.com/18OOp5ddV1J9
+
 ###### Audio en Archive:
+
 https://archive.org/details/record-160 
+
 ###### Audio en YouTube:
+
 https://www.youtube.com/embed/a1zj3CIZGeE
+
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuWRc1lbbdIAdWYw1p7C21kzP65ujbt8Q2aTr82t0raGl1whHUu6OYXmXMFnUi6gnQht-wzezpGg4ekgnW8yvEYkCmA28JLVDROZTP6eI1IsqfDJfHNRkUcOS_wy3XmeNiyJFBVHsZEQu6R5CNpHgw84MdTFTrLqCSE2RwHCsA4vGxQV7RJ-lnLZzgBL4/s4160/IMG_20250618_182655540.jpg)
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjurAMLV4NjDARY588PuPotthG3yDYiKn-tZGn-VURI6VFhjHmLkHuR_6uFOBJMRxVyRDJsrFeSrJd2RhLDO9KNwQ0xWrlGy3f4fV0atlhTwWj5OkeSqSmT-_sFuumuvuQyCFvSR2VLk-Up4UOlOpysh0DNyuurzw5pz1lclOLZgymbuguv6-p3uauWeNc/s4160/IMG_20250618_182701194_BURST000_COVER_TOP.jpg)

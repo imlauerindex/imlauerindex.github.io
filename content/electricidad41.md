@@ -1,5 +1,5 @@
 ---
-title: "Electricidad / Clase 41: Clase práctica. Armamos tablero con fotocelula."
+title: "Electricidad / Clase 41: Clase práctica. Armamos tablero con fotocelula. (Incompleto)"
 date: 2025-06-25T06:44:28-03:00
 tags: [electricidad]
 ---
@@ -72,7 +72,7 @@ Que vos hagas la unión dejale este pedacito ahí el otro cable no cortes cortal
 #### Vos alimentas ahí fijate que la fase llega a la llave de punto, el retorno va a la fotocélula y de la fotocélula salgo a la lámpara y el neutro es el mismo, o sea que podes usar esta si queres no hay problema y ahí le pones y eso es el trabajo que vamos a hacer.
 
 Alumna: Pero el neutro va a este? No?
-Profesor: El neutro va a ese para activar la fotocélula, siempre dijimos que fijate acá siempre va a la fotocélula el neutro y la fase
+Profesor: El neutro va a ese para activar la fotocélula, siempre dijimos que fijate acá siempre va a la fotocélula el neutro y la fase.
 Alumna: y después sale otro neutro de acá.
 Profesor: Claro o sino si vos tenes alimentación de acá ya este está alimentado acá entonces vos tomas el neutro de acá no más porque ya está ahí la lámpara, mirá.
 
@@ -80,8 +80,15 @@ Alumna: Entonces saco el neutro de acá
 Profesor: Claro, acá vos tenes mirá a tu lámpara tenés acá el neutro 
 Alumno: De acá podemos sacar el cable y alimentar el neutro.
 Profesor: Claro, pero dejale siempre acá, agarrá vos y tenés acá, el neutro este fijate vos tenes tu caja de paso dijimos que siempre en algún lado está tu caja de paso o caja de distribución puedo tomar la fase y el neutro acá te conviene tomar, la fase va directamente acá, el retorno vien acá y el neutro ya va a lámpara y de acá tomás de acá mirá. Es como si estuviera allá arriba y tu fotocélula estaría del otro lado, entonces tu lámpara va a estar de aquél lado, de ahí trae la alimentación no más. 
-Acá también tiene 1, 2 yo tengo ahí varias así que no se preocupen. Algo vamos a hacer.
+Acá también tiene 1, 2 yo tengo ahí varias así que no se preocupen. Algo vamos a hacer dijo el brasilero.
 
+Profesor: Y entra bien el zócalo ahí?
+
+Ayudante: Debería
+
+Alumna: Línea es negro.
+Barrientos: Neutro es el blanco.
+Profesor: Vamos a poner como condición primordial que la fotocélula siempre salga de acá la alimentación de la caja de paso entonces después acá ocuparemos un portalámpara que la mayoría tiene portalámpara y una llave de punto nada más. Y cualquier cosa si no está allá tienen la fotocopia.
 
 
 
@@ -93,4 +100,4 @@ Acá también tiene 1, 2 yo tengo ahí varias así que no se preocupen. Algo vam
 
 ---
 
-Minuto 24
+Minuto 32

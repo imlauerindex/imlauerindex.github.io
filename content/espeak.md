@@ -430,3 +430,5 @@ links -dump -width 512 $1 | tr "\n\ r" " " | festival --tts  &
 cat chatgpt.txt | piper-tts --model /usr/share/piper-voices/es/es_ES/mls_9972/low/es_ES-mls_9972-low.onnx --output_raw 2> /dev/null  | aplay -f S16_LE -r 22050
 
 links -dump -width 512 $1 | tr "\n\ r" " " | espeak -s 180 -p 30 -w amen.wav
+
+Siempre es recomendable usar `-w` para escucharlo con mpv y poder pausar.
