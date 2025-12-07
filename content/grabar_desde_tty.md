@@ -92,7 +92,26 @@ ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /de
 
 
 ##### Grabar video usando DRM (con kmscon), lo uso para capturar un navegador o un juego.
+Para poder grabar kmscon sin sudo y grabar el audio:
 ```bash
+sudo setcap cap_sys_admin+ep /usr/bin/ffmpeg
+[esotericwarfare@arch ~]$ getcap /usr/bin/ffmpeg
+/usr/bin/ffmpeg cap_sys_admin=ep
+```
+
+Y agrega sudo systemctl edit kmscon para arreglar colores de tmux 
+
+Para iniciar kmscon : sudo systemctl start kmscon
+
+```bash
+# no deberias usar sudo porque no vas a poder grabar el audio si te putea ejecuta lo que está mas arriba.
+
+ffmpeg -f alsa -i pipewire -f kmsgrab -device /dev/dri/card1 -i - -vf 'hwdownload,format=bgr0' -c:v libx264 -preset ultrafast out.mkv
+
+# Si queres usar sudo acá tenés.
+
+sudo ffmpeg -f kmsgrab -device /dev/dri/card1 -i - -vf 'hwdownload,format=bgr0' -c:v libx264 -preset ultrafast out.mkv
+
 ffmpeg -device /dev/dri/card1 -f kmsgrab -framerate 30 -i - -vf 'hwdownload,format=bgr0' -c:v libx264 output.mkv
 
 ffmpeg -device /dev/dri/card1 -f kmsgrab -framerate 30 -i - -vf 'hwmap=derive_device=vaapi,format=nv12,hwdownload,format=bgr0' -c:v libx264 output.mkv
