@@ -15,6 +15,8 @@ ffmpeg -f fbdev -framerate 60 -i /dev/fb0 -f v4l2 -i /dev/video0 -f alsa -i pipe
 
 
 ```bash
+ffmpeg -f alsa -i pipewire -f fbdev -r 60 -i /dev/fb0 mamita.mkv
+
 ffmpeg -f alsa -i pipewire -f fbdev -r 60 -i /dev/fb0 mamita.mp4
 ```
 
@@ -24,7 +26,7 @@ ffmpeg -f fbdev -framerate 30 -i /dev/fb0 \
        -f v4l2 -i /dev/video0 \
        -f alsa -i pipewire \
        -filter_complex "[1:v]scale=320:-1[cam];[0:v][cam]overlay=main_w-overlay_w-20:20" \
-       -c:v libx264 -c:a aac output.mp4
+       -c:v libx264 -c:a aac output.mkv
 ```
 
 
@@ -40,7 +42,9 @@ ffmpeg \
  -async 1 -ar 48000 -latency 100 \
  prueba.mp4
 ```
+
 **peg-this (ffmpeg TUI)**:
+
 ```bash
 python -m venv peg_this
 source peg_this/bin/activate or source peg_this/bin/activate.fish (si usas fish)
@@ -106,7 +110,30 @@ Para iniciar kmscon : sudo systemctl start kmscon
 ```bash
 # no deberias usar sudo porque no vas a poder grabar el audio si te putea ejecuta lo que está mas arriba.
 
+ffmpeg \
+    -f kmsgrab -device /dev/dri/card1 -i - \
+    -filter_complex "[0:v]hwdownload,format=bgr0[screen]" \
+    -f v4l2 -i /dev/video0 \
+    -f alsa -i pipewire \
+    -filter_complex "\
+        [1:v]scale=320:-1[cam]; \
+        [screen][cam]overlay=main_w-overlay_w-20:20,format=yuv420p[outv]" \
+    -map "[outv]" -map 2:a \
+    -c:v libx264 -preset ultrafast \
+    -c:a aac \
+    out.mkv
+
+
 ffmpeg -f alsa -i pipewire -f kmsgrab -device /dev/dri/card1 -i - -vf 'hwdownload,format=bgr0' -c:v libx264 -preset ultrafast out.mkv
+
+ffmpeg -f v4l2 -i /dev/video0 \
+       -f alsa -i pipewire \
+       -filter_complex "[1:v]scale=320:-1[cam];[0:v][cam]overlay=main_w-overlay_w-20:20" \
+       -f kmsgrab -device /dev/dri/card1 -i - -vf 'hwdownload,format=bgr0' -c:v libx264 -preset ultrafast out.mkv 
+
+
+
+
 
 # Si queres usar sudo acá tenés.
 
@@ -227,4 +254,36 @@ ffmpeg \
     -c:a aac -b:a 128k \
     output.mp4
 
+```
+
+#### Grabar audios y subirlo a YOuTube
+
+```bash
+#!/bin/sh
+if [ $# -eq 0 ]
+  then
+    echo "Poné el nombre de archivo sin extension en el primer argumento"
+    exit;
+fi
+
+ffmpeg -f alsa -i pipewire $1.m4a
+
+echo "Nombre de archivo $1.m4a"
+
+echo "Generamos thumbnail para youtube"
+echo "Uso el titulo del video como el nombre del audio lo mismo para el thumbnail porque no se pueden subir audios a YouTube"
+echo "Gerando thumbnail..."
+thumbnailg $1 "/tmp/$1.png"
+echo "Creando un video a partir del audio..."
+ffmpeg -i "/tmp/$1.png" -i "$1.m4a" -c:v libx264 -tune stillimage -c:a copy "/tmp/$1.mp4"
+
+source $HOME/youtube-upload/bin/activate
+$HOME/youtube-upload/youtube-upload/bin/youtube-upload \
+  --title="$1" \
+  --description="$1" \
+  --recording-date="2011-03-10T15:32:17.0Z" \
+  --default-language="es" \
+  --default-audio-language="es" \
+  --privacy="unlisted" \
+  --embeddable=True "/tmp/$1.mp4"
 ```
